@@ -1,22 +1,17 @@
-# ValiStera website rebuild — first working draft
+# ValiStera Solutions website — refreshed multi-page version
 
-This is a static, responsive website package built from the 13-page visual-reference PDF provided by the user.
+## Included
+- Separate pages for Home, About, Services, Qualification & Validation, GMP Compliance, Inspection Readiness, Regulatory Services, Sterile Manufacturing, Digital Quality & CSV, Free Resources, Training Courses, ValiStera Academy, Careers, and Contact.
+- Responsive navigation and shared footer/compliance statement on every page.
+- Wordmark styling: “Vali” in white on dark sections / navy on light sections; “Stera” in blue. No icon before the name.
+- Local SVG visual assets ensure images always display even if third-party image hosts are blocked.
+- Contact form opens the visitor's email app; it does not store form submissions.
 
-## Files
-- `index.html` — all sections and service descriptions
-- `styles.css` — responsive layout and visual styling
-- `script.js` — mobile navigation and mailto enquiry form
+## Publish to your existing Cloudflare Worker
+Upload/replace the files and folders in the existing static-assets deployment with the contents of this folder, keeping the `assets` folder intact. Make sure `index.html` is at the root. If your current Worker deployment was created from a static-assets upload, create a new version/deployment using this complete folder.
 
-## Preview locally
-Open `index.html` in a browser. Internet access is required for Google Fonts and the remote Unsplash images currently referenced in the HTML.
-
-## Deployment target
-Cloudflare Pages Free is the proposed hosting target. Upload these files to a Git repository and connect the repository to Cloudflare Pages, or use Cloudflare Pages' direct upload workflow if available for your account.
-
-## Important before publishing
-1. Confirm all wording, contact details and social links.
-2. The phrase “ISO 9001:2015 Quality Management System” is included as requested, but this website draft does not claim that ValiStera is ISO-certified. Only add certification claims if independently verified.
-3. The resource links currently route to Contact because actual downloadable files have not yet been supplied.
-4. The enquiry form opens the visitor's default email app; it does not store form submissions.
-5. Images use remote Unsplash image URLs. Replace them with approved/licensed assets if required.
-6. This is a working first draft based on screenshots, not a pixel-perfect source-code transfer. Test all pages and links before production.
+## Important notes
+- Free Resources are currently request-by-email cards, not downloadable files.
+- Careers page states that there are no confirmed open vacancies and invites expressions of interest.
+- The compliance statement describes alignment/methodology, not certification or guaranteed compliance. ISO 9001:2015 wording must not be read as a claim that ValiStera itself is certified.
+- Contact: +91 84088 24025; contact@valistera.com; Pune, Maharashtra, India; remote services worldwide.
