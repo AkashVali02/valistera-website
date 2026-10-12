@@ -34,3 +34,16 @@
 .home .hero-grid {
     grid-template-columns: 0.82fr 1.18fr;
 }
+
+/* Homepage flagship — show complete branded image */
+.home .home-visual {
+    height: auto !important;
+}
+
+.home .home-visual > img {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+}
