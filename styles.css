@@ -2434,3 +2434,189 @@
     font-size: 1.7rem;
   }
 }
+
+
+/* =========================================================
+   VALISTERA — KNOWLEDGE LIBRARY
+   ========================================================= */
+
+.knowledge-library {
+  position: relative;
+  overflow: hidden;
+}
+
+.knowledge-library-heading {
+  max-width: 850px;
+}
+
+.knowledge-library-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2.2rem 0 2.5rem;
+}
+
+.knowledge-library-meta > div {
+  padding: 1.2rem 1.3rem;
+  border: 1px solid rgba(15, 48, 74, 0.10);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.knowledge-library-meta strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #0a2d49;
+  font-size: 1.35rem;
+}
+
+.knowledge-library-meta span {
+  color: #60717e;
+  font-size: 0.84rem;
+}
+
+.knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.knowledge-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  min-height: 100%;
+  border: 1px solid rgba(15, 48, 74, 0.11);
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 16px 42px rgba(7, 31, 52, 0.055);
+}
+
+.knowledge-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.15rem;
+}
+
+.knowledge-format {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(44, 159, 214, 0.08);
+  color: #318fc0;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.knowledge-number {
+  color: rgba(10, 45, 73, 0.18);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.knowledge-card h3 {
+  margin: 0 0 0.8rem;
+  color: #0a2d49;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+
+.knowledge-card > p {
+  margin: 0 0 1.1rem;
+  color: #5d6e7a;
+  font-size: 0.9rem;
+  line-height: 1.68;
+}
+
+.knowledge-use {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(15, 48, 74, 0.08);
+}
+
+.knowledge-use span {
+  display: block;
+  margin-bottom: 0.28rem;
+  color: #318fc0;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.knowledge-use strong {
+  color: #24485f;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.knowledge-action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #318fc0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.knowledge-action:hover {
+  text-decoration: underline;
+}
+
+.knowledge-disclaimer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.25rem;
+  align-items: start;
+  margin-top: 2rem;
+  padding: 1.4rem 1.5rem;
+  border-radius: 16px;
+  background: #0a2d49;
+}
+
+.knowledge-disclaimer > span {
+  color: #66c8f4;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+.knowledge-disclaimer p {
+  margin: 0;
+  color: rgba(255,255,255,0.78);
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 980px) {
+  .knowledge-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .knowledge-library-meta,
+  .knowledge-grid,
+  .knowledge-disclaimer {
+    grid-template-columns: 1fr;
+  }
+
+  .knowledge-library-meta {
+    gap: 0.75rem;
+  }
+
+  .knowledge-disclaimer {
+    gap: 0.7rem;
+  }
+
+  .knowledge-card {
+    padding: 1.35rem;
+  }
+}
