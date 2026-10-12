@@ -47,3 +47,22 @@
     object-fit: contain !important;
     object-position: center !important;
 }
+
+/* Homepage flagship — premium visual scale */
+@media (min-width: 821px) {
+  .home .hero-grid {
+    grid-template-columns: 0.72fr 1.28fr;
+    gap: 28px;
+  }
+
+  .home .home-visual {
+    width: 115%;
+    max-width: none;
+  }
+
+  .home .home-visual > img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+}
