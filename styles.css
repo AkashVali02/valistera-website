@@ -27,3 +27,21 @@
     object-position: center !important;
   }
 }
+
+/* Homepage flagship — mobile full-image fix */
+@media (max-width: 820px) {
+  .home .home-visual {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .home .home-visual > img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    display: block !important;
+  }
+}
