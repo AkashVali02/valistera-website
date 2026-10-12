@@ -2967,3 +2967,138 @@
     padding: 1.35rem;
   }
 }
+
+
+/* =========================================================
+   VALISTERA — LEGAL PAGES
+   ========================================================= */
+
+.legal-hero .container {
+  max-width: 980px;
+}
+
+.legal-hero h1 {
+  max-width: 820px;
+}
+
+.legal-hero p {
+  max-width: 780px;
+}
+
+.legal-page {
+  position: relative;
+}
+
+.legal-container {
+  max-width: 980px;
+}
+
+.legal-block {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(15, 48, 74, 0.09);
+}
+
+.legal-block:first-child {
+  padding-top: 0;
+}
+
+.legal-block h2 {
+  margin: 0 0 0.7rem;
+  color: #0a2d49;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.legal-block p {
+  margin: 0 0 0.8rem;
+  color: #5b6e7a;
+  line-height: 1.8;
+}
+
+.legal-block p:last-child {
+  margin-bottom: 0;
+}
+
+.legal-block a {
+  color: #318fc0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.legal-block a:hover {
+  text-decoration: underline;
+}
+
+.legal-note {
+  margin-top: 2rem;
+  padding: 1.4rem 1.5rem;
+  border-radius: 16px;
+  background: #0a2d49;
+}
+
+.legal-note strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #66c8f4;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+}
+
+.legal-note p {
+  margin: 0;
+  color: rgba(255,255,255,0.78);
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .legal-block {
+    padding: 1.2rem 0;
+  }
+
+  .legal-block h2 {
+    font-size: 1.05rem;
+  }
+
+  .legal-note {
+    padding: 1.2rem;
+  }
+}
+
+
+/* =========================================================
+   VALISTERA — FOOTER LEGAL LINKS
+   ========================================================= */
+
+.footer-legal {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.footer-legal a {
+  color: rgba(255,255,255,0.62);
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-legal a:hover {
+  color: #66c8f4;
+}
+
+.footer-legal span {
+  color: rgba(255,255,255,0.28);
+  font-size: 0.7rem;
+}
+
+@media (max-width: 700px) {
+  .footer-legal {
+    width: 100%;
+    gap: 0.35rem 0.45rem;
+  }
+
+  .footer-legal a {
+    font-size: 0.72rem;
+  }
+}
