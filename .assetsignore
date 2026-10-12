@@ -1,0 +1,15 @@
+.git
+.git/**
+.github
+.github/**
+.vscode
+.vscode/**
+node_modules
+node_modules/**
+website_refresh
+website_refresh/**
+worker.js
+wrangler.jsonc
+.assetsignore
+README.md
+*.zip
