@@ -6,3 +6,26 @@
   aspect-ratio: auto;
   object-fit: contain;
 }
+
+/* Homepage panoramic flagship visual */
+.home .hero-image-wrap {
+  height: auto;
+}
+
+.home .hero-image-wrap img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2560 / 980;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+/* Final homepage flagship image override */
+.home .hero-image-wrap img {
+  width: 100%;
+  height: auto !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  object-position: center !important;
+}
