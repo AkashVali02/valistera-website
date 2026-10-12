@@ -254,3 +254,108 @@
     grid-template-columns:1fr;
   }
 }
+
+
+/* =========================================================
+   VALISTERA — HOME CREDIBILITY STRIP
+   ========================================================= */
+
+.home-proof-strip{
+  position:relative;
+  overflow:hidden;
+  padding:34px 0;
+  color:#fff;
+  background:
+    linear-gradient(90deg,#06172d 0%,#0a2340 50%,#06172d 100%);
+  border-top:1px solid rgba(255,255,255,.07);
+  border-bottom:1px solid rgba(255,255,255,.07);
+}
+
+.home-proof-strip::after{
+  content:"";
+  position:absolute;
+  width:380px;
+  height:380px;
+  right:-180px;
+  top:-250px;
+  border-radius:50%;
+  background:rgba(54,169,231,.08);
+  filter:blur(2px);
+  pointer-events:none;
+}
+
+.home-proof-grid{
+  position:relative;
+  z-index:1;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+}
+
+.home-proof-item{
+  position:relative;
+  padding:8px 32px;
+  text-align:center;
+}
+
+.home-proof-item:not(:last-child)::after{
+  content:"";
+  position:absolute;
+  right:0;
+  top:10%;
+  width:1px;
+  height:80%;
+  background:rgba(255,255,255,.11);
+}
+
+.home-proof-item .count-up{
+  display:block;
+  margin-bottom:9px;
+  color:#fff;
+  font-size:38px;
+  font-weight:800;
+  line-height:1;
+  letter-spacing:-1.5px;
+}
+
+.home-proof-item span{
+  display:block;
+  color:rgba(218,229,241,.68);
+  font-size:9px;
+  font-weight:600;
+  line-height:1.55;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+}
+
+@media(max-width:820px){
+  .home-proof-strip{
+    padding:28px 0;
+  }
+
+  .home-proof-grid{
+    grid-template-columns:repeat(2,1fr);
+    row-gap:26px;
+  }
+
+  .home-proof-item{
+    padding:5px 14px;
+  }
+
+  .home-proof-item:nth-child(2)::after{
+    display:none;
+  }
+
+  .home-proof-item .count-up{
+    font-size:34px;
+  }
+}
+
+@media(max-width:390px){
+  .home-proof-item .count-up{
+    font-size:30px;
+  }
+
+  .home-proof-item span{
+    font-size:8px;
+  }
+}
