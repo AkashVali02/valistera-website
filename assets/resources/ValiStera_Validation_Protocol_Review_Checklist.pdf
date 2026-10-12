@@ -1,0 +1,4368 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 13
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R 43 0 R 47 0 R 51 0 R 55 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5032
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 523.3366 24.09449 Tm (Page 1) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 742.3465 cm
+Q
+q
+1 0 0 1 57.02362 732.3465 cm
+q
+.082353 .607843 .843137 rg
+BT 1 0 0 1 0 1.5 Tm /F2 8.5 Tf 10 TL (VALISTERA KNOWLEDGE LIBRARY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 676.3465 cm
+q
+BT 1 0 0 1 0 29 Tm 135.8147 0 Td 26 TL /F2 23 Tf .043137 .180392 .309804 rg (Validation Protocol) Tj  T* 10.84447 0 Td (Review Checklist) Tj T* -146.6592 0 Td ET
+Q
+Q
+q
+1 0 0 1 57.02362 653.3465 cm
+q
+.082353 .607843 .843137 rg
+BT 1 0 0 1 0 3.5 Tm /F3 11.5 Tf 15 TL (A structured quality review tool for qualification and validation protocol readiness) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 605.3465 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 27.3 Tm /F1 8.7 Tf 12 TL (Use this checklist before protocol approval or execution to confirm that scope, prerequisites, risk rationale, test methods,) Tj T* (acceptance criteria, data handling, deviations and final disposition requirements are clear, traceable and scientifically) Tj T* (justified.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 591.8425 cm
+Q
+q
+1 0 0 1 25.51181 510.3425 cm
+q
+.917647 .964706 .988235 rg
+n 0 81.5 90.70866 -81.5 re f*
+.917647 .964706 .988235 rg
+n 238.1102 81.5 90.70866 -81.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 66.4 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Resource code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 96.70866 66.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (VSR-VAL-CHK-005) Tj T* ET
+Q
+Q
+q
+1 0 0 1 244.1102 66.4 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Version) Tj T* ET
+Q
+Q
+q
+1 0 0 1 334.8189 66.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (9.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 40.75 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Issue date) Tj T* ET
+Q
+Q
+q
+1 0 0 1 96.70866 40.75 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (October 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 244.1102 40.75 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Primary basis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 334.8189 36.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (EU GMP Annex 15; ICH Q9\(R1\); FDA Process Validation) Tj T* (guidance, where applicable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 10.55 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Applicability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 96.70866 6 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Qualification and validation protocols for facilities, equipment, utilities, processes and related studies; adapt to approved site procedures and) Tj T* (study scope.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.55 w
+n 0 81.5 m 544.252 81.5 l S
+n 0 0 m 544.252 0 l S
+n 0 0 m 0 81.5 l S
+n 544.252 0 m 544.252 81.5 l S
+n 0 60.4 m 544.252 60.4 l S
+n 0 30.2 m 544.252 30.2 l S
+n 90.70866 0 m 90.70866 81.5 l S
+n 238.1102 30.2 m 238.1102 81.5 l S
+n 328.8189 30.2 m 328.8189 81.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 487.6654 cm
+Q
+q
+1 0 0 1 57.02362 468.6654 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (Client-first. Evidence-led. Lifecycle-minded.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 455.2654 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 1.7 Tm /F1 6.7 Tf 8.4 TL (Pune, Maharashtra, India | Remote services available worldwide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 438.2575 cm
+Q
+q
+1 0 0 1 24.09449 373.2575 cm
+q
+.043137 .180392 .309804 rg
+n 0 65 547.0866 -65 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 9 cm
+q
+BT 1 0 0 1 0 39.8 Tm 9.4 TL /F2 7.2 Tf 1 1 1 rg (IMPORTANT USE NOTE) Tj /F1 7.2 Tf  T* (This checklist is an educational and professional working aid. It is not regulatory advice, a site-approved controlled template, or a substitute for the manufacturer's) Tj T* (Pharmaceutical Quality System. Adapt, verify and approve it through your own QMS before use.) Tj  T*  T* (\251 2026 ValiStera Solutions. Redistribution, resale, rebranding or removal of ValiStera identification without written permission is prohibited.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.043137 .180392 .309804 RG
+n 0 65 m 547.0866 65 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 65 l S
+n 547.0866 0 m 547.0866 65 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5196
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 523.3366 24.09449 Tm (Page 2) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (1. Document control, ownership and approvals) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (Confirm the protocol is controlled, identifiable and approved by the appropriate functions before execution.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 529.2276 cm
+q
+.043137 .180392 .309804 rg
+n 0 198.3 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 160.1 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 112.8 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 56.4 547.0866 -28.2 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 165.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 165.1 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Protocol title, unique identifier, version and effective/approval status are clearly defined.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 174.2 cm
+Q
+q
+1 0 0 1 384.3425 174.2 cm
+Q
+q
+1 0 0 1 4.5 146 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 136.9 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Protocol owner, author, reviewer\(s\) and approver\(s\) are identified with roles consistent) Tj T* (with the QMS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 155.1 cm
+Q
+q
+1 0 0 1 384.3425 155.1 cm
+Q
+q
+1 0 0 1 4.5 117.8 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 117.8 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Applicable site, area, equipment/system/process and study type are unambiguous.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 126.9 cm
+Q
+q
+1 0 0 1 384.3425 126.9 cm
+Q
+q
+1 0 0 1 4.5 98.7 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 89.6 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Revision history or change rationale is documented where the protocol replaces or revises) Tj T* (an earlier version.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 107.8 cm
+Q
+q
+1 0 0 1 384.3425 107.8 cm
+Q
+q
+1 0 0 1 4.5 70.5 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 61.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Required QA/Quality oversight is defined and approval is completed before execution) Tj T* (unless an approved procedure permits otherwise.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 79.6 cm
+Q
+q
+1 0 0 1 384.3425 79.6 cm
+Q
+q
+1 0 0 1 4.5 42.3 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 33.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Controlled-copy, issuance and archival expectations are defined or governed by an) Tj T* (approved document-control procedure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 51.4 cm
+Q
+q
+1 0 0 1 384.3425 51.4 cm
+Q
+q
+1 0 0 1 4.5 14.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Electronic protocol systems, if used, are governed by applicable validated-system and) Tj T* (access-control requirements.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 23.2 cm
+Q
+q
+1 0 0 1 384.3425 23.2 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 198.3 m 547.0866 198.3 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 198.3 l S
+n 547.0866 0 m 547.0866 198.3 l S
+n 0 179.2 m 547.0866 179.2 l S
+n 0 160.1 m 547.0866 160.1 l S
+n 0 131.9 m 547.0866 131.9 l S
+n 0 112.8 m 547.0866 112.8 l S
+n 0 84.6 m 547.0866 84.6 l S
+n 0 56.4 m 547.0866 56.4 l S
+n 0 28.2 m 547.0866 28.2 l S
+n 25.51181 0 m 25.51181 198.3 l S
+n 317.4803 0 m 317.4803 198.3 l S
+n 379.8425 0 m 379.8425 198.3 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 5207
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 523.3366 24.09449 Tm (Page 3) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (2. Scope, objective and intended use) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (A protocol should state exactly what is being demonstrated and what is outside the study boundary.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 520.1276 cm
+q
+.043137 .180392 .309804 rg
+n 0 207.4 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 160.1 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 103.7 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 47.3 547.0866 -19.1 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 193.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 193.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 193.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 193.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 174.2 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 165.1 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Objective states the qualification/validation purpose and the decision the study is intended) Tj T* (to support.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 183.3 cm
+Q
+q
+1 0 0 1 384.3425 183.3 cm
+Q
+q
+1 0 0 1 4.5 146 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 136.9 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Scope defines inclusions, exclusions, boundaries, interfaces and operating modes) Tj T* (relevant to the study.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 155.1 cm
+Q
+q
+1 0 0 1 384.3425 155.1 cm
+Q
+q
+1 0 0 1 4.5 117.8 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 108.7 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Intended use and GMP impact are described for equipment, utilities, systems or) Tj T* (processes under qualification.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 126.9 cm
+Q
+q
+1 0 0 1 384.3425 126.9 cm
+Q
+q
+1 0 0 1 4.5 89.6 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (11) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 80.5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Product, process, system or equipment configuration is identified with sufficient specificity) Tj T* (to avoid ambiguity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 98.7 cm
+Q
+q
+1 0 0 1 384.3425 98.7 cm
+Q
+q
+1 0 0 1 4.5 61.4 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 52.3 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Where bracketing, matrixing or representative configurations are used, the rationale is) Tj T* (documented and scientifically justified.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 70.5 cm
+Q
+q
+1 0 0 1 384.3425 70.5 cm
+Q
+q
+1 0 0 1 4.5 33.2 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 33.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Assumptions and limitations that may affect interpretation of results are stated.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 42.3 cm
+Q
+q
+1 0 0 1 384.3425 42.3 cm
+Q
+q
+1 0 0 1 4.5 14.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (The protocol aligns with the Validation Master Plan, project validation plan or equivalent) Tj T* (lifecycle strategy where applicable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 23.2 cm
+Q
+q
+1 0 0 1 384.3425 23.2 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 207.4 m 547.0866 207.4 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 207.4 l S
+n 547.0866 0 m 547.0866 207.4 l S
+n 0 188.3 m 547.0866 188.3 l S
+n 0 160.1 m 547.0866 160.1 l S
+n 0 131.9 m 547.0866 131.9 l S
+n 0 103.7 m 547.0866 103.7 l S
+n 0 75.5 m 547.0866 75.5 l S
+n 0 47.3 m 547.0866 47.3 l S
+n 0 28.2 m 547.0866 28.2 l S
+n 25.51181 0 m 25.51181 207.4 l S
+n 317.4803 0 m 317.4803 207.4 l S
+n 379.8425 0 m 379.8425 207.4 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F2-0 22 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 5714
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 523.3366 24.09449 Tm (Page 4) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (3. References, prerequisites and readiness) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (Execution should begin only when prerequisite information, controls and supporting systems are ready and traceable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 491.9276 cm
+q
+.043137 .180392 .309804 rg
+n 0 235.6 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 188.3 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 141 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 84.6 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 28.2 547.0866 -28.2 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 221.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 221.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 221.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 221.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 202.4 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (15) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 193.3 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Applicable SOPs, specifications, drawings, URS, risk assessments, design documents) Tj T* (and prior qualification records are correctly referenced.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 211.5 cm
+Q
+q
+1 0 0 1 384.3425 211.5 cm
+Q
+q
+1 0 0 1 4.5 174.2 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 174.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Reference document numbers and revisions are current or their applicability is justified.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 183.3 cm
+Q
+q
+1 0 0 1 384.3425 183.3 cm
+Q
+q
+1 0 0 1 4.5 155.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (17) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 146 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Required utilities, environmental conditions and supporting systems are available and in) Tj T* (an appropriate state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 164.2 cm
+Q
+q
+1 0 0 1 384.3425 164.2 cm
+Q
+q
+1 0 0 1 4.5 126.9 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (18) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 117.8 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Instruments and measuring devices required for execution are identified and within) Tj T* (calibration status.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 136 cm
+Q
+q
+1 0 0 1 384.3425 136 cm
+Q
+q
+1 0 0 1 4.5 98.7 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (19) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 89.6 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Required preventive maintenance, installation completion, commissioning or engineering) Tj T* (turnover prerequisites are defined.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 107.8 cm
+Q
+q
+1 0 0 1 384.3425 107.8 cm
+Q
+q
+1 0 0 1 4.5 70.5 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (20) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 61.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Personnel executing or reviewing the study have applicable training/qualification) Tj T* (requirements defined.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 79.6 cm
+Q
+q
+1 0 0 1 384.3425 79.6 cm
+Q
+q
+1 0 0 1 4.5 42.3 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (21) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 33.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Outstanding punch-list items, deviations or project actions are assessed for impact before) Tj T* (protocol execution.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 51.4 cm
+Q
+q
+1 0 0 1 384.3425 51.4 cm
+Q
+q
+1 0 0 1 4.5 14.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Required materials, standards, loads, challenge items or test articles are identified and) Tj T* (suitable for use.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 23.2 cm
+Q
+q
+1 0 0 1 384.3425 23.2 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 235.6 m 547.0866 235.6 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 235.6 l S
+n 547.0866 0 m 547.0866 235.6 l S
+n 0 216.5 m 547.0866 216.5 l S
+n 0 188.3 m 547.0866 188.3 l S
+n 0 169.2 m 547.0866 169.2 l S
+n 0 141 m 547.0866 141 l S
+n 0 112.8 m 547.0866 112.8 l S
+n 0 84.6 m 547.0866 84.6 l S
+n 0 56.4 m 547.0866 56.4 l S
+n 0 28.2 m 547.0866 28.2 l S
+n 25.51181 0 m 25.51181 235.6 l S
+n 317.4803 0 m 317.4803 235.6 l S
+n 379.8425 0 m 379.8425 235.6 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F2-0 26 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 5097
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 523.3366 24.09449 Tm (Page 5) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (4. Risk rationale and criticality) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (The extent of testing should be justified using knowledge of intended use, critical aspects and quality risk.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 529.2276 cm
+q
+.043137 .180392 .309804 rg
+n 0 198.3 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 151 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 94.6 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 38.2 547.0866 -19.1 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 165.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (23) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 156 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (A documented risk assessment or equivalent rationale supports the scope and depth of) Tj T* (testing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 174.2 cm
+Q
+q
+1 0 0 1 384.3425 174.2 cm
+Q
+q
+1 0 0 1 4.5 136.9 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (24) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 127.8 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Critical quality attributes, critical process parameters, critical functions or critical aspects) Tj T* (are identified where applicable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 146 cm
+Q
+q
+1 0 0 1 384.3425 146 cm
+Q
+q
+1 0 0 1 4.5 108.7 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (25) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 99.6 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Risk controls being verified by the protocol are traceable to specific tests or acceptance) Tj T* (criteria.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 117.8 cm
+Q
+q
+1 0 0 1 384.3425 117.8 cm
+Q
+q
+1 0 0 1 4.5 80.5 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 71.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (High-risk failure modes or critical conditions receive adequate challenge and objective) Tj T* (evidence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 89.6 cm
+Q
+q
+1 0 0 1 384.3425 89.6 cm
+Q
+q
+1 0 0 1 4.5 52.3 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (27) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 43.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Risk-based reductions, leveraged testing or supplier evidence are justified and) Tj T* (documented.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 61.4 cm
+Q
+q
+1 0 0 1 384.3425 61.4 cm
+Q
+q
+1 0 0 1 4.5 24.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (28) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 24.1 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Known uncertainties and assumptions are considered in the test strategy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 33.2 cm
+Q
+q
+1 0 0 1 384.3425 33.2 cm
+Q
+q
+1 0 0 1 4.5 5 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (29) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (The testing approach is proportionate to patient, product, process and data-integrity risk.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 14.1 cm
+Q
+q
+1 0 0 1 384.3425 14.1 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 198.3 m 547.0866 198.3 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 198.3 l S
+n 547.0866 0 m 547.0866 198.3 l S
+n 0 179.2 m 547.0866 179.2 l S
+n 0 151 m 547.0866 151 l S
+n 0 122.8 m 547.0866 122.8 l S
+n 0 94.6 m 547.0866 94.6 l S
+n 0 66.4 m 547.0866 66.4 l S
+n 0 38.2 m 547.0866 38.2 l S
+n 0 19.1 m 547.0866 19.1 l S
+n 25.51181 0 m 25.51181 198.3 l S
+n 317.4803 0 m 317.4803 198.3 l S
+n 379.8425 0 m 379.8425 198.3 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F2-0 30 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5674
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 523.3366 24.09449 Tm (Page 6) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (5. Test methodology and challenge design) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (Each test should be executable, reproducible and capable of generating objective evidence against a predefined requirement.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 501.0276 cm
+q
+.043137 .180392 .309804 rg
+n 0 226.5 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 188.3 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 131.9 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 84.6 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 28.2 547.0866 -28.2 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 212.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 212.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 212.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 212.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 193.3 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (30) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 193.3 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Each test has a clear purpose linked to a requirement, risk control or acceptance decision.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 202.4 cm
+Q
+q
+1 0 0 1 384.3425 202.4 cm
+Q
+q
+1 0 0 1 4.5 174.2 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (31) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 165.1 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Stepwise test instructions are sufficiently detailed to allow consistent execution without) Tj T* (undocumented interpretation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 183.3 cm
+Q
+q
+1 0 0 1 384.3425 183.3 cm
+Q
+q
+1 0 0 1 4.5 146 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (32) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 136.9 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Test inputs, operating conditions, set points, loads, configurations and challenge) Tj T* (conditions are defined.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 155.1 cm
+Q
+q
+1 0 0 1 384.3425 155.1 cm
+Q
+q
+1 0 0 1 4.5 117.8 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (33) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 108.7 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Normal operating ranges and applicable upper/lower or worst-case conditions are) Tj T* (appropriately challenged.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 126.9 cm
+Q
+q
+1 0 0 1 384.3425 126.9 cm
+Q
+q
+1 0 0 1 4.5 89.6 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (34) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 89.6 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Required sampling locations, sample quantities, frequencies and timing are predefined.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 98.7 cm
+Q
+q
+1 0 0 1 384.3425 98.7 cm
+Q
+q
+1 0 0 1 4.5 70.5 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (35) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 61.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Test equipment, tools, software, instruments or data sources needed for execution are) Tj T* (identified.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 79.6 cm
+Q
+q
+1 0 0 1 384.3425 79.6 cm
+Q
+q
+1 0 0 1 4.5 42.3 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (36) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 33.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Expected evidence such as printouts, trends, screenshots, raw data or attachments is) Tj T* (specified where appropriate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 51.4 cm
+Q
+q
+1 0 0 1 384.3425 51.4 cm
+Q
+q
+1 0 0 1 4.5 14.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (37) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Retesting or repeat-testing rules are governed by approved procedures and are not used) Tj T* (to replace unexplained failing data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 23.2 cm
+Q
+q
+1 0 0 1 384.3425 23.2 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 226.5 m 547.0866 226.5 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 226.5 l S
+n 547.0866 0 m 547.0866 226.5 l S
+n 0 207.4 m 547.0866 207.4 l S
+n 0 188.3 m 547.0866 188.3 l S
+n 0 160.1 m 547.0866 160.1 l S
+n 0 131.9 m 547.0866 131.9 l S
+n 0 103.7 m 547.0866 103.7 l S
+n 0 84.6 m 547.0866 84.6 l S
+n 0 56.4 m 547.0866 56.4 l S
+n 0 28.2 m 547.0866 28.2 l S
+n 25.51181 0 m 25.51181 226.5 l S
+n 317.4803 0 m 317.4803 226.5 l S
+n 379.8425 0 m 379.8425 226.5 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F2-0 34 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 5208
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 523.3366 24.09449 Tm (Page 7) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (6. Acceptance criteria and decision rules) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (Acceptance criteria should be objective, predefined and scientifically or procedurally justified before data are generated.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 529.2276 cm
+q
+.043137 .180392 .309804 rg
+n 0 198.3 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 151 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 103.7 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 47.3 547.0866 -28.2 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 184.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 165.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (38) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 156 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Acceptance criteria are measurable, unambiguous and directly linked to the requirement) Tj T* (or risk being verified.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 174.2 cm
+Q
+q
+1 0 0 1 384.3425 174.2 cm
+Q
+q
+1 0 0 1 4.5 136.9 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (39) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 136.9 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Specifications, limits, tolerances or pass/fail rules are referenced to approved sources.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 146 cm
+Q
+q
+1 0 0 1 384.3425 146 cm
+Q
+q
+1 0 0 1 4.5 117.8 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (40) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 108.7 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Acceptance criteria are not written as subjective statements such as \223satisfactory\224 without) Tj T* (objective definition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 126.9 cm
+Q
+q
+1 0 0 1 384.3425 126.9 cm
+Q
+q
+1 0 0 1 4.5 89.6 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (41) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 80.5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Alert/action limits, statistical criteria or variability expectations are distinguished from) Tj T* (formal acceptance criteria where applicable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 98.7 cm
+Q
+q
+1 0 0 1 384.3425 98.7 cm
+Q
+q
+1 0 0 1 4.5 61.4 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (42) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 52.3 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Where no numerical specification exists, the qualitative decision rule and supporting) Tj T* (rationale are explicit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 70.5 cm
+Q
+q
+1 0 0 1 384.3425 70.5 cm
+Q
+q
+1 0 0 1 4.5 33.2 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (43) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 24.1 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Any use of vendor limits, engineering tolerances or development data is justified for GMP) Tj T* (qualification/validation use.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 42.3 cm
+Q
+q
+1 0 0 1 384.3425 42.3 cm
+Q
+q
+1 0 0 1 4.5 5 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (44) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Criteria for overall protocol acceptance and study disposition are defined.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 14.1 cm
+Q
+q
+1 0 0 1 384.3425 14.1 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 198.3 m 547.0866 198.3 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 198.3 l S
+n 547.0866 0 m 547.0866 198.3 l S
+n 0 179.2 m 547.0866 179.2 l S
+n 0 151 m 547.0866 151 l S
+n 0 131.9 m 547.0866 131.9 l S
+n 0 103.7 m 547.0866 103.7 l S
+n 0 75.5 m 547.0866 75.5 l S
+n 0 47.3 m 547.0866 47.3 l S
+n 0 19.1 m 547.0866 19.1 l S
+n 25.51181 0 m 25.51181 198.3 l S
+n 317.4803 0 m 317.4803 198.3 l S
+n 379.8425 0 m 379.8425 198.3 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/Contents 36 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 37 0 R
+/F2 8 0 R
+/F2-0 38 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 5652
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 523.3366 24.09449 Tm (Page 8) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (7. Data recording, traceability and integrity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (The protocol should create a complete and reviewable evidence trail from requirement through execution and conclusion.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 491.9276 cm
+q
+.043137 .180392 .309804 rg
+n 0 235.6 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 188.3 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 131.9 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 75.5 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 28.2 547.0866 -28.2 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 221.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 221.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 221.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 221.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 202.4 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (45) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 193.3 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Data-entry fields are adequate for actual values, observations, initials/signatures, dates) Tj T* (and supporting evidence references.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 211.5 cm
+Q
+q
+1 0 0 1 384.3425 211.5 cm
+Q
+q
+1 0 0 1 4.5 174.2 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (46) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 165.1 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Requirements can be traced to tests and resulting evidence using a matrix, test reference) Tj T* (or equivalent method.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 183.3 cm
+Q
+q
+1 0 0 1 384.3425 183.3 cm
+Q
+q
+1 0 0 1 4.5 146 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (47) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 136.9 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Raw data sources are identified, attributable and retained according to approved) Tj T* (procedures.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 155.1 cm
+Q
+q
+1 0 0 1 384.3425 155.1 cm
+Q
+q
+1 0 0 1 4.5 117.8 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (48) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 108.7 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Manual transcriptions, calculations and conversions include appropriate verification or) Tj T* (review controls.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 126.9 cm
+Q
+q
+1 0 0 1 384.3425 126.9 cm
+Q
+q
+1 0 0 1 4.5 89.6 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (49) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 80.5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Electronic data, audit trails and metadata are retained where relevant to the GMP) Tj T* (decision.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 98.7 cm
+Q
+q
+1 0 0 1 384.3425 98.7 cm
+Q
+q
+1 0 0 1 4.5 61.4 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (50) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 61.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Attachments are uniquely identified and cross-referenced to the applicable test step.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 70.5 cm
+Q
+q
+1 0 0 1 384.3425 70.5 cm
+Q
+q
+1 0 0 1 4.5 42.3 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (51) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 33.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Blank, unused or not-applicable fields are handled in accordance with Good) Tj T* (Documentation Practice.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 51.4 cm
+Q
+q
+1 0 0 1 384.3425 51.4 cm
+Q
+q
+1 0 0 1 4.5 14.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (52) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Data corrections and changes during execution are attributable, legible and appropriately) Tj T* (justified.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 23.2 cm
+Q
+q
+1 0 0 1 384.3425 23.2 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 235.6 m 547.0866 235.6 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 235.6 l S
+n 547.0866 0 m 547.0866 235.6 l S
+n 0 216.5 m 547.0866 216.5 l S
+n 0 188.3 m 547.0866 188.3 l S
+n 0 160.1 m 547.0866 160.1 l S
+n 0 131.9 m 547.0866 131.9 l S
+n 0 103.7 m 547.0866 103.7 l S
+n 0 75.5 m 547.0866 75.5 l S
+n 0 56.4 m 547.0866 56.4 l S
+n 0 28.2 m 547.0866 28.2 l S
+n 25.51181 0 m 25.51181 235.6 l S
+n 317.4803 0 m 317.4803 235.6 l S
+n 379.8425 0 m 379.8425 235.6 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/Contents 40 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 41 0 R
+/F2 8 0 R
+/F2-0 42 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 5221
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 523.3366 24.09449 Tm (Page 9) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (8. Deviations, exceptions and change control) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (The protocol must define how unexpected events are documented and how their impact on study validity is assessed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 520.1276 cm
+q
+.043137 .180392 .309804 rg
+n 0 207.4 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 169.2 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 112.8 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 56.4 547.0866 -28.2 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 193.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 193.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 193.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 193.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 174.2 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (53) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 174.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Deviation handling requirements and references to the applicable procedure are stated.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 183.3 cm
+Q
+q
+1 0 0 1 384.3425 183.3 cm
+Q
+q
+1 0 0 1 4.5 155.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (54) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 146 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Protocol exceptions, test failures or unexpected results require documented investigation) Tj T* (and impact assessment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 164.2 cm
+Q
+q
+1 0 0 1 384.3425 164.2 cm
+Q
+q
+1 0 0 1 4.5 126.9 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (55) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 117.8 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (The protocol distinguishes execution comments from deviations that require formal) Tj T* (quality-system handling.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 136 cm
+Q
+q
+1 0 0 1 384.3425 136 cm
+Q
+q
+1 0 0 1 4.5 98.7 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (56) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 89.6 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Any change to approved test steps, acceptance criteria or study scope requires) Tj T* (appropriate authorization before implementation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 107.8 cm
+Q
+q
+1 0 0 1 384.3425 107.8 cm
+Q
+q
+1 0 0 1 4.5 70.5 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (57) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 61.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Open deviations or actions are evaluated for impact on protocol conclusion and release) Tj T* (decisions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 79.6 cm
+Q
+q
+1 0 0 1 384.3425 79.6 cm
+Q
+q
+1 0 0 1 4.5 42.3 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (58) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 33.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Retesting or re-execution is scientifically justified, traceable to the original result and) Tj T* (appropriately approved.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 51.4 cm
+Q
+q
+1 0 0 1 384.3425 51.4 cm
+Q
+q
+1 0 0 1 4.5 14.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Changes discovered during qualification/validation are assessed for impact on) Tj T* (requirements, risk and validated state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 23.2 cm
+Q
+q
+1 0 0 1 384.3425 23.2 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 207.4 m 547.0866 207.4 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 207.4 l S
+n 547.0866 0 m 547.0866 207.4 l S
+n 0 188.3 m 547.0866 188.3 l S
+n 0 169.2 m 547.0866 169.2 l S
+n 0 141 m 547.0866 141 l S
+n 0 112.8 m 547.0866 112.8 l S
+n 0 84.6 m 547.0866 84.6 l S
+n 0 56.4 m 547.0866 56.4 l S
+n 0 28.2 m 547.0866 28.2 l S
+n 25.51181 0 m 25.51181 207.4 l S
+n 317.4803 0 m 317.4803 207.4 l S
+n 379.8425 0 m 379.8425 207.4 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+41 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+42 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 45 0 R
+/F2 8 0 R
+/F2-0 46 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 4812
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 519.667 24.09449 Tm (Page 10) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (9. Sampling, statistics and representativeness) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 723.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 15.4 Tm /F1 8.6 Tf 12 TL (Where sampling or statistical methods are used, the protocol should explain why the plan is sufficient to support the intended) Tj T* (conclusion.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 527.2276 cm
+q
+.043137 .180392 .309804 rg
+n 0 188.3 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 141 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 84.6 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 28.2 547.0866 -28.2 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 174.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 174.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 174.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 174.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 155.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (60) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 146 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Sampling plan identifies population, locations, quantities, frequency and selection method) Tj T* (where applicable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 164.2 cm
+Q
+q
+1 0 0 1 384.3425 164.2 cm
+Q
+q
+1 0 0 1 4.5 126.9 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (61) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 117.8 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Number of runs, cycles, batches, loads or repetitions is justified based on process) Tj T* (knowledge, risk and study objective.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 136 cm
+Q
+q
+1 0 0 1 384.3425 136 cm
+Q
+q
+1 0 0 1 4.5 98.7 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (62) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 89.6 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Worst-case or representative conditions are identified using documented technical) Tj T* (rationale.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 107.8 cm
+Q
+q
+1 0 0 1 384.3425 107.8 cm
+Q
+q
+1 0 0 1 4.5 70.5 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (63) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 61.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Statistical methods, calculations and software are predefined where they influence) Tj T* (acceptance decisions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 79.6 cm
+Q
+q
+1 0 0 1 384.3425 79.6 cm
+Q
+q
+1 0 0 1 4.5 42.3 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (64) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 33.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Data exclusions or outlier handling are governed by predefined procedures and scientific) Tj T* (justification.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 51.4 cm
+Q
+q
+1 0 0 1 384.3425 51.4 cm
+Q
+q
+1 0 0 1 4.5 14.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (65) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Trend, variability and reproducibility expectations are considered where relevant to the) Tj T* (study.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 23.2 cm
+Q
+q
+1 0 0 1 384.3425 23.2 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 188.3 m 547.0866 188.3 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 188.3 l S
+n 547.0866 0 m 547.0866 188.3 l S
+n 0 169.2 m 547.0866 169.2 l S
+n 0 141 m 547.0866 141 l S
+n 0 112.8 m 547.0866 112.8 l S
+n 0 84.6 m 547.0866 84.6 l S
+n 0 56.4 m 547.0866 56.4 l S
+n 0 28.2 m 547.0866 28.2 l S
+n 25.51181 0 m 25.51181 188.3 l S
+n 317.4803 0 m 317.4803 188.3 l S
+n 379.8425 0 m 379.8425 188.3 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+45 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+46 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+47 0 obj
+<<
+/Contents 48 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 49 0 R
+/F2 8 0 R
+/F2-0 50 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+48 0 obj
+<<
+/Length 5637
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 519.667 24.09449 Tm (Page 11) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (10. Completion, reporting and lifecycle linkage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (The protocol should clearly define what happens after execution and how the validated/qualified state will be maintained.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 501.0276 cm
+q
+.043137 .180392 .309804 rg
+n 0 226.5 547.0866 -19.1 re f*
+.960784 .980392 .992157 rg
+n 0 179.2 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 131.9 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 75.5 547.0866 -28.2 re f*
+.960784 .980392 .992157 rg
+n 0 28.2 547.0866 -28.2 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 4.5 212.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ID) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 212.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 212.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Y / N / N.A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 384.3425 212.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Evidence / comment / action) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 4.5 193.3 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (66) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 184.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Completion requirements include review of all tests, attachments, deviations, calculations) Tj T* (and unresolved actions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 202.4 cm
+Q
+q
+1 0 0 1 384.3425 202.4 cm
+Q
+q
+1 0 0 1 4.5 165.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (67) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 156 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Protocol summary or final report requirements are defined, including conclusion and) Tj T* (acceptance status.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 174.2 cm
+Q
+q
+1 0 0 1 384.3425 174.2 cm
+Q
+q
+1 0 0 1 4.5 136.9 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (68) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 136.9 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Responsibility for final technical review and Quality approval is identified.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 146 cm
+Q
+q
+1 0 0 1 384.3425 146 cm
+Q
+q
+1 0 0 1 4.5 117.8 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (69) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 108.7 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Release/use restrictions are defined where the system or process cannot be used before) Tj T* (final acceptance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 126.9 cm
+Q
+q
+1 0 0 1 384.3425 126.9 cm
+Q
+q
+1 0 0 1 4.5 89.6 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (70) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 80.5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Follow-up actions, residual risks or limitations are documented and assigned to) Tj T* (accountable owners.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 98.7 cm
+Q
+q
+1 0 0 1 384.3425 98.7 cm
+Q
+q
+1 0 0 1 4.5 61.4 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (71) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 52.3 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Requalification, periodic review, continued/ongoing verification or monitoring requirements) Tj T* (are identified where applicable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 70.5 cm
+Q
+q
+1 0 0 1 384.3425 70.5 cm
+Q
+q
+1 0 0 1 4.5 33.2 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (72) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 33.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL (Change-control triggers that could affect the qualified or validated state are recognized.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 42.3 cm
+Q
+q
+1 0 0 1 384.3425 42.3 cm
+Q
+q
+1 0 0 1 4.5 14.1 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (73) Tj T* ET
+Q
+Q
+q
+1 0 0 1 30.01181 5 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Records generated by the study are retained according to the applicable record-retention) Tj T* (system.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 321.9803 23.2 cm
+Q
+q
+1 0 0 1 384.3425 23.2 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.45 w
+n 0 226.5 m 547.0866 226.5 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 226.5 l S
+n 547.0866 0 m 547.0866 226.5 l S
+n 0 207.4 m 547.0866 207.4 l S
+n 0 179.2 m 547.0866 179.2 l S
+n 0 151 m 547.0866 151 l S
+n 0 131.9 m 547.0866 131.9 l S
+n 0 103.7 m 547.0866 103.7 l S
+n 0 75.5 m 547.0866 75.5 l S
+n 0 47.3 m 547.0866 47.3 l S
+n 0 28.2 m 547.0866 28.2 l S
+n 25.51181 0 m 25.51181 226.5 l S
+n 317.4803 0 m 317.4803 226.5 l S
+n 379.8425 0 m 379.8425 226.5 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+49 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+50 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+51 0 obj
+<<
+/Contents 52 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 53 0 R
+/F2 8 0 R
+/F2-0 54 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+52 0 obj
+<<
+/Length 5682
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 519.667 24.09449 Tm (Page 12) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (Final Protocol Review Disposition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 3.4 Tm /F1 8.6 Tf 12 TL (Use this section to summarize the pre-approval review outcome and any actions required before execution.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.09449 449.7323 cm
+q
+.917647 .964706 .988235 rg
+n 0 277.7953 147.4016 -277.7953 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 262.6953 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review outcome) Tj T* ET
+Q
+Q
+q
+1 0 0 1 153.4016 262.6953 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 2 Tm /F1 7.1 Tf 9.1 TL ([ ] Approved for execution [ ] Approved with actions [ ] Revision required before approval) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 228.6795 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Critical gaps identified) Tj T* ET
+Q
+Q
+q
+1 0 0 1 153.4016 237.7795 cm
+Q
+q
+1 0 0 1 6 157.8134 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Open actions / owners) Tj T* ET
+Q
+Q
+q
+1 0 0 1 153.4016 166.9134 cm
+Q
+q
+1 0 0 1 6 86.94724 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Required completion date) Tj T* ET
+Q
+Q
+q
+1 0 0 1 153.4016 96.04724 cm
+Q
+q
+1 0 0 1 6 52.9315 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Reviewer name / function) Tj T* ET
+Q
+Q
+q
+1 0 0 1 153.4016 62.0315 cm
+Q
+q
+1 0 0 1 6 18.91575 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Review date) Tj T* ET
+Q
+Q
+q
+1 0 0 1 153.4016 28.01575 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.55 w
+n 0 277.7953 m 547.0866 277.7953 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 277.7953 l S
+n 547.0866 0 m 547.0866 277.7953 l S
+n 0 243.7795 m 547.0866 243.7795 l S
+n 0 172.9134 m 547.0866 172.9134 l S
+n 0 102.0472 m 547.0866 102.0472 l S
+n 0 68.0315 m 547.0866 68.0315 l S
+n 0 34.01575 m 547.0866 34.01575 l S
+n 147.4016 0 m 147.4016 277.7953 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 427.0551 cm
+Q
+q
+1 0 0 1 57.02362 407.0551 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL (Priority Action Tracker) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.09449 152.4409 cm
+q
+.043137 .180392 .309804 rg
+n 0 246.6142 547.0866 -25.51181 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 5 232.5142 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (No.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36.1811 232.5142 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Action / gap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 279.9606 232.5142 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Owner) Tj T* ET
+Q
+Q
+q
+1 0 0 1 376.3386 232.5142 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Target) Tj T* ET
+Q
+Q
+q
+1 0 0 1 458.5433 232.5142 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Status) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 5 207.0024 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36.1811 216.1024 cm
+Q
+q
+1 0 0 1 279.9606 216.1024 cm
+Q
+q
+1 0 0 1 376.3386 216.1024 cm
+Q
+q
+1 0 0 1 458.5433 216.1024 cm
+Q
+q
+1 0 0 1 5 170.152 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36.1811 179.252 cm
+Q
+q
+1 0 0 1 279.9606 179.252 cm
+Q
+q
+1 0 0 1 376.3386 179.252 cm
+Q
+q
+1 0 0 1 458.5433 179.252 cm
+Q
+q
+1 0 0 1 5 133.3016 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36.1811 142.4016 cm
+Q
+q
+1 0 0 1 279.9606 142.4016 cm
+Q
+q
+1 0 0 1 376.3386 142.4016 cm
+Q
+q
+1 0 0 1 458.5433 142.4016 cm
+Q
+q
+1 0 0 1 5 96.45118 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36.1811 105.5512 cm
+Q
+q
+1 0 0 1 279.9606 105.5512 cm
+Q
+q
+1 0 0 1 376.3386 105.5512 cm
+Q
+q
+1 0 0 1 458.5433 105.5512 cm
+Q
+q
+1 0 0 1 5 59.60079 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36.1811 68.70079 cm
+Q
+q
+1 0 0 1 279.9606 68.70079 cm
+Q
+q
+1 0 0 1 376.3386 68.70079 cm
+Q
+q
+1 0 0 1 458.5433 68.70079 cm
+Q
+q
+1 0 0 1 5 22.75039 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36.1811 31.85039 cm
+Q
+q
+1 0 0 1 279.9606 31.85039 cm
+Q
+q
+1 0 0 1 376.3386 31.85039 cm
+Q
+q
+1 0 0 1 458.5433 31.85039 cm
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.5 w
+n 0 246.6142 m 547.0866 246.6142 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 246.6142 l S
+n 547.0866 0 m 547.0866 246.6142 l S
+n 0 221.1024 m 547.0866 221.1024 l S
+n 0 184.252 m 547.0866 184.252 l S
+n 0 147.4016 m 547.0866 147.4016 l S
+n 0 110.5512 m 547.0866 110.5512 l S
+n 0 73.70079 m 547.0866 73.70079 l S
+n 0 36.85039 m 547.0866 36.85039 l S
+n 31.1811 0 m 31.1811 246.6142 l S
+n 274.9606 0 m 274.9606 246.6142 l S
+n 371.3386 0 m 371.3386 246.6142 l S
+n 453.5433 0 m 453.5433 246.6142 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+53 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+54 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+55 0 obj
+<<
+/Contents 56 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/ca 0.055
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 57 0 R
+/F2 8 0 R
+/F2-0 58 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+56 0 obj
+<<
+/Length 4745
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8.5 Tf 10.2 TL ET
+0 0 0 rg
+BT 1 0 0 1 51.02362 813.5433 Tm (Vali) Tj T* ET
+.082353 .607843 .843137 rg
+BT 1 0 0 1 66.14512 813.5433 Tm (Stera) Tj T* ET
+.376471 .454902 .509804 rg
+BT /F1 8.1 Tf 9.72 TL ET
+BT 1 0 0 1 92.40362 813.5433 Tm (|  Validation Protocol Review Checklist) Tj T* ET
+.796078 .85098 .890196 RG
+.5 w
+n 51.02362 811.0433 m 544.252 811.0433 l S
+.376471 .454902 .509804 rg
+BT /F1 6.6 Tf 7.92 TL ET
+BT 1 0 0 1 51.02362 24.09449 Tm (\251 2026 ValiStera Solutions | www.valistera.com | contact@valistera.com) Tj T* ET
+BT 1 0 0 1 519.667 24.09449 Tm (Page 13) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.5276 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf .043137 .180392 .309804 rg (Reference Basis & Use Guidance) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 723.5276 cm
+q
+.376471 .454902 .509804 rg
+BT 1 0 0 1 0 15.4 Tm /F1 8.6 Tf 12 TL (This resource is designed as a practical review aid. It should be adapted to the applicable product, process, system, facility,) Tj T* (study type and approved quality-system procedures.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.09449 573.6276 cm
+q
+.043137 .180392 .309804 rg
+n 0 141.9 547.0866 -21.1 re f*
+1 1 1 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 126.8 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 190.252 126.8 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (How it informs this checklist) Tj T* ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 105.7 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (EU GMP Annex 15 - Qualification and Validation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 190.252 96.6 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Lifecycle qualification/validation expectations, planning, documentation, risk-based scope, qualification stages,) Tj T* (process validation, requalification and change control.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75.5 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 2 Tm /F2 7.1 Tf 9.1 TL (ICH Q9\(R1\) - Quality Risk Management) Tj T* ET
+Q
+Q
+q
+1 0 0 1 190.252 66.4 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Science- and risk-based decision-making; formality and documentation should be commensurate with risk and) Tj T* (uncertainty.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 36.2 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 11.1 Tm /F2 7.1 Tf 9.1 TL (FDA - Process Validation: General Principles and) Tj T* (Practices) Tj T* ET
+Q
+Q
+q
+1 0 0 1 190.252 36.2 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Lifecycle approach to process validation, including process design, process qualification and continued process) Tj T* (verification.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 6 cm
+q
+.043137 .180392 .309804 rg
+BT 1 0 0 1 0 11.1 Tm /F2 7.1 Tf 9.1 TL (EU GMP Annex 11 - Computerised Systems, where) Tj T* (applicable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 190.252 6 cm
+q
+.12549 .211765 .27451 rg
+BT 1 0 0 1 0 11.1 Tm /F1 7.1 Tf 9.1 TL (Relevant where computerized systems or electronic records are part of the validation evidence or system under) Tj T* (review.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .85098 .890196 RG
+.5 w
+n 0 141.9 m 547.0866 141.9 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 141.9 l S
+n 547.0866 0 m 547.0866 141.9 l S
+n 0 120.8 m 547.0866 120.8 l S
+n 0 90.6 m 547.0866 90.6 l S
+n 0 60.4 m 547.0866 60.4 l S
+n 0 30.2 m 547.0866 30.2 l S
+n 184.252 0 m 184.252 141.9 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 550.9504 cm
+Q
+q
+1 0 0 1 57.02362 532.9504 cm
+q
+BT 1 0 0 1 0 3.3 Tm 12 TL /F2 8.7 Tf .12549 .211765 .27451 rg (Document control standard:) Tj /F1 8.7 Tf ( Version 9.0 | Issue date: October 2026 | Resource code: VSR-VAL-CHK-005) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 519.4465 cm
+Q
+q
+1 0 0 1 24.09449 454.4465 cm
+q
+.043137 .180392 .309804 rg
+n 0 65 547.0866 -65 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 9 cm
+q
+BT 1 0 0 1 0 39.8 Tm 9.4 TL /F2 7.2 Tf 1 1 1 rg (IMPORTANT USE NOTE) Tj /F1 7.2 Tf  T* (This checklist is an educational and professional working aid. It is not regulatory advice, a site-approved controlled template, or a substitute for the manufacturer's) Tj T* (Pharmaceutical Quality System. Adapt, verify and approve it through your own QMS before use.) Tj  T*  T* (\251 2026 ValiStera Solutions. Redistribution, resale, rebranding or removal of ValiStera identification without written permission is prohibited.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.043137 .180392 .309804 RG
+n 0 65 m 547.0866 65 l S
+n 0 0 m 547.0866 0 l S
+n 0 0 m 0 65 l S
+n 547.0866 0 m 547.0866 65 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+0.829038 0.559193 -0.559193 0.829038 297.6378 420.9449 cm
+BT
+/F2-0 68.45669 Tf
+82.14803 TL
+ET
+/gRLs0 gs
+0.12 0.12 0.12 rg
+BT
+1 0 0 1 -146.4973 0 Tm
+(Vali) Tj
+T*
+ET
+0.08 0.55 0.84 rg
+BT
+1 0 0 1 -24.71287 0 Tm
+(Stera) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+57 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+58 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 59
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000198 00000 n 
+0000000247 00000 n 
+0000000553 00000 n 
+0000005637 00000 n 
+0000005744 00000 n 
+0000005851 00000 n 
+0000005963 00000 n 
+0000006075 00000 n 
+0000006191 00000 n 
+0000006501 00000 n 
+0000011750 00000 n 
+0000011858 00000 n 
+0000011971 00000 n 
+0000012281 00000 n 
+0000017541 00000 n 
+0000017649 00000 n 
+0000017762 00000 n 
+0000018072 00000 n 
+0000023839 00000 n 
+0000023947 00000 n 
+0000024060 00000 n 
+0000024370 00000 n 
+0000029520 00000 n 
+0000029628 00000 n 
+0000029741 00000 n 
+0000030051 00000 n 
+0000035778 00000 n 
+0000035886 00000 n 
+0000035999 00000 n 
+0000036309 00000 n 
+0000041570 00000 n 
+0000041678 00000 n 
+0000041791 00000 n 
+0000042101 00000 n 
+0000047806 00000 n 
+0000047914 00000 n 
+0000048027 00000 n 
+0000048337 00000 n 
+0000053611 00000 n 
+0000053719 00000 n 
+0000053832 00000 n 
+0000054142 00000 n 
+0000059007 00000 n 
+0000059115 00000 n 
+0000059228 00000 n 
+0000059538 00000 n 
+0000065228 00000 n 
+0000065336 00000 n 
+0000065449 00000 n 
+0000065759 00000 n 
+0000071494 00000 n 
+0000071602 00000 n 
+0000071715 00000 n 
+0000072025 00000 n 
+0000076823 00000 n 
+0000076931 00000 n 
+trailer
+<<
+/Size 59
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+77044
+%%EOF
