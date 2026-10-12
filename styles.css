@@ -2620,3 +2620,350 @@
     padding: 1.35rem;
   }
 }
+
+
+/* =========================================================
+   VALISTERA — TRAINING PAGE
+   ========================================================= */
+
+.training-heading {
+  max-width: 860px;
+}
+
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4rem;
+  margin-top: 2.5rem;
+}
+
+.training-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.7rem;
+  border: 1px solid rgba(15, 48, 74, 0.11);
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 18px 46px rgba(7, 31, 52, 0.06);
+}
+
+.training-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.training-level {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(44, 159, 214, 0.08);
+  color: #318fc0;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.training-number {
+  color: rgba(10, 45, 73, 0.17);
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+.training-card h3 {
+  margin: 0 0 0.75rem;
+  color: #0a2d49;
+  font-size: 1.2rem;
+  line-height: 1.35;
+}
+
+.training-card > p {
+  margin: 0 0 1.25rem;
+  color: #5c6e7b;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.training-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-bottom: 1.3rem;
+}
+
+.training-details > div {
+  padding: 0.85rem;
+  border: 1px solid rgba(15, 48, 74, 0.08);
+  border-radius: 12px;
+  background: #f8fbfd;
+}
+
+.training-details span,
+.training-outcomes > span,
+.corporate-training-meta span {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #318fc0;
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.training-details strong,
+.corporate-training-meta strong {
+  display: block;
+  color: #29485d;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.training-outcomes {
+  padding-top: 1.1rem;
+  border-top: 1px solid rgba(15, 48, 74, 0.09);
+}
+
+.training-outcomes ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: #5c6e7b;
+  font-size: 0.88rem;
+}
+
+.training-outcomes li {
+  margin-bottom: 0.45rem;
+  line-height: 1.55;
+}
+
+.training-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 1.3rem;
+}
+
+.training-footer > span {
+  color: #71818c;
+  font-size: 0.74rem;
+  line-height: 1.45;
+}
+
+.training-footer a {
+  flex: 0 0 auto;
+  color: #318fc0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.training-footer a:hover {
+  text-decoration: underline;
+}
+
+
+/* Delivery model */
+
+.training-delivery {
+  position: relative;
+  overflow: hidden;
+}
+
+.training-delivery-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.training-delivery-intro {
+  max-width: 560px;
+}
+
+.training-delivery-intro p {
+  color: #5b6e7a;
+  line-height: 1.8;
+}
+
+.training-delivery-points {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.training-delivery-points article {
+  padding: 1.25rem;
+  border: 1px solid rgba(15, 48, 74, 0.09);
+  border-radius: 15px;
+  background: #ffffff;
+}
+
+.training-delivery-points article > span {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  color: #318fc0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.training-delivery-points h3 {
+  margin: 0 0 0.5rem;
+  color: #0a2d49;
+  font-size: 1rem;
+}
+
+.training-delivery-points p {
+  margin: 0;
+  color: #60717e;
+  font-size: 0.86rem;
+  line-height: 1.62;
+}
+
+
+/* Corporate training */
+
+.corporate-training-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 20px;
+  background: #0a2d49;
+}
+
+.corporate-training-panel h2 {
+  color: #ffffff;
+}
+
+.corporate-training-panel h2 em {
+  color: #66c8f4;
+}
+
+.corporate-training-panel > div:first-child > p {
+  color: rgba(255,255,255,0.72);
+  line-height: 1.8;
+}
+
+.corporate-training-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.corporate-training-meta > div {
+  padding: 1rem;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 13px;
+  background: rgba(255,255,255,0.04);
+}
+
+.corporate-training-meta span {
+  color: #66c8f4;
+}
+
+.corporate-training-meta strong {
+  color: #ffffff;
+}
+
+
+/* Boundary + CTA */
+
+.training-boundary {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.25rem;
+  align-items: start;
+  margin-top: 1.5rem;
+  padding: 1.3rem 1.5rem;
+  border: 1px solid rgba(15, 48, 74, 0.08);
+  border-radius: 15px;
+  background: #ffffff;
+}
+
+.training-boundary > span {
+  color: #318fc0;
+  font-size: 0.69rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  white-space: nowrap;
+}
+
+.training-boundary p {
+  margin: 0;
+  color: #60717e;
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+.training-cta {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid rgba(15, 48, 74, 0.09);
+}
+
+.training-cta h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.45rem;
+}
+
+.training-cta p {
+  margin: 0;
+  color: #60717e;
+}
+
+
+@media (max-width: 980px) {
+  .training-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .training-delivery-grid,
+  .corporate-training-panel {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .training-details,
+  .training-delivery-points,
+  .corporate-training-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .training-footer,
+  .training-cta,
+  .training-boundary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .training-boundary {
+    display: block;
+  }
+
+  .training-boundary > span {
+    display: block;
+    margin-bottom: 0.6rem;
+    white-space: normal;
+  }
+
+  .training-card,
+  .corporate-training-panel,
+  .training-cta {
+    padding: 1.35rem;
+  }
+}
