@@ -29,3 +29,8 @@
   object-fit: contain !important;
   object-position: center !important;
 }
+
+/* Homepage flagship hero — wider panoramic visual */
+.home .hero-grid {
+    grid-template-columns: 0.82fr 1.18fr;
+}
