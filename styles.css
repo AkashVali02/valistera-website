@@ -3102,3 +3102,330 @@
     font-size: 0.72rem;
   }
 }
+
+
+/* =========================================================
+   VALISTERA — CONTACT WORKFLOW
+   ========================================================= */
+
+.contact-workflow {
+  position: relative;
+}
+
+.contact-workflow-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.contact-intro-panel {
+  padding: 1.8rem;
+  border-radius: 20px;
+  background: #0a2d49;
+}
+
+.contact-intro-panel h2 {
+  color: #ffffff;
+}
+
+.contact-intro-panel h2 em {
+  color: #66c8f4;
+}
+
+.contact-intro-panel > p {
+  color: rgba(255,255,255,0.74);
+  line-height: 1.8;
+}
+
+.contact-direct {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.contact-direct-item {
+  padding: 1rem;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 13px;
+  background: rgba(255,255,255,0.04);
+}
+
+.contact-direct-item span {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #66c8f4;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contact-direct-item a,
+.contact-direct-item strong {
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.contact-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 1.3rem;
+}
+
+.contact-social a {
+  color: #66c8f4;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+/* Form */
+
+.contact-form-panel {
+  padding: 1.8rem;
+  border: 1px solid rgba(15, 48, 74, 0.10);
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 18px 46px rgba(7, 31, 52, 0.06);
+}
+
+.contact-form-heading {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form-heading h2 {
+  margin-bottom: 0.6rem;
+}
+
+.contact-form-heading p {
+  margin: 0;
+  color: #61727e;
+  line-height: 1.75;
+}
+
+.consultancy-form {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.consultancy-form label {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.consultancy-form label > span {
+  color: #29485d;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.consultancy-form input,
+.consultancy-form select,
+.consultancy-form textarea {
+  width: 100%;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid rgba(15, 48, 74, 0.14);
+  border-radius: 11px;
+  background: #ffffff;
+  color: #243746;
+  font: inherit;
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.consultancy-form input:focus,
+.consultancy-form select:focus,
+.consultancy-form textarea:focus {
+  border-color: #318fc0;
+  box-shadow: 0 0 0 3px rgba(49, 143, 192, 0.10);
+}
+
+.consultancy-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.form-message {
+  grid-column: 1 / -1;
+}
+
+
+/* Confidentiality & consent */
+
+.contact-confidentiality {
+  padding: 1rem 1.1rem;
+  border-left: 3px solid #318fc0;
+  border-radius: 10px;
+  background: #f5f9fc;
+}
+
+.contact-confidentiality strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #0a2d49;
+  font-size: 0.82rem;
+}
+
+.contact-confidentiality p {
+  margin: 0;
+  color: #61727e;
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.contact-consent {
+  display: flex !important;
+  grid-template-columns: none !important;
+  gap: 0.7rem !important;
+  align-items: flex-start;
+}
+
+.contact-consent input {
+  width: auto;
+  margin-top: 0.22rem;
+}
+
+.contact-consent span {
+  color: #60717e !important;
+  font-weight: 400 !important;
+  line-height: 1.6;
+}
+
+.contact-consent a {
+  color: #318fc0;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-consent a:hover {
+  text-decoration: underline;
+}
+
+.form-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.form-status {
+  margin: 0;
+  color: #526674;
+  font-size: 0.84rem;
+}
+
+
+/* Next steps */
+
+.contact-next-steps {
+  margin-top: 3rem;
+}
+
+.contact-next-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.8rem;
+}
+
+.contact-next-grid article {
+  padding: 1.25rem;
+  border: 1px solid rgba(15, 48, 74, 0.09);
+  border-radius: 15px;
+  background: #ffffff;
+}
+
+.contact-next-grid article > span {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  color: #318fc0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.contact-next-grid h3 {
+  margin: 0 0 0.5rem;
+  color: #0a2d49;
+  font-size: 1rem;
+}
+
+.contact-next-grid p {
+  margin: 0;
+  color: #60717e;
+  font-size: 0.86rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 980px) {
+  .contact-workflow-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-next-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .form-grid,
+  .contact-next-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-intro-panel,
+  .contact-form-panel {
+    padding: 1.35rem;
+  }
+}
+
+/* =========================================================
+   VALISTERA — CONTACT FORM STATUS
+   ========================================================= */
+
+.contact-turnstile {
+  min-height: 68px;
+}
+
+.form-status {
+  min-height: 1.35rem;
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+
+.form-status-success {
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba(25, 135, 84, 0.20);
+  border-radius: 10px;
+  background: #eef8f2;
+  color: #146c43;
+  font-weight: 600;
+}
+
+.form-status-error {
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba(190, 30, 45, 0.18);
+  border-radius: 10px;
+  background: #fdf1f2;
+  color: #842029;
+  font-weight: 600;
+}
+
+.consultancy-form button[type="submit"]:disabled {
+  cursor: wait;
+  opacity: 0.68;
+}
