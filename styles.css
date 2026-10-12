@@ -727,3 +727,259 @@
     grid-column:auto;
   }
 }
+
+
+/* =========================================================
+   VALISTERA — GMP COMPLIANCE PAGE
+   ========================================================= */
+
+.gmp-trigger-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+  margin-top:34px;
+}
+
+.gmp-trigger{
+  padding:27px 24px;
+  border:1px solid rgba(8,35,63,.11);
+  border-radius:15px;
+  background:#fff;
+  transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;
+}
+
+.gmp-trigger:hover{
+  transform:translateY(-4px);
+  border-color:rgba(48,157,218,.30);
+  box-shadow:0 18px 38px rgba(8,35,63,.09);
+}
+
+.gmp-trigger>span{
+  display:block;
+  margin-bottom:22px;
+  color:#2e9bd6;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.15em;
+}
+
+.gmp-trigger h3{
+  margin:0 0 11px;
+  color:#0a2039;
+  font-size:18px;
+  line-height:1.35;
+}
+
+.gmp-trigger p{
+  margin:0;
+  color:#68778a;
+  font-size:13px;
+  line-height:1.7;
+}
+
+.gmp-method{
+  position:relative;
+  overflow:hidden;
+}
+
+.gmp-method::after{
+  content:"";
+  position:absolute;
+  width:560px;
+  height:560px;
+  left:-280px;
+  bottom:-330px;
+  border-radius:50%;
+  border:1px solid rgba(66,175,235,.10);
+  box-shadow:
+    0 0 0 85px rgba(66,175,235,.024),
+    0 0 0 170px rgba(66,175,235,.015);
+}
+
+.gmp-method-intro{
+  position:relative;
+  z-index:1;
+  max-width:720px;
+  margin-bottom:42px;
+}
+
+.gmp-method-intro h2{
+  margin:12px 0 15px;
+  color:#fff;
+  font-size:40px;
+  line-height:1.1;
+}
+
+.gmp-method-intro p{
+  color:rgba(255,255,255,.70);
+  font-size:15px;
+  line-height:1.75;
+}
+
+.gmp-method-grid{
+  position:relative;
+  z-index:1;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:0;
+}
+
+.gmp-method-grid article{
+  padding:25px 22px;
+  border-top:1px solid rgba(255,255,255,.10);
+  border-right:1px solid rgba(255,255,255,.08);
+}
+
+.gmp-method-grid article:last-child{
+  border-right:0;
+}
+
+.gmp-method-grid article>span{
+  display:block;
+  margin-bottom:20px;
+  color:#48b2ec;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.13em;
+}
+
+.gmp-method-grid h3{
+  margin:0 0 9px;
+  color:#fff;
+  font-size:17px;
+}
+
+.gmp-method-grid p{
+  margin:0;
+  color:rgba(255,255,255,.63);
+  font-size:12px;
+  line-height:1.7;
+}
+
+.gmp-evidence-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr 1.12fr;
+  gap:18px;
+  margin-top:34px;
+}
+
+.gmp-evidence-card{
+  padding:30px 27px;
+  border:1px solid rgba(8,35,63,.10);
+  border-radius:17px;
+  background:#fff;
+}
+
+.gmp-evidence-label{
+  display:block;
+  margin-bottom:15px;
+  color:#2b9bd7;
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:.17em;
+}
+
+.gmp-evidence-card h3{
+  margin:0 0 18px;
+  color:#0a2039;
+  font-size:20px;
+}
+
+.gmp-evidence-card ul{
+  margin:0;
+  padding-left:18px;
+}
+
+.gmp-evidence-card li{
+  margin:0 0 10px;
+  color:#657489;
+  font-size:13px;
+  line-height:1.6;
+}
+
+.gmp-evidence-card>p{
+  color:#657489;
+  font-size:14px;
+  line-height:1.75;
+}
+
+.gmp-evidence-card-accent{
+  color:#fff;
+  border-color:#0a2949;
+  background:
+    radial-gradient(circle at top right,rgba(60,177,239,.17),transparent 36%),
+    #071a31;
+}
+
+.gmp-evidence-card-accent .gmp-evidence-label{
+  color:#58b9ed;
+}
+
+.gmp-evidence-card-accent h3{
+  color:#fff;
+}
+
+.gmp-evidence-card-accent>p{
+  color:rgba(255,255,255,.70);
+}
+
+.gmp-outcome{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:8px;
+  margin-top:26px;
+  padding-top:20px;
+  border-top:1px solid rgba(255,255,255,.11);
+}
+
+.gmp-outcome strong{
+  color:#fff;
+  font-size:11px;
+}
+
+.gmp-outcome span{
+  color:#49afe7;
+}
+
+@media(max-width:1050px){
+  .gmp-trigger-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .gmp-method-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .gmp-method-grid article{
+    border-bottom:1px solid rgba(255,255,255,.08);
+  }
+
+  .gmp-evidence-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .gmp-evidence-card-accent{
+    grid-column:1/-1;
+  }
+}
+
+@media(max-width:820px){
+  .gmp-method-intro h2{
+    font-size:32px;
+  }
+
+  .gmp-trigger-grid,
+  .gmp-method-grid,
+  .gmp-evidence-grid{
+    grid-template-columns:1fr;
+  }
+
+  .gmp-method-grid article{
+    border-right:0;
+  }
+
+  .gmp-evidence-card-accent{
+    grid-column:auto;
+  }
+}
