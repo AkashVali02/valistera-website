@@ -3468,3 +3468,16 @@
     width: 100%;
   }
 }
+
+/* Regulatory client-collaboration image */
+.regulatory-client-image {
+  overflow: hidden;
+}
+
+.regulatory-client-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
