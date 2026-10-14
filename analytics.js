@@ -201,7 +201,12 @@
   }
 
   function showSettingsButton() {
-    if (document.getElementById('vs-cookie-settings')) return;
+    const existingButton = document.getElementById('vs-cookie-settings');
+
+    if (existingButton) {
+      existingButton.style.display = '';
+      return;
+    }
 
     const button = document.createElement('button');
     button.id = 'vs-cookie-settings';
