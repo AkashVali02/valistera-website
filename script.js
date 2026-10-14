@@ -110,6 +110,18 @@ document.addEventListener("DOMContentLoaded", () => {
           "We could not submit your enquiry. Please try again."
         );
       }
+    /* GA4 lead event — only after confirmed submission and analytics consent */
+    try {
+      if (
+        localStorage.getItem("valistera_analytics_consent") === "accepted" &&
+        typeof window.gtag === "function"
+      ) {
+        window.gtag("event", "generate_lead", {
+          lead_source: "website_consultancy_enquiry"
+        });
+      }
+    } catch (_) {}
+
 
       form.reset();
 
