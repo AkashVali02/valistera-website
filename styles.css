@@ -2925,6 +2925,33 @@
   color: #60717e;
 }
 
+.training-cta > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.training-cta .button {
+  flex: 0 0 auto;
+  min-height: 48px;
+  max-width: 100%;
+  padding: 14px 22px;
+  border-radius: 8px;
+  background: #146fa8;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.training-cta .button:hover {
+  background: #0e5888;
+}
+
+.training-cta .button:focus-visible {
+  outline: 3px solid var(--navy);
+  outline-offset: 3px;
+}
+
 
 @media (max-width: 980px) {
   .training-grid {
@@ -2949,6 +2976,10 @@
   .training-boundary {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .training-cta .button {
+    width: 100%;
   }
 
   .training-boundary {
