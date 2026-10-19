@@ -1,14 +1,48 @@
-document.addEventListener('DOMContentLoaded',()=>{const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('.main-nav');if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰';});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='☰';}));}const year=document.getElementById('year');if(year)year.textContent=new Date().getFullYear();const form=document.getElementById('contact-form');if(form){const params=new URLSearchParams(location.search);const wanted=params.get('resource')||params.get('course')||params.get('topic');if(wanted){const msg=form.querySelector('[name="message"]');if(msg)msg.value='I would like to enquire about: '+wanted.replaceAll('-',' ')+'\n\n';}form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const subject='ValiStera website enquiry - '+d.get('interest');const body='Name: '+d.get('name')+'\nEmail: '+d.get('email')+'\nArea of interest: '+d.get('interest')+'\n\nMessage:\n'+d.get('message');location.href='mailto:contact@valistera.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);});}});
-/* ValiStera About Page — Count-up animation */
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.main-nav');
+  if (toggle && nav) {
+    const setMenuOpen = (open) => {
+      nav.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      toggle.textContent = open ? '×' : '☰';
+    };
+    toggle.addEventListener('click', () => {
+      setMenuOpen(!nav.classList.contains('open'));
+    });
+    nav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => setMenuOpen(false));
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && nav.classList.contains('open')) {
+        setMenuOpen(false);
+        toggle.focus();
+      }
+    });
+  }
+  const year=document.getElementById('year');if(year)year.textContent=new Date().getFullYear();const form=document.getElementById('contact-form');if(form){const params=new URLSearchParams(location.search);const wanted=params.get('resource')||params.get('course')||params.get('topic');if(wanted){const msg=form.querySelector('[name="message"]');if(msg)msg.value='I would like to enquire about: '+wanted.replaceAll('-',' ')+'\n\n';}form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const subject='ValiStera website enquiry - '+d.get('interest');const body='Name: '+d.get('name')+'\nEmail: '+d.get('email')+'\nArea of interest: '+d.get('interest')+'\n\nMessage:\n'+d.get('message');location.href='mailto:contact@valistera.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);});}});
+/* ValiStera performance counters — respect reduced-motion preferences. */
 (function(){
   const counters=document.querySelectorAll('.count-up');
   if(!counters.length)return;
+  const motionPreference=typeof window.matchMedia==='function'
+    ? window.matchMedia('(prefers-reduced-motion: reduce)')
+    : null;
+  const showFinalValue=(counter)=>{
+    counter.textContent=(parseInt(counter.dataset.target,10)||0)+(counter.dataset.suffix||'');
+  };
+  if(!motionPreference || motionPreference.matches || !('IntersectionObserver' in window)){
+    counters.forEach(showFinalValue);
+    return;
+  }
   const animateCounter=(counter)=>{
     const target=parseInt(counter.dataset.target,10)||0;
     const suffix=counter.dataset.suffix||'';
     const duration=1800;
     const startTime=performance.now();
     const step=(now)=>{
+      if(motionPreference.matches){showFinalValue(counter);return;}
       const progress=Math.min((now-startTime)/duration,1);
       const eased=1-Math.pow(1-progress,3);
       counter.textContent=Math.floor(target*eased)+suffix;
@@ -22,6 +56,12 @@ document.addEventListener('DOMContentLoaded',()=>{const toggle=document.querySel
     });
   },{threshold:0.35});
   counters.forEach((counter)=>observer.observe(counter));
+  motionPreference.addEventListener?.('change',(event)=>{
+    if(event.matches){
+      observer.disconnect();
+      counters.forEach(showFinalValue);
+    }
+  });
 })();
 
 
