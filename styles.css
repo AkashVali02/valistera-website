@@ -2936,15 +2936,9 @@
   max-width: 100%;
   padding: 14px 22px;
   border-radius: 8px;
-  background: #146fa8;
-  color: #ffffff;
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-}
-
-.training-cta .button:hover {
-  background: #0e5888;
 }
 
 .training-cta .button:focus-visible {
