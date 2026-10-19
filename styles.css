@@ -3517,6 +3517,125 @@
   color: var(--text-accent);
 }
 
+/* Direct routes from service pages to resources, learning and experience. */
+.related-pathways {
+  padding: 64px 0;
+}
+
+.pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.pathway-grid-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.pathway-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.5rem;
+  border: 1px solid rgba(15, 48, 74, 0.11);
+  border-radius: 18px;
+  background: #fff;
+}
+
+.pathway-label {
+  margin-bottom: 1rem;
+  color: var(--text-accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+}
+
+.pathway-card h3 {
+  margin: 0 0 0.8rem;
+  color: #0a2d49;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.08rem;
+  line-height: 1.4;
+}
+
+.pathway-card p {
+  margin: 0 0 1.1rem;
+  color: #5d6e7a;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.pathway-link {
+  align-self: flex-start;
+  min-height: 44px;
+  margin-top: auto;
+}
+
+.knowledge-action {
+  align-items: center;
+  min-height: 44px;
+}
+
+.knowledge-service-link,
+.experience-service-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 44px;
+  color: var(--text-accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.knowledge-service-link {
+  margin-top: 0.5rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+}
+
+.experience-service-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 1.25rem;
+  margin-top: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.experience-service-links > span {
+  flex-basis: 100%;
+  color: #5d6e7a;
+  font-size: 0.75rem;
+}
+
+.pathway-link:hover,
+.knowledge-service-link:hover,
+.experience-service-links a:hover {
+  text-decoration: underline;
+}
+
+.knowledge-card[id],
+.training-card[id],
+.case-study-card[id] {
+  scroll-margin-top: 110px;
+}
+
+.knowledge-card:target,
+.training-card:target,
+.case-study-card:target {
+  border-color: var(--text-accent);
+  box-shadow: 0 0 0 2px rgba(23, 109, 155, 0.14);
+}
+
+@media (max-width: 900px) {
+  .pathway-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Keyboard navigation: skip repeated navigation and show clear focus. */
 .skip-link {
   position: fixed;
