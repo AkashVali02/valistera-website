@@ -29,6 +29,35 @@ document.addEventListener('DOMContentLoaded',()=>{const toggle=document.querySel
    VALISTERA — SECURE CONSULTANCY ENQUIRY FORM
    ========================================================= */
 
+function getValiSteraEnquiryContext(search) {
+  const services = new Map([
+    ["qualification-validation", "Qualification & Validation"],
+    ["gmp-compliance", "GMP Compliance"],
+    ["inspection-readiness", "Inspection Readiness"],
+    ["regulatory-services", "Regulatory Services / CMC"],
+    ["sterile-manufacturing", "Sterile Manufacturing"],
+    ["digital-quality", "Digital Quality & CSV"],
+    ["training", "Training / ValiStera Academy"],
+  ]);
+  const courses = new Map([
+    ["qualification-validation-fundamentals", "Qualification & Validation Fundamentals"],
+    ["sterile-manufacturing-annex-1", "Sterile Manufacturing & Annex 1"],
+    ["gmp-documentation-data-integrity", "GMP Documentation & Data Integrity"],
+    ["csv-gxp-digital-systems", "CSV & GxP Digital Systems"],
+  ]);
+  const params = new URLSearchParams(search);
+  const course = courses.get(params.get("course"));
+
+  return {
+    service: course
+      ? services.get("training")
+      : services.get(params.get("service")) || "",
+    message: course
+      ? "I would like to register my interest in " + course + ".\n\n"
+      : "",
+  };
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("consultancy-enquiry-form");
 
@@ -36,6 +65,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const status = document.getElementById("form-status");
   const submitButton = form.querySelector('button[type="submit"]');
+  const serviceField = form.querySelector('[name="service"]');
+  const messageField = form.querySelector('[name="message"]');
+  const enquiryContext = getValiSteraEnquiryContext(window.location.search);
+
+  function prefillEnquiry() {
+    if (enquiryContext.service && !serviceField.value) {
+      serviceField.value = enquiryContext.service;
+    }
+    if (
+      enquiryContext.message &&
+      !messageField.value &&
+      serviceField.value === "Training / ValiStera Academy"
+    ) {
+      messageField.value = enquiryContext.message;
+    }
+  }
+
+  prefillEnquiry();
 
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -124,6 +171,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
       form.reset();
+      prefillEnquiry();
 
       if (window.turnstile) {
         window.turnstile.reset();

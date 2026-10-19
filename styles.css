@@ -3456,18 +3456,16 @@
 }
 
 /* ValiStera enquiry submit CTA */
-.consultancy-form .btn.btn-primary[type="submit"] {
+.consultancy-form .button[type="submit"] {
   display: inline-flex;
   width: fit-content;
   min-width: 180px;
-  min-height: 46px;
+  min-height: 48px;
   align-items: center;
   justify-content: center;
   padding: 0.8rem 1.35rem;
   border: 0;
   border-radius: 8px;
-  background: #159bd3;
-  color: #ffffff;
   font-family: inherit;
   font-size: 0.84rem;
   font-weight: 700;
@@ -3475,23 +3473,30 @@
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease;
 }
 
-.consultancy-form .btn.btn-primary[type="submit"]:hover {
-  transform: translateY(-1px);
+.consultancy-form .button[type="submit"]:focus-visible {
+  outline: 3px solid var(--navy);
+  outline-offset: 3px;
 }
 
-.consultancy-form .btn.btn-primary[type="submit"]:disabled {
+.consultancy-form .button[type="submit"]:disabled {
   cursor: wait;
   opacity: 0.65;
   transform: none;
 }
 
 @media (max-width: 700px) {
-  .consultancy-form .btn.btn-primary[type="submit"] {
+  .consultancy-form .button[type="submit"] {
     width: 100%;
   }
+}
+
+/* Keep linked content below the sticky navigation. */
+#enquiry,
+#free-resources {
+  scroll-margin-top: 110px;
 }
 
 /* Regulatory client image — preserve full composition */
