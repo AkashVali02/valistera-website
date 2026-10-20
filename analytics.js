@@ -4,6 +4,9 @@
 
   const MEASUREMENT_ID = 'G-0EQ98P2EPW';
   const CONSENT_KEY = 'valistera_analytics_consent';
+  let currentConsent = getConsent();
+  window['ga-disable-' + MEASUREMENT_ID] = true;
+  window.valisteraHasAnalyticsConsent = () => currentConsent === 'accepted';
 
   window.dataLayer = window.dataLayer || [];
 
@@ -24,16 +27,16 @@
   let analyticsLoaded = false;
 
   function loadAnalytics() {
-    if (analyticsLoaded) return;
-
-    analyticsLoaded = true;
-
+    window['ga-disable-' + MEASUREMENT_ID] = false;
     gtag('consent', 'update', {
       analytics_storage: 'granted',
       ad_storage: 'denied',
       ad_user_data: 'denied',
       ad_personalization: 'denied'
     });
+
+    if (analyticsLoaded) return;
+    analyticsLoaded = true;
 
     gtag('js', new Date());
     gtag('config', MEASUREMENT_ID);
@@ -48,6 +51,7 @@
   }
 
   function denyAnalytics() {
+    window['ga-disable-' + MEASUREMENT_ID] = true;
     gtag('consent', 'update', {
       analytics_storage: 'denied',
       ad_storage: 'denied',
@@ -80,6 +84,7 @@
   }
 
   function saveConsent(value) {
+    currentConsent = value;
     try {
       localStorage.setItem(CONSENT_KEY, value);
     } catch (_) {}
@@ -107,6 +112,10 @@
         box-shadow: 0 18px 50px rgba(0,0,0,.32);
         z-index: 99999;
         font: inherit;
+        max-height: calc(100vh - 32px);
+        max-height: calc(100dvh - 32px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
       }
 
       #vs-consent-banner strong {
@@ -151,7 +160,8 @@
         color: #fff;
       }
 
-      #vs-consent-reject {
+      #vs-consent-reject,
+      #vs-consent-close {
         border: 1px solid #64748b;
         background: transparent;
         color: #f8fafc;
@@ -172,6 +182,7 @@
 
       #vs-consent-accept:focus-visible,
       #vs-consent-reject:focus-visible,
+      #vs-consent-close:focus-visible,
       #vs-cookie-settings:focus-visible {
         outline: 3px solid #93c5fd;
         outline-offset: 2px;
@@ -200,11 +211,12 @@
     document.getElementById('vs-consent-banner')?.remove();
   }
 
-  function showSettingsButton() {
+  function showSettingsButton(focus = false) {
     const existingButton = document.getElementById('vs-cookie-settings');
 
     if (existingButton) {
       existingButton.style.display = '';
+      if (focus) existingButton.focus();
       return;
     }
 
@@ -215,13 +227,14 @@
     button.setAttribute('aria-label', 'Change analytics cookie settings');
 
     button.addEventListener('click', () => {
-      showConsentBanner();
+      showConsentBanner(true);
     });
 
     document.body.appendChild(button);
+    if (focus) button.focus();
   }
 
-  function showConsentBanner() {
+  function showConsentBanner(fromSettings = false) {
     addStyles();
     removeBanner();
 
@@ -230,17 +243,17 @@
 
     const banner = document.createElement('section');
     banner.id = 'vs-consent-banner';
-    banner.setAttribute('role', 'dialog');
-    banner.setAttribute('aria-label', 'Analytics cookie preferences');
+    banner.setAttribute('role', 'region');
+    banner.setAttribute('aria-labelledby', 'vs-consent-title');
 
     banner.innerHTML = `
-      <strong>Your privacy choices</strong>
+      <strong id="vs-consent-title">Your privacy choices</strong>
       <p>
         We use optional Google Analytics to understand how visitors use
         ValiStera.com and improve our services. Analytics is not loaded unless
         you accept it. Advertising storage and ad personalization remain
         disabled.
-        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/privacy">Privacy Policy</a>
       </p>
       <div class="vs-consent-actions">
         <button id="vs-consent-reject" type="button">
@@ -249,6 +262,7 @@
         <button id="vs-consent-accept" type="button">
           Accept analytics
         </button>
+        ${fromSettings ? '<button id="vs-consent-close" type="button">Keep current choice</button>' : ''}
       </div>
     `;
 
@@ -258,30 +272,32 @@
       saveConsent('accepted');
       removeBanner();
       loadAnalytics();
-      showSettingsButton();
+      showSettingsButton(true);
     });
 
     banner.querySelector('#vs-consent-reject').addEventListener('click', () => {
-      const wasLoaded = analyticsLoaded;
-
       saveConsent('rejected');
       denyAnalytics();
       deleteAnalyticsCookies();
       removeBanner();
 
-      if (wasLoaded) {
-        location.reload();
-        return;
-      }
-
-      showSettingsButton();
+      showSettingsButton(true);
     });
+
+    if (fromSettings) {
+      const close = () => { removeBanner(); showSettingsButton(true); };
+      banner.querySelector('#vs-consent-close').addEventListener('click', close);
+      banner.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') { event.preventDefault(); close(); }
+      });
+      banner.querySelector('#vs-consent-reject').focus();
+    }
   }
 
   function initialise() {
     addStyles();
 
-    const consent = getConsent();
+    const consent = currentConsent;
 
     if (consent === 'accepted') {
       loadAnalytics();
@@ -291,12 +307,22 @@
 
     if (consent === 'rejected') {
       denyAnalytics();
+      deleteAnalyticsCookies();
       showSettingsButton();
       return;
     }
 
     showConsentBanner();
   }
+
+  // Respect preference changes from another open tab without discarding form data.
+  window.addEventListener('storage', (event) => {
+    if (event.key !== CONSENT_KEY && event.key !== null) return;
+    currentConsent = getConsent();
+    if (currentConsent !== 'accepted') { denyAnalytics(); deleteAnalyticsCookies(); }
+    removeBanner();
+    initialise();
+  });
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initialise);

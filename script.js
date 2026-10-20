@@ -8,20 +8,34 @@ document.addEventListener('DOMContentLoaded', () => {
       toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
       toggle.textContent = open ? '×' : '☰';
     };
-    toggle.addEventListener('click', () => {
-      setMenuOpen(!nav.classList.contains('open'));
-    });
+    const isInsideNavigation = (target) => nav.contains(target) || toggle.contains(target);
+    toggle.addEventListener('click', () => setMenuOpen(!nav.classList.contains('open')));
     nav.querySelectorAll('a').forEach((link) => {
       link.addEventListener('click', () => setMenuOpen(false));
     });
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && nav.classList.contains('open')) {
+        event.preventDefault();
         setMenuOpen(false);
         toggle.focus();
       }
     });
+    document.addEventListener('pointerdown', (event) => {
+      if (!isInsideNavigation(event.target)) setMenuOpen(false);
+    });
+    document.addEventListener('focusin', (event) => {
+      if (!isInsideNavigation(event.target)) setMenuOpen(false);
+    });
+    const mobile = window.matchMedia('(max-width: 820px)');
+    mobile.addEventListener('change', () => {
+      const focusWasInNav = nav.contains(document.activeElement);
+      setMenuOpen(false);
+      if (mobile.matches && focusWasInNav) toggle.focus();
+    });
   }
-  const year=document.getElementById('year');if(year)year.textContent=new Date().getFullYear();const form=document.getElementById('contact-form');if(form){const params=new URLSearchParams(location.search);const wanted=params.get('resource')||params.get('course')||params.get('topic');if(wanted){const msg=form.querySelector('[name="message"]');if(msg)msg.value='I would like to enquire about: '+wanted.replaceAll('-',' ')+'\n\n';}form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const subject='ValiStera website enquiry - '+d.get('interest');const body='Name: '+d.get('name')+'\nEmail: '+d.get('email')+'\nArea of interest: '+d.get('interest')+'\n\nMessage:\n'+d.get('message');location.href='mailto:contact@valistera.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);});}});
+  const year = document.getElementById('year');
+  if (year) year.textContent = new Date().getFullYear();
+});
 /* ValiStera performance counters — respect reduced-motion preferences. */
 (function(){
   const counters=document.querySelectorAll('.count-up');
@@ -100,7 +114,6 @@ function getValiSteraEnquiryContext(search) {
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("consultancy-enquiry-form");
-
   if (!form) return;
 
   const status = document.getElementById("form-status");
@@ -108,54 +121,53 @@ document.addEventListener("DOMContentLoaded", () => {
   const serviceField = form.querySelector('[name="service"]');
   const messageField = form.querySelector('[name="message"]');
   const enquiryContext = getValiSteraEnquiryContext(window.location.search);
+  let submitting = false;
 
   function prefillEnquiry() {
-    if (enquiryContext.service && !serviceField.value) {
-      serviceField.value = enquiryContext.service;
-    }
-    if (
-      enquiryContext.message &&
-      !messageField.value &&
-      serviceField.value === "Training / ValiStera Academy"
-    ) {
+    if (enquiryContext.service && !serviceField.value) serviceField.value = enquiryContext.service;
+    if (enquiryContext.message && !messageField.value && serviceField.value === "Training / ValiStera Academy") {
       messageField.value = enquiryContext.message;
     }
   }
 
-  prefillEnquiry();
+  function setStatus(message, state, focus = false) {
+    status.textContent = message;
+    status.className = "form-status" + (state ? " form-status-" + state : "");
+    if (focus) status.focus();
+  }
 
+  function resetVerification() {
+    // A third-party widget error must not turn a confirmed submission into a failure.
+    try { window.turnstile?.reset(); } catch (_) {}
+  }
+
+  prefillEnquiry();
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
+    if (submitting) return;
+    setStatus("", "");
 
-    status.textContent = "";
-    status.className = "form-status";
-
+    for (const name of ["name", "organization", "email", "phone", "country", "message"]) {
+      const field = form.elements.namedItem(name);
+      if (field) field.value = field.value.trim();
+    }
     if (!form.reportValidity()) {
-      status.textContent = "Please complete all required fields.";
-      status.classList.add("form-status-error");
+      setStatus("Please complete all required fields.", "error");
       return;
     }
 
-    const turnstileToken =
-      form.querySelector('[name="cf-turnstile-response"]')?.value || "";
-
+    const turnstileToken = form.querySelector('[name="cf-turnstile-response"]')?.value || "";
     if (!turnstileToken) {
-      status.textContent = "Please complete the security verification.";
-      status.classList.add("form-status-error");
+      setStatus("Please complete the security verification. If it does not appear, use the email link below.", "error", true);
       return;
     }
-
     const endpoint = form.dataset.endpoint;
-
     if (!endpoint) {
-      status.textContent =
-        "The enquiry service is temporarily unavailable. Please email contact@valistera.com.";
-      status.classList.add("form-status-error");
+      setStatus("The enquiry service is temporarily unavailable. Please email contact@valistera.com.", "error", true);
       return;
     }
 
     const data = new FormData(form);
-
     const payload = {
       name: data.get("name"),
       organization: data.get("organization"),
@@ -171,72 +183,57 @@ document.addEventListener("DOMContentLoaded", () => {
       turnstileToken,
     };
 
+    submitting = true;
     submitButton.disabled = true;
     submitButton.textContent = "Submitting…";
+    form.setAttribute("aria-busy", "true");
+    setStatus("Submitting your enquiry…", "");
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 30000);
 
     try {
       const response = await fetch(endpoint, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
+        signal: controller.signal,
       });
-
       let result = {};
+      try { result = await response.json(); } catch (_) {}
+      if (!response.ok) {
+        throw new Error(typeof result?.error === "string" ? result.error : "We could not submit your enquiry. Please email contact@valistera.com if the problem continues.");
+      }
+      if (!result?.ok) {
+        throw new Error(typeof result?.error === "string" && result.error ? result.error : "We could not confirm the server response. Please email contact@valistera.com before sending again.");
+      }
 
+      // Only a confirmed successful submission with current consent records a lead.
       try {
-        result = await response.json();
-      } catch {
-        result = {};
-      }
-
-      if (!response.ok || !result.ok) {
-        throw new Error(
-          result.error ||
-          "We could not submit your enquiry. Please try again."
-        );
-      }
-    /* GA4 lead event — only after confirmed submission and analytics consent */
-    try {
-      if (
-        localStorage.getItem("valistera_analytics_consent") === "accepted" &&
-        typeof window.gtag === "function"
-      ) {
-        window.gtag("event", "generate_lead", {
-          lead_source: "website_consultancy_enquiry"
-        });
-      }
-    } catch (_) {}
-
+        if (window.valisteraHasAnalyticsConsent?.() && typeof window.gtag === "function") {
+          window.gtag("event", "generate_lead", { lead_source: "website_consultancy_enquiry" });
+        }
+      } catch (_) {}
 
       form.reset();
       prefillEnquiry();
-
-      if (window.turnstile) {
-        window.turnstile.reset();
-      }
-
-      status.textContent =
-        result.message ||
-        "Thank you. Your enquiry has been submitted successfully.";
-
-      status.classList.add("form-status-success");
-
+      resetVerification();
+      setStatus(typeof result.message === "string" && result.message ? result.message : "Thank you. Your enquiry has been submitted successfully.", "success", true);
     } catch (error) {
-      status.textContent =
-        error.message ||
-        "We could not submit your enquiry. Please email contact@valistera.com.";
-
-      status.classList.add("form-status-error");
-
-      if (window.turnstile) {
-        window.turnstile.reset();
-      }
-
+      const message = error.name === "AbortError"
+        ? "The request timed out and delivery could not be confirmed. Your details are still here. Please email contact@valistera.com before sending again."
+        : error instanceof TypeError
+          ? "The connection was interrupted and delivery could not be confirmed. Your details are still here. Please email contact@valistera.com before sending again."
+          : error.message || "We could not submit your enquiry. Please email contact@valistera.com.";
+      setStatus(message, "error", true);
+      resetVerification();
     } finally {
+      window.clearTimeout(timeout);
+      submitting = false;
+      form.setAttribute("aria-busy", "false");
       submitButton.disabled = false;
       submitButton.textContent = "Submit enquiry";
     }
   });
+  // Keep the HTML button disabled until its secure submit handler is attached.
+  submitButton.disabled = false;
 });
