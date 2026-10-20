@@ -23,3 +23,161 @@
 
 /assets/font-manrope-v20-latin-a30ddcd349.woff2
   Cache-Control: public, max-age=31536000, immutable
+
+# Immutable responsive images; the filename includes a content hash.
+
+/assets/images/about-hero-1080-0c4e547dfb.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/about-hero-480-24ec6d8cc8.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/about-hero-720-c0480db74f.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/about-support-1-1080-67a9343bbe.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/about-support-1-480-6b86198769.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/about-support-1-720-99d2cf02b7.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/academy-hero-480-038a99942f.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/academy-hero-720-89c80dcdbe.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/careers-hero-1080-a7f23ddeed.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/careers-hero-480-dfc681fc9b.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/careers-hero-720-32004a68e5.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/contact-hero-1080-7b6de33bcc.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/contact-hero-480-055a91d0b3.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/contact-hero-720-884dc07a42.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/digital-quality-hero-1080-a748ac564d.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/digital-quality-hero-1600-feddfd54e3.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/digital-quality-hero-2560-9b265b0222.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/digital-quality-hero-480-4dd9368755.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/digital-quality-hero-720-d921f074c3.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/gmp-compliance-hero-480-5a9f0c1624.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/gmp-compliance-hero-612-ba29a4c35d.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/inspection-readiness-hero-1080-c3590239df.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/inspection-readiness-hero-1715-0217b1f32b.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/inspection-readiness-hero-480-168081bc50.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/inspection-readiness-hero-720-52eb3ad2a0.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/qualification-validation-hero-1200-cd69b5ff21.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/qualification-validation-hero-480-58fd3df7c4.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/qualification-validation-hero-720-e65a02f114.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/regulatory-services-hero-1080-9cc2698c24.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/regulatory-services-hero-1600-16336f9998.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/regulatory-services-hero-480-e9edb79f80.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/regulatory-services-hero-720-e41979884b.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/regulatory-services-support-1-1080-601270a771.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/regulatory-services-support-1-1600-c616135479.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/regulatory-services-support-1-480-0ad94af1aa.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/regulatory-services-support-1-720-6d0b452c42.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/resources-hero-1080-efe6d09e28.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/resources-hero-480-bc6bd71d93.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/resources-hero-720-4c958bc43b.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/resources-support-1-1079-dd640acde8.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/resources-support-1-480-9e000d6c6d.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/resources-support-1-720-ee2b5a5c04.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/resources-support-2-1080-df47dd4321.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/resources-support-2-480-b7546ef77a.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/resources-support-2-720-2c9a1380eb.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/services-hero-1080-51bc852cd7.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/services-hero-480-ff382a07d6.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/services-hero-720-3cdf537c9b.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/sterile-manufacturing-hero-1080-e904bab5fe.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/sterile-manufacturing-hero-1600-cad910327a.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/sterile-manufacturing-hero-480-d17fd14629.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/images/sterile-manufacturing-hero-720-e591b358b1.webp
+  Cache-Control: public, max-age=31536000, immutable
