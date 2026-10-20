@@ -1,0 +1,25 @@
+# Immutable font files: change the hash in the filename when replacing a font.
+
+/assets/font-dm-sans-v17-latin-ext-a5d38fe99f.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/font-dm-sans-v17-latin-9fea608a94.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/font-manrope-v20-cyrillic-ext-de37de877d.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/font-manrope-v20-cyrillic-c268b459a9.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/font-manrope-v20-greek-2fb2e8cbfd.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/font-manrope-v20-vietnamese-6bbb044ab4.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/font-manrope-v20-latin-ext-3911b66d9f.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/font-manrope-v20-latin-a30ddcd349.woff2
+  Cache-Control: public, max-age=31536000, immutable
