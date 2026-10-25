@@ -15,21 +15,26 @@
 - [x] Final assessment: 15 questions, score, answer feedback, restart and progress behavior tested.
 - [x] Dashboard: in-progress and fully-completed scenarios verified, with separate tracking for watched videos, passed quizzes and assessment target.
 - [x] Learner reported positive review of lesson experience and passed the final assessment.
-- [x] Browser-title mismatches identified in Lessons 1.3 and 1.10 and corrected on the preview branch (deployment propagation to be confirmed).
+- [x] Browser-title mismatches in Lessons 1.3 and 1.10 corrected and confirmed on deployed preview.
 
 - [x] **Learner continuation consistency (25 October 2026):** Hero CTA and progress-dashboard CTA now share the same destination and label. Browser tests passed for fresh start, resume at saved position, pending lesson quiz, and completed module/final-assessment review.
 - [x] **Keyboard smoke test:** Tab navigation reached visible links, video controls, caption controls and assessment choices on tested pages; this is not a full screen-reader or WCAG audit.
 
 ## 2. Technical/content review observations
 - [x] Lesson topics cover GMP principles, pharmaceutical quality systems and GDP, personnel, premises/equipment, manufacturing, packaging, QC/OOS, deviations/CAPA, change control and self-inspection.
-- [x] Audited the ten individual lesson knowledge-check questions against their lesson topics and answer keys. **Found and corrected Lesson 1.9:** its question was a duplicate differential-pressure alarm scenario from Lesson 1.8; replaced it with a change-control scenario concerning replacement of a GMP-critical differential-pressure transmitter. The revised question is deployed and the quiz interaction has passed browser QA.\n- [x] Scenario answers generally emphasize containment, reporting, documented assessment and authorized disposition rather than informal fixes.
+- [x] Audited the ten individual lesson knowledge-check questions against their lesson topics and answer keys. **Found and corrected Lesson 1.9:** its question was a duplicate differential-pressure alarm scenario from Lesson 1.8; replaced it with a change-control scenario concerning replacement of a GMP-critical differential-pressure transmitter. The revised question is deployed and the quiz interaction has passed browser QA.
+- [x] Scenario answers generally emphasize containment, reporting, documented assessment and authorized disposition rather than informal fixes.
 - [x] Assessment is described as a **self-study knowledge check**, not an accredited qualification or certificate.
 - [x] The 80% practice target is expressly described as an educational target, **not** a regulatory acceptance criterion.
 - [x] Browser-local progress is described as a learning aid, **not** an approved GMP training/competency record.
-- [x] **Preliminary content screening:** Reviewed the eight-scene narration outlines for Lessons 1.2–1.10 for topic alignment, risk-based language and unsafe shortcuts. No clear critical contradiction was identified in this limited screening; this does **not** constitute full narration, diagram, or regulatory approval.\n- [ ] **Subject-matter expert sign-off required:** Review every spoken narration, visual diagram, caption, question and answer for technical correctness and consistency with the target regulatory jurisdictions. Automated browser QA does not establish scientific/regulatory accuracy.
-- [x] **Official source baseline checked (25 October 2026):** European Commission EudraLex Volume 4 lists Chapters 1–9, including Chapter 9 (Self Inspection); EMA identifies ICH Q9(R1) as the current risk-management guideline, effective 26 July 2023. ICH Q9(R1) emphasizes patient protection and risk-proportionate effort/formality/documentation, without overriding applicable GMP obligations.\n- [ ] **Regulatory reference verification required:** Check applicable current official EU GMP (including Annexes 1/11/15 as relevant), ICH Q9(R1), and jurisdiction-specific GMP provisions before adding clause-level claims or representing the course as regulator-reviewed. No unverified clause numbers should be added.
-- [x] **Preview deployment rechecked:** Updated Lesson 1.3 and 1.10 browser titles are visible on the public preview.\n- [ ] **Caption spot-check:** Manually inspect playback at start/middle/end of each lesson for audible/text alignment. Speech-aligned estimates are not a substitute for full accessibility review.
-- [x] **Initial accessibility scan:** All 12 Academy pages have a primary heading; tested buttons and form inputs have accessible labels. Corrected generic/inaccurate video-player labels across all ten lessons.\n- [ ] **Accessibility review remains open:** The videos have custom page-rendered speech-aligned captions, but no native WebVTT `<track kind="captions">` files. Verify caption accuracy, keyboard controls, screen-reader behavior, contrast, focus order and low-bandwidth playback before release. The initial scan is not WCAG conformance certification.
+- [x] **Preliminary content screening:** Reviewed the eight-scene narration outlines for Lessons 1.2–1.10 for topic alignment, risk-based language and unsafe shortcuts. No clear critical contradiction was identified in this limited screening; this does **not** constitute full narration, diagram, or regulatory approval.
+- [ ] **Subject-matter expert sign-off required:** Review every spoken narration, visual diagram, caption, question and answer for technical correctness and consistency with the target regulatory jurisdictions. Automated browser QA does not establish scientific/regulatory accuracy.
+- [x] **Official source baseline checked (25 October 2026):** European Commission EudraLex Volume 4 lists Chapters 1–9, including Chapter 9 (Self Inspection); EMA identifies ICH Q9(R1) as the current risk-management guideline, effective 26 July 2023. ICH Q9(R1) emphasizes patient protection and risk-proportionate effort/formality/documentation, without overriding applicable GMP obligations.
+- [ ] **Regulatory reference verification required:** Check applicable current official EU GMP (including Annexes 1/11/15 as relevant), ICH Q9(R1), and jurisdiction-specific GMP provisions before adding clause-level claims or representing the course as regulator-reviewed. No unverified clause numbers should be added.
+- [x] **Preview deployment rechecked:** Updated Lesson 1.3 and 1.10 browser titles are visible on the public preview.
+- [ ] **Caption spot-check:** Manually inspect playback at start/middle/end of each lesson for audible/text alignment. Speech-aligned estimates are not a substitute for full accessibility review.
+- [x] **Initial accessibility scan:** All 12 Academy pages have a primary heading; tested buttons and form inputs have accessible labels. Corrected generic/inaccurate video-player labels across all ten lessons.
+- [ ] **Accessibility review remains open:** All ten videos now include native English WebVTT caption tracks, verified HTTP 200 with valid WebVTT format; the legacy custom caption panel is hidden and the captions toggle controls native tracks. Verify caption/audio accuracy, screen-reader behavior, contrast, full keyboard focus order and low-bandwidth playback before release. The initial scan is not WCAG conformance certification.
 - [ ] **Media permissions:** Confirm commercial/public distribution rights for all narration voices, background graphics, fonts, diagrams and media assets.
 - [ ] **Legal/privacy:** Review any public training terms, privacy disclosure and claims before public launch; browser storage is local, but the website may use third-party media delivery.
 - [ ] **Analytics and support:** Define non-invasive error reporting and learner support contact before release if needed.
@@ -42,7 +47,16 @@
 
 **Scope note:** These are verified source entry points, not evidence that every narration statement, diagram, assessment item or regulatory provision has been cross-checked. No blanket claim of regulatory endorsement or compliance is made.
 
-## 4. Release gates
+## 4. Final preview QA update — 25 October 2026
+- [x] All ten caption files return HTTP 200 as valid `text/vtt` (43–156 cues per lesson); all ten lessons have native caption tracks.
+- [x] Browser QA verifies one visible caption system, working ON/OFF toggle and hidden duplicate custom captions across all ten lessons.
+- [x] All 12 pages pass automated accessibility structure checks for primary headings, labelled controls and caption track presence (where applicable).
+- [x] Hero CTA and dashboard continuation links agree for fresh start, resume, quiz pending and completed module.
+- [x] Assessment question-bank preliminary review documented in `academy/module-1-assessment-technical-review.md`; this is not independent SME sign-off.
+- [x] Latest 12-page smoke test: HTTP 200 and no reported page failures.
+- [ ] Independent GMP reviewer approval, real-device assistive-technology testing, human caption/audio synchronization, media licensing and legal/privacy review are still required.
+
+## 5. Release gates
 1. Complete outstanding subject-matter, regulatory, manual accessibility, media-rights and legal reviews. Automated accessibility fixes and native captions are implemented, but formal WCAG compliance is not claimed.
 2. **Completed:** Preview deployment now includes the Lesson 1.3 and 1.10 title corrections and the corrected Lesson 1.9 quiz. Deployment was initially blocked by a local-link validator bug (the new `academy/` documentation directory shadowed the `/academy` route); fixed in `validate-site.cjs`. Full 12-page browser smoke tests and Lesson 1.9 quiz checks passed.
 3. Obtain explicit business-owner approval to merge the preview branch into `main`.
@@ -50,5 +64,5 @@
 5. Post-release smoke test all lesson URLs, video delivery, assessment, dashboard and navigation on production.
 6. Only after verification, consider search indexing and public announcements.
 
-## 5. Decision
+## 6. Decision
 **Do not merge to production yet.** Functional QA is positive, but technical/regulatory sign-off and final release approval remain open. This checklist is an internal release-readiness record, **not an approved GMP validation report or certification**.
