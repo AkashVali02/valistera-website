@@ -17,6 +17,9 @@
 - [x] Learner reported positive review of lesson experience and passed the final assessment.
 - [x] Browser-title mismatches identified in Lessons 1.3 and 1.10 and corrected on the preview branch (deployment propagation to be confirmed).
 
+- [x] **Learner continuation consistency (25 October 2026):** Hero CTA and progress-dashboard CTA now share the same destination and label. Browser tests passed for fresh start, resume at saved position, pending lesson quiz, and completed module/final-assessment review.
+- [x] **Keyboard smoke test:** Tab navigation reached visible links, video controls, caption controls and assessment choices on tested pages; this is not a full screen-reader or WCAG audit.
+
 ## 2. Technical/content review observations
 - [x] Lesson topics cover GMP principles, pharmaceutical quality systems and GDP, personnel, premises/equipment, manufacturing, packaging, QC/OOS, deviations/CAPA, change control and self-inspection.
 - [x] Audited the ten individual lesson knowledge-check questions against their lesson topics and answer keys. **Found and corrected Lesson 1.9:** its question was a duplicate differential-pressure alarm scenario from Lesson 1.8; replaced it with a change-control scenario concerning replacement of a GMP-critical differential-pressure transmitter. The revised question is deployed and the quiz interaction has passed browser QA.\n- [x] Scenario answers generally emphasize containment, reporting, documented assessment and authorized disposition rather than informal fixes.
