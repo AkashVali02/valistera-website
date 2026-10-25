@@ -9,7 +9,7 @@ const quizDone=localStorage.getItem('valistera_gmp_'+lesson.id+'_quiz')==='passe
 const position=Number(localStorage.getItem('valistera_gmp_'+lesson.id+'_position')||0);
 if(videoDone)watched++;if(quizDone)passed++;
 if(!first&&(!videoDone||!quizDone))first={...lesson,position,videoDone,quizDone};
-const a=document.querySelector('a[href="'+lesson.url+'"]');
+const a=document.querySelector('.lesson a[href="'+lesson.url+'"]');
 if(a&&a.closest('.lesson')){
 const el=document.createElement('span');el.className='lesson-status';
 el.textContent=videoDone&&quizDone?'Video watched · Quiz passed':videoDone?'Video watched · Quiz pending':quizDone?'Quiz passed · Video incomplete':position>15?'In progress':'Not started';
