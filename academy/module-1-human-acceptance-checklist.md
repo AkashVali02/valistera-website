@@ -5,6 +5,10 @@
 **Preview:** https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-gmp-foundations.html  
 **Branch:** `academy-player-preview`; **production changes prohibited without explicit owner authorization**.
 
+## Mobile user acceptance evidence — 26 October 2026
+
+**User-reported results:** Video narration/playback **PASS**; caption synchronization/toggle **PASS**; Key Explanation controls **PASS**; knowledge-check quiz **PASS**. The user was directed to test Lessons 1.1 and 1.6 on an Android phone. These are **user-reported checks**, not an independent screen-reader or all-lesson accessibility audit. Exact device/browser version and per-lesson test evidence were not collected. Do not mark the all-ten-lesson, screen-reader, media-rights or GMP technical-review gates complete on this basis.
+
 ## A. Independent technical review (qualified GMP SME)
 Review each lesson's spoken audio, on-screen illustrations, captions, quiz question, answer and explanation. Mark each row Pass / Rework / N/A, with reviewer initials and date. Do not mark pass based on automated website testing.
 
