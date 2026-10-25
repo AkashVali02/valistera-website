@@ -1,0 +1,43 @@
+# ValiStera Academy — GMP Foundations Module 1 Release Readiness
+**Status:** PREVIEW QA COMPLETE WITH RELEASE CONDITIONS — NOT APPROVED FOR PRODUCTION  
+**Review date:** 25 October 2026  
+**Repository:** AkashVali02/valistera-website  
+**Review branch:** academy-player-preview  
+**Scope:** Course overview, Lessons 1.1–1.10, final knowledge assessment, progress dashboard, resume and quiz navigation.
+
+## 1. Verified functional checks
+- [x] Course overview, 10 lesson pages and final assessment returned HTTP 200 on preview.
+- [x] Responsive browser checks at 390px, 768px and 1280px: no horizontal overflow or uncaught JavaScript errors in the tested flows.
+- [x] Every lesson page contains a video player and quiz anchor.
+- [x] Preview pages retain `noindex,nofollow`.
+- [x] Resume tests for all 10 lessons: 65-second saved position restored, playback remains paused until learner action.
+- [x] Direct quiz links across all 10 lessons verified.
+- [x] Final assessment: 15 questions, score, answer feedback, restart and progress behavior tested.
+- [x] Dashboard: in-progress and fully-completed scenarios verified, with separate tracking for watched videos, passed quizzes and assessment target.
+- [x] Learner reported positive review of lesson experience and passed the final assessment.
+- [x] Browser-title mismatches identified in Lessons 1.3 and 1.10 and corrected on the preview branch (deployment propagation to be confirmed).
+
+## 2. Technical/content review observations
+- [x] Lesson topics cover GMP principles, pharmaceutical quality systems and GDP, personnel, premises/equipment, manufacturing, packaging, QC/OOS, deviations/CAPA, change control and self-inspection.
+- [x] Scenario answers generally emphasize containment, reporting, documented assessment and authorized disposition rather than informal fixes.
+- [x] Assessment is described as a **self-study knowledge check**, not an accredited qualification or certificate.
+- [x] The 80% practice target is expressly described as an educational target, **not** a regulatory acceptance criterion.
+- [x] Browser-local progress is described as a learning aid, **not** an approved GMP training/competency record.
+- [ ] **Subject-matter expert sign-off required:** Review every spoken narration, visual diagram, caption, question and answer for technical correctness and consistency with the target regulatory jurisdictions. Automated browser QA does not establish scientific/regulatory accuracy.
+- [ ] **Regulatory reference verification required:** Check applicable current official EU GMP (including Annexes 1/11/15 as relevant), ICH Q9(R1), and jurisdiction-specific GMP provisions before adding clause-level claims or representing the course as regulator-reviewed. No unverified clause numbers should be added.
+- [ ] **Caption spot-check:** Manually inspect playback at start/middle/end of each lesson for audible/text alignment. Speech-aligned estimates are not a substitute for full accessibility review.
+- [ ] **Accessibility review:** Keyboard navigation, contrast, caption legibility, focus order, screen-reader announcements and low-bandwidth playback need broader device/user testing.
+- [ ] **Media permissions:** Confirm commercial/public distribution rights for all narration voices, background graphics, fonts, diagrams and media assets.
+- [ ] **Legal/privacy:** Review any public training terms, privacy disclosure and claims before public launch; browser storage is local, but the website may use third-party media delivery.
+- [ ] **Analytics and support:** Define non-invasive error reporting and learner support contact before release if needed.
+
+## 3. Release gates
+1. Complete outstanding subject-matter, regulatory, accessibility, media-rights and legal reviews.
+2. Confirm preview deployment has the latest Lesson 1.3 and 1.10 title corrections and rerun smoke checks.
+3. Obtain explicit business-owner approval to merge the preview branch into `main`.
+4. After approval, merge with a rollback plan; check Cloudflare deployment and live site.
+5. Post-release smoke test all lesson URLs, video delivery, assessment, dashboard and navigation on production.
+6. Only after verification, consider search indexing and public announcements.
+
+## 4. Decision
+**Do not merge to production yet.** Functional QA is positive, but technical/regulatory sign-off and final release approval remain open. This checklist is an internal release-readiness record, **not an approved GMP validation report or certification**.
