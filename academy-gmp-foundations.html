@@ -37,6 +37,7 @@ description.textContent=(10-watched)+' videos remaining · '+(10-passed)+' lesso
 const next=document.getElementById('nextLesson');
 if(first){const quizOnly=first.videoDone&&!first.quizDone;next.href=first.url+(quizOnly?'#knowledge-check':first.position>15?'?resume=1':'');next.textContent=quizOnly?'Take Lesson '+first.n+' quiz →':first.position>15?'Resume Lesson '+first.n+' video →':'Start Lesson '+first.n+' video →';}
 else{next.href='/academy-gmp-assessment.html';next.textContent=assessmentPassed?'Review final assessment →':'Take final assessment →';}
+const hero=document.getElementById('startLabel');if(hero){hero.textContent=next.textContent;const link=hero.closest('a');if(link)link.href=next.href;}
 }catch(e){document.getElementById('nextLesson').textContent='Continue learning →';}
 })();
 </script></main></body></html>
