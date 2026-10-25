@@ -9,6 +9,9 @@
 
 **User-reported results:** Video narration/playback **PASS**; caption synchronization/toggle **PASS**; Key Explanation controls **PASS**; knowledge-check quiz **PASS**. The user was directed to test Lessons 1.1 and 1.6 on an Android phone. These are **user-reported checks**, not an independent screen-reader or all-lesson accessibility audit. Exact device/browser version and per-lesson test evidence were not collected. Do not mark the all-ten-lesson, screen-reader, media-rights or GMP technical-review gates complete on this basis.
 
+## Assigned approval route
+Two separate technical assessments are required: (1) internal senior GMP consultant and (2) external independent GMP specialist. See `academy/review/module-1-review-instructions.md`, `module-1-reviewer-signoff-template.md`, `module-1-finding-log.md` and `module-1-approval-decision.md`. Both reviewer decisions remain **PENDING**; the owner's separate production authorization is also **PENDING**.
+
 ## A. Independent technical review (qualified GMP SME)
 Review each lesson's spoken audio, on-screen illustrations, captions, quiz question, answer and explanation. Mark each row Pass / Rework / N/A, with reviewer initials and date. Do not mark pass based on automated website testing.
 
