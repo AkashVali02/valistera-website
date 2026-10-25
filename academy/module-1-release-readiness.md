@@ -19,7 +19,7 @@
 
 ## 2. Technical/content review observations
 - [x] Lesson topics cover GMP principles, pharmaceutical quality systems and GDP, personnel, premises/equipment, manufacturing, packaging, QC/OOS, deviations/CAPA, change control and self-inspection.
-- [x] Scenario answers generally emphasize containment, reporting, documented assessment and authorized disposition rather than informal fixes.
+- [x] Audited the ten individual lesson knowledge-check questions against their lesson topics and answer keys. **Found and corrected Lesson 1.9:** its question was a duplicate differential-pressure alarm scenario from Lesson 1.8; replaced it with a change-control scenario concerning replacement of a GMP-critical differential-pressure transmitter. Deployment and fresh quiz interaction check remain pending.\n- [x] Scenario answers generally emphasize containment, reporting, documented assessment and authorized disposition rather than informal fixes.
 - [x] Assessment is described as a **self-study knowledge check**, not an accredited qualification or certificate.
 - [x] The 80% practice target is expressly described as an educational target, **not** a regulatory acceptance criterion.
 - [x] Browser-local progress is described as a learning aid, **not** an approved GMP training/competency record.
