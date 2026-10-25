@@ -13,7 +13,7 @@ const a=document.querySelector('.lesson a[href="'+lesson.url+'"]');
 if(a&&a.closest('.lesson')){
 const el=document.createElement('span');el.className='lesson-status';
 el.textContent=videoDone&&quizDone?'Video watched · Quiz passed':videoDone?'Video watched · Quiz pending':quizDone?'Quiz passed · Video incomplete':position>15?'In progress':'Not started';
-a.closest('.lesson').querySelector('div').appendChild(el);
+a.closest('.lesson').querySelector('div').appendChild(el);if(videoDone&&!quizDone){a.href=lesson.url+'#knowledge-check';a.textContent='Take quiz →';}else if(!videoDone&&position>15){a.href=lesson.url+'?resume=1';a.textContent='Resume video →';}
 }}
 document.getElementById('watchedCount').textContent=watched+' / 10 lessons watched';
 document.getElementById('quizCount').textContent=passed+' / 10 lesson quizzes passed';
@@ -35,8 +35,8 @@ title.textContent='Module 1 in progress';
 description.textContent=(10-watched)+' videos remaining · '+(10-passed)+' lesson quizzes remaining · '+(assessmentPassed?'Final assessment practice target reached':'Final assessment practice target pending')+'.';
 }
 const next=document.getElementById('nextLesson');
-if(first){next.href=first.url;next.textContent='Continue Lesson '+first.n+(first.videoDone?' knowledge check':'')+' →';}
-else{next.href='/academy-gmp-assessment.html';next.textContent='Review final assessment →';}
+if(first){const quizOnly=first.videoDone&&!first.quizDone;next.href=first.url+(quizOnly?'#knowledge-check':first.position>15?'?resume=1':'');next.textContent=quizOnly?'Take Lesson '+first.n+' quiz →':first.position>15?'Resume Lesson '+first.n+' video →':'Start Lesson '+first.n+' video →';}
+else{next.href='/academy-gmp-assessment.html';next.textContent=assessmentPassed?'Review final assessment →':'Take final assessment →';}
 }catch(e){document.getElementById('nextLesson').textContent='Continue learning →';}
 })();
 </script></main></body></html>
