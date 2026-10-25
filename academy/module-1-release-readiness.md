@@ -40,7 +40,7 @@
 **Scope note:** These are verified source entry points, not evidence that every narration statement, diagram, assessment item or regulatory provision has been cross-checked. No blanket claim of regulatory endorsement or compliance is made.
 
 ## 4. Release gates
-1. Complete outstanding subject-matter, regulatory, accessibility, media-rights and legal reviews.
+1. Complete outstanding subject-matter, regulatory, manual accessibility, media-rights and legal reviews. Automated accessibility fixes and native captions are implemented, but formal WCAG compliance is not claimed.
 2. **Completed:** Preview deployment now includes the Lesson 1.3 and 1.10 title corrections and the corrected Lesson 1.9 quiz. Deployment was initially blocked by a local-link validator bug (the new `academy/` documentation directory shadowed the `/academy` route); fixed in `validate-site.cjs`. Full 12-page browser smoke tests and Lesson 1.9 quiz checks passed.
 3. Obtain explicit business-owner approval to merge the preview branch into `main`.
 4. After approval, merge with a rollback plan; check Cloudflare deployment and live site.
