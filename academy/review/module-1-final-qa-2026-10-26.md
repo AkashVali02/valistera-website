@@ -1,3 +1,5 @@
+> Release decision updated 26 October 2026: the owner reported consultant approval and explicitly authorized publication. See [the release decision record](module-1-approval-decision.md). The NO-GO statements below describe the pre-authorization technical QA snapshot, not the current owner decision. No technical evidence or independent signatures have been invented.
+
 # ValiStera Academy Module 1 — consolidated final technical QA
 
 **26 October 2026 · academy-player-preview · production NO-GO**
