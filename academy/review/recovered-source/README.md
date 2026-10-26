@@ -11,3 +11,9 @@ The [Kokoro publisher model card](https://huggingface.co/hexgrad/Kokoro-82M) and
 No custom voice cloning, paid voice-generation API or added music was used for this correction. Source inspection reveals no music input in these render paths. That is evidence of the build inputs, not a legal warranty about all upstream training data or every historical asset.
 
 `recovered-source-matches.json` links nine original MP4s to exact recovered file hashes. Lesson 1.1's whole-video hash differs from the recovered `premium_full/full.mp4`, but their decoded mono 16-kHz signed-16-bit PCM hashes both equal `6672cd6bb55857f0b3f4a67aba97174cf7db56e272ca87dd8da999c478d29279`. This establishes the audio match; it does not establish an exact match for the final Lesson 1.1 visual assembly.
+
+## Final Lesson 1.1 assembly recovered
+
+The missing final visual assembly was subsequently located at `fast_reveal/final.mp4`. Its SHA-256 is `7c23b00967139ce5c499eb1f37ec26cfde2a45501d8352c231fa076700dddf9d`, exactly matching the published original and the new repository copy. The final assembly chain is `make_lesson.py` → `premium_full.py` → `visual_enhanced.py` → `animate_align.py` → `rebuild_fast_reveal.py`. The three additional scripts are retained here. They programmatically draw the visual panels, create staged reveal frames, reuse the original Kokoro audio and assemble 36 encoded segments. The final script makes the complete diagram visible within approximately 1.7 seconds and masks the former burned-in explanation strip. No new stock-image or music input appears in that chain.
+
+This supersedes the earlier statement that the final Lesson 1.1 visual assembly was unidentified. All ten original lesson videos now have exact recovered-render matches. Provenance matching is technical evidence, not independent legal clearance or an assertion of exclusive copyright in generated output.

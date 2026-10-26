@@ -1,0 +1,115 @@
+{
+  "scope": "Static same-origin paths, hashes and deferred loading; does not verify deployed hosting configuration.",
+  "rows": [
+    {
+      "lesson": 1,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true,
+        "original_bytes_unchanged": true
+      }
+    },
+    {
+      "lesson": 2,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true,
+        "original_bytes_unchanged": true
+      }
+    },
+    {
+      "lesson": 3,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true,
+        "original_bytes_unchanged": true
+      }
+    },
+    {
+      "lesson": 4,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true
+      }
+    },
+    {
+      "lesson": 5,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true
+      }
+    },
+    {
+      "lesson": 6,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true,
+        "original_bytes_unchanged": true
+      }
+    },
+    {
+      "lesson": 7,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true,
+        "original_bytes_unchanged": true
+      }
+    },
+    {
+      "lesson": 8,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true
+      }
+    },
+    {
+      "lesson": 9,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true,
+        "original_bytes_unchanged": true
+      }
+    },
+    {
+      "lesson": 10,
+      "checks": {
+        "file_hash_matches_manifest": true,
+        "page_uses_same_origin_copy": true,
+        "video_not_preloaded": true,
+        "no_external_video_reference": true,
+        "original_bytes_unchanged": true
+      }
+    },
+    {
+      "page": "academy-gmp-foundations.html",
+      "checks": {
+        "no_obsolete_external_media_notice": true
+      }
+    },
+    {
+      "page": "academy-gmp-assessment.html",
+      "checks": {
+        "no_obsolete_external_media_notice": true
+      }
+    }
+  ],
+  "failures": []
+}
