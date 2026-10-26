@@ -1,0 +1,796 @@
+{
+  "base": "http://127.0.0.1:8092",
+  "browser": "153.0.8010.12",
+  "checks": [
+    {
+      "name": "academy-module-2.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-module-2.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-workbook.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-workbook.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-workbook.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-workbook.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-workbook.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-workbook.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-workbook.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-module-2-workbook.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-assessment.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-assessment.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-assessment.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-assessment.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-assessment.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-assessment.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-assessment.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-module-2-assessment.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-sources.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-sources.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-sources.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-sources.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-sources.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-sources.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-module-2-sources.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-module-2-sources.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-1.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-1.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-1.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-1.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-1.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-1.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-1.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-1.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-2.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-2.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-2.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-2.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-2.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-2.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-2.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-2.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-3.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-3.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-3.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-3.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-3.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-3.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-3.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-3.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-4.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-4.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-4.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-4.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-4.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-4.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-4.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-4.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-5.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-5.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-5.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-5.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-5.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-5.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-5.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-5.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-6.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-6.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-6.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-6.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-6.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-6.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-6.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-6.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-7.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-7.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-7.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-7.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-7.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-7.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-7.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-7.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-8.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-8.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-8.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-8.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-8.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-8.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-8.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-8.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-9.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-9.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-9.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-9.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-9.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-9.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-9.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-9.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-10.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-10.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-10.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-10.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-10.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-10.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-2-10.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-2-10.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "No external subresource requests",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Lesson 1 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 111.718,
+        "cues": 34,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-1.mp4"
+      }
+    },
+    {
+      "name": "Lesson 1 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 118.63,
+        "cues": 34,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-2.mp4"
+      }
+    },
+    {
+      "name": "Lesson 2 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 119.727,
+        "cues": 34,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-3.mp4"
+      }
+    },
+    {
+      "name": "Lesson 3 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 123.2,
+        "cues": 33,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-4.mp4"
+      }
+    },
+    {
+      "name": "Lesson 4 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 122.834,
+        "cues": 33,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-5.mp4"
+      }
+    },
+    {
+      "name": "Lesson 5 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 118.3,
+        "cues": 35,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-6.mp4"
+      }
+    },
+    {
+      "name": "Lesson 6 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 118.7,
+        "cues": 33,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-7.mp4"
+      }
+    },
+    {
+      "name": "Lesson 7 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 122.816,
+        "cues": 38,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-8.mp4"
+      }
+    },
+    {
+      "name": "Lesson 8 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 119.8,
+        "cues": 32,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-9.mp4"
+      }
+    },
+    {
+      "name": "Lesson 9 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 120.345,
+        "cues": 35,
+        "source": "http://127.0.0.1:8092/assets/academy/module-2/lesson-10.mp4"
+      }
+    },
+    {
+      "name": "Lesson 10 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Risk arithmetic",
+      "pass": true
+    },
+    {
+      "name": "Risk severity warning",
+      "pass": true
+    },
+    {
+      "name": "Data default",
+      "pass": true
+    },
+    {
+      "name": "Data recompute",
+      "pass": true
+    },
+    {
+      "name": "Invalid data limit",
+      "pass": true
+    },
+    {
+      "name": "Storage defaults off",
+      "pass": true
+    },
+    {
+      "name": "Stored progress survives navigation",
+      "pass": true
+    },
+    {
+      "name": "Clear isolates module",
+      "pass": true
+    },
+    {
+      "name": "Clear disables saving",
+      "pass": true
+    },
+    {
+      "name": "Unanswered assessment not scored",
+      "pass": true
+    },
+    {
+      "name": "Full assessment score",
+      "pass": true
+    },
+    {
+      "name": "Wrong assessment score",
+      "pass": true
+    },
+    {
+      "name": "Workbook text not persisted",
+      "pass": true
+    },
+    {
+      "name": "Media retry fallback",
+      "pass": true
+    },
+    {
+      "name": "No-JS transcript",
+      "pass": true
+    },
+    {
+      "name": "No-JS no quiz submission",
+      "pass": true
+    },
+    {
+      "name": "Blocked storage reported",
+      "pass": true
+    },
+    {
+      "name": "Blocked storage lesson usable",
+      "pass": true
+    }
+  ],
+  "failures": []
+}

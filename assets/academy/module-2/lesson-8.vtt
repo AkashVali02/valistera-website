@@ -1,0 +1,173 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.456
+A control should explain how it changes
+the failure pathway.
+
+2
+00:00:03.606 --> 00:00:06.209
+Prevention reduces the chance of failure.
+
+3
+00:00:06.359 --> 00:00:08.663
+Detection identifies a problem.
+
+4
+00:00:08.813 --> 00:00:11.138
+Response determines what happens next.
+
+5
+00:00:11.288 --> 00:00:16.365
+For a mixing failure, a justified design
+or operating control may prevent
+
+6
+00:00:16.515 --> 00:00:18.179
+an unsuitable condition.
+
+7
+00:00:18.329 --> 00:00:22.596
+An alarm may detect it, but only an
+effective response can limit the
+
+8
+00:00:22.746 --> 00:00:23.833
+consequence.
+
+9
+00:00:23.983 --> 00:00:28.164
+The three blocks are complementary; none
+is automatically adequate for
+
+10
+00:00:28.314 --> 00:00:29.487
+every process.
+
+11
+00:00:30.238 --> 00:00:35.400
+Our fictional action is to verify the
+agitator-status indication and the
+
+12
+00:00:35.550 --> 00:00:37.833
+defined response to loss of mixing.
+
+13
+00:00:37.983 --> 00:00:42.463
+Engineering owns the technical check and
+operations owns the response
+
+14
+00:00:42.613 --> 00:00:44.149
+procedure and training.
+
+15
+00:00:44.299 --> 00:00:48.544
+The verification plan records the
+challenge method and the expected
+
+16
+00:00:48.694 --> 00:00:49.776
+behaviour.
+
+17
+00:00:49.926 --> 00:00:53.574
+Quality oversight reviews the evidence
+through the site system.
+
+18
+00:00:53.724 --> 00:00:57.820
+Action closed should mean the intended
+result was demonstrated,
+
+19
+00:00:57.970 --> 00:01:00.488
+not merely that a document was drafted.
+
+20
+00:01:01.238 --> 00:01:04.523
+Adding a control can introduce a new
+dependency.
+
+21
+00:01:04.673 --> 00:01:09.473
+An alarm may depend on power,
+configuration, sensor health or a shared
+
+22
+00:01:09.623 --> 00:01:10.699
+signal.
+
+23
+00:01:10.849 --> 00:01:14.412
+If the alarm and controller use the same
+failed sensor,
+
+24
+00:01:14.562 --> 00:01:17.015
+apparent independence may be misleading.
+
+25
+00:01:17.165 --> 00:01:21.347
+The diagram shows a common sensor feeding
+two functions to make that
+
+26
+00:01:21.497 --> 00:01:22.713
+concern visible.
+
+27
+00:01:22.863 --> 00:01:27.428
+Examine the actual architecture and
+challenge assumptions before taking
+
+28
+00:01:27.578 --> 00:01:30.138
+credit for an independent protective
+layer.
+
+29
+00:01:30.888 --> 00:01:35.475
+After controls are implemented, evaluate
+what risk remains and who can
+
+30
+00:01:35.625 --> 00:01:36.712
+accept it.
+
+31
+00:01:36.862 --> 00:01:39.209
+Record assumptions and review triggers.
+
+32
+00:01:39.359 --> 00:01:43.689
+Quality risk management does not excuse a
+practice that conflicts with
+
+33
+00:01:43.839 --> 00:01:45.375
+applicable requirements.
+
+34
+00:01:45.525 --> 00:01:49.899
+For the activity, select one failure mode
+and propose a prevention,
+
+35
+00:01:50.049 --> 00:01:52.289
+detection and response strategy.
+
+36
+00:01:52.439 --> 00:01:57.004
+Then identify evidence for effectiveness
+and one new risk introduced by
+
+37
+00:01:57.154 --> 00:01:58.246
+your proposal.
+
+38
+00:01:58.396 --> 00:02:02.066
+This turns a list of actions into an
+auditable argument.

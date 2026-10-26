@@ -1,0 +1,14 @@
+ValiStera Academy — Module 2 / Lesson 2.8
+Turn risk controls into testable actions
+
+Prefer a clear mechanism
+A control should explain how it changes the failure pathway. Prevention reduces the chance of failure. Detection identifies a problem. Response determines what happens next. For a mixing failure, a justified design or operating control may prevent an unsuitable condition. An alarm may detect it, but only an effective response can limit the consequence. The three blocks are complementary; none is automatically adequate for every process.
+
+Assign an owner and proof
+Our fictional action is to verify the agitator-status indication and the defined response to loss of mixing. Engineering owns the technical check and operations owns the response procedure and training. The verification plan records the challenge method and the expected behaviour. Quality oversight reviews the evidence through the site system. Action closed should mean the intended result was demonstrated, not merely that a document was drafted.
+
+Look for new failure paths
+Adding a control can introduce a new dependency. An alarm may depend on power, configuration, sensor health or a shared signal. If the alarm and controller use the same failed sensor, apparent independence may be misleading. The diagram shows a common sensor feeding two functions to make that concern visible. Examine the actual architecture and challenge assumptions before taking credit for an independent protective layer.
+
+Residual risk is a decision
+After controls are implemented, evaluate what risk remains and who can accept it. Record assumptions and review triggers. Quality risk management does not excuse a practice that conflicts with applicable requirements. For the activity, select one failure mode and propose a prevention, detection and response strategy. Then identify evidence for effectiveness and one new risk introduced by your proposal. This turns a list of actions into an auditable argument.

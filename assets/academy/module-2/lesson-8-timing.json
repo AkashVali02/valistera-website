@@ -1,0 +1,255 @@
+{
+  "duration": 122.81570833333333,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 30.238,
+      "title": "Prefer a clear mechanism"
+    },
+    {
+      "start": 30.238,
+      "end": 61.238,
+      "title": "Assign an owner and proof"
+    },
+    {
+      "start": 61.238,
+      "end": 90.888,
+      "title": "Look for new failure paths"
+    },
+    {
+      "start": 90.888,
+      "end": 122.816,
+      "title": "Residual risk is a decision"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 3.456,
+      "text": "A control should explain how it changes the failure pathway.",
+      "scene": 1
+    },
+    {
+      "start": 3.606,
+      "end": 6.209,
+      "text": "Prevention reduces the chance of failure.",
+      "scene": 1
+    },
+    {
+      "start": 6.359,
+      "end": 8.663,
+      "text": "Detection identifies a problem.",
+      "scene": 1
+    },
+    {
+      "start": 8.813,
+      "end": 11.138,
+      "text": "Response determines what happens next.",
+      "scene": 1
+    },
+    {
+      "start": 11.288,
+      "end": 16.365,
+      "text": "For a mixing failure, a justified design or operating control may prevent",
+      "scene": 1
+    },
+    {
+      "start": 16.515,
+      "end": 18.179,
+      "text": "an unsuitable condition.",
+      "scene": 1
+    },
+    {
+      "start": 18.329,
+      "end": 22.596,
+      "text": "An alarm may detect it, but only an effective response can limit the",
+      "scene": 1
+    },
+    {
+      "start": 22.746,
+      "end": 23.833,
+      "text": "consequence.",
+      "scene": 1
+    },
+    {
+      "start": 23.983,
+      "end": 28.164,
+      "text": "The three blocks are complementary; none is automatically adequate for",
+      "scene": 1
+    },
+    {
+      "start": 28.314,
+      "end": 29.487,
+      "text": "every process.",
+      "scene": 1
+    },
+    {
+      "start": 30.238,
+      "end": 35.4,
+      "text": "Our fictional action is to verify the agitator-status indication and the",
+      "scene": 2
+    },
+    {
+      "start": 35.55,
+      "end": 37.833,
+      "text": "defined response to loss of mixing.",
+      "scene": 2
+    },
+    {
+      "start": 37.983,
+      "end": 42.463,
+      "text": "Engineering owns the technical check and operations owns the response",
+      "scene": 2
+    },
+    {
+      "start": 42.613,
+      "end": 44.149,
+      "text": "procedure and training.",
+      "scene": 2
+    },
+    {
+      "start": 44.299,
+      "end": 48.544,
+      "text": "The verification plan records the challenge method and the expected",
+      "scene": 2
+    },
+    {
+      "start": 48.694,
+      "end": 49.776,
+      "text": "behaviour.",
+      "scene": 2
+    },
+    {
+      "start": 49.926,
+      "end": 53.574,
+      "text": "Quality oversight reviews the evidence through the site system.",
+      "scene": 2
+    },
+    {
+      "start": 53.724,
+      "end": 57.82,
+      "text": "Action closed should mean the intended result was demonstrated,",
+      "scene": 2
+    },
+    {
+      "start": 57.97,
+      "end": 60.488,
+      "text": "not merely that a document was drafted.",
+      "scene": 2
+    },
+    {
+      "start": 61.238,
+      "end": 64.523,
+      "text": "Adding a control can introduce a new dependency.",
+      "scene": 3
+    },
+    {
+      "start": 64.673,
+      "end": 69.473,
+      "text": "An alarm may depend on power, configuration, sensor health or a shared",
+      "scene": 3
+    },
+    {
+      "start": 69.623,
+      "end": 70.699,
+      "text": "signal.",
+      "scene": 3
+    },
+    {
+      "start": 70.849,
+      "end": 74.412,
+      "text": "If the alarm and controller use the same failed sensor,",
+      "scene": 3
+    },
+    {
+      "start": 74.562,
+      "end": 77.015,
+      "text": "apparent independence may be misleading.",
+      "scene": 3
+    },
+    {
+      "start": 77.165,
+      "end": 81.347,
+      "text": "The diagram shows a common sensor feeding two functions to make that",
+      "scene": 3
+    },
+    {
+      "start": 81.497,
+      "end": 82.713,
+      "text": "concern visible.",
+      "scene": 3
+    },
+    {
+      "start": 82.863,
+      "end": 87.428,
+      "text": "Examine the actual architecture and challenge assumptions before taking",
+      "scene": 3
+    },
+    {
+      "start": 87.578,
+      "end": 90.138,
+      "text": "credit for an independent protective layer.",
+      "scene": 3
+    },
+    {
+      "start": 90.888,
+      "end": 95.475,
+      "text": "After controls are implemented, evaluate what risk remains and who can",
+      "scene": 4
+    },
+    {
+      "start": 95.625,
+      "end": 96.712,
+      "text": "accept it.",
+      "scene": 4
+    },
+    {
+      "start": 96.862,
+      "end": 99.209,
+      "text": "Record assumptions and review triggers.",
+      "scene": 4
+    },
+    {
+      "start": 99.359,
+      "end": 103.689,
+      "text": "Quality risk management does not excuse a practice that conflicts with",
+      "scene": 4
+    },
+    {
+      "start": 103.839,
+      "end": 105.375,
+      "text": "applicable requirements.",
+      "scene": 4
+    },
+    {
+      "start": 105.525,
+      "end": 109.899,
+      "text": "For the activity, select one failure mode and propose a prevention,",
+      "scene": 4
+    },
+    {
+      "start": 110.049,
+      "end": 112.289,
+      "text": "detection and response strategy.",
+      "scene": 4
+    },
+    {
+      "start": 112.439,
+      "end": 117.004,
+      "text": "Then identify evidence for effectiveness and one new risk introduced by",
+      "scene": 4
+    },
+    {
+      "start": 117.154,
+      "end": 118.246,
+      "text": "your proposal.",
+      "scene": 4
+    },
+    {
+      "start": 118.396,
+      "end": 122.066,
+      "text": "This turns a list of actions into an auditable argument.",
+      "scene": 4
+    }
+  ]
+}

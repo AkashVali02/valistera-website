@@ -1,0 +1,14 @@
+ValiStera Academy — Module 2 / Lesson 2.5
+Trace requirements into verification
+
+Build a traceability chain
+A traceability matrix is a practical teaching tool for connecting needs to evidence. Each row links a requirement to its design response, relevant risk control, verification activity and result. A check mark is not enough if the underlying record cannot be located. For our vessel, the product-contact-material requirement links to a design specification, installed material records and the review that confirms suitability for the intended use.
+
+Distinguish planned and verified
+The three cards show different states. A planned test has an approved method but no result. An executed test has observations, which may include a failure. An accepted result has been evaluated against the applicable criteria with deviations addressed appropriately. Keeping these states separate prevents a dashboard from showing green simply because someone uploaded a file. The evidence must answer the requirement, not merely share its title.
+
+Supplier evidence needs context
+A supplier may provide useful testing and design records. Review whether they apply to the purchased configuration, use appropriate methods and preserve reliable data. Transport, installation or configuration changes can affect whether a result remains applicable. Our example is a factory test of an alarm that depends on a site-installed sensor. The team must assess what needs verification after installation. A supplier signature does not settle that question automatically.
+
+Close the gaps
+In the activity, construct five traceability rows. Mark the status honestly and identify the next action for each gap. A requirement with no test may need a new verification method. A test with no requirement may reveal an undocumented need or unnecessary work. Traceability should support technical thinking in both directions. It is a means of exposing missing evidence, not a substitute for judging whether that evidence is adequate.

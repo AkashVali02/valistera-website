@@ -1,0 +1,160 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.621
+Welcome to Module Two.
+
+2
+00:00:01.771 --> 00:00:06.187
+Our fictional project is a jacketed mixing
+vessel used to prepare an
+
+3
+00:00:06.337 --> 00:00:08.791
+aqueous oral solution before filling.
+
+4
+00:00:08.941 --> 00:00:10.967
+It is not an aseptic process.
+
+5
+00:00:11.117 --> 00:00:14.616
+We will follow the project from planning
+to a review decision.
+
+6
+00:00:14.766 --> 00:00:18.926
+Begin by asking what product the system
+supports, how it will be used,
+
+7
+00:00:19.076 --> 00:00:20.399
+and what could go wrong.
+
+8
+00:00:20.549 --> 00:00:24.261
+A polished protocol cannot rescue an
+undefined purpose.
+
+9
+00:00:25.011 --> 00:00:28.189
+The validation master plan describes the
+programme.
+
+10
+00:00:28.339 --> 00:00:32.905
+The user requirements specification
+describes what the system must do.
+
+11
+00:00:33.055 --> 00:00:37.279
+The risk assessment explains where
+failures matter and how controls will
+
+12
+00:00:37.429 --> 00:00:38.623
+be justified.
+
+13
+00:00:38.773 --> 00:00:41.717
+In this course we say V M P and U R S.
+
+14
+00:00:41.867 --> 00:00:44.413
+These documents should agree with one
+another.
+
+15
+00:00:44.563 --> 00:00:47.785
+If the vessel needs controlled mixing, the
+requirement,
+
+16
+00:00:47.935 --> 00:00:52.223
+risk discussion and verification evidence
+should all address that need.
+
+17
+00:00:52.973 --> 00:00:57.346
+Imagine buying a vessel because the
+catalogue says pharmaceutical grade.
+
+18
+00:00:57.496 --> 00:01:00.952
+That description does not establish
+fitness for our product.
+
+19
+00:01:01.102 --> 00:01:04.878
+The team still needs to understand contact
+materials, cleaning,
+
+20
+00:01:05.028 --> 00:01:07.012
+measurement, mixing and records.
+
+21
+00:01:07.162 --> 00:01:11.514
+The illustration connects a product vessel
+to its temperature sensor and
+
+22
+00:01:11.664 --> 00:01:12.773
+control panel.
+
+23
+00:01:12.923 --> 00:01:16.529
+These are functional interfaces, not a
+construction drawing.
+
+24
+00:01:16.679 --> 00:01:21.009
+The same intended use must guide design
+review, testing and routine
+
+25
+00:01:21.159 --> 00:01:22.247
+operation.
+
+26
+00:01:22.997 --> 00:01:27.157
+For the first activity, describe the
+vessel's intended use in three
+
+27
+00:01:27.307 --> 00:01:28.392
+sentences.
+
+28
+00:01:28.543 --> 00:01:33.300
+Identify the product family, operating
+purpose and important interfaces.
+
+29
+00:01:33.450 --> 00:01:35.989
+Then list information that is still
+missing.
+
+30
+00:01:36.139 --> 00:01:39.232
+Do not invent operating limits to complete
+a form.
+
+31
+00:01:39.382 --> 00:01:42.283
+Assign each missing item to an appropriate
+owner,
+
+32
+00:01:42.433 --> 00:01:45.036
+such as process development or
+engineering.
+
+33
+00:01:45.186 --> 00:01:49.730
+Planning is useful when it exposes
+uncertainty early enough to change the
+
+34
+00:01:49.880 --> 00:01:50.968
+project.

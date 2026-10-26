@@ -1,0 +1,231 @@
+{
+  "duration": 118.62958333333331,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 29.384,
+      "title": "A map, not a pile of protocols"
+    },
+    {
+      "start": 29.384,
+      "end": 60.238,
+      "title": "Make scope visible"
+    },
+    {
+      "start": 60.238,
+      "end": 89.634,
+      "title": "Separate the documents"
+    },
+    {
+      "start": 89.634,
+      "end": 118.63,
+      "title": "Review the living programme"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.693,
+      "text": "A useful validation master plan helps a new team member understand how",
+      "scene": 1
+    },
+    {
+      "start": 4.843,
+      "end": 7.617,
+      "text": "qualification and validation are governed.",
+      "scene": 1
+    },
+    {
+      "start": 7.767,
+      "end": 12.844,
+      "text": "In European Union GMP Annex Fifteen, the programme may be defined in a",
+      "scene": 1
+    },
+    {
+      "start": 12.994,
+      "end": 15.426,
+      "text": "V M P or equivalent document.",
+      "scene": 1
+    },
+    {
+      "start": 15.576,
+      "end": 19.309,
+      "text": "This is not a requirement to give every site the same template.",
+      "scene": 1
+    },
+    {
+      "start": 19.459,
+      "end": 21.699,
+      "text": "Our worked plan is a teaching structure.",
+      "scene": 1
+    },
+    {
+      "start": 21.849,
+      "end": 26.564,
+      "text": "The applicable quality system determines the authorized document structure",
+      "scene": 1
+    },
+    {
+      "start": 26.714,
+      "end": 28.634,
+      "text": "and approval responsibilities.",
+      "scene": 1
+    },
+    {
+      "start": 29.384,
+      "end": 33.587,
+      "text": "For our small oral-liquid project, the plan links the mixing vessel,",
+      "scene": 2
+    },
+    {
+      "start": 33.737,
+      "end": 37.193,
+      "text": "transfer equipment, utilities and supporting procedures.",
+      "scene": 2
+    },
+    {
+      "start": 37.343,
+      "end": 41.311,
+      "text": "A scope table records the system identifier, intended use,",
+      "scene": 2
+    },
+    {
+      "start": 41.461,
+      "end": 44.341,
+      "text": "responsible owner and current evidence status.",
+      "scene": 2
+    },
+    {
+      "start": 44.491,
+      "end": 48.651,
+      "text": "An entry called complete without a report reference is difficult to",
+      "scene": 2
+    },
+    {
+      "start": 48.801,
+      "end": 49.886,
+      "text": "challenge.",
+      "scene": 2
+    },
+    {
+      "start": 50.036,
+      "end": 54.751,
+      "text": "An explicit status such as design review pending tells the team what still",
+      "scene": 2
+    },
+    {
+      "start": 54.901,
+      "end": 56.095,
+      "text": "needs to happen.",
+      "scene": 2
+    },
+    {
+      "start": 56.245,
+      "end": 59.488,
+      "text": "A date in a schedule is not proof of qualification.",
+      "scene": 2
+    },
+    {
+      "start": 60.238,
+      "end": 63.587,
+      "text": "The programme plan explains the approach and oversight.",
+      "scene": 3
+    },
+    {
+      "start": 63.737,
+      "end": 68.111,
+      "text": "A protocol states how a particular verification will be performed and",
+      "scene": 3
+    },
+    {
+      "start": 68.261,
+      "end": 69.339,
+      "text": "judged.",
+      "scene": 3
+    },
+    {
+      "start": 69.489,
+      "end": 72.113,
+      "text": "A report evaluates what actually happened.",
+      "scene": 3
+    },
+    {
+      "start": 72.263,
+      "end": 76.039,
+      "text": "The diagram presents these as connected documents rather than",
+      "scene": 3
+    },
+    {
+      "start": 76.189,
+      "end": 77.831,
+      "text": "interchangeable files.",
+      "scene": 3
+    },
+    {
+      "start": 77.981,
+      "end": 81.437,
+      "text": "For example, the plan may require risk-informed testing;",
+      "scene": 3
+    },
+    {
+      "start": 81.587,
+      "end": 84.787,
+      "text": "the protocol specifies a particular mixing test;",
+      "scene": 3
+    },
+    {
+      "start": 84.937,
+      "end": 88.884,
+      "text": "the report evaluates the observed results and any deviations.",
+      "scene": 3
+    },
+    {
+      "start": 89.634,
+      "end": 93.559,
+      "text": "Now suppose the project adds a second product with different cleaning",
+      "scene": 4
+    },
+    {
+      "start": 93.709,
+      "end": 94.795,
+      "text": "needs.",
+      "scene": 4
+    },
+    {
+      "start": 94.945,
+      "end": 99.062,
+      "text": "Reusing the original plan unchanged may conceal a new scope.",
+      "scene": 4
+    },
+    {
+      "start": 99.212,
+      "end": 103.586,
+      "text": "Compare the new use with the approved assumptions, identify the affected",
+      "scene": 4
+    },
+    {
+      "start": 103.736,
+      "end": 106.936,
+      "text": "systems, and route updates through the quality system.",
+      "scene": 4
+    },
+    {
+      "start": 107.086,
+      "end": 110.582,
+      "text": "In the activity, prepare a short programme outline with owners,",
+      "scene": 4
+    },
+    {
+      "start": 110.732,
+      "end": 113.292,
+      "text": "document references and review triggers.",
+      "scene": 4
+    },
+    {
+      "start": 113.442,
+      "end": 117.88,
+      "text": "A useful plan should help people act, not merely describe intentions.",
+      "scene": 4
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+ValiStera Academy — Module 2 / Lesson 2.7
+Use FMEA without false precision
+
+A tool, not the decision
+Failure mode and effects analysis, often called F M E A, can organize a discussion. This course uses a fictional three-level scale for severity, occurrence and difficulty of detection. These numbers are ordinal teaching categories, not measured probabilities. They are not official regulatory limits. The interactive exercise makes the arithmetic visible while keeping the rationale and unresolved high-severity concerns beside the result.
+
+Define the scales first
+In this exercise, higher severity means more serious potential harm. Higher occurrence means the failure is more plausible given the available evidence. Higher detection score means it is harder to discover the failure before its consequence. Real projects need operational definitions tailored to the scenario. A team should agree those definitions before scoring. The labels lower and higher alone are not sufficient for an approved site assessment.
+
+Equal products, different stories
+Multiply three by one by two and the result is six. Multiply one by three by two and the result is also six. Yet the first scenario has a higher severity category. The chart shows equal total scores with different component patterns. Equal products do not establish equivalent risk or acceptable controls. Review the scenario, severity, uncertainty and control options rather than letting one number decide.
+
+Re-score after evidence
+Suppose an independent alarm is proposed. Do not lower the detection score merely because the alarm appears on a drawing. Determine whether it detects the relevant failure, whether someone will respond and whether that response is timely. Verify the control and reassess residual risk. The activity asks you to compare two scoring rationales and explain which assumptions need evidence. No score in this lesson automatically authorizes release.

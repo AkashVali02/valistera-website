@@ -1,0 +1,237 @@
+{
+  "duration": 118.28587499999998,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 31.731,
+      "title": "Define the question"
+    },
+    {
+      "start": 31.731,
+      "end": 60.772,
+      "title": "Separate the concepts"
+    },
+    {
+      "start": 60.772,
+      "end": 89.627,
+      "title": "Make uncertainty visible"
+    },
+    {
+      "start": 89.627,
+      "end": 118.286,
+      "title": "Choose the right discussion"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.331,
+      "text": "For this project, ask: could inadequate mixing within the intended batch",
+      "scene": 1
+    },
+    {
+      "start": 4.481,
+      "end": 7.873,
+      "text": "range lead to non-uniform product before transfer?",
+      "scene": 1
+    },
+    {
+      "start": 8.023,
+      "end": 11.585,
+      "text": "This is more useful than asking whether the vessel is risky.",
+      "scene": 1
+    },
+    {
+      "start": 11.735,
+      "end": 15.981,
+      "text": "The question identifies a possible failure, product consequence and",
+      "scene": 1
+    },
+    {
+      "start": 16.131,
+      "end": 17.731,
+      "text": "operating context.",
+      "scene": 1
+    },
+    {
+      "start": 17.881,
+      "end": 22.083,
+      "text": "Our diagram shows the possible chain from lost mixing to variable",
+      "scene": 1
+    },
+    {
+      "start": 22.233,
+      "end": 25.284,
+      "text": "concentration and a potentially affected dose.",
+      "scene": 1
+    },
+    {
+      "start": 25.434,
+      "end": 29.317,
+      "text": "It is not measured process data and does not prove that any real",
+      "scene": 1
+    },
+    {
+      "start": 29.467,
+      "end": 30.981,
+      "text": "vessel performs poorly.",
+      "scene": 1
+    },
+    {
+      "start": 31.731,
+      "end": 34.206,
+      "text": "A stopped agitator is a failure mode.",
+      "scene": 2
+    },
+    {
+      "start": 34.356,
+      "end": 39.177,
+      "text": "Non-uniform concentration may be a product-quality effect, depending on",
+      "scene": 2
+    },
+    {
+      "start": 39.327,
+      "end": 41.269,
+      "text": "the formulation and process.",
+      "scene": 2
+    },
+    {
+      "start": 41.419,
+      "end": 44.811,
+      "text": "An incorrect delivered dose may be a patient consequence.",
+      "scene": 2
+    },
+    {
+      "start": 44.961,
+      "end": 49.377,
+      "text": "These links require scientific understanding; they are not automatic for",
+      "scene": 2
+    },
+    {
+      "start": 49.527,
+      "end": 50.613,
+      "text": "every liquid.",
+      "scene": 2
+    },
+    {
+      "start": 50.763,
+      "end": 55.2,
+      "text": "The exercise asks you to explain the chain and list the evidence needed",
+      "scene": 2
+    },
+    {
+      "start": 55.35,
+      "end": 56.438,
+      "text": "to judge it.",
+      "scene": 2
+    },
+    {
+      "start": 56.588,
+      "end": 60.022,
+      "text": "Avoid assigning a score before you understand the scenario.",
+      "scene": 2
+    },
+    {
+      "start": 60.772,
+      "end": 66.34,
+      "text": "ICH Q Nine revision one links risk decisions to scientific knowledge and",
+      "scene": 3
+    },
+    {
+      "start": 66.49,
+      "end": 67.77,
+      "text": "patient protection.",
+      "scene": 3
+    },
+    {
+      "start": 67.92,
+      "end": 72.379,
+      "text": "The degree of formality should reflect risk, uncertainty, importance and",
+      "scene": 3
+    },
+    {
+      "start": 72.529,
+      "end": 73.612,
+      "text": "complexity.",
+      "scene": 3
+    },
+    {
+      "start": 73.762,
+      "end": 78.093,
+      "text": "For our case, a small development study may not represent the full batch",
+      "scene": 3
+    },
+    {
+      "start": 78.243,
+      "end": 79.34,
+      "text": "range.",
+      "scene": 3
+    },
+    {
+      "start": 79.49,
+      "end": 83.33,
+      "text": "Record that limitation and plan how to reduce uncertainty.",
+      "scene": 3
+    },
+    {
+      "start": 83.48,
+      "end": 87.234,
+      "text": "A low number based on a guess is not stronger evidence than a",
+      "scene": 3
+    },
+    {
+      "start": 87.384,
+      "end": 88.878,
+      "text": "clearly stated unknown.",
+      "scene": 3
+    },
+    {
+      "start": 89.627,
+      "end": 93.766,
+      "text": "Invite people who understand the process, equipment and potential",
+      "scene": 4
+    },
+    {
+      "start": 93.916,
+      "end": 95.008,
+      "text": "consequences.",
+      "scene": 4
+    },
+    {
+      "start": 95.158,
+      "end": 99.382,
+      "text": "Ask each person which assumptions could be wrong and what evidence would",
+      "scene": 4
+    },
+    {
+      "start": 99.532,
+      "end": 100.897,
+      "text": "change the decision.",
+      "scene": 4
+    },
+    {
+      "start": 101.047,
+      "end": 105.655,
+      "text": "If the project deadline is influencing scores, make that bias explicit.",
+      "scene": 4
+    },
+    {
+      "start": 105.805,
+      "end": 110.115,
+      "text": "In the activity, write one risk question and one cause-to-harm chain.",
+      "scene": 4
+    },
+    {
+      "start": 110.265,
+      "end": 114.314,
+      "text": "Keep the language specific enough that another reviewer can disagree with",
+      "scene": 4
+    },
+    {
+      "start": 114.464,
+      "end": 117.536,
+      "text": "it constructively and identify what needs checking.",
+      "scene": 4
+    }
+  ]
+}

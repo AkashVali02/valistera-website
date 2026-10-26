@@ -1,0 +1,14 @@
+ValiStera Academy — Module 2 / Lesson 2.2
+Build a useful validation master plan
+
+A map, not a pile of protocols
+A useful validation master plan helps a new team member understand how qualification and validation are governed. In European Union GMP Annex Fifteen, the programme may be defined in a V M P or equivalent document. This is not a requirement to give every site the same template. Our worked plan is a teaching structure. The applicable quality system determines the authorized document structure and approval responsibilities.
+
+Make scope visible
+For our small oral-liquid project, the plan links the mixing vessel, transfer equipment, utilities and supporting procedures. A scope table records the system identifier, intended use, responsible owner and current evidence status. An entry called complete without a report reference is difficult to challenge. An explicit status such as design review pending tells the team what still needs to happen. A date in a schedule is not proof of qualification.
+
+Separate the documents
+The programme plan explains the approach and oversight. A protocol states how a particular verification will be performed and judged. A report evaluates what actually happened. The diagram presents these as connected documents rather than interchangeable files. For example, the plan may require risk-informed testing; the protocol specifies a particular mixing test; the report evaluates the observed results and any deviations.
+
+Review the living programme
+Now suppose the project adds a second product with different cleaning needs. Reusing the original plan unchanged may conceal a new scope. Compare the new use with the approved assumptions, identify the affected systems, and route updates through the quality system. In the activity, prepare a short programme outline with owners, document references and review triggers. A useful plan should help people act, not merely describe intentions.

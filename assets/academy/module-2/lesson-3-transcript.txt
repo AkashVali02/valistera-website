@@ -1,0 +1,14 @@
+ValiStera Academy — Module 2 / Lesson 2.3
+System boundaries and responsibilities
+
+Draw the boundary
+A system boundary is a practical agreement about what is included in the assessment. Our vessel receives product materials and a heating or cooling service, and transfers bulk solution downstream. The simplified diagram shows these interfaces. It does not assert that the utility is qualified by qualifying the vessel. Each interface needs an owner and a clear connection to the evidence for the supplying or receiving system.
+
+Consider indirect effects
+A component does not need to touch product to affect quality. A temperature sensor sends information to a controller, which can influence the jacket service and therefore the product. Conversely, physical proximity alone does not make every room object equally important. Describe the mechanism by which a component failure could affect the process. Use that explanation to support scope decisions rather than relying only on a label such as critical.
+
+Assign decisions explicitly
+Engineering understands the design and installation. Operations understands how people use and clean the equipment. Quality oversight connects decisions to the pharmaceutical quality system. Additional expertise may be needed from development, microbiology, metrology or information technology. This is a suggested team for the fictional project, not a universal organizational chart. Identify who prepares evidence, who reviews it and who has authority to approve each decision.
+
+Find the missing interface
+Review this handover: the vessel report is ready, but the transfer hose has no approved cleaning procedure and the utility connection is not identified. Calling the vessel ready for routine use would hide unresolved interfaces. Record the gaps and assess their impact. For the activity, draw a boundary and assign an owner to each interface. A boundary is useful only when work outside it has somewhere explicit to go.

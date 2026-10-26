@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Which is the strongest starting point?",
+    "options": [
+      "A supplier brochure",
+      "A defined intended use with product context",
+      "A completed signature page"
+    ],
+    "answer": 1,
+    "feedback": "Intended use provides the basis for requirements and evidence; a brochure or signature alone does not."
+  },
+  {
+    "question": "Which record demonstrates what happened during a test?",
+    "options": [
+      "The programme schedule",
+      "The supplier quotation",
+      "The executed record and evaluated report"
+    ],
+    "answer": 2,
+    "feedback": "The plan and quotation describe intentions; executed records and the report provide evidence and evaluation."
+  },
+  {
+    "question": "Can a non-product-contact sensor affect product quality?",
+    "options": [
+      "Yes, through the process it controls",
+      "No, only contact surfaces matter",
+      "Only after a batch fails"
+    ],
+    "answer": 0,
+    "feedback": "An indirect control pathway can affect quality even without product contact."
+  },
+  {
+    "question": "A test fails the approved requirement. What is appropriate?",
+    "options": [
+      "Quietly relax the requirement",
+      "Delete the result",
+      "Document and assess the failure through controlled procedures"
+    ],
+    "answer": 2,
+    "feedback": "A failed result needs documented evaluation; a requirement change must be justified and controlled."
+  },
+  {
+    "question": "Does an executed test necessarily mean an accepted requirement?",
+    "options": [
+      "Yes",
+      "No, results and deviations still need evaluation",
+      "Only if the file is signed by the vendor"
+    ],
+    "answer": 1,
+    "feedback": "Execution and acceptance are distinct; evidence must meet criteria and receive the appropriate evaluation."
+  },
+  {
+    "question": "What should come before assigning a risk score?",
+    "options": [
+      "Choosing the lowest category",
+      "Defining the failure scenario and evidence",
+      "Counting signatures"
+    ],
+    "answer": 1,
+    "feedback": "A meaningful score depends on a well-defined scenario and an evidence-based rationale."
+  },
+  {
+    "question": "Two scenarios have the same multiplied score. Are their risks equivalent?",
+    "options": [
+      "Always",
+      "Yes, if the spreadsheet is protected",
+      "Not necessarily; component scores and context matter"
+    ],
+    "answer": 2,
+    "feedback": "Equal products can conceal different severity, uncertainty and control needs."
+  },
+  {
+    "question": "When can a proposed alarm receive credit as an effective control?",
+    "options": [
+      "As soon as it is purchased",
+      "After appropriate effectiveness evidence and evaluation",
+      "Whenever the schedule is late"
+    ],
+    "answer": 1,
+    "feedback": "The control must address the failure and work in context; purchase or proposal alone is insufficient."
+  },
+  {
+    "question": "What can these ten fictional values establish?",
+    "options": [
+      "A descriptive summary for the exercise",
+      "Process capability for routine production",
+      "Regulatory acceptance of the sensor"
+    ],
+    "answer": 0,
+    "feedback": "They support the stated arithmetic exercise, not qualification, capability or regulatory acceptance."
+  },
+  {
+    "question": "The packet is 90% complete but critical evidence is missing. What follows?",
+    "options": [
+      "Approve because most tasks are done",
+      "Readiness is not demonstrated; evaluate and resolve the gaps",
+      "Ignore the remaining items"
+    ],
+    "answer": 1,
+    "feedback": "Completion percentage cannot replace evaluation of important unresolved evidence."
+  },
+  {
+    "question": "Which programme status is most informative?",
+    "options": [
+      "Complete, with no evidence link",
+      "Design review pending, with owner and document reference",
+      "Green because the deadline arrived"
+    ],
+    "answer": 1,
+    "feedback": "A specific status and evidence reference expose remaining work."
+  },
+  {
+    "question": "A utility sits outside the vessel boundary. What is needed?",
+    "options": [
+      "Nothing further",
+      "A claim that vessel qualification covers it",
+      "An interface owner and relevant utility evidence"
+    ],
+    "answer": 2,
+    "feedback": "The boundary must not create a gap in responsibility or evidence."
+  },
+  {
+    "question": "Which requirement is still unresolved?",
+    "options": [
+      "A defined need with approved acceptance basis",
+      "A temperature tolerance awaiting process justification",
+      "An installed-material requirement with verified records"
+    ],
+    "answer": 1,
+    "feedback": "Missing process justification must be resolved; the statement is not ready for acceptance testing."
+  },
+  {
+    "question": "Can supplier evidence be reused without checking configuration?",
+    "options": [
+      "No; assess applicability and integrity",
+      "Yes; supplier signatures suffice",
+      "Yes; all factory tests replace site tests"
+    ],
+    "answer": 0,
+    "feedback": "Configuration and transport/installation effects can change applicability."
+  },
+  {
+    "question": "What does higher detection score mean in this exercise?",
+    "options": [
+      "Easier detection",
+      "More serious harm",
+      "Harder detection before the consequence"
+    ],
+    "answer": 2,
+    "feedback": "This teaching scale uses higher values for greater detection difficulty; scales must be defined."
+  },
+  {
+    "question": "An alarm shares the failed sensor used by the controller. What should be examined?",
+    "options": [
+      "Whether the dashboard is green",
+      "A possible common-cause failure",
+      "Only the purchase price"
+    ],
+    "answer": 1,
+    "feedback": "A shared dependency may undermine claimed independence."
+  },
+  {
+    "question": "What is the mean of the ten fictional errors?",
+    "options": [
+      "0.31 \u00b0C",
+      "0.50 \u00b0C",
+      "0.60 \u00b0C"
+    ],
+    "answer": 0,
+    "feedback": "Their sum is 3.1 \u00b0C; divided by ten gives 0.31 \u00b0C."
+  },
+  {
+    "question": "How many fictional errors exceed 0.5 \u00b0C?",
+    "options": [
+      "Zero",
+      "Two",
+      "One"
+    ],
+    "answer": 2,
+    "feedback": "Only 0.6 \u00b0C exceeds the illustrative limit; 0.5 equals it."
+  },
+  {
+    "question": "A new product changes cleaning needs. What is appropriate?",
+    "options": [
+      "Keep all previous assumptions unchanged",
+      "Assess scope, requirements, risks and affected evidence",
+      "Change only the project title"
+    ],
+    "answer": 1,
+    "feedback": "The new intended use may affect several linked documents and controls."
+  },
+  {
+    "question": "What does completing this module establish?",
+    "options": [
+      "Formal site competency",
+      "Regulatory approval",
+      "Self-study completion only"
+    ],
+    "answer": 2,
+    "feedback": "Formal competency and authorization require the applicable independent/site process."
+  }
+]

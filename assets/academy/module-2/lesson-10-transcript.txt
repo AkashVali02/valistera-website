@@ -1,0 +1,14 @@
+ValiStera Academy — Module 2 / Lesson 2.10
+Capstone: make a defensible handover decision
+
+The review packet
+You are reviewing the fictional V two zero one handover. The intended use is documented and the material records are available. However, the required mixing range has not been finalized, the transfer-hose cleaning evidence is missing and the alarm response has not been verified. A dashboard says ninety percent complete. Your task is to decide what the evidence supports, not to maximize the completion percentage.
+
+Separate project progress from readiness
+A percentage can be useful for scheduling, but it treats unlike activities as if they were interchangeable. Finishing several minor tasks does not offset an unresolved requirement that affects product quality. The visual compares a large completion bar with three named gaps. Read the gaps directly: mixing range, cleaning evidence and alarm response. Their significance must be evaluated individually in the context of the intended use.
+
+Write a reasoned decision
+For this exercise, routine-use readiness is not demonstrated. State that conclusion, identify the missing evidence, assign owners and define what must be reviewed before a new decision. If a project proposes progression to a limited next stage, assess that specific activity and its dependencies separately through the approved system. Do not describe conditional progression as general permission for production. The scope of an authorization must be unambiguous.
+
+Carry the method forward
+Complete the workbook and final assessment, then compare your capstone with the model reasoning. You should now be able to explain the purpose of the programme plan, draft testable requirements, connect them to evidence and discuss risk without hiding behind scores. These self-study results are not a formal qualification or competency record. Apply the method with qualified colleagues, current requirements and approved site procedures when working on a real project.

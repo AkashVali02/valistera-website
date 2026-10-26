@@ -1,0 +1,156 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.224
+Failure mode and effects analysis, often
+called F M E A,
+
+2
+00:00:04.374 --> 00:00:06.081
+can organize a discussion.
+
+3
+00:00:06.231 --> 00:00:10.049
+This course uses a fictional three-level
+scale for severity,
+
+4
+00:00:10.199 --> 00:00:12.567
+occurrence and difficulty of detection.
+
+5
+00:00:12.717 --> 00:00:17.389
+These numbers are ordinal teaching
+categories, not measured probabilities.
+
+6
+00:00:17.539 --> 00:00:19.971
+They are not official regulatory limits.
+
+7
+00:00:20.121 --> 00:00:24.644
+The interactive exercise makes the
+arithmetic visible while keeping the
+
+8
+00:00:24.794 --> 00:00:29.423
+rationale and unresolved high-severity
+concerns beside the result.
+
+9
+00:00:30.173 --> 00:00:34.589
+In this exercise, higher severity means
+more serious potential harm.
+
+10
+00:00:34.739 --> 00:00:39.091
+Higher occurrence means the failure is
+more plausible given the available
+
+11
+00:00:39.241 --> 00:00:40.323
+evidence.
+
+12
+00:00:40.473 --> 00:00:44.932
+Higher detection score means it is harder
+to discover the failure before
+
+13
+00:00:45.082 --> 00:00:46.234
+its consequence.
+
+14
+00:00:46.384 --> 00:00:51.056
+Real projects need operational definitions
+tailored to the scenario.
+
+15
+00:00:51.206 --> 00:00:54.299
+A team should agree those definitions
+before scoring.
+
+16
+00:00:54.449 --> 00:00:58.865
+The labels lower and higher alone are not
+sufficient for an approved site
+
+17
+00:00:59.015 --> 00:01:00.096
+assessment.
+
+18
+00:01:00.846 --> 00:01:04.281
+Multiply three by one by two and the
+result is six.
+
+19
+00:01:04.431 --> 00:01:08.420
+Multiply one by three by two and the
+result is also six.
+
+20
+00:01:08.570 --> 00:01:12.005
+Yet the first scenario has a higher
+severity category.
+
+21
+00:01:12.155 --> 00:01:16.294
+The chart shows equal total scores with
+different component patterns.
+
+22
+00:01:16.444 --> 00:01:21.137
+Equal products do not establish equivalent
+risk or acceptable controls.
+
+23
+00:01:21.287 --> 00:01:26.087
+Review the scenario, severity, uncertainty
+and control options rather than
+
+24
+00:01:26.237 --> 00:01:27.880
+letting one number decide.
+
+25
+00:01:28.630 --> 00:01:31.318
+Suppose an independent alarm is proposed.
+
+26
+00:01:31.468 --> 00:01:35.926
+Do not lower the detection score merely
+because the alarm appears on a
+
+27
+00:01:36.076 --> 00:01:37.156
+drawing.
+
+28
+00:01:37.306 --> 00:01:40.165
+Determine whether it detects the relevant
+failure,
+
+29
+00:01:40.315 --> 00:01:44.240
+whether someone will respond and whether
+that response is timely.
+
+30
+00:01:44.390 --> 00:01:47.761
+Verify the control and reassess residual
+risk.
+
+31
+00:01:47.911 --> 00:01:52.284
+The activity asks you to compare two
+scoring rationales and explain which
+
+32
+00:01:52.434 --> 00:01:54.120
+assumptions need evidence.
+
+33
+00:01:54.270 --> 00:01:57.918
+No score in this lesson automatically
+authorizes release.
