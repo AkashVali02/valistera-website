@@ -30,3 +30,15 @@ Browser tests cover clearing with an unrelated sentinel key and rendering with t
 ## Release dependencies
 
 Original asset provenance/licensing, vendor-hosting control and retention, and an appropriate privacy/terms review remain unresolved. No external rights holder was contacted and no permission was fabricated. Keep production NO-GO pending those records and the independent review gates.
+
+## Continuation findings — supersedes the earlier “no provenance located” statement
+
+The connected media workspace retained original generation scripts, model files, voice vectors, per-scene audio and diagrams. Nine original lesson MP4s (1.2–1.10) match recovered renders byte-for-byte. Lesson 1.1's decoded audio matches the recovered premium render, although its final video assembly does not have a whole-file match. Evidence and limitations are in [recovered-source/README.md](recovered-source/README.md) and `evidence-2026-10-26/recovered-source-matches.json`.
+
+The scripts identify stock Kokoro `af_heart` speech, programmatically drawn Pillow graphics and DejaVu fonts. Publisher sources identify Apache-2.0 model/voice licensing, MIT kokoro-onnx licensing and the Bitstream/DejaVu font licence. This materially narrows the missing provenance; it is not a fabricated voice-owner permission or comprehensive commercial legal clearance. Source inspection finds no music input in these build paths. The two corrected narration scenes use the recovered local model and voice; no paid generation service was invoked.
+
+Lessons 1.4, 1.5 and 1.8 now use same-origin review MP4s retained with the repository. Seven lessons still use the original external URLs. The two newly rendered files were exported through the connected media workspace for recovery, then copied into the repository; the player does not reference those new external copies.
+
+The connected workspace reported an owner role and successfully retrieved/exported retained source assets. This demonstrates operational access, not legal ownership of every asset, permanent CDN retention, or administrative control over the underlying CloudFront distribution.
+
+Official [Higgsfield privacy policy](https://higgsfield.ai/privacy-policy), section 3.1 (checked 26 October 2026), describes purpose-dependent retention rather than a fixed Academy-specific log-retention period. The [terms](https://higgsfield.ai/terms-of-use-agreement), sections 13.1–13.4 and 13.8, disclaim clearance/availability guarantees and place rights evaluation on the user. These public terms do not establish this Academy's contractual retention, deletion, regional processing or service-level commitments. Independent privacy/rights review and a durable hosting decision remain open.

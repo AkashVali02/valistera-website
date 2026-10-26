@@ -18,7 +18,7 @@
         "word": "risk-based"
       }
     ],
-    "reading_speed_flags": [
+    "initial_alignment_reading_speed_flags": [
       {
         "cue": 1,
         "cps": 23.548387096774192
@@ -31,7 +31,9 @@
         "cue": 20,
         "cps": 20.604395604395602
       }
-    ]
+    ],
+    "final_reading_speed_flags": [],
+    "final_check": "caption-structure.json"
   },
   {
     "lesson": 5,
@@ -64,11 +66,13 @@
         "word": "process-specific"
       }
     ],
-    "reading_speed_flags": [
+    "initial_alignment_reading_speed_flags": [
       {
         "cue": 6,
         "cps": 20.786516853932593
       }
-    ]
+    ],
+    "final_reading_speed_flags": [],
+    "final_check": "caption-structure.json"
   }
 ]

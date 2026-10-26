@@ -1,3 +1,5 @@
+> Current status: see [the consolidated final QA report](module-1-final-qa-2026-10-26.md) for the subsequent recorded-content corrections, supported-browser evidence and remaining release gates. This file is historical evidence.
+
 > Historical evidence: current consolidated disposition is in [module-1-final-qa-2026-10-26.md](module-1-final-qa-2026-10-26.md). Earlier counts and unexecuted-review statements are not the current release decision.
 
 # ValiStera Academy Module 1 — Media and Release Evidence Addendum

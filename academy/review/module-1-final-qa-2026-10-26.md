@@ -1,71 +1,69 @@
-# ValiStera Academy Module 1 — consolidated execution and QA report
+# ValiStera Academy Module 1 — consolidated final technical QA
 
-**26 October 2026 · academy-player-preview · NO-GO for production**
+**26 October 2026 · academy-player-preview · production NO-GO**
 
-Reviewed starting commit: `4335a250d5f697937879c84e78f596d0b1520e64`. This report and the evidence folder belong to the correction commit that contains them; the commit is the reviewable package. No merge or production deployment was performed. This is AI-assisted technical execution, not independent human, legal or regulatory approval.
+This report supersedes the earlier same-day final report, retained as [the pre-continuation record](module-1-qa-before-continuation-2026-10-26.md). It consolidates the original remediation and the subsequent feasible work in audiovisual quality, recorded content, accessibility, and rights/hosting. The final player implementation is commit `83c546f6bf512fae8e073382a1616173b19199d7`; the extended layout/accessibility run used `e99c5c91d6e012ab5d8851a580afac333c6b5a8a` with identical layout and media; the following evidence/report commit completes this package. No production deployment or merge was performed.
 
-## Completed changes
+## Delivered changes
 
-1. **All ten caption tracks:** fresh base.en speech transcription with word timestamps; comparison with existing caption wording; ASR-assisted correction of accumulating Lesson 1.1 drift; long-cue splitting at matched spoken-word boundaries, fragment merging, acronym typography and balanced line breaks. No blind replacement of technical terminology with ASR guesses. Native VTT and embedded fallback arrays now agree. Static recorded-narration transcripts are available in all ten pages.
-2. **Readability:** zero cues above the 20.05 CPS tolerance used for a nominal 20 CPS review threshold, maximum two authored lines, no detected overlap/nonpositive cue, and no cue beyond video duration. The threshold is a design heuristic, not a WCAG rule. Browser wrapping and human reading comfort still need real-device acceptance.
-3. **Visual/media audit:** downloaded all ten MP4s, decoded every audio stream, reviewed 84 sampled authored scenes (one per scene, +2 seconds from recorded scene starts), and compared the transcript/topic content with companion readings and assessment scenarios. Corrected Lesson 1.8's misleading root-cause heading and action label in a same-origin review MP4. Inspected the corrected frame. Audio hash is unchanged. Added prominent Lesson 1.4 instrument-calibration and Lesson 1.5 US/EU dispensing clarifications. Original narration was not re-recorded.
-4. **Official references:** checked the applicable published EC/EU and eCFR text, not merely link availability. Added EU Chapter 5 dispensing-check context; strengthened OOS escalation wording and linked the final May 2022 FDA guidance; clarified 211.180(e)'s product-review role versus EU self-inspection. See the linked clause-level cross-check.
-5. **Accessibility:** fixed low-contrast links and CTAs, added visible keyboard focus and skip links, labelled quiz groups, added transcript disclosure controls, exposed assessment progress semantics, and respected reduced-motion styling. Retested all 12 pages.
-6. **Privacy/storage:** completed notices on all 12 pages (1.9/1.10 were missing), added scoped progress clearing, delayed remote video requests until user action, added no-referrer and media-error fallback, removed stale assessment results on restart, and rejected out-of-range stored scores. Corrected a newly reproduced resume bug: loading-time zero-position events could overwrite saved progress; all ten lesson persistence handlers now reject those events and pending seeks.
+- **Captions/transcripts:** all ten lessons have native VTT captions, matching embedded cue arrays and static transcripts. Earlier work corrected Lesson 1.1 timing drift, split long cues, balanced lines and checked questionable ASR phrases. The new 1.4/1.5 recordings have fresh base.en word-timestamp ASR, source-script comparison, new timing and updated transcripts. Final structural checks find no overlap, nonpositive cue or media-duration overflow; zero cues exceed the 20.05 characters/second tolerance and all use at most two authored lines. This is a readability heuristic, not a WCAG rule or human synchronization sign-off.
+- **Actual recorded corrections:** Lesson 1.4 scene 8 now describes an overdue measuring instrument used with a vessel. Lesson 1.5 scene 3 now states required independent dispensing checks, EU material/weight-or-volume checking, US second-person requirements with defined automated-equipment exceptions, and that local risk assessment cannot waive applicable requirements. Original diagrams and all other per-scene source audio were reused. Key-explanation start times were updated to the revised scene durations; static checks and 16 scene-level browser assertions cover those transitions. The revised videos are stored with the preview repository. The earlier Lesson 1.8 root-cause heading/action correction remains in place.
+- **Accessible visual alternatives:** every lesson now includes a readable HTML guide describing the main diagram relationships in presentation order, alongside its transcript and companion reading. The guides explain illustrative risk scoring, status conflicts, investigation paths, reconciliation and other dense graphics without relying on colour. Ten scene contact sheets were inspected when authoring them. The changed 1.4/1.5 video frames were also inspected at full resolution. This does not establish every-frame equivalence or human audio-description acceptance.
+- **Accessibility fixes and retest:** enlarged layout/text testing exposed overflow in the overview and several lesson pages. Flexible grids, wrapping headings/buttons/links and responsive padding fixed those findings. Earlier contrast, keyboard focus, skip-link, quiz legend, assessment semantics and reduced-motion fixes remain. Actual H.264/AAC playback is now verified in the connected media environment; the previous local codec limitation is no longer the sole playback evidence.
+- **Privacy/storage:** earlier scoped localStorage clearing, complete notices, no-referrer, opt-in video loading, retry/transcript fallback, assessment reset and resume-overwrite fixes remain. Lessons 1.4, 1.5 and 1.8 use same-origin video files; seven lessons still use their original external hosting. No new analytics or paid generation API was used.
+- **Source/provenance recovery:** recovered original Kokoro scripts, model/voice identities and diagram-generation code. Nine original MP4s match workspace renders byte-for-byte. Lesson 1.1's decoded audio matches the recovered premium render; its final video assembly lacks a whole-file match. Stock `af_heart`, Pillow drawings and DejaVu font usage are documented, with publisher licensing links and observed file hashes. This narrows the rights gap; it does not invent legal clearance.
 
-## Executed evidence
+## Final executed evidence
 
-| Lesson | Final cues | Original duration (s) | ASR/source-caption token similarity | CPS review flags |
-|---|---:|---:|---:|---:|
-| 1.1 | 146 | 527.74 | 99.60% | 0 |
-| 1.2 | 56 | 234.99 | 98.32% | 0 |
-| 1.3 | 65 | 262.33 | 99.34% | 0 |
-| 1.4 | 55 | 225.75 | 98.50% | 0 |
-| 1.5 | 62 | 229.24 | 100.00% | 0 |
-| 1.6 | 52 | 216.81 | 99.44% | 0 |
-| 1.7 | 53 | 222.66 | 99.32% | 0 |
-| 1.8 | 50 | 214.12 | 98.76% | 0 |
-| 1.9 | 60 | 219.42 | 100.00% | 0 |
-| 1.10 | 60 | 236.79 | 98.49% | 0 |
-
-Similarity is a machine diagnostic, not word-perfect transcription acceptance. US/UK spelling, spelled acronyms and brand pronunciation account for many differences. Segment-level rechecks recovered the omitted Lesson 1.10 trend-analysis phrase and supported “finding” and “from recommendations”; ambiguous ASR “manufacturer” / “a countable” remain human listening items, not grounds for changing technically sensible captions. All final caption words are preserved from the source except formatting/acronym normalization, verified by a normalized-text comparison.
-
-- `caption-structure.json`: all ten pass structural/source-agreement checks. The script also checks duration bounds and normalized wording preservation.
-- `audio-diagnostics.json`, ten `asr-1-*.json` files and `asr-discrepancy-recheck.json`: actual machine transcript and diagnostic evidence, including original timing flags. Those flags describe the **pre-remediation** captions; they are not final sync errors.
-- `browser-fixture-results.json`: **235 checks across 12 pages; zero failures**, using synthetic WebM solely for player/control testing. Includes correct/incorrect/unanswered lesson answers; assessment 15/15 and 0/15; reset; 65-second paused resume on all ten; caption-track parsing/toggles; keyboard skip/transcript controls; 320/390/768/1280 px overflow; no automatic CloudFront video request; scoped clearing; no uncaught JS errors. Axe-core 4.10.3 detected zero scoped A/AA violations. Incomplete/manual axe checks are retained, not promoted to passes.
-- `browser-results.json`: original-MP4 attempt recorded **195 checks, 185 passes and 10 metadata-decode failures**. Environment diagnosis: Chromium headless shell 134.0.6998.35 returns empty support for H.264/AAC and `probably` for WebM. Therefore real MP4 playback/resume/native-caption rendering in a supported production browser remains **unverified here**. The successful fixture run is not substituted for it.
-- `storage-denied.json`: all 12 pages remain functional without uncaught errors when access to localStorage throws SecurityError, with clear feedback.
-- `node validate-site.cjs`: passed for 31 HTML pages, 1,029 local references, sitemap, JSON, asset fingerprints and JavaScript syntax. `git diff --check` passed.
-- Browser checks served exact local repository files through Playwright routes, **not a live deployed HTTP server**. No claim is made about final deployed headers/CDN behavior. Sampled screenshots are evidence of layout only; the mobile player screenshot contains synthetic test media.
-
-## Findings and current disposition
-
-| ID | Finding | Disposition |
+| Test | Result | Evidence |
 |---|---|---|
-| QA-01 | Old report simultaneously claimed ASR had and had not run; counts predated last commits | Historical records marked superseded. Fresh raw ASR/test evidence is retained here. |
-| QA-02 | Caption speed/line layout and Lesson 1.1 timing drift | Technical remediation and structural retest complete. Human listening/synchronization acceptance open. |
-| QA-03 | Lesson 1.4 vessel/calibrated-instrument ambiguity | Prominent written clarification added. Original spoken example still requires accepted media correction or explicit combined-format approval. |
-| QA-04 | Lesson 1.5 dispensing wording could imply local discretion over required checks | US/EU clarification added before video; applicable clauses verified. Spoken revision/combined-format acceptance open. |
-| QA-05 | Lesson 1.8 slide says PREVENT ROOT CAUSE | Heading/action corrected in review MP4; audio preserved. Original media rights remain open. |
-| QA-06 | Link/button contrast, absent quiz legend/skip controls | Fixed; automated accessibility and keyboard/reflow retests pass within tested scope. |
-| QA-07 | Missing privacy notices, uncontrolled initial media contact, stale result, zero-time resume overwrite | Fixed and tested. Legal adequacy and hosting retention not certified. |
-| QA-08 | Media provenance and independent acceptance evidence absent | Open; cannot be manufactured by technical execution. |
+| Actual-media player, keyboard, quizzes, assessment, axe, storage clearing and responsive layout | **251/251 checks passed across 12 pages**; zero detected scoped axe violations | `browser-h264-results.json` |
+| Real muted video playback at 5%, 50%, 95%; increasing decoded frames; accessibility-tree roles/names; 2x/4x CSS layout zoom; text spacing at 320/1280 px | **112/112 checks passed across 12 pages** | `extended-accessibility.json` |
+| Ten final caption tracks | **All pass**; zero speed flags; maximum two authored lines | `caption-structure.json` |
+| Complete video-stream decode and scene-change diagnostic | **10/10 decode successfully**; no more than one detected change per rolling second at the selected threshold | `full-decode-scene-scan.json` |
+| Website validation | **Passed:** 31 HTML pages, 1,029 local references, sitemap, JSON, fingerprints and JS syntax | `node validate-site.cjs` |
+| Patch whitespace validation | **Passed** | `git diff --check` |
+| Denied localStorage regression from original remediation | **12/12 pages without uncaught errors**; implementation unchanged in continuation | `storage-denied.json` |
 
-## Unresolved release dependencies
+The final H.264 browser was **Chromium 153.0.8010.12**; axe was **4.10.3**. The tests served repository bytes through Playwright routes with byte-range handling. They did not test a deployed site's HTTP headers, CDN or physical devices. Tests used real media, not the earlier synthetic WebM fixture. Playback was muted and sampled at three positions; this is decode/control evidence, not a full listening review.
 
-- **Human audiovisual acceptance:** listening review of all final captions, pronunciation, timing, reading speed, narration/companion differences and any unclear ASR words. The 84 scene samples do not prove absence of every transient visual defect, flashing issue or missing visual description. Small slide labels and dense diagrams need real-device readability/accessible-equivalence review.
-- **Recorded content:** the written clarifications are visible, but do not rewrite the 1.4/1.5 audio. A reviewer must accept the combined learning format or request re-recording with an authorized voice/source project. No paid voice-generation or fabricated voice permission was used.
-- **Full accessibility:** actual H.264-capable browser/device playback, screen-reader operation, 200%/400% zoom/text-spacing, native control behavior and audiovisual alternatives still need acceptance. Zero axe violations is not WCAG 2.2 AA certification.
-- **Rights and hosting:** original voice/graphics/fonts/music provenance, commercial redistribution rights, external hosting account control and retention/logging terms remain absent. The derivative retains those dependencies. See the media inventory and rights report.
-- **Independent GMP and privacy review:** established internal/external reviewer sign-offs remain blank. AI execution does not satisfy those independent signatures. No regulatory approval is claimed.
-- **Owner release authorization:** not requested because the candidate is not release-ready. Production remains NO-GO. Keep work on the preview branch.
+CSS layout zoom is not physical-device/browser-menu zoom. Accessibility-tree inspection is not an NVDA, JAWS, VoiceOver or TalkBack session. Zero axe findings is not WCAG 2.2 AA certification. The full-stream scene-change heuristic can miss localized or low-amplitude flashes and is not a validated photosensitive-epilepsy test. Historical `browser-results.json` and `browser-fixture-results.json` retain the earlier local failures/fixture run; do not confuse them with the new H.264 evidence.
 
-## Package index
+The initial supported-browser run found one same-origin-video resume failure caused by the test route's missing range response. The harness was corrected to serve byte ranges for repository MP4s; all ten real-video resume tests then passed. The initial extended run found six failing checks (five 4x layout overflows and one text-spacing overflow); CSS corrections passed the final retest.
 
-- [Official-source cross-check](module-1-regulatory-crosscheck-2026-10-26.md)
-- [Rights, hosting and privacy audit](module-1-rights-hosting-privacy-2026-10-26.md)
-- [Evidence folder](evidence-2026-10-26/)
-- [Reproducible test instructions](../tests/README.md)
-- [Existing independent approval record](module-1-approval-decision.md)
+| Lesson | Final cues | Candidate duration (seconds) |
+|---|---:|---:|
+| 1.1 | 146 | 527.74 |
+| 1.2 | 56 | 234.99 |
+| 1.3 | 65 | 262.33 |
+| 1.4 | 49 | 230.07 |
+| 1.5 | 52 | 247.30 |
+| 1.6 | 52 | 216.81 |
+| 1.7 | 53 | 222.66 |
+| 1.8 | 50 | 214.12 |
+| 1.9 | 60 | 219.42 |
+| 1.10 | 60 | 236.79 |
 
-**Decision:** feasible technical remediation is consolidated; release acceptance is incomplete. Do not merge, publish or portray this package as approved training evidence.
+New narration ASR supports both corrected passages. Unmatched source words mostly involve compounds/acronym segmentation; they remain diagnostic entries rather than automatic text replacements. Caption boundary balancing extended five cue ends by 0.001–0.551 seconds to meet the reading-speed target; adjusted boundaries are recorded in `revised-caption-boundaries.json`. Human timing acceptance remains open. Original captions for unchanged lessons and revised source narration for 1.4/1.5 are checked independently by the static test.
+
+## Regulatory and rights disposition
+
+The [official-source cross-check](module-1-regulatory-crosscheck-2026-10-26.md) remains the clause-level record. It covers applicable EU human-medicinal-product GMP and US finished-pharmaceutical provisions, including Annex 15, EU Chapter 5 and 21 CFR 211.101/211.68. The two previously written-only corrections are now recorded. Companion detail still exceeds narration in places and must be evaluated as a combined course. Framework signposts do not establish detailed compliance in every jurisdiction or product category.
+
+The [rights/hosting/privacy report](module-1-rights-hosting-privacy-2026-10-26.md) and [recovered-source notes](recovered-source/README.md) distinguish publisher licences from legal clearance. The observed local model/voice files are identified by hash, not misrepresented as independently verified upstream release checksums. Source paths show no music input. Operational access to the connected workspace does not prove legal ownership or control of its underlying CDN. Official public hosting terms were reviewed; they do not supply an Academy-specific retention/logging schedule or availability commitment.
+
+## Remaining external acceptance gates
+
+1. **Human audiovisual acceptance:** final listening review of pronunciation, unclear original ASR words, timing, reading comfort and narration/companion differences; real-device readability and evaluation of the text alternatives. No human review signature was fabricated.
+2. **Full accessibility acceptance:** actual assistive-technology operation, physical devices/browser-menu zoom, native controls and any required audio-description alternative; validated flashing analysis if required by the release process. The automated checks above are complete within their stated scope.
+3. **Rights/hosting/privacy acceptance:** review recovered provenance and licence conditions, resolve the final Lesson 1.1 visual assembly provenance, confirm commercial distribution/branding rights and approve durable hosting with known retention/logging and deletion controls. Seven external media URLs remain a dependency.
+4. **Independent GMP/privacy sign-offs and owner release decision:** remain unsigned. AI technical execution does not satisfy those independent approvals.
+
+**Decision:** the feasible continuation is implemented and tested. The two recorded-content correction blockers are technically resolved; human acceptance, legal/hosting decisions and independent sign-offs are still open. Production remains **NO-GO**. Owner release authorization is not requested for this candidate. Keep the package on `academy-player-preview`.
+
+## Package links
+
+- [Evidence directory](evidence-2026-10-26/)
+- [Test reproduction instructions](../tests/README.md)
+- [Recovered source and build evidence](recovered-source/)
+- [Independent approval record](module-1-approval-decision.md)

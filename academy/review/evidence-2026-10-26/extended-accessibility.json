@@ -1,0 +1,1281 @@
+{
+  "browser": "153.0.8010.12",
+  "method": "Actual H264/AAC MP4s, muted automated playback at three positions; CSS layout zoom (not OS/browser UI zoom); CDP accessibility tree (not a screen-reader session).",
+  "rows": [
+    {
+      "file": "academy-gmp-foundations.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 18,
+        "main": 1,
+        "complementary": 1,
+        "StaticText": 89,
+        "sectionheader": 1,
+        "generic": 25,
+        "region": 1,
+        "paragraph": 10,
+        "heading": 6,
+        "button": 1,
+        "status": 2,
+        "InlineTextBox": 114,
+        "progressbar": 1,
+        "list": 1,
+        "strong": 13,
+        "listitem": 4,
+        "ListMarker": 4
+      }
+    },
+    {
+      "file": "academy-player-preview.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 26.386934,
+              "frames": 15
+            },
+            "after": {
+              "time": 27.647819,
+              "frames": 24,
+              "captions": 146
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 263.869344,
+              "frames": 30
+            },
+            "after": {
+              "time": 265.038433,
+              "frames": 38,
+              "captions": 146
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 501.351753,
+              "frames": 148
+            },
+            "after": {
+              "time": 502.519917,
+              "frames": 156,
+              "captions": 146
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 9,
+        "main": 1,
+        "complementary": 1,
+        "StaticText": 345,
+        "generic": 13,
+        "paragraph": 164,
+        "heading": 6,
+        "region": 2,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 397,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "slider": 1,
+        "strong": 3,
+        "listitem": 7,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 7
+      },
+      "media": {
+        "duration": 527.738688,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-lesson-1-2.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 11.749433,
+              "frames": 101
+            },
+            "after": {
+              "time": 12.919194,
+              "frames": 111,
+              "captions": 56
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 117.494333,
+              "frames": 171
+            },
+            "after": {
+              "time": 118.662242,
+              "frames": 180,
+              "captions": 56
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 223.239233,
+              "frames": 347
+            },
+            "after": {
+              "time": 224.407939,
+              "frames": 356,
+              "captions": 56
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 9,
+        "main": 1,
+        "complementary": 1,
+        "StaticText": 166,
+        "generic": 13,
+        "paragraph": 74,
+        "heading": 6,
+        "region": 2,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 222,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "slider": 1,
+        "strong": 3,
+        "listitem": 8,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 8
+      },
+      "media": {
+        "duration": 234.988667,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-lesson-1-3.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 13.116383,
+              "frames": 112
+            },
+            "after": {
+              "time": 14.313865,
+              "frames": 122,
+              "captions": 65
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 131.163833,
+              "frames": 131
+            },
+            "after": {
+              "time": 132.333042,
+              "frames": 140,
+              "captions": 65
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 249.211283,
+              "frames": 304
+            },
+            "after": {
+              "time": 250.378792,
+              "frames": 313,
+              "captions": 65
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 10,
+        "main": 1,
+        "complementary": 1,
+        "StaticText": 187,
+        "generic": 12,
+        "paragraph": 83,
+        "heading": 5,
+        "region": 2,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 239,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "slider": 1,
+        "strong": 5,
+        "listitem": 8,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 8
+      },
+      "media": {
+        "duration": 262.327667,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-lesson-1-4.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 11.503601,
+              "frames": 99
+            },
+            "after": {
+              "time": 12.72027,
+              "frames": 109,
+              "captions": 49
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 115.03601,
+              "frames": 164
+            },
+            "after": {
+              "time": 116.204133,
+              "frames": 173,
+              "captions": 49
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 218.568419,
+              "frames": 362
+            },
+            "after": {
+              "time": 219.761175,
+              "frames": 372,
+              "captions": 49
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 9,
+        "main": 1,
+        "complementary": 2,
+        "StaticText": 151,
+        "generic": 13,
+        "paragraph": 67,
+        "heading": 6,
+        "region": 2,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 224,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "strong": 3,
+        "slider": 1,
+        "listitem": 8,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 8
+      },
+      "media": {
+        "duration": 230.072021,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-lesson-1-5.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 12.364849,
+              "frames": 106
+            },
+            "after": {
+              "time": 13.553666,
+              "frames": 116,
+              "captions": 52
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 123.648498,
+              "frames": 291
+            },
+            "after": {
+              "time": 124.817511,
+              "frames": 300,
+              "captions": 52
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 234.932147,
+              "frames": 458
+            },
+            "after": {
+              "time": 236.099354,
+              "frames": 467,
+              "captions": 52
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 9,
+        "main": 1,
+        "complementary": 2,
+        "StaticText": 157,
+        "generic": 13,
+        "paragraph": 70,
+        "heading": 6,
+        "region": 2,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 239,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "strong": 3,
+        "slider": 1,
+        "listitem": 8,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 8
+      },
+      "media": {
+        "duration": 247.296997,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-lesson-1-6.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 10.840483,
+              "frames": 94
+            },
+            "after": {
+              "time": 12.008736,
+              "frames": 103,
+              "captions": 52
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 108.404833,
+              "frames": 130
+            },
+            "after": {
+              "time": 109.572868,
+              "frames": 139,
+              "captions": 52
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 205.969183,
+              "frames": 289
+            },
+            "after": {
+              "time": 207.137534,
+              "frames": 298,
+              "captions": 52
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 11,
+        "main": 1,
+        "complementary": 1,
+        "StaticText": 163,
+        "generic": 12,
+        "paragraph": 70,
+        "heading": 5,
+        "region": 2,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 218,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "slider": 1,
+        "strong": 5,
+        "listitem": 8,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 8
+      },
+      "media": {
+        "duration": 216.809667,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-lesson-1-7.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 11.132883,
+              "frames": 96
+            },
+            "after": {
+              "time": 12.318262,
+              "frames": 106,
+              "captions": 53
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 111.328833,
+              "frames": 151
+            },
+            "after": {
+              "time": 112.496871,
+              "frames": 161,
+              "captions": 53
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 211.524783,
+              "frames": 304
+            },
+            "after": {
+              "time": 212.692367,
+              "frames": 314,
+              "captions": 53
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 9,
+        "main": 1,
+        "complementary": 1,
+        "StaticText": 162,
+        "generic": 13,
+        "paragraph": 71,
+        "heading": 6,
+        "region": 2,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 220,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "slider": 1,
+        "strong": 3,
+        "emphasis": 1,
+        "listitem": 8,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 8
+      },
+      "media": {
+        "duration": 222.657667,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-lesson-1-8.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 10.70625,
+              "frames": 93
+            },
+            "after": {
+              "time": 11.890343,
+              "frames": 103,
+              "captions": 50
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 107.0625,
+              "frames": 213
+            },
+            "after": {
+              "time": 108.229112,
+              "frames": 223,
+              "captions": 50
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 203.41875,
+              "frames": 354
+            },
+            "after": {
+              "time": 204.636856,
+              "frames": 364,
+              "captions": 50
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 10,
+        "main": 1,
+        "complementary": 2,
+        "StaticText": 161,
+        "generic": 12,
+        "paragraph": 69,
+        "heading": 5,
+        "region": 2,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 224,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "strong": 7,
+        "slider": 1,
+        "listitem": 8,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 8
+      },
+      "media": {
+        "duration": 214.125,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-lesson-1-9.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 10.970849,
+              "frames": 95
+            },
+            "after": {
+              "time": 12.155306,
+              "frames": 105,
+              "captions": 60
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 109.708496,
+              "frames": 111
+            },
+            "after": {
+              "time": 110.875846,
+              "frames": 120,
+              "captions": 60
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 208.446142,
+              "frames": 268
+            },
+            "after": {
+              "time": 209.615716,
+              "frames": 277,
+              "captions": 60
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 9,
+        "main": 1,
+        "complementary": 1,
+        "StaticText": 171,
+        "generic": 13,
+        "paragraph": 76,
+        "heading": 6,
+        "region": 2,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 219,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "slider": 1,
+        "strong": 2,
+        "listitem": 8,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 8
+      },
+      "media": {
+        "duration": 219.416992,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-lesson-1-10.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        },
+        {
+          "name": "real H264 media ready",
+          "pass": true
+        },
+        {
+          "name": "decoded frames and playback at 0.05",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 11.839433,
+              "frames": 78
+            },
+            "after": {
+              "time": 13.026516,
+              "frames": 86,
+              "captions": 60
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.5",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 118.394333,
+              "frames": 132
+            },
+            "after": {
+              "time": 119.562934,
+              "frames": 140,
+              "captions": 60
+            }
+          }
+        },
+        {
+          "name": "decoded frames and playback at 0.95",
+          "pass": true,
+          "detail": {
+            "before": {
+              "time": 224.949233,
+              "frames": 276
+            },
+            "after": {
+              "time": 226.116914,
+              "frames": 284,
+              "captions": 60
+            }
+          }
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 8,
+        "main": 1,
+        "complementary": 1,
+        "StaticText": 171,
+        "generic": 14,
+        "paragraph": 76,
+        "heading": 6,
+        "region": 1,
+        "group": 2,
+        "button": 9,
+        "status": 3,
+        "InlineTextBox": 223,
+        "Video": 1,
+        "note": 1,
+        "list": 1,
+        "DisclosureTriangle": 1,
+        "slider": 1,
+        "strong": 2,
+        "listitem": 8,
+        "Legend": 1,
+        "radio": 3,
+        "ListMarker": 8
+      },
+      "media": {
+        "duration": 236.788667,
+        "readyState": 4,
+        "codec": "probably"
+      }
+    },
+    {
+      "file": "academy-gmp-assessment.html",
+      "checks": [
+        {
+          "name": "CSS layout zoom 2x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "CSS layout zoom 4x: no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "text spacing at 320",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "text spacing at 1280",
+          "pass": true,
+          "detail": {
+            "overflow": false,
+            "clipped": []
+          }
+        },
+        {
+          "name": "accessibility tree exposes main landmark",
+          "pass": true
+        },
+        {
+          "name": "named buttons in accessibility tree",
+          "pass": true
+        }
+      ],
+      "axRoles": {
+        "RootWebArea": 1,
+        "link": 5,
+        "main": 1,
+        "complementary": 1,
+        "StaticText": 86,
+        "generic": 20,
+        "paragraph": 6,
+        "form": 1,
+        "heading": 2,
+        "button": 3,
+        "status": 2,
+        "InlineTextBox": 123,
+        "progressbar": 1,
+        "group": 15,
+        "Legend": 15,
+        "LabelText": 45,
+        "radio": 45
+      }
+    }
+  ],
+  "testedCommit": "e99c5c91d6e012ab5d8851a580afac333c6b5a8a"
+}

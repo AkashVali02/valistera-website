@@ -2,6 +2,8 @@ from pathlib import Path
 import json,re,difflib,textwrap,html
 from bs4 import BeautifulSoup
 root=Path(__file__).resolve().parents[2];log=[]
+if (root/'academy/review/evidence-2026-10-26/revised-media.json').exists():
+ raise SystemExit('Historical remediation targets superseded recordings. Revised Lessons 1.4/1.5 must use their revised narration and ASR evidence.')
 def norm(s):return re.findall(r'[a-z0-9]+',s.lower())
 def stamp(t):
  ms=round(t*1000);return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02}.{ms%1000:03}'
