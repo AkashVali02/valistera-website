@@ -5,23 +5,23 @@ WEBVTT
 Change control is a structured quality system process for evaluating proposed
 
 2
-00:00:03.900 --> 00:00:11.240
+00:00:04.020 --> 00:00:11.240
 changes before they affect pharmaceutical operations. Changes may involve equipment, facilities,
 
 3
-00:00:11.120 --> 00:00:16.440
+00:00:11.240 --> 00:00:16.440
 utilities, processes, methods, materials or computerized systems. The goal is to
 
 4
-00:00:16.320 --> 00:00:21.420
+00:00:16.440 --> 00:00:21.420
 maintain a controlled state and avoid unintended effects on product quality.
 
 5
-00:00:21.300 --> 00:00:25.500
+00:00:21.420 --> 00:00:25.500
 The appropriate scope of review depends on risk, intended use and
 
 6
-00:00:25.380 --> 00:00:27.240
+00:00:25.500 --> 00:00:27.240
 applicable regulatory commitments.
 
 7
@@ -29,19 +29,19 @@ applicable regulatory commitments.
 A change request should clearly describe the current state, proposed state,
 
 8
-00:00:32.880 --> 00:00:38.300
+00:00:33.000 --> 00:00:38.300
 rationale and affected systems. Examples include replacing a critical sensor, revising
 
 9
-00:00:38.180 --> 00:00:42.960
+00:00:38.300 --> 00:00:42.960
 a cleaning procedure or changing an equipment component. The request should
 
 10
-00:00:42.840 --> 00:00:48.920
+00:00:42.960 --> 00:00:48.920
 identify relevant documents, equipment and product families. Clear scope helps reviewers
 
 11
-00:00:48.800 --> 00:00:54.370
+00:00:48.920 --> 00:00:54.370
 recognize dependencies before implementation rather than discovering them after the change.
 
 12
@@ -49,23 +49,23 @@ recognize dependencies before implementation rather than discovering them after 
 Quality impact assessment considers whether a change could affect identity, strength,
 
 13
-00:01:00.170 --> 00:01:04.170
+00:01:00.290 --> 00:01:04.170
 purity, safety or other critical quality attributes. The review may need
 
 14
-00:01:04.050 --> 00:01:11.090
+00:01:04.170 --> 00:01:11.090
 input from quality, engineering, manufacturing, validation, regulatory affairs and other functions.
 
 15
-00:01:10.970 --> 00:01:16.030
+00:01:11.090 --> 00:01:16.030
 Regulatory submission or notification implications depend on the market, product and
 
 16
-00:01:15.910 --> 00:01:20.550
+00:01:16.030 --> 00:01:20.550
 type of change. A technically small modification can still have important
 
 17
-00:01:20.430 --> 00:01:21.780
+00:01:20.550 --> 00:01:21.780
 quality consequences.
 
 18
@@ -73,19 +73,19 @@ quality consequences.
 Risk assessment considers credible failure modes, existing controls and the uncertainty
 
 19
-00:01:27.320 --> 00:01:33.460
+00:01:27.440 --> 00:01:33.460
 associated with the proposed change. It can help determine required qualification,
 
 20
-00:01:33.340 --> 00:01:39.480
+00:01:33.460 --> 00:01:39.480
 validation, testing, training and monitoring activities. Risk tools should support scientific
 
 21
-00:01:39.360 --> 00:01:45.280
+00:01:39.480 --> 00:01:45.280
 decision-making, not replace it. Acceptance criteria and verification plans must be
 
 22
-00:01:45.160 --> 00:01:48.600
+00:01:45.280 --> 00:01:48.600
 appropriate to the actual system, product and process.
 
 23
@@ -93,19 +93,19 @@ appropriate to the actual system, product and process.
 Implementation should proceed through the authorization steps established in the site
 
 24
-00:01:53.640 --> 00:02:00.560
+00:01:53.760 --> 00:02:00.560
 change control procedure. Relevant prerequisites may include approved specifications, impact assessments,
 
 25
-00:02:00.440 --> 00:02:06.420
+00:02:00.560 --> 00:02:06.420
 plans, procurement controls and training. Emergency changes may require a defined
 
 26
-00:02:06.300 --> 00:02:10.740
+00:02:06.420 --> 00:02:10.740
 expedited process, but urgency does not remove the need for documented
 
 27
-00:02:10.620 --> 00:02:17.010
+00:02:10.740 --> 00:02:17.010
 quality oversight. Unapproved informal modifications can compromise the validated state.
 
 28
@@ -113,19 +113,19 @@ quality oversight. Unapproved informal modifications can compromise the validate
 After authorization, the change should be executed according to the approved
 
 29
-00:02:21.530 --> 00:02:30.070
+00:02:21.650 --> 00:02:30.070
 plan. Verification may include installation checks, functional testing, qualification, process validation
 
 30
-00:02:29.950 --> 00:02:34.750
+00:02:30.070 --> 00:02:34.750
 or document updates depending on impact. Any departures should be evaluated
 
 31
-00:02:34.630 --> 00:02:39.690
+00:02:34.750 --> 00:02:39.690
 and recorded. The evidence should demonstrate that required activities were completed
 
 32
-00:02:39.570 --> 00:02:43.560
+00:02:39.690 --> 00:02:43.560
 and that affected systems remain suitable for their intended use.
 
 33
@@ -133,19 +133,19 @@ and that affected systems remain suitable for their intended use.
 Closing a change requires appropriate review of implementation evidence, open actions
 
 34
-00:02:49.980 --> 00:02:55.240
+00:02:50.100 --> 00:02:55.240
 and residual risks. Some changes may require enhanced monitoring or effectiveness
 
 35
-00:02:55.120 --> 00:03:01.360
+00:02:55.240 --> 00:03:01.360
 checks after implementation. The site should update procedures, drawings, training and
 
 36
-00:03:01.240 --> 00:03:05.220
+00:03:01.360 --> 00:03:05.220
 other controlled records as needed. A change should not be considered
 
 37
-00:03:05.100 --> 00:03:09.540
+00:03:05.220 --> 00:03:09.540
 complete simply because the new hardware or software has been installed.
 
 38
@@ -153,21 +153,21 @@ complete simply because the new hardware or software has been installed.
 Consider a proposed replacement of a differential pressure transmitter serving a
 
 39
-00:03:14.300 --> 00:03:20.820
+00:03:14.420 --> 00:03:20.820
 critical pharmaceutical manufacturing area. The team should evaluate instrument range, accuracy,
 
 40
-00:03:20.700 --> 00:03:26.240
+00:03:20.820 --> 00:03:26.240
 location, alarms, monitoring records and potential effects on environmental control. An
 
 41
-00:03:26.120 --> 00:03:32.340
+00:03:26.240 --> 00:03:32.340
 approved plan may require calibration, functional verification, documentation updates and impact
 
 42
-00:03:32.220 --> 00:03:36.880
+00:03:32.340 --> 00:03:36.880
 assessment of affected operations. The exact checks depend on the system
 
 43
-00:03:36.760 --> 00:03:38.530
+00:03:36.880 --> 00:03:38.530
 and its qualified state.
