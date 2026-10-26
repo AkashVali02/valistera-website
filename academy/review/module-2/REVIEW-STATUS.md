@@ -22,6 +22,10 @@ Long captions were shortened and the audio/captions rebuilt together. A narratio
 ## Review boundary
 Ready as a technical review candidate, not a certified or independently accepted training product. Consultant review should cover technical adequacy, listening/pronunciation/reading comfort, the sufficiency of visual descriptions, real-device and assistive-technology experience, and rights/privacy acceptance. ASR screening is not a human pronunciation review. Zero axe failures is not WCAG certification. Hosting retention and account control are not independently verified here. Module 1's consultant approval does not approve Module 2.
 
+## Preview deployment
+
+Candidate commit: `f1a729edd4804ca6ba08a6718761bd5decd4d998`. Cloudflare preview build completed successfully. Draft review PR: https://github.com/AkashVali02/valistera-website/pull/2 . Production main remains unchanged.
+
 ## Exact continuation task
 Finish/verify the preview branch deployment and hosted smoke checks, save the resulting exact commit/check evidence, and give the user the Module 2 review link. Do not start over, regenerate passing media, merge to main, or ask the user to run tests. The user wants a single review-ready handover and no routine task delegation.
 
