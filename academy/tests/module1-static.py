@@ -20,6 +20,10 @@ for i in range(1,11):
  if normalize(' '.join(c[2] for c in cues))!=normalize(' '.join(c[2] for c in original)):errors.append(f'{i}: caption wording changed beyond formatting')
  page=root/('academy-player-preview.html' if i==1 else f'academy-lesson-1-{i}.html');s=page.read_text();match=re.search(r'const cues=(\[.*?\]),\s*starts=',s,re.S)
  if not match or json.loads(match[1])!=cues:errors.append(f'{i}: embedded caption source differs')
+ if i in (4,5):
+  expected=[round(x[0],3) for x in original]
+  actual=json.loads(re.search(r'starts=(\[.*?\]),keys=',s).group(1))
+  if actual!=expected:errors.append(f'{i}: key-explanation scene times differ from revised recording')
  for required in ['academy-privacy-note','academy-transcript','main-content','load-media','data-src=']:
   if required not in s:errors.append(f'{i}: missing {required}')
  results.append({'lesson':i,'cue_count':len(cues),'end_seconds':cues[-1][1],'cps_over_20_05':flags,'max_lines':max(len(b.splitlines())-2 for b in path.read_text().strip().split('\n\n')[1:]),'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})

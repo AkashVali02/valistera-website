@@ -27,6 +27,14 @@ for(const file of (process.env.ONLY_PAGE?[process.env.ONLY_PAGE]:['academy-gmp-f
   check('video metadata decodes',await p.locator('video').evaluate(v=>v.readyState>=1));
   if(await p.locator('video').evaluate(v=>v.readyState>=1)){
    await p.waitForFunction(()=>document.querySelector('video').textTracks[0]?.cues?.length>0,{},{timeout:5000}).catch(()=>{});
+   if(['academy-lesson-1-4.html','academy-lesson-1-5.html'].includes(file)){
+    const lesson=Number(file.match(/1-(\d+)/)[1]);const scenes=JSON.parse(fs.readFileSync(path.join(out,`revised-narration-1-${lesson}.json`),'utf8'));
+    for(let j=0;j<scenes.length;j++){
+     await p.locator('video').evaluate((v,t)=>{v.currentTime=t;v.dispatchEvent(new Event('timeupdate'))},scenes[j][0]+1);
+     await p.waitForFunction(()=>!document.querySelector('video').seeking,null,{timeout:10000});
+     check('revised key explanation follows scene '+(j+1),await p.evaluate(j=>document.getElementById('keytext').textContent===keys[j],j));
+    }
+   }
    check('native caption track parses',await p.locator('video').evaluate(v=>v.textTracks[0]?.cues?.length>0));
    await p.locator('#cc').click();check('caption toggle off',await p.locator('video').evaluate(v=>v.textTracks[0].mode==='disabled'));await p.locator('#cc').click();check('caption toggle on',await p.locator('video').evaluate(v=>v.textTracks[0].mode==='showing'));
    await p.locator('video').evaluate(v=>{v.preload='auto';v.currentTime=65});await p.waitForFunction(()=>!document.querySelector('video').seeking,{},{timeout:5000}).catch(()=>{});await p.locator('video').evaluate(v=>v.dispatchEvent(new Event('timeupdate')));
