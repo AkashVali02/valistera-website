@@ -1,0 +1,86 @@
+[
+  {
+    "lesson": 1,
+    "original_sha256": "7c23b00967139ce5c499eb1f37ec26cfde2a45501d8352c231fa076700dddf9d",
+    "matching_recovered_files": [
+      "fast_reveal/final.mp4"
+    ],
+    "audio_match": {
+      "recovered_file": "premium_full/full.mp4",
+      "format": "mono 16000 Hz s16le PCM",
+      "sha256": "6672cd6bb55857f0b3f4a67aba97174cf7db56e272ca87dd8da999c478d29279",
+      "whole_video_match": false
+    },
+    "whole_video_match": true,
+    "assembly_chain": [
+      "make_lesson.py",
+      "premium_full.py",
+      "visual_enhanced.py",
+      "animate_align.py",
+      "rebuild_fast_reveal.py"
+    ]
+  },
+  {
+    "lesson": 2,
+    "original_sha256": "f6bf5787b5f9c9a145df9a23b057be33b1f62fad66ef0e8db807732d1b6286a2",
+    "matching_recovered_files": [
+      "lesson12/lesson12_diagrams.mp4"
+    ]
+  },
+  {
+    "lesson": 3,
+    "original_sha256": "1ba8a2ddd33b159aa4f7494f5bcaf4e416a078044a03d9764b7d53b36e26ce14",
+    "matching_recovered_files": [
+      "lesson13/lesson13_diagrams.mp4"
+    ]
+  },
+  {
+    "lesson": 4,
+    "original_sha256": "be36abbf8e9b4aca779e48fb77ab8176f6ae8bd8a2190c9f36e54630662662d0",
+    "matching_recovered_files": [
+      "lesson14/lesson14_diagrams.mp4"
+    ]
+  },
+  {
+    "lesson": 5,
+    "original_sha256": "45df577aabb2f2c1d998685c3703a1a69c7101e91333bba14ff559846a1b3c00",
+    "matching_recovered_files": [
+      "lesson15/lesson15_diagrams.mp4"
+    ]
+  },
+  {
+    "lesson": 6,
+    "original_sha256": "301c56f247a94134a78eba7e85f437845a93634ee99083ba83ac5a1d3b88f856",
+    "matching_recovered_files": [
+      "lesson16/lesson16_corrected_visuals.mp4"
+    ]
+  },
+  {
+    "lesson": 7,
+    "original_sha256": "f7a69340b9e7ffb69e65b3afddb6d754489d05afb52a07704176012eb21cde61",
+    "matching_recovered_files": [
+      "lesson17/lesson17_corrected.mp4"
+    ]
+  },
+  {
+    "lesson": 8,
+    "original_sha256": "a770b87568b5d186f8b2e23987f60183937fb3fea4887e6eae8fd24501d8ec8c",
+    "matching_recovered_files": [
+      "lesson18/lesson18_immediate.mp4"
+    ]
+  },
+  {
+    "lesson": 9,
+    "original_sha256": "19c94c60ac262dcb4629bb51d08ad4d0a1dcd33380d94046b3594d3fc4743e5f",
+    "matching_recovered_files": [
+      "lesson19/lesson19_immediate.mp4"
+    ]
+  },
+  {
+    "lesson": 10,
+    "original_sha256": "936f19c52510afdc31a3e85baafe0f5f25472899aba0dd645ccbc089f7981563",
+    "matching_recovered_files": [
+      "lesson110/lesson110.mp4"
+    ]
+  }
+]

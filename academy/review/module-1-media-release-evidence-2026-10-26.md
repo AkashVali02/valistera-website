@@ -1,0 +1,74 @@
+> Current status: see [the consolidated final QA report](module-1-final-qa-2026-10-26.md) for the subsequent recorded-content corrections, supported-browser evidence and remaining release gates. This file is historical evidence.
+
+> Historical evidence: current consolidated disposition is in [module-1-final-qa-2026-10-26.md](module-1-final-qa-2026-10-26.md). Earlier counts and unexecuted-review statements are not the current release decision.
+
+# ValiStera Academy Module 1 — Media and Release Evidence Addendum
+Date: 2026-10-26
+Branch: academy-player-preview (not production)
+Status: TECHNICAL WORK IN PROGRESS — NOT RELEASE APPROVED
+
+## Direct media verification
+All ten lesson HTML pages reference reachable CloudFront MP4s. FFprobe read the actual media duration for each video. Native VTT files were retrieved from the deployed preview and parsed against actual media duration.
+
+| Lesson | Video duration (s) | Native VTT cues | Overlaps | Cues exceeding video end | Cues >20 chars/second |
+|---|---:|---:|---:|---:|---:|
+| 1.1 | 527.7 | 156 | 0 | 0 | 14 |
+| 1.2 | 235.0 | 49 | 0 | 0 | 0 |
+| 1.3 | 262.3 | 50 | 0 | 0 | 0 |
+| 1.4 | 225.8 | 47 | 0 | 0 | 1 |
+| 1.5 | 229.2 | 47 | 0 | 0 | 0 |
+| 1.6 | 216.8 | 44 | 0 | 0 | 0 |
+| 1.7 | 222.7 | 43 | 0 | 0 | 0 |
+| 1.8 | 214.1 | 44 | 0 | 0 | 1 |
+| 1.9 | 219.4 | 43 | 0 | 0 | 0 |
+| 1.10 | 236.8 | 48 | 0 | 0 | 0 |
+
+The 20-character-per-second flag is a conservative review heuristic, not a universal WCAG pass/fail threshold. Retiming these cues without speech alignment could make synchronization worse; they remain flagged for audio-aligned correction. Existing videos have not been edited. Written companion reading is explicitly labeled as not necessarily narrated (verified on Lesson 1.6).
+
+## Functional smoke tests
+Automated preview checks returned HTTP 200 for 12 module pages and reported zero failures in module_release_qa.cjs. Smoke tests do not establish full WCAG compliance.
+
+## Privacy and rights
+Spot-check of overview, Lessons 1.1 and 1.6, and assessment confirmed browser localStorage usage and privacy-related text exists in each HTML page. Presence of disclosure text does not establish legal adequacy. CloudFront MP4 access is verified, but media licensing/ownership/redistribution rights cannot be inferred from accessibility.
+
+## Unresolved release gates
+1. Audio-to-VTT transcription and word-level timing verification: not performed; cue duration checks are insufficient.
+2. Video narration and visual technical content compared against final written content: not performed.
+3. Exact regulatory citations verified against currently effective official provisions: not completed.
+4. Full WCAG 2.2 AA manual/assistive technology audit: not completed.
+5. Media rights provenance and legal/privacy assessment: evidence outstanding.
+6. Independent internal and external senior GMP review, and owner GO/NO-GO: not obtained.
+
+## Decision
+NO-GO for production. Continue technical remediation on preview branch only. Do not represent this addendum as independent consultant approval.
+
+## Audio-based transcription and approximate timing audit (additional evidence)
+All ten CloudFront videos were decoded to mono audio and transcribed using faster-whisper tiny.en (automated ASR). ASR token sequences were aligned to the deployed native VTT caption text using sequence matching. These are **machine-generated diagnostic indicators**, not independently verified transcription or exact word-level timestamps. The caption files consistently show high agreement with ASR; disagreements often involve technical acronyms and ASR recognition errors. Approximate timing differences are measured using segment and cue midpoints, so they **must not** be interpreted as true subtitle synchronization errors.
+
+| Lesson | ASR/caption token similarity | Median approximate midpoint difference (s) | 95th percentile (s) |
+|---|---:|---:|---:|
+| 1.1 | 99.34% | 1.38 | 4.21 |
+| 1.2 | 97.60% | 1.22 | 3.20 |
+| 1.3 | 99.15% | 1.29 | 3.52 |
+| 1.4 | 97.55% | 1.07 | 3.96 |
+| 1.5 | 97.89% | 1.54 | 4.26 |
+| 1.6 | 99.56% | 1.39 | 4.41 |
+| 1.7 | 97.75% | 1.56 | 4.53 |
+| 1.8 | 98.54% | 1.39 | 3.03 |
+| 1.9 | 100.00% | 1.64 | 4.61 |
+| 1.10 | 99.10% | 2.06 | 4.58 |
+
+**Specific ASR discrepancy review:** e.g. ASR incorrectly rendered ValiStera as 'Volley-Steera', HVAC as 'HVSC', CAPA as 'CPA', and 'obsolete' as 'absolute'; the caption wording is preferable in these cases. Lesson 1.9 showed 100% token agreement. ASR results do not establish that the captions are error-free, nor do they justify indiscriminate caption text replacement. The 16 >20 CPS cue flags still require speech-aligned readability correction or a justified exception.
+
+**Implementation boundary:** No media files or captions were changed during this audit. This report adds verifiable diagnostic evidence without pretending that the remaining manual fidelity, visual, regulatory, legal, and authorization gates have passed.
+
+## Additional official source cross-check (2026-10-26)
+- Retrieved the European Commission's Annex 15 PDF at https://health.ec.europa.eu/system/files/2016-11/2015-10_annex15_0.pdf (HTTP 200, application/pdf); extracted text confirms heading **10. CLEANING VALIDATION** and provision **10.1**. The lesson's Section 10 reference is therefore supported by this published Annex 15 text. This does not replace a complete effective-version/jurisdiction applicability review.
+- Audited lesson external regulatory link destinations from the ten preview HTML pages; EU references point to the official EudraLex Volume 4 index and FDA provisions to ecfr.gov. A link destination being official does not itself prove every interpretation correct.
+- Inspected Lesson 1.1 privacy notice: it states browser-local progress storage, browser site-data clearing, third-party CloudFront delivery, and warns against confidential submissions. Notice existence verified; legal sufficiency not determined.
+
+## Additional independently executed checks (2026-10-26)
+- Re-ran HTTP and functional smoke test of the 12 deployed module pages: all 200; FAILURES [].
+- Extracted and checked all distinct official regulatory link targets embedded in the 12 pages. European Commission EudraLex Volume 4 index: HTTP 200; FDA guidance document search: HTTP 200; ICH quality guidelines index: HTTP 200. Link accessibility alone does not verify clause accuracy, current regulatory applicability or document version.
+- Spot-checked the player HTML and confirmed localStorage keys are used to store lesson playback position, watched state and quiz state. Presence of the word privacy elsewhere in HTML is not a substitute for confirming a complete user-facing disclosure.
+- No MP4 was modified, and no automated speech-to-text or word-level alignment has been completed. The 16 readability flags remain open and must not be presented as resolved.

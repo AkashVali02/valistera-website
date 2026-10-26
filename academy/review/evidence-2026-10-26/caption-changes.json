@@ -1,0 +1,62 @@
+[
+  {
+    "lesson": 1,
+    "original_cues": 156,
+    "final_cues": 146,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  },
+  {
+    "lesson": 2,
+    "original_cues": 49,
+    "final_cues": 56,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  },
+  {
+    "lesson": 3,
+    "original_cues": 50,
+    "final_cues": 65,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  },
+  {
+    "lesson": 4,
+    "original_cues": 47,
+    "final_cues": 55,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  },
+  {
+    "lesson": 5,
+    "original_cues": 47,
+    "final_cues": 62,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  },
+  {
+    "lesson": 6,
+    "original_cues": 44,
+    "final_cues": 52,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  },
+  {
+    "lesson": 7,
+    "original_cues": 43,
+    "final_cues": 53,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  },
+  {
+    "lesson": 8,
+    "original_cues": 44,
+    "final_cues": 50,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  },
+  {
+    "lesson": 9,
+    "original_cues": 43,
+    "final_cues": 60,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  },
+  {
+    "lesson": 10,
+    "original_cues": 48,
+    "final_cues": 60,
+    "method": "L1 exact ASR-word alignment; long-cue splits at exact ASR word matches; adjacent rapid-fragment merging; outer times preserved otherwise. Machine-assisted timing requires human acceptance."
+  }
+]

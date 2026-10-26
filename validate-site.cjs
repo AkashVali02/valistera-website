@@ -66,7 +66,7 @@ try {
     if (url.origin !== BASE) return;
     let filename;
     try { filename = decodeURIComponent(url.pathname).replace(/^\//, '') || 'index.html'; } catch { errors.push(`${page.file}: invalid URL encoding ${value}`); return; }
-    if (!fs.existsSync(path.join(ROOT, filename)) && !path.extname(filename)) filename += '.html';
+    if (!path.extname(filename) && (!fs.existsSync(path.join(ROOT, filename)) || !fs.statSync(path.join(ROOT, filename)).isFile())) filename += '.html';
     localReferences++;
     check(fs.existsSync(path.join(ROOT, filename)) && fs.statSync(path.join(ROOT, filename)).isFile(), `${page.file}: missing local file ${value}`);
     if (url.hash && pages.has(filename)) check(pages.get(filename).ids.has(decodeURIComponent(url.hash.slice(1))), `${page.file}: missing anchor ${value}`);

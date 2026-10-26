@@ -1,0 +1,77 @@
+[
+  {
+    "lesson": 1,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/eb78cff1-1144-431c-be91-001857d00418.mp4",
+    "sha256": "7c23b00967139ce5c499eb1f37ec26cfde2a45501d8352c231fa076700dddf9d",
+    "duration": 527.738688,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding."
+  },
+  {
+    "lesson": 2,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/7de56136-5515-4ed3-923b-46a0b7a898f6.mp4",
+    "sha256": "f6bf5787b5f9c9a145df9a23b057be33b1f62fad66ef0e8db807732d1b6286a2",
+    "duration": 234.988667,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding."
+  },
+  {
+    "lesson": 3,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/8df0daec-952e-4086-9c4d-80f75a6ab563.mp4",
+    "sha256": "1ba8a2ddd33b159aa4f7494f5bcaf4e416a078044a03d9764b7d53b36e26ce14",
+    "duration": 262.327667,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding."
+  },
+  {
+    "lesson": 4,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/849d2e54-b874-47b0-959c-8fc66a320c3e.mp4",
+    "sha256": "be36abbf8e9b4aca779e48fb77ab8176f6ae8bd8a2190c9f36e54630662662d0",
+    "duration": 225.750667,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding."
+  },
+  {
+    "lesson": 5,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/fac7f3bc-697d-4ac4-84b9-c32488d10714.mp4",
+    "sha256": "45df577aabb2f2c1d998685c3703a1a69c7101e91333bba14ff559846a1b3c00",
+    "duration": 229.242004,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding."
+  },
+  {
+    "lesson": 6,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/42267908-5dc9-471d-9199-0b1dd52b58d0.mp4",
+    "sha256": "301c56f247a94134a78eba7e85f437845a93634ee99083ba83ac5a1d3b88f856",
+    "duration": 216.809667,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding."
+  },
+  {
+    "lesson": 7,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/49e412bb-55cc-4999-815e-a90b03435321.mp4",
+    "sha256": "f7a69340b9e7ffb69e65b3afddb6d754489d05afb52a07704176012eb21cde61",
+    "duration": 222.657667,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding."
+  },
+  {
+    "lesson": 8,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/2b066e04-f683-4c59-b812-cea9e4a55f40.mp4",
+    "sha256": "a770b87568b5d186f8b2e23987f60183937fb3fea4887e6eae8fd24501d8ec8c",
+    "duration": 214.125,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding.",
+    "review_asset": "assets/academy/lesson-1-8-review.mp4",
+    "review_sha256": "fefa3738769706cb6364ab53e8000e3058a401d9e63cae5d3f0c290b28c72df4",
+    "source_pcm_hash": "SHA256=e8bdd38ae5077a8689a6794aa3672b248479e7649a71a2f24dd400f0ebd2cbd2",
+    "review_pcm_hash": "SHA256=e8bdd38ae5077a8689a6794aa3672b248479e7649a71a2f24dd400f0ebd2cbd2",
+    "audio_unchanged": true
+  },
+  {
+    "lesson": 9,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/894ab728-4b50-4344-b249-8237fc69fff0.mp4",
+    "sha256": "19c94c60ac262dcb4629bb51d08ad4d0a1dcd33380d94046b3594d3fc4743e5f",
+    "duration": 219.416992,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding."
+  },
+  {
+    "lesson": 10,
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/3c4b036f-03a9-404a-a574-e65ee203d7b1.mp4",
+    "sha256": "936f19c52510afdc31a3e85baafe0f5f25472899aba0dd645ccbc089f7981563",
+    "duration": 236.788667,
+    "rights_status": "No original voice/graphics license evidence located; clearance outstanding."
+  }
+]

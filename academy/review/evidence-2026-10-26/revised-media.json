@@ -1,0 +1,78 @@
+[
+  {
+    "lesson": 4,
+    "sha256": "6a04f604227cde2f60d8d37b2953dd2329d29538b05d6a8961fbe479bd9811e6",
+    "duration": 230.072021,
+    "cues": 49,
+    "unmatched_source_words": [
+      {
+        "index": 65,
+        "word": "mix-ups."
+      },
+      {
+        "index": 314,
+        "word": "lifecycle"
+      },
+      {
+        "index": 316,
+        "word": "risk-based"
+      }
+    ],
+    "initial_alignment_reading_speed_flags": [
+      {
+        "cue": 1,
+        "cps": 23.548387096774192
+      },
+      {
+        "cue": 8,
+        "cps": 20.21276595744678
+      },
+      {
+        "cue": 20,
+        "cps": 20.604395604395602
+      }
+    ],
+    "final_reading_speed_flags": [],
+    "final_check": "caption-structure.json"
+  },
+  {
+    "lesson": 5,
+    "sha256": "8ceddd36265f304fe46d0fca224eabdc5454d37d42680941b0954aebd163c039",
+    "duration": 247.296997,
+    "cues": 52,
+    "unmatched_source_words": [
+      {
+        "index": 32,
+        "word": "mix-ups"
+      },
+      {
+        "index": 171,
+        "word": "second-person"
+      },
+      {
+        "index": 225,
+        "word": "mix-up"
+      },
+      {
+        "index": 242,
+        "word": "Checks"
+      },
+      {
+        "index": 264,
+        "word": "In-process"
+      },
+      {
+        "index": 290,
+        "word": "process-specific"
+      }
+    ],
+    "initial_alignment_reading_speed_flags": [
+      {
+        "cue": 6,
+        "cps": 20.786516853932593
+      }
+    ],
+    "final_reading_speed_flags": [],
+    "final_check": "caption-structure.json"
+  }
+]

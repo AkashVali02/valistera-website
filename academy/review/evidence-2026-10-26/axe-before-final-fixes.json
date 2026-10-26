@@ -1,0 +1,113 @@
+[
+  {
+    "file": "academy-gmp-foundations.html",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#startLabel"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.46 (foreground color: #ffffff, background color: #257bc3, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "academy-player-preview.html",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #0000ee, background color: #10273e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #0000ee, background color: #10273e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"privacy.html\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #0000ee, background color: #10273e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"terms.html\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #0000ee, background color: #10273e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href=\"mailto:contact@valistera.com\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #0000ee, background color: #10273e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "academy-lesson-1-2.html",
+    "violations": []
+  },
+  {
+    "file": "academy-lesson-1-3.html",
+    "violations": []
+  },
+  {
+    "file": "academy-lesson-1-4.html",
+    "violations": []
+  },
+  {
+    "file": "academy-lesson-1-5.html",
+    "violations": []
+  },
+  {
+    "file": "academy-lesson-1-6.html",
+    "violations": []
+  },
+  {
+    "file": "academy-lesson-1-7.html",
+    "violations": []
+  },
+  {
+    "file": "academy-lesson-1-8.html",
+    "violations": []
+  },
+  {
+    "file": "academy-lesson-1-9.html",
+    "violations": []
+  },
+  {
+    "file": "academy-lesson-1-10.html",
+    "violations": []
+  },
+  {
+    "file": "academy-gmp-assessment.html",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#submit"
+            ],
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.46 (foreground color: #ffffff, background color: #257bc3, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ]
+  }
+]

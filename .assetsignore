@@ -13,3 +13,8 @@ wrangler.jsonc
 .assetsignore
 README.md
 *.zip
+
+# Keep development evidence in GitHub, not the public static site.
+academy
+academy/**
+validate-site.cjs

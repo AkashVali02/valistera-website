@@ -1,0 +1,86 @@
+{
+  "method": "Static structural checks; CPS threshold is a review heuristic, not a WCAG criterion.",
+  "lessons": [
+    {
+      "lesson": 1,
+      "cue_count": 146,
+      "end_seconds": 526.67,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "2ea06dd89ceb55150b501503772e2f57ce17b704ba6ac39d67ee38ecf633f252"
+    },
+    {
+      "lesson": 2,
+      "cue_count": 56,
+      "end_seconds": 234.09,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "b19ec8a96ea14b3681784f26499b08ac3717dbc4a306fb964af252a08d02bb79"
+    },
+    {
+      "lesson": 3,
+      "cue_count": 65,
+      "end_seconds": 261.45,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "8ffc9cb9fda788a321c9b07299f6f4d1c2a7e44747ee5846acc646c9b0a08998"
+    },
+    {
+      "lesson": 4,
+      "cue_count": 49,
+      "end_seconds": 229.1,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "43abcd56fe4de03d24d1b417a1b213d278ce1571deda453039758ccaa766a259"
+    },
+    {
+      "lesson": 5,
+      "cue_count": 52,
+      "end_seconds": 246.52,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "d7e1e3c0c20be1ad60df62b77d635c35ec98cc3bd0720dfff5a1d7284b3daf0c"
+    },
+    {
+      "lesson": 6,
+      "cue_count": 52,
+      "end_seconds": 216.01,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "904b830d4644b41431ec2f0348396925ceb76e6ced74494e897064b01b8e06bc"
+    },
+    {
+      "lesson": 7,
+      "cue_count": 53,
+      "end_seconds": 221.88,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "40310c1ef84c21c47cd24233f1ddae327e86e3f9c9b593dc6d01b90b49f76e9a"
+    },
+    {
+      "lesson": 8,
+      "cue_count": 50,
+      "end_seconds": 213.26,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "f909646e5eabf5574e0cf4819a5205877e8ada0d14770f90ae299b83ec51e5ef"
+    },
+    {
+      "lesson": 9,
+      "cue_count": 60,
+      "end_seconds": 218.53,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "710b1c58ed7218c0c8d691367cf8276db37c1c1bbd20de5a233be34c73479f45"
+    },
+    {
+      "lesson": 10,
+      "cue_count": 60,
+      "end_seconds": 236.01,
+      "cps_over_20_05": [],
+      "max_lines": 2,
+      "sha256": "767145c4da8d68df54c662109c46f6dfe8c51af4a5ff8361a29d3c11931eae7b"
+    }
+  ],
+  "failures": []
+}

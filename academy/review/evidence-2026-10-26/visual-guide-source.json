@@ -1,0 +1,104 @@
+{
+  "method": "Descriptions authored after inspecting the retained ten scene contact sheets; L1.8 wording reflects the corrected derivative. No claim of full-frame human acceptance.",
+  "lessons": {
+    "1": [
+      "The recurring manufacturing-system diagram links people and equipment to a controlled process and product quality.",
+      "The coloured three-by-three risk matrix is illustrative. It communicates increasing relative risk; its numbers and colours are not a universal scoring standard.",
+      "The quality-system slides connect oversight, accountability, personnel training and process controls.",
+      "Process flow runs from input through process, monitoring and review; testing alone cannot build quality into a product.",
+      "The vessel illustration marks equipment identification and calibration/status checks. Verify identity, cleaning and relevant instrument calibration before use.",
+      "Documentation flow links approved instructions to execution records and review. Instructions state what to do; records show what occurred.",
+      "Deviation and change-control illustrations reinforce recording, assessment and authorized decisions."
+    ],
+    "2": [
+      "Quality system: people, processes and oversight work together.",
+      "Management responsibility: lead, resource and review.",
+      "Risk management: assess, control and review, proportionate to product impact.",
+      "Deviation/CAPA: document, investigate and verify effectiveness.",
+      "Change management: propose, assess and approve before implementation.",
+      "Documentation: instruct, execute and record.",
+      "Data integrity: attribute, preserve and retrieve complete, trustworthy records.",
+      "Expired calibration example: hold, assess and document; evaluate instrument status and product impact."
+    ],
+    "3": [
+      "Personnel responsibilities: understand, perform and report.",
+      "Training: train, demonstrate competence and reassess; attendance alone is insufficient.",
+      "Hygiene: hand hygiene, appropriate clothing and reporting relevant conditions.",
+      "Gowning: prepare, gown and verify according to the area-specific procedure.",
+      "Controlled-area behaviour: follow flows, minimize risk and escalate concerns.",
+      "Contamination prevention: identify, segregate and verify materials and status.",
+      "Supervision: supervise, document and review actual work.",
+      "Missed gowning step: stop, report and assess under the approved procedure."
+    ],
+    "4": [
+      "Premises: design, maintain and monitor for the intended process.",
+      "Material/personnel flow: receive, control movement and produce while preventing contamination and mix-ups.",
+      "Cleaning: follow the procedure, clean and verify effectiveness.",
+      "Equipment design connects suitable materials, cleanability and intended use.",
+      "Calibration and maintenance: calibrate, maintain and record; assess overdue work.",
+      "Qualification: IQ, OQ and PQ mean installation, operational and performance qualification. Scope and acceptance criteria are system-specific.",
+      "Status: identify equipment, check status and record; labels complement controlled records.",
+      "Expired calibration: hold, report and assess. The revised scenario concerns a measuring instrument used with a vessel, not calibration of the vessel itself."
+    ],
+    "5": [
+      "Manufacturing control: approved instructions, execution and review.",
+      "Material status has distinct quarantine, released and rejected states. Verify records, not only container labels.",
+      "Dispensing connects material identity, measurement and recording. Perform applicable independent checks and maintain batch traceability.",
+      "Line clearance: clear the area, check setup and authorize the operation under approved procedures.",
+      "In-process control loop: measure, compare with approved limits, then respond and record.",
+      "Batch records connect operations, in-process data and reconciliation; investigate unexplained gaps.",
+      "Deviation response: secure, report and assess while preserving evidence.",
+      "Conflicting status: a released label and a system hold are inconsistent. Hold the material and escalate; do not select the preferred status."
+    ],
+    "6": [
+      "Pack identity links product, carton and label; mismatch can affect patient safety.",
+      "Printed materials: approve, issue and reconcile; segregate obsolete artwork.",
+      "Line clearance: remove previous materials, verify equipment and record checks.",
+      "In-process packaging checks cover identity, print and pack integrity.",
+      "Traceability links unit pack, carton and shipper through identifiers and records.",
+      "Reconciliation compares issued material with material accounted for: used, rejected, returned or another documented disposition. Investigate unexplained differences.",
+      "Mix-up barriers: segregate, identify, verify and review.",
+      "Wrong-strength carton: stop, report and assess; resume only after authorized disposition and preserve evidence."
+    ],
+    "7": [
+      "Quality control: sample, analyze and review. Testing supports GMP controls.",
+      "Specification control links method, test and approved criteria.",
+      "Sampling chain of custody: identify the sample, control handling and trace analysis.",
+      "Instrument readiness covers calibration, suitability and records.",
+      "OOS response: preserve the original result, investigate and assess impact. Retesting requires justification and approval.",
+      "Laboratory integrity includes raw data, metadata and audit trails.",
+      "Batch disposition integrates records, testing and deviations before an authorized release decision.",
+      "Failed-assay example: preserve, report, investigate and decide. Do not replace a failing result without justification."
+    ],
+    "8": [
+      "Deviation management: detect, assess and prevent recurrence.",
+      "Containment: stop or secure as appropriate, segregate and preserve evidence; report under site procedures.",
+      "Deviation record: what, when and where; affected material; immediate action.",
+      "Root-cause investigation considers people, process and equipment. The corrected slide says investigate root causes.",
+      "Product impact review considers batch scope, risk evidence and disposition.",
+      "CAPA links correction and prevention to demonstrated causes, assigned owners and verified implementation.",
+      "Effectiveness review: implement, monitor, trend and verify that controls work.",
+      "Pressure alarm example: report, preserve, assess and verify. A return to normal does not erase the event."
+    ],
+    "9": [
+      "Change control connects proposal, assessment and closure; evaluate change before affecting GMP operations.",
+      "Change request compares the current state, proposed state and rationale, identifying affected systems.",
+      "Impact assessment covers product quality, validation status and regulatory status.",
+      "Risk-based verification considers possible failure, controls and verification.",
+      "Approval gates: assessment and authorization precede execution.",
+      "Implementation: execute, verify and document evidence and deviations; complete needed qualification and updates.",
+      "Closure considers records, training, monitoring and residual risk.",
+      "HVAC sensor example: request, assess, calibrate and verify that replacement maintains the qualified function."
+    ],
+    "10": [
+      "Internal oversight: review, identify gaps and improve before quality is affected.",
+      "Inspection plan: define scope, prioritize and assign objectively.",
+      "Prepare evidence: procedures, records and current status must reflect real operations.",
+      "Conduct inspection: observe, interview and document evidence rather than assumptions.",
+      "Findings: record facts, impact and follow-up, separating verified findings from advice.",
+      "Corrective action: establish cause, act and verify effectiveness.",
+      "Daily readiness: train, record and review continuously.",
+      "Expired-status example: secure, assess and resolve; replacing a label alone is insufficient."
+    ]
+  }
+}
