@@ -1,0 +1,66 @@
+{
+  "testedCommit": "ef19d1e695cf70b3cc431a5317828648fb87edd4",
+  "method": "Chromium navigations and response-body SHA256 comparisons. Direct urllib received HTTP403; browser fetch succeeded.",
+  "rows": [
+    {
+      "file": "academy-player-preview.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "academy-lesson-1-2.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "academy-lesson-1-3.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "academy-lesson-1-4.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "academy-lesson-1-5.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "academy-lesson-1-6.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "academy-lesson-1-7.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "academy-lesson-1-8.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "academy-lesson-1-9.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "academy-lesson-1-10.html",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "assets/academy-accessibility.js",
+      "status": 200,
+      "matches_candidate": true
+    },
+    {
+      "file": "assets/academy-accessibility.css",
+      "status": 200,
+      "matches_candidate": true
+    }
+  ]
+}

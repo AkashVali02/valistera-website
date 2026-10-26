@@ -2,7 +2,7 @@
 
 **26 October 2026 · academy-player-preview · production NO-GO**
 
-This report supersedes the earlier same-day final report, retained as [the pre-continuation record](module-1-qa-before-continuation-2026-10-26.md). It consolidates the original remediation and the subsequent feasible work in audiovisual quality, recorded content, accessibility, and rights/hosting. The current player implementation is commit `d77a7a8fdc5904fa1208eb8a32631227d283d278`; the following evidence/report commit completes this package. No production deployment or merge was performed.
+This report supersedes the earlier same-day final report, retained as [the pre-continuation record](module-1-qa-before-continuation-2026-10-26.md). It consolidates the original remediation and the subsequent feasible work in audiovisual quality, recorded content, accessibility, and rights/hosting. The current player implementation is commit `ef19d1e695cf70b3cc431a5317828648fb87edd4`; the following evidence/report commit completes this package. No production deployment or merge was performed.
 
 ## Delivered changes
 
@@ -17,8 +17,8 @@ This report supersedes the earlier same-day final report, retained as [the pre-c
 
 | Test | Result | Evidence |
 |---|---|---|
-| Actual-media player, keyboard, quizzes, assessment, axe, storage clearing and responsive layout | **275/275 checks passed across 12 pages**; zero detected scoped axe violations | `browser-same-origin-results.json` |
-| Real muted video playback at 5%, 50%, 95%; increasing decoded frames; accessibility-tree roles/names; 2x/4x CSS layout zoom; text spacing at 320/1280 px | **112/112 checks passed across 12 pages** | `extended-same-origin-results.json` |
+| Actual-media player, keyboard, quizzes, assessment, axe, storage clearing and responsive layout | **305/305 checks passed across 12 pages**; zero detected scoped axe violations | `browser-play-results.json` |
+| Real muted video playback at 5%, 50%, 95%; increasing decoded frames; accessibility-tree roles/names; 2x/4x CSS layout zoom; text spacing at 320/1280 px | **112/112 checks passed across 12 pages** | `extended-play-results.json` |
 | Ten final caption tracks | **All pass**; zero speed flags; maximum two authored lines | `caption-structure.json` |
 | Complete video-stream decode and scene-change diagnostic | **10/10 decode successfully**; no more than one detected change per rolling second at the selected threshold | `full-decode-scene-scan.json` |
 | Website validation | **Passed:** 31 HTML pages, 1,029 local references, sitemap, JSON, fingerprints and JS syntax | `node validate-site.cjs` |
@@ -29,7 +29,7 @@ The current same-origin run recorded zero external requests throughout all teste
 
 The final H.264 browser was **Chromium 153.0.8010.12**; axe was **4.10.3**. The tests served repository bytes through Playwright routes with byte-range handling. They did not test a deployed site's HTTP headers, CDN or physical devices. Tests used real media, not the earlier synthetic WebM fixture. Playback was muted and sampled at three positions; this is decode/control evidence, not a full listening review.
 
-CSS layout zoom is not physical-device/browser-menu zoom. Accessibility-tree inspection is not an NVDA, JAWS, VoiceOver or TalkBack session. Zero axe findings is not WCAG 2.2 AA certification. The full-stream scene-change heuristic can miss localized or low-amplitude flashes and is not a validated photosensitive-epilepsy test. Historical `browser-results.json`, `browser-fixture-results.json`, `browser-h264-results.json` and `extended-accessibility.json` retain earlier runs; use the two same-origin result files for the current candidate.
+CSS layout zoom is not physical-device/browser-menu zoom. Accessibility-tree inspection is not an NVDA, JAWS, VoiceOver or TalkBack session. Zero axe findings is not WCAG 2.2 AA certification. The full-stream scene-change heuristic can miss localized or low-amplitude flashes and is not a validated photosensitive-epilepsy test. Historical `browser-results.json`, `browser-fixture-results.json`, `browser-h264-results.json` and `extended-accessibility.json` retain earlier runs; use browser-play-results.json and extended-play-results.json for the current candidate.
 
 The initial supported-browser run found one same-origin-video resume failure caused by the test route's missing range response. The harness was corrected to serve byte ranges for repository MP4s; all ten real-video resume tests then passed. The initial extended run found six failing checks (five 4x layout overflows and one text-spacing overflow); CSS corrections passed the final retest.
 
@@ -75,3 +75,9 @@ The [rights/hosting/privacy report](module-1-rights-hosting-privacy-2026-10-26.m
 `same-origin-media.json` records the ten repository paths, file sizes, SHA-256 values and old URLs for historical traceability. `same-origin-static.json` records 49 passing checks for hashes, unchanged original bytes, same-origin paths, deferred video loading and corrected notices. The active lesson pages do not contact the old CloudFront media host. The repository now retains the media needed by the preview; no new paid hosting service or production deployment was created. Historical external copies and Git history were not deleted.
 
 The Lesson 1.1 render hash `7c23b00967139ce5c499eb1f37ec26cfde2a45501d8352c231fa076700dddf9d` matches both `fast_reveal/final.mp4` and the repository copy. The recovered chain is `make_lesson.py` → `premium_full.py` → `visual_enhanced.py` → `animate_align.py` → `rebuild_fast_reveal.py`. This closes the previously unidentified final visual assembly; independent rights acceptance is still distinct.
+
+## One-tap player refinement
+
+The separate load button, long pre-player notice and blank unloaded native player were replaced with an actual lesson-frame thumbnail and one accessible “Play lesson” button on all ten lessons. Activating it by touch/click or Enter requests playback immediately; MP4 loading remains deferred until that action. The native player appears for playback. If browser playback policy rejects the request, native controls remain available with a short instruction. Failed media loading restores a labelled Retry lesson control and transcript fallback. Privacy details stay in the existing lower-page notice. Static transcripts and a no-JavaScript direct-video link remain available.
+
+The 305-check run includes poster visibility, hidden unloaded controls, single keyboard activation starting actual playback on all ten lessons, and saved-position resume. The 112 extended checks passed again. A separate network-failure/retry test passed, and the mobile Lesson 1.6 poster was visually inspected. Hosted verification fetched all ten lesson pages plus shared player JS/CSS and compared their bytes to the tested candidate; see `hosted-play-verification.json`. No production merge or deployment action was performed.

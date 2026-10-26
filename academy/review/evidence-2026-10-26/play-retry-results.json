@@ -1,0 +1,14 @@
+{
+  "testedCommit": "ef19d1e695cf70b3cc431a5317828648fb87edd4",
+  "rows": [
+    {
+      "check": "network error offers retry and hides failed player",
+      "pass": true
+    },
+    {
+      "check": "retry starts actual video",
+      "pass": true
+    }
+  ],
+  "mobileInspection": "Lesson 1.6 poster inspected at a 390px browser viewport; not physical-device acceptance."
+}
