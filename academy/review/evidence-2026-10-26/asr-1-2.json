@@ -1,0 +1,3181 @@
+[
+  {
+    "start": 0.0,
+    "end": 5.88,
+    "text": " A pharmaceutical quality system, often called a PQS, brings together the people, processes",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.12,
+        "word": " A",
+        "probability": 0.8905990719795227
+      },
+      {
+        "start": 0.12,
+        "end": 0.48,
+        "word": " pharmaceutical",
+        "probability": 0.9869108200073242
+      },
+      {
+        "start": 0.48,
+        "end": 1.04,
+        "word": " quality",
+        "probability": 0.9317159652709961
+      },
+      {
+        "start": 1.04,
+        "end": 1.62,
+        "word": " system,",
+        "probability": 0.9991951584815979
+      },
+      {
+        "start": 1.88,
+        "end": 2.28,
+        "word": " often",
+        "probability": 0.9985872507095337
+      },
+      {
+        "start": 2.28,
+        "end": 2.6,
+        "word": " called",
+        "probability": 0.9982629418373108
+      },
+      {
+        "start": 2.6,
+        "end": 2.74,
+        "word": " a",
+        "probability": 0.9752968549728394
+      },
+      {
+        "start": 2.74,
+        "end": 3.52,
+        "word": " PQS,",
+        "probability": 0.9341484506924947
+      },
+      {
+        "start": 3.88,
+        "end": 4.2,
+        "word": " brings",
+        "probability": 0.996635377407074
+      },
+      {
+        "start": 4.2,
+        "end": 4.56,
+        "word": " together",
+        "probability": 0.9994507431983948
+      },
+      {
+        "start": 4.56,
+        "end": 4.8,
+        "word": " the",
+        "probability": 0.9986357092857361
+      },
+      {
+        "start": 4.8,
+        "end": 5.1,
+        "word": " people,",
+        "probability": 0.9984009861946106
+      },
+      {
+        "start": 5.5,
+        "end": 5.88,
+        "word": " processes",
+        "probability": 0.9972503781318665
+      }
+    ]
+  },
+  {
+    "start": 5.88,
+    "end": 9.06,
+    "text": " and management arrangements used to maintain medicine quality.",
+    "words": [
+      {
+        "start": 5.88,
+        "end": 6.32,
+        "word": " and",
+        "probability": 0.5464667677879333
+      },
+      {
+        "start": 6.32,
+        "end": 6.62,
+        "word": " management",
+        "probability": 0.9985530972480774
+      },
+      {
+        "start": 6.62,
+        "end": 7.22,
+        "word": " arrangements",
+        "probability": 0.9989317059516907
+      },
+      {
+        "start": 7.22,
+        "end": 7.6,
+        "word": " used",
+        "probability": 0.9708948135375977
+      },
+      {
+        "start": 7.6,
+        "end": 7.86,
+        "word": " to",
+        "probability": 0.9997852444648743
+      },
+      {
+        "start": 7.86,
+        "end": 8.06,
+        "word": " maintain",
+        "probability": 0.9986224174499512
+      },
+      {
+        "start": 8.06,
+        "end": 8.64,
+        "word": " medicine",
+        "probability": 0.9975831508636475
+      },
+      {
+        "start": 8.64,
+        "end": 9.06,
+        "word": " quality.",
+        "probability": 0.996508777141571
+      }
+    ]
+  },
+  {
+    "start": 9.98,
+    "end": 13.5,
+    "text": " Good manufacturing practice is a fundamental part of this system.",
+    "words": [
+      {
+        "start": 9.98,
+        "end": 10.12,
+        "word": " Good",
+        "probability": 0.9710058569908142
+      },
+      {
+        "start": 10.12,
+        "end": 10.48,
+        "word": " manufacturing",
+        "probability": 0.9873380661010742
+      },
+      {
+        "start": 10.48,
+        "end": 11.34,
+        "word": " practice",
+        "probability": 0.9979103207588196
+      },
+      {
+        "start": 11.34,
+        "end": 11.78,
+        "word": " is",
+        "probability": 0.992658793926239
+      },
+      {
+        "start": 11.78,
+        "end": 11.9,
+        "word": " a",
+        "probability": 0.9988019466400146
+      },
+      {
+        "start": 11.9,
+        "end": 12.28,
+        "word": " fundamental",
+        "probability": 0.998555600643158
+      },
+      {
+        "start": 12.28,
+        "end": 12.84,
+        "word": " part",
+        "probability": 0.9996353387832642
+      },
+      {
+        "start": 12.84,
+        "end": 13.0,
+        "word": " of",
+        "probability": 0.9996978044509888
+      },
+      {
+        "start": 13.0,
+        "end": 13.12,
+        "word": " this",
+        "probability": 0.9789961576461792
+      },
+      {
+        "start": 13.12,
+        "end": 13.5,
+        "word": " system.",
+        "probability": 0.9996324777603149
+      }
+    ]
+  },
+  {
+    "start": 14.26,
+    "end": 20.14,
+    "text": " A strong quality system defines responsibilities, establishes procedures, monitors performance,",
+    "words": [
+      {
+        "start": 14.26,
+        "end": 14.38,
+        "word": " A",
+        "probability": 0.998518168926239
+      },
+      {
+        "start": 14.38,
+        "end": 14.64,
+        "word": " strong",
+        "probability": 0.9985074400901794
+      },
+      {
+        "start": 14.64,
+        "end": 15.02,
+        "word": " quality",
+        "probability": 0.9698135852813721
+      },
+      {
+        "start": 15.02,
+        "end": 15.64,
+        "word": " system",
+        "probability": 0.9995943903923035
+      },
+      {
+        "start": 15.64,
+        "end": 16.04,
+        "word": " defines",
+        "probability": 0.9941909909248352
+      },
+      {
+        "start": 16.04,
+        "end": 16.82,
+        "word": " responsibilities,",
+        "probability": 0.9959346055984497
+      },
+      {
+        "start": 17.64,
+        "end": 18.1,
+        "word": " establishes",
+        "probability": 0.9976845979690552
+      },
+      {
+        "start": 18.1,
+        "end": 18.86,
+        "word": " procedures,",
+        "probability": 0.9987449645996094
+      },
+      {
+        "start": 19.42,
+        "end": 19.66,
+        "word": " monitors",
+        "probability": 0.9994826316833496
+      },
+      {
+        "start": 19.66,
+        "end": 20.14,
+        "word": " performance,",
+        "probability": 0.9922236204147339
+      }
+    ]
+  },
+  {
+    "start": 20.72,
+    "end": 22.4,
+    "text": " and supports continual improvement.",
+    "words": [
+      {
+        "start": 20.72,
+        "end": 20.86,
+        "word": " and",
+        "probability": 0.9993322491645813
+      },
+      {
+        "start": 20.86,
+        "end": 21.16,
+        "word": " supports",
+        "probability": 0.9989657402038574
+      },
+      {
+        "start": 21.16,
+        "end": 21.76,
+        "word": " continual",
+        "probability": 0.9975115060806274
+      },
+      {
+        "start": 21.76,
+        "end": 22.4,
+        "word": " improvement.",
+        "probability": 0.9993033409118652
+      }
+    ]
+  },
+  {
+    "start": 23.2,
+    "end": 25.88,
+    "text": " It does not rely on final product testing alone.",
+    "words": [
+      {
+        "start": 23.2,
+        "end": 23.28,
+        "word": " It",
+        "probability": 0.9985209107398987
+      },
+      {
+        "start": 23.28,
+        "end": 23.4,
+        "word": " does",
+        "probability": 0.9979495406150818
+      },
+      {
+        "start": 23.4,
+        "end": 23.62,
+        "word": " not",
+        "probability": 0.9997261166572571
+      },
+      {
+        "start": 23.62,
+        "end": 23.88,
+        "word": " rely",
+        "probability": 0.9995667338371277
+      },
+      {
+        "start": 23.88,
+        "end": 24.3,
+        "word": " on",
+        "probability": 0.9994712471961975
+      },
+      {
+        "start": 24.3,
+        "end": 24.56,
+        "word": " final",
+        "probability": 0.9893888831138611
+      },
+      {
+        "start": 24.56,
+        "end": 25.04,
+        "word": " product",
+        "probability": 0.9408239126205444
+      },
+      {
+        "start": 25.04,
+        "end": 25.4,
+        "word": " testing",
+        "probability": 0.995380163192749
+      },
+      {
+        "start": 25.4,
+        "end": 25.88,
+        "word": " alone.",
+        "probability": 0.99846351146698
+      }
+    ]
+  },
+  {
+    "start": 26.84,
+    "end": 31.52,
+    "text": " Senior management is accountable for establishing an effective pharmaceutical quality system",
+    "words": [
+      {
+        "start": 26.759999999999998,
+        "end": 27.2,
+        "word": " Senior",
+        "probability": 0.3929847776889801
+      },
+      {
+        "start": 27.2,
+        "end": 27.58,
+        "word": " management",
+        "probability": 0.9257689118385315
+      },
+      {
+        "start": 27.58,
+        "end": 28.04,
+        "word": " is",
+        "probability": 0.9971979856491089
+      },
+      {
+        "start": 28.04,
+        "end": 28.44,
+        "word": " accountable",
+        "probability": 0.9898720383644104
+      },
+      {
+        "start": 28.44,
+        "end": 28.82,
+        "word": " for",
+        "probability": 0.9981802701950073
+      },
+      {
+        "start": 28.82,
+        "end": 29.34,
+        "word": " establishing",
+        "probability": 0.9995526671409607
+      },
+      {
+        "start": 29.34,
+        "end": 29.62,
+        "word": " an",
+        "probability": 0.9873753786087036
+      },
+      {
+        "start": 29.62,
+        "end": 29.9,
+        "word": " effective",
+        "probability": 0.9960905909538269
+      },
+      {
+        "start": 29.9,
+        "end": 30.32,
+        "word": " pharmaceutical",
+        "probability": 0.9864091873168945
+      },
+      {
+        "start": 30.32,
+        "end": 31.06,
+        "word": " quality",
+        "probability": 0.9667642712593079
+      },
+      {
+        "start": 31.06,
+        "end": 31.52,
+        "word": " system",
+        "probability": 0.9986912608146667
+      }
+    ]
+  },
+  {
+    "start": 31.52,
+    "end": 37.32,
+    "text": " and providing suitable resources. Responsibilities and authorities should be clearly defined.",
+    "words": [
+      {
+        "start": 31.52,
+        "end": 32.18,
+        "word": " and",
+        "probability": 0.8684580326080322
+      },
+      {
+        "start": 32.18,
+        "end": 32.48,
+        "word": " providing",
+        "probability": 0.9981974959373474
+      },
+      {
+        "start": 32.48,
+        "end": 32.88,
+        "word": " suitable",
+        "probability": 0.9955810904502869
+      },
+      {
+        "start": 32.88,
+        "end": 33.62,
+        "word": " resources.",
+        "probability": 0.9988495111465454
+      },
+      {
+        "start": 34.5,
+        "end": 35.28,
+        "word": " Responsibilities",
+        "probability": 0.9205500185489655
+      },
+      {
+        "start": 35.28,
+        "end": 35.54,
+        "word": " and",
+        "probability": 0.9950162768363953
+      },
+      {
+        "start": 35.54,
+        "end": 35.8,
+        "word": " authorities",
+        "probability": 0.9901705384254456
+      },
+      {
+        "start": 35.8,
+        "end": 36.4,
+        "word": " should",
+        "probability": 0.9987115859985352
+      },
+      {
+        "start": 36.4,
+        "end": 36.52,
+        "word": " be",
+        "probability": 0.99981290102005
+      },
+      {
+        "start": 36.52,
+        "end": 36.78,
+        "word": " clearly",
+        "probability": 0.9990960359573364
+      },
+      {
+        "start": 36.78,
+        "end": 37.32,
+        "word": " defined.",
+        "probability": 0.9997170567512512
+      }
+    ]
+  },
+  {
+    "start": 38.14,
+    "end": 42.94,
+    "text": " Quality units, production teams, engineering and other functions must work together,",
+    "words": [
+      {
+        "start": 38.14,
+        "end": 38.34,
+        "word": " Quality",
+        "probability": 0.9807351231575012
+      },
+      {
+        "start": 38.34,
+        "end": 38.76,
+        "word": " units,",
+        "probability": 0.9887503981590271
+      },
+      {
+        "start": 39.2,
+        "end": 39.34,
+        "word": " production",
+        "probability": 0.9961463212966919
+      },
+      {
+        "start": 39.34,
+        "end": 39.86,
+        "word": " teams,",
+        "probability": 0.9979144930839539
+      },
+      {
+        "start": 40.54,
+        "end": 40.7,
+        "word": " engineering",
+        "probability": 0.9987865090370178
+      },
+      {
+        "start": 40.7,
+        "end": 41.18,
+        "word": " and",
+        "probability": 0.6953544616699219
+      },
+      {
+        "start": 41.18,
+        "end": 41.32,
+        "word": " other",
+        "probability": 0.999526858329773
+      },
+      {
+        "start": 41.32,
+        "end": 41.8,
+        "word": " functions",
+        "probability": 0.9993003606796265
+      },
+      {
+        "start": 41.8,
+        "end": 42.3,
+        "word": " must",
+        "probability": 0.982914924621582
+      },
+      {
+        "start": 42.3,
+        "end": 42.6,
+        "word": " work",
+        "probability": 0.9997397065162659
+      },
+      {
+        "start": 42.6,
+        "end": 42.94,
+        "word": " together,",
+        "probability": 0.9997926354408264
+      }
+    ]
+  },
+  {
+    "start": 43.42,
+    "end": 46.16,
+    "text": " while preserving required independent quality decisions.",
+    "words": [
+      {
+        "start": 43.42,
+        "end": 43.58,
+        "word": " while",
+        "probability": 0.9967209696769714
+      },
+      {
+        "start": 43.58,
+        "end": 43.92,
+        "word": " preserving",
+        "probability": 0.9989094734191895
+      },
+      {
+        "start": 43.92,
+        "end": 44.56,
+        "word": " required",
+        "probability": 0.9983870983123779
+      },
+      {
+        "start": 44.56,
+        "end": 44.98,
+        "word": " independent",
+        "probability": 0.9503304958343506
+      },
+      {
+        "start": 44.98,
+        "end": 45.6,
+        "word": " quality",
+        "probability": 0.9696303009986877
+      },
+      {
+        "start": 45.6,
+        "end": 46.16,
+        "word": " decisions.",
+        "probability": 0.9966739416122437
+      }
+    ]
+  },
+  {
+    "start": 47.06,
+    "end": 53.0,
+    "text": " Management review uses information about performance, problems and improvement opportunities to guide",
+    "words": [
+      {
+        "start": 47.06,
+        "end": 47.5,
+        "word": " Management",
+        "probability": 0.9939963817596436
+      },
+      {
+        "start": 47.5,
+        "end": 47.88,
+        "word": " review",
+        "probability": 0.8697353601455688
+      },
+      {
+        "start": 47.88,
+        "end": 48.44,
+        "word": " uses",
+        "probability": 0.9954023361206055
+      },
+      {
+        "start": 48.44,
+        "end": 48.74,
+        "word": " information",
+        "probability": 0.9985164999961853
+      },
+      {
+        "start": 48.74,
+        "end": 49.44,
+        "word": " about",
+        "probability": 0.9996817111968994
+      },
+      {
+        "start": 49.44,
+        "end": 49.78,
+        "word": " performance,",
+        "probability": 0.9988706707954407
+      },
+      {
+        "start": 50.44,
+        "end": 50.84,
+        "word": " problems",
+        "probability": 0.9991315007209778
+      },
+      {
+        "start": 50.84,
+        "end": 51.3,
+        "word": " and",
+        "probability": 0.5654247999191284
+      },
+      {
+        "start": 51.3,
+        "end": 51.7,
+        "word": " improvement",
+        "probability": 0.9988850951194763
+      },
+      {
+        "start": 51.7,
+        "end": 52.2,
+        "word": " opportunities",
+        "probability": 0.9990109205245972
+      },
+      {
+        "start": 52.2,
+        "end": 52.78,
+        "word": " to",
+        "probability": 0.9968159794807434
+      },
+      {
+        "start": 52.78,
+        "end": 53.0,
+        "word": " guide",
+        "probability": 0.994657576084137
+      }
+    ]
+  },
+  {
+    "start": 53.0,
+    "end": 58.24,
+    "text": " action. Quality risk management provides a structured way to assess, control,",
+    "words": [
+      {
+        "start": 53.0,
+        "end": 53.46,
+        "word": " action.",
+        "probability": 0.03107093833386898
+      },
+      {
+        "start": 54.26,
+        "end": 54.72,
+        "word": " Quality",
+        "probability": 0.9491060972213745
+      },
+      {
+        "start": 54.72,
+        "end": 54.94,
+        "word": " risk",
+        "probability": 0.7841822504997253
+      },
+      {
+        "start": 54.94,
+        "end": 55.3,
+        "word": " management",
+        "probability": 0.9989528656005859
+      },
+      {
+        "start": 55.3,
+        "end": 55.92,
+        "word": " provides",
+        "probability": 0.9972992539405823
+      },
+      {
+        "start": 55.92,
+        "end": 56.22,
+        "word": " a",
+        "probability": 0.9897730946540833
+      },
+      {
+        "start": 56.22,
+        "end": 56.44,
+        "word": " structured",
+        "probability": 0.997527539730072
+      },
+      {
+        "start": 56.44,
+        "end": 56.88,
+        "word": " way",
+        "probability": 0.998615026473999
+      },
+      {
+        "start": 56.88,
+        "end": 57.1,
+        "word": " to",
+        "probability": 0.9989664554595947
+      },
+      {
+        "start": 57.1,
+        "end": 57.4,
+        "word": " assess,",
+        "probability": 0.9916109442710876
+      },
+      {
+        "start": 57.84,
+        "end": 58.24,
+        "word": " control,",
+        "probability": 0.9984122514724731
+      }
+    ]
+  },
+  {
+    "start": 58.7,
+    "end": 61.06,
+    "text": " communicate and review risks to product quality.",
+    "words": [
+      {
+        "start": 58.7,
+        "end": 59.04,
+        "word": " communicate",
+        "probability": 0.9974722266197205
+      },
+      {
+        "start": 59.04,
+        "end": 59.56,
+        "word": " and",
+        "probability": 0.5283002853393555
+      },
+      {
+        "start": 59.56,
+        "end": 59.78,
+        "word": " review",
+        "probability": 0.9968699812889099
+      },
+      {
+        "start": 59.78,
+        "end": 60.22,
+        "word": " risks",
+        "probability": 0.9753368496894836
+      },
+      {
+        "start": 60.22,
+        "end": 60.44,
+        "word": " to",
+        "probability": 0.9963906407356262
+      },
+      {
+        "start": 60.44,
+        "end": 60.64,
+        "word": " product",
+        "probability": 0.9944550395011902
+      },
+      {
+        "start": 60.64,
+        "end": 61.06,
+        "word": " quality.",
+        "probability": 0.9976980090141296
+      }
+    ]
+  },
+  {
+    "start": 61.8,
+    "end": 67.32,
+    "text": " The level of formality, effort and documentation should reflect the risk and available knowledge.",
+    "words": [
+      {
+        "start": 61.8,
+        "end": 62.04,
+        "word": " The",
+        "probability": 0.9972055554389954
+      },
+      {
+        "start": 62.04,
+        "end": 62.24,
+        "word": " level",
+        "probability": 0.9979390501976013
+      },
+      {
+        "start": 62.24,
+        "end": 62.44,
+        "word": " of",
+        "probability": 0.9994239807128906
+      },
+      {
+        "start": 62.44,
+        "end": 62.88,
+        "word": " formality,",
+        "probability": 0.9720767140388489
+      },
+      {
+        "start": 63.26,
+        "end": 63.62,
+        "word": " effort",
+        "probability": 0.9989327788352966
+      },
+      {
+        "start": 63.62,
+        "end": 63.88,
+        "word": " and",
+        "probability": 0.8653687834739685
+      },
+      {
+        "start": 63.88,
+        "end": 64.42,
+        "word": " documentation",
+        "probability": 0.9952847361564636
+      },
+      {
+        "start": 64.42,
+        "end": 65.26,
+        "word": " should",
+        "probability": 0.97078537940979
+      },
+      {
+        "start": 65.26,
+        "end": 65.62,
+        "word": " reflect",
+        "probability": 0.9994761347770691
+      },
+      {
+        "start": 65.62,
+        "end": 65.88,
+        "word": " the",
+        "probability": 0.9984939098358154
+      },
+      {
+        "start": 65.88,
+        "end": 66.22,
+        "word": " risk",
+        "probability": 0.9884993433952332
+      },
+      {
+        "start": 66.22,
+        "end": 66.48,
+        "word": " and",
+        "probability": 0.990807831287384
+      },
+      {
+        "start": 66.48,
+        "end": 66.66,
+        "word": " available",
+        "probability": 0.9939834475517273
+      },
+      {
+        "start": 66.66,
+        "end": 67.32,
+        "word": " knowledge.",
+        "probability": 0.9991852641105652
+      }
+    ]
+  },
+  {
+    "start": 68.1,
+    "end": 71.88,
+    "text": " Risk assessments are not a substitute for meeting regulatory requirements.",
+    "words": [
+      {
+        "start": 68.1,
+        "end": 68.34,
+        "word": " Risk",
+        "probability": 0.9919527173042297
+      },
+      {
+        "start": 68.34,
+        "end": 68.78,
+        "word": " assessments",
+        "probability": 0.9927071928977966
+      },
+      {
+        "start": 68.78,
+        "end": 69.16,
+        "word": " are",
+        "probability": 0.9987554550170898
+      },
+      {
+        "start": 69.16,
+        "end": 69.34,
+        "word": " not",
+        "probability": 0.9993711113929749
+      },
+      {
+        "start": 69.34,
+        "end": 69.44,
+        "word": " a",
+        "probability": 0.9978891015052795
+      },
+      {
+        "start": 69.44,
+        "end": 69.86,
+        "word": " substitute",
+        "probability": 0.999224066734314
+      },
+      {
+        "start": 69.86,
+        "end": 70.28,
+        "word": " for",
+        "probability": 0.9988710284233093
+      },
+      {
+        "start": 70.28,
+        "end": 70.52,
+        "word": " meeting",
+        "probability": 0.9976460337638855
+      },
+      {
+        "start": 70.52,
+        "end": 71.06,
+        "word": " regulatory",
+        "probability": 0.9986329674720764
+      },
+      {
+        "start": 71.06,
+        "end": 71.88,
+        "word": " requirements.",
+        "probability": 0.9985200762748718
+      }
+    ]
+  },
+  {
+    "start": 72.72,
+    "end": 77.52,
+    "text": " For example, the criticality of a temperature sensor depends on its intended function",
+    "words": [
+      {
+        "start": 72.72,
+        "end": 72.84,
+        "word": " For",
+        "probability": 0.997590184211731
+      },
+      {
+        "start": 72.84,
+        "end": 73.14,
+        "word": " example,",
+        "probability": 0.9994889497756958
+      },
+      {
+        "start": 73.66,
+        "end": 73.8,
+        "word": " the",
+        "probability": 0.9966588020324707
+      },
+      {
+        "start": 73.8,
+        "end": 74.46,
+        "word": " criticality",
+        "probability": 0.9732732474803925
+      },
+      {
+        "start": 74.46,
+        "end": 74.6,
+        "word": " of",
+        "probability": 0.9987962245941162
+      },
+      {
+        "start": 74.6,
+        "end": 74.66,
+        "word": " a",
+        "probability": 0.9852991104125977
+      },
+      {
+        "start": 74.66,
+        "end": 74.94,
+        "word": " temperature",
+        "probability": 0.9709422588348389
+      },
+      {
+        "start": 74.94,
+        "end": 75.48,
+        "word": " sensor",
+        "probability": 0.99744713306427
+      },
+      {
+        "start": 75.48,
+        "end": 76.2,
+        "word": " depends",
+        "probability": 0.9906798005104065
+      },
+      {
+        "start": 76.2,
+        "end": 76.62,
+        "word": " on",
+        "probability": 0.9984381794929504
+      },
+      {
+        "start": 76.62,
+        "end": 76.76,
+        "word": " its",
+        "probability": 0.9712267518043518
+      },
+      {
+        "start": 76.76,
+        "end": 77.08,
+        "word": " intended",
+        "probability": 0.9980069994926453
+      },
+      {
+        "start": 77.08,
+        "end": 77.52,
+        "word": " function",
+        "probability": 0.9980456829071045
+      }
+    ]
+  },
+  {
+    "start": 77.52,
+    "end": 80.0,
+    "text": " and potential effect on product quality.",
+    "words": [
+      {
+        "start": 77.52,
+        "end": 78.18,
+        "word": " and",
+        "probability": 0.9818939566612244
+      },
+      {
+        "start": 78.18,
+        "end": 78.48,
+        "word": " potential",
+        "probability": 0.9976521134376526
+      },
+      {
+        "start": 78.48,
+        "end": 78.96,
+        "word": " effect",
+        "probability": 0.9696903824806213
+      },
+      {
+        "start": 78.96,
+        "end": 79.24,
+        "word": " on",
+        "probability": 0.9970793724060059
+      },
+      {
+        "start": 79.24,
+        "end": 79.48,
+        "word": " product",
+        "probability": 0.9962326884269714
+      },
+      {
+        "start": 79.48,
+        "end": 80.0,
+        "word": " quality.",
+        "probability": 0.9991809725761414
+      }
+    ]
+  },
+  {
+    "start": 80.88,
+    "end": 84.28,
+    "text": " When work departs from an approved procedure or expected result,",
+    "words": [
+      {
+        "start": 80.66,
+        "end": 81.06,
+        "word": " When",
+        "probability": 0.7958871722221375
+      },
+      {
+        "start": 81.06,
+        "end": 81.36,
+        "word": " work",
+        "probability": 0.9691749811172485
+      },
+      {
+        "start": 81.36,
+        "end": 81.74,
+        "word": " departs",
+        "probability": 0.988618016242981
+      },
+      {
+        "start": 81.74,
+        "end": 82.0,
+        "word": " from",
+        "probability": 0.9959045052528381
+      },
+      {
+        "start": 82.0,
+        "end": 82.1,
+        "word": " an",
+        "probability": 0.9938181042671204
+      },
+      {
+        "start": 82.1,
+        "end": 82.38,
+        "word": " approved",
+        "probability": 0.9979693293571472
+      },
+      {
+        "start": 82.38,
+        "end": 83.0,
+        "word": " procedure",
+        "probability": 0.9976342916488647
+      },
+      {
+        "start": 83.0,
+        "end": 83.3,
+        "word": " or",
+        "probability": 0.9117144346237183
+      },
+      {
+        "start": 83.3,
+        "end": 83.7,
+        "word": " expected",
+        "probability": 0.9871757626533508
+      },
+      {
+        "start": 83.7,
+        "end": 84.28,
+        "word": " result,",
+        "probability": 0.9841688871383667
+      }
+    ]
+  },
+  {
+    "start": 84.84,
+    "end": 88.78,
+    "text": " the event should be documented and evaluated through applicable quality procedures.",
+    "words": [
+      {
+        "start": 84.84,
+        "end": 84.92,
+        "word": " the",
+        "probability": 0.9979616403579712
+      },
+      {
+        "start": 84.92,
+        "end": 85.16,
+        "word": " event",
+        "probability": 0.991902768611908
+      },
+      {
+        "start": 85.16,
+        "end": 85.36,
+        "word": " should",
+        "probability": 0.9991191029548645
+      },
+      {
+        "start": 85.36,
+        "end": 85.46,
+        "word": " be",
+        "probability": 0.9998433589935303
+      },
+      {
+        "start": 85.46,
+        "end": 85.9,
+        "word": " documented",
+        "probability": 0.9993467926979065
+      },
+      {
+        "start": 85.9,
+        "end": 86.52,
+        "word": " and",
+        "probability": 0.9770824909210205
+      },
+      {
+        "start": 86.52,
+        "end": 86.9,
+        "word": " evaluated",
+        "probability": 0.9979401230812073
+      },
+      {
+        "start": 86.9,
+        "end": 87.36,
+        "word": " through",
+        "probability": 0.9982324242591858
+      },
+      {
+        "start": 87.36,
+        "end": 87.54,
+        "word": " applicable",
+        "probability": 0.9977974891662598
+      },
+      {
+        "start": 87.54,
+        "end": 88.14,
+        "word": " quality",
+        "probability": 0.9643890261650085
+      },
+      {
+        "start": 88.14,
+        "end": 88.78,
+        "word": " procedures.",
+        "probability": 0.998604953289032
+      }
+    ]
+  },
+  {
+    "start": 89.6,
+    "end": 92.78,
+    "text": " Investigation depth should be proportionate to the potential impact.",
+    "words": [
+      {
+        "start": 89.6,
+        "end": 90.08,
+        "word": " Investigation",
+        "probability": 0.9713203310966492
+      },
+      {
+        "start": 90.08,
+        "end": 90.66,
+        "word": " depth",
+        "probability": 0.9097166061401367
+      },
+      {
+        "start": 90.66,
+        "end": 91.02,
+        "word": " should",
+        "probability": 0.9984210729598999
+      },
+      {
+        "start": 91.02,
+        "end": 91.14,
+        "word": " be",
+        "probability": 0.9995638728141785
+      },
+      {
+        "start": 91.14,
+        "end": 91.78,
+        "word": " proportionate",
+        "probability": 0.9944874346256256
+      },
+      {
+        "start": 91.78,
+        "end": 91.88,
+        "word": " to",
+        "probability": 0.9991575479507446
+      },
+      {
+        "start": 91.88,
+        "end": 91.96,
+        "word": " the",
+        "probability": 0.9963538646697998
+      },
+      {
+        "start": 91.96,
+        "end": 92.2,
+        "word": " potential",
+        "probability": 0.9988594055175781
+      },
+      {
+        "start": 92.2,
+        "end": 92.78,
+        "word": " impact.",
+        "probability": 0.999408483505249
+      }
+    ]
+  },
+  {
+    "start": 93.5,
+    "end": 99.36,
+    "text": " Corrective and preventive action, or CPA, should address identified causes where appropriate.",
+    "words": [
+      {
+        "start": 93.5,
+        "end": 94.1,
+        "word": " Corrective",
+        "probability": 0.9346967041492462
+      },
+      {
+        "start": 94.1,
+        "end": 94.34,
+        "word": " and",
+        "probability": 0.9869058728218079
+      },
+      {
+        "start": 94.34,
+        "end": 94.62,
+        "word": " preventive",
+        "probability": 0.9445918202400208
+      },
+      {
+        "start": 94.62,
+        "end": 95.12,
+        "word": " action,",
+        "probability": 0.9978322386741638
+      },
+      {
+        "start": 95.7,
+        "end": 95.8,
+        "word": " or",
+        "probability": 0.9834597706794739
+      },
+      {
+        "start": 95.8,
+        "end": 96.18,
+        "word": " CPA,",
+        "probability": 0.7291510105133057
+      },
+      {
+        "start": 96.96,
+        "end": 97.16,
+        "word": " should",
+        "probability": 0.9991218447685242
+      },
+      {
+        "start": 97.16,
+        "end": 97.38,
+        "word": " address",
+        "probability": 0.9993628859519958
+      },
+      {
+        "start": 97.38,
+        "end": 97.78,
+        "word": " identified",
+        "probability": 0.9957808256149292
+      },
+      {
+        "start": 97.78,
+        "end": 98.58,
+        "word": " causes",
+        "probability": 0.9980271458625793
+      },
+      {
+        "start": 98.58,
+        "end": 98.92,
+        "word": " where",
+        "probability": 0.7689844965934753
+      },
+      {
+        "start": 98.92,
+        "end": 99.36,
+        "word": " appropriate.",
+        "probability": 0.9995255470275879
+      }
+    ]
+  },
+  {
+    "start": 100.3,
+    "end": 104.46,
+    "text": " Effectiveness checks help determine whether the action achieved its intended outcome.",
+    "words": [
+      {
+        "start": 100.3,
+        "end": 100.74,
+        "word": " Effectiveness",
+        "probability": 0.9757594168186188
+      },
+      {
+        "start": 100.74,
+        "end": 101.1,
+        "word": " checks",
+        "probability": 0.9843418002128601
+      },
+      {
+        "start": 101.1,
+        "end": 101.5,
+        "word": " help",
+        "probability": 0.9856919646263123
+      },
+      {
+        "start": 101.5,
+        "end": 102.0,
+        "word": " determine",
+        "probability": 0.9987038373947144
+      },
+      {
+        "start": 102.0,
+        "end": 102.42,
+        "word": " whether",
+        "probability": 0.9978774785995483
+      },
+      {
+        "start": 102.42,
+        "end": 102.56,
+        "word": " the",
+        "probability": 0.9993168115615845
+      },
+      {
+        "start": 102.56,
+        "end": 102.88,
+        "word": " action",
+        "probability": 0.9984363913536072
+      },
+      {
+        "start": 102.88,
+        "end": 103.26,
+        "word": " achieved",
+        "probability": 0.9960771203041077
+      },
+      {
+        "start": 103.26,
+        "end": 103.68,
+        "word": " its",
+        "probability": 0.9867304563522339
+      },
+      {
+        "start": 103.68,
+        "end": 104.0,
+        "word": " intended",
+        "probability": 0.9981396198272705
+      },
+      {
+        "start": 104.0,
+        "end": 104.46,
+        "word": " outcome.",
+        "probability": 0.9988120794296265
+      }
+    ]
+  },
+  {
+    "start": 105.26,
+    "end": 109.26,
+    "text": " Not every deviation requires the same investigation or CPA.",
+    "words": [
+      {
+        "start": 105.04,
+        "end": 105.48,
+        "word": " Not",
+        "probability": 0.2274492383003235
+      },
+      {
+        "start": 105.48,
+        "end": 105.78,
+        "word": " every",
+        "probability": 0.9878268837928772
+      },
+      {
+        "start": 105.78,
+        "end": 106.26,
+        "word": " deviation",
+        "probability": 0.9651011228561401
+      },
+      {
+        "start": 106.26,
+        "end": 106.84,
+        "word": " requires",
+        "probability": 0.9985780715942383
+      },
+      {
+        "start": 106.84,
+        "end": 107.24,
+        "word": " the",
+        "probability": 0.9983219504356384
+      },
+      {
+        "start": 107.24,
+        "end": 107.48,
+        "word": " same",
+        "probability": 0.9980241060256958
+      },
+      {
+        "start": 107.48,
+        "end": 108.04,
+        "word": " investigation",
+        "probability": 0.9961179494857788
+      },
+      {
+        "start": 108.04,
+        "end": 108.86,
+        "word": " or",
+        "probability": 0.8480271100997925
+      },
+      {
+        "start": 108.86,
+        "end": 109.26,
+        "word": " CPA.",
+        "probability": 0.6691118776798248
+      }
+    ]
+  },
+  {
+    "start": 110.56,
+    "end": 115.9,
+    "text": " Changes to equipment, processes, software, facilities or documents can affect validated",
+    "words": [
+      {
+        "start": 110.56,
+        "end": 110.98,
+        "word": " Changes",
+        "probability": 0.9649534821510315
+      },
+      {
+        "start": 110.98,
+        "end": 111.22,
+        "word": " to",
+        "probability": 0.9989245533943176
+      },
+      {
+        "start": 111.22,
+        "end": 111.52,
+        "word": " equipment,",
+        "probability": 0.9945479035377502
+      },
+      {
+        "start": 111.98,
+        "end": 112.38,
+        "word": " processes,",
+        "probability": 0.9892320036888123
+      },
+      {
+        "start": 112.96,
+        "end": 113.16,
+        "word": " software,",
+        "probability": 0.9963918328285217
+      },
+      {
+        "start": 113.62,
+        "end": 113.92,
+        "word": " facilities",
+        "probability": 0.9967674016952515
+      },
+      {
+        "start": 113.92,
+        "end": 114.36,
+        "word": " or",
+        "probability": 0.7414695024490356
+      },
+      {
+        "start": 114.36,
+        "end": 114.72,
+        "word": " documents",
+        "probability": 0.9985789060592651
+      },
+      {
+        "start": 114.72,
+        "end": 115.12,
+        "word": " can",
+        "probability": 0.9940469264984131
+      },
+      {
+        "start": 115.12,
+        "end": 115.32,
+        "word": " affect",
+        "probability": 0.9542201161384583
+      },
+      {
+        "start": 115.32,
+        "end": 115.9,
+        "word": " validated",
+        "probability": 0.9930806756019592
+      }
+    ]
+  },
+  {
+    "start": 115.9,
+    "end": 121.48,
+    "text": " status and product quality. A formal change management process evaluates proposed changes",
+    "words": [
+      {
+        "start": 115.9,
+        "end": 116.36,
+        "word": " status",
+        "probability": 0.9977496266365051
+      },
+      {
+        "start": 116.36,
+        "end": 116.66,
+        "word": " and",
+        "probability": 0.995232880115509
+      },
+      {
+        "start": 116.66,
+        "end": 116.92,
+        "word": " product",
+        "probability": 0.9984116554260254
+      },
+      {
+        "start": 116.92,
+        "end": 117.42,
+        "word": " quality.",
+        "probability": 0.9984207153320312
+      },
+      {
+        "start": 118.22,
+        "end": 118.3,
+        "word": " A",
+        "probability": 0.9854771494865417
+      },
+      {
+        "start": 118.3,
+        "end": 118.5,
+        "word": " formal",
+        "probability": 0.9876338243484497
+      },
+      {
+        "start": 118.5,
+        "end": 118.84,
+        "word": " change",
+        "probability": 0.9818664193153381
+      },
+      {
+        "start": 118.84,
+        "end": 119.14,
+        "word": " management",
+        "probability": 0.9887297749519348
+      },
+      {
+        "start": 119.14,
+        "end": 119.8,
+        "word": " process",
+        "probability": 0.9993367791175842
+      },
+      {
+        "start": 119.8,
+        "end": 120.26,
+        "word": " evaluates",
+        "probability": 0.994045078754425
+      },
+      {
+        "start": 120.26,
+        "end": 120.82,
+        "word": " proposed",
+        "probability": 0.997011661529541
+      },
+      {
+        "start": 120.82,
+        "end": 121.48,
+        "word": " changes",
+        "probability": 0.9992557168006897
+      }
+    ]
+  },
+  {
+    "start": 121.48,
+    "end": 127.3,
+    "text": " before implementation. The assessment considers technical impact, regulatory implications,",
+    "words": [
+      {
+        "start": 121.48,
+        "end": 121.92,
+        "word": " before",
+        "probability": 0.9991067051887512
+      },
+      {
+        "start": 121.92,
+        "end": 122.44,
+        "word": " implementation.",
+        "probability": 0.9988307356834412
+      },
+      {
+        "start": 123.58,
+        "end": 123.68,
+        "word": " The",
+        "probability": 0.9964357614517212
+      },
+      {
+        "start": 123.68,
+        "end": 123.98,
+        "word": " assessment",
+        "probability": 0.9887152314186096
+      },
+      {
+        "start": 123.98,
+        "end": 124.44,
+        "word": " considers",
+        "probability": 0.9983843564987183
+      },
+      {
+        "start": 124.44,
+        "end": 124.86,
+        "word": " technical",
+        "probability": 0.9957671165466309
+      },
+      {
+        "start": 124.86,
+        "end": 125.52,
+        "word": " impact,",
+        "probability": 0.9960135221481323
+      },
+      {
+        "start": 126.02,
+        "end": 126.3,
+        "word": " regulatory",
+        "probability": 0.9991369843482971
+      },
+      {
+        "start": 126.3,
+        "end": 127.3,
+        "word": " implications,",
+        "probability": 0.9992864727973938
+      }
+    ]
+  },
+  {
+    "start": 127.98,
+    "end": 130.72,
+    "text": " validation needs, training and required approvals.",
+    "words": [
+      {
+        "start": 127.98,
+        "end": 128.26,
+        "word": " validation",
+        "probability": 0.9984644651412964
+      },
+      {
+        "start": 128.26,
+        "end": 128.78,
+        "word": " needs,",
+        "probability": 0.998497486114502
+      },
+      {
+        "start": 129.44,
+        "end": 129.5,
+        "word": " training",
+        "probability": 0.9996626377105713
+      },
+      {
+        "start": 129.5,
+        "end": 129.9,
+        "word": " and",
+        "probability": 0.7352468967437744
+      },
+      {
+        "start": 129.9,
+        "end": 130.22,
+        "word": " required",
+        "probability": 0.9990684390068054
+      },
+      {
+        "start": 130.22,
+        "end": 130.72,
+        "word": " approvals.",
+        "probability": 0.9951843619346619
+      }
+    ]
+  },
+  {
+    "start": 131.6,
+    "end": 136.58,
+    "text": " After implementation, the organization verifies that the change was completed as intended",
+    "words": [
+      {
+        "start": 131.5,
+        "end": 131.9,
+        "word": " After",
+        "probability": 0.4426382780075073
+      },
+      {
+        "start": 131.9,
+        "end": 132.3,
+        "word": " implementation,",
+        "probability": 0.9971135854721069
+      },
+      {
+        "start": 133.16,
+        "end": 133.32,
+        "word": " the",
+        "probability": 0.9971885085105896
+      },
+      {
+        "start": 133.32,
+        "end": 133.96,
+        "word": " organization",
+        "probability": 0.9682595729827881
+      },
+      {
+        "start": 133.96,
+        "end": 134.64,
+        "word": " verifies",
+        "probability": 0.990289956331253
+      },
+      {
+        "start": 134.64,
+        "end": 134.96,
+        "word": " that",
+        "probability": 0.9953334927558899
+      },
+      {
+        "start": 134.96,
+        "end": 135.06,
+        "word": " the",
+        "probability": 0.9951393604278564
+      },
+      {
+        "start": 135.06,
+        "end": 135.34,
+        "word": " change",
+        "probability": 0.995422899723053
+      },
+      {
+        "start": 135.34,
+        "end": 135.58,
+        "word": " was",
+        "probability": 0.9985894560813904
+      },
+      {
+        "start": 135.58,
+        "end": 136.02,
+        "word": " completed",
+        "probability": 0.9957630634307861
+      },
+      {
+        "start": 136.02,
+        "end": 136.3,
+        "word": " as",
+        "probability": 0.991923987865448
+      },
+      {
+        "start": 136.3,
+        "end": 136.58,
+        "word": " intended",
+        "probability": 0.9945933222770691
+      }
+    ]
+  },
+  {
+    "start": 137.2,
+    "end": 139.12,
+    "text": " and that necessary evidence is available.",
+    "words": [
+      {
+        "start": 137.0,
+        "end": 137.4,
+        "word": " and",
+        "probability": 0.5504276752471924
+      },
+      {
+        "start": 137.4,
+        "end": 137.54,
+        "word": " that",
+        "probability": 0.998601496219635
+      },
+      {
+        "start": 137.54,
+        "end": 137.96,
+        "word": " necessary",
+        "probability": 0.9853249192237854
+      },
+      {
+        "start": 137.96,
+        "end": 138.42,
+        "word": " evidence",
+        "probability": 0.9990742206573486
+      },
+      {
+        "start": 138.42,
+        "end": 138.86,
+        "word": " is",
+        "probability": 0.9986642599105835
+      },
+      {
+        "start": 138.86,
+        "end": 139.12,
+        "word": " available.",
+        "probability": 0.999369204044342
+      }
+    ]
+  },
+  {
+    "start": 140.18,
+    "end": 143.94,
+    "text": " Good documentation practices help ensure that instructions are clear",
+    "words": [
+      {
+        "start": 140.18,
+        "end": 140.44,
+        "word": " Good",
+        "probability": 0.9760063886642456
+      },
+      {
+        "start": 140.44,
+        "end": 140.82,
+        "word": " documentation",
+        "probability": 0.99497389793396
+      },
+      {
+        "start": 140.82,
+        "end": 141.7,
+        "word": " practices",
+        "probability": 0.9977741837501526
+      },
+      {
+        "start": 141.7,
+        "end": 142.26,
+        "word": " help",
+        "probability": 0.9954299926757812
+      },
+      {
+        "start": 142.26,
+        "end": 142.64,
+        "word": " ensure",
+        "probability": 0.9935989379882812
+      },
+      {
+        "start": 142.64,
+        "end": 142.96,
+        "word": " that",
+        "probability": 0.9959855675697327
+      },
+      {
+        "start": 142.96,
+        "end": 143.18,
+        "word": " instructions",
+        "probability": 0.9784851670265198
+      },
+      {
+        "start": 143.18,
+        "end": 143.7,
+        "word": " are",
+        "probability": 0.9988014698028564
+      },
+      {
+        "start": 143.7,
+        "end": 143.94,
+        "word": " clear",
+        "probability": 0.9978063702583313
+      }
+    ]
+  },
+  {
+    "start": 143.94,
+    "end": 146.76,
+    "text": " and records accurately describe work performed.",
+    "words": [
+      {
+        "start": 143.94,
+        "end": 144.56,
+        "word": " and",
+        "probability": 0.874969482421875
+      },
+      {
+        "start": 144.56,
+        "end": 144.82,
+        "word": " records",
+        "probability": 0.9966533780097961
+      },
+      {
+        "start": 144.82,
+        "end": 145.42,
+        "word": " accurately",
+        "probability": 0.9982624650001526
+      },
+      {
+        "start": 145.42,
+        "end": 145.9,
+        "word": " describe",
+        "probability": 0.9907689690589905
+      },
+      {
+        "start": 145.9,
+        "end": 146.28,
+        "word": " work",
+        "probability": 0.9775920510292053
+      },
+      {
+        "start": 146.28,
+        "end": 146.76,
+        "word": " performed.",
+        "probability": 0.997068464756012
+      }
+    ]
+  },
+  {
+    "start": 147.68,
+    "end": 151.86,
+    "text": " An approved standard operating procedure explains how to perform a defined activity.",
+    "words": [
+      {
+        "start": 147.68,
+        "end": 147.7,
+        "word": " An",
+        "probability": 0.9779729247093201
+      },
+      {
+        "start": 147.7,
+        "end": 147.98,
+        "word": " approved",
+        "probability": 0.9946926236152649
+      },
+      {
+        "start": 147.98,
+        "end": 148.42,
+        "word": " standard",
+        "probability": 0.9093721508979797
+      },
+      {
+        "start": 148.42,
+        "end": 148.92,
+        "word": " operating",
+        "probability": 0.991283655166626
+      },
+      {
+        "start": 148.92,
+        "end": 149.48,
+        "word": " procedure",
+        "probability": 0.9990506768226624
+      },
+      {
+        "start": 149.48,
+        "end": 149.88,
+        "word": " explains",
+        "probability": 0.9978020787239075
+      },
+      {
+        "start": 149.88,
+        "end": 150.38,
+        "word": " how",
+        "probability": 0.9985331296920776
+      },
+      {
+        "start": 150.38,
+        "end": 150.5,
+        "word": " to",
+        "probability": 0.9995438456535339
+      },
+      {
+        "start": 150.5,
+        "end": 150.84,
+        "word": " perform",
+        "probability": 0.998456597328186
+      },
+      {
+        "start": 150.84,
+        "end": 151.04,
+        "word": " a",
+        "probability": 0.9971300959587097
+      },
+      {
+        "start": 151.04,
+        "end": 151.28,
+        "word": " defined",
+        "probability": 0.998885452747345
+      },
+      {
+        "start": 151.28,
+        "end": 151.86,
+        "word": " activity.",
+        "probability": 0.9991493225097656
+      }
+    ]
+  },
+  {
+    "start": 152.82,
+    "end": 155.92,
+    "text": " A completed record provides evidence of what actually happened.",
+    "words": [
+      {
+        "start": 152.82,
+        "end": 152.9,
+        "word": " A",
+        "probability": 0.9896513223648071
+      },
+      {
+        "start": 152.9,
+        "end": 153.22,
+        "word": " completed",
+        "probability": 0.9968926310539246
+      },
+      {
+        "start": 153.22,
+        "end": 153.62,
+        "word": " record",
+        "probability": 0.9985226988792419
+      },
+      {
+        "start": 153.62,
+        "end": 154.16,
+        "word": " provides",
+        "probability": 0.9968442916870117
+      },
+      {
+        "start": 154.16,
+        "end": 154.58,
+        "word": " evidence",
+        "probability": 0.9989834427833557
+      },
+      {
+        "start": 154.58,
+        "end": 155.0,
+        "word": " of",
+        "probability": 0.9989161491394043
+      },
+      {
+        "start": 155.0,
+        "end": 155.14,
+        "word": " what",
+        "probability": 0.9992074370384216
+      },
+      {
+        "start": 155.14,
+        "end": 155.46,
+        "word": " actually",
+        "probability": 0.9989111423492432
+      },
+      {
+        "start": 155.46,
+        "end": 155.92,
+        "word": " happened.",
+        "probability": 0.9990382194519043
+      }
+    ]
+  },
+  {
+    "start": 156.72000000000003,
+    "end": 161.6,
+    "text": " Entries should be accurate, legible, attributable and made at the time of the activity,",
+    "words": [
+      {
+        "start": 156.69,
+        "end": 157.1,
+        "word": " Entries",
+        "probability": 0.6433380544185638
+      },
+      {
+        "start": 157.1,
+        "end": 157.3,
+        "word": " should",
+        "probability": 0.9977335929870605
+      },
+      {
+        "start": 157.3,
+        "end": 157.42,
+        "word": " be",
+        "probability": 0.9996848106384277
+      },
+      {
+        "start": 157.42,
+        "end": 157.8,
+        "word": " accurate,",
+        "probability": 0.9982995390892029
+      },
+      {
+        "start": 158.34,
+        "end": 158.8,
+        "word": " legible,",
+        "probability": 0.9780033826828003
+      },
+      {
+        "start": 159.32,
+        "end": 159.62,
+        "word": " attributable",
+        "probability": 0.9831421375274658
+      },
+      {
+        "start": 159.62,
+        "end": 160.18,
+        "word": " and",
+        "probability": 0.3643280565738678
+      },
+      {
+        "start": 160.18,
+        "end": 160.38,
+        "word": " made",
+        "probability": 0.9978765249252319
+      },
+      {
+        "start": 160.38,
+        "end": 160.64,
+        "word": " at",
+        "probability": 0.9966989159584045
+      },
+      {
+        "start": 160.64,
+        "end": 160.74,
+        "word": " the",
+        "probability": 0.9972039461135864
+      },
+      {
+        "start": 160.74,
+        "end": 161.04,
+        "word": " time",
+        "probability": 0.999427318572998
+      },
+      {
+        "start": 161.04,
+        "end": 161.16,
+        "word": " of",
+        "probability": 0.9989405274391174
+      },
+      {
+        "start": 161.16,
+        "end": 161.26,
+        "word": " the",
+        "probability": 0.9879215955734253
+      },
+      {
+        "start": 161.26,
+        "end": 161.6,
+        "word": " activity,",
+        "probability": 0.9983476400375366
+      }
+    ]
+  },
+  {
+    "start": 162.18,
+    "end": 167.14,
+    "text": " according to applicable procedures. Corrections must preserve the original information",
+    "words": [
+      {
+        "start": 162.18,
+        "end": 162.58,
+        "word": " according",
+        "probability": 0.9976240992546082
+      },
+      {
+        "start": 162.58,
+        "end": 162.86,
+        "word": " to",
+        "probability": 0.9990898370742798
+      },
+      {
+        "start": 162.86,
+        "end": 163.14,
+        "word": " applicable",
+        "probability": 0.9960830211639404
+      },
+      {
+        "start": 163.14,
+        "end": 163.74,
+        "word": " procedures.",
+        "probability": 0.9980054497718811
+      },
+      {
+        "start": 164.72,
+        "end": 165.02,
+        "word": " Corrections",
+        "probability": 0.7800241708755493
+      },
+      {
+        "start": 165.02,
+        "end": 165.54,
+        "word": " must",
+        "probability": 0.9992837309837341
+      },
+      {
+        "start": 165.54,
+        "end": 165.94,
+        "word": " preserve",
+        "probability": 0.998516857624054
+      },
+      {
+        "start": 165.94,
+        "end": 166.28,
+        "word": " the",
+        "probability": 0.9990391731262207
+      },
+      {
+        "start": 166.28,
+        "end": 166.58,
+        "word": " original",
+        "probability": 0.9987943172454834
+      },
+      {
+        "start": 166.58,
+        "end": 167.14,
+        "word": " information",
+        "probability": 0.9994311928749084
+      }
+    ]
+  },
+  {
+    "start": 167.76000000000002,
+    "end": 172.52,
+    "text": " and remain traceable. Data integrity means that information is complete,",
+    "words": [
+      {
+        "start": 167.57,
+        "end": 167.98,
+        "word": " and",
+        "probability": 0.9601430892944336
+      },
+      {
+        "start": 167.98,
+        "end": 168.22,
+        "word": " remain",
+        "probability": 0.9978286623954773
+      },
+      {
+        "start": 168.22,
+        "end": 168.9,
+        "word": " traceable.",
+        "probability": 0.9973198175430298
+      },
+      {
+        "start": 169.72,
+        "end": 170.02,
+        "word": " Data",
+        "probability": 0.98460453748703
+      },
+      {
+        "start": 170.02,
+        "end": 170.52,
+        "word": " integrity",
+        "probability": 0.9824216961860657
+      },
+      {
+        "start": 170.52,
+        "end": 170.94,
+        "word": " means",
+        "probability": 0.9994587302207947
+      },
+      {
+        "start": 170.94,
+        "end": 171.32,
+        "word": " that",
+        "probability": 0.9994159936904907
+      },
+      {
+        "start": 171.32,
+        "end": 171.58,
+        "word": " information",
+        "probability": 0.9986081719398499
+      },
+      {
+        "start": 171.58,
+        "end": 172.14,
+        "word": " is",
+        "probability": 0.9993904829025269
+      },
+      {
+        "start": 172.14,
+        "end": 172.52,
+        "word": " complete,",
+        "probability": 0.9957937002182007
+      }
+    ]
+  },
+  {
+    "start": 173.0,
+    "end": 175.6,
+    "text": " consistent and accurate throughout its lifecycle.",
+    "words": [
+      {
+        "start": 173.0,
+        "end": 173.42,
+        "word": " consistent",
+        "probability": 0.9977107048034668
+      },
+      {
+        "start": 173.42,
+        "end": 174.0,
+        "word": " and",
+        "probability": 0.5904759764671326
+      },
+      {
+        "start": 174.0,
+        "end": 174.4,
+        "word": " accurate",
+        "probability": 0.9998602867126465
+      },
+      {
+        "start": 174.4,
+        "end": 174.76,
+        "word": " throughout",
+        "probability": 0.9880263805389404
+      },
+      {
+        "start": 174.76,
+        "end": 175.02,
+        "word": " its",
+        "probability": 0.9745532870292664
+      },
+      {
+        "start": 175.02,
+        "end": 175.6,
+        "word": " lifecycle.",
+        "probability": 0.7886531949043274
+      }
+    ]
+  },
+  {
+    "start": 176.36,
+    "end": 181.34,
+    "text": " The LCO of principles include attributable, legible, contemporaneous,",
+    "words": [
+      {
+        "start": 176.36,
+        "end": 176.46,
+        "word": " The",
+        "probability": 0.9907394647598267
+      },
+      {
+        "start": 176.46,
+        "end": 177.0,
+        "word": " LCO",
+        "probability": 0.6564895212650299
+      },
+      {
+        "start": 177.0,
+        "end": 177.5,
+        "word": " of",
+        "probability": 0.8525526523590088
+      },
+      {
+        "start": 177.5,
+        "end": 177.74,
+        "word": " principles",
+        "probability": 0.9303407669067383
+      },
+      {
+        "start": 177.74,
+        "end": 178.44,
+        "word": " include",
+        "probability": 0.9916799664497375
+      },
+      {
+        "start": 178.44,
+        "end": 178.82,
+        "word": " attributable,",
+        "probability": 0.893928587436676
+      },
+      {
+        "start": 179.7,
+        "end": 180.12,
+        "word": " legible,",
+        "probability": 0.9851015210151672
+      },
+      {
+        "start": 180.58,
+        "end": 181.34,
+        "word": " contemporaneous,",
+        "probability": 0.9894797801971436
+      }
+    ]
+  },
+  {
+    "start": 181.9,
+    "end": 188.56,
+    "text": " original and accurate. Additional expectations often described as a LCO of plus include complete,",
+    "words": [
+      {
+        "start": 181.9,
+        "end": 182.48,
+        "word": " original",
+        "probability": 0.016805745661258698
+      },
+      {
+        "start": 182.48,
+        "end": 182.74,
+        "word": " and",
+        "probability": 0.954287588596344
+      },
+      {
+        "start": 182.74,
+        "end": 183.06,
+        "word": " accurate.",
+        "probability": 0.9984834790229797
+      },
+      {
+        "start": 183.64,
+        "end": 184.06,
+        "word": " Additional",
+        "probability": 0.9943550825119019
+      },
+      {
+        "start": 184.06,
+        "end": 184.58,
+        "word": " expectations",
+        "probability": 0.9925565123558044
+      },
+      {
+        "start": 184.58,
+        "end": 185.32,
+        "word": " often",
+        "probability": 0.9586957693099976
+      },
+      {
+        "start": 185.32,
+        "end": 185.74,
+        "word": " described",
+        "probability": 0.9964907765388489
+      },
+      {
+        "start": 185.74,
+        "end": 186.16,
+        "word": " as",
+        "probability": 0.9990580677986145
+      },
+      {
+        "start": 186.16,
+        "end": 186.26,
+        "word": " a",
+        "probability": 0.8350333571434021
+      },
+      {
+        "start": 186.26,
+        "end": 186.78,
+        "word": " LCO",
+        "probability": 0.11716902069747448
+      },
+      {
+        "start": 186.78,
+        "end": 187.06,
+        "word": " of",
+        "probability": 0.1475086510181427
+      },
+      {
+        "start": 187.06,
+        "end": 187.5,
+        "word": " plus",
+        "probability": 0.3701678216457367
+      },
+      {
+        "start": 187.5,
+        "end": 187.86,
+        "word": " include",
+        "probability": 0.9806351661682129
+      },
+      {
+        "start": 187.86,
+        "end": 188.56,
+        "word": " complete,",
+        "probability": 0.9739118814468384
+      }
+    ]
+  },
+  {
+    "start": 188.94,
+    "end": 195.32,
+    "text": " consistent, enduring and available. These concepts apply to both paper and electronic records.",
+    "words": [
+      {
+        "start": 188.94,
+        "end": 189.34,
+        "word": " consistent,",
+        "probability": 0.996480405330658
+      },
+      {
+        "start": 190.14,
+        "end": 190.2,
+        "word": " enduring",
+        "probability": 0.9308902621269226
+      },
+      {
+        "start": 190.2,
+        "end": 190.94,
+        "word": " and",
+        "probability": 0.44506776332855225
+      },
+      {
+        "start": 190.94,
+        "end": 191.12,
+        "word": " available.",
+        "probability": 0.9979567527770996
+      },
+      {
+        "start": 192.06,
+        "end": 192.24,
+        "word": " These",
+        "probability": 0.993069052696228
+      },
+      {
+        "start": 192.24,
+        "end": 192.68,
+        "word": " concepts",
+        "probability": 0.9973996877670288
+      },
+      {
+        "start": 192.68,
+        "end": 193.12,
+        "word": " apply",
+        "probability": 0.9483943581581116
+      },
+      {
+        "start": 193.12,
+        "end": 193.32,
+        "word": " to",
+        "probability": 0.9979648590087891
+      },
+      {
+        "start": 193.32,
+        "end": 193.48,
+        "word": " both",
+        "probability": 0.9967243075370789
+      },
+      {
+        "start": 193.48,
+        "end": 193.76,
+        "word": " paper",
+        "probability": 0.9943010807037354
+      },
+      {
+        "start": 193.76,
+        "end": 194.34,
+        "word": " and",
+        "probability": 0.9967300891876221
+      },
+      {
+        "start": 194.34,
+        "end": 194.6,
+        "word": " electronic",
+        "probability": 0.9945196509361267
+      },
+      {
+        "start": 194.6,
+        "end": 195.32,
+        "word": " records.",
+        "probability": 0.9994518160820007
+      }
+    ]
+  },
+  {
+    "start": 196.14,
+    "end": 202.08,
+    "text": " Access controls, audit trails and record retention should be appropriate to the system and its risks.",
+    "words": [
+      {
+        "start": 196.14,
+        "end": 196.48,
+        "word": " Access",
+        "probability": 0.9756651520729065
+      },
+      {
+        "start": 196.48,
+        "end": 197.02,
+        "word": " controls,",
+        "probability": 0.9706841707229614
+      },
+      {
+        "start": 197.6,
+        "end": 197.86,
+        "word": " audit",
+        "probability": 0.9977462887763977
+      },
+      {
+        "start": 197.86,
+        "end": 198.18,
+        "word": " trails",
+        "probability": 0.9892393350601196
+      },
+      {
+        "start": 198.18,
+        "end": 198.52,
+        "word": " and",
+        "probability": 0.7445757389068604
+      },
+      {
+        "start": 198.52,
+        "end": 198.8,
+        "word": " record",
+        "probability": 0.9978345036506653
+      },
+      {
+        "start": 198.8,
+        "end": 199.2,
+        "word": " retention",
+        "probability": 0.9995427131652832
+      },
+      {
+        "start": 199.2,
+        "end": 200.0,
+        "word": " should",
+        "probability": 0.9306807518005371
+      },
+      {
+        "start": 200.0,
+        "end": 200.14,
+        "word": " be",
+        "probability": 0.9990308284759521
+      },
+      {
+        "start": 200.14,
+        "end": 200.46,
+        "word": " appropriate",
+        "probability": 0.9992732405662537
+      },
+      {
+        "start": 200.46,
+        "end": 200.78,
+        "word": " to",
+        "probability": 0.9981527924537659
+      },
+      {
+        "start": 200.78,
+        "end": 200.88,
+        "word": " the",
+        "probability": 0.9980664849281311
+      },
+      {
+        "start": 200.88,
+        "end": 201.22,
+        "word": " system",
+        "probability": 0.9965224266052246
+      },
+      {
+        "start": 201.22,
+        "end": 201.56,
+        "word": " and",
+        "probability": 0.9752936363220215
+      },
+      {
+        "start": 201.56,
+        "end": 201.72,
+        "word": " its",
+        "probability": 0.9459439516067505
+      },
+      {
+        "start": 201.72,
+        "end": 202.08,
+        "word": " risks.",
+        "probability": 0.9573982954025269
+      }
+    ]
+  },
+  {
+    "start": 202.9,
+    "end": 208.8,
+    "text": " Consider a manufacturing vessel whose critical instrument has an expired calibration status.",
+    "words": [
+      {
+        "start": 202.9,
+        "end": 203.44,
+        "word": " Consider",
+        "probability": 0.9963667392730713
+      },
+      {
+        "start": 203.44,
+        "end": 203.72,
+        "word": " a",
+        "probability": 0.999177873134613
+      },
+      {
+        "start": 203.72,
+        "end": 204.1,
+        "word": " manufacturing",
+        "probability": 0.9761568903923035
+      },
+      {
+        "start": 204.1,
+        "end": 204.76,
+        "word": " vessel",
+        "probability": 0.9974088072776794
+      },
+      {
+        "start": 204.76,
+        "end": 205.46,
+        "word": " whose",
+        "probability": 0.8281341195106506
+      },
+      {
+        "start": 205.46,
+        "end": 205.74,
+        "word": " critical",
+        "probability": 0.9979783892631531
+      },
+      {
+        "start": 205.74,
+        "end": 206.28,
+        "word": " instrument",
+        "probability": 0.9978362917900085
+      },
+      {
+        "start": 206.28,
+        "end": 206.92,
+        "word": " has",
+        "probability": 0.995526134967804
+      },
+      {
+        "start": 206.92,
+        "end": 207.12,
+        "word": " an",
+        "probability": 0.9933858513832092
+      },
+      {
+        "start": 207.12,
+        "end": 207.52,
+        "word": " expired",
+        "probability": 0.9862047433853149
+      },
+      {
+        "start": 207.52,
+        "end": 207.94,
+        "word": " calibration",
+        "probability": 0.9975577592849731
+      },
+      {
+        "start": 207.94,
+        "end": 208.8,
+        "word": " status.",
+        "probability": 0.9984071850776672
+      }
+    ]
+  },
+  {
+    "start": 209.52,
+    "end": 212.04,
+    "text": " The operator should not simply ignore the finding.",
+    "words": [
+      {
+        "start": 209.34,
+        "end": 209.74,
+        "word": " The",
+        "probability": 0.786234438419342
+      },
+      {
+        "start": 209.74,
+        "end": 210.08,
+        "word": " operator",
+        "probability": 0.9591105580329895
+      },
+      {
+        "start": 210.08,
+        "end": 210.44,
+        "word": " should",
+        "probability": 0.9983841180801392
+      },
+      {
+        "start": 210.44,
+        "end": 210.64,
+        "word": " not",
+        "probability": 0.9986035227775574
+      },
+      {
+        "start": 210.64,
+        "end": 211.04,
+        "word": " simply",
+        "probability": 0.998529314994812
+      },
+      {
+        "start": 211.04,
+        "end": 211.42,
+        "word": " ignore",
+        "probability": 0.9986699819564819
+      },
+      {
+        "start": 211.42,
+        "end": 211.7,
+        "word": " the",
+        "probability": 0.9985498785972595
+      },
+      {
+        "start": 211.7,
+        "end": 212.04,
+        "word": " finding.",
+        "probability": 0.9562965035438538
+      }
+    ]
+  },
+  {
+    "start": 212.86,
+    "end": 217.94,
+    "text": " The equipment suitability and potential product quality impact must be assessed under approved",
+    "words": [
+      {
+        "start": 212.86,
+        "end": 212.94,
+        "word": " The",
+        "probability": 0.9973084926605225
+      },
+      {
+        "start": 212.94,
+        "end": 213.26,
+        "word": " equipment",
+        "probability": 0.993990421295166
+      },
+      {
+        "start": 213.26,
+        "end": 213.9,
+        "word": " suitability",
+        "probability": 0.9965417087078094
+      },
+      {
+        "start": 213.9,
+        "end": 214.3,
+        "word": " and",
+        "probability": 0.9942920207977295
+      },
+      {
+        "start": 214.3,
+        "end": 214.58,
+        "word": " potential",
+        "probability": 0.9984273910522461
+      },
+      {
+        "start": 214.58,
+        "end": 215.14,
+        "word": " product",
+        "probability": 0.9946700930595398
+      },
+      {
+        "start": 215.14,
+        "end": 215.46,
+        "word": " quality",
+        "probability": 0.9535191655158997
+      },
+      {
+        "start": 215.46,
+        "end": 216.0,
+        "word": " impact",
+        "probability": 0.997219443321228
+      },
+      {
+        "start": 216.0,
+        "end": 216.7,
+        "word": " must",
+        "probability": 0.99639892578125
+      },
+      {
+        "start": 216.7,
+        "end": 216.94,
+        "word": " be",
+        "probability": 0.999085545539856
+      },
+      {
+        "start": 216.94,
+        "end": 217.2,
+        "word": " assessed",
+        "probability": 0.9991463422775269
+      },
+      {
+        "start": 217.2,
+        "end": 217.7,
+        "word": " under",
+        "probability": 0.9994043111801147
+      },
+      {
+        "start": 217.7,
+        "end": 217.94,
+        "word": " approved",
+        "probability": 0.9879626631736755
+      }
+    ]
+  },
+  {
+    "start": 217.94,
+    "end": 224.34,
+    "text": " site procedures. The decision, rationale and any necessary corrective action should be documented.",
+    "words": [
+      {
+        "start": 217.94,
+        "end": 218.46,
+        "word": " site",
+        "probability": 0.9097732305526733
+      },
+      {
+        "start": 218.46,
+        "end": 218.86,
+        "word": " procedures.",
+        "probability": 0.9978551268577576
+      },
+      {
+        "start": 219.7,
+        "end": 219.74,
+        "word": " The",
+        "probability": 0.9886860847473145
+      },
+      {
+        "start": 219.74,
+        "end": 220.12,
+        "word": " decision,",
+        "probability": 0.9982073307037354
+      },
+      {
+        "start": 220.52,
+        "end": 220.82,
+        "word": " rationale",
+        "probability": 0.9903391003608704
+      },
+      {
+        "start": 220.82,
+        "end": 221.5,
+        "word": " and",
+        "probability": 0.4206235110759735
+      },
+      {
+        "start": 221.5,
+        "end": 221.68,
+        "word": " any",
+        "probability": 0.9984946250915527
+      },
+      {
+        "start": 221.68,
+        "end": 222.08,
+        "word": " necessary",
+        "probability": 0.9933650493621826
+      },
+      {
+        "start": 222.08,
+        "end": 222.7,
+        "word": " corrective",
+        "probability": 0.998768150806427
+      },
+      {
+        "start": 222.7,
+        "end": 223.18,
+        "word": " action",
+        "probability": 0.9984772801399231
+      },
+      {
+        "start": 223.18,
+        "end": 223.76,
+        "word": " should",
+        "probability": 0.9471330642700195
+      },
+      {
+        "start": 223.76,
+        "end": 223.88,
+        "word": " be",
+        "probability": 0.9998809099197388
+      },
+      {
+        "start": 223.88,
+        "end": 224.34,
+        "word": " documented.",
+        "probability": 0.9996938705444336
+      }
+    ]
+  },
+  {
+    "start": 225.28,
+    "end": 231.0,
+    "text": " This example connects the pharmaceutical quality system, risk management and good documentation",
+    "words": [
+      {
+        "start": 225.28,
+        "end": 225.5,
+        "word": " This",
+        "probability": 0.9976320266723633
+      },
+      {
+        "start": 225.5,
+        "end": 225.88,
+        "word": " example",
+        "probability": 0.9969282746315002
+      },
+      {
+        "start": 225.88,
+        "end": 226.4,
+        "word": " connects",
+        "probability": 0.9950965046882629
+      },
+      {
+        "start": 226.4,
+        "end": 226.74,
+        "word": " the",
+        "probability": 0.9983989596366882
+      },
+      {
+        "start": 226.74,
+        "end": 227.08,
+        "word": " pharmaceutical",
+        "probability": 0.9534412622451782
+      },
+      {
+        "start": 227.08,
+        "end": 227.72,
+        "word": " quality",
+        "probability": 0.9814804196357727
+      },
+      {
+        "start": 227.72,
+        "end": 228.32,
+        "word": " system,",
+        "probability": 0.9994133710861206
+      },
+      {
+        "start": 228.88,
+        "end": 229.04,
+        "word": " risk",
+        "probability": 0.9955942034721375
+      },
+      {
+        "start": 229.04,
+        "end": 229.42,
+        "word": " management",
+        "probability": 0.9945974349975586
+      },
+      {
+        "start": 229.42,
+        "end": 230.3,
+        "word": " and",
+        "probability": 0.6801918745040894
+      },
+      {
+        "start": 230.3,
+        "end": 230.5,
+        "word": " good",
+        "probability": 0.9986507296562195
+      },
+      {
+        "start": 230.5,
+        "end": 231.0,
+        "word": " documentation",
+        "probability": 0.9931896328926086
+      }
+    ]
+  },
+  {
+    "start": 231.0,
+    "end": 234.3,
+    "text": " practices to a real operational decision.",
+    "words": [
+      {
+        "start": 231.0,
+        "end": 231.9,
+        "word": " practices",
+        "probability": 0.015113042667508125
+      },
+      {
+        "start": 231.9,
+        "end": 232.6,
+        "word": " to",
+        "probability": 0.9533680081367493
+      },
+      {
+        "start": 232.6,
+        "end": 232.72,
+        "word": " a",
+        "probability": 0.9971984624862671
+      },
+      {
+        "start": 232.72,
+        "end": 233.1,
+        "word": " real",
+        "probability": 0.9879096746444702
+      },
+      {
+        "start": 233.1,
+        "end": 233.52,
+        "word": " operational",
+        "probability": 0.9667081236839294
+      },
+      {
+        "start": 233.52,
+        "end": 234.3,
+        "word": " decision.",
+        "probability": 0.9990994930267334
+      }
+    ]
+  }
+]

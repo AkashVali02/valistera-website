@@ -1,3 +1,5 @@
+> Historical evidence: current consolidated disposition is in [module-1-final-qa-2026-10-26.md](module-1-final-qa-2026-10-26.md). Earlier counts and unexecuted-review statements are not the current release decision.
+
 # Module 1 — Consolidated Technical QA (pre-human review)
 **Date:** 26 October 2026. **Branch:** academy-player-preview. **Status:** TECHNICAL WEB QA PASSED WITH OPEN MEDIA AND GMP APPROVAL GATES.
 

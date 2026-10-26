@@ -1,0 +1,673 @@
+[
+  {
+    "lesson": 1,
+    "sha256": "7c23b00967139ce5c499eb1f37ec26cfde2a45501d8352c231fa076700dddf9d",
+    "duration": 527.738688,
+    "token_similarity": 0.99596,
+    "differences": [
+      {
+        "caption": "valistera",
+        "asr": "volley steerah"
+      },
+      {
+        "caption": "manufacture",
+        "asr": "manufacturer"
+      },
+      {
+        "caption": "valistera",
+        "asr": "volley steerah"
+      }
+    ],
+    "timing_review_flags": [
+      {
+        "cue": 80,
+        "caption_start": 263.33,
+        "caption_end": 265.73,
+        "asr_start": 264.36,
+        "asr_end": 266.44
+      },
+      {
+        "cue": 82,
+        "caption_start": 269.25,
+        "caption_end": 273.97,
+        "asr_start": 270.54,
+        "asr_end": 274.72
+      },
+      {
+        "cue": 94,
+        "caption_start": 311.63,
+        "caption_end": 315.13,
+        "asr_start": 312.68,
+        "asr_end": 315.86
+      },
+      {
+        "cue": 97,
+        "caption_start": 324.97,
+        "caption_end": 327.87,
+        "asr_start": 325.98,
+        "asr_end": 328.76
+      },
+      {
+        "cue": 102,
+        "caption_start": 342.13,
+        "caption_end": 346.61,
+        "asr_start": 343.26,
+        "asr_end": 347.16
+      },
+      {
+        "cue": 103,
+        "caption_start": 347.57,
+        "caption_end": 351.25,
+        "asr_start": 348.44,
+        "asr_end": 352.3
+      },
+      {
+        "cue": 104,
+        "caption_start": 351.25,
+        "caption_end": 354.57,
+        "asr_start": 352.3,
+        "asr_end": 355.54
+      },
+      {
+        "cue": 105,
+        "caption_start": 355.47,
+        "caption_end": 359.27,
+        "asr_start": 356.42,
+        "asr_end": 360.36
+      },
+      {
+        "cue": 106,
+        "caption_start": 359.27,
+        "caption_end": 362.97,
+        "asr_start": 360.36,
+        "asr_end": 364.16
+      },
+      {
+        "cue": 107,
+        "caption_start": 363.99,
+        "caption_end": 367.49,
+        "asr_start": 365.12,
+        "asr_end": 368.4
+      },
+      {
+        "cue": 108,
+        "caption_start": 367.49,
+        "caption_end": 370.93,
+        "asr_start": 368.4,
+        "asr_end": 371.96
+      },
+      {
+        "cue": 109,
+        "caption_start": 370.93,
+        "caption_end": 375.35,
+        "asr_start": 371.96,
+        "asr_end": 376.42
+      },
+      {
+        "cue": 110,
+        "caption_start": 376.27,
+        "caption_end": 378.12,
+        "asr_start": 377.48,
+        "asr_end": 379.18
+      },
+      {
+        "cue": 111,
+        "caption_start": 378.12,
+        "caption_end": 381.78,
+        "asr_start": 379.48,
+        "asr_end": 382.94
+      },
+      {
+        "cue": 112,
+        "caption_start": 381.78,
+        "caption_end": 386.3,
+        "asr_start": 382.94,
+        "asr_end": 387.36
+      },
+      {
+        "cue": 113,
+        "caption_start": 386.3,
+        "caption_end": 387.24,
+        "asr_start": 387.36,
+        "asr_end": 388.26
+      },
+      {
+        "cue": 114,
+        "caption_start": 388.3,
+        "caption_end": 392.42,
+        "asr_start": 389.66,
+        "asr_end": 393.44
+      },
+      {
+        "cue": 115,
+        "caption_start": 392.42,
+        "caption_end": 396.06,
+        "asr_start": 393.44,
+        "asr_end": 397.18
+      },
+      {
+        "cue": 116,
+        "caption_start": 396.06,
+        "caption_end": 398.78,
+        "asr_start": 397.18,
+        "asr_end": 399.88
+      },
+      {
+        "cue": 117,
+        "caption_start": 398.78,
+        "caption_end": 401.78,
+        "asr_start": 399.88,
+        "asr_end": 402.92
+      },
+      {
+        "cue": 118,
+        "caption_start": 402.8,
+        "caption_end": 406.2,
+        "asr_start": 404.16,
+        "asr_end": 407.34
+      },
+      {
+        "cue": 119,
+        "caption_start": 406.2,
+        "caption_end": 409.78,
+        "asr_start": 407.34,
+        "asr_end": 410.96
+      },
+      {
+        "cue": 120,
+        "caption_start": 409.78,
+        "caption_end": 414.24,
+        "asr_start": 410.96,
+        "asr_end": 415.38
+      },
+      {
+        "cue": 121,
+        "caption_start": 414.24,
+        "caption_end": 415.65999999999997,
+        "asr_start": 415.38,
+        "asr_end": 416.66
+      },
+      {
+        "cue": 122,
+        "caption_start": 416.52,
+        "caption_end": 419.52,
+        "asr_start": 417.84,
+        "asr_end": 420.78
+      },
+      {
+        "cue": 123,
+        "caption_start": 419.52,
+        "caption_end": 424.06,
+        "asr_start": 420.78,
+        "asr_end": 425.26
+      },
+      {
+        "cue": 124,
+        "caption_start": 424.06,
+        "caption_end": 426.98,
+        "asr_start": 425.26,
+        "asr_end": 428.22
+      },
+      {
+        "cue": 125,
+        "caption_start": 426.98,
+        "caption_end": 431.48,
+        "asr_start": 428.22,
+        "asr_end": 432.66
+      },
+      {
+        "cue": 126,
+        "caption_start": 431.48,
+        "caption_end": 433.12,
+        "asr_start": 432.74,
+        "asr_end": 434.36
+      },
+      {
+        "cue": 127,
+        "caption_start": 434.1,
+        "caption_end": 437.44,
+        "asr_start": 435.38,
+        "asr_end": 438.78
+      },
+      {
+        "cue": 128,
+        "caption_start": 437.44,
+        "caption_end": 440.9,
+        "asr_start": 438.78,
+        "asr_end": 442.16
+      },
+      {
+        "cue": 129,
+        "caption_start": 440.9,
+        "caption_end": 445.28,
+        "asr_start": 442.16,
+        "asr_end": 446.46
+      },
+      {
+        "cue": 130,
+        "caption_start": 445.28,
+        "caption_end": 448.28,
+        "asr_start": 446.46,
+        "asr_end": 449.7
+      },
+      {
+        "cue": 131,
+        "caption_start": 448.28,
+        "caption_end": 452.34000000000003,
+        "asr_start": 449.7,
+        "asr_end": 453.52
+      },
+      {
+        "cue": 132,
+        "caption_start": 452.34000000000003,
+        "caption_end": 455.24,
+        "asr_start": 453.52,
+        "asr_end": 456.46
+      },
+      {
+        "cue": 133,
+        "caption_start": 455.24,
+        "caption_end": 455.79,
+        "asr_start": 456.46,
+        "asr_end": 457.14
+      },
+      {
+        "cue": 134,
+        "caption_start": 456.77,
+        "caption_end": 459.49,
+        "asr_start": 457.94,
+        "asr_end": 460.74
+      },
+      {
+        "cue": 135,
+        "caption_start": 459.49,
+        "caption_end": 462.73,
+        "asr_start": 461.0,
+        "asr_end": 464.06
+      },
+      {
+        "cue": 136,
+        "caption_start": 463.49,
+        "caption_end": 466.03,
+        "asr_start": 464.8,
+        "asr_end": 467.34
+      },
+      {
+        "cue": 137,
+        "caption_start": 466.03,
+        "caption_end": 467.03,
+        "asr_start": 467.34,
+        "asr_end": 468.1
+      },
+      {
+        "cue": 138,
+        "caption_start": 467.78,
+        "caption_end": 470.12,
+        "asr_start": 469.36,
+        "asr_end": 471.46
+      },
+      {
+        "cue": 139,
+        "caption_start": 470.12,
+        "caption_end": 473.28,
+        "asr_start": 471.46,
+        "asr_end": 474.66
+      },
+      {
+        "cue": 140,
+        "caption_start": 473.28,
+        "caption_end": 476.26,
+        "asr_start": 474.66,
+        "asr_end": 477.6
+      },
+      {
+        "cue": 141,
+        "caption_start": 476.26,
+        "caption_end": 480.74,
+        "asr_start": 477.6,
+        "asr_end": 481.98
+      },
+      {
+        "cue": 142,
+        "caption_start": 480.74,
+        "caption_end": 482.64,
+        "asr_start": 481.98,
+        "asr_end": 484.1
+      },
+      {
+        "cue": 143,
+        "caption_start": 483.58,
+        "caption_end": 485.28,
+        "asr_start": 485.16,
+        "asr_end": 486.82
+      },
+      {
+        "cue": 145,
+        "caption_start": 489.36,
+        "caption_end": 493.96,
+        "asr_start": 490.86,
+        "asr_end": 495.26
+      },
+      {
+        "cue": 146,
+        "caption_start": 493.96,
+        "caption_end": 497.24,
+        "asr_start": 495.26,
+        "asr_end": 498.72
+      },
+      {
+        "cue": 147,
+        "caption_start": 497.24,
+        "caption_end": 501.76,
+        "asr_start": 498.72,
+        "asr_end": 503.22
+      },
+      {
+        "cue": 148,
+        "caption_start": 501.76,
+        "caption_end": 503.01,
+        "asr_start": 503.22,
+        "asr_end": 504.48
+      },
+      {
+        "cue": 149,
+        "caption_start": 503.8,
+        "caption_end": 506.44,
+        "asr_start": 505.16,
+        "asr_end": 508.0
+      },
+      {
+        "cue": 150,
+        "caption_start": 506.44,
+        "caption_end": 510.26,
+        "asr_start": 508.0,
+        "asr_end": 511.58
+      },
+      {
+        "cue": 151,
+        "caption_start": 510.26,
+        "caption_end": 514.26,
+        "asr_start": 511.58,
+        "asr_end": 515.78
+      },
+      {
+        "cue": 152,
+        "caption_start": 514.26,
+        "caption_end": 515.26,
+        "asr_start": 515.78,
+        "asr_end": 516.58
+      },
+      {
+        "cue": 153,
+        "caption_start": 516.03,
+        "caption_end": 518.07,
+        "asr_start": 517.5200000000001,
+        "asr_end": 519.68
+      },
+      {
+        "cue": 154,
+        "caption_start": 518.07,
+        "caption_end": 521.49,
+        "asr_start": 519.68,
+        "asr_end": 522.86
+      },
+      {
+        "cue": 155,
+        "caption_start": 521.49,
+        "caption_end": 524.79,
+        "asr_start": 522.86,
+        "asr_end": 526.46
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "sha256": "f6bf5787b5f9c9a145df9a23b057be33b1f62fad66ef0e8db807732d1b6286a2",
+    "duration": 234.988667,
+    "token_similarity": 0.98323,
+    "differences": [
+      {
+        "caption": "capa",
+        "asr": "cpa"
+      },
+      {
+        "caption": "c a p a",
+        "asr": "cpa"
+      },
+      {
+        "caption": "alcoa",
+        "asr": "lco of"
+      },
+      {
+        "caption": "l c o a",
+        "asr": "lco of"
+      }
+    ],
+    "timing_review_flags": [
+      {
+        "cue": 8,
+        "caption_start": 31.7,
+        "caption_end": 38.52,
+        "asr_start": 31.52,
+        "asr_end": 37.32
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "sha256": "1ba8a2ddd33b159aa4f7494f5bcaf4e416a078044a03d9764b7d53b36e26ce14",
+    "duration": 262.327667,
+    "token_similarity": 0.99339,
+    "differences": [
+      {
+        "caption": "behaviour",
+        "asr": "behavior"
+      },
+      {
+        "caption": "mix up",
+        "asr": "mixup"
+      },
+      {
+        "caption": "regowning",
+        "asr": "regounding"
+      }
+    ],
+    "timing_review_flags": [
+      {
+        "cue": 4,
+        "caption_start": 17.54,
+        "caption_end": 24.16,
+        "asr_start": 17.38,
+        "asr_end": 22.92
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "sha256": "be36abbf8e9b4aca779e48fb77ab8176f6ae8bd8a2190c9f36e54630662662d0",
+    "duration": 225.750667,
+    "token_similarity": 0.98501,
+    "differences": [
+      {
+        "caption": "i q o q",
+        "asr": "iq oq"
+      },
+      {
+        "caption": "p q",
+        "asr": "pq"
+      },
+      {
+        "caption": "lifecycle",
+        "asr": "life cycle"
+      },
+      {
+        "caption": "finding",
+        "asr": "findings"
+      }
+    ],
+    "timing_review_flags": [
+      {
+        "cue": 14,
+        "caption_start": 70.65,
+        "caption_end": 76.81,
+        "asr_start": 70.58,
+        "asr_end": 75.58
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "sha256": "45df577aabb2f2c1d998685c3703a1a69c7101e91333bba14ff559846a1b3c00",
+    "duration": 229.242004,
+    "token_similarity": 1.0,
+    "differences": [],
+    "timing_review_flags": []
+  },
+  {
+    "lesson": 6,
+    "sha256": "301c56f247a94134a78eba7e85f437845a93634ee99083ba83ac5a1d3b88f856",
+    "duration": 216.809667,
+    "token_similarity": 0.99444,
+    "differences": [
+      {
+        "caption": "labelling",
+        "asr": "labeling"
+      },
+      {
+        "caption": "mix up",
+        "asr": "mixup"
+      }
+    ],
+    "timing_review_flags": []
+  },
+  {
+    "lesson": 7,
+    "sha256": "f7a69340b9e7ffb69e65b3afddb6d754489d05afb52a07704176012eb21cde61",
+    "duration": 222.657667,
+    "token_similarity": 0.99323,
+    "differences": [
+      {
+        "caption": "o o s",
+        "asr": "oos"
+      },
+      {
+        "caption": "releasable",
+        "asr": "releaseable"
+      }
+    ],
+    "timing_review_flags": []
+  },
+  {
+    "lesson": 8,
+    "sha256": "a770b87568b5d186f8b2e23987f60183937fb3fea4887e6eae8fd24501d8ec8c",
+    "duration": 214.125,
+    "token_similarity": 0.98763,
+    "differences": [
+      {
+        "caption": "c a p a",
+        "asr": "cpa"
+      },
+      {
+        "caption": "whys",
+        "asr": "wise"
+      },
+      {
+        "caption": "capa",
+        "asr": "coppa"
+      },
+      {
+        "caption": "capa",
+        "asr": "coppa"
+      }
+    ],
+    "timing_review_flags": [
+      {
+        "cue": 1,
+        "caption_start": 0.0,
+        "caption_end": 6.98,
+        "asr_start": 0.0,
+        "asr_end": 5.84
+      },
+      {
+        "cue": 2,
+        "caption_start": 6.98,
+        "caption_end": 13.16,
+        "asr_start": 6.9,
+        "asr_end": 12.12
+      },
+      {
+        "cue": 14,
+        "caption_start": 63.88,
+        "caption_end": 70.42,
+        "asr_start": 63.62,
+        "asr_end": 69.24
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "sha256": "19c94c60ac262dcb4629bb51d08ad4d0a1dcd33380d94046b3594d3fc4743e5f",
+    "duration": 219.416992,
+    "token_similarity": 1.0,
+    "differences": [],
+    "timing_review_flags": [
+      {
+        "cue": 2,
+        "caption_start": 4.02,
+        "caption_end": 11.24,
+        "asr_start": 3.66,
+        "asr_end": 9.88
+      },
+      {
+        "cue": 4,
+        "caption_start": 16.44,
+        "caption_end": 21.42,
+        "asr_start": 16.3,
+        "asr_end": 20.36
+      },
+      {
+        "cue": 7,
+        "caption_start": 27.94,
+        "caption_end": 33.0,
+        "asr_start": 27.72,
+        "asr_end": 31.88
+      },
+      {
+        "cue": 19,
+        "caption_start": 87.44,
+        "caption_end": 93.46000000000001,
+        "asr_start": 87.44,
+        "asr_end": 92.14
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "sha256": "936f19c52510afdc31a3e85baafe0f5f25472899aba0dd645ccbc089f7981563",
+    "duration": 236.788667,
+    "token_similarity": 0.98486,
+    "differences": [
+      {
+        "caption": "from",
+        "asr": "for"
+      },
+      {
+        "caption": "accountable",
+        "asr": "a countable"
+      },
+      {
+        "caption": "where",
+        "asr": "wear"
+      },
+      {
+        "caption": "analysis can reveal recurring weaknesses",
+        "asr": ""
+      },
+      {
+        "caption": "backdate",
+        "asr": "back date"
+      }
+    ],
+    "timing_review_flags": []
+  }
+]
