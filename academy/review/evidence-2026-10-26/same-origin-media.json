@@ -1,0 +1,82 @@
+[
+  {
+    "lesson": 1,
+    "path": "assets/academy/lesson-1-1-review.mp4",
+    "bytes": 9139354,
+    "sha256": "7c23b00967139ce5c499eb1f37ec26cfde2a45501d8352c231fa076700dddf9d",
+    "migration_audio_video_unchanged": true,
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/eb78cff1-1144-431c-be91-001857d00418.mp4"
+  },
+  {
+    "lesson": 2,
+    "path": "assets/academy/lesson-1-2-review.mp4",
+    "bytes": 3710726,
+    "sha256": "f6bf5787b5f9c9a145df9a23b057be33b1f62fad66ef0e8db807732d1b6286a2",
+    "migration_audio_video_unchanged": true,
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/7de56136-5515-4ed3-923b-46a0b7a898f6.mp4"
+  },
+  {
+    "lesson": 3,
+    "path": "assets/academy/lesson-1-3-review.mp4",
+    "bytes": 4448767,
+    "sha256": "1ba8a2ddd33b159aa4f7494f5bcaf4e416a078044a03d9764b7d53b36e26ce14",
+    "migration_audio_video_unchanged": true,
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/8df0daec-952e-4086-9c4d-80f75a6ab563.mp4"
+  },
+  {
+    "lesson": 4,
+    "path": "assets/academy/lesson-1-4-review.mp4",
+    "bytes": 3650406,
+    "sha256": "6a04f604227cde2f60d8d37b2953dd2329d29538b05d6a8961fbe479bd9811e6",
+    "migration_audio_video_unchanged": "previously reviewed derivative retained",
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/849d2e54-b874-47b0-959c-8fc66a320c3e.mp4"
+  },
+  {
+    "lesson": 5,
+    "path": "assets/academy/lesson-1-5-review.mp4",
+    "bytes": 3885840,
+    "sha256": "8ceddd36265f304fe46d0fca224eabdc5454d37d42680941b0954aebd163c039",
+    "migration_audio_video_unchanged": "previously reviewed derivative retained",
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/fac7f3bc-697d-4ac4-84b9-c32488d10714.mp4"
+  },
+  {
+    "lesson": 6,
+    "path": "assets/academy/lesson-1-6-review.mp4",
+    "bytes": 3413401,
+    "sha256": "301c56f247a94134a78eba7e85f437845a93634ee99083ba83ac5a1d3b88f856",
+    "migration_audio_video_unchanged": true,
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/42267908-5dc9-471d-9199-0b1dd52b58d0.mp4"
+  },
+  {
+    "lesson": 7,
+    "path": "assets/academy/lesson-1-7-review.mp4",
+    "bytes": 3534326,
+    "sha256": "f7a69340b9e7ffb69e65b3afddb6d754489d05afb52a07704176012eb21cde61",
+    "migration_audio_video_unchanged": true,
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/49e412bb-55cc-4999-815e-a90b03435321.mp4"
+  },
+  {
+    "lesson": 8,
+    "path": "assets/academy/lesson-1-8-review.mp4",
+    "bytes": 3619198,
+    "sha256": "fefa3738769706cb6364ab53e8000e3058a401d9e63cae5d3f0c290b28c72df4",
+    "migration_audio_video_unchanged": "previously reviewed derivative retained",
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/2b066e04-f683-4c59-b812-cea9e4a55f40.mp4"
+  },
+  {
+    "lesson": 9,
+    "path": "assets/academy/lesson-1-9-review.mp4",
+    "bytes": 3421795,
+    "sha256": "19c94c60ac262dcb4629bb51d08ad4d0a1dcd33380d94046b3594d3fc4743e5f",
+    "migration_audio_video_unchanged": true,
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/894ab728-4b50-4344-b249-8237fc69fff0.mp4"
+  },
+  {
+    "lesson": 10,
+    "path": "assets/academy/lesson-1-10-review.mp4",
+    "bytes": 3686419,
+    "sha256": "936f19c52510afdc31a3e85baafe0f5f25472899aba0dd645ccbc089f7981563",
+    "migration_audio_video_unchanged": true,
+    "original_url_for_audit_only": "https://d2ol7oe51mr4n9.cloudfront.net/user_3L9CoyW5om0GtcdGXmMhzK4geOH/3c4b036f-03a9-404a-a574-e65ee203d7b1.mp4"
+  }
+]

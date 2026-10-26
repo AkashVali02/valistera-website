@@ -8,13 +8,13 @@ const root=process.cwd(),out='academy/review/evidence-2026-10-26';
 const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});
 const rows=[],failures=[];
 for(const file of (process.env.ONLY_PAGE?[process.env.ONLY_PAGE]:['academy-gmp-foundations.html','academy-player-preview.html',...Array.from({length:9},(_,i)=>`academy-lesson-1-${i+2}.html`),'academy-gmp-assessment.html'])){
- const context=await browser.newContext();const p=await context.newPage();const errors=[],requests=[];p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>{if(r.url().includes('cloudfront.net'))requests.push(r.url())});
+ const context=await browser.newContext();const p=await context.newPage();const errors=[],requests=[],videoRequests=[];p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>{if(new URL(r.url()).hostname!=='academy.test')requests.push(r.url());if(new URL(r.url()).pathname.endsWith('.mp4'))videoRequests.push(r.url())});
  await p.route('http://academy.test/**',async route=>{const name=new URL(route.request().url()).pathname;const f=path.join(root,name);if(name.endsWith('.mp4')&&process.env.MEDIA_FIXTURE)return media(route,process.env.MEDIA_FIXTURE,'video/webm');if(!fs.existsSync(f))return route.fulfill({status:404});if(name.endsWith('.mp4'))return media(route,f,'video/mp4');await route.fulfill({status:200,contentType:name.endsWith('.html')?'text/html':name.endsWith('.js')?'application/javascript':name.endsWith('.css')?'text/css':name.endsWith('.vtt')?'text/vtt':name.endsWith('.mp4')?'video/mp4':'application/octet-stream',body:fs.readFileSync(f)})});
  // Test against downloaded original bytes if MEDIA_DIR is supplied; never contact external host.
  await p.route('https://*.cloudfront.net/**',async route=>{const i=file==='academy-player-preview.html'?1:Number(file.match(/1-(\d+)/)?.[1]);if(process.env.MEDIA_FIXTURE)return media(route,process.env.MEDIA_FIXTURE,'video/webm');const f=path.join(process.env.MEDIA_DIR||'/nonexistent',`lesson-${i}.mp4`);if(fs.existsSync(f))return media(route,f,'video/mp4');return route.abort()});
  const row={file,checks:[]};const check=(name,pass)=>{row.checks.push({name,pass});if(!pass)failures.push(file+': '+name)};
  await p.goto('http://academy.test/'+file);await p.addScriptTag({path:process.env.AXE_PATH||require.resolve('axe-core/axe.min.js')});const axe=await p.evaluate(()=>window.axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}}));row.axeViolations=axe.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}));row.axeIncomplete=axe.incomplete.map(v=>v.id);check('axe automated AA rules: no detected violations',!row.axeViolations.length);
- check('no external video request before load',requests.length===0);
+ check('no external request before load',requests.length===0);check('no MP4 request before learner action',videoRequests.length===0);
  for(const width of [320,390,768,1280]){await p.setViewportSize({width,height:900});check('no horizontal overflow at '+width,await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));}
  await p.setViewportSize({width:390,height:844});await p.keyboard.press('Tab');check('skip link first keyboard stop',await p.locator('.skip-link').evaluate(e=>e===document.activeElement));await p.keyboard.press('Enter');check('skip link moves focus to main',await p.locator('main').evaluate(e=>e===document.activeElement));
  if(await p.locator('video').count()){
@@ -46,7 +46,7 @@ for(const file of (process.env.ONLY_PAGE?[process.env.ONLY_PAGE]:['academy-gmp-f
   await p.evaluate(()=>items.forEach((q,i)=>document.querySelector(`input[name=q${i}][value="${(q[4]+1)%3}"]`).click()));await p.locator('#submit').click();check('assessment 0/15',/0 \/ 15.*0%/.test(await p.locator('#score').innerText()));
  }
  await p.evaluate(()=>{localStorage.setItem('unrelated_test','keep');localStorage.setItem('valistera_gmp_110_quiz','passed');});await p.locator('#clear-academy-progress').click();check('clear removes Module 1 only',await p.evaluate(()=>localStorage.getItem('unrelated_test')==='keep'&&localStorage.getItem('valistera_gmp_110_quiz')===null));
- check('no uncaught JavaScript errors',errors.length===0);row.errors=errors;
+ check('no external requests throughout interaction',requests.length===0);row.externalRequests=requests;row.videoRequests=videoRequests;check('no uncaught JavaScript errors',errors.length===0);row.errors=errors;
  if(file==='academy-player-preview.html')await p.screenshot({path:out+'/lesson1-mobile.png',fullPage:true});
  await context.close();rows.push(row);
 }
