@@ -62,3 +62,9 @@ All ten CloudFront videos were decoded to mono audio and transcribed using faste
 - Retrieved the European Commission's Annex 15 PDF at https://health.ec.europa.eu/system/files/2016-11/2015-10_annex15_0.pdf (HTTP 200, application/pdf); extracted text confirms heading **10. CLEANING VALIDATION** and provision **10.1**. The lesson's Section 10 reference is therefore supported by this published Annex 15 text. This does not replace a complete effective-version/jurisdiction applicability review.
 - Audited lesson external regulatory link destinations from the ten preview HTML pages; EU references point to the official EudraLex Volume 4 index and FDA provisions to ecfr.gov. A link destination being official does not itself prove every interpretation correct.
 - Inspected Lesson 1.1 privacy notice: it states browser-local progress storage, browser site-data clearing, third-party CloudFront delivery, and warns against confidential submissions. Notice existence verified; legal sufficiency not determined.
+
+## Additional independently executed checks (2026-10-26)
+- Re-ran HTTP and functional smoke test of the 12 deployed module pages: all 200; FAILURES [].
+- Extracted and checked all distinct official regulatory link targets embedded in the 12 pages. European Commission EudraLex Volume 4 index: HTTP 200; FDA guidance document search: HTTP 200; ICH quality guidelines index: HTTP 200. Link accessibility alone does not verify clause accuracy, current regulatory applicability or document version.
+- Spot-checked the player HTML and confirmed localStorage keys are used to store lesson playback position, watched state and quiz state. Presence of the word privacy elsewhere in HTML is not a substitute for confirming a complete user-facing disclosure.
+- No MP4 was modified, and no automated speech-to-text or word-level alignment has been completed. The 16 readability flags remain open and must not be presented as resolved.
