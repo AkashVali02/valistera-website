@@ -23,7 +23,9 @@ for(const file of (process.env.ONLY_PAGE?[process.env.ONLY_PAGE]:['academy-gmp-f
   for(const answer of ['a','c']){await p.locator(`input[value=${answer}]`).check();await p.locator('#check, #checkanswer').click();check('wrong answer '+answer+' rejected',/not quite/i.test(await p.locator('#feedback, #quizfeedback').innerText()));}
   await p.locator('input[value=b]').check();await p.locator('#check, #checkanswer').click();check('canonical correct answer accepted',/^Correct/.test(await p.locator('#feedback, #quizfeedback').innerText()));
   await p.locator('.academy-transcript summary').focus();await p.keyboard.press('Enter');check('transcript keyboard expands',await p.locator('.academy-transcript').evaluate(e=>e.open));
-  await p.locator('#load-media').click();await p.waitForFunction(()=>document.querySelector('video').readyState>=1,{},{timeout:20000}).catch(()=>{});
+  check('poster visible before playback',await p.locator('#load-media img').isVisible());check('unloaded native player hidden',!await p.locator('video').isVisible());
+  await p.locator('#load-media').focus();await p.keyboard.press('Enter');await p.waitForFunction(()=>document.querySelector('video').readyState>=1,{},{timeout:20000}).catch(()=>{});
+  await p.waitForFunction(()=>!document.querySelector('video').paused&&document.querySelector('video').currentTime>0,null,{timeout:10000}).catch(()=>{});check('single keyboard activation starts playback',await p.locator('video').evaluate(v=>!v.paused&&v.currentTime>0));await p.locator('video').evaluate(v=>v.pause());
   check('video metadata decodes',await p.locator('video').evaluate(v=>v.readyState>=1));
   if(await p.locator('video').evaluate(v=>v.readyState>=1)){
    await p.waitForFunction(()=>document.querySelector('video').textTracks[0]?.cues?.length>0,{},{timeout:5000}).catch(()=>{});
@@ -38,7 +40,7 @@ for(const file of (process.env.ONLY_PAGE?[process.env.ONLY_PAGE]:['academy-gmp-f
    check('native caption track parses',await p.locator('video').evaluate(v=>v.textTracks[0]?.cues?.length>0));
    await p.locator('#cc').click();check('caption toggle off',await p.locator('video').evaluate(v=>v.textTracks[0].mode==='disabled'));await p.locator('#cc').click();check('caption toggle on',await p.locator('video').evaluate(v=>v.textTracks[0].mode==='showing'));
    await p.locator('video').evaluate(v=>{v.preload='auto';v.currentTime=65});await p.waitForFunction(()=>!document.querySelector('video').seeking,{},{timeout:5000}).catch(()=>{});await p.locator('video').evaluate(v=>v.dispatchEvent(new Event('timeupdate')));
-   row.savedBeforeReload=await p.evaluate(()=>({...localStorage}));await p.goto('http://academy.test/'+file+'?resume=1');await p.locator('#load-media').click();await p.waitForFunction(()=>document.querySelector('video').currentTime>=64,{},{timeout:10000}).catch(()=>{});row.savedAfterReload=await p.evaluate(()=>({...localStorage}));check('resume 65s remains paused',await p.locator('video').evaluate(v=>Math.abs(v.currentTime-65)<1&&v.paused));
+   row.savedBeforeReload=await p.evaluate(()=>({...localStorage}));await p.goto('http://academy.test/'+file+'?resume=1');await p.locator('#load-media').click();await p.waitForFunction(()=>document.querySelector('video').currentTime>=64,{},{timeout:10000}).catch(()=>{});row.savedAfterReload=await p.evaluate(()=>({...localStorage}));check('play lesson resumes at saved position',await p.locator('video').evaluate(v=>v.currentTime>=64&&v.currentTime<70));await p.locator('video').evaluate(v=>v.pause());
   }
  }
  if(file==='academy-gmp-assessment.html'){

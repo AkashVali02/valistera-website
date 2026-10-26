@@ -8,21 +8,33 @@
     load.addEventListener('click', () => {
       const source = video.dataset.src;
       if (!source) return;
+      load.hidden = true;
+      video.hidden = false;
       video.src = source;
       video.preload = 'metadata';
       video.load();
-      load.hidden = true;
-      mediaStatus.textContent = 'Loading video. Use the player controls to start playback.';
+      mediaStatus.textContent = 'Starting lesson…';
       video.focus();
+      // Request playback in the user's click/keyboard activation, including on mobile.
+      video.play().catch(() => {
+        if (!video.error) mediaStatus.textContent = 'Use the player’s play button to continue.';
+      });
     });
-    video.addEventListener('loadedmetadata', () => {
-      mediaStatus.textContent = 'Video loaded. Captions are available in English; playback speed can be changed in the player controls.';
+    video.addEventListener('playing', () => {
+      mediaStatus.textContent = '';
+      const resume = document.getElementById('resumeLesson');
+      if (resume) resume.hidden = true;
     });
     video.addEventListener('error', () => {
-      mediaStatus.textContent = 'The video could not be loaded. You can read the transcript and companion material below, or retry loading.';
+      mediaStatus.textContent = 'Video unavailable. Try again, or read the transcript below.';
+      load.querySelector('.academy-play-label').textContent = 'Retry lesson';
+      load.setAttribute('aria-label', 'Retry lesson video');
       load.hidden = false;
+      video.hidden = true;
+      if (document.activeElement === video) load.focus();
     });
   }
+
   const clear = document.getElementById('clear-academy-progress');
   clear?.addEventListener('click', () => {
     const status = document.getElementById('storage-status');
