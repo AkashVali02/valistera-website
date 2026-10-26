@@ -37,3 +37,23 @@ Spot-check of overview, Lessons 1.1 and 1.6, and assessment confirmed browser lo
 
 ## Decision
 NO-GO for production. Continue technical remediation on preview branch only. Do not represent this addendum as independent consultant approval.
+
+## Audio-based transcription and approximate timing audit (additional evidence)
+All ten CloudFront videos were decoded to mono audio and transcribed using faster-whisper tiny.en (automated ASR). ASR token sequences were aligned to the deployed native VTT caption text using sequence matching. These are **machine-generated diagnostic indicators**, not independently verified transcription or exact word-level timestamps. The caption files consistently show high agreement with ASR; disagreements often involve technical acronyms and ASR recognition errors. Approximate timing differences are measured using segment and cue midpoints, so they **must not** be interpreted as true subtitle synchronization errors.
+
+| Lesson | ASR/caption token similarity | Median approximate midpoint difference (s) | 95th percentile (s) |
+|---|---:|---:|---:|
+| 1.1 | 99.34% | 1.38 | 4.21 |
+| 1.2 | 97.60% | 1.22 | 3.20 |
+| 1.3 | 99.15% | 1.29 | 3.52 |
+| 1.4 | 97.55% | 1.07 | 3.96 |
+| 1.5 | 97.89% | 1.54 | 4.26 |
+| 1.6 | 99.56% | 1.39 | 4.41 |
+| 1.7 | 97.75% | 1.56 | 4.53 |
+| 1.8 | 98.54% | 1.39 | 3.03 |
+| 1.9 | 100.00% | 1.64 | 4.61 |
+| 1.10 | 99.10% | 2.06 | 4.58 |
+
+**Specific ASR discrepancy review:** e.g. ASR incorrectly rendered ValiStera as 'Volley-Steera', HVAC as 'HVSC', CAPA as 'CPA', and 'obsolete' as 'absolute'; the caption wording is preferable in these cases. Lesson 1.9 showed 100% token agreement. ASR results do not establish that the captions are error-free, nor do they justify indiscriminate caption text replacement. The 16 >20 CPS cue flags still require speech-aligned readability correction or a justified exception.
+
+**Implementation boundary:** No media files or captions were changed during this audit. This report adds verifiable diagnostic evidence without pretending that the remaining manual fidelity, visual, regulatory, legal, and authorization gates have passed.
