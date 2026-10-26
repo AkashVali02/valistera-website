@@ -1,0 +1,127 @@
+{
+  "limitation": "Full-stream decode and frame-change heuristic; not a validated photosensitive-epilepsy or transient-defect test. Low-amplitude/localized flashes may not meet the threshold.",
+  "results": [
+    {
+      "lesson": 1,
+      "sha256": "7c23b00967139ce5c499eb1f37ec26cfde2a45501d8352c231fa076700dddf9d",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [
+        35.29,
+        46.131,
+        121.396,
+        155.973,
+        203.008,
+        388.343,
+        402.843,
+        434.146
+      ],
+      "max_changes_in_rolling_second": 1
+    },
+    {
+      "lesson": 2,
+      "sha256": "f6bf5787b5f9c9a145df9a23b057be33b1f62fad66ef0e8db807732d1b6286a2",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [],
+      "max_changes_in_rolling_second": 0
+    },
+    {
+      "lesson": 3,
+      "sha256": "1ba8a2ddd33b159aa4f7494f5bcaf4e416a078044a03d9764b7d53b36e26ce14",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [],
+      "max_changes_in_rolling_second": 0
+    },
+    {
+      "lesson": 4,
+      "sha256": "6a04f604227cde2f60d8d37b2953dd2329d29538b05d6a8961fbe479bd9811e6",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [],
+      "max_changes_in_rolling_second": 0
+    },
+    {
+      "lesson": 5,
+      "sha256": "8ceddd36265f304fe46d0fca224eabdc5454d37d42680941b0954aebd163c039",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [
+        28.792,
+        57.844,
+        129.022,
+        157.797,
+        215.672
+      ],
+      "max_changes_in_rolling_second": 1
+    },
+    {
+      "lesson": 6,
+      "sha256": "301c56f247a94134a78eba7e85f437845a93634ee99083ba83ac5a1d3b88f856",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [
+        27.417,
+        53.837,
+        79.369,
+        105.494,
+        161.869,
+        187.679
+      ],
+      "max_changes_in_rolling_second": 1
+    },
+    {
+      "lesson": 7,
+      "sha256": "f7a69340b9e7ffb69e65b3afddb6d754489d05afb52a07704176012eb21cde61",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [
+        26.812,
+        53.219,
+        80.279,
+        106.089,
+        139.214,
+        166.494
+      ],
+      "max_changes_in_rolling_second": 1
+    },
+    {
+      "lesson": 8,
+      "sha256": "fefa3738769706cb6364ab53e8000e3058a401d9e63cae5d3f0c290b28c72df4",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [
+        27.625,
+        54.25,
+        80.25,
+        136.0,
+        160.5
+      ],
+      "max_changes_in_rolling_second": 1
+    },
+    {
+      "lesson": 9,
+      "sha256": "19c94c60ac262dcb4629bb51d08ad4d0a1dcd33380d94046b3594d3fc4743e5f",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [
+        28.042,
+        55.172,
+        82.582,
+        109.457,
+        137.867,
+        164.417
+      ],
+      "max_changes_in_rolling_second": 1
+    },
+    {
+      "lesson": 10,
+      "sha256": "936f19c52510afdc31a3e85baafe0f5f25472899aba0dd645ccbc089f7981563",
+      "decode_exit": 0,
+      "scene_change_threshold": 0.05,
+      "scene_changes": [],
+      "max_changes_in_rolling_second": 0
+    }
+  ]
+}

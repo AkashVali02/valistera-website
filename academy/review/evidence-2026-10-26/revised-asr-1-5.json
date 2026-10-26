@@ -1,0 +1,3329 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.42,
+    "text": " Good manufacturing practice requires manufacturing operations to follow approved instructions and appropriate controls.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.16,
+        "word": " Good",
+        "probability": 0.8368033766746521
+      },
+      {
+        "start": 0.16,
+        "end": 0.46,
+        "word": " manufacturing",
+        "probability": 0.9649931192398071
+      },
+      {
+        "start": 0.46,
+        "end": 1.3,
+        "word": " practice",
+        "probability": 0.9969979524612427
+      },
+      {
+        "start": 1.3,
+        "end": 1.96,
+        "word": " requires",
+        "probability": 0.9973938465118408
+      },
+      {
+        "start": 1.96,
+        "end": 2.5,
+        "word": " manufacturing",
+        "probability": 0.9924690127372742
+      },
+      {
+        "start": 2.5,
+        "end": 3.2,
+        "word": " operations",
+        "probability": 0.9975205063819885
+      },
+      {
+        "start": 3.2,
+        "end": 3.94,
+        "word": " to",
+        "probability": 0.9955353736877441
+      },
+      {
+        "start": 3.94,
+        "end": 4.22,
+        "word": " follow",
+        "probability": 0.999091625213623
+      },
+      {
+        "start": 4.22,
+        "end": 4.58,
+        "word": " approved",
+        "probability": 0.994120180606842
+      },
+      {
+        "start": 4.58,
+        "end": 5.16,
+        "word": " instructions",
+        "probability": 0.9959554672241211
+      },
+      {
+        "start": 5.16,
+        "end": 5.56,
+        "word": " and",
+        "probability": 0.9947968125343323
+      },
+      {
+        "start": 5.56,
+        "end": 5.86,
+        "word": " appropriate",
+        "probability": 0.9993852376937866
+      },
+      {
+        "start": 5.86,
+        "end": 6.42,
+        "word": " controls.",
+        "probability": 0.9980432987213135
+      }
+    ]
+  },
+  {
+    "start": 7.24,
+    "end": 12.68,
+    "text": " Processes should be defined, suitable for their intended purpose, and performed by trained personnel.",
+    "words": [
+      {
+        "start": 7.24,
+        "end": 7.84,
+        "word": " Processes",
+        "probability": 0.9584417641162872
+      },
+      {
+        "start": 7.84,
+        "end": 7.98,
+        "word": " should",
+        "probability": 0.9992743134498596
+      },
+      {
+        "start": 7.98,
+        "end": 8.1,
+        "word": " be",
+        "probability": 0.9997684359550476
+      },
+      {
+        "start": 8.1,
+        "end": 8.42,
+        "word": " defined,",
+        "probability": 0.9990963935852051
+      },
+      {
+        "start": 8.88,
+        "end": 9.16,
+        "word": " suitable",
+        "probability": 0.9989601373672485
+      },
+      {
+        "start": 9.16,
+        "end": 9.56,
+        "word": " for",
+        "probability": 0.9991579055786133
+      },
+      {
+        "start": 9.56,
+        "end": 9.7,
+        "word": " their",
+        "probability": 0.9985713958740234
+      },
+      {
+        "start": 9.7,
+        "end": 9.98,
+        "word": " intended",
+        "probability": 0.9987989664077759
+      },
+      {
+        "start": 9.98,
+        "end": 10.5,
+        "word": " purpose,",
+        "probability": 0.9971018433570862
+      },
+      {
+        "start": 11.02,
+        "end": 11.2,
+        "word": " and",
+        "probability": 0.9986394047737122
+      },
+      {
+        "start": 11.2,
+        "end": 11.46,
+        "word": " performed",
+        "probability": 0.9978471994400024
+      },
+      {
+        "start": 11.46,
+        "end": 11.86,
+        "word": " by",
+        "probability": 0.9991734623908997
+      },
+      {
+        "start": 11.86,
+        "end": 12.16,
+        "word": " trained",
+        "probability": 0.9871616959571838
+      },
+      {
+        "start": 12.16,
+        "end": 12.68,
+        "word": " personnel.",
+        "probability": 0.9995430707931519
+      }
+    ]
+  },
+  {
+    "start": 13.46,
+    "end": 18.02,
+    "text": " Controls must address potential contamination, mix-ups and errors throughout the process.",
+    "words": [
+      {
+        "start": 13.46,
+        "end": 13.7,
+        "word": " Controls",
+        "probability": 0.9553124308586121
+      },
+      {
+        "start": 13.7,
+        "end": 14.14,
+        "word": " must",
+        "probability": 0.99944669008255
+      },
+      {
+        "start": 14.14,
+        "end": 14.44,
+        "word": " address",
+        "probability": 0.9989643096923828
+      },
+      {
+        "start": 14.44,
+        "end": 14.86,
+        "word": " potential",
+        "probability": 0.9984322190284729
+      },
+      {
+        "start": 14.86,
+        "end": 15.48,
+        "word": " contamination,",
+        "probability": 0.9983857870101929
+      },
+      {
+        "start": 16.24,
+        "end": 16.3,
+        "word": " mix",
+        "probability": 0.9944742321968079
+      },
+      {
+        "start": 16.3,
+        "end": 16.52,
+        "word": "-ups",
+        "probability": 0.8792941272258759
+      },
+      {
+        "start": 16.52,
+        "end": 16.76,
+        "word": " and",
+        "probability": 0.5692034363746643
+      },
+      {
+        "start": 16.76,
+        "end": 17.04,
+        "word": " errors",
+        "probability": 0.9990690350532532
+      },
+      {
+        "start": 17.04,
+        "end": 17.46,
+        "word": " throughout",
+        "probability": 0.9911331534385681
+      },
+      {
+        "start": 17.46,
+        "end": 17.68,
+        "word": " the",
+        "probability": 0.9993695616722107
+      },
+      {
+        "start": 17.68,
+        "end": 18.02,
+        "word": " process.",
+        "probability": 0.9996583461761475
+      }
+    ]
+  },
+  {
+    "start": 18.86,
+    "end": 22.04,
+    "text": " This introductory lesson explains common operating principles.",
+    "words": [
+      {
+        "start": 18.86,
+        "end": 18.94,
+        "word": " This",
+        "probability": 0.9972896575927734
+      },
+      {
+        "start": 18.94,
+        "end": 19.24,
+        "word": " introductory",
+        "probability": 0.9984110593795776
+      },
+      {
+        "start": 19.24,
+        "end": 19.98,
+        "word": " lesson",
+        "probability": 0.9988614320755005
+      },
+      {
+        "start": 19.98,
+        "end": 20.54,
+        "word": " explains",
+        "probability": 0.998455286026001
+      },
+      {
+        "start": 20.54,
+        "end": 21.1,
+        "word": " common",
+        "probability": 0.9881725907325745
+      },
+      {
+        "start": 21.1,
+        "end": 21.44,
+        "word": " operating",
+        "probability": 0.9942016005516052
+      },
+      {
+        "start": 21.44,
+        "end": 22.04,
+        "word": " principles.",
+        "probability": 0.9981122016906738
+      }
+    ]
+  },
+  {
+    "start": 23.32,
+    "end": 27.64,
+    "text": " Specific requirements depend on the product, dosage form, and manufacturing process.",
+    "words": [
+      {
+        "start": 23.32,
+        "end": 23.34,
+        "word": " Specific",
+        "probability": 0.9930227994918823
+      },
+      {
+        "start": 23.34,
+        "end": 23.84,
+        "word": " requirements",
+        "probability": 0.9979785084724426
+      },
+      {
+        "start": 23.84,
+        "end": 24.28,
+        "word": " depend",
+        "probability": 0.9977800250053406
+      },
+      {
+        "start": 24.28,
+        "end": 24.7,
+        "word": " on",
+        "probability": 0.9987912774085999
+      },
+      {
+        "start": 24.7,
+        "end": 24.8,
+        "word": " the",
+        "probability": 0.9987737536430359
+      },
+      {
+        "start": 24.8,
+        "end": 25.1,
+        "word": " product,",
+        "probability": 0.9980913996696472
+      },
+      {
+        "start": 25.66,
+        "end": 25.78,
+        "word": " dosage",
+        "probability": 0.9897340536117554
+      },
+      {
+        "start": 25.78,
+        "end": 26.28,
+        "word": " form,",
+        "probability": 0.9708055257797241
+      },
+      {
+        "start": 26.56,
+        "end": 26.6,
+        "word": " and",
+        "probability": 0.9994787573814392
+      },
+      {
+        "start": 26.6,
+        "end": 26.88,
+        "word": " manufacturing",
+        "probability": 0.9941602945327759
+      },
+      {
+        "start": 26.88,
+        "end": 27.64,
+        "word": " process.",
+        "probability": 0.9944273233413696
+      }
+    ]
+  },
+  {
+    "start": 28.64,
+    "end": 36.12,
+    "text": " Incoming starting materials and packaging components should be received, identified, and controlled according to approved procedures.",
+    "words": [
+      {
+        "start": 28.64,
+        "end": 29.08,
+        "word": " Incoming",
+        "probability": 0.5579212009906769
+      },
+      {
+        "start": 29.08,
+        "end": 29.44,
+        "word": " starting",
+        "probability": 0.8102251887321472
+      },
+      {
+        "start": 29.44,
+        "end": 30.04,
+        "word": " materials",
+        "probability": 0.9970797896385193
+      },
+      {
+        "start": 30.04,
+        "end": 30.3,
+        "word": " and",
+        "probability": 0.9831641316413879
+      },
+      {
+        "start": 30.3,
+        "end": 30.6,
+        "word": " packaging",
+        "probability": 0.9973458647727966
+      },
+      {
+        "start": 30.6,
+        "end": 31.26,
+        "word": " components",
+        "probability": 0.9980121850967407
+      },
+      {
+        "start": 31.26,
+        "end": 31.64,
+        "word": " should",
+        "probability": 0.99603670835495
+      },
+      {
+        "start": 31.64,
+        "end": 31.78,
+        "word": " be",
+        "probability": 0.9996345043182373
+      },
+      {
+        "start": 31.78,
+        "end": 32.14,
+        "word": " received,",
+        "probability": 0.9967989921569824
+      },
+      {
+        "start": 32.14,
+        "end": 33.1,
+        "word": " identified,",
+        "probability": 0.9987354874610901
+      },
+      {
+        "start": 33.84,
+        "end": 34.0,
+        "word": " and",
+        "probability": 0.9992102384567261
+      },
+      {
+        "start": 34.0,
+        "end": 34.4,
+        "word": " controlled",
+        "probability": 0.9972597360610962
+      },
+      {
+        "start": 34.4,
+        "end": 34.76,
+        "word": " according",
+        "probability": 0.9933524131774902
+      },
+      {
+        "start": 34.76,
+        "end": 35.18,
+        "word": " to",
+        "probability": 0.9993458390235901
+      },
+      {
+        "start": 35.18,
+        "end": 35.36,
+        "word": " approved",
+        "probability": 0.9960280656814575
+      },
+      {
+        "start": 35.36,
+        "end": 36.12,
+        "word": " procedures.",
+        "probability": 0.9993392825126648
+      }
+    ]
+  },
+  {
+    "start": 37.1,
+    "end": 40.9,
+    "text": " Appropriate quarantine and release arrangements help prevent unintended use.",
+    "words": [
+      {
+        "start": 37.1,
+        "end": 37.4,
+        "word": " Appropriate",
+        "probability": 0.9819314777851105
+      },
+      {
+        "start": 37.4,
+        "end": 37.56,
+        "word": " quarantine",
+        "probability": 0.9612287878990173
+      },
+      {
+        "start": 37.56,
+        "end": 38.16,
+        "word": " and",
+        "probability": 0.9979926347732544
+      },
+      {
+        "start": 38.16,
+        "end": 38.38,
+        "word": " release",
+        "probability": 0.9969801306724548
+      },
+      {
+        "start": 38.38,
+        "end": 38.94,
+        "word": " arrangements",
+        "probability": 0.999030590057373
+      },
+      {
+        "start": 38.94,
+        "end": 39.44,
+        "word": " help",
+        "probability": 0.9901798963546753
+      },
+      {
+        "start": 39.44,
+        "end": 39.84,
+        "word": " prevent",
+        "probability": 0.9966861605644226
+      },
+      {
+        "start": 39.84,
+        "end": 40.28,
+        "word": " unintended",
+        "probability": 0.9963172674179077
+      },
+      {
+        "start": 40.28,
+        "end": 40.9,
+        "word": " use.",
+        "probability": 0.9995328187942505
+      }
+    ]
+  },
+  {
+    "start": 41.6,
+    "end": 45.64,
+    "text": " Storage conditions and stock rotation should reflect material requirements.",
+    "words": [
+      {
+        "start": 41.6,
+        "end": 41.8,
+        "word": " Storage",
+        "probability": 0.992253839969635
+      },
+      {
+        "start": 41.8,
+        "end": 42.22,
+        "word": " conditions",
+        "probability": 0.9780768156051636
+      },
+      {
+        "start": 42.22,
+        "end": 42.82,
+        "word": " and",
+        "probability": 0.9926042556762695
+      },
+      {
+        "start": 42.82,
+        "end": 43.08,
+        "word": " stock",
+        "probability": 0.9869402050971985
+      },
+      {
+        "start": 43.08,
+        "end": 43.52,
+        "word": " rotation",
+        "probability": 0.9925063252449036
+      },
+      {
+        "start": 43.52,
+        "end": 44.16,
+        "word": " should",
+        "probability": 0.9977977275848389
+      },
+      {
+        "start": 44.16,
+        "end": 44.52,
+        "word": " reflect",
+        "probability": 0.9992755055427551
+      },
+      {
+        "start": 44.52,
+        "end": 44.96,
+        "word": " material",
+        "probability": 0.9954143762588501
+      },
+      {
+        "start": 44.96,
+        "end": 45.64,
+        "word": " requirements.",
+        "probability": 0.9992455244064331
+      }
+    ]
+  },
+  {
+    "start": 46.68,
+    "end": 51.82,
+    "text": " Before dispensing, personnel should verify material identity, status, and suitability.",
+    "words": [
+      {
+        "start": 46.68,
+        "end": 46.68,
+        "word": " Before",
+        "probability": 0.9991532564163208
+      },
+      {
+        "start": 46.68,
+        "end": 47.4,
+        "word": " dispensing,",
+        "probability": 0.9945326745510101
+      },
+      {
+        "start": 47.64,
+        "end": 47.9,
+        "word": " personnel",
+        "probability": 0.9991604089736938
+      },
+      {
+        "start": 47.9,
+        "end": 48.44,
+        "word": " should",
+        "probability": 0.9993670582771301
+      },
+      {
+        "start": 48.44,
+        "end": 48.64,
+        "word": " verify",
+        "probability": 0.9975787997245789
+      },
+      {
+        "start": 48.64,
+        "end": 49.32,
+        "word": " material",
+        "probability": 0.9948275685310364
+      },
+      {
+        "start": 49.32,
+        "end": 49.92,
+        "word": " identity,",
+        "probability": 0.9878569841384888
+      },
+      {
+        "start": 50.44,
+        "end": 50.84,
+        "word": " status,",
+        "probability": 0.9998306035995483
+      },
+      {
+        "start": 51.3,
+        "end": 51.34,
+        "word": " and",
+        "probability": 0.9980272650718689
+      },
+      {
+        "start": 51.34,
+        "end": 51.82,
+        "word": " suitability.",
+        "probability": 0.9973170757293701
+      }
+    ]
+  },
+  {
+    "start": 52.7,
+    "end": 56.62,
+    "text": " A label alone may not be sufficient when supporting records indicate a discrepancy.",
+    "words": [
+      {
+        "start": 52.7,
+        "end": 52.74,
+        "word": " A",
+        "probability": 0.9968157410621643
+      },
+      {
+        "start": 52.74,
+        "end": 53.0,
+        "word": " label",
+        "probability": 0.9968543648719788
+      },
+      {
+        "start": 53.0,
+        "end": 53.34,
+        "word": " alone",
+        "probability": 0.9959686994552612
+      },
+      {
+        "start": 53.34,
+        "end": 53.68,
+        "word": " may",
+        "probability": 0.99822598695755
+      },
+      {
+        "start": 53.68,
+        "end": 53.86,
+        "word": " not",
+        "probability": 0.9995160102844238
+      },
+      {
+        "start": 53.86,
+        "end": 54.0,
+        "word": " be",
+        "probability": 0.9995067119598389
+      },
+      {
+        "start": 54.0,
+        "end": 54.3,
+        "word": " sufficient",
+        "probability": 0.999146580696106
+      },
+      {
+        "start": 54.3,
+        "end": 54.74,
+        "word": " when",
+        "probability": 0.9985213875770569
+      },
+      {
+        "start": 54.74,
+        "end": 55.08,
+        "word": " supporting",
+        "probability": 0.9984563589096069
+      },
+      {
+        "start": 55.08,
+        "end": 55.52,
+        "word": " records",
+        "probability": 0.9996047616004944
+      },
+      {
+        "start": 55.52,
+        "end": 56.04,
+        "word": " indicate",
+        "probability": 0.9525856375694275
+      },
+      {
+        "start": 56.04,
+        "end": 56.26,
+        "word": " a",
+        "probability": 0.9944137334823608
+      },
+      {
+        "start": 56.26,
+        "end": 56.62,
+        "word": " discrepancy.",
+        "probability": 0.9879716038703918
+      }
+    ]
+  },
+  {
+    "start": 57.66,
+    "end": 62.68,
+    "text": " Dispensing involves selecting and measuring the correct approved materials for a defined batch.",
+    "words": [
+      {
+        "start": 57.66,
+        "end": 58.44,
+        "word": " Dispensing",
+        "probability": 0.6132851094007492
+      },
+      {
+        "start": 58.44,
+        "end": 58.82,
+        "word": " involves",
+        "probability": 0.992381751537323
+      },
+      {
+        "start": 58.82,
+        "end": 59.4,
+        "word": " selecting",
+        "probability": 0.9955201148986816
+      },
+      {
+        "start": 59.4,
+        "end": 59.8,
+        "word": " and",
+        "probability": 0.9975979924201965
+      },
+      {
+        "start": 59.8,
+        "end": 60.1,
+        "word": " measuring",
+        "probability": 0.9988686442375183
+      },
+      {
+        "start": 60.1,
+        "end": 60.34,
+        "word": " the",
+        "probability": 0.9974095225334167
+      },
+      {
+        "start": 60.34,
+        "end": 60.62,
+        "word": " correct",
+        "probability": 0.9967653751373291
+      },
+      {
+        "start": 60.62,
+        "end": 61.0,
+        "word": " approved",
+        "probability": 0.8678763508796692
+      },
+      {
+        "start": 61.0,
+        "end": 61.38,
+        "word": " materials",
+        "probability": 0.9975547194480896
+      },
+      {
+        "start": 61.38,
+        "end": 61.88,
+        "word": " for",
+        "probability": 0.9979305267333984
+      },
+      {
+        "start": 61.88,
+        "end": 62.0,
+        "word": " a",
+        "probability": 0.9986544847488403
+      },
+      {
+        "start": 62.0,
+        "end": 62.2,
+        "word": " defined",
+        "probability": 0.9957805871963501
+      },
+      {
+        "start": 62.2,
+        "end": 62.68,
+        "word": " batch.",
+        "probability": 0.9904118180274963
+      }
+    ]
+  },
+  {
+    "start": 63.46,
+    "end": 70.56,
+    "text": " Operators should follow authorized instructions, use suitable calibrated instruments, and document quantities and material identities.",
+    "words": [
+      {
+        "start": 63.46,
+        "end": 64.02,
+        "word": " Operators",
+        "probability": 0.9649132490158081
+      },
+      {
+        "start": 64.02,
+        "end": 64.2,
+        "word": " should",
+        "probability": 0.9994552731513977
+      },
+      {
+        "start": 64.2,
+        "end": 64.5,
+        "word": " follow",
+        "probability": 0.9991025924682617
+      },
+      {
+        "start": 64.5,
+        "end": 65.04,
+        "word": " authorized",
+        "probability": 0.9845051169395447
+      },
+      {
+        "start": 65.04,
+        "end": 65.72,
+        "word": " instructions,",
+        "probability": 0.9935078620910645
+      },
+      {
+        "start": 66.32,
+        "end": 66.42,
+        "word": " use",
+        "probability": 0.8047685027122498
+      },
+      {
+        "start": 66.42,
+        "end": 66.76,
+        "word": " suitable",
+        "probability": 0.9969135522842407
+      },
+      {
+        "start": 66.76,
+        "end": 67.2,
+        "word": " calibrated",
+        "probability": 0.975723922252655
+      },
+      {
+        "start": 67.2,
+        "end": 67.8,
+        "word": " instruments,",
+        "probability": 0.9987080097198486
+      },
+      {
+        "start": 68.54,
+        "end": 68.58,
+        "word": " and",
+        "probability": 0.9976509213447571
+      },
+      {
+        "start": 68.58,
+        "end": 68.88,
+        "word": " document",
+        "probability": 0.9991089701652527
+      },
+      {
+        "start": 68.88,
+        "end": 69.46,
+        "word": " quantities",
+        "probability": 0.9946744441986084
+      },
+      {
+        "start": 69.46,
+        "end": 69.76,
+        "word": " and",
+        "probability": 0.9932658672332764
+      },
+      {
+        "start": 69.76,
+        "end": 70.04,
+        "word": " material",
+        "probability": 0.9952667951583862
+      },
+      {
+        "start": 70.04,
+        "end": 70.56,
+        "word": " identities.",
+        "probability": 0.996537446975708
+      }
+    ]
+  },
+  {
+    "start": 71.7,
+    "end": 73.88,
+    "text": " Applicable independent checks must be performed.",
+    "words": [
+      {
+        "start": 71.7,
+        "end": 72.1,
+        "word": " Applicable",
+        "probability": 0.7978407144546509
+      },
+      {
+        "start": 72.1,
+        "end": 72.38,
+        "word": " independent",
+        "probability": 0.989093542098999
+      },
+      {
+        "start": 72.38,
+        "end": 72.96,
+        "word": " checks",
+        "probability": 0.9752848148345947
+      },
+      {
+        "start": 72.96,
+        "end": 73.32,
+        "word": " must",
+        "probability": 0.9995056390762329
+      },
+      {
+        "start": 73.32,
+        "end": 73.56,
+        "word": " be",
+        "probability": 0.9998021721839905
+      },
+      {
+        "start": 73.56,
+        "end": 73.88,
+        "word": " performed.",
+        "probability": 0.9975430965423584
+      }
+    ]
+  },
+  {
+    "start": 74.76,
+    "end": 82.86,
+    "text": " European Union GMP requires an independent check of each dispensed material and its weight or volume with the check recorded.",
+    "words": [
+      {
+        "start": 74.76,
+        "end": 75.06,
+        "word": " European",
+        "probability": 0.9914857745170593
+      },
+      {
+        "start": 75.06,
+        "end": 75.64,
+        "word": " Union",
+        "probability": 0.9889376163482666
+      },
+      {
+        "start": 75.64,
+        "end": 76.44,
+        "word": " GMP",
+        "probability": 0.9180181920528412
+      },
+      {
+        "start": 76.44,
+        "end": 76.98,
+        "word": " requires",
+        "probability": 0.9992293119430542
+      },
+      {
+        "start": 76.98,
+        "end": 77.32,
+        "word": " an",
+        "probability": 0.9971494078636169
+      },
+      {
+        "start": 77.32,
+        "end": 77.6,
+        "word": " independent",
+        "probability": 0.9983475208282471
+      },
+      {
+        "start": 77.6,
+        "end": 78.14,
+        "word": " check",
+        "probability": 0.997368574142456
+      },
+      {
+        "start": 78.14,
+        "end": 78.4,
+        "word": " of",
+        "probability": 0.9985186457633972
+      },
+      {
+        "start": 78.4,
+        "end": 78.64,
+        "word": " each",
+        "probability": 0.9995399713516235
+      },
+      {
+        "start": 78.64,
+        "end": 79.16,
+        "word": " dispensed",
+        "probability": 0.9728560149669647
+      },
+      {
+        "start": 79.16,
+        "end": 79.62,
+        "word": " material",
+        "probability": 0.9991050362586975
+      },
+      {
+        "start": 79.62,
+        "end": 80.28,
+        "word": " and",
+        "probability": 0.8685644268989563
+      },
+      {
+        "start": 80.28,
+        "end": 80.44,
+        "word": " its",
+        "probability": 0.9399219751358032
+      },
+      {
+        "start": 80.44,
+        "end": 80.72,
+        "word": " weight",
+        "probability": 0.9789469242095947
+      },
+      {
+        "start": 80.72,
+        "end": 81.04,
+        "word": " or",
+        "probability": 0.9654011130332947
+      },
+      {
+        "start": 81.04,
+        "end": 81.48,
+        "word": " volume",
+        "probability": 0.9993196725845337
+      },
+      {
+        "start": 81.48,
+        "end": 82.1,
+        "word": " with",
+        "probability": 0.659956157207489
+      },
+      {
+        "start": 82.1,
+        "end": 82.22,
+        "word": " the",
+        "probability": 0.7252814769744873
+      },
+      {
+        "start": 82.22,
+        "end": 82.38,
+        "word": " check",
+        "probability": 0.9745486974716187
+      },
+      {
+        "start": 82.38,
+        "end": 82.86,
+        "word": " recorded.",
+        "probability": 0.9988406300544739
+      }
+    ]
+  },
+  {
+    "start": 82.86,
+    "end": 91.0,
+    "text": " United States regulations specify second-person checks, with defined exceptions for qualifying automated equipment.",
+    "words": [
+      {
+        "start": 82.86,
+        "end": 83.76,
+        "word": " United",
+        "probability": 0.5677590370178223
+      },
+      {
+        "start": 83.76,
+        "end": 84.16,
+        "word": " States",
+        "probability": 0.9669284224510193
+      },
+      {
+        "start": 84.16,
+        "end": 84.62,
+        "word": " regulations",
+        "probability": 0.8971022963523865
+      },
+      {
+        "start": 84.62,
+        "end": 85.64,
+        "word": " specify",
+        "probability": 0.9257537126541138
+      },
+      {
+        "start": 85.64,
+        "end": 86.34,
+        "word": " second",
+        "probability": 0.9631251096725464
+      },
+      {
+        "start": 86.34,
+        "end": 86.84,
+        "word": "-person",
+        "probability": 0.7926236987113953
+      },
+      {
+        "start": 86.84,
+        "end": 87.14,
+        "word": " checks,",
+        "probability": 0.9797191619873047
+      },
+      {
+        "start": 87.64,
+        "end": 87.86,
+        "word": " with",
+        "probability": 0.9958370923995972
+      },
+      {
+        "start": 87.86,
+        "end": 88.26,
+        "word": " defined",
+        "probability": 0.9967556595802307
+      },
+      {
+        "start": 88.26,
+        "end": 88.82,
+        "word": " exceptions",
+        "probability": 0.9940630793571472
+      },
+      {
+        "start": 88.82,
+        "end": 89.36,
+        "word": " for",
+        "probability": 0.9975990653038025
+      },
+      {
+        "start": 89.36,
+        "end": 89.74,
+        "word": " qualifying",
+        "probability": 0.9905875325202942
+      },
+      {
+        "start": 89.74,
+        "end": 90.4,
+        "word": " automated",
+        "probability": 0.992267906665802
+      },
+      {
+        "start": 90.4,
+        "end": 91.0,
+        "word": " equipment.",
+        "probability": 0.9992665648460388
+      }
+    ]
+  },
+  {
+    "start": 91.92,
+    "end": 95.26,
+    "text": " A local risk assessment does not waive applicable requirements.",
+    "words": [
+      {
+        "start": 91.92,
+        "end": 91.98,
+        "word": " A",
+        "probability": 0.9924802780151367
+      },
+      {
+        "start": 91.98,
+        "end": 92.18,
+        "word": " local",
+        "probability": 0.966574490070343
+      },
+      {
+        "start": 92.18,
+        "end": 92.52,
+        "word": " risk",
+        "probability": 0.9397003054618835
+      },
+      {
+        "start": 92.52,
+        "end": 93.06,
+        "word": " assessment",
+        "probability": 0.9995416402816772
+      },
+      {
+        "start": 93.06,
+        "end": 93.5,
+        "word": " does",
+        "probability": 0.995964765548706
+      },
+      {
+        "start": 93.5,
+        "end": 93.72,
+        "word": " not",
+        "probability": 0.99964439868927
+      },
+      {
+        "start": 93.72,
+        "end": 94.04,
+        "word": " waive",
+        "probability": 0.9626880884170532
+      },
+      {
+        "start": 94.04,
+        "end": 94.4,
+        "word": " applicable",
+        "probability": 0.9964911341667175
+      },
+      {
+        "start": 94.4,
+        "end": 95.26,
+        "word": " requirements.",
+        "probability": 0.99912029504776
+      }
+    ]
+  },
+  {
+    "start": 95.94,
+    "end": 101.28,
+    "text": " Traceability connects each dispensed material to its source and the batch in which it is used.",
+    "words": [
+      {
+        "start": 95.94,
+        "end": 96.66,
+        "word": " Traceability",
+        "probability": 0.8129119277000427
+      },
+      {
+        "start": 96.66,
+        "end": 96.94,
+        "word": " connects",
+        "probability": 0.9978109002113342
+      },
+      {
+        "start": 96.94,
+        "end": 97.54,
+        "word": " each",
+        "probability": 0.9996627569198608
+      },
+      {
+        "start": 97.54,
+        "end": 98.1,
+        "word": " dispensed",
+        "probability": 0.9863350093364716
+      },
+      {
+        "start": 98.1,
+        "end": 98.58,
+        "word": " material",
+        "probability": 0.9989504814147949
+      },
+      {
+        "start": 98.58,
+        "end": 98.94,
+        "word": " to",
+        "probability": 0.9995198249816895
+      },
+      {
+        "start": 98.94,
+        "end": 99.08,
+        "word": " its",
+        "probability": 0.9897414445877075
+      },
+      {
+        "start": 99.08,
+        "end": 99.38,
+        "word": " source",
+        "probability": 0.9991463422775269
+      },
+      {
+        "start": 99.38,
+        "end": 100.0,
+        "word": " and",
+        "probability": 0.8321509957313538
+      },
+      {
+        "start": 100.0,
+        "end": 100.1,
+        "word": " the",
+        "probability": 0.9988681077957153
+      },
+      {
+        "start": 100.1,
+        "end": 100.34,
+        "word": " batch",
+        "probability": 0.9901800155639648
+      },
+      {
+        "start": 100.34,
+        "end": 100.62,
+        "word": " in",
+        "probability": 0.9975269436836243
+      },
+      {
+        "start": 100.62,
+        "end": 100.76,
+        "word": " which",
+        "probability": 0.9998188614845276
+      },
+      {
+        "start": 100.76,
+        "end": 100.92,
+        "word": " it",
+        "probability": 0.9989516735076904
+      },
+      {
+        "start": 100.92,
+        "end": 101.04,
+        "word": " is",
+        "probability": 0.9978945851325989
+      },
+      {
+        "start": 101.04,
+        "end": 101.28,
+        "word": " used.",
+        "probability": 0.9997093081474304
+      }
+    ]
+  },
+  {
+    "start": 102.34,
+    "end": 107.52,
+    "text": " Before manufacturing begins, line clearance and setup checks help ensure that previous materials,",
+    "words": [
+      {
+        "start": 102.34,
+        "end": 102.6,
+        "word": " Before",
+        "probability": 0.998748779296875
+      },
+      {
+        "start": 102.6,
+        "end": 102.9,
+        "word": " manufacturing",
+        "probability": 0.9947302341461182
+      },
+      {
+        "start": 102.9,
+        "end": 103.64,
+        "word": " begins,",
+        "probability": 0.9987119436264038
+      },
+      {
+        "start": 104.48,
+        "end": 104.48,
+        "word": " line",
+        "probability": 0.9742822051048279
+      },
+      {
+        "start": 104.48,
+        "end": 104.84,
+        "word": " clearance",
+        "probability": 0.9943764209747314
+      },
+      {
+        "start": 104.84,
+        "end": 105.22,
+        "word": " and",
+        "probability": 0.9942368268966675
+      },
+      {
+        "start": 105.22,
+        "end": 105.48,
+        "word": " setup",
+        "probability": 0.6816351413726807
+      },
+      {
+        "start": 105.48,
+        "end": 105.72,
+        "word": " checks",
+        "probability": 0.9966711401939392
+      },
+      {
+        "start": 105.72,
+        "end": 106.08,
+        "word": " help",
+        "probability": 0.996507465839386
+      },
+      {
+        "start": 106.08,
+        "end": 106.42,
+        "word": " ensure",
+        "probability": 0.9925520420074463
+      },
+      {
+        "start": 106.42,
+        "end": 106.72,
+        "word": " that",
+        "probability": 0.9985746145248413
+      },
+      {
+        "start": 106.72,
+        "end": 107.0,
+        "word": " previous",
+        "probability": 0.9974895715713501
+      },
+      {
+        "start": 107.0,
+        "end": 107.52,
+        "word": " materials,",
+        "probability": 0.9975977540016174
+      }
+    ]
+  },
+  {
+    "start": 107.52,
+    "end": 112.9,
+    "text": " labels, documents, and residues do not create mix-up or contamination risks.",
+    "words": [
+      {
+        "start": 107.52,
+        "end": 107.9,
+        "word": " labels,",
+        "probability": 0.016224035993218422
+      },
+      {
+        "start": 108.96,
+        "end": 109.4,
+        "word": " documents,",
+        "probability": 0.9977453351020813
+      },
+      {
+        "start": 109.76,
+        "end": 109.78,
+        "word": " and",
+        "probability": 0.9946550130844116
+      },
+      {
+        "start": 109.78,
+        "end": 110.04,
+        "word": " residues",
+        "probability": 0.9715975522994995
+      },
+      {
+        "start": 110.04,
+        "end": 110.64,
+        "word": " do",
+        "probability": 0.9405961632728577
+      },
+      {
+        "start": 110.64,
+        "end": 110.78,
+        "word": " not",
+        "probability": 0.9993345141410828
+      },
+      {
+        "start": 110.78,
+        "end": 111.06,
+        "word": " create",
+        "probability": 0.9965344667434692
+      },
+      {
+        "start": 111.06,
+        "end": 111.28,
+        "word": " mix",
+        "probability": 0.9326986074447632
+      },
+      {
+        "start": 111.28,
+        "end": 111.58,
+        "word": "-up",
+        "probability": 0.8524559438228607
+      },
+      {
+        "start": 111.58,
+        "end": 111.84,
+        "word": " or",
+        "probability": 0.9791296124458313
+      },
+      {
+        "start": 111.84,
+        "end": 112.18,
+        "word": " contamination",
+        "probability": 0.99308842420578
+      },
+      {
+        "start": 112.18,
+        "end": 112.9,
+        "word": " risks.",
+        "probability": 0.9790720343589783
+      }
+    ]
+  },
+  {
+    "start": 113.7,
+    "end": 118.2,
+    "text": " The equipment, area, and materials should be confirmed suitable for the planned operation.",
+    "words": [
+      {
+        "start": 113.7,
+        "end": 113.82,
+        "word": " The",
+        "probability": 0.9863910675048828
+      },
+      {
+        "start": 113.82,
+        "end": 114.14,
+        "word": " equipment,",
+        "probability": 0.9988143444061279
+      },
+      {
+        "start": 114.64,
+        "end": 115.02,
+        "word": " area,",
+        "probability": 0.9945218563079834
+      },
+      {
+        "start": 115.22,
+        "end": 115.3,
+        "word": " and",
+        "probability": 0.998611569404602
+      },
+      {
+        "start": 115.3,
+        "end": 115.56,
+        "word": " materials",
+        "probability": 0.9862765073776245
+      },
+      {
+        "start": 115.56,
+        "end": 116.0,
+        "word": " should",
+        "probability": 0.9879952073097229
+      },
+      {
+        "start": 116.0,
+        "end": 116.14,
+        "word": " be",
+        "probability": 0.9991676807403564
+      },
+      {
+        "start": 116.14,
+        "end": 116.38,
+        "word": " confirmed",
+        "probability": 0.9920015335083008
+      },
+      {
+        "start": 116.38,
+        "end": 116.86,
+        "word": " suitable",
+        "probability": 0.9900774955749512
+      },
+      {
+        "start": 116.86,
+        "end": 117.36,
+        "word": " for",
+        "probability": 0.9989540576934814
+      },
+      {
+        "start": 117.36,
+        "end": 117.46,
+        "word": " the",
+        "probability": 0.9987764954566956
+      },
+      {
+        "start": 117.46,
+        "end": 117.72,
+        "word": " planned",
+        "probability": 0.9944490194320679
+      },
+      {
+        "start": 117.72,
+        "end": 118.2,
+        "word": " operation.",
+        "probability": 0.9988551139831543
+      }
+    ]
+  },
+  {
+    "start": 119.14,
+    "end": 122.72,
+    "text": " Chex must follow approved procedures and be recorded as required.",
+    "words": [
+      {
+        "start": 119.14,
+        "end": 119.42,
+        "word": " Chex",
+        "probability": 0.6219450086355209
+      },
+      {
+        "start": 119.42,
+        "end": 119.62,
+        "word": " must",
+        "probability": 0.9633750915527344
+      },
+      {
+        "start": 119.62,
+        "end": 119.94,
+        "word": " follow",
+        "probability": 0.9983818531036377
+      },
+      {
+        "start": 119.94,
+        "end": 120.28,
+        "word": " approved",
+        "probability": 0.9967915415763855
+      },
+      {
+        "start": 120.28,
+        "end": 121.02,
+        "word": " procedures",
+        "probability": 0.9985686540603638
+      },
+      {
+        "start": 121.02,
+        "end": 121.6,
+        "word": " and",
+        "probability": 0.9172887802124023
+      },
+      {
+        "start": 121.6,
+        "end": 121.7,
+        "word": " be",
+        "probability": 0.9996377229690552
+      },
+      {
+        "start": 121.7,
+        "end": 122.06,
+        "word": " recorded",
+        "probability": 0.9992882609367371
+      },
+      {
+        "start": 122.06,
+        "end": 122.36,
+        "word": " as",
+        "probability": 0.9957025647163391
+      },
+      {
+        "start": 122.36,
+        "end": 122.72,
+        "word": " required.",
+        "probability": 0.9991639852523804
+      }
+    ]
+  },
+  {
+    "start": 123.74,
+    "end": 128.08,
+    "text": " The exact sequence and verification method depend on the facility and process.",
+    "words": [
+      {
+        "start": 123.74,
+        "end": 123.78,
+        "word": " The",
+        "probability": 0.9814902544021606
+      },
+      {
+        "start": 123.78,
+        "end": 124.04,
+        "word": " exact",
+        "probability": 0.9809553027153015
+      },
+      {
+        "start": 124.04,
+        "end": 124.48,
+        "word": " sequence",
+        "probability": 0.9820612668991089
+      },
+      {
+        "start": 124.48,
+        "end": 124.92,
+        "word": " and",
+        "probability": 0.9903286099433899
+      },
+      {
+        "start": 124.92,
+        "end": 125.2,
+        "word": " verification",
+        "probability": 0.9969989061355591
+      },
+      {
+        "start": 125.2,
+        "end": 125.98,
+        "word": " method",
+        "probability": 0.9975651502609253
+      },
+      {
+        "start": 125.98,
+        "end": 126.46,
+        "word": " depend",
+        "probability": 0.9829078316688538
+      },
+      {
+        "start": 126.46,
+        "end": 126.9,
+        "word": " on",
+        "probability": 0.9986177682876587
+      },
+      {
+        "start": 126.9,
+        "end": 127.0,
+        "word": " the",
+        "probability": 0.9990637898445129
+      },
+      {
+        "start": 127.0,
+        "end": 127.34,
+        "word": " facility",
+        "probability": 0.9961079955101013
+      },
+      {
+        "start": 127.34,
+        "end": 127.7,
+        "word": " and",
+        "probability": 0.9973147511482239
+      },
+      {
+        "start": 127.7,
+        "end": 128.08,
+        "word": " process.",
+        "probability": 0.9991353154182434
+      }
+    ]
+  },
+  {
+    "start": 129.02,
+    "end": 134.3,
+    "text": " In process controls provide information about the state of a manufacturing process while it is running.",
+    "words": [
+      {
+        "start": 129.02,
+        "end": 129.28,
+        "word": " In",
+        "probability": 0.9861199855804443
+      },
+      {
+        "start": 129.28,
+        "end": 129.54,
+        "word": " process",
+        "probability": 0.8652065992355347
+      },
+      {
+        "start": 129.54,
+        "end": 130.04,
+        "word": " controls",
+        "probability": 0.9928582906723022
+      },
+      {
+        "start": 130.04,
+        "end": 130.5,
+        "word": " provide",
+        "probability": 0.8050673007965088
+      },
+      {
+        "start": 130.5,
+        "end": 130.84,
+        "word": " information",
+        "probability": 0.9992300271987915
+      },
+      {
+        "start": 130.84,
+        "end": 131.54,
+        "word": " about",
+        "probability": 0.999067485332489
+      },
+      {
+        "start": 131.54,
+        "end": 131.7,
+        "word": " the",
+        "probability": 0.9991070628166199
+      },
+      {
+        "start": 131.7,
+        "end": 131.88,
+        "word": " state",
+        "probability": 0.9917750358581543
+      },
+      {
+        "start": 131.88,
+        "end": 132.06,
+        "word": " of",
+        "probability": 0.999051034450531
+      },
+      {
+        "start": 132.06,
+        "end": 132.14,
+        "word": " a",
+        "probability": 0.9795939922332764
+      },
+      {
+        "start": 132.14,
+        "end": 132.36,
+        "word": " manufacturing",
+        "probability": 0.9978559613227844
+      },
+      {
+        "start": 132.36,
+        "end": 133.2,
+        "word": " process",
+        "probability": 0.999233603477478
+      },
+      {
+        "start": 133.2,
+        "end": 133.8,
+        "word": " while",
+        "probability": 0.8825164437294006
+      },
+      {
+        "start": 133.8,
+        "end": 133.96,
+        "word": " it",
+        "probability": 0.9954096674919128
+      },
+      {
+        "start": 133.96,
+        "end": 134.02,
+        "word": " is",
+        "probability": 0.9973503351211548
+      },
+      {
+        "start": 134.02,
+        "end": 134.3,
+        "word": " running.",
+        "probability": 0.9996342658996582
+      }
+    ]
+  },
+  {
+    "start": 135.3,
+    "end": 142.62,
+    "text": " Examples may include weight, volume, temperature, pressure, pH, appearance, or other process-specific measurements.",
+    "words": [
+      {
+        "start": 135.0,
+        "end": 135.4,
+        "word": " Examples",
+        "probability": 0.6416820883750916
+      },
+      {
+        "start": 135.4,
+        "end": 135.92,
+        "word": " may",
+        "probability": 0.970176637172699
+      },
+      {
+        "start": 135.92,
+        "end": 136.2,
+        "word": " include",
+        "probability": 0.9991739392280579
+      },
+      {
+        "start": 136.2,
+        "end": 136.62,
+        "word": " weight,",
+        "probability": 0.9688119888305664
+      },
+      {
+        "start": 136.94,
+        "end": 137.46,
+        "word": " volume,",
+        "probability": 0.9989978671073914
+      },
+      {
+        "start": 137.86,
+        "end": 138.26,
+        "word": " temperature,",
+        "probability": 0.9975409507751465
+      },
+      {
+        "start": 138.82,
+        "end": 139.08,
+        "word": " pressure,",
+        "probability": 0.9975677132606506
+      },
+      {
+        "start": 139.56,
+        "end": 139.7,
+        "word": " pH,",
+        "probability": 0.891647219657898
+      },
+      {
+        "start": 139.7,
+        "end": 140.76,
+        "word": " appearance,",
+        "probability": 0.9972555041313171
+      },
+      {
+        "start": 140.98,
+        "end": 141.06,
+        "word": " or",
+        "probability": 0.9956321120262146
+      },
+      {
+        "start": 141.06,
+        "end": 141.34,
+        "word": " other",
+        "probability": 0.998840868473053
+      },
+      {
+        "start": 141.34,
+        "end": 141.66,
+        "word": " process",
+        "probability": 0.9807584881782532
+      },
+      {
+        "start": 141.66,
+        "end": 142.06,
+        "word": "-specific",
+        "probability": 0.8589867055416107
+      },
+      {
+        "start": 142.06,
+        "end": 142.62,
+        "word": " measurements.",
+        "probability": 0.9989675283432007
+      }
+    ]
+  },
+  {
+    "start": 143.46,
+    "end": 150.46,
+    "text": " Monitoring frequency, limits, and response actions must come from the approved process and supporting scientific justification.",
+    "words": [
+      {
+        "start": 143.46,
+        "end": 143.76,
+        "word": " Monitoring",
+        "probability": 0.9837411642074585
+      },
+      {
+        "start": 143.76,
+        "end": 144.52,
+        "word": " frequency,",
+        "probability": 0.9823368787765503
+      },
+      {
+        "start": 144.8,
+        "end": 145.18,
+        "word": " limits,",
+        "probability": 0.9994907379150391
+      },
+      {
+        "start": 145.32,
+        "end": 145.46,
+        "word": " and",
+        "probability": 0.9986492991447449
+      },
+      {
+        "start": 145.46,
+        "end": 145.74,
+        "word": " response",
+        "probability": 0.9989306330680847
+      },
+      {
+        "start": 145.74,
+        "end": 146.32,
+        "word": " actions",
+        "probability": 0.9930934906005859
+      },
+      {
+        "start": 146.32,
+        "end": 146.68,
+        "word": " must",
+        "probability": 0.9949048757553101
+      },
+      {
+        "start": 146.68,
+        "end": 146.96,
+        "word": " come",
+        "probability": 0.9992939233779907
+      },
+      {
+        "start": 146.96,
+        "end": 147.16,
+        "word": " from",
+        "probability": 0.9987131357192993
+      },
+      {
+        "start": 147.16,
+        "end": 147.3,
+        "word": " the",
+        "probability": 0.9992294311523438
+      },
+      {
+        "start": 147.3,
+        "end": 147.54,
+        "word": " approved",
+        "probability": 0.9972530007362366
+      },
+      {
+        "start": 147.54,
+        "end": 148.12,
+        "word": " process",
+        "probability": 0.9992507100105286
+      },
+      {
+        "start": 148.12,
+        "end": 148.76,
+        "word": " and",
+        "probability": 0.8460930585861206
+      },
+      {
+        "start": 148.76,
+        "end": 149.06,
+        "word": " supporting",
+        "probability": 0.9984112977981567
+      },
+      {
+        "start": 149.06,
+        "end": 149.6,
+        "word": " scientific",
+        "probability": 0.9975358247756958
+      },
+      {
+        "start": 149.6,
+        "end": 150.46,
+        "word": " justification.",
+        "probability": 0.9918040037155151
+      }
+    ]
+  },
+  {
+    "start": 151.42,
+    "end": 156.94,
+    "text": " There is no single universal acceptance criterion that applies to every pharmaceutical process.",
+    "words": [
+      {
+        "start": 151.42,
+        "end": 151.54,
+        "word": " There",
+        "probability": 0.9885093569755554
+      },
+      {
+        "start": 151.54,
+        "end": 151.68,
+        "word": " is",
+        "probability": 0.9962688684463501
+      },
+      {
+        "start": 151.68,
+        "end": 151.9,
+        "word": " no",
+        "probability": 0.9987616539001465
+      },
+      {
+        "start": 151.9,
+        "end": 152.3,
+        "word": " single",
+        "probability": 0.9930070638656616
+      },
+      {
+        "start": 152.3,
+        "end": 152.84,
+        "word": " universal",
+        "probability": 0.7973973155021667
+      },
+      {
+        "start": 152.84,
+        "end": 153.56,
+        "word": " acceptance",
+        "probability": 0.9905852675437927
+      },
+      {
+        "start": 153.56,
+        "end": 154.1,
+        "word": " criterion",
+        "probability": 0.9889125823974609
+      },
+      {
+        "start": 154.1,
+        "end": 154.86,
+        "word": " that",
+        "probability": 0.9987633228302002
+      },
+      {
+        "start": 154.86,
+        "end": 155.14,
+        "word": " applies",
+        "probability": 0.9994675517082214
+      },
+      {
+        "start": 155.14,
+        "end": 155.46,
+        "word": " to",
+        "probability": 0.9994614720344543
+      },
+      {
+        "start": 155.46,
+        "end": 155.76,
+        "word": " every",
+        "probability": 0.9983579516410828
+      },
+      {
+        "start": 155.76,
+        "end": 156.2,
+        "word": " pharmaceutical",
+        "probability": 0.9892242550849915
+      },
+      {
+        "start": 156.2,
+        "end": 156.94,
+        "word": " process.",
+        "probability": 0.9992056488990784
+      }
+    ]
+  },
+  {
+    "start": 157.9,
+    "end": 162.6,
+    "text": " Batch manufacturing records provide traceable evidence of the actual operations performed.",
+    "words": [
+      {
+        "start": 157.9,
+        "end": 158.28,
+        "word": " Batch",
+        "probability": 0.9447440207004547
+      },
+      {
+        "start": 158.28,
+        "end": 158.54,
+        "word": " manufacturing",
+        "probability": 0.909041702747345
+      },
+      {
+        "start": 158.54,
+        "end": 159.38,
+        "word": " records",
+        "probability": 0.99953293800354
+      },
+      {
+        "start": 159.38,
+        "end": 159.8,
+        "word": " provide",
+        "probability": 0.9963322281837463
+      },
+      {
+        "start": 159.8,
+        "end": 160.4,
+        "word": " traceable",
+        "probability": 0.99763023853302
+      },
+      {
+        "start": 160.4,
+        "end": 160.68,
+        "word": " evidence",
+        "probability": 0.9992703795433044
+      },
+      {
+        "start": 160.68,
+        "end": 161.1,
+        "word": " of",
+        "probability": 0.9991393089294434
+      },
+      {
+        "start": 161.1,
+        "end": 161.22,
+        "word": " the",
+        "probability": 0.9994484782218933
+      },
+      {
+        "start": 161.22,
+        "end": 161.56,
+        "word": " actual",
+        "probability": 0.9989751577377319
+      },
+      {
+        "start": 161.56,
+        "end": 162.04,
+        "word": " operations",
+        "probability": 0.9726293087005615
+      },
+      {
+        "start": 162.04,
+        "end": 162.6,
+        "word": " performed.",
+        "probability": 0.9960892200469971
+      }
+    ]
+  },
+  {
+    "start": 163.6,
+    "end": 172.54,
+    "text": " Entries should identify relevant materials, equipment, operators, times, process observations, and checks as required by the approved record.",
+    "words": [
+      {
+        "start": 163.54,
+        "end": 163.94,
+        "word": " Entries",
+        "probability": 0.5774095356464386
+      },
+      {
+        "start": 163.94,
+        "end": 164.14,
+        "word": " should",
+        "probability": 0.9937858581542969
+      },
+      {
+        "start": 164.14,
+        "end": 164.38,
+        "word": " identify",
+        "probability": 0.9971221089363098
+      },
+      {
+        "start": 164.38,
+        "end": 165.02,
+        "word": " relevant",
+        "probability": 0.9919596314430237
+      },
+      {
+        "start": 165.02,
+        "end": 165.42,
+        "word": " materials,",
+        "probability": 0.9946557283401489
+      },
+      {
+        "start": 166.02,
+        "end": 166.38,
+        "word": " equipment,",
+        "probability": 0.9974305033683777
+      },
+      {
+        "start": 166.88,
+        "end": 167.36,
+        "word": " operators,",
+        "probability": 0.9960845708847046
+      },
+      {
+        "start": 167.98,
+        "end": 168.24,
+        "word": " times,",
+        "probability": 0.9866945743560791
+      },
+      {
+        "start": 168.86,
+        "end": 169.18,
+        "word": " process",
+        "probability": 0.9946603178977966
+      },
+      {
+        "start": 169.18,
+        "end": 169.52,
+        "word": " observations,",
+        "probability": 0.9621012806892395
+      },
+      {
+        "start": 170.24,
+        "end": 170.3,
+        "word": " and",
+        "probability": 0.998688280582428
+      },
+      {
+        "start": 170.3,
+        "end": 170.54,
+        "word": " checks",
+        "probability": 0.985509991645813
+      },
+      {
+        "start": 170.54,
+        "end": 171.02,
+        "word": " as",
+        "probability": 0.9134425520896912
+      },
+      {
+        "start": 171.02,
+        "end": 171.34,
+        "word": " required",
+        "probability": 0.9987152814865112
+      },
+      {
+        "start": 171.34,
+        "end": 171.76,
+        "word": " by",
+        "probability": 0.9991573095321655
+      },
+      {
+        "start": 171.76,
+        "end": 171.88,
+        "word": " the",
+        "probability": 0.9990204572677612
+      },
+      {
+        "start": 171.88,
+        "end": 172.12,
+        "word": " approved",
+        "probability": 0.9887526631355286
+      },
+      {
+        "start": 172.12,
+        "end": 172.54,
+        "word": " record.",
+        "probability": 0.997334361076355
+      }
+    ]
+  },
+  {
+    "start": 173.36,
+    "end": 178.34,
+    "text": " Reconciliation can help detect unexplained differences in quantities or printed materials.",
+    "words": [
+      {
+        "start": 173.36,
+        "end": 174.04,
+        "word": " Reconciliation",
+        "probability": 0.9830458561579386
+      },
+      {
+        "start": 174.04,
+        "end": 174.48,
+        "word": " can",
+        "probability": 0.9989469647407532
+      },
+      {
+        "start": 174.48,
+        "end": 174.68,
+        "word": " help",
+        "probability": 0.9994605183601379
+      },
+      {
+        "start": 174.68,
+        "end": 174.96,
+        "word": " detect",
+        "probability": 0.9977558255195618
+      },
+      {
+        "start": 174.96,
+        "end": 175.44,
+        "word": " unexplained",
+        "probability": 0.9969213008880615
+      },
+      {
+        "start": 175.44,
+        "end": 176.2,
+        "word": " differences",
+        "probability": 0.9992265701293945
+      },
+      {
+        "start": 176.2,
+        "end": 176.56,
+        "word": " in",
+        "probability": 0.9977754950523376
+      },
+      {
+        "start": 176.56,
+        "end": 176.94,
+        "word": " quantities",
+        "probability": 0.9641534090042114
+      },
+      {
+        "start": 176.94,
+        "end": 177.52,
+        "word": " or",
+        "probability": 0.9786835312843323
+      },
+      {
+        "start": 177.52,
+        "end": 177.76,
+        "word": " printed",
+        "probability": 0.9985231757164001
+      },
+      {
+        "start": 177.76,
+        "end": 178.34,
+        "word": " materials.",
+        "probability": 0.9970840811729431
+      }
+    ]
+  },
+  {
+    "start": 179.12,
+    "end": 186.16,
+    "text": " Documentation must reflect what occurred, including deviations, and must not be completed retrospectively from guesswork.",
+    "words": [
+      {
+        "start": 179.12,
+        "end": 179.5,
+        "word": " Documentation",
+        "probability": 0.9700418710708618
+      },
+      {
+        "start": 179.5,
+        "end": 180.22,
+        "word": " must",
+        "probability": 0.9995712637901306
+      },
+      {
+        "start": 180.22,
+        "end": 180.62,
+        "word": " reflect",
+        "probability": 0.9995954632759094
+      },
+      {
+        "start": 180.62,
+        "end": 180.84,
+        "word": " what",
+        "probability": 0.9996672868728638
+      },
+      {
+        "start": 180.84,
+        "end": 181.14,
+        "word": " occurred,",
+        "probability": 0.9972571730613708
+      },
+      {
+        "start": 181.76,
+        "end": 182.02,
+        "word": " including",
+        "probability": 0.9990549683570862
+      },
+      {
+        "start": 182.02,
+        "end": 182.52,
+        "word": " deviations,",
+        "probability": 0.9755515456199646
+      },
+      {
+        "start": 183.34,
+        "end": 183.52,
+        "word": " and",
+        "probability": 0.9990594983100891
+      },
+      {
+        "start": 183.52,
+        "end": 183.68,
+        "word": " must",
+        "probability": 0.9980431795120239
+      },
+      {
+        "start": 183.68,
+        "end": 183.92,
+        "word": " not",
+        "probability": 0.9993109703063965
+      },
+      {
+        "start": 183.92,
+        "end": 184.08,
+        "word": " be",
+        "probability": 0.9995282888412476
+      },
+      {
+        "start": 184.08,
+        "end": 184.48,
+        "word": " completed",
+        "probability": 0.9983687996864319
+      },
+      {
+        "start": 184.48,
+        "end": 185.4,
+        "word": " retrospectively",
+        "probability": 0.9416603147983551
+      },
+      {
+        "start": 185.4,
+        "end": 185.72,
+        "word": " from",
+        "probability": 0.9937670230865479
+      },
+      {
+        "start": 185.72,
+        "end": 186.16,
+        "word": " guesswork.",
+        "probability": 0.9734806716442108
+      }
+    ]
+  },
+  {
+    "start": 187.16,
+    "end": 193.4,
+    "text": " Unexpected process results, equipment alarms or procedural departures should be handled under the site quality system.",
+    "words": [
+      {
+        "start": 187.16,
+        "end": 187.58,
+        "word": " Unexpected",
+        "probability": 0.6951537877321243
+      },
+      {
+        "start": 187.58,
+        "end": 187.98,
+        "word": " process",
+        "probability": 0.586567759513855
+      },
+      {
+        "start": 187.98,
+        "end": 188.48,
+        "word": " results,",
+        "probability": 0.9922685027122498
+      },
+      {
+        "start": 188.92,
+        "end": 189.28,
+        "word": " equipment",
+        "probability": 0.9673905372619629
+      },
+      {
+        "start": 189.28,
+        "end": 189.6,
+        "word": " alarms",
+        "probability": 0.9882859587669373
+      },
+      {
+        "start": 189.6,
+        "end": 190.1,
+        "word": " or",
+        "probability": 0.9145557284355164
+      },
+      {
+        "start": 190.1,
+        "end": 190.48,
+        "word": " procedural",
+        "probability": 0.9976951479911804
+      },
+      {
+        "start": 190.48,
+        "end": 191.02,
+        "word": " departures",
+        "probability": 0.9938452839851379
+      },
+      {
+        "start": 191.02,
+        "end": 191.58,
+        "word": " should",
+        "probability": 0.9837414026260376
+      },
+      {
+        "start": 191.58,
+        "end": 191.68,
+        "word": " be",
+        "probability": 0.9991732239723206
+      },
+      {
+        "start": 191.68,
+        "end": 191.96,
+        "word": " handled",
+        "probability": 0.9993639588356018
+      },
+      {
+        "start": 191.96,
+        "end": 192.26,
+        "word": " under",
+        "probability": 0.9986909031867981
+      },
+      {
+        "start": 192.26,
+        "end": 192.36,
+        "word": " the",
+        "probability": 0.9934223294258118
+      },
+      {
+        "start": 192.36,
+        "end": 192.58,
+        "word": " site",
+        "probability": 0.7782421112060547
+      },
+      {
+        "start": 192.58,
+        "end": 192.82,
+        "word": " quality",
+        "probability": 0.9642910361289978
+      },
+      {
+        "start": 192.82,
+        "end": 193.4,
+        "word": " system.",
+        "probability": 0.9990267753601074
+      }
+    ]
+  },
+  {
+    "start": 194.02,
+    "end": 199.46,
+    "text": " Operators should secure the process as appropriate, report the event, and preserve relevant data.",
+    "words": [
+      {
+        "start": 194.02,
+        "end": 194.68,
+        "word": " Operators",
+        "probability": 0.9272255599498749
+      },
+      {
+        "start": 194.68,
+        "end": 194.86,
+        "word": " should",
+        "probability": 0.9990971088409424
+      },
+      {
+        "start": 194.86,
+        "end": 195.16,
+        "word": " secure",
+        "probability": 0.9978245496749878
+      },
+      {
+        "start": 195.16,
+        "end": 195.38,
+        "word": " the",
+        "probability": 0.9978710412979126
+      },
+      {
+        "start": 195.38,
+        "end": 195.78,
+        "word": " process",
+        "probability": 0.9990918636322021
+      },
+      {
+        "start": 195.78,
+        "end": 196.06,
+        "word": " as",
+        "probability": 0.9954279661178589
+      },
+      {
+        "start": 196.06,
+        "end": 196.42,
+        "word": " appropriate,",
+        "probability": 0.9988431930541992
+      },
+      {
+        "start": 197.08,
+        "end": 197.32,
+        "word": " report",
+        "probability": 0.9982341527938843
+      },
+      {
+        "start": 197.32,
+        "end": 197.56,
+        "word": " the",
+        "probability": 0.9991036057472229
+      },
+      {
+        "start": 197.56,
+        "end": 197.74,
+        "word": " event,",
+        "probability": 0.9959105253219604
+      },
+      {
+        "start": 198.26,
+        "end": 198.3,
+        "word": " and",
+        "probability": 0.9992042183876038
+      },
+      {
+        "start": 198.3,
+        "end": 198.6,
+        "word": " preserve",
+        "probability": 0.9953987002372742
+      },
+      {
+        "start": 198.6,
+        "end": 198.98,
+        "word": " relevant",
+        "probability": 0.9984837174415588
+      },
+      {
+        "start": 198.98,
+        "end": 199.46,
+        "word": " data.",
+        "probability": 0.9997208714485168
+      }
+    ]
+  },
+  {
+    "start": 200.32,
+    "end": 206.8,
+    "text": " Authorized personnel assess product impact and determine investigation, disposition, and corrective actions.",
+    "words": [
+      {
+        "start": 200.32,
+        "end": 200.94,
+        "word": " Authorized",
+        "probability": 0.9356904327869415
+      },
+      {
+        "start": 200.94,
+        "end": 201.26,
+        "word": " personnel",
+        "probability": 0.9597488641738892
+      },
+      {
+        "start": 201.26,
+        "end": 201.74,
+        "word": " assess",
+        "probability": 0.9903668165206909
+      },
+      {
+        "start": 201.74,
+        "end": 202.14,
+        "word": " product",
+        "probability": 0.9943521022796631
+      },
+      {
+        "start": 202.14,
+        "end": 202.62,
+        "word": " impact",
+        "probability": 0.9964849948883057
+      },
+      {
+        "start": 202.62,
+        "end": 203.3,
+        "word": " and",
+        "probability": 0.9224860072135925
+      },
+      {
+        "start": 203.3,
+        "end": 203.56,
+        "word": " determine",
+        "probability": 0.997736930847168
+      },
+      {
+        "start": 203.56,
+        "end": 204.48,
+        "word": " investigation,",
+        "probability": 0.9976069927215576
+      },
+      {
+        "start": 205.16,
+        "end": 205.36,
+        "word": " disposition,",
+        "probability": 0.9950979351997375
+      },
+      {
+        "start": 206.04,
+        "end": 206.08,
+        "word": " and",
+        "probability": 0.998788058757782
+      },
+      {
+        "start": 206.08,
+        "end": 206.36,
+        "word": " corrective",
+        "probability": 0.9980704188346863
+      },
+      {
+        "start": 206.36,
+        "end": 206.8,
+        "word": " actions.",
+        "probability": 0.9952571988105774
+      }
+    ]
+  },
+  {
+    "start": 207.76,
+    "end": 214.88,
+    "text": " A result that later returns to normal does not automatically eliminate the need to document and evaluate the original event.",
+    "words": [
+      {
+        "start": 207.76,
+        "end": 207.86,
+        "word": " A",
+        "probability": 0.9951879978179932
+      },
+      {
+        "start": 207.86,
+        "end": 208.14,
+        "word": " result",
+        "probability": 0.9988057613372803
+      },
+      {
+        "start": 208.14,
+        "end": 208.42,
+        "word": " that",
+        "probability": 0.9978360533714294
+      },
+      {
+        "start": 208.42,
+        "end": 208.66,
+        "word": " later",
+        "probability": 0.9974824786186218
+      },
+      {
+        "start": 208.66,
+        "end": 209.04,
+        "word": " returns",
+        "probability": 0.998389720916748
+      },
+      {
+        "start": 209.04,
+        "end": 209.36,
+        "word": " to",
+        "probability": 0.9984971284866333
+      },
+      {
+        "start": 209.36,
+        "end": 209.62,
+        "word": " normal",
+        "probability": 0.985688328742981
+      },
+      {
+        "start": 209.62,
+        "end": 210.22,
+        "word": " does",
+        "probability": 0.9532032608985901
+      },
+      {
+        "start": 210.22,
+        "end": 210.5,
+        "word": " not",
+        "probability": 0.9995338916778564
+      },
+      {
+        "start": 210.5,
+        "end": 211.18,
+        "word": " automatically",
+        "probability": 0.9974462985992432
+      },
+      {
+        "start": 211.18,
+        "end": 211.58,
+        "word": " eliminate",
+        "probability": 0.9970491528511047
+      },
+      {
+        "start": 211.58,
+        "end": 212.06,
+        "word": " the",
+        "probability": 0.9990586638450623
+      },
+      {
+        "start": 212.06,
+        "end": 212.24,
+        "word": " need",
+        "probability": 0.9991508722305298
+      },
+      {
+        "start": 212.24,
+        "end": 212.44,
+        "word": " to",
+        "probability": 0.998569130897522
+      },
+      {
+        "start": 212.44,
+        "end": 212.78,
+        "word": " document",
+        "probability": 0.9987640380859375
+      },
+      {
+        "start": 212.78,
+        "end": 213.42,
+        "word": " and",
+        "probability": 0.9864913821220398
+      },
+      {
+        "start": 213.42,
+        "end": 213.68,
+        "word": " evaluate",
+        "probability": 0.9990822076797485
+      },
+      {
+        "start": 213.68,
+        "end": 214.1,
+        "word": " the",
+        "probability": 0.9995449185371399
+      },
+      {
+        "start": 214.1,
+        "end": 214.24,
+        "word": " original",
+        "probability": 0.9991186261177063
+      },
+      {
+        "start": 214.24,
+        "end": 214.88,
+        "word": " event.",
+        "probability": 0.9984708428382874
+      }
+    ]
+  },
+  {
+    "start": 215.88,
+    "end": 222.82,
+    "text": " Imagine an operator preparing to start a batch who discovers that a container of starting material has a released label,",
+    "words": [
+      {
+        "start": 215.88,
+        "end": 216.32,
+        "word": " Imagine",
+        "probability": 0.8588399291038513
+      },
+      {
+        "start": 216.32,
+        "end": 216.54,
+        "word": " an",
+        "probability": 0.987934947013855
+      },
+      {
+        "start": 216.54,
+        "end": 216.94,
+        "word": " operator",
+        "probability": 0.9849597811698914
+      },
+      {
+        "start": 216.94,
+        "end": 217.5,
+        "word": " preparing",
+        "probability": 0.9895469546318054
+      },
+      {
+        "start": 217.5,
+        "end": 217.82,
+        "word": " to",
+        "probability": 0.9990956783294678
+      },
+      {
+        "start": 217.82,
+        "end": 218.02,
+        "word": " start",
+        "probability": 0.9985278844833374
+      },
+      {
+        "start": 218.02,
+        "end": 218.14,
+        "word": " a",
+        "probability": 0.9977108240127563
+      },
+      {
+        "start": 218.14,
+        "end": 218.36,
+        "word": " batch",
+        "probability": 0.9736167788505554
+      },
+      {
+        "start": 218.36,
+        "end": 218.98,
+        "word": " who",
+        "probability": 0.8159405589103699
+      },
+      {
+        "start": 218.98,
+        "end": 219.26,
+        "word": " discovers",
+        "probability": 0.9988147020339966
+      },
+      {
+        "start": 219.26,
+        "end": 219.76,
+        "word": " that",
+        "probability": 0.9971233010292053
+      },
+      {
+        "start": 219.76,
+        "end": 219.82,
+        "word": " a",
+        "probability": 0.9967908263206482
+      },
+      {
+        "start": 219.82,
+        "end": 220.2,
+        "word": " container",
+        "probability": 0.9937558174133301
+      },
+      {
+        "start": 220.2,
+        "end": 220.46,
+        "word": " of",
+        "probability": 0.9986637830734253
+      },
+      {
+        "start": 220.46,
+        "end": 220.74,
+        "word": " starting",
+        "probability": 0.9964303374290466
+      },
+      {
+        "start": 220.74,
+        "end": 221.12,
+        "word": " material",
+        "probability": 0.9890594482421875
+      },
+      {
+        "start": 221.12,
+        "end": 221.94,
+        "word": " has",
+        "probability": 0.9946057200431824
+      },
+      {
+        "start": 221.94,
+        "end": 222.06,
+        "word": " a",
+        "probability": 0.9987664222717285
+      },
+      {
+        "start": 222.06,
+        "end": 222.34,
+        "word": " released",
+        "probability": 0.8418609499931335
+      },
+      {
+        "start": 222.34,
+        "end": 222.82,
+        "word": " label,",
+        "probability": 0.9989463686943054
+      }
+    ]
+  },
+  {
+    "start": 223.26,
+    "end": 227.44,
+    "text": " but the electronic inventory record still shows quarantine status.",
+    "words": [
+      {
+        "start": 223.26,
+        "end": 223.52,
+        "word": " but",
+        "probability": 0.9970853924751282
+      },
+      {
+        "start": 223.52,
+        "end": 223.64,
+        "word": " the",
+        "probability": 0.9981168508529663
+      },
+      {
+        "start": 223.64,
+        "end": 224.06,
+        "word": " electronic",
+        "probability": 0.9334306716918945
+      },
+      {
+        "start": 224.06,
+        "end": 224.46,
+        "word": " inventory",
+        "probability": 0.9935315251350403
+      },
+      {
+        "start": 224.46,
+        "end": 225.3,
+        "word": " record",
+        "probability": 0.9983457326889038
+      },
+      {
+        "start": 225.3,
+        "end": 225.9,
+        "word": " still",
+        "probability": 0.9970418810844421
+      },
+      {
+        "start": 225.9,
+        "end": 226.34,
+        "word": " shows",
+        "probability": 0.9974658489227295
+      },
+      {
+        "start": 226.34,
+        "end": 226.72,
+        "word": " quarantine",
+        "probability": 0.6683700680732727
+      },
+      {
+        "start": 226.72,
+        "end": 227.44,
+        "word": " status.",
+        "probability": 0.9985333681106567
+      }
+    ]
+  },
+  {
+    "start": 228.32,
+    "end": 231.32,
+    "text": " The operator should not choose whichever status seems convenient.",
+    "words": [
+      {
+        "start": 228.32,
+        "end": 228.44,
+        "word": " The",
+        "probability": 0.9969868063926697
+      },
+      {
+        "start": 228.44,
+        "end": 228.74,
+        "word": " operator",
+        "probability": 0.9955774545669556
+      },
+      {
+        "start": 228.74,
+        "end": 229.04,
+        "word": " should",
+        "probability": 0.9990494847297668
+      },
+      {
+        "start": 229.04,
+        "end": 229.22,
+        "word": " not",
+        "probability": 0.9988987445831299
+      },
+      {
+        "start": 229.22,
+        "end": 229.5,
+        "word": " choose",
+        "probability": 0.997806966304779
+      },
+      {
+        "start": 229.5,
+        "end": 229.8,
+        "word": " whichever",
+        "probability": 0.9844746589660645
+      },
+      {
+        "start": 229.8,
+        "end": 230.44,
+        "word": " status",
+        "probability": 0.9990882873535156
+      },
+      {
+        "start": 230.44,
+        "end": 230.8,
+        "word": " seems",
+        "probability": 0.9977540373802185
+      },
+      {
+        "start": 230.8,
+        "end": 231.32,
+        "word": " convenient.",
+        "probability": 0.9970558881759644
+      }
+    ]
+  },
+  {
+    "start": 232.02,
+    "end": 238.64,
+    "text": " The material should be held from use while authorized personnel reconcile the discrepancy under approved procedures.",
+    "words": [
+      {
+        "start": 232.02,
+        "end": 232.1,
+        "word": " The",
+        "probability": 0.9970689415931702
+      },
+      {
+        "start": 232.1,
+        "end": 232.42,
+        "word": " material",
+        "probability": 0.995884358882904
+      },
+      {
+        "start": 232.42,
+        "end": 232.78,
+        "word": " should",
+        "probability": 0.999492883682251
+      },
+      {
+        "start": 232.78,
+        "end": 232.92,
+        "word": " be",
+        "probability": 0.9994470477104187
+      },
+      {
+        "start": 232.92,
+        "end": 233.1,
+        "word": " held",
+        "probability": 0.9984490871429443
+      },
+      {
+        "start": 233.1,
+        "end": 233.34,
+        "word": " from",
+        "probability": 0.9981350898742676
+      },
+      {
+        "start": 233.34,
+        "end": 233.56,
+        "word": " use",
+        "probability": 0.9736766815185547
+      },
+      {
+        "start": 233.56,
+        "end": 234.18,
+        "word": " while",
+        "probability": 0.7519663572311401
+      },
+      {
+        "start": 234.18,
+        "end": 234.68,
+        "word": " authorized",
+        "probability": 0.990752100944519
+      },
+      {
+        "start": 234.68,
+        "end": 235.42,
+        "word": " personnel",
+        "probability": 0.9746520519256592
+      },
+      {
+        "start": 235.42,
+        "end": 236.02,
+        "word": " reconcile",
+        "probability": 0.9843536019325256
+      },
+      {
+        "start": 236.02,
+        "end": 236.72,
+        "word": " the",
+        "probability": 0.9559317827224731
+      },
+      {
+        "start": 236.72,
+        "end": 237.08,
+        "word": " discrepancy",
+        "probability": 0.991455078125
+      },
+      {
+        "start": 237.08,
+        "end": 237.8,
+        "word": " under",
+        "probability": 0.9970478415489197
+      },
+      {
+        "start": 237.8,
+        "end": 238.1,
+        "word": " approved",
+        "probability": 0.9671534299850464
+      },
+      {
+        "start": 238.1,
+        "end": 238.64,
+        "word": " procedures.",
+        "probability": 0.9982776641845703
+      }
+    ]
+  },
+  {
+    "start": 238.64,
+    "end": 246.4,
+    "text": " This illustrates why status verification, traceability, and escalation matter before manufacturing begins.",
+    "words": [
+      {
+        "start": 238.64,
+        "end": 239.9,
+        "word": " This",
+        "probability": 0.6490460634231567
+      },
+      {
+        "start": 239.9,
+        "end": 240.48,
+        "word": " illustrates",
+        "probability": 0.9950049519538879
+      },
+      {
+        "start": 240.48,
+        "end": 240.9,
+        "word": " why",
+        "probability": 0.9914634823799133
+      },
+      {
+        "start": 240.9,
+        "end": 241.26,
+        "word": " status",
+        "probability": 0.9792096614837646
+      },
+      {
+        "start": 241.26,
+        "end": 241.9,
+        "word": " verification,",
+        "probability": 0.9390329718589783
+      },
+      {
+        "start": 242.7,
+        "end": 243.4,
+        "word": " traceability,",
+        "probability": 0.9899952709674835
+      },
+      {
+        "start": 243.78,
+        "end": 243.8,
+        "word": " and",
+        "probability": 0.9972400665283203
+      },
+      {
+        "start": 243.8,
+        "end": 244.12,
+        "word": " escalation",
+        "probability": 0.9881671071052551
+      },
+      {
+        "start": 244.12,
+        "end": 244.8,
+        "word": " matter",
+        "probability": 0.9950403571128845
+      },
+      {
+        "start": 244.8,
+        "end": 245.2,
+        "word": " before",
+        "probability": 0.945160448551178
+      },
+      {
+        "start": 245.2,
+        "end": 245.86,
+        "word": " manufacturing",
+        "probability": 0.990858256816864
+      },
+      {
+        "start": 245.86,
+        "end": 246.4,
+        "word": " begins.",
+        "probability": 0.9951326251029968
+      }
+    ]
+  }
+]

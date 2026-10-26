@@ -1,0 +1,42 @@
+[
+  [
+    0,
+    28.75,
+    "Good Manufacturing Practice requires manufacturing operations to follow approved instructions and appropriate controls. Processes should be defined, suitable for their intended purpose, and performed by trained personnel. Controls must address potential contamination, mix-ups and errors throughout the process. This introductory lesson explains common operating principles. Specific requirements depend on the product, dosage form and manufacturing process."
+  ],
+  [
+    28.75,
+    57.802,
+    "Incoming starting materials and packaging components should be received, identified, and controlled according to approved procedures. Appropriate quarantine and release arrangements help prevent unintended use. Storage conditions and stock rotation should reflect material requirements. Before dispensing, personnel should verify material identity, status and suitability. A label alone may not be sufficient when supporting records indicate a discrepancy."
+  ],
+  [
+    57.802,
+    102.22999999999999,
+    "Dispensing involves selecting and measuring the correct approved materials for a defined batch. Operators should follow authorized instructions, use suitable calibrated instruments, and document quantities and material identities. Applicable independent checks must be performed. European Union GMP requires an independent check of each dispensed material and its weight or volume, with the check recorded. United States regulations specify second-person checks, with defined exceptions for qualifying automated equipment. A local risk assessment does not waive applicable requirements. Traceability connects each dispensed material to its source and the batch in which it is used."
+  ],
+  [
+    102.22999999999999,
+    128.98,
+    "Before manufacturing begins, line clearance and setup checks help ensure that previous materials, labels, documents and residues do not create mix-up or contamination risks. The equipment, area and materials should be confirmed suitable for the planned operation. Checks must follow approved procedures and be recorded as required. The exact sequence and verification method depend on the facility and process."
+  ],
+  [
+    128.98,
+    157.755,
+    "In-process controls provide information about the state of a manufacturing process while it is running. Examples may include weight, volume, temperature, pressure, p H, appearance or other process-specific measurements. Monitoring frequency, limits and response actions must come from the approved process and supporting scientific justification. There is no single universal acceptance criterion that applies to every pharmaceutical process."
+  ],
+  [
+    157.755,
+    186.88,
+    "Batch manufacturing records provide traceable evidence of the actual operations performed. Entries should identify relevant materials, equipment, operators, times, process observations and checks as required by the approved record. Reconciliation can help detect unexplained differences in quantities or printed materials. Documentation must reflect what occurred, including deviations, and must not be completed retrospectively from guesswork."
+  ],
+  [
+    186.88,
+    215.63,
+    "Unexpected process results, equipment alarms or procedural departures should be handled under the site quality system. Operators should secure the process as appropriate, report the event and preserve relevant data. Authorized personnel assess product impact and determine investigation, disposition and corrective actions. A result that later returns to normal does not automatically eliminate the need to document and evaluate the original event."
+  ],
+  [
+    215.63,
+    247.255,
+    "Imagine an operator preparing to start a batch who discovers that a container of starting material has a released label but the electronic inventory record still shows quarantine status. The operator should not choose whichever status seems convenient. The material should be held from use while authorized personnel reconcile the discrepancy under approved procedures. This illustrates why status verification, traceability and escalation matter before manufacturing begins."
+  ]
+]

@@ -1,0 +1,42 @@
+[
+  [
+    0,
+    27.25,
+    "Premises and equipment must be suitable for their intended pharmaceutical manufacturing operations. Good Manufacturing Practice expects facility design, construction, maintenance and use to minimize errors and contamination risks. Controls depend on the product, process and manufacturing environment. This lesson introduces the principles rather than prescribing one universal room design or classification."
+  ],
+  [
+    27.25,
+    53.875,
+    "Facility layout should support logical personnel and material movement and help prevent contamination and mix-ups. Separate or appropriately controlled flows may be necessary depending on the operation and risks. Material receipt, storage, dispensing, production and dispatch each require suitable arrangements. The objective is controlled movement and traceability, not simply a visually attractive floor plan."
+  ],
+  [
+    53.875,
+    81.90299999999999,
+    "Cleaning and housekeeping are essential routine controls. Cleaning procedures should specify responsibilities, methods, materials and frequencies appropriate to the area or equipment. Where necessary, cleaning effectiveness must be demonstrated and documented. Personnel should promptly report spills, damage or abnormal conditions according to site procedures. A clean appearance alone is not evidence that a cleaning process is effective."
+  ],
+  [
+    81.90299999999999,
+    108.56599999999999,
+    "Manufacturing equipment should be appropriately designed, located and maintained for its intended use. Product contact surfaces should be suitable for the materials and processes involved. Equipment should allow effective cleaning and, where required, sterilization. The level of control depends on criticality and intended function. For example, a filling machine and a general office printer have different GMP impacts."
+  ],
+  [
+    108.56599999999999,
+    134.94099999999997,
+    "Calibration establishes the relationship between an instrument indication and a reference under specified conditions. Maintenance helps keep equipment in suitable operating condition. Both should be planned, recorded and assessed for impact when overdue or unsatisfactory. A calibration label is a useful visual control but does not replace review of the applicable calibration record or equipment status."
+  ],
+  [
+    134.94099999999997,
+    167.998,
+    "Qualification provides documented evidence that facilities, utilities and equipment are suitable for their intended purpose. Installation qualification, operational qualification and performance qualification are commonly described as I Q, O Q and P Q. Their application and scope should follow a justified lifecycle and risk-based approach. Acceptance criteria must be defined for the actual system and process; there is no universal test limit for every item of equipment."
+  ],
+  [
+    167.998,
+    195.28,
+    "Clear equipment identification and status controls help prevent unintended use. Site procedures may use status labels, electronic systems, logbooks and approved records to show equipment availability, maintenance, calibration, cleaning or qualification state. Operators should verify status before use. If information is missing or inconsistent, the discrepancy should be escalated rather than resolved by assumption."
+  ],
+  [
+    195.28,
+    230.03,
+    "Consider a vessel needed for a scheduled manufacturing batch. A measuring instrument used with the vessel has an expired calibration due date, and its calibration records contain no current evidence of calibration. The operator should not assume that the instrument or the planned operation is acceptable. Report the finding so authorized personnel can assess the instrument status, its intended use, and any potential product impact under site procedures. Work should proceed only after appropriate documented authorization."
+  ]
+]

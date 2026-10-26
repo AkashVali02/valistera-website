@@ -12,8 +12,10 @@ for i in range(1,11):
  for x,y in zip(cues,cues[1:]):
   if x[1]>y[0]+.001:errors.append(f'{i}: overlap at {y[0]}')
  duration=json.loads(Path('academy/review/evidence-2026-10-26/media-inventory.json').read_text())[i-1]['duration']
+ if i in (4,5):duration=next(x['duration'] for x in json.loads(Path('academy/review/evidence-2026-10-26/revised-media.json').read_text()) if x['lesson']==i)
  if cues[-1][1]>duration+.001:errors.append(f'{i}: captions exceed media duration')
  original=json.loads(Path(f'academy/review/evidence-2026-10-26/source-captions-1-{i}.json').read_text())
+ if i in (4,5):original=json.loads(Path(f'academy/review/evidence-2026-10-26/revised-narration-1-{i}.json').read_text())
  normalize=lambda text:re.sub('[^a-z0-9]','',text.lower().replace('+','plus'))
  if normalize(' '.join(c[2] for c in cues))!=normalize(' '.join(c[2] for c in original)):errors.append(f'{i}: caption wording changed beyond formatting')
  page=root/('academy-player-preview.html' if i==1 else f'academy-lesson-1-{i}.html');s=page.read_text();match=re.search(r'const cues=(\[.*?\]),\s*starts=',s,re.S)

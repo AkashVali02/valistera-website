@@ -1,0 +1,27 @@
+[
+  {
+    "lesson": 4,
+    "cue": 1,
+    "end_extension_seconds": 0.551
+  },
+  {
+    "lesson": 4,
+    "cue": 8,
+    "end_extension_seconds": 0.041
+  },
+  {
+    "lesson": 4,
+    "cue": 14,
+    "end_extension_seconds": 0.001
+  },
+  {
+    "lesson": 4,
+    "cue": 20,
+    "end_extension_seconds": 0.111
+  },
+  {
+    "lesson": 5,
+    "cue": 6,
+    "end_extension_seconds": 0.141
+  }
+]

@@ -27,19 +27,19 @@
     },
     {
       "lesson": 4,
-      "cue_count": 55,
-      "end_seconds": 224.92,
+      "cue_count": 49,
+      "end_seconds": 229.1,
       "cps_over_20_05": [],
       "max_lines": 2,
-      "sha256": "5e698636a68762a8448f479781c2d2d493fc6b4093a56e930a93f39125e5ff07"
+      "sha256": "43abcd56fe4de03d24d1b417a1b213d278ce1571deda453039758ccaa766a259"
     },
     {
       "lesson": 5,
-      "cue_count": 62,
-      "end_seconds": 228.28,
+      "cue_count": 52,
+      "end_seconds": 246.52,
       "cps_over_20_05": [],
       "max_lines": 2,
-      "sha256": "e0f0ec99d2e73492f72c9c97d8dfe2222a73d1aaf45b60852837c79913fbfd41"
+      "sha256": "d7e1e3c0c20be1ad60df62b77d635c35ec98cc3bd0720dfff5a1d7284b3daf0c"
     },
     {
       "lesson": 6,
