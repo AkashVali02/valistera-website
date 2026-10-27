@@ -33,6 +33,12 @@ if(load&&video){
   video.querySelector('track')?.addEventListener('load',applyCaptions);
   captionsButton.hidden=false;applyCaptions();
  }
+ const seekButtons=document.querySelectorAll('[data-seek-percent]');
+ const seekStatus=document.getElementById('seek-status');
+ const seekTo=percent=>{if(!Number.isFinite(video.duration)||video.duration<=0){if(seekStatus)seekStatus.textContent='Video timeline is not ready. Try again after loading.';return;}const target=Math.min(Math.max(0,video.duration*percent/100),Math.max(0,video.duration-.1));try{video.currentTime=target;if(seekStatus)seekStatus.textContent='Seeking to '+Math.round(percent)+'% of lesson.';}catch(_){if(seekStatus)seekStatus.textContent='Seeking unavailable. Try the player timeline.';}};
+ seekButtons.forEach(button=>button.addEventListener('click',()=>{if(video.hidden)load.click();const percent=Number(button.dataset.seekPercent);if(video.readyState>=1)seekTo(percent);else video.addEventListener('loadedmetadata',()=>seekTo(percent),{once:true});}));
+ video.addEventListener('seeked',()=>{if(seekStatus)seekStatus.textContent='Playback position: '+Math.round(video.currentTime)+' seconds.';});
+ video.addEventListener('error',()=>{if(seekStatus)seekStatus.textContent='Video request failed. Use the transcript while playback is unavailable.';});
  video.addEventListener('playing',()=>{mediaStatus.textContent='';});
  video.addEventListener('error',()=>{mediaStatus.textContent='Video unavailable. Retry or read the complete lesson below.';load.querySelector('.academy-play-label').textContent='Retry lesson';load.setAttribute('aria-label','Retry lesson video');load.hidden=false;video.hidden=true;if(document.activeElement===video)load.focus();});
 }
