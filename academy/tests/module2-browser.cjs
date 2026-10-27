@@ -19,7 +19,7 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
   await page.setViewportSize({width:390,height:844});
   await page.addScriptTag({path:process.env.AXE_PATH||'/home/user/module1-media/axe.min.js'});
   const violations=await page.evaluate(async()=> (await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}})).violations.map(v=>({id:v.id,nodes:v.nodes.length})));
-  check(name+' axe',violations.length===0,violations);
+  check(name+' axe',violations.length===0,violations);if(violations.length)console.error('AXE_FAILURE',name,JSON.stringify(violations));
   await page.addStyleTag({content:'*{line-height:1.5!important;letter-spacing:.12em!important;word-spacing:.16em!important}p{margin-bottom:2em!important}'});
   check(name+' text-spacing reflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
  }
