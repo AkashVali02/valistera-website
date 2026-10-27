@@ -5,7 +5,7 @@ on:
   pull_request:
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   browser:
     runs-on: ubuntu-latest
@@ -15,6 +15,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Rebuild corrected diagrams
+        run: |
+          pip install pillow
+          python3 academy/module-2/align_diagrams.py
       - name: Install browser testing dependencies
         run: |
           npm install --no-save playwright axe-core
