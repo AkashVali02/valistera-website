@@ -1,5 +1,7 @@
 # Current status — 27 October 2026
 
+**Continuation audit (27 October):** Source-map FMEA reference corrected from Annex I.1 to I.2–I.3. GitHub branch review verified previous 120 media checks and 181 browser checks are stored evidence, but the browser report predates the revised candidate. No current-commit browser rerun, physical-device/screen-reader assessment, human audio review, or fresh hosted smoke result was executed in this continuation environment. GitHub returned no commit statuses or pull-request workflow runs for the inspected head. The earlier smoke result targets commit `f1a729e...`, not the revised head. **No release authorization.** Preserve prior passing evidence without relabeling it as current.
+
 Revised after preliminary AI-assisted review; NOT release-approved. See `claude-response-2026-10-27.md` for finding dispositions and audio/required-reading boundaries. Current media checks: 120 passed; site validator: 46 HTML pages / 1,366 references passed. Revised browser regression is pending execution; earlier browser/smoke evidence below is historical, not verification of changed pages.
 
 ## Historical candidate record (26 October)
