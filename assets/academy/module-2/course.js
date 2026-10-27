@@ -9,7 +9,7 @@ try {
  if(saved?.enabled===true)state={enabled:true,studied:Array.isArray(saved.studied)?saved.studied.filter(n=>Number.isInteger(n)&&n>=1&&n<=10):[],passed:Array.isArray(saved.passed)?saved.passed.filter(n=>Number.isInteger(n)&&n>=1&&n<=10):[],score:Number.isInteger(saved.score)&&saved.score>=0&&saved.score<=20?saved.score:null};
 }catch(_){status.textContent='Device storage is unavailable or unreadable. Learning still works.';}
 const saveBox=document.getElementById('save-progress');saveBox.checked=state.enabled;
-function save(){if(!state.enabled)return false;try{localStorage.setItem(KEY,JSON.stringify(state));return true;}catch(_){status.textContent='Progress could not be saved on this device. Learning still works.';return false;}}
+function save(){if(!state.enabled)return false;try{localStorage.setItem(KEY,JSON.stringify(state));return true;}catch(_){state.enabled=false;saveBox.checked=false;status.textContent='Progress could not be saved on this device. Device saving remains off; learning still works.';return false;}}
 function refresh(){
  const n=new Set(state.studied).size,p=new Set(state.passed).size;
  const el=document.getElementById('progress-text');if(el)el.textContent=`${n} of 10 lessons marked studied · ${p} of 10 checks passed`;
@@ -17,7 +17,7 @@ function refresh(){
  const a=document.getElementById('assessment-status');if(a)a.textContent=state.score===null?'Final assessment not completed.':`Latest final score: ${state.score}/20. ${state.score>=16?'Practice target reached.':'Review explanations and retry.'}`;
  const st=document.getElementById('studied-status');if(st)st.textContent=state.studied.includes(Number(document.body.dataset.lesson))?'Marked studied. This is a self-study indicator.':'';
 }
-saveBox.addEventListener('change',()=>{state.enabled=saveBox.checked;if(state.enabled){if(save())status.textContent='Device saving enabled. Workbook answers are not saved.';}else{try{localStorage.removeItem(KEY);status.textContent='Device saving disabled; saved Module 2 data removed.';}catch(_){status.textContent='Could not remove stored data. Use browser site-data settings.';}}});
+saveBox.addEventListener('change',()=>{state.enabled=saveBox.checked;if(state.enabled){if(save())status.textContent='Device saving enabled. Workbook answers are not saved.';}else{state={enabled:false,studied:[],passed:[],score:null};refresh();try{localStorage.removeItem(KEY);status.textContent='Device saving disabled; saved Module 2 data removed and this session’s progress reset.';}catch(_){status.textContent='Could not remove stored data. Use browser site-data settings.';}}});
 document.getElementById('clear-progress').addEventListener('click',()=>{state={enabled:false,studied:[],passed:[],score:null};saveBox.checked=false;try{localStorage.removeItem(KEY);status.textContent='Module 2 progress cleared. Device saving is off.';}catch(_){status.textContent='Could not clear device storage. Use browser site-data settings.';}refresh();});
 const load=document.getElementById('load-media'),video=document.getElementById('video'),mediaStatus=document.getElementById('media-status');
 if(load&&video){
