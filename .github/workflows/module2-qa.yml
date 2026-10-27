@@ -1,0 +1,41 @@
+name: Module 2 preview browser QA
+on:
+  push:
+    branches: [academy-player-preview]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser testing dependencies
+        run: |
+          npm install --no-save playwright axe-core
+          npx playwright install --with-deps chromium
+      - name: Start local preview
+        run: |
+          python3 -m http.server 8092 --bind 127.0.0.1 > /tmp/module2-http.log 2>&1 &
+          sleep 3
+      - name: Run browser accessibility and media checks
+        env:
+          PLAYWRIGHT_MODULE: playwright
+          AXE_PATH: node_modules/axe-core/axe.min.js
+          RESULT_PATH: module2-browser-results.json
+          SCREENSHOT_DIR: .
+        run: node academy/tests/module2-browser.cjs
+      - name: Upload QA results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: module2-browser-qa
+          path: |
+            module2-browser-results.json
+            module2-overview.png
+            module2-lesson.png
+          if-no-files-found: ignore
