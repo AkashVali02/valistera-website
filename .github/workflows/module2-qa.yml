@@ -12,6 +12,9 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: academy-player-preview
+          persist-credentials: true
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -22,12 +25,12 @@ jobs:
           python3 academy/module-2/align_diagrams.py
           python3 academy/module-2/rebuild_video_frames.py
       - name: Save aligned preview diagrams
-        if: github.event_name == 'push'
+        if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/academy-player-preview'
         run: |
           git config user.name 'ValiStera Academy QA'
           git config user.email 'actions@users.noreply.github.com'
           git add academy/module-2/render.py assets/academy/module-2/*-scene-*.png assets/academy/module-2/lesson-*.mp4
-          git diff --cached --quiet || (git commit -m 'Regenerate aligned lesson diagrams' && git push)
+          git diff --cached --quiet || (git commit -m 'Regenerate aligned lesson diagrams [skip ci]' && git push origin HEAD:academy-player-preview)
       - name: Install browser testing dependencies
         run: |
           npm install --no-save playwright axe-core
