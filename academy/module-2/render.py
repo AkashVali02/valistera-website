@@ -52,9 +52,9 @@ def draw_scene(l,s,j):
   text(180,365,'V-201',27,WHITE,True);text(75,560,'Mixing vessel • schematic',23,MUT)
  # Three strong takeaways; full text alternative is provided in HTML.
  for k,label in enumerate(s['labels']):
-  y=235+k*120;box(548,y,684,103);text(574,y+28,f'{k+1:02}',28,CYAN,True)
+  y=235+k*120;box(548,y,684,103);d.text((574,y+51),f'{k+1:02}',font=ImageFont.truetype(BOLD,28),fill=CYAN,anchor='lm')
   lines=textwrap.wrap(label,28)
-  for n,line in enumerate(lines):text(635,y+18+n*36,line,30,WHITE,True)
+  for n,line in enumerate(lines):d.text((635,y+51+(n-(len(lines)-1)/2)*36),line,font=ImageFont.truetype(BOLD,30),fill=WHITE,anchor='lm')
  d.line((48,627,1232,627),fill='#345675',width=2)
  text(48,652,'FICTIONAL TEACHING CASE · NOT A SITE ACCEPTANCE CRITERION',20,MUT)
  p=ASSETS/f'lesson-{l["id"]}-scene-{j+1}.png';buf=io.BytesIO();im.save(buf,format="PNG",optimize=True);tmp=p.with_suffix(".tmp");tmp.write_bytes(buf.getvalue());os.replace(tmp,p)
