@@ -31,7 +31,7 @@ if(load&&video){
   video.addEventListener('loadedmetadata',applyCaptions);
   video.addEventListener('loadeddata',applyCaptions);
   video.querySelector('track')?.addEventListener('load',applyCaptions);
-  load.addEventListener('click',()=>{captionsButton.hidden=false;applyCaptions();});
+  captionsButton.hidden=false;applyCaptions();
  }
  video.addEventListener('playing',()=>{mediaStatus.textContent='';});
  video.addEventListener('error',()=>{mediaStatus.textContent='Video unavailable. Retry or read the complete lesson below.';load.querySelector('.academy-play-label').textContent='Retry lesson';load.setAttribute('aria-label','Retry lesson video');load.hidden=false;video.hidden=true;if(document.activeElement===video)load.focus();});
