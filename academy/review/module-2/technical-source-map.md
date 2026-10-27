@@ -1,6 +1,6 @@
 # Module 2 — technical source map
 
-Checked 26 October 2026. Scope: human medicinal products, qualification planning. This is not a complete jurisdiction-specific compliance course.
+Originally checked 26 October 2026; corrected 27 October 2026. Scope: human medicinal products, qualification planning. This is not a complete jurisdiction-specific compliance course.
 
 | Lesson | Primary support | Boundary / teaching choice |
 |---|---|---|
@@ -10,7 +10,7 @@ Checked 26 October 2026. Scope: human medicinal products, qualification planning
 | 2.4 URS | EU Annex 15 §§3.1–3.3 | Missing range/tolerance intentionally unresolved; never supplied as a universal criterion. |
 | 2.5 Traceability | EU Annex 15 §§2.2–2.10, 3.2–3.7 | Matrix is a useful teaching method, not asserted as a universally mandated form. Supplier-test reuse needs justification. |
 | 2.6 Risk question | ICH Q9(R1) §§3, 4.2–4.3, 5.1, 5.3 | Fictional causal chain requires scientific evidence in real work. |
-| 2.7 FMEA | ICH Q9(R1) Annex I.1; §§4.3–4.4, 5.3 | Ordinal 1–3 scale is a pedagogical arithmetic exercise; no official threshold. |
+| 2.7 FMEA | ICH Q9(R1) Annex I.2–I.3; §§4.3–4.4, 5.3 | Ordinal 1–3 scale is a pedagogical arithmetic exercise; no official threshold. |
 | 2.8 Controls | ICH Q9(R1) §§4.4–4.6 | Proposed control is not credited without effectiveness evidence. Risk assessment does not waive requirements. |
 | 2.9 Data | WHO TRS 1019 Annex 3 §5.2 (statistical evaluation where appropriate) | Dataset and 0.5 °C limit invented for transparent arithmetic. No capability/qualification conclusion. |
 | 2.10 Handover | EU Annex 15 §2.10; ICH Q9(R1) §§4.4–4.6 | Specific-stage progression differs from routine-use authorization. No fabricated signatures. |
