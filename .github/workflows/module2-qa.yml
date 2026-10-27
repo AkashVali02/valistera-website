@@ -29,7 +29,17 @@ jobs:
         run: |
           git config user.name 'ValiStera Academy QA'
           git config user.email 'actions@users.noreply.github.com'
-          git add academy/module-2/render.py assets/academy/module-2/*-scene-*.png assets/academy/module-2/lesson-*.mp4
+          python3 - <<'PY'
+          import hashlib,json,pathlib
+          root=pathlib.Path('assets/academy/module-2')
+          paths=sorted([*root.glob('lesson-*-scene-*.png'),*root.glob('lesson-*.mp4')])
+          assert len(paths)==50, f'Expected 50 media assets, got {len(paths)}'
+          record={str(p):{'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size} for p in paths}
+          pathlib.Path('academy/module-2/media-manifest.json').write_text(json.dumps(record,indent=2)+'\\n')
+          print('Verified',len(paths),'media assets; generated SHA-256 manifest')
+          PY
+          git add academy/module-2/render.py academy/module-2/media-manifest.json assets/academy/module-2/*-scene-*.png assets/academy/module-2/lesson-*.mp4
+          git status --short
           git diff --cached --quiet || (git commit -m 'Regenerate aligned lesson diagrams [skip ci]' && git push origin HEAD:academy-player-preview)
       - name: Install browser testing dependencies
         run: |
