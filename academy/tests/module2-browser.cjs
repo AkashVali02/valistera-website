@@ -7,9 +7,12 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
  const check=(name,pass,detail)=>{result.checks.push({name,pass,...(detail?{detail}:{})});if(!pass)result.failures.push(name)};
  const context=await browser.newContext({viewport:{width:390,height:844}});
  const page=await context.newPage();let external=[];page.on('request',r=>{if(!r.url().startsWith(BASE))external.push(r.url())});
- const names=['academy-module-2.html','academy-module-2-workbook.html','academy-module-2-assessment.html','academy-module-2-sources.html',...Array.from({length:10},(_,i)=>`academy-lesson-2-${i+1}.html`)];
+ const names=['academy-module-2.html','academy-module-2-workbook.html','academy-module-2-assessment.html','academy-module-2-sources.html','academy-module-2-review.html',...Array.from({length:10},(_,i)=>`academy-lesson-2-${i+1}.html`)];
  for(const name of names){
   await page.goto(BASE+'/'+name);
+  check(name+' landmarks',await page.evaluate(()=>!!document.querySelector('body>header')&&!!document.querySelector('body>footer')&&!document.querySelector('main header,main footer')));
+  await page.locator('.skip').focus();await page.keyboard.press('Enter');
+  check(name+' skip focuses learning content',await page.evaluate(()=>document.activeElement.id==='main'));
   check(name+' heading',(await page.locator('h1').count())===1);
   check(name+' noindex',(await page.locator('meta[name=robots]').getAttribute('content')).includes('noindex'));
   for(const width of [320,390,768,1280]){await page.setViewportSize({width,height:900});check(name+' reflow '+width,await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));}
@@ -20,6 +23,8 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
   await page.addStyleTag({content:'*{line-height:1.5!important;letter-spacing:.12em!important;word-spacing:.16em!important}p{margin-bottom:2em!important}'});
   check(name+' text-spacing reflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
  }
+ await page.goto(BASE+'/academy-lesson-2-4.html');check('Worked measurable URS',await page.getByRole('heading',{name:'Worked artefact: a measurable URS'}).isVisible());
+ await page.goto(BASE+'/academy-module-2-assessment.html');check('Open-book disclosure',(await page.locator('main').innerText()).includes('open-book'));
  check('No external subresource requests',external.length===0,external);
  for(let i=1;i<=10;i++){
   await page.goto(`${BASE}/academy-lesson-2-${i}.html`);
@@ -43,6 +48,7 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
  await page.goto(BASE+'/academy-lesson-2-9.html');
  check('Data default',(await page.locator('#data-result').innerText()).includes('1 of 10'));
  await page.locator('#data-limit').fill('0.3');check('Data recompute',(await page.locator('#data-result').innerText()).includes('4 of 10'));
+ for(const [limit,count] of [['0.5',1],['0.30000000000000004',4],['0.499999',2],['0.500001',1]]){await page.locator('#data-limit').fill(limit);check('Data boundary '+limit,(await page.locator('#data-result').innerText()).includes(count+' of 10'));}
  await page.locator('#data-limit').fill('-1');check('Invalid data limit',(await page.locator('#data-result').innerText()).includes('Enter a limit'));
  await page.goto(BASE+'/academy-lesson-2-1.html');
  check('Storage defaults off',await page.evaluate(()=>localStorage.getItem('valistera_module2_v1')===null));

@@ -1,3 +1,9 @@
+# Current status — 27 October 2026
+
+Revised after preliminary AI-assisted review; NOT release-approved. See `claude-response-2026-10-27.md` for finding dispositions and audio/required-reading boundaries. Current media checks: 120 passed; site validator: 46 HTML pages / 1,366 references passed. Revised browser regression is pending execution; earlier browser/smoke evidence below is historical, not verification of changed pages.
+
+## Historical candidate record (26 October)
+
 # Module 2 — consolidated QA and continuation record
 
 26 October 2026. Review candidate, not production-approved.

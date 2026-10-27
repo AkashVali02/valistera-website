@@ -1,0 +1,217 @@
+{
+  "checks": 120,
+  "failures": [],
+  "duration_minutes": 19.93342847222222,
+  "rows": [
+    {
+      "lesson": 1,
+      "duration": 111.71766666666667,
+      "cues": 32,
+      "max_cps": 18.14058956916099,
+      "sha256": "0ca1389e2d23ea288dd12a968be6977c05f84155f6a8ac506a1f741a4a3407d1",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    },
+    {
+      "lesson": 2,
+      "duration": 118.62958333333331,
+      "cues": 31,
+      "max_cps": 18.020594965675084,
+      "sha256": "69aae28f6a7e1170fe45176c379360468c9832a5f5409ba3e38b7141b2bde915",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    },
+    {
+      "lesson": 3,
+      "duration": 119.72654166666669,
+      "cues": 32,
+      "max_cps": 17.921146953405007,
+      "sha256": "e9dc1c47abface27e959f0703cd98615476aeeea37a675687c61222fbb9bdfa7",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    },
+    {
+      "lesson": 4,
+      "duration": 123.19041666666666,
+      "cues": 31,
+      "max_cps": 17.538554581191402,
+      "sha256": "e4a749f6f18275d8df34b836ec06c4d12c2fad91a3bb8a86d4bd51358156e1d7",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    },
+    {
+      "lesson": 5,
+      "duration": 122.83429166666666,
+      "cues": 31,
+      "max_cps": 17.992424242424228,
+      "sha256": "a8d6321f8715d2dd444e2c91b57f32fff49b8e16470a8e6bb2a881553cc17208",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    },
+    {
+      "lesson": 6,
+      "duration": 118.28587499999998,
+      "cues": 33,
+      "max_cps": 18.02914299827121,
+      "sha256": "b91c2a5db562dcbb6b927a6980917412c2a846fd2bf4c218097902eec93b5a2f",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    },
+    {
+      "lesson": 7,
+      "duration": 118.66758333333333,
+      "cues": 32,
+      "max_cps": 17.48863238894713,
+      "sha256": "db06a8e76101f4508ae2d84ed33960e64e541c5b979f064e89ec5787f945ca02",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    },
+    {
+      "lesson": 8,
+      "duration": 122.81570833333333,
+      "cues": 37,
+      "max_cps": 17.36111111111111,
+      "sha256": "a292217469a8b02b733fecc8c23e3ff83e9ada33f1fb8c2883e4a99b011055b2",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    },
+    {
+      "lesson": 9,
+      "duration": 119.7934583333333,
+      "cues": 30,
+      "max_cps": 18.055555555555554,
+      "sha256": "7cb397747b565980c1108b40ca149d7d44ac473f497772ae73be06b2bcf5f999",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    },
+    {
+      "lesson": 10,
+      "duration": 120.34458333333332,
+      "cues": 32,
+      "max_cps": 18.013245033112554,
+      "sha256": "b68559b5e87273f8a76a51ed93b21be243d6c04b6e597ef35237419070b50c62",
+      "checks": {
+        "h264": true,
+        "aac": true,
+        "resolution": true,
+        "duration": true,
+        "caption_source_match": true,
+        "cue_order": true,
+        "cue_bounds": true,
+        "caption_2_lines": true,
+        "caption_42_chars": true,
+        "caption_speed": true,
+        "four_scenes": true,
+        "four_pngs_decode": true
+      }
+    }
+  ]
+}

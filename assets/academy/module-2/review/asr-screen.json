@@ -1,0 +1,273 @@
+[
+  {
+    "lesson": 1,
+    "asr": "Welcome to Module 2. Our fictional project is a jacketed mixing vessel used to prepare an aqueous oral solution before filling. It is not an asseptic process. We will follow the project from planning to a review decision. Begin by asking what product the system supports, how it will be used, and what could go wrong? A polished protocol cannot rescue an undefined purpose. The validation master plan describes the program. The user requirement specification describes what the system must do. The risk assessment explains where failures matter and how controls will be justified. In this course, we say VMP and URS. These documents should agree with one another. If the vessel needs controlled mixing, the requirement, risk discussion and verification evidence should all address that need. Imagine buying a vessel because the catalog says pharmaceutical grade. That description does not establish fitness for our product. The team still needs to understand contact materials, cleaning, measurement, mixing and records. The illustration connects a product vessel to its temperature sensor and control panel. These are functional interfaces, not a construction drawing. The same intended use must guide design review, testing and routine, operation. For the first activity, describe the vessel's intended use in three, a sentence is, identify the product family, operating purpose and important interfaces, then list information that is still missing. Do not invent operating limits to complete a form. Assign each missing item to an appropriate owner, such as process development or engineering. Planning is useful when it exposes uncertainty early enough to change the project.",
+    "differences": [
+      {
+        "source": "two",
+        "asr": "2"
+      },
+      {
+        "source": "aseptic",
+        "asr": "asseptic"
+      },
+      {
+        "source": "programme",
+        "asr": "program"
+      },
+      {
+        "source": "requirements",
+        "asr": "requirement"
+      },
+      {
+        "source": "v m p and u r s",
+        "asr": "vmp and urs"
+      },
+      {
+        "source": "catalogue",
+        "asr": "catalog"
+      },
+      {
+        "source": "sentences",
+        "asr": "a sentence is"
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "asr": "A useful validation master plan helps a new team member understand how, qualification and validation are governed. In European Union GMP Annex 15, the program may be defined in A, VMP or equivalent document. This is not a requirement to give every site the same template. Our worked plan is a teaching structure. The applicable quality system determines the authorized document structure and approval responsibilities. For our small oral liquid project, the plan links the mixing vessel, transfer equipment, utilities and supporting procedures. A scope table records the system identifier, intended use, responsible owner, and current evidence status. An entry called complete without a report reference is difficult to, a challenge, an explicit status such as design review pending, tells the team what still needs to happen. A date in a schedule is not proof of qualification. The program plan explains the approach and oversight. A protocol states how a particular verification will be performed and judged. A report evaluates what actually happened. The diagram presents these as connected documents rather than interchangeable files. For example, the plan may require risk informed testing. The protocol specifies a particular mixing test. The report evaluates the observed results and any deviations. Now suppose the project adds a second product with different cleaning, nades, reusing the original plan unchanged, make and seal a new scope. Compare the new use with the approved assumptions, identify the affected systems and route updates through the quality system. In the activity, prepare a short program outline with owners, document references and review triggers. A useful plan should help people act, not merely describe intentions.",
+    "differences": [
+      {
+        "source": "fifteen the programme",
+        "asr": "15 the program"
+      },
+      {
+        "source": "v m p",
+        "asr": "vmp"
+      },
+      {
+        "source": "",
+        "asr": "a"
+      },
+      {
+        "source": "programme",
+        "asr": "program"
+      },
+      {
+        "source": "needs",
+        "asr": "nades"
+      },
+      {
+        "source": "may conceal",
+        "asr": "make and seal"
+      },
+      {
+        "source": "programme",
+        "asr": "program"
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "asr": "A system boundary is a practical agreement about what is included in the assessment. Our vessel receives product materials and a heating or cooling service and transfers bulk solution downstream. The simplified diagram shows these interfaces. It does not assert that the utility is qualified by qualifying the vessel. Each interface needs an owner and a clear connection to the evidence for, the supplying or receiving system. A component does not need to touch product to affect quality. A temperature sensor sends information to a controller, which can influence the jacket service and, therefore, the product. Conversely, physical proximity alone does not make every room object equally important. Describe the mechanism by which a component failure could affect the process. Use that explanation to support scope decisions rather than relying only. On a label such as critical. Engineering understands the design and installation. Operations understands how people use and clean the equipment. Quality oversight connects decisions to the pharmaceutical quality system. Additional expertise may be needed from development, microbiology, metrology, or information technology. This is a suggested team for the fictional project, not a universal organizational chart. Identify who prepares evidence, who reviews it, and who has authority to, approve each decision. Review this handover. The vessel report is ready, but the transfer hose has no approved cleaning procedure and the utility. Connection is not identified. Calling the vessel ready for routine use would hide unresolved interfaces. Record the gaps and assess their impact. For the activity, draw a boundary and assign an owner to each interface. A boundary is useful only when work outside it has somewhere explicit to. Go.",
+    "differences": []
+  },
+  {
+    "lesson": 4,
+    "asr": "A user requirement should communicate an actual need. The phrase easy to clean is useful as a concern, but too vague. To verify on its own, ask what product residues are expected, which surfaces must be accessible. What cleaning process is intended and how the design will support it. Do not insert a universal surface finish or residue limit simply because another project used it. The scientific basis belongs to the actual application. For our fictional example, requirement URS-01 states that, product contact materials must be identified and supported by approved, compatibility evidence for the defined product and cleaning agents. The design review checks the proposed materials, later verification, checks the installed materials and supporting records. The requirement has an identifier, a clear subject and an evidence path. The site defines the actual acceptance criteria and document controls. Consider a training only temperature indication requirement. Within the selected operating range, indication error must remain within A. Project defined tolerance when compared with a suitable calibrated. Reference, the range and tolerance are not supplied here because the process basis is. Still missing, this is a deliberate unresolved requirement, not a pass. The exercise asks you to identify the information needed to finalize it before procurement or testing. Requirements evolve as knowledge improves, but uncontrolled changes break, traceability. If the intended batch range changes, assess effects on mixing, measurement, cleaning and verification, retain the reason for the revision and the approval trail. Do not silently edit a requirement after a failed test to make the result pass. In the activity, rewrite three vague statements and clearly marketing, assumptions that require resolution.",
+    "differences": [
+      {
+        "source": "u r s zero one",
+        "asr": "urs 01"
+      },
+      {
+        "source": "mark any",
+        "asr": "marketing"
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "asr": "A traceability matrix is a practical teaching tool for connecting needs to. Evidence, each row links a requirement to its design response, relevant risk, control, verification activity, and result. A checkmark is not enough if the underlying record cannot be located. For our vessel, the product contact material requirement links to a design, specification, installed material records, and the review that confirms. suitability for the intended use. The three cards show different states. A plan test has an approved method, but no result. An executed test has observations, which may include a failure. An accepted result has been evaluated against the applicable criteria with deviations addressed appropriately. Keeping these states separate prevents a dashboard from showing green, simply because someone uploaded a file. The evidence must answer the requirement, not merely share its title. A supplier may provide useful testing and design records, review whether they apply to the purchased configuration, use appropriate methods, and preserve reliable data. Transport, installation, or configuration changes can affect whether A. result remains applicable. Our example is a factory test of an alarm that depends on A. Sight installed sensor. The team must assess what needs verification after installation. A supplier's signature does not settle that question automatically. In the activity, construct five traceability rows, mark the status honestly, and identify the next action for each gap. A requirement with no test may need a new verification method. A test with no requirement may reveal an undocumented need or unnecessary. Work, traceability should support technical thinking in both directions. It is a means of exposing missing evidence, not a substitute for judging whether that evidence is adequate.",
+    "differences": [
+      {
+        "source": "check mark",
+        "asr": "checkmark"
+      },
+      {
+        "source": "planned",
+        "asr": "plan"
+      },
+      {
+        "source": "site",
+        "asr": "sight"
+      },
+      {
+        "source": "",
+        "asr": "s"
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "asr": "For this project, ask. Could inadequate mixing within the intended batch? Range lead to non-uniform product before transfer. This is more useful than asking whether the vessel is risky. The question identifies a possible failure. Product consequence and operating context. Our diagram shows the possible chain from lost mixing to variable, concentration, and a potentially affected dose. It is not measured process data and does not prove that any real. Vessel performs poorly. A stopped agitator is a failure mode. Non-uniform concentration may be a product quality effect. Depending on the formulation and process, an incorrect delivered dose may be a patient consequence. These links require scientific understanding. They are not automatic for. Every liquid, the exercise asks you to explain the chain and list the evidence needed. And to judge it, avoid assigning a score before you understand the scenario. ICHQ-9, revision one, links risk decisions to scientific knowledge and patient protection. The degree of formality should reflect risk, uncertainty, importance, and complexity. For our case, a small development study may not represent the full batch, range, record that limitation, and plan how to reduce uncertainty. A low number based on a guess is not stronger evidence than a clearly stated unknown. Invite people who understand the process, equipment, and potential, consequences, ask each person which assumptions could be wrong and what evidence would change the decision. If the project deadline is influencing scores, make that bias explicit. In the activity, write one risk question and one cost-to-harm chain. Keep the language specific enough that another reviewer can disagree with. It constructively and identify what needs checking.",
+    "differences": [
+      {
+        "source": "",
+        "asr": "and"
+      },
+      {
+        "source": "ich q nine",
+        "asr": "ichq 9"
+      },
+      {
+        "source": "cause",
+        "asr": "cost"
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "asr": "Failure mode and effects analysis, often called FMEA, can organize a discussion. This course uses a fictional three-level scale for severity, occurrence and difficulty of detection. These numbers are ordinal teaching categories, not measured probabilities. They are not official regulatory limits. The interactive exercise makes the arithmetic visible while keeping them. Rational and unresolved high severity concerns beside the result. In this exercise, higher severity means more serious potential harm. Higher occurrence means the failure is more plausible given the available. Evidence, higher detection score, means it is harder to discover the failure before. Its consequence, real projects need operational definitions tailored to the scenario. A team should agree those definitions before scoring. The label's lower and higher alone are not sufficient for an approved site, assessment. Multiply 3 by 1 by 2, and the result is 6. Multiply 1 by 3 by 2, and the result is also 6. Yet the first scenario has a higher severity category. The chart shows equal total scores with different component patterns. Equal products do not establish equivalent risk or acceptable controls. Review the scenario, severity, uncertainty and control options rather than, letting one number decide. Suppose an independent alarm is proposed, do not lower the detection score, merely because the alarm appears on A. Drawing, determine whether it detects the relevant failure, whether someone will respond, and whether that response is timely. Verify the control and reassess residual risk. The activity asks you to compare two scoring rationales and explain which, assumptions need evidence. No score in this lesson automatically authorizes release.",
+    "differences": [
+      {
+        "source": "f m e a",
+        "asr": "fmea"
+      },
+      {
+        "source": "the rationale",
+        "asr": "them rational"
+      },
+      {
+        "source": "labels",
+        "asr": "label s"
+      },
+      {
+        "source": "three by one by two",
+        "asr": "3 by 1 by 2"
+      },
+      {
+        "source": "six",
+        "asr": "6"
+      },
+      {
+        "source": "one by three by two",
+        "asr": "1 by 3 by 2"
+      },
+      {
+        "source": "six",
+        "asr": "6"
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "asr": "A control should explain how it changes the failure pathway. Prevention reduces the chance of failure. Detection identifies a problem. Response determines what happens next. For a mixing failure, a justified design or operating control may prevent an unsuitable condition. An alarm may detect it, but only an effective response can limit, though. Consequence, the three blocks are complementary. None is automatically adequate for every process. Our fictional action is to verify the agitator status indication and the defined response to loss of mixing, engineering owns the technical check and operations, owns the response, procedure and training. The verification plan records the challenge method and the expected behavior. Quality oversight reviews the evidence through the site system. Action closed should mean the intended result was demonstrated. Not merely that a document was drafted. Adding a control can introduce a new dependency. An alarm may depend on power, configuration, sensor health or a shared. Isignol, if the alarm and controller use the same failed sensor. A parent independence may be misleading. The diagram shows a common sensor feeding two functions to make that. Concern visible. Examine the actual architecture and challenge assumptions before taking credit for an independent protective layer. After controls are implemented, evaluate what risk remains and who can. Accept it. Record assumptions and review triggers. Quality risk management does not excuse a practice that conflicts with, applicable requirements. For the activity, select one failure mode and propose a prevention, detection and response strategy. Then identify evidence for effectiveness and one new risk introduced by your proposal. This turns a list of actions into an auditable argument.",
+    "differences": [
+      {
+        "source": "the",
+        "asr": "though"
+      },
+      {
+        "source": "behaviour",
+        "asr": "behavior"
+      },
+      {
+        "source": "signal",
+        "asr": "isignol"
+      },
+      {
+        "source": "apparent",
+        "asr": "a parent"
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "asr": "The learning dashboard contains 10 fictional temperature indication, errors in degrees Celsius, 0.1, 0.2, 0.1, 0.3, 0.2, 0.4, 0.3, 0.5, 0.4, and 0.6. They illustrate a time-ordered pattern. They are not calibration data from a real instrument and do not define a pharmaceutical tolerance. The total is 3.1 degrees across 10 errors, giving a mean error of 0.31 degrees. The range is 0.6 minus 0.1, or 0.5 degrees. The highest error is 0.6 degrees. The chart includes the underlying values in a table so that learners can check the arithmetic without relying on color or vision. These summaries describe this small data set only. For a arithmetic practice only, set an illustrative absolute error limit of 0.5 degrees, 9 of the 10 observations, meet that example limit and 1 does not. The limit is not an official criterion and does not qualify an instrument. The upward pattern also deserves attention even before a limit is exceeded in a real investigation, examine measurement uncertainty, reference, suitability, conditions and data integrity before drawing conclusions. Do not calculate a confident capability claim from these 10 convenient values, a meaningful analysis requires a suitable study design and understanding of the measurement system and process behavior. In the activity, change the illustrative limit, observe the count, and explain what information is still missing. More green points do not create more knowledge. The purpose is to practice transparent calculation and proportionate, interpretation not to approve a system.",
+    "differences": [
+      {
+        "source": "ten",
+        "asr": "10"
+      },
+      {
+        "source": "zero point one zero point two zero point one zero point three zero point two zero point four zero point three zero point five zero point four and zero point six",
+        "asr": "0 1 0 2 0 1 0 3 0 2 0 4 0 3 0 5 0 4 and 0 6"
+      },
+      {
+        "source": "three point one",
+        "asr": "3 1"
+      },
+      {
+        "source": "ten",
+        "asr": "10"
+      },
+      {
+        "source": "zero point three one",
+        "asr": "0 31"
+      },
+      {
+        "source": "zero point six",
+        "asr": "0 6"
+      },
+      {
+        "source": "zero point one",
+        "asr": "0 1"
+      },
+      {
+        "source": "zero point five",
+        "asr": "0 5"
+      },
+      {
+        "source": "zero point six",
+        "asr": "0 6"
+      },
+      {
+        "source": "colour",
+        "asr": "color"
+      },
+      {
+        "source": "dataset",
+        "asr": "data set"
+      },
+      {
+        "source": "",
+        "asr": "a"
+      },
+      {
+        "source": "zero point five degrees nine of the ten",
+        "asr": "0 5 degrees 9 of the 10"
+      },
+      {
+        "source": "one",
+        "asr": "1"
+      },
+      {
+        "source": "ten",
+        "asr": "10"
+      },
+      {
+        "source": "behaviour",
+        "asr": "behavior"
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "asr": "You are reviewing the fictional V2-01 handover. The intended use is documented, and the material records are available. However, the required mixing range has not been finalized. The transfer hose cleaning evidence is missing, and the alarm response has not been verified. A dashboard says 90% complete. Your task is to decide what the evidence supports, not to maximize the completion percentage. A percentage can be useful for scheduling, but it treats unlike activities as if they were interchangeable. Finishing several minor tasks does not offset an unresolved requirement. That affects product quality. The visual compares a large completion bar with three named gaps. Read the gaps directly. Mixing range, cleaning evidence, and alarm. Response, their significance, must be evaluated individually in the context of the intended use. For this exercise, routine use readiness is not demonstrated. State that conclusion, identify the missing evidence, assign owners, and define what must be reviewed before a new decision. If a project proposes progression to a limited next stage, assess that specific activity, and its dependencies separately through the approved system, do not describe conditional progression as general permission for production, the scope of an authorization must be unambiguous. Complete the workbook and final assessment, then compare your capstone with the model reasoning. You should now be able to explain the purpose of the program plan. Draft testable requirements, connect them to evidence and discuss risk. Without hiding behind scores, these self-study results are not a formal qualification or competency. Record, apply the method with qualified colleagues, current requirements, and approved site procedures when working on a real project.",
+    "differences": [
+      {
+        "source": "v two zero one",
+        "asr": "v2 01"
+      },
+      {
+        "source": "ninety percent",
+        "asr": "90"
+      },
+      {
+        "source": "programme",
+        "asr": "program"
+      }
+    ]
+  }
+]

@@ -2,7 +2,7 @@ WEBVTT
 
 1
 00:00:00.000 --> 00:00:01.621
-Welcome to Module Two.
+Welcome to Module 2.
 
 2
 00:00:01.771 --> 00:00:06.187
@@ -57,7 +57,7 @@ be justified.
 
 13
 00:00:38.773 --> 00:00:41.717
-In this course we say V M P and U R S.
+In this course we say VMP and URS.
 
 14
 00:00:41.867 --> 00:00:44.413
@@ -108,53 +108,45 @@ These are functional interfaces, not a
 construction drawing.
 
 24
-00:01:16.679 --> 00:01:21.009
+00:01:16.679 --> 00:01:22.247
 The same intended use must guide design
-review, testing and routine
+review, testing and routine operation.
 
 25
-00:01:21.159 --> 00:01:22.247
-operation.
+00:01:22.997 --> 00:01:28.392
+For the first activity, describe the
+vessel's intended use in three sentences.
 
 26
-00:01:22.997 --> 00:01:27.157
-For the first activity, describe the
-vessel's intended use in three
-
-27
-00:01:27.307 --> 00:01:28.392
-sentences.
-
-28
 00:01:28.543 --> 00:01:33.300
 Identify the product family, operating
 purpose and important interfaces.
 
-29
+27
 00:01:33.450 --> 00:01:35.989
 Then list information that is still
 missing.
 
-30
+28
 00:01:36.139 --> 00:01:39.232
 Do not invent operating limits to complete
 a form.
 
-31
+29
 00:01:39.382 --> 00:01:42.283
 Assign each missing item to an appropriate
 owner,
 
-32
+30
 00:01:42.433 --> 00:01:45.036
 such as process development or
 engineering.
 
-33
+31
 00:01:45.186 --> 00:01:49.730
 Planning is useful when it exposes
 uncertainty early enough to change the
 
-34
+32
 00:01:49.880 --> 00:01:50.968
 project.

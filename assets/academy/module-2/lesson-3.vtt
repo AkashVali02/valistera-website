@@ -1,159 +1,151 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.395
+00:00:00.000 --> 00:00:05.625
 A system boundary is a practical agreement
-about what is included in the
+about what is included in the assessment.
 
 2
-00:00:04.545 --> 00:00:05.625
-assessment.
-
-3
 00:00:05.775 --> 00:00:09.957
 Our vessel receives product materials and
 a heating or cooling service,
 
-4
+3
 00:00:10.107 --> 00:00:12.539
 and transfers bulk solution downstream.
 
-5
+4
 00:00:12.689 --> 00:00:15.889
 The simplified diagram shows these
 interfaces.
 
-6
+5
 00:00:16.039 --> 00:00:20.497
 It does not assert that the utility is
 qualified by qualifying the vessel.
 
-7
+6
 00:00:20.647 --> 00:00:24.914
 Each interface needs an owner and a clear
 connection to the evidence for
 
-8
+7
 00:00:25.064 --> 00:00:27.347
 the supplying or receiving system.
 
-9
+8
 00:00:28.097 --> 00:00:31.574
 A component does not need to touch product
 to affect quality.
 
-10
+9
 00:00:31.724 --> 00:00:35.073
 A temperature sensor sends information to
 a controller,
 
-11
+10
 00:00:35.223 --> 00:00:38.850
 which can influence the jacket service and
 therefore the product.
 
-12
+11
 00:00:39.000 --> 00:00:43.736
 Conversely, physical proximity alone does
 not make every room object
 
-13
+12
 00:00:43.886 --> 00:00:45.209
 equally important.
 
-14
+13
 00:00:45.359 --> 00:00:49.412
 Describe the mechanism by which a
 component failure could affect the
 
-15
+14
 00:00:49.562 --> 00:00:50.653
 process.
 
-16
+15
 00:00:50.803 --> 00:00:55.475
 Use that explanation to support scope
 decisions rather than relying only
 
-17
+16
 00:00:55.625 --> 00:00:57.566
 on a label such as critical.
 
-18
+17
 00:00:58.316 --> 00:01:01.666
 Engineering understands the design and
 installation.
 
-19
+18
 00:01:01.816 --> 00:01:05.869
 Operations understands how people use and
 clean the equipment.
 
-20
+19
 00:01:06.019 --> 00:01:10.606
 Quality oversight connects decisions to
 the pharmaceutical quality system.
 
-21
+20
 00:01:10.756 --> 00:01:15.321
 Additional expertise may be needed from
 development, microbiology,
 
-22
+21
 00:01:15.471 --> 00:01:18.202
 metrology or information technology.
 
-23
+22
 00:01:18.352 --> 00:01:21.530
 This is a suggested team for the fictional
 project,
 
-24
+23
 00:01:21.680 --> 00:01:24.326
 not a universal organizational chart.
 
-25
+24
 00:01:24.476 --> 00:01:29.084
 Identify who prepares evidence, who
 reviews it and who has authority to
 
-26
+25
 00:01:29.234 --> 00:01:30.706
 approve each decision.
 
-27
+26
 00:01:31.456 --> 00:01:34.549
 Review this handover: the vessel report is
 ready,
 
-28
+27
 00:01:34.699 --> 00:01:39.008
 but the transfer hose has no approved
 cleaning procedure and the utility
 
-29
+28
 00:01:39.158 --> 00:01:41.100
 connection is not identified.
 
-30
+29
 00:01:41.250 --> 00:01:46.007
 Calling the vessel ready for routine use
 would hide unresolved interfaces.
 
-31
+30
 00:01:46.157 --> 00:01:48.482
 Record the gaps and assess their impact.
 
-32
+31
 00:01:48.632 --> 00:01:53.048
 For the activity, draw a boundary and
 assign an owner to each interface.
 
-33
-00:01:53.198 --> 00:01:57.742
+32
+00:01:53.198 --> 00:01:58.977
 A boundary is useful only when work
-outside it has somewhere explicit to
-
-34
-00:01:57.892 --> 00:01:58.977
-go.
+outside it has somewhere explicit to go.

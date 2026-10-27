@@ -26,6 +26,200 @@
     {
       "start": 0,
       "end": 4.224,
+      "text": "Failure mode and effects analysis, often called FMEA,",
+      "scene": 1
+    },
+    {
+      "start": 4.374,
+      "end": 6.081,
+      "text": "can organize a discussion.",
+      "scene": 1
+    },
+    {
+      "start": 6.231,
+      "end": 10.049,
+      "text": "This course uses a fictional three-level scale for severity,",
+      "scene": 1
+    },
+    {
+      "start": 10.199,
+      "end": 12.567,
+      "text": "occurrence and difficulty of detection.",
+      "scene": 1
+    },
+    {
+      "start": 12.717,
+      "end": 17.389,
+      "text": "These numbers are ordinal teaching categories, not measured probabilities.",
+      "scene": 1
+    },
+    {
+      "start": 17.539,
+      "end": 19.971,
+      "text": "They are not official regulatory limits.",
+      "scene": 1
+    },
+    {
+      "start": 20.121,
+      "end": 24.644,
+      "text": "The interactive exercise makes the arithmetic visible while keeping the",
+      "scene": 1
+    },
+    {
+      "start": 24.794,
+      "end": 29.423,
+      "text": "rationale and unresolved high-severity concerns beside the result.",
+      "scene": 1
+    },
+    {
+      "start": 30.173,
+      "end": 34.589,
+      "text": "In this exercise, higher severity means more serious potential harm.",
+      "scene": 2
+    },
+    {
+      "start": 34.739,
+      "end": 39.091,
+      "text": "Higher occurrence means the failure is more plausible given the available",
+      "scene": 2
+    },
+    {
+      "start": 39.241,
+      "end": 40.323,
+      "text": "evidence.",
+      "scene": 2
+    },
+    {
+      "start": 40.473,
+      "end": 44.932,
+      "text": "Higher detection score means it is harder to discover the failure before",
+      "scene": 2
+    },
+    {
+      "start": 45.082,
+      "end": 46.234,
+      "text": "its consequence.",
+      "scene": 2
+    },
+    {
+      "start": 46.384,
+      "end": 51.056,
+      "text": "Real projects need operational definitions tailored to the scenario.",
+      "scene": 2
+    },
+    {
+      "start": 51.206,
+      "end": 54.299,
+      "text": "A team should agree those definitions before scoring.",
+      "scene": 2
+    },
+    {
+      "start": 54.449,
+      "end": 58.865,
+      "text": "The labels lower and higher alone are not sufficient for an approved site",
+      "scene": 2
+    },
+    {
+      "start": 59.015,
+      "end": 60.096,
+      "text": "assessment.",
+      "scene": 2
+    },
+    {
+      "start": 60.846,
+      "end": 64.281,
+      "text": "Multiply three by one by two and the result is six.",
+      "scene": 3
+    },
+    {
+      "start": 64.431,
+      "end": 68.42,
+      "text": "Multiply one by three by two and the result is also six.",
+      "scene": 3
+    },
+    {
+      "start": 68.57,
+      "end": 72.005,
+      "text": "Yet the first scenario has a higher severity category.",
+      "scene": 3
+    },
+    {
+      "start": 72.155,
+      "end": 76.294,
+      "text": "The chart shows equal total scores with different component patterns.",
+      "scene": 3
+    },
+    {
+      "start": 76.444,
+      "end": 81.137,
+      "text": "Equal products do not establish equivalent risk or acceptable controls.",
+      "scene": 3
+    },
+    {
+      "start": 81.287,
+      "end": 86.087,
+      "text": "Review the scenario, severity, uncertainty and control options rather than",
+      "scene": 3
+    },
+    {
+      "start": 86.237,
+      "end": 87.88,
+      "text": "letting one number decide.",
+      "scene": 3
+    },
+    {
+      "start": 88.63,
+      "end": 91.318,
+      "text": "Suppose an independent alarm is proposed.",
+      "scene": 4
+    },
+    {
+      "start": 91.468,
+      "end": 97.156,
+      "text": "Do not lower the detection score merely because the alarm appears on a drawing.",
+      "scene": 4
+    },
+    {
+      "start": 97.306,
+      "end": 100.165,
+      "text": "Determine whether it detects the relevant failure,",
+      "scene": 4
+    },
+    {
+      "start": 100.315,
+      "end": 104.24,
+      "text": "whether someone will respond and whether that response is timely.",
+      "scene": 4
+    },
+    {
+      "start": 104.39,
+      "end": 107.761,
+      "text": "Verify the control and reassess residual risk.",
+      "scene": 4
+    },
+    {
+      "start": 107.911,
+      "end": 112.284,
+      "text": "The activity asks you to compare two scoring rationales and explain which",
+      "scene": 4
+    },
+    {
+      "start": 112.434,
+      "end": 114.12,
+      "text": "assumptions need evidence.",
+      "scene": 4
+    },
+    {
+      "start": 114.27,
+      "end": 117.918,
+      "text": "No score in this lesson automatically authorizes release.",
+      "scene": 4
+    }
+  ],
+  "spoken_cues": [
+    {
+      "start": 0,
+      "end": 4.224,
       "text": "Failure mode and effects analysis, often called F M E A,",
       "scene": 1
     },
@@ -221,5 +415,6 @@
       "text": "No score in this lesson automatically authorizes release.",
       "scene": 4
     }
-  ]
+  ],
+  "display_policy": "Conventional abbreviations and numerals; spoken_cues preserve original synthesized phrases. Short trailing cues merged where two-line/8-second limits allow."
 }

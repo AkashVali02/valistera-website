@@ -1,0 +1,102 @@
+{
+  "candidate": "f1a729edd4804ca6ba08a6718761bd5decd4d998",
+  "date": "2026-10-26",
+  "rows": [
+    {
+      "lesson": 0,
+      "status": 200,
+      "title": "Validation Master Plan, URS and Risk Assessment | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-module-2"
+    },
+    {
+      "lesson": 1,
+      "status": 200,
+      "title": "Plan before you qualify | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-1",
+      "duration": 111.718,
+      "cues": 34,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-1.mp4"
+    },
+    {
+      "lesson": 2,
+      "status": 200,
+      "title": "Build a useful validation master plan | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-2",
+      "duration": 118.63,
+      "cues": 34,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-2.mp4"
+    },
+    {
+      "lesson": 3,
+      "status": 200,
+      "title": "System boundaries and responsibilities | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-3",
+      "duration": 119.727,
+      "cues": 34,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-3.mp4"
+    },
+    {
+      "lesson": 4,
+      "status": 200,
+      "title": "Write testable user requirements | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-4",
+      "duration": 123.2,
+      "cues": 33,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-4.mp4"
+    },
+    {
+      "lesson": 5,
+      "status": 200,
+      "title": "Trace requirements into verification | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-5",
+      "duration": 122.834,
+      "cues": 33,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-5.mp4"
+    },
+    {
+      "lesson": 6,
+      "status": 200,
+      "title": "Ask a precise risk question | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-6",
+      "duration": 118.3,
+      "cues": 35,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-6.mp4"
+    },
+    {
+      "lesson": 7,
+      "status": 200,
+      "title": "Use FMEA without false precision | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-7",
+      "duration": 118.7,
+      "cues": 33,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-7.mp4"
+    },
+    {
+      "lesson": 8,
+      "status": 200,
+      "title": "Turn risk controls into testable actions | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-8",
+      "duration": 122.816,
+      "cues": 38,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-8.mp4"
+    },
+    {
+      "lesson": 9,
+      "status": 200,
+      "title": "Read data before declaring success | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-9",
+      "duration": 119.8,
+      "cues": 32,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-9.mp4"
+    },
+    {
+      "lesson": 10,
+      "status": 200,
+      "title": "Capstone: make a defensible handover decision | ValiStera Academy",
+      "url": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-lesson-2-10",
+      "duration": 120.345,
+      "cues": 35,
+      "source": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/assets/academy/module-2/lesson-10.mp4"
+    }
+  ]
+}

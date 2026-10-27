@@ -1,103 +1,103 @@
 [
   {
-    "question": "Which is the strongest starting point?",
+    "question": "V-201 has a purchase order but no agreed operating range. What should the team do before writing acceptance tests?",
     "options": [
-      "A supplier brochure",
-      "A defined intended use with product context",
-      "A completed signature page"
+      "Use the supplier catalogue range as the process requirement",
+      "Agree intended use and justify the required operating range",
+      "Copy the range from the most recent vessel protocol"
     ],
     "answer": 1,
-    "feedback": "Intended use provides the basis for requirements and evidence; a brochure or signature alone does not."
+    "feedback": "A supplier capability or another project does not establish this process need."
   },
   {
-    "question": "Which record demonstrates what happened during a test?",
+    "question": "A VMP lists protocols but gives no qualification status. Which change best supports the next-stage decision?",
     "options": [
-      "The programme schedule",
-      "The supplier quotation",
-      "The executed record and evaluated report"
+      "Add the equipment list again in an appendix",
+      "Replace status with percentage of budget spent",
+      "Link each system to status, evidence and open actions"
     ],
     "answer": 2,
-    "feedback": "The plan and quotation describe intentions; executed records and the report provide evidence and evaluation."
+    "feedback": "Decision makers need evidence-linked status and remaining work."
   },
   {
-    "question": "Can a non-product-contact sensor affect product quality?",
+    "question": "The jacket utility is outside the vessel boundary. Its availability affects temperature control. What belongs in the plan?",
     "options": [
-      "Yes, through the process it controls",
-      "No, only contact surfaces matter",
-      "Only after a batch fails"
+      "A utility interface owner and relevant qualification evidence",
+      "A statement that all outside-boundary systems are excluded",
+      "A second vessel test without checking utility conditions"
     ],
     "answer": 0,
-    "feedback": "An indirect control pathway can affect quality even without product contact."
+    "feedback": "Define interface dependencies and responsibilities rather than leaving a boundary gap."
   },
   {
-    "question": "A test fails the approved requirement. What is appropriate?",
+    "question": "Which draft requirement can support a defined acceptance test?",
     "options": [
-      "Quietly relax the requirement",
-      "Delete the result",
-      "Document and assess the failure through controlled procedures"
+      "Temperature indication should suit normal manufacturing",
+      "Temperature indication should meet the supplier standard",
+      "At defined reference points, indication error must be within \u00b10.5 \u00b0C"
     ],
     "answer": 2,
-    "feedback": "A failed result needs documented evaluation; a requirement change must be justified and controlled."
+    "feedback": "The last option is measurable, once the fictional basis, points and method are approved; \u00b10.5 \u00b0C is not a general GMP limit."
   },
   {
-    "question": "Does an executed test necessarily mean an accepted requirement?",
+    "question": "The installed sensor differs from the sensor in a passing FAT report. How should URS verification be recorded?",
     "options": [
-      "Yes",
-      "No, results and deviations still need evaluation",
-      "Only if the file is signed by the vendor"
+      "Close it because the display model is unchanged",
+      "Keep it open while applicability and affected tests are assessed",
+      "Close it and schedule calibration after routine use starts"
     ],
     "answer": 1,
-    "feedback": "Execution and acceptance are distinct; evidence must meet criteria and receive the appropriate evaluation."
+    "feedback": "A changed measurement chain needs an applicability assessment and affected verification."
   },
   {
-    "question": "What should come before assigning a risk score?",
+    "question": "An agitator trip may cause non-uniform concentration. Which statement describes a potential patient harm?",
     "options": [
-      "Choosing the lowest category",
-      "Defining the failure scenario and evidence",
-      "Counting signatures"
-    ],
-    "answer": 1,
-    "feedback": "A meaningful score depends on a well-defined scenario and an evidence-based rationale."
-  },
-  {
-    "question": "Two scenarios have the same multiplied score. Are their risks equivalent?",
-    "options": [
-      "Always",
-      "Yes, if the spreadsheet is protected",
-      "Not necessarily; component scores and context matter"
-    ],
-    "answer": 2,
-    "feedback": "Equal products can conceal different severity, uncertainty and control needs."
-  },
-  {
-    "question": "When can a proposed alarm receive credit as an effective control?",
-    "options": [
-      "As soon as it is purchased",
-      "After appropriate effectiveness evidence and evaluation",
-      "Whenever the schedule is late"
-    ],
-    "answer": 1,
-    "feedback": "The control must address the failure and work in context; purchase or proposal alone is insufficient."
-  },
-  {
-    "question": "What can these ten fictional values establish?",
-    "options": [
-      "A descriptive summary for the exercise",
-      "Process capability for routine production",
-      "Regulatory acceptance of the sensor"
+      "A patient receives an incorrect dose with an adverse effect",
+      "A drive fault causes the agitator to stop",
+      "A speed display fails to show the trip"
     ],
     "answer": 0,
-    "feedback": "They support the stated arithmetic exercise, not qualification, capability or regulatory acceptance."
+    "feedback": "Distinguish patient harm from equipment failure and detection failure."
   },
   {
-    "question": "The packet is 90% complete but critical evidence is missing. What follows?",
+    "question": "Two FMEA rows both score 6, but one has severity 3 and the other severity 1. What is defensible?",
     "options": [
-      "Approve because most tasks are done",
-      "Readiness is not demonstrated; evaluate and resolve the gaps",
-      "Ignore the remaining items"
+      "Accept both because equal products mean equal risk",
+      "Prioritize only the row with higher occurrence",
+      "Examine severity, evidence and controls before deciding"
+    ],
+    "answer": 2,
+    "feedback": "An ordinal product can conceal important differences."
+  },
+  {
+    "question": "An alarm and controller share one sensor. Which evidence addresses the claimed protection?",
+    "options": [
+      "A screenshot showing both functions enabled",
+      "A challenge of the shared fault and resulting response",
+      "Separate document numbers for the two functions"
     ],
     "answer": 1,
-    "feedback": "Completion percentage cannot replace evaluation of important unresolved evidence."
+    "feedback": "Functional testing must address the shared dependency, not merely documentation or configuration."
+  },
+  {
+    "question": "A measured error is \u22120.6 \u00b0C and the illustrative absolute limit is 0.5 \u00b0C. What is the numerical result?",
+    "options": [
+      "It exceeds the limit because its magnitude is 0.6 \u00b0C",
+      "It passes because \u22120.6 is less than +0.5",
+      "It passes if the signed average remains positive"
+    ],
+    "answer": 0,
+    "feedback": "Use absolute magnitude for a two-sided error limit; apply the approved uncertainty/decision rule in real testing."
+  },
+  {
+    "question": "Hose cleaning evidence is missing, but a proposed dry simulation never uses the hose. What is the best next step?",
+    "options": [
+      "Approve routine manufacture with a cleaning reminder",
+      "Reject every unrelated project activity automatically",
+      "Assess impact on that simulation and obtain stage authorization"
+    ],
+    "answer": 2,
+    "feedback": "Conditional progression concerns a specific activity and requires justified impact assessment and authorization."
   },
   {
     "question": "Which programme status is most informative?",
@@ -152,9 +152,9 @@
   {
     "question": "An alarm shares the failed sensor used by the controller. What should be examined?",
     "options": [
-      "Whether the dashboard is green",
+      "Whether the two functions have separate names",
       "A possible common-cause failure",
-      "Only the purchase price"
+      "Whether both functions have supplier records"
     ],
     "answer": 1,
     "feedback": "A shared dependency may undermine claimed independence."
@@ -173,18 +173,18 @@
     "question": "How many fictional errors exceed 0.5 \u00b0C?",
     "options": [
       "Zero",
-      "Two",
-      "One"
+      "One",
+      "Two"
     ],
-    "answer": 2,
+    "answer": 1,
     "feedback": "Only 0.6 \u00b0C exceeds the illustrative limit; 0.5 equals it."
   },
   {
     "question": "A new product changes cleaning needs. What is appropriate?",
     "options": [
-      "Keep all previous assumptions unchanged",
+      "Retest mixing only and keep the cleaning basis",
       "Assess scope, requirements, risks and affected evidence",
-      "Change only the project title"
+      "Update cleaning alone and retain the previous scope"
     ],
     "answer": 1,
     "feedback": "The new intended use may affect several linked documents and controls."

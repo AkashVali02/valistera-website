@@ -99,59 +99,51 @@ changes can affect whether a
 result remains applicable.
 
 22
-00:01:18.008 --> 00:01:21.784
+00:01:18.008 --> 00:01:23.449
 Our example is a factory test of an alarm
-that depends on a
+that depends on a site-installed sensor.
 
 23
-00:01:21.934 --> 00:01:23.449
-site-installed sensor.
-
-24
 00:01:23.599 --> 00:01:27.844
 The team must assess what needs
 verification after installation.
 
-25
+24
 00:01:27.994 --> 00:01:32.026
 A supplier signature does not settle that
 question automatically.
 
-26
+25
 00:01:32.776 --> 00:01:36.147
 In the activity, construct five
 traceability rows.
 
-27
+26
 00:01:36.297 --> 00:01:40.627
 Mark the status honestly and identify the
 next action for each gap.
 
-28
+27
 00:01:40.777 --> 00:01:44.660
 A requirement with no test may need a new
 verification method.
 
-29
-00:01:44.810 --> 00:01:50.143
+28
+00:01:44.810 --> 00:01:51.373
 A test with no requirement may reveal an
-undocumented need or unnecessary
+undocumented need or unnecessary work.
 
-30
-00:01:50.293 --> 00:01:51.373
-work.
-
-31
+29
 00:01:51.523 --> 00:01:55.448
 Traceability should support technical
 thinking in both directions.
 
-32
+30
 00:01:55.598 --> 00:01:58.137
 It is a means of exposing missing
 evidence,
 
-33
+31
 00:01:58.287 --> 00:02:02.084
 not a substitute for judging whether that
 evidence is adequate.

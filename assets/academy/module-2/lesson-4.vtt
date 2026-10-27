@@ -40,8 +40,8 @@ application.
 
 9
 00:00:30.301 --> 00:00:34.909
-For our fictional example, requirement U R
-S zero one states that
+For our fictional example, requirement
+URS-01 states that
 
 10
 00:00:35.059 --> 00:00:39.859
@@ -84,74 +84,66 @@ selected operating range, indication error
 must remain within a
 
 18
-00:01:11.291 --> 00:01:15.409
+00:01:11.291 --> 00:01:16.643
 project-defined tolerance when compared
-with a suitable calibrated
+with a suitable calibrated reference.
 
 19
-00:01:15.559 --> 00:01:16.643
-reference.
-
-20
 00:01:16.793 --> 00:01:21.465
 The range and tolerance are not supplied
 here because the process basis is
 
-21
+20
 00:01:21.615 --> 00:01:22.705
 still missing.
 
-22
+21
 00:01:22.855 --> 00:01:26.396
 This is a deliberate unresolved
 requirement, not a pass.
 
-23
+22
 00:01:26.546 --> 00:01:31.240
 The exercise asks you to identify the
 information needed to finalize it
 
-24
+23
 00:01:31.390 --> 00:01:33.182
 before procurement or testing.
 
-25
+24
 00:01:33.932 --> 00:01:38.476
 Requirements evolve as knowledge improves,
 but uncontrolled changes break
 
-26
+25
 00:01:38.626 --> 00:01:39.778
 traceability.
 
-27
+26
 00:01:39.928 --> 00:01:43.938
 If the intended batch range changes,
 assess effects on mixing,
 
-28
+27
 00:01:44.088 --> 00:01:46.499
 measurement, cleaning and verification.
 
-29
+28
 00:01:46.649 --> 00:01:49.956
 Retain the reason for the revision and the
 approval trail.
 
-30
-00:01:50.106 --> 00:01:54.543
+29
+00:01:50.106 --> 00:01:55.783
 Do not silently edit a requirement after a
-failed test to make the
+failed test to make the result pass.
 
-31
-00:01:54.693 --> 00:01:55.783
-result pass.
-
-32
+30
 00:01:55.933 --> 00:01:59.880
 In the activity, rewrite three vague
 statements and clearly mark any
 
-33
+31
 00:02:00.030 --> 00:02:02.440
 assumptions that require resolution.

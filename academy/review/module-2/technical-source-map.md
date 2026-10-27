@@ -23,3 +23,7 @@ Official sources:
 - https://www.who.int/docs/default-source/medicines/norms-and-standards/guidelines/production/trs1019-annex3-gmp-validation.pdf
 
 No GMP/regulatory approval, certification or independent reviewer acceptance is claimed. The final 80% practice target and capstone rubric are educational choices.
+
+
+## 27 October recheck
+See claude-response-2026-10-27.md for exact official references and corrected scopes: Annex 15 §§1–4 and 11; ICH Q9(R1) §7 and Annex I.2–I.3; WHO main-text §§7–10 and 15. The 2026 Annex 15 concept paper is not operative replacement guidance.

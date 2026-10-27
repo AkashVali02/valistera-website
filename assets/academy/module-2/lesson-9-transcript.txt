@@ -2,13 +2,13 @@ ValiStera Academy — Module 2 / Lesson 2.9
 Read data before declaring success
 
 A deliberately small dataset
-The learning dashboard contains ten fictional temperature-indication errors in degrees Celsius: zero point one, zero point two, zero point one, zero point three, zero point two, zero point four, zero point three, zero point five, zero point four and zero point six. They illustrate a time-ordered pattern. They are not calibration data from a real instrument and do not define a pharmaceutical tolerance.
+The learning dashboard contains ten fictional temperature-indication errors in degrees Celsius: 0.1, 0.2, 0.1, 0.3, 0.2, 0.4, 0.3, 0.5, 0.4 and 0.6. They illustrate a time-ordered pattern. They are not calibration data from a real instrument and do not define a pharmaceutical tolerance.
 
 Calculate transparently
-The total is three point one degrees across ten errors, giving a mean error of zero point three one degrees. The range is zero point six minus zero point one, or zero point five degrees. The highest error is zero point six degrees. The chart includes the underlying values in a table so that learners can check the arithmetic without relying on colour or vision. These summaries describe this small dataset only.
+The total is 3.1 °C across ten errors, giving a mean error of 0.31 °C. The range is 0.6 minus 0.1, or 0.5 °C. The highest error is 0.6 °C. The chart includes the underlying values in a table so that learners can check the arithmetic without relying on colour or vision. These summaries describe this small dataset only.
 
 Pass limits are not trend limits
-For arithmetic practice only, set an illustrative absolute-error limit of zero point five degrees. Nine of the ten observations meet that example limit and one does not. The limit is not an official criterion and does not qualify an instrument. The upward pattern also deserves attention even before a limit is exceeded. In a real investigation, examine measurement uncertainty, reference suitability, conditions and data integrity before drawing conclusions.
+For arithmetic practice only, set an illustrative absolute-error limit of 0.5 °C. Nine of the ten observations meet that example limit and one does not. The limit is not an official criterion and does not qualify an instrument. The upward pattern also deserves attention even before a limit is exceeded. In a real investigation, examine measurement uncertainty, reference suitability, conditions and data integrity before drawing conclusions.
 
 Do not infer capability
 Do not calculate a confident capability claim from these ten convenient values. A meaningful analysis requires a suitable study design and understanding of the measurement system and process behaviour. In the activity, change the illustrative limit, observe the count and explain what information is still missing. More green points do not create more knowledge. The purpose is to practice transparent calculation and proportionate interpretation, not to approve a system.

@@ -26,6 +26,200 @@
     {
       "start": 0,
       "end": 3.307,
+      "text": "You are reviewing the fictional V-201 handover.",
+      "scene": 1
+    },
+    {
+      "start": 3.457,
+      "end": 7.958,
+      "text": "The intended use is documented and the material records are available.",
+      "scene": 1
+    },
+    {
+      "start": 8.108,
+      "end": 12.012,
+      "text": "However, the required mixing range has not been finalized,",
+      "scene": 1
+    },
+    {
+      "start": 12.162,
+      "end": 16.749,
+      "text": "the transfer-hose cleaning evidence is missing and the alarm response has",
+      "scene": 1
+    },
+    {
+      "start": 16.899,
+      "end": 18.221,
+      "text": "not been verified.",
+      "scene": 1
+    },
+    {
+      "start": 18.371,
+      "end": 20.64,
+      "text": "A dashboard says 90% complete.",
+      "scene": 1
+    },
+    {
+      "start": 20.79,
+      "end": 23.968,
+      "text": "Your task is to decide what the evidence supports,",
+      "scene": 1
+    },
+    {
+      "start": 24.119,
+      "end": 26.764,
+      "text": "not to maximize the completion percentage.",
+      "scene": 1
+    },
+    {
+      "start": 27.514,
+      "end": 30.138,
+      "text": "A percentage can be useful for scheduling,",
+      "scene": 2
+    },
+    {
+      "start": 30.288,
+      "end": 34.192,
+      "text": "but it treats unlike activities as if they were interchangeable.",
+      "scene": 2
+    },
+    {
+      "start": 34.342,
+      "end": 38.928,
+      "text": "Finishing several minor tasks does not offset an unresolved requirement",
+      "scene": 2
+    },
+    {
+      "start": 39.078,
+      "end": 40.828,
+      "text": "that affects product quality.",
+      "scene": 2
+    },
+    {
+      "start": 40.978,
+      "end": 45.074,
+      "text": "The visual compares a large completion bar with three named gaps.",
+      "scene": 2
+    },
+    {
+      "start": 45.224,
+      "end": 50.852,
+      "text": "Read the gaps directly: mixing range, cleaning evidence and alarm response.",
+      "scene": 2
+    },
+    {
+      "start": 51.002,
+      "end": 55.845,
+      "text": "Their significance must be evaluated individually in the context of the",
+      "scene": 2
+    },
+    {
+      "start": 55.995,
+      "end": 57.147,
+      "text": "intended use.",
+      "scene": 2
+    },
+    {
+      "start": 57.897,
+      "end": 61.95,
+      "text": "For this exercise, routine-use readiness is not demonstrated.",
+      "scene": 3
+    },
+    {
+      "start": 62.1,
+      "end": 65.449,
+      "text": "State that conclusion, identify the missing evidence,",
+      "scene": 3
+    },
+    {
+      "start": 65.599,
+      "end": 69.866,
+      "text": "assign owners and define what must be reviewed before a new decision.",
+      "scene": 3
+    },
+    {
+      "start": 70.016,
+      "end": 73.728,
+      "text": "If a project proposes progression to a limited next stage,",
+      "scene": 3
+    },
+    {
+      "start": 73.878,
+      "end": 78.23,
+      "text": "assess that specific activity and its dependencies separately through the",
+      "scene": 3
+    },
+    {
+      "start": 78.38,
+      "end": 79.596,
+      "text": "approved system.",
+      "scene": 3
+    },
+    {
+      "start": 79.746,
+      "end": 85.058,
+      "text": "Do not describe conditional progression as general permission for production.",
+      "scene": 3
+    },
+    {
+      "start": 85.208,
+      "end": 88.579,
+      "text": "The scope of an authorization must be unambiguous.",
+      "scene": 3
+    },
+    {
+      "start": 89.329,
+      "end": 93.297,
+      "text": "Complete the workbook and final assessment, then compare your capstone",
+      "scene": 4
+    },
+    {
+      "start": 93.447,
+      "end": 94.855,
+      "text": "with the model reasoning.",
+      "scene": 4
+    },
+    {
+      "start": 95.005,
+      "end": 98.78,
+      "text": "You should now be able to explain the purpose of the programme plan,",
+      "scene": 4
+    },
+    {
+      "start": 98.93,
+      "end": 103.303,
+      "text": "draft testable requirements, connect them to evidence and discuss risk",
+      "scene": 4
+    },
+    {
+      "start": 103.453,
+      "end": 105.266,
+      "text": "without hiding behind scores.",
+      "scene": 4
+    },
+    {
+      "start": 105.416,
+      "end": 111.657,
+      "text": "These self-study results are not a formal qualification or competency record.",
+      "scene": 4
+    },
+    {
+      "start": 111.807,
+      "end": 115.839,
+      "text": "Apply the method with qualified colleagues, current requirements and",
+      "scene": 4
+    },
+    {
+      "start": 115.989,
+      "end": 119.595,
+      "text": "approved site procedures when working on a real project.",
+      "scene": 4
+    }
+  ],
+  "spoken_cues": [
+    {
+      "start": 0,
+      "end": 3.307,
       "text": "You are reviewing the fictional V two zero one handover.",
       "scene": 1
     },
@@ -233,5 +427,6 @@
       "text": "approved site procedures when working on a real project.",
       "scene": 4
     }
-  ]
+  ],
+  "display_policy": "Conventional abbreviations and numerals; spoken_cues preserve original synthesized phrases. Short trailing cues merged where two-line/8-second limits allow."
 }

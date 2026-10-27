@@ -7,18 +7,15 @@ fictional temperature-indication
 
 2
 00:00:04.353 --> 00:00:09.793
-errors in degrees Celsius: zero point one,
-zero point two, zero point one,
+errors in degrees Celsius: 0.1, 0.2, 0.1,
 
 3
 00:00:09.943 --> 00:00:14.679
-zero point three, zero point two, zero
-point four, zero point three,
+0.3, 0.2, 0.4, 0.3,
 
 4
 00:00:14.829 --> 00:00:18.519
-zero point five, zero point four and zero
-point six.
+0.5, 0.4 and 0.6.
 
 5
 00:00:18.669 --> 00:00:20.829
@@ -35,27 +32,23 @@ a pharmaceutical tolerance.
 
 8
 00:00:27.810 --> 00:00:30.860
-The total is three point one degrees
-across ten errors,
+The total is 3.1 °C across ten errors,
 
 9
 00:00:31.010 --> 00:00:34.103
-giving a mean error of zero point three
-one degrees.
+giving a mean error of 0.31 °C.
 
 10
 00:00:34.253 --> 00:00:37.858
-The range is zero point six minus zero
-point one,
+The range is 0.6 minus 0.1,
 
 11
 00:00:38.008 --> 00:00:39.950
-or zero point five degrees.
+or 0.5 °C.
 
 12
 00:00:40.100 --> 00:00:42.937
-The highest error is zero point six
-degrees.
+The highest error is 0.6 °C.
 
 13
 00:00:43.087 --> 00:00:47.631
@@ -79,7 +72,7 @@ illustrative absolute-error limit of
 
 17
 00:01:00.287 --> 00:01:02.079
-zero point five degrees.
+0.5 °C.
 
 18
 00:01:02.229 --> 00:01:06.944
@@ -92,63 +85,55 @@ The limit is not an official criterion and
 does not qualify an instrument.
 
 20
-00:01:11.958 --> 00:01:16.502
+00:01:11.958 --> 00:01:17.738
 The upward pattern also deserves attention
-even before a limit is
+even before a limit is exceeded.
 
 21
-00:01:16.652 --> 00:01:17.738
-exceeded.
-
-22
 00:01:17.888 --> 00:01:22.411
 In a real investigation, examine
 measurement uncertainty, reference
 
-23
+22
 00:01:22.561 --> 00:01:27.190
 suitability, conditions and data integrity
 before drawing conclusions.
 
-24
-00:01:27.940 --> 00:01:32.761
+23
+00:01:27.940 --> 00:01:33.993
 Do not calculate a confident capability
-claim from these ten convenient
+claim from these ten convenient values.
 
-25
-00:01:32.911 --> 00:01:33.993
-values.
-
-26
+24
 00:01:34.143 --> 00:01:39.221
 A meaningful analysis requires a suitable
 study design and understanding
 
-27
+25
 00:01:39.371 --> 00:01:42.144
 of the measurement system and process
 behaviour.
 
-28
+26
 00:01:42.294 --> 00:01:45.089
 In the activity, change the illustrative
 limit,
 
-29
+27
 00:01:45.239 --> 00:01:48.865
 observe the count and explain what
 information is still missing.
 
-30
+28
 00:01:49.015 --> 00:01:51.682
 More green points do not create more
 knowledge.
 
-31
+29
 00:01:51.832 --> 00:01:56.141
 The purpose is to practice transparent
 calculation and proportionate
 
-32
+30
 00:01:56.291 --> 00:01:59.043
 interpretation, not to approve a system.
