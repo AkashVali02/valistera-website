@@ -34,10 +34,10 @@
     "options": [
       "Temperature indication should suit normal manufacturing",
       "Temperature indication should meet the supplier standard",
-      "At defined reference points, indication error must be within \u00b10.5 \u00b0C"
+      "At defined reference points, indication error must be within ±0.5 °C"
     ],
     "answer": 2,
-    "feedback": "The last option is measurable, once the fictional basis, points and method are approved; \u00b10.5 \u00b0C is not a general GMP limit."
+    "feedback": "The last option is measurable, once the fictional basis, points and method are approved; ±0.5 °C is not a general GMP limit."
   },
   {
     "question": "The installed sensor differs from the sensor in a passing FAT report. How should URS verification be recorded?",
@@ -80,10 +80,10 @@
     "feedback": "Functional testing must address the shared dependency, not merely documentation or configuration."
   },
   {
-    "question": "A measured error is \u22120.6 \u00b0C and the illustrative absolute limit is 0.5 \u00b0C. What is the numerical result?",
+    "question": "A measured error is −0.6 °C and the illustrative absolute limit is 0.5 °C. What is the numerical result?",
     "options": [
-      "It exceeds the limit because its magnitude is 0.6 \u00b0C",
-      "It passes because \u22120.6 is less than +0.5",
+      "It exceeds the limit because its magnitude is 0.6 °C",
+      "It passes because −0.6 is less than +0.5",
       "It passes if the signed average remains positive"
     ],
     "answer": 0,
@@ -100,84 +100,84 @@
     "feedback": "Conditional progression concerns a specific activity and requires justified impact assessment and authorization."
   },
   {
-    "question": "Which programme status is most informative?",
+    "question": "The URS was revised after DQ approval. Which status is most defensible?",
     "options": [
-      "Complete, with no evidence link",
-      "Design review pending, with owner and document reference",
-      "Green because the deadline arrived"
+      "DQ remains approved without further action if the drawing is unchanged",
+      "Document the URS change impact and reassess affected DQ evidence before relying on its status",
+      "Repeat PQ immediately without reviewing the design"
     ],
     "answer": 1,
-    "feedback": "A specific status and evidence reference expose remaining work."
+    "feedback": "A change to user requirements can affect the design qualification basis."
   },
   {
-    "question": "A utility sits outside the vessel boundary. What is needed?",
+    "question": "The jacket utility is qualified, but its supply conditions differ from the vessel design assumptions. What is needed?",
     "options": [
-      "Nothing further",
-      "A claim that vessel qualification covers it",
-      "An interface owner and relevant utility evidence"
-    ],
-    "answer": 2,
-    "feedback": "The boundary must not create a gap in responsibility or evidence."
-  },
-  {
-    "question": "Which requirement is still unresolved?",
-    "options": [
-      "A defined need with approved acceptance basis",
-      "A temperature tolerance awaiting process justification",
-      "An installed-material requirement with verified records"
-    ],
-    "answer": 1,
-    "feedback": "Missing process justification must be resolved; the statement is not ready for acceptance testing."
-  },
-  {
-    "question": "Can supplier evidence be reused without checking configuration?",
-    "options": [
-      "No; assess applicability and integrity",
-      "Yes; supplier signatures suffice",
-      "Yes; all factory tests replace site tests"
+      "Assess interface compatibility and affected verification",
+      "Treat utility qualification alone as sufficient for the vessel",
+      "Retest the vessel nameplate only"
     ],
     "answer": 0,
-    "feedback": "Configuration and transport/installation effects can change applicability."
+    "feedback": "Qualification of a supplying system does not establish its suitability for every receiving interface."
   },
   {
-    "question": "What does higher detection score mean in this exercise?",
+    "question": "Draft PB-02 proposes ±0.5 °C but the base project has no approved temperature tolerance. What is URS-02 status?",
     "options": [
-      "Easier detection",
-      "More serious harm",
-      "Harder detection before the consequence"
+      "Verified because a worked example states a number",
+      "Ready for execution because a supplier offers that accuracy",
+      "Pending justification and approval of the acceptance basis"
     ],
     "answer": 2,
-    "feedback": "This teaching scale uses higher values for greater detection difficulty; scales must be defined."
+    "feedback": "Teaching assumptions cannot replace authorized project requirements."
   },
   {
-    "question": "An alarm shares the failed sensor used by the controller. What should be examined?",
+    "question": "A supplier FAT passed, but the installed controller firmware differs. Which decision is defensible?",
     "options": [
-      "Whether the two functions have separate names",
-      "A possible common-cause failure",
-      "Whether both functions have supplier records"
+      "Accept all FAT results because the hardware matches",
+      "Assess the firmware change, applicability of supplier evidence and affected site tests",
+      "Reject all supplier evidence regardless of relevance"
     ],
     "answer": 1,
-    "feedback": "A shared dependency may undermine claimed independence."
+    "feedback": "Supplier results require documented applicability to the installed configuration."
+  },
+  {
+    "question": "An FMEA detection score is reduced after an alarm is proposed but not challenged. What is the issue?",
+    "options": [
+      "Control effectiveness has not been demonstrated to support the revised score",
+      "Documenting the proposed alarm is sufficient evidence",
+      "Severity must decrease whenever detection improves"
+    ],
+    "answer": 0,
+    "feedback": "Residual risk scoring should follow evidence of effectiveness, not an untested proposal."
+  },
+  {
+    "question": "An independent low-speed detector is proposed for the agitator. Which verification best supports independence?",
+    "options": [
+      "Confirm both detectors are listed in the drawing",
+      "Verify only the normal speed indication",
+      "Challenge primary-sensor failure and verify independent detection and transfer inhibition"
+    ],
+    "answer": 2,
+    "feedback": "The verification should challenge the common-cause scenario and protective response."
   },
   {
     "question": "What is the mean of the ten fictional errors?",
     "options": [
-      "0.31 \u00b0C",
-      "0.50 \u00b0C",
-      "0.60 \u00b0C"
+      "0.31 °C",
+      "0.50 °C",
+      "0.60 °C"
     ],
     "answer": 0,
-    "feedback": "Their sum is 3.1 \u00b0C; divided by ten gives 0.31 \u00b0C."
+    "feedback": "Their sum is 3.1 °C; divided by ten gives 0.31 °C."
   },
   {
-    "question": "How many fictional errors exceed 0.5 \u00b0C?",
+    "question": "How many fictional errors exceed 0.5 °C?",
     "options": [
       "Zero",
       "One",
       "Two"
     ],
     "answer": 1,
-    "feedback": "Only 0.6 \u00b0C exceeds the illustrative limit; 0.5 equals it."
+    "feedback": "Only 0.6 °C exceeds the illustrative limit; 0.5 equals it."
   },
   {
     "question": "A new product changes cleaning needs. What is appropriate?",
