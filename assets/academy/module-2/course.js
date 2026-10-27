@@ -22,6 +22,17 @@ document.getElementById('clear-progress').addEventListener('click',()=>{state={e
 const load=document.getElementById('load-media'),video=document.getElementById('video'),mediaStatus=document.getElementById('media-status');
 if(load&&video){
  load.addEventListener('click',()=>{load.hidden=true;video.hidden=false;video.src=video.dataset.src;video.preload='metadata';video.load();mediaStatus.textContent='Starting lesson…';video.focus();video.play().catch(()=>{if(!video.error)mediaStatus.textContent='Use the player’s play button to continue.';});});
+ const captionsButton=document.getElementById('toggle-captions');
+ const captionsStatus=document.getElementById('caption-status');
+ if(captionsButton){
+  let captionsOn=true;
+  const applyCaptions=()=>{for(const track of video.textTracks)if(track.kind==='captions'||track.kind==='subtitles')track.mode=captionsOn?'showing':'disabled';captionsButton.setAttribute('aria-pressed',String(captionsOn));captionsButton.textContent='Subtitles: '+(captionsOn?'On':'Off');if(captionsStatus)captionsStatus.textContent=captionsOn?'English subtitles enabled.':'English subtitles disabled.';};
+  captionsButton.addEventListener('click',()=>{captionsOn=!captionsOn;applyCaptions();});
+  video.addEventListener('loadedmetadata',applyCaptions);
+  video.addEventListener('loadeddata',applyCaptions);
+  video.querySelector('track')?.addEventListener('load',applyCaptions);
+  load.addEventListener('click',()=>{captionsButton.hidden=false;applyCaptions();});
+ }
  video.addEventListener('playing',()=>{mediaStatus.textContent='';});
  video.addEventListener('error',()=>{mediaStatus.textContent='Video unavailable. Retry or read the complete lesson below.';load.querySelector('.academy-play-label').textContent='Retry lesson';load.setAttribute('aria-label','Retry lesson video');load.hidden=false;video.hidden=true;if(document.activeElement===video)load.focus();});
 }
