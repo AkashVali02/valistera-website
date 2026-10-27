@@ -41,7 +41,7 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
   check('Lesson '+i+' native playback',true);
   const info=await page.locator('video').evaluate(v=>({duration:v.duration,cues:v.textTracks[0]?.cues?.length||0,source:v.currentSrc}));
   check('Lesson '+i+' captions loaded',info.cues>0,info);
-  await page.locator('#lesson-seek').fill('65');
+  await page.locator('#lesson-seek').fill('65');await page.locator('#lesson-seek').dispatchEvent('change');await page.waitForTimeout(250);
   check('Lesson '+i+' seek position',await page.locator('video').evaluate(v=>Math.abs(v.currentTime/v.duration-.65)<.04));
   await page.locator('#toggle-captions').click();
   check('Lesson '+i+' captions off',await page.locator('#toggle-captions').getAttribute('aria-pressed')==='false');
