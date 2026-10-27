@@ -2,6 +2,7 @@ name: Module 2 preview browser QA
 on:
   push:
     branches: [academy-player-preview]
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
@@ -22,6 +23,12 @@ jobs:
         run: |
           python3 -m http.server 8092 --bind 127.0.0.1 > /tmp/module2-http.log 2>&1 &
           sleep 3
+      - name: Diagnose browser and media environment
+        run: |
+          node --version
+          python3 --version
+          ls -lh academy-lesson-2-1.html assets/academy/module-2/lesson-1.mp4 node_modules/axe-core/axe.min.js
+          curl --fail --silent --show-error --head http://127.0.0.1:8092/academy-lesson-2-1.html
       - name: Run browser accessibility and media checks
         env:
           PLAYWRIGHT_MODULE: playwright
