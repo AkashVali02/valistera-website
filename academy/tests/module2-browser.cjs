@@ -10,6 +10,7 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
  process.on('unhandledRejection',e=>{result.failures.push(String(e));persist();process.exit(1)});
  const check=(name,pass,detail)=>{result.checks.push({name,pass,...(detail?{detail}:{})});if(!pass)result.failures.push(name);persist()};
  const context=await browser.newContext({viewport:{width:390,height:844}});
+
  const page=await context.newPage();let external=[];page.on('request',r=>{if(!r.url().startsWith(BASE))external.push(r.url())});
  const names=['academy-module-2.html','academy-module-2-workbook.html','academy-module-2-assessment.html','academy-module-2-sources.html','academy-module-2-review.html',...Array.from({length:10},(_,i)=>`academy-lesson-2-${i+1}.html`)];
  for(const name of names){
@@ -56,6 +57,18 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
   await page.locator('#toggle-captions').click();
   check('Lesson '+i+' captions on',await page.locator('#toggle-captions').getAttribute('aria-pressed')==='true');
   await page.locator('video').evaluate(v=>v.pause());
+  await page.locator('video').hover();
+  const session=await context.newCDPSession(page);await session.send('DOM.enable');
+  for(const fraction of [.25,.75]){
+   const doc=await session.send('DOM.getDocument',{depth:-1,pierce:true});
+   const find=n=>n.attributes?.includes('-webkit-media-controls-timeline')?n:[...(n.children||[]),...(n.shadowRoots||[])].map(find).find(Boolean);
+   const timeline=find(doc.root);if(!timeline)throw Error('Native timeline unavailable');
+   const {model}=await session.send('DOM.getBoxModel',{nodeId:timeline.nodeId});const box=model.content;
+   await page.mouse.click(box[0]+(box[2]-box[0])*fraction,(box[1]+box[5])/2);
+   await page.waitForFunction(f=>{const v=document.querySelector('video');return !v.seeking&&Math.abs(v.currentTime/v.duration-f)<.06},fraction,{timeout:15000});
+   check('Lesson '+i+' native timeline pointer '+fraction,true,{actualSeconds:await page.locator('video').evaluate(v=>v.currentTime),duration:info.duration});
+  }
+  await session.detach();
   const answer=await page.locator('fieldset').getAttribute('data-answer');
   await page.locator(`input[type=radio][value="${answer}"]`).check();await page.locator('form button').click();
   check('Lesson '+i+' correct answer feedback',(await page.locator('.quiz-result').innerText()).includes('1/1'));
