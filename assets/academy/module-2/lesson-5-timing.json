@@ -1,0 +1,414 @@
+{
+  "duration": 122.83429166666666,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 30.722,
+      "title": "Build a traceability chain"
+    },
+    {
+      "start": 30.722,
+      "end": 60.298,
+      "title": "Distinguish planned and verified"
+    },
+    {
+      "start": 60.298,
+      "end": 92.776,
+      "title": "Supplier evidence needs context"
+    },
+    {
+      "start": 92.776,
+      "end": 122.834,
+      "title": "Close the gaps"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.992,
+      "text": "A traceability matrix is a practical teaching tool for connecting needs to",
+      "scene": 1
+    },
+    {
+      "start": 5.142,
+      "end": 6.224,
+      "text": "evidence.",
+      "scene": 1
+    },
+    {
+      "start": 6.374,
+      "end": 10.598,
+      "text": "Each row links a requirement to its design response, relevant risk",
+      "scene": 1
+    },
+    {
+      "start": 10.748,
+      "end": 13.649,
+      "text": "control, verification activity and result.",
+      "scene": 1
+    },
+    {
+      "start": 13.799,
+      "end": 18.301,
+      "text": "A check mark is not enough if the underlying record cannot be located.",
+      "scene": 1
+    },
+    {
+      "start": 18.451,
+      "end": 22.952,
+      "text": "For our vessel, the product-contact-material requirement links to a design",
+      "scene": 1
+    },
+    {
+      "start": 23.102,
+      "end": 27.667,
+      "text": "specification, installed material records and the review that confirms",
+      "scene": 1
+    },
+    {
+      "start": 27.817,
+      "end": 29.972,
+      "text": "suitability for the intended use.",
+      "scene": 1
+    },
+    {
+      "start": 30.722,
+      "end": 32.834,
+      "text": "The three cards show different states.",
+      "scene": 2
+    },
+    {
+      "start": 32.984,
+      "end": 36.376,
+      "text": "A planned test has an approved method but no result.",
+      "scene": 2
+    },
+    {
+      "start": 36.526,
+      "end": 40.857,
+      "text": "An executed test has observations, which may include a failure.",
+      "scene": 2
+    },
+    {
+      "start": 41.007,
+      "end": 46.084,
+      "text": "An accepted result has been evaluated against the applicable criteria with",
+      "scene": 2
+    },
+    {
+      "start": 46.234,
+      "end": 48.623,
+      "text": "deviations addressed appropriately.",
+      "scene": 2
+    },
+    {
+      "start": 48.773,
+      "end": 52.699,
+      "text": "Keeping these states separate prevents a dashboard from showing green",
+      "scene": 2
+    },
+    {
+      "start": 52.849,
+      "end": 55.302,
+      "text": "simply because someone uploaded a file.",
+      "scene": 2
+    },
+    {
+      "start": 55.452,
+      "end": 59.548,
+      "text": "The evidence must answer the requirement, not merely share its title.",
+      "scene": 2
+    },
+    {
+      "start": 60.298,
+      "end": 64.074,
+      "text": "A supplier may provide useful testing and design records.",
+      "scene": 3
+    },
+    {
+      "start": 64.224,
+      "end": 67.403,
+      "text": "Review whether they apply to the purchased configuration,",
+      "scene": 3
+    },
+    {
+      "start": 67.553,
+      "end": 70.923,
+      "text": "use appropriate methods and preserve reliable data.",
+      "scene": 3
+    },
+    {
+      "start": 71.073,
+      "end": 75.895,
+      "text": "Transport, installation or configuration changes can affect whether a",
+      "scene": 3
+    },
+    {
+      "start": 76.045,
+      "end": 77.858,
+      "text": "result remains applicable.",
+      "scene": 3
+    },
+    {
+      "start": 78.008,
+      "end": 83.449,
+      "text": "Our example is a factory test of an alarm that depends on a site-installed sensor.",
+      "scene": 3
+    },
+    {
+      "start": 83.599,
+      "end": 87.844,
+      "text": "The team must assess what needs verification after installation.",
+      "scene": 3
+    },
+    {
+      "start": 87.994,
+      "end": 92.026,
+      "text": "A supplier signature does not settle that question automatically.",
+      "scene": 3
+    },
+    {
+      "start": 92.776,
+      "end": 96.147,
+      "text": "In the activity, construct five traceability rows.",
+      "scene": 4
+    },
+    {
+      "start": 96.297,
+      "end": 100.627,
+      "text": "Mark the status honestly and identify the next action for each gap.",
+      "scene": 4
+    },
+    {
+      "start": 100.777,
+      "end": 104.66,
+      "text": "A requirement with no test may need a new verification method.",
+      "scene": 4
+    },
+    {
+      "start": 104.81,
+      "end": 111.373,
+      "text": "A test with no requirement may reveal an undocumented need or unnecessary work.",
+      "scene": 4
+    },
+    {
+      "start": 111.523,
+      "end": 115.448,
+      "text": "Traceability should support technical thinking in both directions.",
+      "scene": 4
+    },
+    {
+      "start": 115.598,
+      "end": 118.137,
+      "text": "It is a means of exposing missing evidence,",
+      "scene": 4
+    },
+    {
+      "start": 118.287,
+      "end": 122.084,
+      "text": "not a substitute for judging whether that evidence is adequate.",
+      "scene": 4
+    }
+  ],
+  "spoken_cues": [
+    {
+      "start": 0,
+      "end": 4.992,
+      "text": "A traceability matrix is a practical teaching tool for connecting needs to",
+      "scene": 1
+    },
+    {
+      "start": 5.142,
+      "end": 6.224,
+      "text": "evidence.",
+      "scene": 1
+    },
+    {
+      "start": 6.374,
+      "end": 10.598,
+      "text": "Each row links a requirement to its design response, relevant risk",
+      "scene": 1
+    },
+    {
+      "start": 10.748,
+      "end": 13.649,
+      "text": "control, verification activity and result.",
+      "scene": 1
+    },
+    {
+      "start": 13.799,
+      "end": 18.301,
+      "text": "A check mark is not enough if the underlying record cannot be located.",
+      "scene": 1
+    },
+    {
+      "start": 18.451,
+      "end": 22.952,
+      "text": "For our vessel, the product-contact-material requirement links to a design",
+      "scene": 1
+    },
+    {
+      "start": 23.102,
+      "end": 27.667,
+      "text": "specification, installed material records and the review that confirms",
+      "scene": 1
+    },
+    {
+      "start": 27.817,
+      "end": 29.972,
+      "text": "suitability for the intended use.",
+      "scene": 1
+    },
+    {
+      "start": 30.722,
+      "end": 32.834,
+      "text": "The three cards show different states.",
+      "scene": 2
+    },
+    {
+      "start": 32.984,
+      "end": 36.376,
+      "text": "A planned test has an approved method but no result.",
+      "scene": 2
+    },
+    {
+      "start": 36.526,
+      "end": 40.857,
+      "text": "An executed test has observations, which may include a failure.",
+      "scene": 2
+    },
+    {
+      "start": 41.007,
+      "end": 46.084,
+      "text": "An accepted result has been evaluated against the applicable criteria with",
+      "scene": 2
+    },
+    {
+      "start": 46.234,
+      "end": 48.623,
+      "text": "deviations addressed appropriately.",
+      "scene": 2
+    },
+    {
+      "start": 48.773,
+      "end": 52.699,
+      "text": "Keeping these states separate prevents a dashboard from showing green",
+      "scene": 2
+    },
+    {
+      "start": 52.849,
+      "end": 55.302,
+      "text": "simply because someone uploaded a file.",
+      "scene": 2
+    },
+    {
+      "start": 55.452,
+      "end": 59.548,
+      "text": "The evidence must answer the requirement, not merely share its title.",
+      "scene": 2
+    },
+    {
+      "start": 60.298,
+      "end": 64.074,
+      "text": "A supplier may provide useful testing and design records.",
+      "scene": 3
+    },
+    {
+      "start": 64.224,
+      "end": 67.403,
+      "text": "Review whether they apply to the purchased configuration,",
+      "scene": 3
+    },
+    {
+      "start": 67.553,
+      "end": 70.923,
+      "text": "use appropriate methods and preserve reliable data.",
+      "scene": 3
+    },
+    {
+      "start": 71.073,
+      "end": 75.895,
+      "text": "Transport, installation or configuration changes can affect whether a",
+      "scene": 3
+    },
+    {
+      "start": 76.045,
+      "end": 77.858,
+      "text": "result remains applicable.",
+      "scene": 3
+    },
+    {
+      "start": 78.008,
+      "end": 81.784,
+      "text": "Our example is a factory test of an alarm that depends on a",
+      "scene": 3
+    },
+    {
+      "start": 81.934,
+      "end": 83.449,
+      "text": "site-installed sensor.",
+      "scene": 3
+    },
+    {
+      "start": 83.599,
+      "end": 87.844,
+      "text": "The team must assess what needs verification after installation.",
+      "scene": 3
+    },
+    {
+      "start": 87.994,
+      "end": 92.026,
+      "text": "A supplier signature does not settle that question automatically.",
+      "scene": 3
+    },
+    {
+      "start": 92.776,
+      "end": 96.147,
+      "text": "In the activity, construct five traceability rows.",
+      "scene": 4
+    },
+    {
+      "start": 96.297,
+      "end": 100.627,
+      "text": "Mark the status honestly and identify the next action for each gap.",
+      "scene": 4
+    },
+    {
+      "start": 100.777,
+      "end": 104.66,
+      "text": "A requirement with no test may need a new verification method.",
+      "scene": 4
+    },
+    {
+      "start": 104.81,
+      "end": 110.143,
+      "text": "A test with no requirement may reveal an undocumented need or unnecessary",
+      "scene": 4
+    },
+    {
+      "start": 110.293,
+      "end": 111.373,
+      "text": "work.",
+      "scene": 4
+    },
+    {
+      "start": 111.523,
+      "end": 115.448,
+      "text": "Traceability should support technical thinking in both directions.",
+      "scene": 4
+    },
+    {
+      "start": 115.598,
+      "end": 118.137,
+      "text": "It is a means of exposing missing evidence,",
+      "scene": 4
+    },
+    {
+      "start": 118.287,
+      "end": 122.084,
+      "text": "not a substitute for judging whether that evidence is adequate.",
+      "scene": 4
+    }
+  ],
+  "display_policy": "Conventional abbreviations and numerals; spoken_cues preserve original synthesized phrases. Short trailing cues merged where two-line/8-second limits allow."
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "question": "V-201 has a purchase order but no agreed operating range. What should the team do before writing acceptance tests?",
+    "options": [
+      "Use the supplier catalogue range as the process requirement",
+      "Agree intended use and justify the required operating range",
+      "Copy the range from the most recent vessel protocol"
+    ],
+    "answer": 1,
+    "feedback": "A supplier capability or another project does not establish this process need."
+  },
+  {
+    "question": "A VMP lists protocols but gives no qualification status. Which change best supports the next-stage decision?",
+    "options": [
+      "Repeat the equipment inventory without recording qualification status",
+      "Replace qualification status with the percentage of budget spent",
+      "Link system status to evidence and outstanding actions"
+    ],
+    "answer": 2,
+    "feedback": "Decision makers need evidence-linked status and remaining work."
+  },
+  {
+    "question": "The jacket utility is outside the vessel boundary. Its availability affects temperature control. What belongs in the plan?",
+    "options": [
+      "A utility interface owner and relevant qualification evidence",
+      "A statement that all outside-boundary systems are excluded",
+      "A second vessel test without checking utility conditions"
+    ],
+    "answer": 0,
+    "feedback": "Define interface dependencies and responsibilities rather than leaving a boundary gap."
+  },
+  {
+    "question": "For the separate PB-02 teaching assumption (provisional \u00b10.5 \u00b0C, still requiring justification and approval), which draft requirement is measurable?",
+    "options": [
+      "Indication shall remain suitable throughout the stated operating range",
+      "Indication shall comply with the supplier standard at all operating points",
+      "Error shall stay within \u00b10.5 \u00b0C at defined reference points"
+    ],
+    "answer": 2,
+    "feedback": "The last option is measurable, once the fictional basis, points and method are approved; \u00b10.5 \u00b0C is not a general GMP limit."
+  },
+  {
+    "question": "The installed sensor differs from the sensor in a passing FAT report. How should URS verification be recorded?",
+    "options": [
+      "Close it because the display model is unchanged",
+      "Keep it open while applicability and affected tests are assessed",
+      "Close it and schedule calibration after routine use starts"
+    ],
+    "answer": 1,
+    "feedback": "A changed measurement chain needs an applicability assessment and affected verification."
+  },
+  {
+    "question": "An agitator trip may cause non-uniform concentration. Which statement describes a potential patient harm?",
+    "options": [
+      "An incorrect dose produces an adverse patient effect",
+      "A drive fault stops mixing during the manufacturing step",
+      "The speed display misses the trip during the batch"
+    ],
+    "answer": 0,
+    "feedback": "Distinguish patient harm from equipment failure and detection failure."
+  },
+  {
+    "question": "Two FMEA rows both score 6, but one has severity 3 and the other severity 1. What is defensible?",
+    "options": [
+      "Accept both because equal products mean equal risk",
+      "Prioritize only the row with higher occurrence",
+      "Examine severity, evidence and controls before deciding"
+    ],
+    "answer": 2,
+    "feedback": "An ordinal product can conceal important differences."
+  },
+  {
+    "question": "An alarm and controller share one sensor. Which evidence addresses the claimed protection?",
+    "options": [
+      "A screenshot showing both functions enabled",
+      "A challenge of the shared fault and resulting response",
+      "Separate document numbers for the two functions"
+    ],
+    "answer": 1,
+    "feedback": "Functional testing must address the shared dependency, not merely documentation or configuration."
+  },
+  {
+    "question": "A measured error is \u22120.6 \u00b0C and the illustrative absolute limit is 0.5 \u00b0C. What is the numerical result?",
+    "options": [
+      "Exceeds: its magnitude is greater than 0.5 \u00b0C",
+      "Passes: its signed value is below +0.5 \u00b0C",
+      "Passes: the positive signed mean offsets this error"
+    ],
+    "answer": 0,
+    "feedback": "Use absolute magnitude for a two-sided error limit; apply the approved uncertainty/decision rule in real testing."
+  },
+  {
+    "question": "Hose cleaning evidence is missing, but a proposed dry simulation never uses the hose. What is the best next step?",
+    "options": [
+      "Authorize routine manufacture while the cleaning evidence is collected",
+      "Stop the simulation until every unrelated project gap is closed",
+      "Assess simulation impact and seek authorization for that stage"
+    ],
+    "answer": 2,
+    "feedback": "Conditional progression concerns a specific activity and requires justified impact assessment and authorization."
+  },
+  {
+    "question": "The URS was revised after DQ approval. Which status is most defensible?",
+    "options": [
+      "Retain DQ status because the equipment drawing has not changed",
+      "Assess the URS change and revisit affected DQ evidence",
+      "Repeat PQ first and reassess the URS change afterwards"
+    ],
+    "answer": 1,
+    "feedback": "A change to user requirements can affect the design qualification basis."
+  },
+  {
+    "question": "The jacket utility is qualified, but its supply conditions differ from the vessel design assumptions. What is needed?",
+    "options": [
+      "Assess interface compatibility and affected verification",
+      "Treat utility qualification alone as sufficient for the vessel",
+      "Retest the vessel nameplate only"
+    ],
+    "answer": 0,
+    "feedback": "Qualification of a supplying system does not establish its suitability for every receiving interface."
+  },
+  {
+    "question": "Draft PB-02 proposes \u00b10.5 \u00b0C but the base project has no approved temperature tolerance. What is URS-02 status?",
+    "options": [
+      "Verified because a worked example states a number",
+      "Ready for execution because a supplier offers that accuracy",
+      "Pending justification and approval of the acceptance basis"
+    ],
+    "answer": 2,
+    "feedback": "Teaching assumptions cannot replace authorized project requirements."
+  },
+  {
+    "question": "A supplier FAT passed, but the installed controller firmware differs. Which decision is defensible?",
+    "options": [
+      "Accept the FAT because the physical hardware has not changed",
+      "Assess firmware impact and FAT applicability to site tests",
+      "Repeat the entire FAT without considering firmware relevance"
+    ],
+    "answer": 1,
+    "feedback": "Supplier results require documented applicability to the installed configuration."
+  },
+  {
+    "question": "An FMEA detection score is reduced after an alarm is proposed but not challenged. What is the issue?",
+    "options": [
+      "The revised score lacks evidence of control effectiveness",
+      "The proposed alarm itself justifies the reduced detection score",
+      "Improved detection necessarily reduces the patient-harm severity"
+    ],
+    "answer": 0,
+    "feedback": "Residual risk scoring should follow evidence of effectiveness, not an untested proposal."
+  },
+  {
+    "question": "An independent low-speed detector is proposed for the agitator. Which verification best supports independence?",
+    "options": [
+      "Verify separate detector tags and accept the drawing as independence evidence",
+      "Challenge normal speed indication and accept agreement as independence evidence",
+      "Challenge primary-sensor failure and verify independent detection and inhibition"
+    ],
+    "answer": 2,
+    "feedback": "The verification should challenge the common-cause scenario and protective response."
+  },
+  {
+    "question": "A signed error dataset sums to +3.1 \u00b0C across ten readings. What is its signed mean?",
+    "options": [
+      "+0.31 \u00b0C",
+      "+0.50 \u00b0C",
+      "+0.60 \u00b0C"
+    ],
+    "answer": 0,
+    "feedback": "The signed arithmetic mean is +3.1/10 = +0.31 \u00b0C."
+  },
+  {
+    "question": "With an illustrative absolute limit of 0.5 \u00b0C, how many listed errors exceed the limit?",
+    "options": [
+      "Zero",
+      "One",
+      "Two"
+    ],
+    "answer": 1,
+    "feedback": "Only 0.6 \u00b0C exceeds the illustrative limit; 0.5 \u00b0C equals it."
+  },
+  {
+    "question": "A new product changes cleaning needs. Which action is justified?",
+    "options": [
+      "Retest mixing performance and retain the existing cleaning basis",
+      "Reassess intended use, risks, requirements and affected evidence",
+      "Revise the cleaning procedure and retain existing interface assumptions"
+    ],
+    "answer": 1,
+    "feedback": "New intended use may affect linked requirements and qualification evidence."
+  },
+  {
+    "question": "What does completing this self-study module demonstrate?",
+    "options": [
+      "Site authorization to execute qualification work without further supervision",
+      "Regulatory certification of competence for pharmaceutical validation work",
+      "Completion of self-study, with competence needing separate evaluation"
+    ],
+    "answer": 2,
+    "feedback": "Formal competency and authorization require an applicable independently approved process."
+  }
+]

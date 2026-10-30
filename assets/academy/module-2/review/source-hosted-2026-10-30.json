@@ -1,0 +1,92 @@
+{
+  "tested_commit": "6ba0428abd966c6a9187b543089af63e8d542f23",
+  "checked_at_utc": "2026-10-30T00:57:50.596349+00:00",
+  "rows": [
+    {
+      "file": "academy-lesson-2-1.html",
+      "matches_commit": true,
+      "sha256": "ae045d37136a060e8a3668d62b0314a74f031956d368adf9c48d39fe918ab92b"
+    },
+    {
+      "file": "academy-lesson-2-10.html",
+      "matches_commit": true,
+      "sha256": "39aafdf9ecb911dae55c80d38ce6f95c285fa59675e26635cd9949f9f028a715"
+    },
+    {
+      "file": "academy-lesson-2-2.html",
+      "matches_commit": true,
+      "sha256": "6e545f6be73c182a77dcd9154845387bd1ba7ce5c3e0eb0ac1dbfe03bf8a7fd3"
+    },
+    {
+      "file": "academy-lesson-2-3.html",
+      "matches_commit": true,
+      "sha256": "958a97093b7874a06d431989d272e6fc552d00f2090edcf650dbc3dd3fd72643"
+    },
+    {
+      "file": "academy-lesson-2-4.html",
+      "matches_commit": true,
+      "sha256": "522e07c5edf4e99037a854753f98a5950461a0f15a74c0c3458501fb362f16f8"
+    },
+    {
+      "file": "academy-lesson-2-5.html",
+      "matches_commit": true,
+      "sha256": "077d8655c3bcbf5ce1865d2ea0629d759b0c963ed10d0faa37d76923b3dfb20c"
+    },
+    {
+      "file": "academy-lesson-2-6.html",
+      "matches_commit": true,
+      "sha256": "73abe3de958925925c6045d4d320123d14f18bc08b2ad3a470fb1f9c0e99c3ae"
+    },
+    {
+      "file": "academy-lesson-2-7.html",
+      "matches_commit": true,
+      "sha256": "2c6c210d8cb66050dcc8c15af83425395f4d9e172fbb6d7551e31294f4a324a8"
+    },
+    {
+      "file": "academy-lesson-2-8.html",
+      "matches_commit": true,
+      "sha256": "1c13fc74f7c63026c81ac61d20604dae36cf7248418a1eba570965c660c8143a"
+    },
+    {
+      "file": "academy-lesson-2-9.html",
+      "matches_commit": true,
+      "sha256": "254e47ae07a34883ce73cb2ad0bf6afe08bf5d5f902aa6903fa94c1d6f0404cf"
+    },
+    {
+      "file": "academy-module-2-assessment.html",
+      "matches_commit": true,
+      "sha256": "38b963c2724161c6f88efbfd956a5d33a3e8eadf382e3ca516c29342bda70965"
+    },
+    {
+      "file": "academy-module-2-review.html",
+      "matches_commit": true,
+      "sha256": "66978ab9b163b0a0ffc22360992fbacd6d6f0cb53654891cce72f2c3e8b41590"
+    },
+    {
+      "file": "academy-module-2-sources.html",
+      "matches_commit": true,
+      "sha256": "330be6c534a9705efba6d452f6a8a07f9f5745c9ec959ac02e2d7e0f383ac41e"
+    },
+    {
+      "file": "academy-module-2-workbook.html",
+      "matches_commit": true,
+      "sha256": "5d47589fe59b43ee344b6bbe15356aa4f54ac6a6669f2b8837e09a106d4cc673"
+    },
+    {
+      "file": "academy-module-2.html",
+      "matches_commit": true,
+      "sha256": "dbfaeed434dfbc0a9eb73c6edb0c4276bb4b3c5dfad9badace04a594e6442919"
+    },
+    {
+      "file": "assets/academy/module-2/course.js",
+      "matches_commit": true,
+      "sha256": "1c60071dd72c3102ba2eb67b888ca8aec543f9a720d4f03d2429729bc61bd8c8"
+    },
+    {
+      "file": "assets/academy/module-2/course.css",
+      "matches_commit": true,
+      "sha256": "65855da8d8485b2a1650877916681dfb438eb3bf25e898558cf1acdea2fa798b"
+    }
+  ],
+  "failures": []
+}

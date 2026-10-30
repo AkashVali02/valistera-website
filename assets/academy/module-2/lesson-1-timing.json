@@ -1,0 +1,426 @@
+{
+  "duration": 111.71766666666667,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 25.011,
+      "title": "Start with the intended use"
+    },
+    {
+      "start": 25.011,
+      "end": 52.973,
+      "title": "Three connected documents"
+    },
+    {
+      "start": 52.973,
+      "end": 82.997,
+      "title": "The evidence journey"
+    },
+    {
+      "start": 82.997,
+      "end": 111.718,
+      "title": "Your first decision"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 1.621,
+      "text": "Welcome to Module 2.",
+      "scene": 1
+    },
+    {
+      "start": 1.771,
+      "end": 6.187,
+      "text": "Our fictional project is a jacketed mixing vessel used to prepare an",
+      "scene": 1
+    },
+    {
+      "start": 6.337,
+      "end": 8.791,
+      "text": "aqueous oral solution before filling.",
+      "scene": 1
+    },
+    {
+      "start": 8.941,
+      "end": 10.967,
+      "text": "It is not an aseptic process.",
+      "scene": 1
+    },
+    {
+      "start": 11.117,
+      "end": 14.616,
+      "text": "We will follow the project from planning to a review decision.",
+      "scene": 1
+    },
+    {
+      "start": 14.766,
+      "end": 18.926,
+      "text": "Begin by asking what product the system supports, how it will be used,",
+      "scene": 1
+    },
+    {
+      "start": 19.076,
+      "end": 20.399,
+      "text": "and what could go wrong.",
+      "scene": 1
+    },
+    {
+      "start": 20.549,
+      "end": 24.261,
+      "text": "A polished protocol cannot rescue an undefined purpose.",
+      "scene": 1
+    },
+    {
+      "start": 25.011,
+      "end": 28.189,
+      "text": "The validation master plan describes the programme.",
+      "scene": 2
+    },
+    {
+      "start": 28.339,
+      "end": 32.905,
+      "text": "The user requirements specification describes what the system must do.",
+      "scene": 2
+    },
+    {
+      "start": 33.055,
+      "end": 37.279,
+      "text": "The risk assessment explains where failures matter and how controls will",
+      "scene": 2
+    },
+    {
+      "start": 37.429,
+      "end": 38.623,
+      "text": "be justified.",
+      "scene": 2
+    },
+    {
+      "start": 38.773,
+      "end": 41.717,
+      "text": "In this course we say VMP and URS.",
+      "scene": 2
+    },
+    {
+      "start": 41.867,
+      "end": 44.413,
+      "text": "These documents should agree with one another.",
+      "scene": 2
+    },
+    {
+      "start": 44.563,
+      "end": 47.785,
+      "text": "If the vessel needs controlled mixing, the requirement,",
+      "scene": 2
+    },
+    {
+      "start": 47.935,
+      "end": 52.223,
+      "text": "risk discussion and verification evidence should all address that need.",
+      "scene": 2
+    },
+    {
+      "start": 52.973,
+      "end": 57.346,
+      "text": "Imagine buying a vessel because the catalogue says pharmaceutical grade.",
+      "scene": 3
+    },
+    {
+      "start": 57.496,
+      "end": 60.952,
+      "text": "That description does not establish fitness for our product.",
+      "scene": 3
+    },
+    {
+      "start": 61.102,
+      "end": 64.878,
+      "text": "The team still needs to understand contact materials, cleaning,",
+      "scene": 3
+    },
+    {
+      "start": 65.028,
+      "end": 67.012,
+      "text": "measurement, mixing and records.",
+      "scene": 3
+    },
+    {
+      "start": 67.162,
+      "end": 71.514,
+      "text": "The illustration connects a product vessel to its temperature sensor and",
+      "scene": 3
+    },
+    {
+      "start": 71.664,
+      "end": 72.773,
+      "text": "control panel.",
+      "scene": 3
+    },
+    {
+      "start": 72.923,
+      "end": 76.529,
+      "text": "These are functional interfaces, not a construction drawing.",
+      "scene": 3
+    },
+    {
+      "start": 76.679,
+      "end": 82.247,
+      "text": "The same intended use must guide design review, testing and routine operation.",
+      "scene": 3
+    },
+    {
+      "start": 82.997,
+      "end": 88.392,
+      "text": "For the first activity, describe the vessel's intended use in three sentences.",
+      "scene": 4
+    },
+    {
+      "start": 88.543,
+      "end": 93.3,
+      "text": "Identify the product family, operating purpose and important interfaces.",
+      "scene": 4
+    },
+    {
+      "start": 93.45,
+      "end": 95.989,
+      "text": "Then list information that is still missing.",
+      "scene": 4
+    },
+    {
+      "start": 96.139,
+      "end": 99.232,
+      "text": "Do not invent operating limits to complete a form.",
+      "scene": 4
+    },
+    {
+      "start": 99.382,
+      "end": 102.283,
+      "text": "Assign each missing item to an appropriate owner,",
+      "scene": 4
+    },
+    {
+      "start": 102.433,
+      "end": 105.036,
+      "text": "such as process development or engineering.",
+      "scene": 4
+    },
+    {
+      "start": 105.186,
+      "end": 109.73,
+      "text": "Planning is useful when it exposes uncertainty early enough to change the",
+      "scene": 4
+    },
+    {
+      "start": 109.88,
+      "end": 110.968,
+      "text": "project.",
+      "scene": 4
+    }
+  ],
+  "spoken_cues": [
+    {
+      "start": 0,
+      "end": 1.621,
+      "text": "Welcome to Module Two.",
+      "scene": 1
+    },
+    {
+      "start": 1.771,
+      "end": 6.187,
+      "text": "Our fictional project is a jacketed mixing vessel used to prepare an",
+      "scene": 1
+    },
+    {
+      "start": 6.337,
+      "end": 8.791,
+      "text": "aqueous oral solution before filling.",
+      "scene": 1
+    },
+    {
+      "start": 8.941,
+      "end": 10.967,
+      "text": "It is not an aseptic process.",
+      "scene": 1
+    },
+    {
+      "start": 11.117,
+      "end": 14.616,
+      "text": "We will follow the project from planning to a review decision.",
+      "scene": 1
+    },
+    {
+      "start": 14.766,
+      "end": 18.926,
+      "text": "Begin by asking what product the system supports, how it will be used,",
+      "scene": 1
+    },
+    {
+      "start": 19.076,
+      "end": 20.399,
+      "text": "and what could go wrong.",
+      "scene": 1
+    },
+    {
+      "start": 20.549,
+      "end": 24.261,
+      "text": "A polished protocol cannot rescue an undefined purpose.",
+      "scene": 1
+    },
+    {
+      "start": 25.011,
+      "end": 28.189,
+      "text": "The validation master plan describes the programme.",
+      "scene": 2
+    },
+    {
+      "start": 28.339,
+      "end": 32.905,
+      "text": "The user requirements specification describes what the system must do.",
+      "scene": 2
+    },
+    {
+      "start": 33.055,
+      "end": 37.279,
+      "text": "The risk assessment explains where failures matter and how controls will",
+      "scene": 2
+    },
+    {
+      "start": 37.429,
+      "end": 38.623,
+      "text": "be justified.",
+      "scene": 2
+    },
+    {
+      "start": 38.773,
+      "end": 41.717,
+      "text": "In this course we say V M P and U R S.",
+      "scene": 2
+    },
+    {
+      "start": 41.867,
+      "end": 44.413,
+      "text": "These documents should agree with one another.",
+      "scene": 2
+    },
+    {
+      "start": 44.563,
+      "end": 47.785,
+      "text": "If the vessel needs controlled mixing, the requirement,",
+      "scene": 2
+    },
+    {
+      "start": 47.935,
+      "end": 52.223,
+      "text": "risk discussion and verification evidence should all address that need.",
+      "scene": 2
+    },
+    {
+      "start": 52.973,
+      "end": 57.346,
+      "text": "Imagine buying a vessel because the catalogue says pharmaceutical grade.",
+      "scene": 3
+    },
+    {
+      "start": 57.496,
+      "end": 60.952,
+      "text": "That description does not establish fitness for our product.",
+      "scene": 3
+    },
+    {
+      "start": 61.102,
+      "end": 64.878,
+      "text": "The team still needs to understand contact materials, cleaning,",
+      "scene": 3
+    },
+    {
+      "start": 65.028,
+      "end": 67.012,
+      "text": "measurement, mixing and records.",
+      "scene": 3
+    },
+    {
+      "start": 67.162,
+      "end": 71.514,
+      "text": "The illustration connects a product vessel to its temperature sensor and",
+      "scene": 3
+    },
+    {
+      "start": 71.664,
+      "end": 72.773,
+      "text": "control panel.",
+      "scene": 3
+    },
+    {
+      "start": 72.923,
+      "end": 76.529,
+      "text": "These are functional interfaces, not a construction drawing.",
+      "scene": 3
+    },
+    {
+      "start": 76.679,
+      "end": 81.009,
+      "text": "The same intended use must guide design review, testing and routine",
+      "scene": 3
+    },
+    {
+      "start": 81.159,
+      "end": 82.247,
+      "text": "operation.",
+      "scene": 3
+    },
+    {
+      "start": 82.997,
+      "end": 87.157,
+      "text": "For the first activity, describe the vessel's intended use in three",
+      "scene": 4
+    },
+    {
+      "start": 87.307,
+      "end": 88.392,
+      "text": "sentences.",
+      "scene": 4
+    },
+    {
+      "start": 88.543,
+      "end": 93.3,
+      "text": "Identify the product family, operating purpose and important interfaces.",
+      "scene": 4
+    },
+    {
+      "start": 93.45,
+      "end": 95.989,
+      "text": "Then list information that is still missing.",
+      "scene": 4
+    },
+    {
+      "start": 96.139,
+      "end": 99.232,
+      "text": "Do not invent operating limits to complete a form.",
+      "scene": 4
+    },
+    {
+      "start": 99.382,
+      "end": 102.283,
+      "text": "Assign each missing item to an appropriate owner,",
+      "scene": 4
+    },
+    {
+      "start": 102.433,
+      "end": 105.036,
+      "text": "such as process development or engineering.",
+      "scene": 4
+    },
+    {
+      "start": 105.186,
+      "end": 109.73,
+      "text": "Planning is useful when it exposes uncertainty early enough to change the",
+      "scene": 4
+    },
+    {
+      "start": 109.88,
+      "end": 110.968,
+      "text": "project.",
+      "scene": 4
+    }
+  ],
+  "display_policy": "Conventional abbreviations and numerals; spoken_cues preserve original synthesized phrases. Short trailing cues merged where two-line/8-second limits allow."
+}

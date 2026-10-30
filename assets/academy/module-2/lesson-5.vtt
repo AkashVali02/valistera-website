@@ -1,0 +1,149 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.992
+A traceability matrix is a practical
+teaching tool for connecting needs to
+
+2
+00:00:05.142 --> 00:00:06.224
+evidence.
+
+3
+00:00:06.374 --> 00:00:10.598
+Each row links a requirement to its design
+response, relevant risk
+
+4
+00:00:10.748 --> 00:00:13.649
+control, verification activity and result.
+
+5
+00:00:13.799 --> 00:00:18.301
+A check mark is not enough if the
+underlying record cannot be located.
+
+6
+00:00:18.451 --> 00:00:22.952
+For our vessel, the product-contact-
+material requirement links to a design
+
+7
+00:00:23.102 --> 00:00:27.667
+specification, installed material records
+and the review that confirms
+
+8
+00:00:27.817 --> 00:00:29.972
+suitability for the intended use.
+
+9
+00:00:30.722 --> 00:00:32.834
+The three cards show different states.
+
+10
+00:00:32.984 --> 00:00:36.376
+A planned test has an approved method but
+no result.
+
+11
+00:00:36.526 --> 00:00:40.857
+An executed test has observations, which
+may include a failure.
+
+12
+00:00:41.007 --> 00:00:46.084
+An accepted result has been evaluated
+against the applicable criteria with
+
+13
+00:00:46.234 --> 00:00:48.623
+deviations addressed appropriately.
+
+14
+00:00:48.773 --> 00:00:52.699
+Keeping these states separate prevents a
+dashboard from showing green
+
+15
+00:00:52.849 --> 00:00:55.302
+simply because someone uploaded a file.
+
+16
+00:00:55.452 --> 00:00:59.548
+The evidence must answer the requirement,
+not merely share its title.
+
+17
+00:01:00.298 --> 00:01:04.074
+A supplier may provide useful testing and
+design records.
+
+18
+00:01:04.224 --> 00:01:07.403
+Review whether they apply to the purchased
+configuration,
+
+19
+00:01:07.553 --> 00:01:10.923
+use appropriate methods and preserve
+reliable data.
+
+20
+00:01:11.073 --> 00:01:15.895
+Transport, installation or configuration
+changes can affect whether a
+
+21
+00:01:16.045 --> 00:01:17.858
+result remains applicable.
+
+22
+00:01:18.008 --> 00:01:23.449
+Our example is a factory test of an alarm
+that depends on a site-installed sensor.
+
+23
+00:01:23.599 --> 00:01:27.844
+The team must assess what needs
+verification after installation.
+
+24
+00:01:27.994 --> 00:01:32.026
+A supplier signature does not settle that
+question automatically.
+
+25
+00:01:32.776 --> 00:01:36.147
+In the activity, construct five
+traceability rows.
+
+26
+00:01:36.297 --> 00:01:40.627
+Mark the status honestly and identify the
+next action for each gap.
+
+27
+00:01:40.777 --> 00:01:44.660
+A requirement with no test may need a new
+verification method.
+
+28
+00:01:44.810 --> 00:01:51.373
+A test with no requirement may reveal an
+undocumented need or unnecessary work.
+
+29
+00:01:51.523 --> 00:01:55.448
+Traceability should support technical
+thinking in both directions.
+
+30
+00:01:55.598 --> 00:01:58.137
+It is a means of exposing missing
+evidence,
+
+31
+00:01:58.287 --> 00:02:02.084
+not a substitute for judging whether that
+evidence is adequate.

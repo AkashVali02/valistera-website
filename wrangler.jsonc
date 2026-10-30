@@ -8,6 +8,6 @@
   },
   "previews": {},
   "build": {
-    "command": "node validate-site.cjs"
+    "command": "node academy/module-2/stamp-build.cjs && node validate-site.cjs"
   }
 }

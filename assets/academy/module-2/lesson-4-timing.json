@@ -1,0 +1,414 @@
+{
+  "duration": 123.19041666666666,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 30.301,
+      "title": "From adjective to requirement"
+    },
+    {
+      "start": 30.301,
+      "end": 62.287,
+      "title": "One requirement, one trace"
+    },
+    {
+      "start": 62.287,
+      "end": 93.932,
+      "title": "An illustrative measurable need"
+    },
+    {
+      "start": 93.932,
+      "end": 123.19,
+      "title": "Control revisions"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 3.264,
+      "text": "A user requirement should communicate an actual need.",
+      "scene": 1
+    },
+    {
+      "start": 3.414,
+      "end": 7.339,
+      "text": "The phrase easy to clean is useful as a concern but too vague",
+      "scene": 1
+    },
+    {
+      "start": 7.489,
+      "end": 9.068,
+      "text": "to verify on its own.",
+      "scene": 1
+    },
+    {
+      "start": 9.218,
+      "end": 14.061,
+      "text": "Ask what product residues are expected, which surfaces must be accessible,",
+      "scene": 1
+    },
+    {
+      "start": 14.211,
+      "end": 18.52,
+      "text": "what cleaning process is intended and how the design will support it.",
+      "scene": 1
+    },
+    {
+      "start": 18.67,
+      "end": 23.747,
+      "text": "Do not insert a universal surface finish or residue limit simply because",
+      "scene": 1
+    },
+    {
+      "start": 23.897,
+      "end": 25.604,
+      "text": "another project used it.",
+      "scene": 1
+    },
+    {
+      "start": 25.754,
+      "end": 29.551,
+      "text": "The scientific basis belongs to the actual application.",
+      "scene": 1
+    },
+    {
+      "start": 30.301,
+      "end": 34.909,
+      "text": "For our fictional example, requirement URS-01 states that",
+      "scene": 2
+    },
+    {
+      "start": 35.059,
+      "end": 39.859,
+      "text": "product-contact materials must be identified and supported by approved",
+      "scene": 2
+    },
+    {
+      "start": 40.009,
+      "end": 44.169,
+      "text": "compatibility evidence for the defined product and cleaning agents.",
+      "scene": 2
+    },
+    {
+      "start": 44.319,
+      "end": 47.135,
+      "text": "The design review checks the proposed materials.",
+      "scene": 2
+    },
+    {
+      "start": 47.285,
+      "end": 51.893,
+      "text": "Later verification checks the installed materials and supporting records.",
+      "scene": 2
+    },
+    {
+      "start": 52.043,
+      "end": 56.609,
+      "text": "The requirement has an identifier, a clear subject and an evidence path.",
+      "scene": 2
+    },
+    {
+      "start": 56.759,
+      "end": 61.537,
+      "text": "The site defines the actual acceptance criteria and document controls.",
+      "scene": 2
+    },
+    {
+      "start": 62.287,
+      "end": 66.746,
+      "text": "Consider a training-only temperature indication requirement: within the",
+      "scene": 3
+    },
+    {
+      "start": 66.896,
+      "end": 71.141,
+      "text": "selected operating range, indication error must remain within a",
+      "scene": 3
+    },
+    {
+      "start": 71.291,
+      "end": 76.643,
+      "text": "project-defined tolerance when compared with a suitable calibrated reference.",
+      "scene": 3
+    },
+    {
+      "start": 76.793,
+      "end": 81.465,
+      "text": "The range and tolerance are not supplied here because the process basis is",
+      "scene": 3
+    },
+    {
+      "start": 81.615,
+      "end": 82.705,
+      "text": "still missing.",
+      "scene": 3
+    },
+    {
+      "start": 82.855,
+      "end": 86.396,
+      "text": "This is a deliberate unresolved requirement, not a pass.",
+      "scene": 3
+    },
+    {
+      "start": 86.546,
+      "end": 91.24,
+      "text": "The exercise asks you to identify the information needed to finalize it",
+      "scene": 3
+    },
+    {
+      "start": 91.39,
+      "end": 93.182,
+      "text": "before procurement or testing.",
+      "scene": 3
+    },
+    {
+      "start": 93.932,
+      "end": 98.476,
+      "text": "Requirements evolve as knowledge improves, but uncontrolled changes break",
+      "scene": 4
+    },
+    {
+      "start": 98.626,
+      "end": 99.778,
+      "text": "traceability.",
+      "scene": 4
+    },
+    {
+      "start": 99.928,
+      "end": 103.938,
+      "text": "If the intended batch range changes, assess effects on mixing,",
+      "scene": 4
+    },
+    {
+      "start": 104.088,
+      "end": 106.499,
+      "text": "measurement, cleaning and verification.",
+      "scene": 4
+    },
+    {
+      "start": 106.649,
+      "end": 109.956,
+      "text": "Retain the reason for the revision and the approval trail.",
+      "scene": 4
+    },
+    {
+      "start": 110.106,
+      "end": 115.783,
+      "text": "Do not silently edit a requirement after a failed test to make the result pass.",
+      "scene": 4
+    },
+    {
+      "start": 115.933,
+      "end": 119.88,
+      "text": "In the activity, rewrite three vague statements and clearly mark any",
+      "scene": 4
+    },
+    {
+      "start": 120.03,
+      "end": 122.44,
+      "text": "assumptions that require resolution.",
+      "scene": 4
+    }
+  ],
+  "spoken_cues": [
+    {
+      "start": 0,
+      "end": 3.264,
+      "text": "A user requirement should communicate an actual need.",
+      "scene": 1
+    },
+    {
+      "start": 3.414,
+      "end": 7.339,
+      "text": "The phrase easy to clean is useful as a concern but too vague",
+      "scene": 1
+    },
+    {
+      "start": 7.489,
+      "end": 9.068,
+      "text": "to verify on its own.",
+      "scene": 1
+    },
+    {
+      "start": 9.218,
+      "end": 14.061,
+      "text": "Ask what product residues are expected, which surfaces must be accessible,",
+      "scene": 1
+    },
+    {
+      "start": 14.211,
+      "end": 18.52,
+      "text": "what cleaning process is intended and how the design will support it.",
+      "scene": 1
+    },
+    {
+      "start": 18.67,
+      "end": 23.747,
+      "text": "Do not insert a universal surface finish or residue limit simply because",
+      "scene": 1
+    },
+    {
+      "start": 23.897,
+      "end": 25.604,
+      "text": "another project used it.",
+      "scene": 1
+    },
+    {
+      "start": 25.754,
+      "end": 29.551,
+      "text": "The scientific basis belongs to the actual application.",
+      "scene": 1
+    },
+    {
+      "start": 30.301,
+      "end": 34.909,
+      "text": "For our fictional example, requirement U R S zero one states that",
+      "scene": 2
+    },
+    {
+      "start": 35.059,
+      "end": 39.859,
+      "text": "product-contact materials must be identified and supported by approved",
+      "scene": 2
+    },
+    {
+      "start": 40.009,
+      "end": 44.169,
+      "text": "compatibility evidence for the defined product and cleaning agents.",
+      "scene": 2
+    },
+    {
+      "start": 44.319,
+      "end": 47.135,
+      "text": "The design review checks the proposed materials.",
+      "scene": 2
+    },
+    {
+      "start": 47.285,
+      "end": 51.893,
+      "text": "Later verification checks the installed materials and supporting records.",
+      "scene": 2
+    },
+    {
+      "start": 52.043,
+      "end": 56.609,
+      "text": "The requirement has an identifier, a clear subject and an evidence path.",
+      "scene": 2
+    },
+    {
+      "start": 56.759,
+      "end": 61.537,
+      "text": "The site defines the actual acceptance criteria and document controls.",
+      "scene": 2
+    },
+    {
+      "start": 62.287,
+      "end": 66.746,
+      "text": "Consider a training-only temperature indication requirement: within the",
+      "scene": 3
+    },
+    {
+      "start": 66.896,
+      "end": 71.141,
+      "text": "selected operating range, indication error must remain within a",
+      "scene": 3
+    },
+    {
+      "start": 71.291,
+      "end": 75.409,
+      "text": "project-defined tolerance when compared with a suitable calibrated",
+      "scene": 3
+    },
+    {
+      "start": 75.559,
+      "end": 76.643,
+      "text": "reference.",
+      "scene": 3
+    },
+    {
+      "start": 76.793,
+      "end": 81.465,
+      "text": "The range and tolerance are not supplied here because the process basis is",
+      "scene": 3
+    },
+    {
+      "start": 81.615,
+      "end": 82.705,
+      "text": "still missing.",
+      "scene": 3
+    },
+    {
+      "start": 82.855,
+      "end": 86.396,
+      "text": "This is a deliberate unresolved requirement, not a pass.",
+      "scene": 3
+    },
+    {
+      "start": 86.546,
+      "end": 91.24,
+      "text": "The exercise asks you to identify the information needed to finalize it",
+      "scene": 3
+    },
+    {
+      "start": 91.39,
+      "end": 93.182,
+      "text": "before procurement or testing.",
+      "scene": 3
+    },
+    {
+      "start": 93.932,
+      "end": 98.476,
+      "text": "Requirements evolve as knowledge improves, but uncontrolled changes break",
+      "scene": 4
+    },
+    {
+      "start": 98.626,
+      "end": 99.778,
+      "text": "traceability.",
+      "scene": 4
+    },
+    {
+      "start": 99.928,
+      "end": 103.938,
+      "text": "If the intended batch range changes, assess effects on mixing,",
+      "scene": 4
+    },
+    {
+      "start": 104.088,
+      "end": 106.499,
+      "text": "measurement, cleaning and verification.",
+      "scene": 4
+    },
+    {
+      "start": 106.649,
+      "end": 109.956,
+      "text": "Retain the reason for the revision and the approval trail.",
+      "scene": 4
+    },
+    {
+      "start": 110.106,
+      "end": 114.543,
+      "text": "Do not silently edit a requirement after a failed test to make the",
+      "scene": 4
+    },
+    {
+      "start": 114.693,
+      "end": 115.783,
+      "text": "result pass.",
+      "scene": 4
+    },
+    {
+      "start": 115.933,
+      "end": 119.88,
+      "text": "In the activity, rewrite three vague statements and clearly mark any",
+      "scene": 4
+    },
+    {
+      "start": 120.03,
+      "end": 122.44,
+      "text": "assumptions that require resolution.",
+      "scene": 4
+    }
+  ],
+  "display_policy": "Conventional abbreviations and numerals; spoken_cues preserve original synthesized phrases. Short trailing cues merged where two-line/8-second limits allow."
+}

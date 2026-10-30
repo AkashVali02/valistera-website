@@ -1,0 +1,17 @@
+ValiStera Academy — Module 2 / Lesson 2.6
+Ask a precise risk question
+
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+
+
+Define the question
+For this project, ask: could inadequate mixing within the intended batch range lead to non-uniform product before transfer? This is more useful than asking whether the vessel is risky. The question identifies a possible failure, product consequence and operating context. Our diagram shows the possible chain from lost mixing to variable concentration and a potentially affected dose. It is not measured process data and does not prove that any real vessel performs poorly.
+
+Separate the concepts
+A stopped agitator is a failure mode. Non-uniform concentration may be a product-quality effect, depending on the formulation and process. An incorrect delivered dose may be a patient consequence. These links require scientific understanding; they are not automatic for every liquid. The exercise asks you to explain the chain and list the evidence needed to judge it. Avoid assigning a score before you understand the scenario.
+
+Make uncertainty visible
+ICH Q9(R1) links risk decisions to scientific knowledge and patient protection. The degree of formality should reflect risk, uncertainty, importance and complexity. For our case, a small development study may not represent the full batch range. Record that limitation and plan how to reduce uncertainty. A low number based on a guess is not stronger evidence than a clearly stated unknown.
+
+Choose the right discussion
+Invite people who understand the process, equipment and potential consequences. Ask each person which assumptions could be wrong and what evidence would change the decision. If the project deadline is influencing scores, make that bias explicit. In the activity, write one risk question and one cause-to-harm chain. Keep the language specific enough that another reviewer can disagree with it constructively and identify what needs checking.

@@ -1,0 +1,17 @@
+ValiStera Academy — Module 2 / Lesson 2.1
+Plan before you qualify
+
+This lesson has no separate required companion-reading extension; study the diagram explanations and activity below.
+
+
+Start with the intended use
+Welcome to Module 2. Our fictional project is a jacketed mixing vessel used to prepare an aqueous oral solution before filling. It is not an aseptic process. We will follow the project from planning to a review decision. Begin by asking what product the system supports, how it will be used, and what could go wrong. A polished protocol cannot rescue an undefined purpose.
+
+Three connected documents
+The validation master plan describes the programme. The user requirements specification describes what the system must do. The risk assessment explains where failures matter and how controls will be justified. In this course we say VMP and URS. These documents should agree with one another. If the vessel needs controlled mixing, the requirement, risk discussion and verification evidence should all address that need.
+
+The evidence journey
+Imagine buying a vessel because the catalogue says pharmaceutical grade. That description does not establish fitness for our product. The team still needs to understand contact materials, cleaning, measurement, mixing and records. The illustration connects a product vessel to its temperature sensor and control panel. These are functional interfaces, not a construction drawing. The same intended use must guide design review, testing and routine operation.
+
+Your first decision
+For the first activity, describe the vessel's intended use in three sentences. Identify the product family, operating purpose and important interfaces. Then list information that is still missing. Do not invent operating limits to complete a form. Assign each missing item to an appropriate owner, such as process development or engineering. Planning is useful when it exposes uncertainty early enough to change the project.

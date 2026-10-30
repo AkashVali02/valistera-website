@@ -181,3 +181,20 @@
 
 /assets/images/sterile-manufacturing-hero-720-e591b358b1.webp
   Cache-Control: public, max-age=31536000, immutable
+
+# Review pages and evidence must not reuse an older review candidate.
+
+/academy-module-2*
+  Cache-Control: no-store, max-age=0
+  CDN-Cache-Control: no-store
+  Cloudflare-CDN-Cache-Control: no-store
+
+/academy-lesson-2-*
+  Cache-Control: no-store, max-age=0
+  CDN-Cache-Control: no-store
+  Cloudflare-CDN-Cache-Control: no-store
+
+/assets/academy/module-2/*
+  Cache-Control: no-store, max-age=0
+  CDN-Cache-Control: no-store
+  Cloudflare-CDN-Cache-Control: no-store

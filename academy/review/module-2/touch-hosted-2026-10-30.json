@@ -1,0 +1,128 @@
+{
+  "scope": "Chromium mobile emulation with synthetic touchscreen taps, not a physical device",
+  "tested_commit": "6ba0428abd966c6a9187b543089af63e8d542f23",
+  "checks": [
+    {
+      "lesson": 1,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 36.037656
+    },
+    {
+      "lesson": 1,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 74.510289
+    },
+    {
+      "lesson": 2,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 38.267308
+    },
+    {
+      "lesson": 2,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 79.120246
+    },
+    {
+      "lesson": 3,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 38.621175
+    },
+    {
+      "lesson": 3,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 79.85189
+    },
+    {
+      "lesson": 4,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 39.741485
+    },
+    {
+      "lesson": 4,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 82.168206
+    },
+    {
+      "lesson": 5,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 39.623422
+    },
+    {
+      "lesson": 5,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 81.924102
+    },
+    {
+      "lesson": 6,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 38.160858
+    },
+    {
+      "lesson": 6,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 78.900152
+    },
+    {
+      "lesson": 7,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 38.289889
+    },
+    {
+      "lesson": 7,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 79.166932
+    },
+    {
+      "lesson": 8,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 39.617615
+    },
+    {
+      "lesson": 8,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 81.912097
+    },
+    {
+      "lesson": 9,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 38.644723
+    },
+    {
+      "lesson": 9,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 79.900577
+    },
+    {
+      "lesson": 10,
+      "fraction": 0.33,
+      "pass": true,
+      "actualSeconds": 38.820528
+    },
+    {
+      "lesson": 10,
+      "fraction": 0.66,
+      "pass": true,
+      "actualSeconds": 80.264065
+    }
+  ],
+  "failures": [],
+  "completed": true
+}

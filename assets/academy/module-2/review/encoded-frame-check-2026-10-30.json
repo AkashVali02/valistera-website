@@ -1,0 +1,285 @@
+{
+  "method": "Compare decoded mid-scene frames with committed PNGs; mean absolute channel difference below 3 of 255 is a QA tolerance for lossy encoding, not regulatory criterion. Does not sample every frame.",
+  "rows": [
+    {
+      "lesson": 1,
+      "scene": 1,
+      "time": 12.5055,
+      "mean_absolute_rgb_difference": 1.9401888020833333,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 1,
+      "scene": 2,
+      "time": 38.992,
+      "mean_absolute_rgb_difference": 1.8106984230324075,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 1,
+      "scene": 3,
+      "time": 67.985,
+      "mean_absolute_rgb_difference": 1.8001714409722223,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 1,
+      "scene": 4,
+      "time": 97.3575,
+      "mean_absolute_rgb_difference": 1.8516540075231482,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 2,
+      "scene": 1,
+      "time": 14.692,
+      "mean_absolute_rgb_difference": 1.9492994068287037,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 2,
+      "scene": 2,
+      "time": 44.811,
+      "mean_absolute_rgb_difference": 1.8373003472222222,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 2,
+      "scene": 3,
+      "time": 74.936,
+      "mean_absolute_rgb_difference": 1.8471676070601852,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 2,
+      "scene": 4,
+      "time": 104.132,
+      "mean_absolute_rgb_difference": 1.8133695023148149,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 3,
+      "scene": 1,
+      "time": 14.0485,
+      "mean_absolute_rgb_difference": 1.9077864583333333,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 3,
+      "scene": 2,
+      "time": 43.206500000000005,
+      "mean_absolute_rgb_difference": 1.8228703703703704,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 3,
+      "scene": 3,
+      "time": 74.886,
+      "mean_absolute_rgb_difference": 1.8701685474537038,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 3,
+      "scene": 4,
+      "time": 105.5915,
+      "mean_absolute_rgb_difference": 1.8188722511574074,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 4,
+      "scene": 1,
+      "time": 15.1505,
+      "mean_absolute_rgb_difference": 1.9817534722222223,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 4,
+      "scene": 2,
+      "time": 46.294,
+      "mean_absolute_rgb_difference": 1.8857986111111111,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 4,
+      "scene": 3,
+      "time": 78.1095,
+      "mean_absolute_rgb_difference": 1.8403219039351852,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 4,
+      "scene": 4,
+      "time": 108.561,
+      "mean_absolute_rgb_difference": 1.8122081163194443,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 5,
+      "scene": 1,
+      "time": 15.361,
+      "mean_absolute_rgb_difference": 1.961189597800926,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 5,
+      "scene": 2,
+      "time": 45.510000000000005,
+      "mean_absolute_rgb_difference": 1.907134693287037,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 5,
+      "scene": 3,
+      "time": 76.537,
+      "mean_absolute_rgb_difference": 1.8168558304398148,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 5,
+      "scene": 4,
+      "time": 107.805,
+      "mean_absolute_rgb_difference": 1.811916232638889,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 6,
+      "scene": 1,
+      "time": 15.8655,
+      "mean_absolute_rgb_difference": 1.9286631944444443,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 6,
+      "scene": 2,
+      "time": 46.2515,
+      "mean_absolute_rgb_difference": 1.8714749710648149,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 6,
+      "scene": 3,
+      "time": 75.1995,
+      "mean_absolute_rgb_difference": 1.8237876157407407,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 6,
+      "scene": 4,
+      "time": 103.9565,
+      "mean_absolute_rgb_difference": 1.849330150462963,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 7,
+      "scene": 1,
+      "time": 15.0865,
+      "mean_absolute_rgb_difference": 1.9184906684027778,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 7,
+      "scene": 2,
+      "time": 45.509499999999996,
+      "mean_absolute_rgb_difference": 1.8295500578703703,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 7,
+      "scene": 3,
+      "time": 74.738,
+      "mean_absolute_rgb_difference": 1.8862416811342593,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 7,
+      "scene": 4,
+      "time": 103.649,
+      "mean_absolute_rgb_difference": 1.8238802083333334,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 8,
+      "scene": 1,
+      "time": 15.119,
+      "mean_absolute_rgb_difference": 1.9030747251157407,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 8,
+      "scene": 2,
+      "time": 45.738,
+      "mean_absolute_rgb_difference": 1.8535304542824074,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 8,
+      "scene": 3,
+      "time": 76.063,
+      "mean_absolute_rgb_difference": 1.8163903356481481,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 8,
+      "scene": 4,
+      "time": 106.852,
+      "mean_absolute_rgb_difference": 1.837507595486111,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 9,
+      "scene": 1,
+      "time": 13.905,
+      "mean_absolute_rgb_difference": 1.9317809606481482,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 9,
+      "scene": 2,
+      "time": 41.563,
+      "mean_absolute_rgb_difference": 1.8427907986111112,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 9,
+      "scene": 3,
+      "time": 71.628,
+      "mean_absolute_rgb_difference": 1.8469914641203704,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 9,
+      "scene": 4,
+      "time": 103.8665,
+      "mean_absolute_rgb_difference": 1.7931322337962963,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 10,
+      "scene": 1,
+      "time": 13.757,
+      "mean_absolute_rgb_difference": 1.9902159288194445,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 10,
+      "scene": 2,
+      "time": 42.7055,
+      "mean_absolute_rgb_difference": 1.9611530671296296,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 10,
+      "scene": 3,
+      "time": 73.613,
+      "mean_absolute_rgb_difference": 1.9316554542824074,
+      "matches_within_lossy_encoding_tolerance": true
+    },
+    {
+      "lesson": 10,
+      "scene": 4,
+      "time": 104.83699999999999,
+      "mean_absolute_rgb_difference": 1.8512897858796296,
+      "matches_within_lossy_encoding_tolerance": true
+    }
+  ]
+}

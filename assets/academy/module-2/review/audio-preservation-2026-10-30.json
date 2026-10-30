@@ -1,0 +1,62 @@
+[
+  {
+    "lesson": 1,
+    "audio_sha256": "d196d3d830645abe76f8b7dad2093b3d5db4ee32c2561ed956249f492031d812",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  },
+  {
+    "lesson": 2,
+    "audio_sha256": "6bdc9d066ff42f9e42fee80a68ad4b49b420d21854a45497c180429fa591eb29",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  },
+  {
+    "lesson": 3,
+    "audio_sha256": "7a1c1c8582c8e1a1ed58d075d2928271dd8336f86d534fc6dc1f73f43460719a",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  },
+  {
+    "lesson": 4,
+    "audio_sha256": "1a83168dee3f51b7b8c0c0c712d10f0d99681b385d21ca17c03f021c8a3ba693",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  },
+  {
+    "lesson": 5,
+    "audio_sha256": "acef245901d27bc7f6931e9d5566d4cb8bad54cfc8ee32cedd02337829475835",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  },
+  {
+    "lesson": 6,
+    "audio_sha256": "5eb805bc9b34b98504da7f3525e12e75743ac377fbdd6acbcff8fc131c8cf9bc",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  },
+  {
+    "lesson": 7,
+    "audio_sha256": "749878bc5ffe11e34bb2333d041dfd6eaabe90c3d5fa6d4fbe3d35ff17ff58ac",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  },
+  {
+    "lesson": 8,
+    "audio_sha256": "eceeb140697fe181cf03b1b472571328a376ea4ab506c2a74ae13857de75576e",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  },
+  {
+    "lesson": 9,
+    "audio_sha256": "4f8e66d18aea5980e15b6266c9926b33bc523abaabbfe5ed1069b100d379dbf8",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  },
+  {
+    "lesson": 10,
+    "audio_sha256": "ad0ea5fef0467a99f35b13320580a72e55883213fa07bbf10eaec6d73458ceb0",
+    "audio_unchanged": true,
+    "mp4_changed": true
+  }
+]

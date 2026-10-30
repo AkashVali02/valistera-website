@@ -1,0 +1,426 @@
+{
+  "duration": 119.72654166666669,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 28.097,
+      "title": "Draw the boundary"
+    },
+    {
+      "start": 28.097,
+      "end": 58.316,
+      "title": "Consider indirect effects"
+    },
+    {
+      "start": 58.316,
+      "end": 91.456,
+      "title": "Assign decisions explicitly"
+    },
+    {
+      "start": 91.456,
+      "end": 119.727,
+      "title": "Find the missing interface"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 5.625,
+      "text": "A system boundary is a practical agreement about what is included in the assessment.",
+      "scene": 1
+    },
+    {
+      "start": 5.775,
+      "end": 9.957,
+      "text": "Our vessel receives product materials and a heating or cooling service,",
+      "scene": 1
+    },
+    {
+      "start": 10.107,
+      "end": 12.539,
+      "text": "and transfers bulk solution downstream.",
+      "scene": 1
+    },
+    {
+      "start": 12.689,
+      "end": 15.889,
+      "text": "The simplified diagram shows these interfaces.",
+      "scene": 1
+    },
+    {
+      "start": 16.039,
+      "end": 20.497,
+      "text": "It does not assert that the utility is qualified by qualifying the vessel.",
+      "scene": 1
+    },
+    {
+      "start": 20.647,
+      "end": 24.914,
+      "text": "Each interface needs an owner and a clear connection to the evidence for",
+      "scene": 1
+    },
+    {
+      "start": 25.064,
+      "end": 27.347,
+      "text": "the supplying or receiving system.",
+      "scene": 1
+    },
+    {
+      "start": 28.097,
+      "end": 31.574,
+      "text": "A component does not need to touch product to affect quality.",
+      "scene": 2
+    },
+    {
+      "start": 31.724,
+      "end": 35.073,
+      "text": "A temperature sensor sends information to a controller,",
+      "scene": 2
+    },
+    {
+      "start": 35.223,
+      "end": 38.85,
+      "text": "which can influence the jacket service and therefore the product.",
+      "scene": 2
+    },
+    {
+      "start": 39.0,
+      "end": 43.736,
+      "text": "Conversely, physical proximity alone does not make every room object",
+      "scene": 2
+    },
+    {
+      "start": 43.886,
+      "end": 45.209,
+      "text": "equally important.",
+      "scene": 2
+    },
+    {
+      "start": 45.359,
+      "end": 49.412,
+      "text": "Describe the mechanism by which a component failure could affect the",
+      "scene": 2
+    },
+    {
+      "start": 49.562,
+      "end": 50.653,
+      "text": "process.",
+      "scene": 2
+    },
+    {
+      "start": 50.803,
+      "end": 55.475,
+      "text": "Use that explanation to support scope decisions rather than relying only",
+      "scene": 2
+    },
+    {
+      "start": 55.625,
+      "end": 57.566,
+      "text": "on a label such as critical.",
+      "scene": 2
+    },
+    {
+      "start": 58.316,
+      "end": 61.666,
+      "text": "Engineering understands the design and installation.",
+      "scene": 3
+    },
+    {
+      "start": 61.816,
+      "end": 65.869,
+      "text": "Operations understands how people use and clean the equipment.",
+      "scene": 3
+    },
+    {
+      "start": 66.019,
+      "end": 70.606,
+      "text": "Quality oversight connects decisions to the pharmaceutical quality system.",
+      "scene": 3
+    },
+    {
+      "start": 70.756,
+      "end": 75.321,
+      "text": "Additional expertise may be needed from development, microbiology,",
+      "scene": 3
+    },
+    {
+      "start": 75.471,
+      "end": 78.202,
+      "text": "metrology or information technology.",
+      "scene": 3
+    },
+    {
+      "start": 78.352,
+      "end": 81.53,
+      "text": "This is a suggested team for the fictional project,",
+      "scene": 3
+    },
+    {
+      "start": 81.68,
+      "end": 84.326,
+      "text": "not a universal organizational chart.",
+      "scene": 3
+    },
+    {
+      "start": 84.476,
+      "end": 89.084,
+      "text": "Identify who prepares evidence, who reviews it and who has authority to",
+      "scene": 3
+    },
+    {
+      "start": 89.234,
+      "end": 90.706,
+      "text": "approve each decision.",
+      "scene": 3
+    },
+    {
+      "start": 91.456,
+      "end": 94.549,
+      "text": "Review this handover: the vessel report is ready,",
+      "scene": 4
+    },
+    {
+      "start": 94.699,
+      "end": 99.008,
+      "text": "but the transfer hose has no approved cleaning procedure and the utility",
+      "scene": 4
+    },
+    {
+      "start": 99.158,
+      "end": 101.1,
+      "text": "connection is not identified.",
+      "scene": 4
+    },
+    {
+      "start": 101.25,
+      "end": 106.007,
+      "text": "Calling the vessel ready for routine use would hide unresolved interfaces.",
+      "scene": 4
+    },
+    {
+      "start": 106.157,
+      "end": 108.482,
+      "text": "Record the gaps and assess their impact.",
+      "scene": 4
+    },
+    {
+      "start": 108.632,
+      "end": 113.048,
+      "text": "For the activity, draw a boundary and assign an owner to each interface.",
+      "scene": 4
+    },
+    {
+      "start": 113.198,
+      "end": 118.977,
+      "text": "A boundary is useful only when work outside it has somewhere explicit to go.",
+      "scene": 4
+    }
+  ],
+  "spoken_cues": [
+    {
+      "start": 0,
+      "end": 4.395,
+      "text": "A system boundary is a practical agreement about what is included in the",
+      "scene": 1
+    },
+    {
+      "start": 4.545,
+      "end": 5.625,
+      "text": "assessment.",
+      "scene": 1
+    },
+    {
+      "start": 5.775,
+      "end": 9.957,
+      "text": "Our vessel receives product materials and a heating or cooling service,",
+      "scene": 1
+    },
+    {
+      "start": 10.107,
+      "end": 12.539,
+      "text": "and transfers bulk solution downstream.",
+      "scene": 1
+    },
+    {
+      "start": 12.689,
+      "end": 15.889,
+      "text": "The simplified diagram shows these interfaces.",
+      "scene": 1
+    },
+    {
+      "start": 16.039,
+      "end": 20.497,
+      "text": "It does not assert that the utility is qualified by qualifying the vessel.",
+      "scene": 1
+    },
+    {
+      "start": 20.647,
+      "end": 24.914,
+      "text": "Each interface needs an owner and a clear connection to the evidence for",
+      "scene": 1
+    },
+    {
+      "start": 25.064,
+      "end": 27.347,
+      "text": "the supplying or receiving system.",
+      "scene": 1
+    },
+    {
+      "start": 28.097,
+      "end": 31.574,
+      "text": "A component does not need to touch product to affect quality.",
+      "scene": 2
+    },
+    {
+      "start": 31.724,
+      "end": 35.073,
+      "text": "A temperature sensor sends information to a controller,",
+      "scene": 2
+    },
+    {
+      "start": 35.223,
+      "end": 38.85,
+      "text": "which can influence the jacket service and therefore the product.",
+      "scene": 2
+    },
+    {
+      "start": 39.0,
+      "end": 43.736,
+      "text": "Conversely, physical proximity alone does not make every room object",
+      "scene": 2
+    },
+    {
+      "start": 43.886,
+      "end": 45.209,
+      "text": "equally important.",
+      "scene": 2
+    },
+    {
+      "start": 45.359,
+      "end": 49.412,
+      "text": "Describe the mechanism by which a component failure could affect the",
+      "scene": 2
+    },
+    {
+      "start": 49.562,
+      "end": 50.653,
+      "text": "process.",
+      "scene": 2
+    },
+    {
+      "start": 50.803,
+      "end": 55.475,
+      "text": "Use that explanation to support scope decisions rather than relying only",
+      "scene": 2
+    },
+    {
+      "start": 55.625,
+      "end": 57.566,
+      "text": "on a label such as critical.",
+      "scene": 2
+    },
+    {
+      "start": 58.316,
+      "end": 61.666,
+      "text": "Engineering understands the design and installation.",
+      "scene": 3
+    },
+    {
+      "start": 61.816,
+      "end": 65.869,
+      "text": "Operations understands how people use and clean the equipment.",
+      "scene": 3
+    },
+    {
+      "start": 66.019,
+      "end": 70.606,
+      "text": "Quality oversight connects decisions to the pharmaceutical quality system.",
+      "scene": 3
+    },
+    {
+      "start": 70.756,
+      "end": 75.321,
+      "text": "Additional expertise may be needed from development, microbiology,",
+      "scene": 3
+    },
+    {
+      "start": 75.471,
+      "end": 78.202,
+      "text": "metrology or information technology.",
+      "scene": 3
+    },
+    {
+      "start": 78.352,
+      "end": 81.53,
+      "text": "This is a suggested team for the fictional project,",
+      "scene": 3
+    },
+    {
+      "start": 81.68,
+      "end": 84.326,
+      "text": "not a universal organizational chart.",
+      "scene": 3
+    },
+    {
+      "start": 84.476,
+      "end": 89.084,
+      "text": "Identify who prepares evidence, who reviews it and who has authority to",
+      "scene": 3
+    },
+    {
+      "start": 89.234,
+      "end": 90.706,
+      "text": "approve each decision.",
+      "scene": 3
+    },
+    {
+      "start": 91.456,
+      "end": 94.549,
+      "text": "Review this handover: the vessel report is ready,",
+      "scene": 4
+    },
+    {
+      "start": 94.699,
+      "end": 99.008,
+      "text": "but the transfer hose has no approved cleaning procedure and the utility",
+      "scene": 4
+    },
+    {
+      "start": 99.158,
+      "end": 101.1,
+      "text": "connection is not identified.",
+      "scene": 4
+    },
+    {
+      "start": 101.25,
+      "end": 106.007,
+      "text": "Calling the vessel ready for routine use would hide unresolved interfaces.",
+      "scene": 4
+    },
+    {
+      "start": 106.157,
+      "end": 108.482,
+      "text": "Record the gaps and assess their impact.",
+      "scene": 4
+    },
+    {
+      "start": 108.632,
+      "end": 113.048,
+      "text": "For the activity, draw a boundary and assign an owner to each interface.",
+      "scene": 4
+    },
+    {
+      "start": 113.198,
+      "end": 117.742,
+      "text": "A boundary is useful only when work outside it has somewhere explicit to",
+      "scene": 4
+    },
+    {
+      "start": 117.892,
+      "end": 118.977,
+      "text": "go.",
+      "scene": 4
+    }
+  ],
+  "display_policy": "Conventional abbreviations and numerals; spoken_cues preserve original synthesized phrases. Short trailing cues merged where two-line/8-second limits allow."
+}
