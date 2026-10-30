@@ -1,18 +1,22 @@
-# Module 2 continuation — 30 October 2026
+# Module 2 — final continuation status (30 October 2026)
 
-Status: NOT RELEASE-APPROVED. Preview branch only; PR #2 remains unmerged.
+**Preview fixes implemented and technically verified; ready for consultant re-review. NOT production release-approved.**
 
-## Recovered state and corrections
-Started from 201daa44d3ca96034d7d4795d6ef886b416c4070, which contains 40 regenerated aligned diagrams and ten rebuilt videos. The ten recordings retain their original narration. Required reading remains part of the assessed learning format.
+Read `continuation-2026-10-30.md` for the consolidated finding responses, observed root causes, exact test revisions and limitations.
 
-The latest duplicate push/PR workflows raced while saving media; one failed with a non-fast-forward push. The successful media commit used [skip ci], and Cloudflare reported its build skipped. These are observed causes, not a claim that the newer media had deployed.
+Final functional revision: `091d9053659b8a1713075e747aff13fce6366217`.
 
-Changes in this continuation: serialize preview QA, remove duplicate PR trigger and routine media regeneration, test the exact triggering commit, permit explicit media regeneration and save only after passing QA, remove skip-ci from generated commits, repair the manifest's literal backslash-n trailer, use a range-capable preview server, save browser evidence incrementally even on failure, preserve hidden explanations, and version media/CSS/JS URLs by content hash to avoid stale client assets. Added keyboard focus styling for scrollable tables and restored full explanations in print output.
+- Hosted browser: 360 checks, zero failures.
+- Same-revision GitHub QA and Cloudflare preview build: success.
+- Mobile-emulated native timeline: 20 taps passed across all ten lessons on the immediately preceding player revision; final change only fixes poster ratio.
+- Media: all 50 hosted regenerated assets match committed hashes; 120 media checks passed; 40 decoded scene frames checked against PNGs; all ten audio streams preserved.
+- Technical descriptions stay closed until explicitly opened. Native timeline only; no duplicate seek line. Mobile posters preserve 16:9.
+- Static hosting still ignores MP4 range requests. The small-file Blob player resolves native seeking after loading; direct raw-video streaming is not claimed fixed.
 
-## Evidence
-Local static validation and 120 media checks pass. A fresh browser regression and hosted media/hash verification are being executed; do not infer their success from historical reports.
+Review: https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-module-2
+Evidence: https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/academy-module-2-review
+PR: https://github.com/AkashVali02/valistera-website/pull/2
 
-Historical reports remain in this package and are dated. The 225-check local report from the earlier draft is not substituted for the current version. See the forthcoming continuation report for exact commits, checks and hosted results.
+Historical reports remain dated. The earlier Claude response's byte-identical-MP4 statement predates visual regeneration; current audio, not whole MP4, is byte-identical. Do not treat historical pending statements as the current execution status.
 
-## Remaining acceptance boundaries
-Human pronunciation/listening, physical-device operation, actual screen-reader review, audiovisual-equivalence acceptance, rights/host-account/privacy review, independent GMP review and owner release authorization remain unsigned. Nothing here certifies WCAG, GMP compliance or legal clearance. Production is unchanged.
+Human listening, physical-device/screen-reader testing, combined-format acceptance, independent technical/privacy/rights review and owner Module 2 release authorization remain outstanding. No human signatures fabricated. Keep the preview unmerged. Production main remains a0da0515034e16bba939a27f62d24eefd09d8bfe.

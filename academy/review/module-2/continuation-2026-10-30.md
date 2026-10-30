@@ -1,0 +1,52 @@
+# Module 2 consolidated continuation QA — 30 October 2026
+
+## Decision
+Revised PREVIEW for consultant re-review. NOT production release approval, WCAG certification, legal clearance or independent GMP sign-off. PR #2 stays unmerged. All work remains on academy-player-preview.
+
+## What was recovered and fixed
+The continuation began at 201daa44d3ca96034d7d4795d6ef886b416c4070. That commit already contained the 40 aligned PNG diagrams and ten rebuilt MP4s, but Cloudflare skipped its build because the message contained [skip ci]. Duplicate push/PR workflows also raced while pushing regenerated assets: run 40470725951 failed with a non-fast-forward push before browser testing.
+
+The workflow now serializes runs, checks the exact triggering revision, avoids redundant regeneration on routine pushes, and saves explicitly requested regenerated media only after passing checks. The malformed media manifest (literal backslash-n after the JSON) was repaired. The QA server now supports byte ranges and the browser report saves incremental results, including fatal errors, rather than disappearing on timeout.
+
+Actual preview testing then found a separate runtime defect: the static MP4 endpoint ignores Range and returns 200/full content. Native seeking stalled. The player now fetches the complete small MP4 only after Play, creates a local Blob URL, and uses the same native controls. It has loading/error/retry handling and revokes its Blob on page exit. No extra timeline, jump buttons, third-party media service or tracking was introduced. The raw direct-video URL still lacks range support; the fixed lesson player does not depend on it. Tradeoff: roughly 1.4–1.6 MB must arrive before playback; this is suitable for these small files, not a general large-video streaming design.
+
+Two overflowing worked tables were made keyboard-focusable. Closed diagram descriptions remain hidden until the learner opens View technical explanation; key explanations remain disclosed separately. Printing includes closed explanations. Review of actual mobile screenshots found a stretched video poster; its intrinsic 16:9 ratio is now preserved and tested. Original Vali-white/Stera-blue branding is preserved.
+
+## Evidence and exact revision scope
+- Final functional candidate: `091d9053659b8a1713075e747aff13fce6366217`.
+- Hosted browser regression: **360 checks, zero failures**, fully completed. All ten lessons play and seek through actual native timeline pointer clicks; subtitles, hidden/expanded explanations, mobile poster ratio, quiz scoring, retry recovery, storage opt-in/clear/blocked behavior, keyboard skip links, 15-page axe/reflow/text-spacing checks passed. See browser-hosted-final-2026-10-30.json.
+- GitHub CI on that exact revision: **success**, 360 browser checks, 120 media checks, site validator and 50-file manifest verification. Run: https://github.com/AkashVali02/valistera-website/actions/runs/40983131511 .
+- Cloudflare preview on that revision: **success**, build e248b4da-9d48-4d07-a39a-804014e4fc00.
+- Hosted mobile-emulation touchscreen: **20 successful native timeline taps**, two positions on every lesson, on `6ba0428abd966c6a9187b543089af63e8d542f23`. The final candidate changes only poster sizing and its regression assertion; player behavior remains identical. This is synthetic Chromium touch, not physical Android/iOS acceptance.
+- Seventeen hosted source files matched exact repository bytes at 6ba0428. Fifty media-file hashes matched the committed regenerated media. See dated source/media records for exact scope; later poster styling is covered by the final 360-check hosted run.
+- Local media and encoded-frame checks: 120 media checks pass; all 40 sampled encoded frames match the aligned source images; ten AAC audio streams preserved exactly. Current manifest is valid JSON.
+- Production main verified unchanged at `a0da0515034e16bba939a27f62d24eefd09d8bfe`.
+
+The final evidence commit adds reports, review-page links and a source-check date. It does not change the tested player, lesson content, CSS, captions or media. Historical local/hosted 350-check files are retained with their earlier tested commit, not substituted for the final run.
+
+The hosted-media hash record checks all 50 media files against revision 5c47e7bd7447ae42493e6c3aab9e4432fcede5ef. Those media bytes are unchanged in the final candidate. All 50 match; raw range responses are separately recorded as unsupported, not concealed as passes. Later native-control tests verify the Blob-based player workaround.
+
+The ten final MP4 hashes differ from the earlier d1a494c candidate. Extraction and SHA-256 comparison of AAC packets confirms every narration stream remains identical. Therefore this is a regenerated-visual delivery, not a new spoken lesson. Forty decoded mid-scene video frames match their corresponding committed PNGs within a declared lossy-encoding tolerance (mean absolute RGB difference <3/255; observed maximum 1.991). This samples each scene, not every transient frame. All forty current source diagrams were inspected in contact sheets; this is AI visual inspection, not a human acceptance signature.
+
+## Claude review disposition
+M1–M3 changes are retained: qualification-stage mapping, worked URS/traceability/FMEA/handover examples, and a new application-based final assessment. The later source refinements distinguishing provisional teaching limits from approved site criteria are preserved. Assessment-key output was regenerated from the current source so its last questions agree with the learner page.
+
+Captions retain conventional written notation and merged short cues. Source agreement, timing order/bounds, line length and reading-speed checks pass. Remaining caption comfort and pronunciation are still a listening-review item. Lesson 2.2's recorded “may be defined” wording remains; its required clarification states the documentation expectation. Added worked examples/clarifications are explicitly required reading, not falsely described as spoken. A consultant must assess the combined teaching format and educational adequacy.
+
+The DejaVu notice is directly linked from the sources page. Current evidence is available on the preview review page, so review does not require GitHub file access. Historical reports remain dated; their counts are not relabelled as current results.
+
+## Regulatory currency
+Rechecked official EU index and EMA revision status on 30 October 2026. EU Annex 15 operative text remains the 2015 version; the 2026 document is a revision concept paper with a timetable corrigendum, not an adopted replacement. No new requirement is inferred from a draft.
+
+- https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en
+- https://www.ema.europa.eu/en/human-regulatory-overview/research-development/compliance-research-development/good-manufacturing-practice/good-manufacturing-practice-gmp-good-distribution-practice-gdp-inspectors-working-group
+
+Existing source map retains Annex 15 §§1–4 and 11, ICH Q9(R1) §7/Annex I.2–I.3, and relevant WHO main-text sections. India/US jurisdiction expansion is outside this module's stated coverage.
+
+## Unresolved external acceptance
+- Human listening/pronunciation, unclear ASR words, reading comfort and acceptance of the recorded-plus-required-reading format.
+- Physical Android/iOS devices, actual screen readers, browser-menu 200%/400% zoom and audiovisual-equivalence acceptance. Mobile emulation and zero axe violations are not substitutes or certification.
+- Original model/voice/font licence conditions and commercial rights acceptance; Cloudflare account control, host logging/analytics, retention and deletion policies. Application-level no-new-analytics is not a host-level claim.
+- Independent GMP/privacy reviewer signatures and the owner's Module 2 release decision.
+
+The Module 1 release record reports the owner's statement and authorization; it is not a Claude signature and does not authorize Module 2. Its historical presence in PR #2 is documented, not treated as Module 2 acceptance.
