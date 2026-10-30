@@ -9,7 +9,18 @@ from render import D,ASSETS,draw_scene,ROOT
 from caption_display import display,speech
 base=Path(os.environ.get('TTS_DIR','/tmp/module3-tts'));base.mkdir(exist_ok=True);cache=base/'phrases';cache.mkdir(exist_ok=True)
 opt=rt.SessionOptions();opt.intra_op_num_threads=2;opt.inter_op_num_threads=1
-k=Kokoro.from_session(rt.InferenceSession(str(base/'kokoro-v1.0.onnx'),sess_options=opt,providers=['CPUExecutionProvider']),str(base/'voices-v1.0.bin'))
+session=rt.InferenceSession(str(base/'kokoro-v1.0.onnx'),sess_options=opt,providers=['CPUExecutionProvider'])
+# kokoro-onnx 0.4.9 casts speed to int32 for input_ids exports, truncating 0.92.
+# Preserve the configured factor and the ONNX-declared float input, without changing weights.
+run_onnx=session.run
+def run_with_float_speed(outputs,inputs,*args,**kwargs):
+ inputs=dict(inputs)
+ if 'input_ids' in inputs:
+  assert next(x for x in session.get_inputs() if x.name=='speed').type=='tensor(float)'
+  inputs['speed']=np.array([.92],dtype=np.float32)
+ return run_onnx(outputs,inputs,*args,**kwargs)
+session.run=run_with_float_speed
+k=Kokoro.from_session(session,str(base/'voices-v1.0.bin'))
 def stamp(t):
  n=round(t*1000);return f'{n//3600000:02}:{n//60000%60:02}:{n//1000%60:02}.{n%1000:03}'
 def chunks(text):

@@ -18,7 +18,7 @@ def draw_scene(l,s,j):
  if l['id']==3:
   text(72,244,'Teaching error bounds',26,CYAN,True)
   for n,(label,value) in enumerate([('Sensor',.2),('Transmitter',.2),('Display',.2),('Sum',.6)]):
-   y=306+n*64;text(72,y,label,23);d.rectangle((250,y+2,250+value*350,y+27),fill=GOLD if n==3 else BLUE);text(250+value*350+7,y,str(value),20)
+   y=306+n*64;text(72,y,label,23);d.rectangle((250,y+2,250+value*320,y+27),fill=GOLD if n==3 else BLUE);text(250+value*320+7,y,str(value),20)
   text(72,564,'Limit: 0.5 °C (fictional)',22,MUT)
  elif l['id']==10:
   text(72,246,'Evidence coverage',28,CYAN,True)
@@ -52,7 +52,7 @@ def draw_scene(l,s,j):
    d.text((638,y+55+(n-(len(lines)-1)/2)*36),line,font=ImageFont.truetype(B,29),fill=WHITE,anchor='lm')
  d.line((48,624,1232,624),fill='#345675',width=2)
  text(48,648,'FICTIONAL TEACHING CASE · NOT AN APPROVED SITE DESIGN',21,MUT)
- p=ASSETS/f'lesson-{l["id"]}-scene-{j+1}.png';im.save(p,optimize=True);return p
+ p=ASSETS/f'lesson-{l["id"]}-scene-{j+1}.png';buf=io.BytesIO();im.save(buf,format='PNG',optimize=True);tmp=p.with_suffix('.tmp');tmp.write_bytes(buf.getvalue());tmp.replace(p);return p
 if __name__=='__main__':
  for l in D['lessons']:
   for j,s in enumerate(l['scenes']):draw_scene(l,s,j)
