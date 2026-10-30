@@ -71,7 +71,7 @@ print('Built learner pages and learning resources')
 # Publish a readable evidence index because external reviewers may not access GitHub file views.
 import shutil
 review=R/'academy/review/module-2'; dest=A/'review';dest.mkdir(exist_ok=True)
-files=['continuation-2026-10-30.md','browser-hosted-final-2026-10-30.json','browser-local-2026-10-30.json','touch-hosted-2026-10-30.json','media-hosted-2026-10-30.json','source-hosted-2026-10-30.json','audio-preservation-2026-10-30.json','encoded-frame-check-2026-10-30.json','claude-response-2026-10-27.md','REVIEW-STATUS.md','technical-source-map.md','rights-and-privacy.md','browser-results.json','media-results.json','asr-screen.json','hosted-smoke.json']
+files=['disclosure-hosted-2026-10-30.json','continuation-2026-10-30.md','browser-hosted-final-2026-10-30.json','browser-local-2026-10-30.json','touch-hosted-2026-10-30.json','media-hosted-2026-10-30.json','source-hosted-2026-10-30.json','audio-preservation-2026-10-30.json','encoded-frame-check-2026-10-30.json','claude-response-2026-10-27.md','REVIEW-STATUS.md','technical-source-map.md','rights-and-privacy.md','browser-results.json','media-results.json','asr-screen.json','hosted-smoke.json']
 if (review/'browser-revision-results.json').exists():files.append('browser-revision-results.json')
 for name in files:
  if (review/name).exists():shutil.copyfile(review/name,dest/name)

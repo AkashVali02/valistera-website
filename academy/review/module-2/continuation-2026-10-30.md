@@ -77,3 +77,7 @@ The earlier UI collapsed diagram captions but kept full images visible. The revi
 | Optional jurisdiction expansion | Scope limitation stated | Schedule M/21 CFR 211 expansion not implemented |
 
 Consequently, “all Claude findings fully closed” would be inaccurate. The feasible code/content changes are implemented, and residual acceptance/deferred items are explicit above.
+
+
+### Follow-up verification
+Revision `5b5fe74699f5febcd44a45fcca5352513d9d9af8`: 440 browser checks passed locally; GitHub browser QA and Cloudflare preview build succeeded. A separate hosted 390px Chromium test verified every one of the 40 diagram/explanation groups is hidden initially, opens by keyboard and closes again (120 visibility/interaction assertions, zero failures). See `disclosure-hosted-2026-10-30.json`. The collapsed mobile layout was visually inspected. GitHub QA run: https://github.com/AkashVali02/valistera-website/actions/runs/40985034437 .

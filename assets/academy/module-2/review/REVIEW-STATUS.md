@@ -1,3 +1,9 @@
+# Latest UI follow-up — 30 October 2026
+
+Complete diagram/explanation groups now start collapsed behind **View technical information**, not just their captions. Functional revision: 5b5fe74699f5febcd44a45fcca5352513d9d9af8. 440 browser checks passed; GitHub QA and Cloudflare preview succeeded; all 40 disclosures independently checked on the hosted preview. See disclosure-hosted-2026-10-30.json and the Claude finding matrix in continuation-2026-10-30.md. No independent acceptance or production approval inferred.
+
+## Earlier continuation evidence
+
 # Module 2 — final continuation status (30 October 2026)
 
 **Preview fixes implemented and technically verified; ready for consultant re-review. NOT production release-approved.**
