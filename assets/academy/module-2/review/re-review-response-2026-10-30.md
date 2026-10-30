@@ -37,3 +37,18 @@ The official listing continues to identify Annex 15 as operational from 1 Octobe
 ## Acceptance boundaries
 
 This response does not close human listening/pronunciation, all-diagram equivalence acceptance, actual screen-reader/physical-device/zoom testing, combined-format acceptance, rights/privacy/hosting decisions, independent GMP review or owner release authorization. Source content and automation are not those signatures. Production remains unchanged.
+
+## Verification results
+
+Functional candidate: **94f6bf8bb6e22ef1ac98764d80543f2949bdaec5**.
+- GitHub QA completed successfully: https://github.com/AkashVali02/valistera-website/actions/runs/41006495056
+- Cloudflare Workers preview check completed successfully for that commit.
+- Local browser: 440 checks, zero failures. Hosted browser: 440 checks, zero failures (`r2-hosted-2026-10-30.json`). Tests include playback/native seeking, closed disclosures, keyboard interaction, reflow, axe, assessment and storage within the scripted scope.
+- Delivery: 94 requests, zero hash/header failures; deployed manifest matched the expected build (`r2-delivery-2026-10-30.json`). All 15 HTML pages tested at unversioned, two fresh query-string and extensionless URLs; 34 caption/transcript/JS/CSS/JSON assets checked separately.
+- Seven signed/absolute numerical boundary cases passed. Static validation: 46 HTML pages, 1377 local references, sitemap, JSON, fingerprints and JS syntax passed before the additional evidence links.
+
+Initial testing caught mobile overflow from the new full commit footer; wrapping was fixed before the passing candidate. An initial remote run also lacked the configured axe path; corrected runs used the existing axe dependency. The HTTP harness uses curl to avoid the sandbox's stalled Python networking. Those unsuccessful attempts are not counted as passes.
+
+Cloudflare can report CF-Cache-Status: HIT for its static-asset delivery even with the explicit no-store response directives. The tested bytes were current; this is not a claim of global purge or control over Claude's own fetch cache. If a reviewer sees another footer commit, stop that review rather than mixing revisions.
+
+The subsequent evidence commit adds these results and the HTTP harness correction; it does not change learner questions, narration, captions or media. Deployed identity changes appropriately with each commit.
