@@ -72,6 +72,26 @@ jobs:
             git commit -m 'Persist tested Module 3 narration, captions, diagrams and browser evidence'
             git push origin HEAD:academy-player-preview
           fi
+      - name: Verify actual Cloudflare preview commit and delivered bytes
+        run: |
+          node academy/module-3/stamp-build.cjs
+          expected=$(git rev-parse HEAD)
+          base=https://academy-player-preview-valistera-website.gadadeakash72.workers.dev
+          for attempt in $(seq 1 36); do
+            served=$(curl -fsS --max-time 20 "$base/assets/academy/module-3/review/review-build.json?check=$expected" | python3 -c 'import json,sys; print(json.load(sys.stdin)["source_commit"])' || true)
+            if [ "$served" = "$expected" ]; then break; fi
+            sleep 10
+          done
+          test "$served" = "$expected"
+          python3 academy/tests/module3-delivery.py "$base" "$expected" academy/review/module-3/hosted-delivery-results.json
+      - name: Browser QA on actual hosted preview
+        env:
+          BASE_URL: https://academy-player-preview-valistera-website.gadadeakash72.workers.dev
+          PLAYWRIGHT_MODULE: playwright
+          AXE_PATH: node_modules/axe-core/axe.min.js
+          RESULT_PATH: academy/review/module-3/hosted-browser-results.json
+          SCREENSHOT_DIR: /tmp
+        run: node academy/tests/module3-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

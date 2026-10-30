@@ -20,9 +20,11 @@ All forty diagram/description groups begin collapsed behind View Technical Expla
 
 ## Verification and evidence interpretation
 
-Recovery local checks: content structure/calculations passed; 140 media checks passed; source/media fingerprint check passed; website validation passed (61 HTML pages). Final workflow and hosted evidence must be read by their own commit and scope; older browser-results.json must not be mistaken for new hosted results. Local browser installation failed because the downloaded Chrome archive was invalid, so fresh browser execution uses GitHub Actions.
+Recovery local checks: content structure/calculations passed; 140 media checks passed; source/media fingerprint check passed; website validation passed (61 HTML pages). Final workflow and hosted evidence must be read by their own commit and scope; older browser-results.json must not be mistaken for new hosted results. The default local Chrome download was invalid; an official older build downloaded successfully but execution was blocked by the runtime socket restriction. Fresh browser execution therefore uses GitHub Actions. Recovery run 41060453879 passed its local browser suite before saving the corrected media. The final recovery workflow additionally waits for Cloudflare to serve its persisted commit, compares delivered bytes, and runs the same suite against that hosted preview. Read its downloadable artifact for the final outcome; workflow presence alone is not a pass.
 
 Reviewed all 40 narration passages and all 20 assessment answers/explanations. Official EudraLex index, adopted Annex 15, Chapter 3 and Chapter 4 were retrieved on 30 October 2026. The source map distinguishes DQ from later qualification, fictional criteria from regulatory requirements, supplier evidence from site accountability, and conditional progression from routine release. This is an AI technical pre-review, not independent GMP approval.
+
+Decoded video frames were compared against all forty intended scene PNGs at their midpoints: 40 passed, maximum mean absolute RGB difference 1.96/255 (limit 8/255). See frame-results.json. This confirms encoded scene identity, not human audio comprehension.
 
 ## Reviewer instructions and release gates
 

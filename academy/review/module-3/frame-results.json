@@ -1,0 +1,286 @@
+{
+  "scope": "Decoded video at each scene midpoint compared with intended PNG; mean absolute RGB error below 8/255. Not a human listening test.",
+  "checks": [
+    {
+      "lesson": 1,
+      "scene": 1,
+      "time": 14.106,
+      "mean_absolute_rgb_error": 1.8184027777777778,
+      "pass_check": true
+    },
+    {
+      "lesson": 1,
+      "scene": 2,
+      "time": 45.4575,
+      "mean_absolute_rgb_error": 1.8417097077546298,
+      "pass_check": true
+    },
+    {
+      "lesson": 1,
+      "scene": 3,
+      "time": 76.271,
+      "mean_absolute_rgb_error": 1.7282125289351853,
+      "pass_check": true
+    },
+    {
+      "lesson": 1,
+      "scene": 4,
+      "time": 104.997,
+      "mean_absolute_rgb_error": 1.746632667824074,
+      "pass_check": true
+    },
+    {
+      "lesson": 2,
+      "scene": 1,
+      "time": 15.0275,
+      "mean_absolute_rgb_error": 1.7807143373842595,
+      "pass_check": true
+    },
+    {
+      "lesson": 2,
+      "scene": 2,
+      "time": 44.695499999999996,
+      "mean_absolute_rgb_error": 1.7857309751157409,
+      "pass_check": true
+    },
+    {
+      "lesson": 2,
+      "scene": 3,
+      "time": 76.7225,
+      "mean_absolute_rgb_error": 1.7176576967592592,
+      "pass_check": true
+    },
+    {
+      "lesson": 2,
+      "scene": 4,
+      "time": 108.358,
+      "mean_absolute_rgb_error": 1.7351888020833333,
+      "pass_check": true
+    },
+    {
+      "lesson": 3,
+      "scene": 1,
+      "time": 16.442,
+      "mean_absolute_rgb_error": 1.8350911458333332,
+      "pass_check": true
+    },
+    {
+      "lesson": 3,
+      "scene": 2,
+      "time": 48.64,
+      "mean_absolute_rgb_error": 1.745228226273148,
+      "pass_check": true
+    },
+    {
+      "lesson": 3,
+      "scene": 3,
+      "time": 81.762,
+      "mean_absolute_rgb_error": 1.7302698206018519,
+      "pass_check": true
+    },
+    {
+      "lesson": 3,
+      "scene": 4,
+      "time": 115.13550000000001,
+      "mean_absolute_rgb_error": 1.7208000578703704,
+      "pass_check": true
+    },
+    {
+      "lesson": 4,
+      "scene": 1,
+      "time": 15.015,
+      "mean_absolute_rgb_error": 1.8513834635416666,
+      "pass_check": true
+    },
+    {
+      "lesson": 4,
+      "scene": 2,
+      "time": 46.536,
+      "mean_absolute_rgb_error": 1.8007964409722224,
+      "pass_check": true
+    },
+    {
+      "lesson": 4,
+      "scene": 3,
+      "time": 79.571,
+      "mean_absolute_rgb_error": 1.8559071180555555,
+      "pass_check": true
+    },
+    {
+      "lesson": 4,
+      "scene": 4,
+      "time": 111.45400000000001,
+      "mean_absolute_rgb_error": 1.8521270978009259,
+      "pass_check": true
+    },
+    {
+      "lesson": 5,
+      "scene": 1,
+      "time": 15.311,
+      "mean_absolute_rgb_error": 1.8291037326388888,
+      "pass_check": true
+    },
+    {
+      "lesson": 5,
+      "scene": 2,
+      "time": 47.7,
+      "mean_absolute_rgb_error": 1.8035394965277778,
+      "pass_check": true
+    },
+    {
+      "lesson": 5,
+      "scene": 3,
+      "time": 81.38,
+      "mean_absolute_rgb_error": 1.752187138310185,
+      "pass_check": true
+    },
+    {
+      "lesson": 5,
+      "scene": 4,
+      "time": 114.492,
+      "mean_absolute_rgb_error": 1.7275325520833331,
+      "pass_check": true
+    },
+    {
+      "lesson": 6,
+      "scene": 1,
+      "time": 16.5185,
+      "mean_absolute_rgb_error": 1.8504792390046296,
+      "pass_check": true
+    },
+    {
+      "lesson": 6,
+      "scene": 2,
+      "time": 47.7645,
+      "mean_absolute_rgb_error": 1.9533579282407407,
+      "pass_check": true
+    },
+    {
+      "lesson": 6,
+      "scene": 3,
+      "time": 78.02799999999999,
+      "mean_absolute_rgb_error": 1.7299027054398148,
+      "pass_check": true
+    },
+    {
+      "lesson": 6,
+      "scene": 4,
+      "time": 107.34899999999999,
+      "mean_absolute_rgb_error": 1.7530736400462963,
+      "pass_check": true
+    },
+    {
+      "lesson": 7,
+      "scene": 1,
+      "time": 16.694,
+      "mean_absolute_rgb_error": 1.7887742332175927,
+      "pass_check": true
+    },
+    {
+      "lesson": 7,
+      "scene": 2,
+      "time": 49.19,
+      "mean_absolute_rgb_error": 1.7800079571759262,
+      "pass_check": true
+    },
+    {
+      "lesson": 7,
+      "scene": 3,
+      "time": 80.6135,
+      "mean_absolute_rgb_error": 1.6768268952546297,
+      "pass_check": true
+    },
+    {
+      "lesson": 7,
+      "scene": 4,
+      "time": 111.6245,
+      "mean_absolute_rgb_error": 1.683824146412037,
+      "pass_check": true
+    },
+    {
+      "lesson": 8,
+      "scene": 1,
+      "time": 14.7055,
+      "mean_absolute_rgb_error": 1.7974768518518518,
+      "pass_check": true
+    },
+    {
+      "lesson": 8,
+      "scene": 2,
+      "time": 46.602000000000004,
+      "mean_absolute_rgb_error": 1.8080316840277775,
+      "pass_check": true
+    },
+    {
+      "lesson": 8,
+      "scene": 3,
+      "time": 80.0085,
+      "mean_absolute_rgb_error": 1.746175491898148,
+      "pass_check": true
+    },
+    {
+      "lesson": 8,
+      "scene": 4,
+      "time": 112.41300000000001,
+      "mean_absolute_rgb_error": 1.728121021412037,
+      "pass_check": true
+    },
+    {
+      "lesson": 9,
+      "scene": 1,
+      "time": 14.4515,
+      "mean_absolute_rgb_error": 1.7923278356481482,
+      "pass_check": true
+    },
+    {
+      "lesson": 9,
+      "scene": 2,
+      "time": 44.8435,
+      "mean_absolute_rgb_error": 1.8234447337962962,
+      "pass_check": true
+    },
+    {
+      "lesson": 9,
+      "scene": 3,
+      "time": 77.3025,
+      "mean_absolute_rgb_error": 1.6983774594907406,
+      "pass_check": true
+    },
+    {
+      "lesson": 9,
+      "scene": 4,
+      "time": 109.32300000000001,
+      "mean_absolute_rgb_error": 1.7127065248842595,
+      "pass_check": true
+    },
+    {
+      "lesson": 10,
+      "scene": 1,
+      "time": 15.548,
+      "mean_absolute_rgb_error": 1.9122471788194444,
+      "pass_check": true
+    },
+    {
+      "lesson": 10,
+      "scene": 2,
+      "time": 46.475,
+      "mean_absolute_rgb_error": 1.8980711082175923,
+      "pass_check": true
+    },
+    {
+      "lesson": 10,
+      "scene": 3,
+      "time": 79.7125,
+      "mean_absolute_rgb_error": 1.8074623842592592,
+      "pass_check": true
+    },
+    {
+      "lesson": 10,
+      "scene": 4,
+      "time": 113.5545,
+      "mean_absolute_rgb_error": 1.796617115162037,
+      "pass_check": true
+    }
+  ],
+  "failures": []
+}
