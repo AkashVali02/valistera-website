@@ -1,21 +1,35 @@
-# Module 3 — Design Qualification: consolidated QA report
+# Module 3 — Design Qualification: recovery and consolidated review
 
-Edition M3-20261030-R1. Preview only. No consultant approval, human acceptance or production authorization claimed.
+Preview only. Independent GMP consultant approval and owner release authorization remain mandatory. Module 1/2 approval does not approve Module 3.
 
-## Package
+## Recovered checkpoint
 
-10 narrated lessons; 40 original diagrams; synchronized display captions and transcripts; 10 worked reference tables; 10 lesson checks; 20 distinct final application questions; 10 workbook activities and two CSV templates; conservative error-bound and coverage explorers. The oral-liquid V-201 case continues Module 2 without implying aseptic-process coverage.
+Branch academy-player-preview; draft PR #3. Recovered head 02dc10bda0ed94a9a398a4c1a8ef788847dd4c84. Original source 43abdb644869dbf7dc6eff5db44324abe9887f93; runtime fix 57ab0edd6fe71f8460bfa4f5e542595f413de9f1.
 
-Core worked reasoning is narrated from the same source used for captions/transcripts. Reference tables restate it; practice activities/model answers are identified as reading exercises. No post-recording correction layer is used to replace incorrect audio.
+Run 41034790586 failed in narration; kokoro-onnx 0.4.9 supplied integer speed to an ONNX model expecting float. The committed fix preserves float32 speed 0.92. Run 41035348010 completed successfully and committed ten narrated videos and their supporting assets as 02dc10b. Artifact 12967484506 remains available. Cloudflare check 123999722368 reports successful preview deployment of that commit. The ChatGPT session becoming read-only has no established root cause.
 
-## Verification status
+No prior local working tree was available in this session. Exact lost edits cannot be identified. Repository inspection showed the two named visual improvements were absent: generic vessel drawings remained at cleaning pockets (3.4 parts 3/4) and maintenance access (3.6 part 2). Only these missing illustrations and their two video tracks were reconstructed. Narration was preserved, with identical compressed-audio SHA256 before/after; see visual-recovery.json. Captions and scene boundaries were retained.
 
-Media production and browser QA are pending at initial source commit. Do not infer a pass from workflow presence. Final results will be added before handover. The deployed build manifest and footer identify the served commit; historical JSON identifies its own tested scope.
+## Package and corrections
 
-## Prior mistakes addressed in design
+Ten narrated lessons, forty original diagrams, ten worked examples, ten lesson checks, twenty distinct application assessment questions, workbook, two CSV templates, source map, rights notices and provenance. Total media duration is approximately 21.05 minutes. All media is committed; no temporary workflow output is required for playback.
 
-Whole diagram/explanation groups start closed behind View technical information. Native controls use a same-origin Blob for actual seeking despite static-host range limitations. No duplicate timeline. Labels and numbers are vertically centred; full-size diagrams and relationship descriptions are provided. Captions use conventional notation; chunking avoids one/two-word tails and bounds reading speed. Key assessment concepts and worked reasoning are in narration. Requirements, assumptions and later verification are distinguished; no fake real-site approval.
+Cleaning illustration now contrasts a continuous outlet with a low liquid-retaining pocket. Maintenance illustration explicitly shows a rear instrument's removal path blocked by a pipe rack. Both are qualitative, not engineering acceptance drawings. Existing white Vali / blue Stera identity and aligned key-point numbering are preserved.
 
-## Limits and release decision
+All forty diagram/description groups begin collapsed behind View Technical Explanation. Native timeline controls remain the only seek bar. Deployment manifest now includes MP4, PNG and CSV bytes as well as pages/captions, enabling verification of the actual delivered media.
 
-This package is for independent consultant review, not production. Automated QA cannot provide human pronunciation/listening acceptance, real-device readability or a screen-reader user evaluation. Static, non-flashing scene transitions are used, but no certified flashing analysis is claimed. Human acceptance of audiovisual alternatives and reading comfort remains necessary. Rights/hosting and independent GMP decisions require the appropriate owners; no licensing rights or signatures are fabricated. Module 1/2 approvals do not approve Module 3.
+## Verification and evidence interpretation
+
+Recovery local checks: content structure/calculations passed; 140 media checks passed; source/media fingerprint check passed; website validation passed (61 HTML pages). Final workflow and hosted evidence must be read by their own commit and scope; older browser-results.json must not be mistaken for new hosted results. Local browser installation failed because the downloaded Chrome archive was invalid, so fresh browser execution uses GitHub Actions.
+
+Reviewed all 40 narration passages and all 20 assessment answers/explanations. Official EudraLex index, adopted Annex 15, Chapter 3 and Chapter 4 were retrieved on 30 October 2026. The source map distinguishes DQ from later qualification, fictional criteria from regulatory requirements, supplier evidence from site accountability, and conditional progression from routine release. This is an AI technical pre-review, not independent GMP approval.
+
+## Reviewer instructions and release gates
+
+1. Check the served commit footer and review-build.json before reviewing; match them to the PR head and hosted evidence.
+2. Read lessons 3.1–3.10 with transcripts; listen to every video and assess pronunciation, pacing, diagram/narration meaning and captions. Inspect the corrected outlet and access illustrations closely.
+3. Complete the independent assessment and workbook; review answer rationales and fictional acceptance assumptions against source-map.md.
+4. Perform real Android/iOS touch seeking and reading comfort checks, plus screen-reader/manual accessibility evaluation. Automated Chromium/axe checks do not certify WCAG conformity.
+5. Independent GMP consultant must document findings and sign-off against the exact candidate commit. Owner must accept media/rights/privacy limitations and explicitly authorize production release.
+
+No merge, production deployment, human listening acceptance, independent signature or regulatory certification is claimed. Upstream voice training-data rights and hosting log retention are not independently verified. Preview approval is not production authorization.

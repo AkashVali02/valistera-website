@@ -708,7 +708,7 @@
       "detail": {
         "duration": 120.2,
         "cues": 34,
-        "source": "blob:http://127.0.0.1:8092/6a45264e-a287-4ea5-8371-a073ad50f193",
+        "source": "blob:http://127.0.0.1:8092/c179af1e-0efb-4bf1-ad12-6da37c013642",
         "downloadSource": "/assets/academy/module-3/lesson-1.mp4?v=3d639ad3556f"
       }
     },
@@ -826,7 +826,7 @@
       "detail": {
         "duration": 122.607,
         "cues": 32,
-        "source": "blob:http://127.0.0.1:8092/05238a82-c24b-482e-ab8b-337dec9b5771",
+        "source": "blob:http://127.0.0.1:8092/644d98b6-2a5d-404f-a7e0-afb4169c10d3",
         "downloadSource": "/assets/academy/module-3/lesson-2.mp4?v=99cb1d400d93"
       }
     },
@@ -944,7 +944,7 @@
       "detail": {
         "duration": 131.143,
         "cues": 35,
-        "source": "blob:http://127.0.0.1:8092/53999343-268b-4e2d-bff4-3fdcba0fa918",
+        "source": "blob:http://127.0.0.1:8092/644ebf19-bd7c-400a-83c6-b8d1ec85247f",
         "downloadSource": "/assets/academy/module-3/lesson-3.mp4?v=728a52538196"
       }
     },
@@ -1062,8 +1062,8 @@
       "detail": {
         "duration": 126.808,
         "cues": 34,
-        "source": "blob:http://127.0.0.1:8092/62b69cef-9051-4066-9a7b-dd912e549a66",
-        "downloadSource": "/assets/academy/module-3/lesson-4.mp4?v=bdc015ab7f74"
+        "source": "blob:http://127.0.0.1:8092/9945d8fe-6bf6-43ec-a5e5-79150f5448bc",
+        "downloadSource": "/assets/academy/module-3/lesson-4.mp4?v=222f10201f77"
       }
     },
     {
@@ -1180,7 +1180,7 @@
       "detail": {
         "duration": 131.003,
         "cues": 35,
-        "source": "blob:http://127.0.0.1:8092/6a459bf1-a2af-4cfb-afed-aaeaa7fa9d9c",
+        "source": "blob:http://127.0.0.1:8092/ec1ed065-55aa-4566-b0f8-34b5ed8b45ec",
         "downloadSource": "/assets/academy/module-3/lesson-5.mp4?v=73f329c9ca57"
       }
     },
@@ -1298,8 +1298,8 @@
       "detail": {
         "duration": 121.134,
         "cues": 33,
-        "source": "blob:http://127.0.0.1:8092/a1752d51-4ce2-4a78-9139-27eaa27888a3",
-        "downloadSource": "/assets/academy/module-3/lesson-6.mp4?v=e3a55c97033b"
+        "source": "blob:http://127.0.0.1:8092/46cbfd89-4811-48ed-ba02-6a8d9e9c126c",
+        "downloadSource": "/assets/academy/module-3/lesson-6.mp4?v=d88798813d18"
       }
     },
     {
@@ -1416,7 +1416,7 @@
       "detail": {
         "duration": 127.014,
         "cues": 34,
-        "source": "blob:http://127.0.0.1:8092/0b89973b-4e3d-49b8-ace1-ea70892a2d3e",
+        "source": "blob:http://127.0.0.1:8092/3794db9b-8f96-4386-89ee-c9dc1b3c0e49",
         "downloadSource": "/assets/academy/module-3/lesson-7.mp4?v=482aee56f9a1"
       }
     },
@@ -1534,7 +1534,7 @@
       "detail": {
         "duration": 128.602,
         "cues": 37,
-        "source": "blob:http://127.0.0.1:8092/46295da5-45cf-490f-a79f-301a66a6b8a2",
+        "source": "blob:http://127.0.0.1:8092/deda178d-607b-4192-80b1-5b1ea19636cc",
         "downloadSource": "/assets/academy/module-3/lesson-8.mp4?v=a658582b973e"
       }
     },
@@ -1652,7 +1652,7 @@
       "detail": {
         "duration": 124.825,
         "cues": 35,
-        "source": "blob:http://127.0.0.1:8092/b555e2ce-8c33-4858-9c9b-faa339c5a5d3",
+        "source": "blob:http://127.0.0.1:8092/ea31c7a5-b137-4882-b55b-2ab4a5d14f19",
         "downloadSource": "/assets/academy/module-3/lesson-9.mp4?v=efed89c12ddb"
       }
     },
@@ -1770,7 +1770,7 @@
       "detail": {
         "duration": 129.538,
         "cues": 35,
-        "source": "blob:http://127.0.0.1:8092/b860f559-4a04-44cc-a2e3-2841d6789f04",
+        "source": "blob:http://127.0.0.1:8092/fc100d6a-bcfb-44a1-8834-489b29640f57",
         "downloadSource": "/assets/academy/module-3/lesson-10.mp4?v=ed3a7d994c1e"
       }
     },
