@@ -24,7 +24,7 @@ for path,sha in manifest['sha256'].items():
  if path.endswith('.html'):tasks.append((path[:-5],'?review='+uuid.uuid4().hex,sha))
 with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:rows=list(pool.map(request,tasks))
 live=json.loads(subprocess.check_output(['curl','--fail','--silent','--show-error','--max-time','40',base+'/assets/academy/module-3/review/review-build.json?review='+uuid.uuid4().hex]))
-result=dict(tested_commit=expected,base=base,checked_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),manifest_matches=live==manifest,requests=rows,failures=[r for r in rows if not r.get('match') or not r.get('no_store')],scope='HTTP content and headers from this network location; not global cache invalidation or browser accessibility')
+result=dict(tested_commit=expected,base=base,checked_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),manifest_matches=(live.get('source_commit')==expected and live.get('edition')==manifest.get('edition') and live.get('sha256')==manifest.get('sha256')),requests=rows,failures=[r for r in rows if not r.get('match') or not r.get('no_store')],scope='HTTP content and headers from this network location; not global cache invalidation or browser accessibility')
 pathlib.Path(out).write_text(json.dumps(result,indent=2))
 print(json.dumps({'commit':expected,'requests':len(rows),'manifest_matches':result['manifest_matches'],'failures':result['failures']}))
 sys.exit(bool(result['failures']) or not result['manifest_matches'])
