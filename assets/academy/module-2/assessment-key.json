@@ -34,10 +34,10 @@
     "options": [
       "Temperature indication should suit normal manufacturing",
       "Temperature indication should meet the supplier standard",
-      "At defined reference points, indication error must be within ±0.5 °C"
+      "At defined reference points, indication error must be within \u00b10.5 \u00b0C"
     ],
     "answer": 2,
-    "feedback": "The last option is measurable, once the fictional basis, points and method are approved; ±0.5 °C is not a general GMP limit."
+    "feedback": "The last option is measurable, once the fictional basis, points and method are approved; \u00b10.5 \u00b0C is not a general GMP limit."
   },
   {
     "question": "The installed sensor differs from the sensor in a passing FAT report. How should URS verification be recorded?",
@@ -80,10 +80,10 @@
     "feedback": "Functional testing must address the shared dependency, not merely documentation or configuration."
   },
   {
-    "question": "A measured error is −0.6 °C and the illustrative absolute limit is 0.5 °C. What is the numerical result?",
+    "question": "A measured error is \u22120.6 \u00b0C and the illustrative absolute limit is 0.5 \u00b0C. What is the numerical result?",
     "options": [
-      "It exceeds the limit because its magnitude is 0.6 °C",
-      "It passes because −0.6 is less than +0.5",
+      "It exceeds the limit because its magnitude is 0.6 \u00b0C",
+      "It passes because \u22120.6 is less than +0.5",
       "It passes if the signed average remains positive"
     ],
     "answer": 0,
@@ -120,7 +120,7 @@
     "feedback": "Qualification of a supplying system does not establish its suitability for every receiving interface."
   },
   {
-    "question": "Draft PB-02 proposes ±0.5 °C but the base project has no approved temperature tolerance. What is URS-02 status?",
+    "question": "Draft PB-02 proposes \u00b10.5 \u00b0C but the base project has no approved temperature tolerance. What is URS-02 status?",
     "options": [
       "Verified because a worked example states a number",
       "Ready for execution because a supplier offers that accuracy",
@@ -160,43 +160,43 @@
     "feedback": "The verification should challenge the common-cause scenario and protective response."
   },
   {
-    "question": "What is the mean of the ten fictional errors?",
+    "question": "A signed error dataset sums to +3.1 \u00b0C across ten readings. What is its signed mean?",
     "options": [
-      "0.31 °C",
-      "0.50 °C",
-      "0.60 °C"
+      "+0.31 \u00b0C",
+      "+0.50 \u00b0C",
+      "+0.60 \u00b0C"
     ],
     "answer": 0,
-    "feedback": "Their sum is 3.1 °C; divided by ten gives 0.31 °C."
+    "feedback": "The signed arithmetic mean is +3.1/10 = +0.31 \u00b0C."
   },
   {
-    "question": "How many fictional errors exceed 0.5 °C?",
+    "question": "With an illustrative absolute limit of 0.5 \u00b0C, how many listed errors exceed the limit?",
     "options": [
       "Zero",
       "One",
       "Two"
     ],
     "answer": 1,
-    "feedback": "Only 0.6 °C exceeds the illustrative limit; 0.5 equals it."
+    "feedback": "Only 0.6 \u00b0C exceeds the illustrative limit; 0.5 \u00b0C equals it."
   },
   {
-    "question": "A new product changes cleaning needs. What is appropriate?",
+    "question": "A new product changes cleaning needs. Which action is justified?",
     "options": [
-      "Retest mixing only and keep the cleaning basis",
-      "Assess scope, requirements, risks and affected evidence",
-      "Update cleaning alone and retain the previous scope"
+      "Retest mixing only and retain the cleaning basis",
+      "Review intended use, requirements, risks and affected verification evidence",
+      "Update only the cleaning procedure without assessing interfaces"
     ],
     "answer": 1,
-    "feedback": "The new intended use may affect several linked documents and controls."
+    "feedback": "New intended use may affect linked requirements and qualification evidence."
   },
   {
-    "question": "What does completing this module establish?",
+    "question": "What does completing this self-study module demonstrate?",
     "options": [
-      "Formal site competency",
-      "Regulatory approval",
-      "Self-study completion only"
+      "Formal site authorization",
+      "Regulatory certification",
+      "Completion of an educational exercise, not independent competence"
     ],
     "answer": 2,
-    "feedback": "Formal competency and authorization require the applicable independent/site process."
+    "feedback": "Formal competency and authorization require an applicable independently approved process."
   }
 ]

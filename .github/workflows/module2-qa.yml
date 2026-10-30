@@ -2,59 +2,60 @@ name: Module 2 preview browser QA
 on:
   push:
     branches: [academy-player-preview]
-  pull_request:
   workflow_dispatch:
+    inputs:
+      regenerate_media:
+        description: Rebuild and persist the aligned preview media after QA
+        type: boolean
+        default: false
 permissions:
   contents: write
+concurrency:
+  group: module2-preview-qa
+  cancel-in-progress: false
 jobs:
   browser:
+    if: github.ref == 'refs/heads/academy-player-preview'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: academy-player-preview
-          persist-credentials: true
+          ref: ${{ github.sha }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Rebuild corrected diagrams
+      - name: Install media and browser dependencies
         run: |
           sudo apt-get update -qq && sudo apt-get install -y ffmpeg
           pip install pillow
-          python3 academy/module-2/align_diagrams.py
-          python3 academy/module-2/rebuild_video_frames.py
-      - name: Save aligned preview diagrams
-        if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/academy-player-preview'
-        run: |
-          git config user.name 'ValiStera Academy QA'
-          git config user.email 'actions@users.noreply.github.com'
-          python3 - <<'PY'
-          import hashlib,json,pathlib
-          root=pathlib.Path('assets/academy/module-2')
-          paths=sorted([*root.glob('lesson-*-scene-*.png'),*root.glob('lesson-*.mp4')])
-          assert len(paths)==50, f'Expected 50 media assets, got {len(paths)}'
-          record={str(p):{'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size} for p in paths}
-          pathlib.Path('academy/module-2/media-manifest.json').write_text(json.dumps(record,indent=2)+'\\n')
-          print('Verified',len(paths),'media assets; generated SHA-256 manifest')
-          PY
-          git add academy/module-2/render.py academy/module-2/media-manifest.json assets/academy/module-2/*-scene-*.png assets/academy/module-2/lesson-*.mp4
-          git status --short
-          git diff --cached --quiet || (git commit -m 'Regenerate aligned lesson diagrams [skip ci]' && git push origin HEAD:academy-player-preview)
-      - name: Install browser testing dependencies
-        run: |
           npm install --no-save playwright axe-core
           npx playwright install --with-deps chromium
-      - name: Start local preview
+      - name: Rebuild media only when explicitly requested
+        if: github.event_name == 'workflow_dispatch' && inputs.regenerate_media
         run: |
-          python3 -m http.server 8092 --bind 127.0.0.1 > /tmp/module2-http.log 2>&1 &
-          sleep 3
-      - name: Diagnose browser and media environment
+          python3 academy/module-2/align_diagrams.py
+          python3 academy/module-2/rebuild_video_frames.py
+          python3 academy/module-2/audit_media.py
+          python3 academy/module-2/build.py
+      - name: Verify committed media and site
         run: |
-          node --version
-          python3 --version
-          ls -lh academy-lesson-2-1.html assets/academy/module-2/lesson-1.mp4 node_modules/axe-core/axe.min.js
-          curl --fail --silent --show-error --head http://127.0.0.1:8092/academy-lesson-2-1.html
+          python3 academy/tests/module2-media.py
+          python3 - <<'PY'
+          import hashlib,json,pathlib
+          for name,record in json.loads(pathlib.Path('academy/module-2/media-manifest.json').read_text()).items():
+              p=pathlib.Path(name)
+              assert p.stat().st_size==record['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==record['sha256'], name
+          PY
+          node validate-site.cjs
+      - name: Start seekable local preview
+        run: |
+          python3 academy/tests/serve-preview.py > /tmp/module2-http.log 2>&1 &
+          for attempt in $(seq 1 20); do
+            if curl --fail --silent http://127.0.0.1:8092/academy-module-2.html > /dev/null; then break; fi
+            sleep 1
+          done
       - name: Run browser accessibility and media checks
         env:
           PLAYWRIGHT_MODULE: playwright
@@ -62,7 +63,17 @@ jobs:
           RESULT_PATH: module2-browser-results.json
           SCREENSHOT_DIR: .
         run: node academy/tests/module2-browser.cjs
-      - name: Upload QA results
+      - name: Persist regenerated media only after passing checks
+        if: success() && github.event_name == 'workflow_dispatch' && inputs.regenerate_media
+        run: |
+          git config user.name 'ValiStera Academy QA'
+          git config user.email 'actions@users.noreply.github.com'
+          git add academy/module-2/render.py academy/module-2/media-manifest.json assets/academy/module-2/ academy-lesson-2-*.html academy-module-2*.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Regenerate verified Module 2 preview media'
+            git push origin HEAD:academy-player-preview
+          fi
+      - name: Upload QA results even on failure
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -71,4 +82,7 @@ jobs:
             module2-browser-results.json
             module2-overview.png
             module2-lesson.png
-          if-no-files-found: ignore
+            academy/review/module-2/media-results.json
+            academy/module-2/media-manifest.json
+            /tmp/module2-http.log
+          if-no-files-found: warn

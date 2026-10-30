@@ -1,5 +1,5 @@
 from pathlib import Path
-import json,html,csv
+import json,html,csv,re,hashlib
 from review_additions import additions, visual_description, new_questions
 from caption_display import display
 R=Path(__file__).resolve().parents[2];A=R/'assets/academy/module-2';D=json.loads((Path(__file__).parent/'content.json').read_text());E=html.escape
@@ -7,6 +7,7 @@ refs=[('EU GMP Annex 15 (2015), §§1–4 and 11','https://health.ec.europa.eu/d
 footer='''<footer><p>Review candidate · Educational self-study, not site authorization or certification. Fictional examples and data. AI narration: Kokoro stock voice. Original explanatory diagrams; no patient or client data.</p><p>Media loads from this site when you press Play. The host receives ordinary request information. Progress is optional and saved only in this browser; no learner account or server-side training record is created. <a href="/academy-module-2-sources.html">Sources, rights and privacy details</a></p><label class="no-print"><input type="checkbox" id="save-progress"> Save my Module 2 self-study progress on this device</label><p id="storage-status" role="status"></p><button class="no-print" id="clear-progress" type="button">Clear Module 2 saved progress</button></footer>'''
 def page(title,body,name,extra=''):
  out=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>{E(title)} | ValiStera Academy</title><link rel="stylesheet" href="/assets/academy/module-2/course.css"><script defer src="/assets/academy/module-2/course.js"></script></head><body {extra}><a class="skip" href="#main">Skip to learning content</a><header class="site-header"><div class="brand">Vali<b>Stera</b><small>ACADEMY</small></div><nav class="navlinks" aria-label="Module navigation"><a href="/academy-module-2.html">Module overview</a><a href="/academy-module-2-workbook.html">Workbook</a><a href="/academy-module-2-assessment.html">Assessment</a></nav></header><main id="main" tabindex="-1">{body}</main>{footer}</body></html>'''
+ out=re.sub(r'(/assets/academy/module-2/[^\"<> ]+\.(?:mp4|png|vtt|css|js))(?=[\"])',lambda m:m[1]+'?v='+hashlib.sha256((R/m[1].lstrip('/')).read_bytes()).hexdigest()[:12],out)
  (R/name).write_text(out)
 def source_links():return '<ul>'+''.join(f'<li><a href="{E(u)}">{E(t)}</a></li>' for t,u in refs)+'</ul>'
 def quiz(q,i):

@@ -12,3 +12,6 @@ body>header,body>footer{max-width:1120px;margin-left:auto;margin-right:auto;padd
 /* Technical explanations are disclosed only by an explicit learner action. */
 .scene-explanation:not([open]) > :not(summary),.key-explanation:not([open]) > :not(summary){display:none!important}
 .scene-explanation summary,.key-explanation summary{cursor:pointer;min-height:48px;display:flex;align-items:center;padding:10px 12px}
+
+.table-wrap:focus-visible{outline:3px solid #ffd18a;outline-offset:4px}
+@media print{.scene-explanation:not([open]) > :not(summary),.key-explanation:not([open]) > :not(summary){display:block!important}}
