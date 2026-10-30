@@ -21,7 +21,23 @@ saveBox.addEventListener('change',()=>{state.enabled=saveBox.checked;if(state.en
 document.getElementById('clear-progress').addEventListener('click',()=>{state={enabled:false,studied:[],passed:[],score:null};saveBox.checked=false;try{localStorage.removeItem(KEY);status.textContent='Module 2 progress cleared. Device saving is off.';}catch(_){status.textContent='Could not clear device storage. Use browser site-data settings.';}refresh();});
 const load=document.getElementById('load-media'),video=document.getElementById('video'),mediaStatus=document.getElementById('media-status');
 if(load&&video){
- load.addEventListener('click',()=>{load.hidden=true;video.hidden=false;video.src=video.dataset.src;video.preload='metadata';video.load();mediaStatus.textContent='Starting lesson…';video.focus();video.play().catch(()=>{if(!video.error)mediaStatus.textContent='Use the player’s play button to continue.';});});
+ // Static hosting may ignore byte ranges. A complete, small local Blob gives
+ // native controls a genuinely seekable source without a second timeline.
+ let objectUrl=null,loading=false;
+ const showMediaError=()=>{mediaStatus.textContent='Video unavailable. Retry or read the complete lesson below.';load.querySelector('.academy-play-label').textContent='Retry lesson';load.setAttribute('aria-label','Retry lesson video');load.hidden=false;video.hidden=true;load.disabled=false;if(document.activeElement===video)load.focus();};
+ load.addEventListener('click',async()=>{
+  if(loading)return;loading=true;load.disabled=true;mediaStatus.textContent='Loading lesson video…';
+  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),60000);
+  try{
+   const response=await fetch(video.dataset.src,{signal:controller.signal});
+   if(!response.ok)throw new Error('Media response '+response.status);
+   const blob=await response.blob();if(!blob.size)throw new Error('Empty media');
+   if(objectUrl)URL.revokeObjectURL(objectUrl);objectUrl=URL.createObjectURL(blob);
+   load.hidden=true;video.hidden=false;video.src=objectUrl;video.preload='auto';video.load();video.focus();
+   await video.play().catch(()=>{if(!video.error)mediaStatus.textContent='Use the player’s play button to continue.';});
+  }catch(_){showMediaError();}finally{clearTimeout(timeout);loading=false;load.disabled=false;}
+ });
+ window.addEventListener('pagehide',e=>{if(!e.persisted&&objectUrl)URL.revokeObjectURL(objectUrl);});
  const captionsButton=document.getElementById('toggle-captions');
  const captionsStatus=document.getElementById('caption-status');
  if(captionsButton){
@@ -34,7 +50,7 @@ if(load&&video){
   captionsButton.hidden=false;applyCaptions();
  }
  video.addEventListener('playing',()=>{mediaStatus.textContent='';});
- video.addEventListener('error',()=>{mediaStatus.textContent='Video unavailable. Retry or read the complete lesson below.';load.querySelector('.academy-play-label').textContent='Retry lesson';load.setAttribute('aria-label','Retry lesson video');load.hidden=false;video.hidden=true;if(document.activeElement===video)load.focus();});
+ video.addEventListener('error',showMediaError);
 }
 document.getElementById('mark-studied')?.addEventListener('click',()=>{const id=Number(document.body.dataset.lesson);if(!state.studied.includes(id))state.studied.push(id);save();refresh();});
 for(const form of document.querySelectorAll('form.quiz')){form.querySelector('button[type=submit]').disabled=false;form.addEventListener('submit',event=>{
