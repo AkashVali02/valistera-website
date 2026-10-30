@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.9
 Read data before declaring success
 
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+
+
 A deliberately small dataset
 The learning dashboard contains ten fictional temperature-indication errors in degrees Celsius: 0.1, 0.2, 0.1, 0.3, 0.2, 0.4, 0.3, 0.5, 0.4 and 0.6. They illustrate a time-ordered pattern. They are not calibration data from a real instrument and do not define a pharmaceutical tolerance.
 

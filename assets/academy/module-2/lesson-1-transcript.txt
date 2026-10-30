@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.1
 Plan before you qualify
 
+This lesson has no separate required companion-reading extension; study the diagram explanations and activity below.
+
+
 Start with the intended use
 Welcome to Module 2. Our fictional project is a jacketed mixing vessel used to prepare an aqueous oral solution before filling. It is not an aseptic process. We will follow the project from planning to a review decision. Begin by asking what product the system supports, how it will be used, and what could go wrong. A polished protocol cannot rescue an undefined purpose.
 

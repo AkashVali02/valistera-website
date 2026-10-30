@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.5
 Trace requirements into verification
 
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+
+
 Build a traceability chain
 A traceability matrix is a practical teaching tool for connecting needs to evidence. Each row links a requirement to its design response, relevant risk control, verification activity and result. A check mark is not enough if the underlying record cannot be located. For our vessel, the product-contact-material requirement links to a design specification, installed material records and the review that confirms suitability for the intended use.
 

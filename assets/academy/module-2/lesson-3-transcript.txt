@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.3
 System boundaries and responsibilities
 
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+
+
 Draw the boundary
 A system boundary is a practical agreement about what is included in the assessment. Our vessel receives product materials and a heating or cooling service, and transfers bulk solution downstream. The simplified diagram shows these interfaces. It does not assert that the utility is qualified by qualifying the vessel. Each interface needs an owner and a clear connection to the evidence for the supplying or receiving system.
 

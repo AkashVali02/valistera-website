@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.4
 Write testable user requirements
 
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+
+
 From adjective to requirement
 A user requirement should communicate an actual need. The phrase easy to clean is useful as a concern but too vague to verify on its own. Ask what product residues are expected, which surfaces must be accessible, what cleaning process is intended and how the design will support it. Do not insert a universal surface finish or residue limit simply because another project used it. The scientific basis belongs to the actual application.
 

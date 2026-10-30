@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.2
 Build a useful validation master plan
 
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+Recording clarification: the phrase “may be defined” is incomplete. Annex 15 §1.4 says the key programme elements should be documented in a VMP or equivalent document. Read the required VMP clarification below.
+
 A map, not a pile of protocols
 A useful validation master plan helps a new team member understand how qualification and validation are governed. In European Union GMP Annex 15, the programme may be defined in a VMP or equivalent document. This is not a requirement to give every site the same template. Our worked plan is a teaching structure. The applicable quality system determines the authorized document structure and approval responsibilities.
 

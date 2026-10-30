@@ -12,9 +12,9 @@
   {
     "question": "A VMP lists protocols but gives no qualification status. Which change best supports the next-stage decision?",
     "options": [
-      "Add the equipment list again in an appendix",
-      "Replace status with percentage of budget spent",
-      "Link each system to status, evidence and open actions"
+      "Repeat the equipment inventory without recording qualification status",
+      "Replace qualification status with the percentage of budget spent",
+      "Link system status to evidence and outstanding actions"
     ],
     "answer": 2,
     "feedback": "Decision makers need evidence-linked status and remaining work."
@@ -30,11 +30,11 @@
     "feedback": "Define interface dependencies and responsibilities rather than leaving a boundary gap."
   },
   {
-    "question": "Which draft requirement can support a defined acceptance test?",
+    "question": "For the separate PB-02 teaching assumption (provisional \u00b10.5 \u00b0C, still requiring justification and approval), which draft requirement is measurable?",
     "options": [
-      "Temperature indication should suit normal manufacturing",
-      "Temperature indication should meet the supplier standard",
-      "At defined reference points, indication error must be within \u00b10.5 \u00b0C"
+      "Indication shall remain suitable throughout the stated operating range",
+      "Indication shall comply with the supplier standard at all operating points",
+      "Error shall stay within \u00b10.5 \u00b0C at defined reference points"
     ],
     "answer": 2,
     "feedback": "The last option is measurable, once the fictional basis, points and method are approved; \u00b10.5 \u00b0C is not a general GMP limit."
@@ -52,9 +52,9 @@
   {
     "question": "An agitator trip may cause non-uniform concentration. Which statement describes a potential patient harm?",
     "options": [
-      "A patient receives an incorrect dose with an adverse effect",
-      "A drive fault causes the agitator to stop",
-      "A speed display fails to show the trip"
+      "An incorrect dose produces an adverse patient effect",
+      "A drive fault stops mixing during the manufacturing step",
+      "The speed display misses the trip during the batch"
     ],
     "answer": 0,
     "feedback": "Distinguish patient harm from equipment failure and detection failure."
@@ -82,9 +82,9 @@
   {
     "question": "A measured error is \u22120.6 \u00b0C and the illustrative absolute limit is 0.5 \u00b0C. What is the numerical result?",
     "options": [
-      "It exceeds the limit because its magnitude is 0.6 \u00b0C",
-      "It passes because \u22120.6 is less than +0.5",
-      "It passes if the signed average remains positive"
+      "Exceeds: its magnitude is greater than 0.5 \u00b0C",
+      "Passes: its signed value is below +0.5 \u00b0C",
+      "Passes: the positive signed mean offsets this error"
     ],
     "answer": 0,
     "feedback": "Use absolute magnitude for a two-sided error limit; apply the approved uncertainty/decision rule in real testing."
@@ -92,9 +92,9 @@
   {
     "question": "Hose cleaning evidence is missing, but a proposed dry simulation never uses the hose. What is the best next step?",
     "options": [
-      "Approve routine manufacture with a cleaning reminder",
-      "Reject every unrelated project activity automatically",
-      "Assess impact on that simulation and obtain stage authorization"
+      "Authorize routine manufacture while the cleaning evidence is collected",
+      "Stop the simulation until every unrelated project gap is closed",
+      "Assess simulation impact and seek authorization for that stage"
     ],
     "answer": 2,
     "feedback": "Conditional progression concerns a specific activity and requires justified impact assessment and authorization."
@@ -102,9 +102,9 @@
   {
     "question": "The URS was revised after DQ approval. Which status is most defensible?",
     "options": [
-      "DQ remains approved without further action if the drawing is unchanged",
-      "Document the URS change impact and reassess affected DQ evidence before relying on its status",
-      "Repeat PQ immediately without reviewing the design"
+      "Retain DQ status because the equipment drawing has not changed",
+      "Assess the URS change and revisit affected DQ evidence",
+      "Repeat PQ first and reassess the URS change afterwards"
     ],
     "answer": 1,
     "feedback": "A change to user requirements can affect the design qualification basis."
@@ -132,9 +132,9 @@
   {
     "question": "A supplier FAT passed, but the installed controller firmware differs. Which decision is defensible?",
     "options": [
-      "Accept all FAT results because the hardware matches",
-      "Assess the firmware change, applicability of supplier evidence and affected site tests",
-      "Reject all supplier evidence regardless of relevance"
+      "Accept the FAT because the physical hardware has not changed",
+      "Assess firmware impact and FAT applicability to site tests",
+      "Repeat the entire FAT without considering firmware relevance"
     ],
     "answer": 1,
     "feedback": "Supplier results require documented applicability to the installed configuration."
@@ -142,9 +142,9 @@
   {
     "question": "An FMEA detection score is reduced after an alarm is proposed but not challenged. What is the issue?",
     "options": [
-      "Control effectiveness has not been demonstrated to support the revised score",
-      "Documenting the proposed alarm is sufficient evidence",
-      "Severity must decrease whenever detection improves"
+      "The revised score lacks evidence of control effectiveness",
+      "The proposed alarm itself justifies the reduced detection score",
+      "Improved detection necessarily reduces the patient-harm severity"
     ],
     "answer": 0,
     "feedback": "Residual risk scoring should follow evidence of effectiveness, not an untested proposal."
@@ -152,9 +152,9 @@
   {
     "question": "An independent low-speed detector is proposed for the agitator. Which verification best supports independence?",
     "options": [
-      "Confirm both detectors are listed in the drawing",
-      "Verify only the normal speed indication",
-      "Challenge primary-sensor failure and verify independent detection and transfer inhibition"
+      "Verify separate detector tags and accept the drawing as independence evidence",
+      "Challenge normal speed indication and accept agreement as independence evidence",
+      "Challenge primary-sensor failure and verify independent detection and inhibition"
     ],
     "answer": 2,
     "feedback": "The verification should challenge the common-cause scenario and protective response."
@@ -182,9 +182,9 @@
   {
     "question": "A new product changes cleaning needs. Which action is justified?",
     "options": [
-      "Retest mixing only and retain the cleaning basis",
-      "Review intended use, requirements, risks and affected verification evidence",
-      "Update only the cleaning procedure without assessing interfaces"
+      "Retest mixing performance and retain the existing cleaning basis",
+      "Reassess intended use, risks, requirements and affected evidence",
+      "Revise the cleaning procedure and retain existing interface assumptions"
     ],
     "answer": 1,
     "feedback": "New intended use may affect linked requirements and qualification evidence."
@@ -192,9 +192,9 @@
   {
     "question": "What does completing this self-study module demonstrate?",
     "options": [
-      "Formal site authorization",
-      "Regulatory certification",
-      "Completion of an educational exercise, not independent competence"
+      "Site authorization to execute qualification work without further supervision",
+      "Regulatory certification of competence for pharmaceutical validation work",
+      "Completion of self-study, with competence needing separate evaluation"
     ],
     "answer": 2,
     "feedback": "Formal competency and authorization require an applicable independently approved process."

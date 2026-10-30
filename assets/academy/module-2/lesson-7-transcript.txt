@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.7
 Use FMEA without false precision
 
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+
+
 A tool, not the decision
 Failure mode and effects analysis, often called FMEA, can organize a discussion. This course uses a fictional three-level scale for severity, occurrence and difficulty of detection. These numbers are ordinal teaching categories, not measured probabilities. They are not official regulatory limits. The interactive exercise makes the arithmetic visible while keeping the rationale and unresolved high-severity concerns beside the result.
 

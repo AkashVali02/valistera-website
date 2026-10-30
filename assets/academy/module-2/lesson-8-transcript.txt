@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.8
 Turn risk controls into testable actions
 
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+
+
 Prefer a clear mechanism
 A control should explain how it changes the failure pathway. Prevention reduces the chance of failure. Detection identifies a problem. Response determines what happens next. For a mixing failure, a justified design or operating control may prevent an unsuitable condition. An alarm may detect it, but only an effective response can limit the consequence. The three blocks are complementary; none is automatically adequate for every process.
 

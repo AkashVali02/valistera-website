@@ -48,6 +48,7 @@ jobs:
               assert p.stat().st_size==record['bytes']
               assert hashlib.sha256(p.read_bytes()).hexdigest()==record['sha256'], name
           PY
+          node academy/tests/module2-boundaries.cjs
           node validate-site.cjs
       - name: Start seekable local preview
         run: |

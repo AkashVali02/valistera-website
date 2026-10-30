@@ -2,6 +2,8 @@
 (() => {
 'use strict';
 const KEY='valistera_module2_v1';
+// Arithmetic round-off guard only, not a measurement uncertainty allowance.
+function exceedsAbsoluteLimit(value, limit){return Math.abs(value)>limit+1e-12;}
 let state={enabled:false,studied:[],passed:[],score:null};
 const status=document.getElementById('storage-status');
 try {
@@ -66,7 +68,7 @@ for(const form of document.querySelectorAll('form.quiz')){form.querySelector('bu
 });}
 const risk=document.getElementById('risk-score');
 if(risk){const fields=['severity','occurrence','detection'].map(id=>document.getElementById(id));const update=()=>{const v=fields.map(f=>Number(f.value));risk.textContent=`${v.join(' × ')} = ${v.reduce((a,b)=>a*b,1)}`;document.getElementById('risk-context').textContent=(v[0]===3?'Higher severity needs explicit attention. ':'')+'This score is not a release decision. Review severity, uncertainty and control effectiveness.';};fields.forEach(f=>f.addEventListener('change',update));update();}
-const limit=document.getElementById('data-limit');if(limit)limit.addEventListener('input',()=>{const n=limit.valueAsNumber;const result=document.getElementById('data-result');if(!Number.isFinite(n)||n<0||n>2){result.textContent='Enter a limit from 0 to 2 °C for this exercise.';return;}const data=[.1,.2,.1,.3,.2,.4,.3,.5,.4,.6];result.textContent=`Mean ${(data.reduce((a,b)=>a+b,0)/data.length).toFixed(2)} °C · Range ${(Math.max(...data)-Math.min(...data)).toFixed(2)} °C · ${data.filter(v=>Math.abs(v)>n+1e-12).length} of 10 above ${n.toFixed(2)} °C.`;});
+const limit=document.getElementById('data-limit');if(limit)limit.addEventListener('input',()=>{const n=limit.valueAsNumber;const result=document.getElementById('data-result');if(!Number.isFinite(n)||n<0||n>2){result.textContent='Enter a limit from 0 to 2 °C for this exercise.';return;}const data=[.1,.2,.1,.3,.2,.4,.3,.5,.4,.6];result.textContent=`Mean ${(data.reduce((a,b)=>a+b,0)/data.length).toFixed(2)} °C · Range ${(Math.max(...data)-Math.min(...data)).toFixed(2)} °C · ${data.filter(v=>exceedsAbsoluteLimit(v,n)).length} of 10 above ${n.toFixed(2)} °C.`;});
 document.getElementById('print-workbook')?.addEventListener('click',()=>window.print());
 refresh();
 })();

@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.10
 Capstone: make a defensible handover decision
 
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+
+
 The review packet
 You are reviewing the fictional V-201 handover. The intended use is documented and the material records are available. However, the required mixing range has not been finalized, the transfer-hose cleaning evidence is missing and the alarm response has not been verified. A dashboard says 90% complete. Your task is to decide what the evidence supports, not to maximize the completion percentage.
 

@@ -1,6 +1,9 @@
 ValiStera Academy — Module 2 / Lesson 2.6
 Ask a precise risk question
 
+This lesson has required companion reading below, including material not spoken in the video. Complete it before the assessment.
+
+
 Define the question
 For this project, ask: could inadequate mixing within the intended batch range lead to non-uniform product before transfer? This is more useful than asking whether the vessel is risky. The question identifies a possible failure, product consequence and operating context. Our diagram shows the possible chain from lost mixing to variable concentration and a potentially affected dose. It is not measured process data and does not prove that any real vessel performs poorly.
 
