@@ -1,0 +1,251 @@
+{
+  "duration": 122.60675,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 30.055,
+      "title": "Fix the review baseline"
+    },
+    {
+      "start": 30.055,
+      "end": 59.336,
+      "title": "Resolve missing process inputs"
+    },
+    {
+      "start": 59.336,
+      "end": 94.109,
+      "title": "Read the design package"
+    },
+    {
+      "start": 94.109,
+      "end": 122.607,
+      "title": "Control a late revision"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 5.483,
+      "text": "For the fictional review, use a user requirements specification, or URS, at",
+      "spoken": "For the fictional review, use a user requirements specification, or U R S, at",
+      "scene": 1
+    },
+    {
+      "start": 5.603,
+      "end": 9.869,
+      "text": "revision three, drawing revision B and risk record revision two.",
+      "spoken": "revision three, drawing revision B and risk record revision two.",
+      "scene": 1
+    },
+    {
+      "start": 9.989,
+      "end": 12.72,
+      "text": "These references are teaching placeholders.",
+      "spoken": "These references are teaching placeholders.",
+      "scene": 1
+    },
+    {
+      "start": 12.84,
+      "end": 17.149,
+      "text": "A baseline is the defined set of information used for the review.",
+      "spoken": "A baseline is the defined set of information used for the review.",
+      "scene": 1
+    },
+    {
+      "start": 17.269,
+      "end": 22.133,
+      "text": "If one reviewer reads revision A while another reads revision B, apparent",
+      "spoken": "If one reviewer reads revision A while another reads revision B, apparent",
+      "scene": 1
+    },
+    {
+      "start": 22.253,
+      "end": 24.621,
+      "text": "agreement may hide a different design.",
+      "spoken": "agreement may hide a different design.",
+      "scene": 1
+    },
+    {
+      "start": 24.741,
+      "end": 29.435,
+      "text": "Record the document identifiers, revisions and approval status together.",
+      "spoken": "Record the document identifiers, revisions and approval status together.",
+      "scene": 1
+    },
+    {
+      "start": 30.055,
+      "end": 33.959,
+      "text": "Suppose the process team has not defined the batch-volume range.",
+      "spoken": "Suppose the process team has not defined the batch-volume range.",
+      "scene": 2
+    },
+    {
+      "start": 34.079,
+      "end": 39.071,
+      "text": "The supplier offers a vessel capacity, but a catalogue capacity is not an",
+      "spoken": "The supplier offers a vessel capacity, but a catalogue capacity is not an",
+      "scene": 2
+    },
+    {
+      "start": 39.191,
+      "end": 40.791,
+      "text": "agreed process need.",
+      "spoken": "agreed process need.",
+      "scene": 2
+    },
+    {
+      "start": 40.911,
+      "end": 44.903,
+      "text": "Raise a question to the process owner and record the consequence for",
+      "spoken": "Raise a question to the process owner and record the consequence for",
+      "scene": 2
+    },
+    {
+      "start": 45.023,
+      "end": 48.073,
+      "text": "impeller location and mixing verification.",
+      "spoken": "impeller location and mixing verification.",
+      "scene": 2
+    },
+    {
+      "start": 48.193,
+      "end": 53.036,
+      "text": "The design review may examine unrelated matters, but it cannot conclude that",
+      "spoken": "The design review may examine unrelated matters, but it cannot conclude that",
+      "scene": 2
+    },
+    {
+      "start": 53.156,
+      "end": 56.484,
+      "text": "mixing is suitable across an unspecified range.",
+      "spoken": "mixing is suitable across an unspecified range.",
+      "scene": 2
+    },
+    {
+      "start": 56.604,
+      "end": 58.716,
+      "text": "Unknown inputs should stay visible.",
+      "spoken": "Unknown inputs should stay visible.",
+      "scene": 2
+    },
+    {
+      "start": 59.336,
+      "end": 62.148,
+      "text": "An arrangement drawing shows physical placement.",
+      "spoken": "An arrangement drawing shows physical placement.",
+      "scene": 3
+    },
+    {
+      "start": 62.268,
+      "end": 65.745,
+      "text": "A piping and instrumentation diagram shows process",
+      "spoken": "A piping and instrumentation diagram shows process",
+      "scene": 3
+    },
+    {
+      "start": 65.865,
+      "end": 67.614,
+      "text": "connections and instruments.",
+      "spoken": "connections and instruments.",
+      "scene": 3
+    },
+    {
+      "start": 67.734,
+      "end": 72.15,
+      "text": "A functional specification describes intended control behaviour.",
+      "spoken": "A functional specification describes intended control behaviour.",
+      "scene": 3
+    },
+    {
+      "start": 72.27,
+      "end": 76.836,
+      "text": "Our teaching package also includes material specifications, a cleaning",
+      "spoken": "Our teaching package also includes material specifications, a cleaning",
+      "scene": 3
+    },
+    {
+      "start": 76.956,
+      "end": 79.324,
+      "text": "concept and an interface register.",
+      "spoken": "concept and an interface register.",
+      "scene": 3
+    },
+    {
+      "start": 79.444,
+      "end": 81.982,
+      "text": "These documents answer different questions.",
+      "spoken": "These documents answer different questions.",
+      "scene": 3
+    },
+    {
+      "start": 82.102,
+      "end": 86.86,
+      "text": "A drawing label such as temperature control does not describe alarm delays,",
+      "spoken": "A drawing label such as temperature control does not describe alarm delays,",
+      "scene": 3
+    },
+    {
+      "start": 86.98,
+      "end": 90.201,
+      "text": "sensor failure responses or operator permissions.",
+      "spoken": "sensor failure responses or operator permissions.",
+      "scene": 3
+    },
+    {
+      "start": 90.321,
+      "end": 93.489,
+      "text": "Request the document that actually supports the claim.",
+      "spoken": "Request the document that actually supports the claim.",
+      "scene": 3
+    },
+    {
+      "start": 94.109,
+      "end": 98.909,
+      "text": "During review, the supplier issues revision C with a different outlet valve.",
+      "spoken": "During review, the supplier issues revision C with a different outlet valve.",
+      "scene": 4
+    },
+    {
+      "start": 99.029,
+      "end": 102.912,
+      "text": "Do not silently replace the drawing and keep the old signatures.",
+      "spoken": "Do not silently replace the drawing and keep the old signatures.",
+      "scene": 4
+    },
+    {
+      "start": 103.032,
+      "end": 107.747,
+      "text": "Compare the change, identify affected requirements and risks, and obtain",
+      "spoken": "Compare the change, identify affected requirements and risks, and obtain",
+      "scene": 4
+    },
+    {
+      "start": 107.867,
+      "end": 109.36,
+      "text": "the appropriate review.",
+      "spoken": "the appropriate review.",
+      "scene": 4
+    },
+    {
+      "start": 109.48,
+      "end": 113.811,
+      "text": "Record which conclusions remain applicable and which need reassessment.",
+      "spoken": "Record which conclusions remain applicable and which need reassessment.",
+      "scene": 4
+    },
+    {
+      "start": 113.931,
+      "end": 118.389,
+      "text": "The goal is not to restart every check automatically, but to prevent an",
+      "spoken": "The goal is not to restart every check automatically, but to prevent an",
+      "scene": 4
+    },
+    {
+      "start": 118.509,
+      "end": 121.987,
+      "text": "unreviewed design from inheriting an earlier conclusion.",
+      "spoken": "unreviewed design from inheriting an earlier conclusion.",
+      "scene": 4
+    }
+  ]
+}

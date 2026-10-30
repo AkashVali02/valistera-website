@@ -1,0 +1,272 @@
+{
+  "duration": 124.82508333333335,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 28.903,
+      "title": "A finding needs a clear basis"
+    },
+    {
+      "start": 28.903,
+      "end": 60.784,
+      "title": "Different outcomes are possible"
+    },
+    {
+      "start": 60.784,
+      "end": 93.821,
+      "title": "Conditional next activity"
+    },
+    {
+      "start": 93.821,
+      "end": 124.825,
+      "title": "A controlled revision trail"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.907,
+      "text": "A useful finding identifies the requirement, the specific design evidence",
+      "spoken": "A useful finding identifies the requirement, the specific design evidence",
+      "scene": 1
+    },
+    {
+      "start": 5.027,
+      "end": 6.315,
+      "text": "and the gap.",
+      "spoken": "and the gap.",
+      "scene": 1
+    },
+    {
+      "start": 6.435,
+      "end": 11.064,
+      "text": "For example: drawing revision B contains a cleaning pocket that has no",
+      "spoken": "For example: drawing revision B contains a cleaning pocket that has no",
+      "scene": 1
+    },
+    {
+      "start": 11.184,
+      "end": 14.022,
+      "text": "reviewed rationale against the cleaning concept.",
+      "spoken": "reviewed rationale against the cleaning concept.",
+      "scene": 1
+    },
+    {
+      "start": 14.142,
+      "end": 17.982,
+      "text": "Assign an owner and define what evidence would support closure.",
+      "spoken": "Assign an owner and define what evidence would support closure.",
+      "scene": 1
+    },
+    {
+      "start": 18.102,
+      "end": 22.774,
+      "text": "Avoid replacing the finding with a vague status such as vendor to confirm.",
+      "spoken": "Avoid replacing the finding with a vague status such as vendor to confirm.",
+      "scene": 1
+    },
+    {
+      "start": 22.894,
+      "end": 26.734,
+      "text": "A due date helps manage work, but it does not establish that the",
+      "spoken": "A due date helps manage work, but it does not establish that the",
+      "scene": 1
+    },
+    {
+      "start": 26.854,
+      "end": 28.283,
+      "text": "design is suitable.",
+      "spoken": "design is suitable.",
+      "scene": 1
+    },
+    {
+      "start": 28.903,
+      "end": 33.788,
+      "text": "Our teaching review uses three distinct outcomes: design evidence adequate,",
+      "spoken": "Our teaching review uses three distinct outcomes: design evidence adequate,",
+      "scene": 2
+    },
+    {
+      "start": 33.908,
+      "end": 37.876,
+      "text": "an open design finding, or a proposed requirement change.",
+      "spoken": "an open design finding, or a proposed requirement change.",
+      "scene": 2
+    },
+    {
+      "start": 37.996,
+      "end": 42.263,
+      "text": "These are course labels, not mandatory regulatory terminology.",
+      "spoken": "These are course labels, not mandatory regulatory terminology.",
+      "scene": 2
+    },
+    {
+      "start": 42.383,
+      "end": 46.906,
+      "text": "If the vendor cannot meet a requirement, assess options with the appropriate",
+      "spoken": "If the vendor cannot meet a requirement, assess options with the appropriate",
+      "scene": 2
+    },
+    {
+      "start": 47.026,
+      "end": 49.223,
+      "text": "process and quality expertise.",
+      "spoken": "process and quality expertise.",
+      "scene": 2
+    },
+    {
+      "start": 49.343,
+      "end": 53.887,
+      "text": "Do not close the gap by deleting the requirement without impact review.",
+      "spoken": "Do not close the gap by deleting the requirement without impact review.",
+      "scene": 2
+    },
+    {
+      "start": 54.007,
+      "end": 58.508,
+      "text": "A proposed change remains a proposal until the applicable approval",
+      "spoken": "A proposed change remains a proposal until the applicable approval",
+      "scene": 2
+    },
+    {
+      "start": 58.628,
+      "end": 60.164,
+      "text": "process accepts it.",
+      "spoken": "process accepts it.",
+      "scene": 2
+    },
+    {
+      "start": 60.784,
+      "end": 65.52,
+      "text": "Conditional progression concerns a particular next qualification activity,",
+      "spoken": "Conditional progression concerns a particular next qualification activity,",
+      "scene": 3
+    },
+    {
+      "start": 65.64,
+      "end": 67.582,
+      "text": "not unrestricted production.",
+      "spoken": "not unrestricted production.",
+      "scene": 3
+    },
+    {
+      "start": 67.702,
+      "end": 72.096,
+      "text": "In the fictional case, a missing product-contact gasket basis prevents a",
+      "spoken": "In the fictional case, a missing product-contact gasket basis prevents a",
+      "scene": 3
+    },
+    {
+      "start": 72.216,
+      "end": 74.051,
+      "text": "final materials conclusion.",
+      "spoken": "final materials conclusion.",
+      "scene": 3
+    },
+    {
+      "start": 74.171,
+      "end": 77.712,
+      "text": "An unrelated drawing review might continue, but that does",
+      "spoken": "An unrelated drawing review might continue, but that does",
+      "scene": 3
+    },
+    {
+      "start": 77.832,
+      "end": 79.859,
+      "text": "not authorize manufacturing.",
+      "spoken": "not authorize manufacturing.",
+      "scene": 3
+    },
+    {
+      "start": 79.979,
+      "end": 84.758,
+      "text": "The responsible personnel need a documented impact assessment and an",
+      "spoken": "The responsible personnel need a documented impact assessment and an",
+      "scene": 3
+    },
+    {
+      "start": 84.878,
+      "end": 87.608,
+      "text": "authorized decision for the proposed stage.",
+      "spoken": "authorized decision for the proposed stage.",
+      "scene": 3
+    },
+    {
+      "start": 87.728,
+      "end": 91.78,
+      "text": "Do not assume that the training author, supplier or learner can grant",
+      "spoken": "Do not assume that the training author, supplier or learner can grant",
+      "scene": 3
+    },
+    {
+      "start": 91.9,
+      "end": 93.201,
+      "text": "a site\u2019s approval.",
+      "spoken": "a site\u2019s approval.",
+      "scene": 3
+    },
+    {
+      "start": 93.821,
+      "end": 98.664,
+      "text": "When a gasket specification changes, retain the earlier baseline and record",
+      "spoken": "When a gasket specification changes, retain the earlier baseline and record",
+      "scene": 4
+    },
+    {
+      "start": 98.784,
+      "end": 100.704,
+      "text": "why the new design was selected.",
+      "spoken": "why the new design was selected.",
+      "scene": 4
+    },
+    {
+      "start": 100.824,
+      "end": 105.027,
+      "text": "Revisit contact compatibility, cleaning assumptions and verification",
+      "spoken": "Revisit contact compatibility, cleaning assumptions and verification",
+      "scene": 4
+    },
+    {
+      "start": 105.147,
+      "end": 106.661,
+      "text": "plans as appropriate.",
+      "spoken": "plans as appropriate.",
+      "scene": 4
+    },
+    {
+      "start": 106.781,
+      "end": 110.173,
+      "text": "Update affected conclusions through the quality system.",
+      "spoken": "Update affected conclusions through the quality system.",
+      "scene": 4
+    },
+    {
+      "start": 110.293,
+      "end": 114.757,
+      "text": "The record should allow another reviewer to reconstruct the decision without",
+      "spoken": "The record should allow another reviewer to reconstruct the decision without",
+      "scene": 4
+    },
+    {
+      "start": 114.877,
+      "end": 116.242,
+      "text": "relying on memory.",
+      "spoken": "relying on memory.",
+      "scene": 4
+    },
+    {
+      "start": 116.362,
+      "end": 120.906,
+      "text": "Your activity is to write an action closure that references the revised",
+      "spoken": "Your activity is to write an action closure that references the revised",
+      "scene": 4
+    },
+    {
+      "start": 121.026,
+      "end": 124.205,
+      "text": "evidence and preserves any outstanding later tests.",
+      "spoken": "evidence and preserves any outstanding later tests.",
+      "scene": 4
+    }
+  ]
+}

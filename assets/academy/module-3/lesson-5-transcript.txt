@@ -1,0 +1,15 @@
+ValiStera Academy — Module 3 / Lesson 3.5
+Review instruments, controls and failure responses
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+One sensor, two functions
+A temperature sensor feeds both the controller and the high-temperature alarm. The diagram branches one signal into two functions. Two boxes on the drawing do not make two independent measurements. If the sensor fails low, both functions may receive the same misleading value. Whether that matters depends on the process risk and other protections. State the failure mechanism before deciding whether an independent sensor or another protective measure is necessary.
+
+Define the fault response
+The functional specification should describe the response to a detected sensor disconnect, including control behaviour and operator information appropriate to the intended use. Our teaching example proposes inhibiting heating and generating an identifiable alarm; it is not a universal safe-state instruction. Review whether that response introduces another hazard for the particular process. Distinguish an alarm that merely informs an operator from an interlock that changes operation automatically.
+
+Specify records and access
+If the control system creates records used for GMP decisions, identify those records and the applicable computerized-system requirements. Consider who can change a setpoint, how changes are controlled and how necessary records remain available. This module flags the interface; it does not complete computerized-system validation or certify Part Eleven compliance. A password screen by itself is not evidence of adequate access control, data integrity or record retention.
+
+Plan meaningful challenges
+Create a test intention for normal operation, the identified fault and recovery. For our sensor scenario, a later test should challenge the fault in a controlled way and verify the specified response and operator indication. Also consider restoration: an uncontrolled restart may be unacceptable. During DQ, check that the design and test method make the challenge feasible. The actual execution, safety controls and acceptance decision belong to approved site procedures.

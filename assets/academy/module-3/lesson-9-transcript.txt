@@ -1,0 +1,15 @@
+ValiStera Academy — Module 3 / Lesson 3.9
+Handle design findings and changes
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+A finding needs a clear basis
+A useful finding identifies the requirement, the specific design evidence and the gap. For example: drawing revision B contains a cleaning pocket that has no reviewed rationale against the cleaning concept. Assign an owner and define what evidence would support closure. Avoid replacing the finding with a vague status such as vendor to confirm. A due date helps manage work, but it does not establish that the design is suitable.
+
+Different outcomes are possible
+Our teaching review uses three distinct outcomes: design evidence adequate, an open design finding, or a proposed requirement change. These are course labels, not mandatory regulatory terminology. If the vendor cannot meet a requirement, assess options with the appropriate process and quality expertise. Do not close the gap by deleting the requirement without impact review. A proposed change remains a proposal until the applicable approval process accepts it.
+
+Conditional next activity
+Conditional progression concerns a particular next qualification activity, not unrestricted production. In the fictional case, a missing product-contact gasket basis prevents a final materials conclusion. An unrelated drawing review might continue, but that does not authorize manufacturing. The responsible personnel need a documented impact assessment and an authorized decision for the proposed stage. Do not assume that the training author, supplier or learner can grant a site’s approval.
+
+A controlled revision trail
+When a gasket specification changes, retain the earlier baseline and record why the new design was selected. Revisit contact compatibility, cleaning assumptions and verification plans as appropriate. Update affected conclusions through the quality system. The record should allow another reviewer to reconstruct the decision without relying on memory. Your activity is to write an action closure that references the revised evidence and preserves any outstanding later tests.

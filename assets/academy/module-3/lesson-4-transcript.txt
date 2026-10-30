@@ -1,0 +1,15 @@
+ValiStera Academy — Module 3 / Lesson 3.4
+Review contact materials and cleanability
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Follow the complete contact path
+Trace the liquid from the vessel through the outlet and transfer hose. Include impeller surfaces, seals, gaskets and valve seats, not just the vessel shell. The diagram marks these as one contact path. A statement that the vessel is stainless steel leaves elastomers and purchased components unresolved. Ask how each material is identified and justified for the product, cleaning agents, temperature and contact time relevant to the intended use.
+
+Separate grade from suitability
+A material certificate can support identity, but identity alone does not prove compatibility with a specific formulation or cleaning regime. Similarly, a surface-finish number is useful only with a justified requirement and a defined verification method. This introductory module does not prescribe a universal steel grade, roughness value or elastomer. In the fictional review, mark the gasket compatibility statement missing and request product-specific evidence from the responsible specialists.
+
+Make cleaning possible
+The design sketch contrasts a clear outlet path with a pocket that may retain liquid. Review access, cleaning coverage, disassembly needs, drainage and inspection. Consider whether maintenance can be performed without creating an uncontrolled product-quality risk. A favourable drawing is only a design argument: cleaning effectiveness still needs the applicable validation evidence. Do not copy a hygienic-design ratio from another application and present it as a universal GMP rule.
+
+Turn a concern into an action
+Our worked finding is specific: the outlet drawing shows a retained pocket with no cleaning rationale. Record the drawing revision and location, request a revised arrangement or a justified control strategy, and assign an owner. Link the response to installation inspection and the cleaning study. Avoid a vague action such as improve cleanability. A closed action needs reviewed evidence that addresses the actual concern, not merely an email saying resolved.

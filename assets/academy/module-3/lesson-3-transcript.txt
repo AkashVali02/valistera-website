@@ -1,0 +1,15 @@
+ValiStera Academy — Module 3 / Lesson 3.3
+Trace a requirement to a design decision
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+A measurable teaching assumption
+For a separate worked example, assume a fictional process owner has approved temperature indication at 20, 40 and 60 °C with error no greater than ±0.5 °C. These are teaching assumptions, not general GMP tolerances or real project approvals. Requirement R-03 concerns indication accuracy. It does not establish product temperature uniformity, mixing performance or an acceptable manufacturing process range.
+
+Compare the measurement chain
+The supplier lists three component error bounds of ±0.2 °C each: sensor, transmitter and display. If they can all act in the same direction, the simple worst-case sum is 0.6 °C. That exceeds the worked requirement of 0.5. Calling each component accurate would miss the chain. This conservative teaching calculation is not a complete uncertainty budget or an automatic rejection of every possible design.
+
+Write the traceability row
+The row identifies R-03, the criterion, sensor schedule S-07 revision B and the calculation. Its decision is not demonstrated. The action is to propose a justified measurement-chain design or revise the requirement through authorized change, not quietly relax the criterion. Installation checks must confirm the selected components. Operational testing must challenge the assembled chain under the approved method. DQ plans this evidence; it does not invent its results.
+
+Close the row with evidence
+Suppose the supplier proposes lower-error components. Review their applicable conditions and recalculate the chain; do not close the row merely because a new datasheet arrived. If the revised design supports the requirement, record the rationale and reviewer decision. Keep the later installation and operational checks in the verification plan. Distinguish design evidence adequate from installed performance demonstrated. The workbook contains a filled row and a blank row for practice.

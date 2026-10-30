@@ -1,0 +1,286 @@
+{
+  "duration": 128.6015833333333,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 29.411,
+      "title": "Evidence must fit the question"
+    },
+    {
+      "start": 29.411,
+      "end": 63.793,
+      "title": "Review supplier protocols"
+    },
+    {
+      "start": 63.793,
+      "end": 96.224,
+      "title": "FAT is not DQ approval"
+    },
+    {
+      "start": 96.224,
+      "end": 128.602,
+      "title": "A firmware substitution"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.843,
+      "text": "A supplier brochure, design calculation and executed test record are",
+      "spoken": "A supplier brochure, design calculation and executed test record are",
+      "scene": 1
+    },
+    {
+      "start": 4.963,
+      "end": 6.541,
+      "text": "different evidence types.",
+      "spoken": "different evidence types.",
+      "scene": 1
+    },
+    {
+      "start": 6.661,
+      "end": 9.183,
+      "text": "Start with the question you need to answer.",
+      "spoken": "Start with the question you need to answer.",
+      "scene": 1
+    },
+    {
+      "start": 9.303,
+      "end": 13.612,
+      "text": "A generic brochure may describe a product family without identifying",
+      "spoken": "A generic brochure may describe a product family without identifying",
+      "scene": 1
+    },
+    {
+      "start": 13.732,
+      "end": 15.631,
+      "text": "the purchased configuration.",
+      "spoken": "the purchased configuration.",
+      "scene": 1
+    },
+    {
+      "start": 15.751,
+      "end": 20.423,
+      "text": "A calculation may rely on conditions that do not apply to our process.",
+      "spoken": "A calculation may rely on conditions that do not apply to our process.",
+      "scene": 1
+    },
+    {
+      "start": 20.543,
+      "end": 24.596,
+      "text": "An executed record needs traceable results and a clear method.",
+      "spoken": "An executed record needs traceable results and a clear method.",
+      "scene": 1
+    },
+    {
+      "start": 24.716,
+      "end": 28.791,
+      "text": "More pages do not necessarily provide more relevant evidence.",
+      "spoken": "More pages do not necessarily provide more relevant evidence.",
+      "scene": 1
+    },
+    {
+      "start": 29.411,
+      "end": 33.933,
+      "text": "Where third-party validation protocols are used, site personnel should check",
+      "spoken": "Where third-party validation protocols are used, site personnel should check",
+      "scene": 2
+    },
+    {
+      "start": 34.053,
+      "end": 38.64,
+      "text": "their suitability and alignment with internal procedures before approval.",
+      "spoken": "their suitability and alignment with internal procedures before approval.",
+      "scene": 2
+    },
+    {
+      "start": 38.76,
+      "end": 41.789,
+      "text": "In our example, the vendor protocol omits the",
+      "spoken": "In our example, the vendor protocol omits the",
+      "scene": 2
+    },
+    {
+      "start": 41.909,
+      "end": 44.0,
+      "text": "required sensor-failure challenge.",
+      "spoken": "required sensor-failure challenge.",
+      "scene": 2
+    },
+    {
+      "start": 44.12,
+      "end": 48.621,
+      "text": "Record the gap and arrange a justified supplement rather than accepting",
+      "spoken": "Record the gap and arrange a justified supplement rather than accepting",
+      "scene": 2
+    },
+    {
+      "start": 48.741,
+      "end": 50.064,
+      "text": "a complete stamp.",
+      "spoken": "a complete stamp.",
+      "scene": 2
+    },
+    {
+      "start": 50.184,
+      "end": 55.496,
+      "text": "DQ can identify this future verification need while supplier documentation",
+      "spoken": "D Q can identify this future verification need while supplier documentation",
+      "scene": 2
+    },
+    {
+      "start": 55.616,
+      "end": 57.173,
+      "text": "is still being developed.",
+      "spoken": "is still being developed.",
+      "scene": 2
+    },
+    {
+      "start": 57.293,
+      "end": 61.709,
+      "text": "Site responsibility does not disappear because a specialist supplier",
+      "spoken": "Site responsibility does not disappear because a specialist supplier",
+      "scene": 2
+    },
+    {
+      "start": 61.829,
+      "end": 63.173,
+      "text": "prepared the template.",
+      "spoken": "prepared the template.",
+      "scene": 2
+    },
+    {
+      "start": 63.793,
+      "end": 68.444,
+      "text": "Factory acceptance testing can provide useful evidence, but it is not a",
+      "spoken": "Factory acceptance testing can provide useful evidence, but it is not a",
+      "scene": 3
+    },
+    {
+      "start": 68.564,
+      "end": 70.548,
+      "text": "replacement label for DQ.",
+      "spoken": "replacement label for D Q.",
+      "scene": 3
+    },
+    {
+      "start": 70.668,
+      "end": 75.084,
+      "text": "Any planned reuse of appropriate factory tests needs a documented",
+      "spoken": "Any planned reuse of appropriate factory tests needs a documented",
+      "scene": 3
+    },
+    {
+      "start": 75.204,
+      "end": 79.876,
+      "text": "justification that considers the applicable configuration and whether",
+      "spoken": "justification that considers the applicable configuration and whether",
+      "scene": 3
+    },
+    {
+      "start": 79.996,
+      "end": 83.132,
+      "text": "transport or installation can affect the function.",
+      "spoken": "transport or installation can affect the function.",
+      "scene": 3
+    },
+    {
+      "start": 83.252,
+      "end": 85.59,
+      "text": "Some checks may still be needed on site.",
+      "spoken": "Some checks may still be needed on site.",
+      "scene": 3
+    },
+    {
+      "start": 85.71,
+      "end": 89.934,
+      "text": "For example, a factory record cannot demonstrate that the site\u2019s final",
+      "spoken": "For example, a factory record cannot demonstrate that the site\u2019s final",
+      "scene": 3
+    },
+    {
+      "start": 90.054,
+      "end": 92.081,
+      "text": "utility connection is correct.",
+      "spoken": "utility connection is correct.",
+      "scene": 3
+    },
+    {
+      "start": 92.201,
+      "end": 95.604,
+      "text": "Keep the evidence claim within what was actually examined.",
+      "spoken": "Keep the evidence claim within what was actually examined.",
+      "scene": 3
+    },
+    {
+      "start": 96.224,
+      "end": 100.534,
+      "text": "The factory report refers to controller version one, while the supplied",
+      "spoken": "The factory report refers to controller version one, while the supplied",
+      "scene": 4
+    },
+    {
+      "start": 100.654,
+      "end": 102.638,
+      "text": "design proposes version two.",
+      "spoken": "design proposes version two.",
+      "scene": 4
+    },
+    {
+      "start": 102.758,
+      "end": 106.619,
+      "text": "Do not automatically accept everything or discard everything.",
+      "spoken": "Do not automatically accept everything or discard everything.",
+      "scene": 4
+    },
+    {
+      "start": 106.739,
+      "end": 111.816,
+      "text": "Identify what changed, assess effects on relevant functions and decide which",
+      "spoken": "Identify what changed, assess effects on relevant functions and decide which",
+      "scene": 4
+    },
+    {
+      "start": 111.936,
+      "end": 113.792,
+      "text": "evidence remains applicable.",
+      "spoken": "evidence remains applicable.",
+      "scene": 4
+    },
+    {
+      "start": 113.912,
+      "end": 116.622,
+      "text": "Document the rationale and additional work.",
+      "spoken": "Document the rationale and additional work.",
+      "scene": 4
+    },
+    {
+      "start": 116.742,
+      "end": 120.539,
+      "text": "This focused review is more defensible than deciding from the",
+      "spoken": "This focused review is more defensible than deciding from the",
+      "scene": 4
+    },
+    {
+      "start": 120.659,
+      "end": 122.152,
+      "text": "version number alone.",
+      "spoken": "version number alone.",
+      "scene": 4
+    },
+    {
+      "start": 122.272,
+      "end": 125.984,
+      "text": "The same reasoning applies to substituted instruments, valves",
+      "spoken": "The same reasoning applies to substituted instruments, valves",
+      "scene": 4
+    },
+    {
+      "start": 126.104,
+      "end": 127.982,
+      "text": "and software configurations.",
+      "spoken": "and software configurations.",
+      "scene": 4
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+ValiStera Academy — Module 3 / Lesson 3.7
+Use risk to focus the design review
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Start with the mechanism
+Risk informs where the design review needs depth. In our fictional case, a missing mixing protection can permit transfer after loss of agitation, potentially affecting concentration uniformity. Explain that mechanism before assigning a priority. Another issue, such as an inconsistent drawing title, may primarily affect document control. Both require action, but their consequences differ. A risk label without an explanation gives the reviewer little basis for deciding what evidence is enough.
+
+Do not let totals hide severity
+A numerical risk score can organize discussion but cannot supply missing knowledge. This lesson uses no universal score threshold. If a serious failure has weak evidence for prevention or detection, keep that uncertainty visible even when an arithmetic total looks small. Review assumptions, operating conditions and dependencies. Do not reduce a risk rating merely because a proposed control appears on the drawing; its effectiveness still needs support and later verification.
+
+Trace the proposed control
+For the mixing scenario, the proposed control inhibits transfer when loss of agitation is detected. Review sensor coverage, logic, bypass authority and reset behaviour. Ask whether the sensing arrangement could miss the failure being considered. Link the design response to a planned controlled challenge of the protective function. The teaching diagram shows failure, control and verification as connected steps, not as proof that any specific interlock is already effective.
+
+Document residual questions
+A useful risk-informed review records what remains uncertain, who will resolve it and what change triggers another review. For example, a later product with different viscosity may invalidate the original mixing assumption. Keep that trigger linked to the requirements and design. Your activity is to compare two design findings and justify the depth of review for each. Do not force every question into a numerical ranking when a reasoned explanation is clearer.

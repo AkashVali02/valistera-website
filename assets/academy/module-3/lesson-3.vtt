@@ -1,0 +1,164 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.480
+For a separate worked example, assume a
+fictional process owner has approved
+
+2
+00:00:04.600 --> 00:00:10.488
+temperature indication at 20, 40 and 60 °C
+with error no greater
+
+3
+00:00:10.608 --> 00:00:14.043
+than ±0.5 °C.
+
+4
+00:00:14.163 --> 00:00:18.643
+These are teaching assumptions, not
+general GMP tolerances or
+
+5
+00:00:18.763 --> 00:00:20.405
+real project approvals.
+
+6
+00:00:20.525 --> 00:00:24.643
+Requirement R-03 concerns indication
+accuracy.
+
+7
+00:00:24.763 --> 00:00:29.413
+It does not establish product temperature
+uniformity, mixing performance or
+
+8
+00:00:29.533 --> 00:00:32.264
+an acceptable manufacturing process range.
+
+9
+00:00:32.884 --> 00:00:39.967
+The supplier lists three component error
+bounds of ±0.2 °C each: sensor,
+
+10
+00:00:40.087 --> 00:00:41.644
+transmitter and display.
+
+11
+00:00:41.764 --> 00:00:45.752
+If they can all act in the same direction,
+the simple worst-case sum
+
+12
+00:00:45.872 --> 00:00:48.240
+is 0.6 °C.
+
+13
+00:00:48.360 --> 00:00:51.688
+That exceeds the worked requirement of
+0.5.
+
+14
+00:00:51.808 --> 00:00:54.918
+Calling each component accurate would miss
+the chain.
+
+15
+00:00:55.038 --> 00:00:59.987
+This conservative teaching calculation is
+not a complete uncertainty budget
+
+16
+00:01:00.107 --> 00:01:03.776
+or an automatic rejection of every
+possible design.
+
+17
+00:01:04.396 --> 00:01:11.202
+The row identifies R-03, the criterion,
+sensor schedule S-07 revision B
+
+18
+00:01:11.322 --> 00:01:12.730
+and the calculation.
+
+19
+00:01:12.850 --> 00:01:15.218
+Its decision is not demonstrated.
+
+20
+00:01:15.338 --> 00:01:20.266
+The action is to propose a justified
+measurement-chain design or revise the
+
+21
+00:01:20.386 --> 00:01:25.122
+requirement through authorized change, not
+quietly relax the criterion.
+
+22
+00:01:25.242 --> 00:01:28.890
+Installation checks must confirm the
+selected components.
+
+23
+00:01:29.010 --> 00:01:32.871
+Operational testing must challenge the
+assembled chain under
+
+24
+00:01:32.991 --> 00:01:34.399
+the approved method.
+
+25
+00:01:34.519 --> 00:01:38.508
+DQ plans this evidence; it does not invent
+its results.
+
+26
+00:01:39.128 --> 00:01:42.435
+Suppose the supplier proposes lower-error
+components.
+
+27
+00:01:42.555 --> 00:01:47.163
+Review their applicable conditions and
+recalculate the chain; do not close
+
+28
+00:01:47.283 --> 00:01:50.227
+the row merely because a new datasheet
+arrived.
+
+29
+00:01:50.347 --> 00:01:54.507
+If the revised design supports the
+requirement, record the rationale
+
+30
+00:01:54.627 --> 00:01:56.014
+and reviewer decision.
+
+31
+00:01:56.134 --> 00:01:59.675
+Keep the later installation and
+operational checks in
+
+32
+00:01:59.795 --> 00:02:01.374
+the verification plan.
+
+33
+00:02:01.494 --> 00:02:04.096
+Distinguish design evidence adequate from
+
+34
+00:02:04.216 --> 00:02:06.435
+installed performance demonstrated.
+
+35
+00:02:06.555 --> 00:02:10.523
+The workbook contains a filled row and a
+blank row for practice.

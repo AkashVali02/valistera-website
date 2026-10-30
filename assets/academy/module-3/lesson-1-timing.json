@@ -1,0 +1,265 @@
+{
+  "duration": 120.15495833333331,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 28.212,
+      "title": "The proposed system"
+    },
+    {
+      "start": 28.212,
+      "end": 62.703,
+      "title": "Different questions at different stages"
+    },
+    {
+      "start": 62.703,
+      "end": 89.839,
+      "title": "A practical design question"
+    },
+    {
+      "start": 89.839,
+      "end": 120.155,
+      "title": "Define the conclusion"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.053,
+      "text": "Welcome to Module 3: Design Qualification, or DQ.",
+      "spoken": "Welcome to Module 3: Design Qualification, or D Q.",
+      "scene": 1
+    },
+    {
+      "start": 4.173,
+      "end": 10.04,
+      "text": "Our fictional vessel V-201 prepares an aqueous oral solution before filling.",
+      "spoken": "Our fictional vessel V two zero one prepares an aqueous oral solution before filling.",
+      "scene": 1
+    },
+    {
+      "start": 10.16,
+      "end": 12.272,
+      "text": "It is not an aseptic process.",
+      "spoken": "It is not an aseptic process.",
+      "scene": 1
+    },
+    {
+      "start": 12.392,
+      "end": 16.872,
+      "text": "The diagram connects intended purpose to a proposed design and then to",
+      "spoken": "The diagram connects intended purpose to a proposed design and then to",
+      "scene": 1
+    },
+    {
+      "start": 16.992,
+      "end": 18.379,
+      "text": "a reasoned decision.",
+      "spoken": "a reasoned decision.",
+      "scene": 1
+    },
+    {
+      "start": 18.499,
+      "end": 21.848,
+      "text": "We ask whether the design can support the intended use.",
+      "spoken": "We ask whether the design can support the intended use.",
+      "scene": 1
+    },
+    {
+      "start": 21.968,
+      "end": 25.979,
+      "text": "A purchase order or attractive equipment drawing cannot answer that",
+      "spoken": "A purchase order or attractive equipment drawing cannot answer that",
+      "scene": 1
+    },
+    {
+      "start": 26.099,
+      "end": 27.592,
+      "text": "question by itself.",
+      "spoken": "question by itself.",
+      "scene": 1
+    },
+    {
+      "start": 28.212,
+      "end": 30.879,
+      "text": "DQ evaluates the proposed design.",
+      "spoken": "D Q evaluates the proposed design.",
+      "scene": 2
+    },
+    {
+      "start": 30.999,
+      "end": 34.668,
+      "text": "Installation qualification examines what was installed.",
+      "spoken": "Installation qualification examines what was installed.",
+      "scene": 2
+    },
+    {
+      "start": 34.788,
+      "end": 39.247,
+      "text": "Operational qualification challenges operation, and performance",
+      "spoken": "Operational qualification challenges operation, and performance",
+      "scene": 2
+    },
+    {
+      "start": 39.367,
+      "end": 42.865,
+      "text": "qualification addresses performance for the intended use",
+      "spoken": "qualification addresses performance for the intended use",
+      "scene": 2
+    },
+    {
+      "start": 42.985,
+      "end": 44.756,
+      "text": "under defined conditions.",
+      "spoken": "under defined conditions.",
+      "scene": 2
+    },
+    {
+      "start": 44.876,
+      "end": 48.311,
+      "text": "These questions are connected but not interchangeable.",
+      "spoken": "These questions are connected but not interchangeable.",
+      "scene": 2
+    },
+    {
+      "start": 48.431,
+      "end": 52.975,
+      "text": "A successful design review does not demonstrate that the installed vessel",
+      "spoken": "A successful design review does not demonstrate that the installed vessel",
+      "scene": 2
+    },
+    {
+      "start": 53.095,
+      "end": 55.271,
+      "text": "mixes a real batch uniformly.",
+      "spoken": "mixes a real batch uniformly.",
+      "scene": 2
+    },
+    {
+      "start": 55.391,
+      "end": 58.441,
+      "text": "Later modules examine those later stages.",
+      "spoken": "Later modules examine those later stages.",
+      "scene": 2
+    },
+    {
+      "start": 58.561,
+      "end": 62.083,
+      "text": "Keep the evidence and the decision appropriate to the stage.",
+      "spoken": "Keep the evidence and the decision appropriate to the stage.",
+      "scene": 2
+    },
+    {
+      "start": 62.703,
+      "end": 67.055,
+      "text": "Look at three design concerns: the product contact path, the measurement",
+      "spoken": "Look at three design concerns: the product contact path, the measurement",
+      "scene": 3
+    },
+    {
+      "start": 67.175,
+      "end": 68.988,
+      "text": "chain and access for cleaning.",
+      "spoken": "chain and access for cleaning.",
+      "scene": 3
+    },
+    {
+      "start": 69.108,
+      "end": 73.289,
+      "text": "A vessel can have a suitable steel body yet an unsuitable gasket.",
+      "spoken": "A vessel can have a suitable steel body yet an unsuitable gasket.",
+      "scene": 3
+    },
+    {
+      "start": 73.409,
+      "end": 77.872,
+      "text": "A temperature display can work while representing the wrong sensor location.",
+      "spoken": "A temperature display can work while representing the wrong sensor location.",
+      "scene": 3
+    },
+    {
+      "start": 77.992,
+      "end": 80.915,
+      "text": "A shiny exterior can conceal a trapped pocket.",
+      "spoken": "A shiny exterior can conceal a trapped pocket.",
+      "scene": 3
+    },
+    {
+      "start": 81.035,
+      "end": 85.963,
+      "text": "For each concern, ask which design feature addresses the need, what evidence",
+      "spoken": "For each concern, ask which design feature addresses the need, what evidence",
+      "scene": 3
+    },
+    {
+      "start": 86.083,
+      "end": 89.219,
+      "text": "supports that claim and what must later be verified.",
+      "spoken": "supports that claim and what must later be verified.",
+      "scene": 3
+    },
+    {
+      "start": 89.839,
+      "end": 94.575,
+      "text": "In this course, every equipment identifier, specification and evidence",
+      "spoken": "In this course, every equipment identifier, specification and evidence",
+      "scene": 4
+    },
+    {
+      "start": 94.695,
+      "end": 96.85,
+      "text": "reference is a teaching invention.",
+      "spoken": "reference is a teaching invention.",
+      "scene": 4
+    },
+    {
+      "start": 96.97,
+      "end": 99.466,
+      "text": "No site equipment has been qualified.",
+      "spoken": "No site equipment has been qualified.",
+      "scene": 4
+    },
+    {
+      "start": 99.586,
+      "end": 104.663,
+      "text": "At the end of a DQ review, state the design scope, the evidence examined and",
+      "spoken": "At the end of a D Q review, state the design scope, the evidence examined and",
+      "scene": 4
+    },
+    {
+      "start": 104.783,
+      "end": 106.276,
+      "text": "the open conditions.",
+      "spoken": "the open conditions.",
+      "scene": 4
+    },
+    {
+      "start": 106.396,
+      "end": 110.684,
+      "text": "Do not write ready for routine production when only design evidence",
+      "spoken": "Do not write ready for routine production when only design evidence",
+      "scene": 4
+    },
+    {
+      "start": 110.804,
+      "end": 112.17,
+      "text": "has been assessed.",
+      "spoken": "has been assessed.",
+      "scene": 4
+    },
+    {
+      "start": 112.29,
+      "end": 116.492,
+      "text": "Your first activity is to distinguish a design conclusion from an",
+      "spoken": "Your first activity is to distinguish a design conclusion from an",
+      "scene": 4
+    },
+    {
+      "start": 116.612,
+      "end": 119.535,
+      "text": "installation finding and a performance claim.",
+      "spoken": "installation finding and a performance claim.",
+      "scene": 4
+    }
+  ]
+}

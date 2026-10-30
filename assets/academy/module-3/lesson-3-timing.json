@@ -1,0 +1,272 @@
+{
+  "duration": 131.14304166666668,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 32.884,
+      "title": "A measurable teaching assumption"
+    },
+    {
+      "start": 32.884,
+      "end": 64.396,
+      "title": "Compare the measurement chain"
+    },
+    {
+      "start": 64.396,
+      "end": 99.128,
+      "title": "Write the traceability row"
+    },
+    {
+      "start": 99.128,
+      "end": 131.143,
+      "title": "Close the row with evidence"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.48,
+      "text": "For a separate worked example, assume a fictional process owner has approved",
+      "spoken": "For a separate worked example, assume a fictional process owner has approved",
+      "scene": 1
+    },
+    {
+      "start": 4.6,
+      "end": 10.488,
+      "text": "temperature indication at 20, 40 and 60 \u00b0C with error no greater",
+      "spoken": "temperature indication at 20, 40 and 60 degrees Celsius with error no greater",
+      "scene": 1
+    },
+    {
+      "start": 10.608,
+      "end": 14.043,
+      "text": "than \u00b10.5 \u00b0C.",
+      "spoken": "than plus or minus 0.5 degrees Celsius.",
+      "scene": 1
+    },
+    {
+      "start": 14.163,
+      "end": 18.643,
+      "text": "These are teaching assumptions, not general GMP tolerances or",
+      "spoken": "These are teaching assumptions, not general G M P tolerances or",
+      "scene": 1
+    },
+    {
+      "start": 18.763,
+      "end": 20.405,
+      "text": "real project approvals.",
+      "spoken": "real project approvals.",
+      "scene": 1
+    },
+    {
+      "start": 20.525,
+      "end": 24.643,
+      "text": "Requirement R-03 concerns indication accuracy.",
+      "spoken": "Requirement R zero three concerns indication accuracy.",
+      "scene": 1
+    },
+    {
+      "start": 24.763,
+      "end": 29.413,
+      "text": "It does not establish product temperature uniformity, mixing performance or",
+      "spoken": "It does not establish product temperature uniformity, mixing performance or",
+      "scene": 1
+    },
+    {
+      "start": 29.533,
+      "end": 32.264,
+      "text": "an acceptable manufacturing process range.",
+      "spoken": "an acceptable manufacturing process range.",
+      "scene": 1
+    },
+    {
+      "start": 32.884,
+      "end": 39.967,
+      "text": "The supplier lists three component error bounds of \u00b10.2 \u00b0C each: sensor,",
+      "spoken": "The supplier lists three component error bounds of plus or minus 0.2 degrees Celsius each: sensor,",
+      "scene": 2
+    },
+    {
+      "start": 40.087,
+      "end": 41.644,
+      "text": "transmitter and display.",
+      "spoken": "transmitter and display.",
+      "scene": 2
+    },
+    {
+      "start": 41.764,
+      "end": 45.752,
+      "text": "If they can all act in the same direction, the simple worst-case sum",
+      "spoken": "If they can all act in the same direction, the simple worst-case sum",
+      "scene": 2
+    },
+    {
+      "start": 45.872,
+      "end": 48.24,
+      "text": "is 0.6 \u00b0C.",
+      "spoken": "is 0.6 degrees Celsius.",
+      "scene": 2
+    },
+    {
+      "start": 48.36,
+      "end": 51.688,
+      "text": "That exceeds the worked requirement of 0.5.",
+      "spoken": "That exceeds the worked requirement of 0.5.",
+      "scene": 2
+    },
+    {
+      "start": 51.808,
+      "end": 54.918,
+      "text": "Calling each component accurate would miss the chain.",
+      "spoken": "Calling each component accurate would miss the chain.",
+      "scene": 2
+    },
+    {
+      "start": 55.038,
+      "end": 59.987,
+      "text": "This conservative teaching calculation is not a complete uncertainty budget",
+      "spoken": "This conservative teaching calculation is not a complete uncertainty budget",
+      "scene": 2
+    },
+    {
+      "start": 60.107,
+      "end": 63.776,
+      "text": "or an automatic rejection of every possible design.",
+      "spoken": "or an automatic rejection of every possible design.",
+      "scene": 2
+    },
+    {
+      "start": 64.396,
+      "end": 71.202,
+      "text": "The row identifies R-03, the criterion, sensor schedule S-07 revision B",
+      "spoken": "The row identifies R zero three, the criterion, sensor schedule S zero seven revision B",
+      "scene": 3
+    },
+    {
+      "start": 71.322,
+      "end": 72.73,
+      "text": "and the calculation.",
+      "spoken": "and the calculation.",
+      "scene": 3
+    },
+    {
+      "start": 72.85,
+      "end": 75.218,
+      "text": "Its decision is not demonstrated.",
+      "spoken": "Its decision is not demonstrated.",
+      "scene": 3
+    },
+    {
+      "start": 75.338,
+      "end": 80.266,
+      "text": "The action is to propose a justified measurement-chain design or revise the",
+      "spoken": "The action is to propose a justified measurement-chain design or revise the",
+      "scene": 3
+    },
+    {
+      "start": 80.386,
+      "end": 85.122,
+      "text": "requirement through authorized change, not quietly relax the criterion.",
+      "spoken": "requirement through authorized change, not quietly relax the criterion.",
+      "scene": 3
+    },
+    {
+      "start": 85.242,
+      "end": 88.89,
+      "text": "Installation checks must confirm the selected components.",
+      "spoken": "Installation checks must confirm the selected components.",
+      "scene": 3
+    },
+    {
+      "start": 89.01,
+      "end": 92.871,
+      "text": "Operational testing must challenge the assembled chain under",
+      "spoken": "Operational testing must challenge the assembled chain under",
+      "scene": 3
+    },
+    {
+      "start": 92.991,
+      "end": 94.399,
+      "text": "the approved method.",
+      "spoken": "the approved method.",
+      "scene": 3
+    },
+    {
+      "start": 94.519,
+      "end": 98.508,
+      "text": "DQ plans this evidence; it does not invent its results.",
+      "spoken": "D Q plans this evidence; it does not invent its results.",
+      "scene": 3
+    },
+    {
+      "start": 99.128,
+      "end": 102.435,
+      "text": "Suppose the supplier proposes lower-error components.",
+      "spoken": "Suppose the supplier proposes lower-error components.",
+      "scene": 4
+    },
+    {
+      "start": 102.555,
+      "end": 107.163,
+      "text": "Review their applicable conditions and recalculate the chain; do not close",
+      "spoken": "Review their applicable conditions and recalculate the chain; do not close",
+      "scene": 4
+    },
+    {
+      "start": 107.283,
+      "end": 110.227,
+      "text": "the row merely because a new datasheet arrived.",
+      "spoken": "the row merely because a new datasheet arrived.",
+      "scene": 4
+    },
+    {
+      "start": 110.347,
+      "end": 114.507,
+      "text": "If the revised design supports the requirement, record the rationale",
+      "spoken": "If the revised design supports the requirement, record the rationale",
+      "scene": 4
+    },
+    {
+      "start": 114.627,
+      "end": 116.014,
+      "text": "and reviewer decision.",
+      "spoken": "and reviewer decision.",
+      "scene": 4
+    },
+    {
+      "start": 116.134,
+      "end": 119.675,
+      "text": "Keep the later installation and operational checks in",
+      "spoken": "Keep the later installation and operational checks in",
+      "scene": 4
+    },
+    {
+      "start": 119.795,
+      "end": 121.374,
+      "text": "the verification plan.",
+      "spoken": "the verification plan.",
+      "scene": 4
+    },
+    {
+      "start": 121.494,
+      "end": 124.096,
+      "text": "Distinguish design evidence adequate from",
+      "spoken": "Distinguish design evidence adequate from",
+      "scene": 4
+    },
+    {
+      "start": 124.216,
+      "end": 126.435,
+      "text": "installed performance demonstrated.",
+      "spoken": "installed performance demonstrated.",
+      "scene": 4
+    },
+    {
+      "start": 126.555,
+      "end": 130.523,
+      "text": "The workbook contains a filled row and a blank row for practice.",
+      "spoken": "The workbook contains a filled row and a blank row for practice.",
+      "scene": 4
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "duration": 121.13366666666667,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 33.037,
+      "title": "The vessel needs a service"
+    },
+    {
+      "start": 33.037,
+      "end": 62.492,
+      "title": "Plan space and access"
+    },
+    {
+      "start": 62.492,
+      "end": 93.564,
+      "title": "Specify connection ownership"
+    },
+    {
+      "start": 93.564,
+      "end": 121.134,
+      "title": "Resolve a mismatch early"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.651,
+      "text": "The jacket is not useful simply because a utility pipe reaches the room.",
+      "spoken": "The jacket is not useful simply because a utility pipe reaches the room.",
+      "scene": 1
+    },
+    {
+      "start": 4.771,
+      "end": 8.525,
+      "text": "Compare the process need, the vessel design assumptions and the",
+      "spoken": "Compare the process need, the vessel design assumptions and the",
+      "scene": 1
+    },
+    {
+      "start": 8.645,
+      "end": 10.544,
+      "text": "available utility envelope.",
+      "spoken": "available utility envelope.",
+      "scene": 1
+    },
+    {
+      "start": 10.664,
+      "end": 14.568,
+      "text": "Our fictional process duty remains a controlled input rather than",
+      "spoken": "Our fictional process duty remains a controlled input rather than",
+      "scene": 1
+    },
+    {
+      "start": 14.688,
+      "end": 16.075,
+      "text": "an invented number.",
+      "spoken": "an invented number.",
+      "scene": 1
+    },
+    {
+      "start": 16.195,
+      "end": 21.016,
+      "text": "Consider flow, temperature, pressure and capacity under relevant conditions,",
+      "spoken": "Consider flow, temperature, pressure and capacity under relevant conditions,",
+      "scene": 1
+    },
+    {
+      "start": 21.136,
+      "end": 23.696,
+      "text": "using appropriate engineering expertise.",
+      "spoken": "using appropriate engineering expertise.",
+      "scene": 1
+    },
+    {
+      "start": 23.816,
+      "end": 28.424,
+      "text": "A utility qualification report and a vessel design review answer different",
+      "spoken": "A utility qualification report and a vessel design review answer different",
+      "scene": 1
+    },
+    {
+      "start": 28.544,
+      "end": 32.417,
+      "text": "questions; their interface still needs a compatibility assessment.",
+      "spoken": "questions; their interface still needs a compatibility assessment.",
+      "scene": 1
+    },
+    {
+      "start": 33.037,
+      "end": 37.133,
+      "text": "An arrangement drawing should support safe and practical operation,",
+      "spoken": "An arrangement drawing should support safe and practical operation,",
+      "scene": 2
+    },
+    {
+      "start": 37.253,
+      "end": 41.839,
+      "text": "cleaning, inspection and maintenance within the applicable facility design.",
+      "spoken": "cleaning, inspection and maintenance within the applicable facility design.",
+      "scene": 2
+    },
+    {
+      "start": 41.959,
+      "end": 45.541,
+      "text": "Our sketch places an instrument behind a vessel where removal",
+      "spoken": "Our sketch places an instrument behind a vessel where removal",
+      "scene": 2
+    },
+    {
+      "start": 45.661,
+      "end": 46.95,
+      "text": "may be blocked.",
+      "spoken": "may be blocked.",
+      "scene": 2
+    },
+    {
+      "start": 47.07,
+      "end": 51.422,
+      "text": "Ask whether the required access exists after piping and adjacent",
+      "spoken": "Ask whether the required access exists after piping and adjacent",
+      "scene": 2
+    },
+    {
+      "start": 51.542,
+      "end": 53.099,
+      "text": "equipment are installed.",
+      "spoken": "equipment are installed.",
+      "scene": 2
+    },
+    {
+      "start": 53.219,
+      "end": 57.699,
+      "text": "Do not treat empty space on a two-dimensional drawing as proof of access.",
+      "spoken": "Do not treat empty space on a two-dimensional drawing as proof of access.",
+      "scene": 2
+    },
+    {
+      "start": 57.819,
+      "end": 61.872,
+      "text": "Engineering checks, dimensions or a suitable model may be needed.",
+      "spoken": "Engineering checks, dimensions or a suitable model may be needed.",
+      "scene": 2
+    },
+    {
+      "start": 62.492,
+      "end": 66.78,
+      "text": "A boundary can divide contracts without dividing the technical risk.",
+      "spoken": "A boundary can divide contracts without dividing the technical risk.",
+      "scene": 3
+    },
+    {
+      "start": 66.9,
+      "end": 71.423,
+      "text": "Record who supplies the connector, who defines its rating, who confirms",
+      "spoken": "Record who supplies the connector, who defines its rating, who confirms",
+      "scene": 3
+    },
+    {
+      "start": 71.543,
+      "end": 74.807,
+      "text": "compatibility and who accepts the interface evidence.",
+      "spoken": "compatibility and who accepts the interface evidence.",
+      "scene": 3
+    },
+    {
+      "start": 74.927,
+      "end": 79.727,
+      "text": "The fictional register assigns utility conditions to site engineering and",
+      "spoken": "The fictional register assigns utility conditions to site engineering and",
+      "scene": 3
+    },
+    {
+      "start": 79.847,
+      "end": 84.007,
+      "text": "connection details to the vendor, with a joint compatibility review.",
+      "spoken": "connection details to the vendor, with a joint compatibility review.",
+      "scene": 3
+    },
+    {
+      "start": 84.127,
+      "end": 87.54,
+      "text": "This prevents a gap where each party assumes the other has",
+      "spoken": "This prevents a gap where each party assumes the other has",
+      "scene": 3
+    },
+    {
+      "start": 87.66,
+      "end": 89.005,
+      "text": "checked the connection.",
+      "spoken": "checked the connection.",
+      "scene": 3
+    },
+    {
+      "start": 89.125,
+      "end": 92.944,
+      "text": "Responsibilities should match the site\u2019s actual organization.",
+      "spoken": "Responsibilities should match the site\u2019s actual organization.",
+      "scene": 3
+    },
+    {
+      "start": 93.564,
+      "end": 96.807,
+      "text": "Suppose the utility schedule and vendor drawing show",
+      "spoken": "Suppose the utility schedule and vendor drawing show",
+      "scene": 4
+    },
+    {
+      "start": 96.927,
+      "end": 98.738,
+      "text": "different pressure assumptions.",
+      "spoken": "different pressure assumptions.",
+      "scene": 4
+    },
+    {
+      "start": 98.858,
+      "end": 101.396,
+      "text": "Stop treating the interface as resolved.",
+      "spoken": "Stop treating the interface as resolved.",
+      "scene": 4
+    },
+    {
+      "start": 101.516,
+      "end": 105.612,
+      "text": "Determine which values are correct and assess the effect on design,",
+      "spoken": "Determine which values are correct and assess the effect on design,",
+      "scene": 4
+    },
+    {
+      "start": 105.732,
+      "end": 108.036,
+      "text": "protective measures and future tests.",
+      "spoken": "protective measures and future tests.",
+      "scene": 4
+    },
+    {
+      "start": 108.156,
+      "end": 112.21,
+      "text": "Do not choose the higher number merely to make the documents agree.",
+      "spoken": "Do not choose the higher number merely to make the documents agree.",
+      "scene": 4
+    },
+    {
+      "start": 112.33,
+      "end": 116.639,
+      "text": "A controlled technical decision should update the affected records and",
+      "spoken": "A controlled technical decision should update the affected records and",
+      "scene": 4
+    },
+    {
+      "start": 116.759,
+      "end": 120.514,
+      "text": "retain traceability to the requirement and design basis.",
+      "spoken": "retain traceability to the requirement and design basis.",
+      "scene": 4
+    }
+  ]
+}
