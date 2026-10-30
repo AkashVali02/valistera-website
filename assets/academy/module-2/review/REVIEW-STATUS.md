@@ -1,3 +1,7 @@
+# Owner-authorized publication — 30 October 2026
+
+The owner reports consultant approval and has explicitly authorized publication of Module 2. See `owner-release-2026-10-30.md` for the exact authorization and evidence boundaries. Earlier NOT READY / preview-only decisions below are historical, not the latest owner release decision. They retain their technical scope and unresolved documentation limitations.
+
 # Latest re-review response — 30 October 2026
 
 Review edition **M2-20261030-R2**. See `re-review-response-2026-10-30.md`, `r2-delivery-2026-10-30.json` and `r2-hosted-2026-10-30.json` first. Each deployed page footer and `review-build.json` identifies its served source commit. Earlier hashes below label historical evidence only.
