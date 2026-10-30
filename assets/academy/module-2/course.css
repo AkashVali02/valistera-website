@@ -20,3 +20,5 @@ body>header,body>footer{max-width:1120px;margin-left:auto;margin-right:auto;padd
 .play img{height:auto;aspect-ratio:16/9}
 
 .scene-explanation summary{gap:.5em;flex-wrap:wrap}.technical-content{padding:0 2px 16px}.technical-content h4{margin-bottom:8px}.scene-explanation:not([open])>.technical-content{display:none!important}@media print{.scene-explanation:not([open])>.technical-content{display:block!important}}
+/* Full Git identities must wrap without widening mobile reading columns. */
+.served-commit{overflow-wrap:anywhere;word-break:break-word}
