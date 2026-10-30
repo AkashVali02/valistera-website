@@ -35,6 +35,8 @@ jobs:
           path: /tmp/module3-tts
           key: module3-kokoro-v1-${{ hashFiles('academy/module-3/content.json', 'academy/module-3/caption_display.py') }}
           restore-keys: module3-kokoro-v1-
+      - name: Recover revised illustrations without resynthesizing narration
+        run: python3 academy/module-3/refresh-visuals.py
       - name: Build media when missing
         run: |
           if ! python3 academy/module-3/media-current.py; then

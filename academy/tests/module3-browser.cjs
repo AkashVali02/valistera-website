@@ -39,7 +39,7 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
    const disclosure=page.locator('.scene-explanation').nth(j), content=disclosure.locator('.technical-content');
    check('Lesson '+i+' diagram '+(j+1)+' entirely collapsed',!(await content.isVisible())&&!(await disclosure.locator('img').isVisible()));
    await disclosure.locator('summary').focus();await page.keyboard.press('Enter');
-   check('Lesson '+i+' diagram '+(j+1)+' expands with information',await content.isVisible()&&await disclosure.locator('img').isVisible()&&(await disclosure.locator('summary').innerText()).includes('View technical information'));
+   check('Lesson '+i+' diagram '+(j+1)+' expands with information',await content.isVisible()&&await disclosure.locator('img').isVisible()&&(await disclosure.locator('summary').innerText()).includes('View Technical Explanation'));
    await page.keyboard.press('Enter');
    check('Lesson '+i+' diagram '+(j+1)+' closes again',!(await content.isVisible()));
   }

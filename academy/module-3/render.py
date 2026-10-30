@@ -15,7 +15,35 @@ def draw_scene(l,s,j):
  text(48,84,f'DESIGN QUALIFICATION / LESSON 3.{l["id"]} / PART {j+1}',21,CYAN,True)
  for k,t in enumerate(textwrap.wrap(s['title'],43)):text(48,124+k*48,t,40,bold=True)
  box(48,222,455,374)
- if l['id']==3:
+ if l['id']==4 and j in [2,3]:
+  text(70,242,'Outlet cross-sections',24,CYAN,True)
+  text(70,287,'Continuous outlet path',21,WHITE,True)
+  d.line([(85,332),(452,332)],fill=CYAN,width=22)
+  d.line([(85,332),(452,332)],fill=BG,width=14)
+  d.polygon([(450,323),(468,332),(450,341)],fill=CYAN)
+  text(70,371,'Low pocket: retained liquid',21,GOLD,True)
+  pts=[(85,419),(190,419),(190,477),(301,477),(301,419),(451,419)]
+  d.line(pts,fill=CYAN,width=24,joint='curve')
+  d.line(pts,fill=BG,width=16,joint='curve')
+  d.line([(190,455),(190,477),(301,477),(301,455)],fill=GOLD,width=14,joint='curve')
+  text(73,514,'Liquid below outlet level',21,GOLD)
+  text(73,553,'Qualitative · not to scale',20,MUT)
+ elif l['id']==6 and j==1:
+  text(70,242,'Installed access · plan view',23,CYAN,True)
+  d.ellipse((90,340,280,530),fill='#244763',outline=CYAN,width=4)
+  text(137,419,'V-201',25,WHITE,True)
+  d.rectangle((260,412,323,442),fill=BLUE)
+  text(76,296,'Rear instrument',22,WHITE,True)
+  d.line([(241,320),(292,410)],fill=WHITE,width=2)
+  d.rectangle((391,321,430,535),fill='#745d32',outline=GOLD,width=3)
+  text(331,280,'Pipe rack',22,GOLD,True)
+  for x in range(329,452,18):d.line((x,427,x+10,427),fill=GOLD,width=4)
+  d.polygon([(452,420),(465,427),(452,434)],fill=GOLD)
+  d.line((385,408,437,448),fill='#ff9f9f',width=5)
+  d.line((385,448,437,408),fill='#ff9f9f',width=5)
+  text(71,533,'Removal path blocked',23,GOLD,True)
+  text(71,568,'Verify clearance · not to scale',19,MUT)
+ elif l['id']==3:
   text(72,244,'Teaching error bounds',26,CYAN,True)
   for n,(label,value) in enumerate([('Sensor',.2),('Transmitter',.2),('Display',.2),('Sum',.6)]):
    y=306+n*64;text(72,y,label,23);d.rectangle((250,y+2,250+value*320,y+27),fill=GOLD if n==3 else BLUE);text(250+value*320+7,y,str(value),20)
