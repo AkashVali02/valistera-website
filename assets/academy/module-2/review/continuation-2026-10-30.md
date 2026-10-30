@@ -50,3 +50,30 @@ Existing source map retains Annex 15 §§1–4 and 11, ICH Q9(R1) §7/Annex I.2�
 - Independent GMP/privacy reviewer signatures and the owner's Module 2 release decision.
 
 The Module 1 release record reports the owner's statement and authorization; it is not a Claude signature and does not authorize Module 2. Its historical presence in PR #2 is documented, not treated as Module 2 acceptance.
+
+
+## Follow-up: collapsible diagrams and Claude finding audit
+The earlier UI collapsed diagram captions but kept full images visible. The revised UI places each complete diagram, relationship description and recorded-lesson explanation inside one closed `View technical information` disclosure. All 40 disclosures are keyboard-operable. Required learning notes/worked examples remain distinct assessed content; hiding diagram panels does not remove their information.
+
+| Claude finding | Implemented response | Closure limit |
+|---|---|---|
+| M1 | Qualification stages, functional specification and traceability map added to 2.2/2.4/2.5 | Added reading, not new narration; consultant adequacy review pending |
+| M2 | Worked URS, traceability, defined FMEA scales and conditional/not-ready handover examples | Educational depth/learning outcomes need acceptance |
+| M3 | 20 unique application questions, no verbatim lesson-check duplicates; open-book key disclosed | Scoring works; assessment validity is not independently certified |
+| m1 | VMP expectation, contents and requalification in required reading | Original “may be defined” audio unchanged; combined-format acceptance pending |
+| m2 | Hazard/harm/risk/severity/probability/detectability vocabulary added | Written extension, not narrated |
+| m3 | Signed versus absolute error clarified; numerical boundaries tested | Real measurement decision rules remain site-specific |
+| m4 | Measurable proposed URS-02 with explicit hypothetical basis | Not an approved site requirement |
+| m5 | Conventional displayed abbreviations/numerals and degree symbols | Audio phonetic forms retained intentionally |
+| m6 | Short trailing cues merged where safe | Remaining segmentation/reading comfort still needs listening review |
+| m7 | Header/footer outside main; skip link targets content; keyboard tests | Actual screen-reader acceptance outstanding |
+| m8 | Relationship descriptions replace boilerplate; now disclosed with complete diagrams | AI source-image/frame inspection does not replace human accessible-equivalence review |
+| m9 | Beginner pacing revised to 4–5 hours | Unmeasured estimate |
+| m10 | Site review of supplier protocols and applicability taught | Independent GMP acceptance pending |
+| m11 | Official Annex 15 status rechecked; exact source sections corrected | No regulatory approval implied |
+| m12 | DejaVu notice directly linked; application and host logging claims separated | Commercial rights and hosting-account policy acceptance unresolved |
+| e1/e2 | Repetitive figure text replaced; numerical choices ordered | Implemented |
+| PR scope | Module 1 record identified as historical owner-reported approval | Archival record still in PR #2; not silently deleted or treated as Module 2 approval |
+| Optional jurisdiction expansion | Scope limitation stated | Schedule M/21 CFR 211 expansion not implemented |
+
+Consequently, “all Claude findings fully closed” would be inaccurate. The feasible code/content changes are implemented, and residual acceptance/deferred items are explicit above.

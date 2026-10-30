@@ -34,13 +34,15 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
  for(let i=1;i<=10;i++){
   await page.goto(`${BASE}/academy-lesson-2-${i}.html`);
   check('Lesson '+i+' has four diagram disclosures',(await page.locator('.scene-explanation').count())===4);
-  check('Lesson '+i+' has four key explanations',(await page.locator('.key-explanation').count())===4);
-  check('Lesson '+i+' technical descriptions hidden initially',await page.locator('.scene-explanation').evaluateAll(es=>es.every(e=>!e.open&&getComputedStyle(e.querySelector('p')).display==='none')));
   check('Lesson '+i+' no duplicate timeline',(await page.locator('.seek-controls,input[type=range]').count())===0);
-  await page.locator('.scene-explanation summary').first().click();
-  check('Lesson '+i+' diagram disclosure expands',await page.locator('.scene-explanation').first().evaluate(e=>e.open));
-  await page.locator('.key-explanation summary').first().click();
-  check('Lesson '+i+' key explanation expands',await page.locator('.key-explanation').first().evaluate(e=>e.open));
+  for(let j=0;j<4;j++){
+   const disclosure=page.locator('.scene-explanation').nth(j), content=disclosure.locator('.technical-content');
+   check('Lesson '+i+' diagram '+(j+1)+' entirely collapsed',!(await content.isVisible())&&!(await disclosure.locator('img').isVisible()));
+   await disclosure.locator('summary').focus();await page.keyboard.press('Enter');
+   check('Lesson '+i+' diagram '+(j+1)+' expands with information',await content.isVisible()&&await disclosure.locator('img').isVisible()&&(await disclosure.locator('summary').innerText()).includes('View technical information'));
+   await page.keyboard.press('Enter');
+   check('Lesson '+i+' diagram '+(j+1)+' closes again',!(await content.isVisible()));
+  }
   check('Lesson '+i+' subtitle toggle present',(await page.locator('#toggle-captions').count())===1);
   check('Lesson '+i+' poster aspect ratio',await page.locator('#load-media img').evaluate(im=>Math.abs(im.getBoundingClientRect().width/im.getBoundingClientRect().height-16/9)<.02));
   check('Lesson '+i+' media deferred',await page.locator('video').evaluate(v=>!v.src&&v.hidden));
