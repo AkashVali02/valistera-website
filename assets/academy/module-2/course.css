@@ -15,3 +15,6 @@ body>header,body>footer{max-width:1120px;margin-left:auto;margin-right:auto;padd
 
 .table-wrap:focus-visible{outline:3px solid #ffd18a;outline-offset:4px}
 @media print{.scene-explanation:not([open]) > :not(summary),.key-explanation:not([open]) > :not(summary){display:block!important}}
+
+/* Preserve the slide ratio on narrow screens; HTML height is only intrinsic sizing. */
+.play img{height:auto;aspect-ratio:16/9}

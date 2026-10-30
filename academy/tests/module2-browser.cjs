@@ -42,6 +42,7 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
   await page.locator('.key-explanation summary').first().click();
   check('Lesson '+i+' key explanation expands',await page.locator('.key-explanation').first().evaluate(e=>e.open));
   check('Lesson '+i+' subtitle toggle present',(await page.locator('#toggle-captions').count())===1);
+  check('Lesson '+i+' poster aspect ratio',await page.locator('#load-media img').evaluate(im=>Math.abs(im.getBoundingClientRect().width/im.getBoundingClientRect().height-16/9)<.02));
   check('Lesson '+i+' media deferred',await page.locator('video').evaluate(v=>!v.src&&v.hidden));
   await page.locator('#load-media').focus();await page.keyboard.press('Enter');
   await page.waitForFunction(()=>{const v=document.querySelector('video');return v.readyState>=2&&v.currentTime>.1&&!v.paused},null,{timeout:20000});

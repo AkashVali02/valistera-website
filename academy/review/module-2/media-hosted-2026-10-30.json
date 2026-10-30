@@ -1,0 +1,341 @@
+{
+  "tested_commit": "5c47e7bd7447ae42493e6c3aab9e4432fcede5ef",
+  "checked_at_utc": "2026-10-30T00:52:47.222615+00:00",
+  "base": "https://academy-player-preview-valistera-website.gadadeakash72.workers.dev/",
+  "rows": [
+    {
+      "file": "assets/academy/module-2/lesson-1-scene-1.png",
+      "bytes": 42596,
+      "sha256": "89196044671e7a712b438f86f5abc630e92b18fc8a4b62571c030ee80571c408",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-1-scene-2.png",
+      "bytes": 43896,
+      "sha256": "9829ca1b0332ce166b47441e7bf2d6e9dec855a5ecd02154b31682af408b61b9",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-1-scene-3.png",
+      "bytes": 38613,
+      "sha256": "e136cd7ccd65b3a5be1cff7e2c5f2159cf1235613325dd5cb55fd52361f11c8e",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-1-scene-4.png",
+      "bytes": 44775,
+      "sha256": "f4a76d5bce957fe34194f5d17449365488cd87556de8812517f4d2e777620836",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-1.mp4",
+      "bytes": 1436332,
+      "sha256": "e6a2f2064c11f3c646735818f3bdb6de67cc546bfb10dc48d22a2d716d9a3a4a",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    },
+    {
+      "file": "assets/academy/module-2/lesson-10-scene-1.png",
+      "bytes": 57540,
+      "sha256": "b5318eca87d8ea1d9702ddb9c12f96fd6babec7e76a0a54c1736eaa7b64c0bf2",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-10-scene-2.png",
+      "bytes": 61915,
+      "sha256": "d8a03bef8773060425c604298e4cacdc4c9354db8f1c73d2d148cbf9c07f2a61",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-10-scene-3.png",
+      "bytes": 58833,
+      "sha256": "38d9224ccf23f2c162faf113c97ec19b4d6a49703bf395102e2d944e5b34133d",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-10-scene-4.png",
+      "bytes": 58033,
+      "sha256": "c5b9e1ee712306821e00ddc79f79c0249822cd620331305b7e3e3cac48dab9b5",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-10.mp4",
+      "bytes": 1574131,
+      "sha256": "ddfa3c3f49025495d6b13f0126eb6bb98dc984133e9b849d16494a95c01a335b",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    },
+    {
+      "file": "assets/academy/module-2/lesson-2-scene-1.png",
+      "bytes": 47064,
+      "sha256": "4eaad577041a1b501572f196adca1405e370c2a32c129f0dec622ca9ae6f87f0",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-2-scene-2.png",
+      "bytes": 44226,
+      "sha256": "9b036eab45b7c5792aebb067d41a5bab5079a5a085ee4bbdbcf1a9d4cf3b4d43",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-2-scene-3.png",
+      "bytes": 50785,
+      "sha256": "798ed179d8c09884d494aa6cfaac8812ea4b27aa57f9fe4b0a1e49613d9d75c0",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-2-scene-4.png",
+      "bytes": 47884,
+      "sha256": "4e641608d18866e76465a5fec2780ac88bbe703e474d8d2c614fd9dae368c2a8",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-2.mp4",
+      "bytes": 1525965,
+      "sha256": "a0c304a7373aa86bc4322a7696dbe5c3073fe9fa2f5bec7c1b28fbd386509e33",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    },
+    {
+      "file": "assets/academy/module-2/lesson-3-scene-1.png",
+      "bytes": 44230,
+      "sha256": "46ca29df2de40a5aeaa9f13a64471cae5c099963a13a6e1b585fd4e036fc384b",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-3-scene-2.png",
+      "bytes": 42295,
+      "sha256": "f90a7ca4d04f3c45b82b68aa78c41638a6a962003e3196ec64e093735871b471",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-3-scene-3.png",
+      "bytes": 47922,
+      "sha256": "311faa1cca9869edacea03deb40be604614c2aec9e07cba4205ff1badb9956ce",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-3-scene-4.png",
+      "bytes": 45384,
+      "sha256": "1e29221ef207051c42387b2fc22f9f97bf60e94497058dad3e3ea4637708230f",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-3.mp4",
+      "bytes": 1526695,
+      "sha256": "3d90150a88cd3e74816e529abadf8c3f948b24f4a8c8f294f60f84287526c39a",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    },
+    {
+      "file": "assets/academy/module-2/lesson-4-scene-1.png",
+      "bytes": 49327,
+      "sha256": "0ff744b89ffa6a764b5c07ff637580a3ddf9474d0ee5c6b80e01026cd9ba4351",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-4-scene-2.png",
+      "bytes": 47717,
+      "sha256": "b3c8b515906a7e368e32d75a8dd19163b497c3bc3c19edd63dba19d9769b7f03",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-4-scene-3.png",
+      "bytes": 49217,
+      "sha256": "826a0e7121146013a70b965028995f42faf4088dc20a73341beba9cbb61108a6",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-4-scene-4.png",
+      "bytes": 47208,
+      "sha256": "b639590ee9d511b6ec485a6b1d872501fd51f1acdba9d42701c9c79ed78015ca",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-4.mp4",
+      "bytes": 1589350,
+      "sha256": "9bd03ae0a8b5b88fe98bb64ffb142181cabca497d9ed61b156caae8e8aaafb39",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    },
+    {
+      "file": "assets/academy/module-2/lesson-5-scene-1.png",
+      "bytes": 47212,
+      "sha256": "14ed2c784ed428e48dee3891225a1ab1cdc6e81daa0fe3bc202a6d1690553b97",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-5-scene-2.png",
+      "bytes": 48835,
+      "sha256": "239e583faf5c5e6b8e9c5276e7b0b851ca2fc3f933f74547c2307ecfda75aed5",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-5-scene-3.png",
+      "bytes": 47828,
+      "sha256": "ef1adc4d228ecf0b4147898ef70b357cb2b72f4e3b0efc0d623e490f8486da90",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-5-scene-4.png",
+      "bytes": 48878,
+      "sha256": "707d6fc0ae17a1b6777d56166694fb4b72185722c7c17261f4a09f66465b6196",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-5.mp4",
+      "bytes": 1581472,
+      "sha256": "e8b680a4a2cd695b845e25bf579a3863a3d7914e1e40a4224be317a20e7d6486",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    },
+    {
+      "file": "assets/academy/module-2/lesson-6-scene-1.png",
+      "bytes": 44818,
+      "sha256": "d411ca13e6a709081c84d375d6909bccbf8cc5b228cbd2eaea5861da1e4cd187",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-6-scene-2.png",
+      "bytes": 47058,
+      "sha256": "30b7def591e6fb76bdf74743e8bd4759f01d10806b79ab2018e746c6b7332053",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-6-scene-3.png",
+      "bytes": 49088,
+      "sha256": "416bb560b06daab00622fad429a3537911ae2ec44d5e312389be6b520a1c739d",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-6-scene-4.png",
+      "bytes": 49881,
+      "sha256": "5e8c12a8f4ca0e4c50f77bf33164e7072ec867582eefd3192e09615a627c4d8d",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-6.mp4",
+      "bytes": 1519050,
+      "sha256": "ce1ee6f5804771c0c4bff516fdd56b223d43fd5e7b4441cac86cf01904bbf3d8",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    },
+    {
+      "file": "assets/academy/module-2/lesson-7-scene-1.png",
+      "bytes": 41256,
+      "sha256": "70b4e5f77e80337ffc2dd912c241bd5f46910c7078cf3eba1d259c5b9b3ca299",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-7-scene-2.png",
+      "bytes": 39797,
+      "sha256": "7dd80071365f9cb6f00c49c5d14e81de47aa484cb2bd66040f4ec5ea0eea9022",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-7-scene-3.png",
+      "bytes": 44547,
+      "sha256": "375e032ec4cdc8c89351c0440d25eb99de896583f805ad1f083c80e4213e3987",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-7-scene-4.png",
+      "bytes": 45423,
+      "sha256": "9c1e5a709f91837f0bdc88f953b6823fdd0e7504b41aeeb6f534f66bd42895fb",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-7.mp4",
+      "bytes": 1525090,
+      "sha256": "ecb703e96c6cdba92691b37ac67c9ec7b7e546be37463cf870bcae0ce86e14fa",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    },
+    {
+      "file": "assets/academy/module-2/lesson-8-scene-1.png",
+      "bytes": 41087,
+      "sha256": "00eab4ec93c061b373cdc773784a48122e09ffb4114b7b665458002a0988db34",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-8-scene-2.png",
+      "bytes": 45991,
+      "sha256": "46e9d1ea2e60a11308acf72eb454ee13423592b99ba586e88c62fbd00e7e3e2d",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-8-scene-3.png",
+      "bytes": 45711,
+      "sha256": "92af21366cafa3eddfddd39e8fce2017cb967ffe2186af8a48a5b81f46cded1c",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-8-scene-4.png",
+      "bytes": 46824,
+      "sha256": "d785f6aa6e898b331552213ee5ac700b1ceda304bb2320c442fa8f61e0bec1b5",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-8.mp4",
+      "bytes": 1572031,
+      "sha256": "1f16be1786822618981373b19124b43143cf459bcaa5086a2e6b1b4057fa6429",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    },
+    {
+      "file": "assets/academy/module-2/lesson-9-scene-1.png",
+      "bytes": 48156,
+      "sha256": "c18acee055704daf62e7d3ef884dccbd0d355fafc740e4c1a6a30c3fd9bdab5d",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-9-scene-2.png",
+      "bytes": 49621,
+      "sha256": "87fbc7b784fcc1dcfaba93ca6175dfddf1923b225a2903890d15d9fcea2a43cb",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-9-scene-3.png",
+      "bytes": 47407,
+      "sha256": "043fbbe86df28bdc6e579119d9590dca27af1758c7baa1b03d39da0cc743cb29",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-9-scene-4.png",
+      "bytes": 47128,
+      "sha256": "b8567492a7d0e05f4412e0a1bc91276597975762f9a2fdd07dcd64e1d8ba243b",
+      "matches_commit": true
+    },
+    {
+      "file": "assets/academy/module-2/lesson-9.mp4",
+      "bytes": 1531855,
+      "sha256": "cf4400eeb13a51b85ef8d8fd052c1023382672affcdb713b0935a815d8f64eaf",
+      "matches_commit": true,
+      "range_status": 200,
+      "range_pass": false
+    }
+  ],
+  "hash_mismatches": [],
+  "range_unsupported": [
+    "assets/academy/module-2/lesson-1.mp4",
+    "assets/academy/module-2/lesson-10.mp4",
+    "assets/academy/module-2/lesson-2.mp4",
+    "assets/academy/module-2/lesson-3.mp4",
+    "assets/academy/module-2/lesson-4.mp4",
+    "assets/academy/module-2/lesson-5.mp4",
+    "assets/academy/module-2/lesson-6.mp4",
+    "assets/academy/module-2/lesson-7.mp4",
+    "assets/academy/module-2/lesson-8.mp4",
+    "assets/academy/module-2/lesson-9.mp4"
+  ],
+  "interpretation": "All 50 hosted media hashes match. Raw MP4 endpoints ignore byte ranges; current player loads a complete Blob to enable native seeking. See hosted-browser and touch results for the verified player workaround."
+}
