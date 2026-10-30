@@ -198,3 +198,18 @@
   Cache-Control: no-store, max-age=0
   CDN-Cache-Control: no-store
   Cloudflare-CDN-Cache-Control: no-store
+
+/academy-module-3*
+  Cache-Control: no-store, max-age=0
+  CDN-Cache-Control: no-store
+  Cloudflare-CDN-Cache-Control: no-store
+
+/academy-lesson-3-*
+  Cache-Control: no-store, max-age=0
+  CDN-Cache-Control: no-store
+  Cloudflare-CDN-Cache-Control: no-store
+
+/assets/academy/module-3/*
+  Cache-Control: no-store, max-age=0
+  CDN-Cache-Control: no-store
+  Cloudflare-CDN-Cache-Control: no-store

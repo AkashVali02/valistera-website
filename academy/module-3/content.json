@@ -1,0 +1,833 @@
+{
+  "title": "Design Qualification (DQ)",
+  "edition": "M3-20261030-R1",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "What DQ decides — and what it does not",
+      "objective": "Separate a design decision from installation checks and process performance.",
+      "scenes": [
+        {
+          "title": "The proposed system",
+          "labels": [
+            "Intended purpose",
+            "Proposed design",
+            "Reasoned decision"
+          ],
+          "narration": "Welcome to Module Three: Design Qualification, or D Q. Our fictional vessel V two zero one prepares an aqueous oral solution before filling. It is not an aseptic process. The diagram connects intended purpose to a proposed design and then to a reasoned decision. We ask whether the design can support the intended use. A purchase order or attractive equipment drawing cannot answer that question by itself.",
+          "description": "Intended purpose is the input; the proposed design is evaluated against it; the output is a supported design decision."
+        },
+        {
+          "title": "Different questions at different stages",
+          "labels": [
+            "DQ: design suitability",
+            "IQ: installed configuration",
+            "OQ / PQ: operation and use"
+          ],
+          "narration": "D Q evaluates the proposed design. Installation qualification examines what was installed. Operational qualification challenges operation, and performance qualification addresses performance for the intended use under defined conditions. These questions are connected but not interchangeable. A successful design review does not demonstrate that the installed vessel mixes a real batch uniformly. Later modules examine those later stages. Keep the evidence and the decision appropriate to the stage.",
+          "description": "DQ precedes and informs installation and operational/performance verification; an earlier conclusion is not evidence that later tests passed."
+        },
+        {
+          "title": "A practical design question",
+          "labels": [
+            "Product contact path",
+            "Measurement chain",
+            "Cleaning access"
+          ],
+          "narration": "Look at three design concerns: the product contact path, the measurement chain and access for cleaning. A vessel can have a suitable steel body yet an unsuitable gasket. A temperature display can work while representing the wrong sensor location. A shiny exterior can conceal a trapped pocket. For each concern, ask which design feature addresses the need, what evidence supports that claim and what must later be verified.",
+          "description": "Three design concerns surround the same vessel: contact materials, measurement and cleaning. None substitutes for the others."
+        },
+        {
+          "title": "Define the conclusion",
+          "labels": [
+            "Design evidence reviewed",
+            "Assumptions disclosed",
+            "Later tests still required"
+          ],
+          "narration": "In this course, every equipment identifier, specification and evidence reference is a teaching invention. No site equipment has been qualified. At the end of a D Q review, state the design scope, the evidence examined and the open conditions. Do not write ready for routine production when only design evidence has been assessed. Your first activity is to distinguish a design conclusion from an installation finding and a performance claim.",
+          "description": "The design conclusion is limited by its evidence and assumptions and passes verification needs forward, rather than declaring routine-use readiness."
+        }
+      ],
+      "activity": "Classify three statements: the drawing includes a drain; the installed drain matches the drawing; the defined cleaning cycle removes residues. Explain the evidence needed for each.",
+      "model": "Design review checks the proposed drain and its rationale. IQ checks installation against the approved design. Cleaning validation needs a justified study and executed evidence; a drawing does not prove cleaning effectiveness.",
+      "quiz": {
+        "question": "A supplier drawing includes a drain. What does this establish?",
+        "options": [
+          "Cleaning effectiveness has been demonstrated",
+          "The design includes a proposed drainage feature",
+          "The installed vessel matches the approved design"
+        ],
+        "answer": 1,
+        "feedback": "A design feature is a proposal until installation and relevant performance are verified."
+      },
+      "worked": [
+        [
+          "Claim",
+          "Appropriate evidence"
+        ],
+        [
+          "Design includes access for cleaning",
+          "Reviewed drawing and cleaning concept; suitability rationale"
+        ],
+        [
+          "Installed access matches design",
+          "Installation inspection against approved drawing"
+        ],
+        [
+          "Cleaning is effective",
+          "Approved cleaning-validation approach and executed results"
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Build a controlled design-review baseline",
+      "objective": "Identify the requirements, specifications and revisions that define the review.",
+      "scenes": [
+        {
+          "title": "Fix the review baseline",
+          "labels": [
+            "URS revision 3",
+            "Design drawing revision B",
+            "Risk record revision 2"
+          ],
+          "narration": "For the fictional review, use a user requirements specification, or U R S, at revision three, drawing revision B and risk record revision two. These references are teaching placeholders. A baseline is the defined set of information used for the review. If one reviewer reads revision A while another reads revision B, apparent agreement may hide a different design. Record the document identifiers, revisions and approval status together.",
+          "description": "Three controlled inputs form one review baseline; mixing revisions makes the decision ambiguous."
+        },
+        {
+          "title": "Resolve missing process inputs",
+          "labels": [
+            "Batch range unknown",
+            "Owner assigned",
+            "Review remains limited"
+          ],
+          "narration": "Suppose the process team has not defined the batch-volume range. The supplier offers a vessel capacity, but a catalogue capacity is not an agreed process need. Raise a question to the process owner and record the consequence for impeller location and mixing verification. The design review may examine unrelated matters, but it cannot conclude that mixing is suitable across an unspecified range. Unknown inputs should stay visible.",
+          "description": "An unknown batch range becomes an owned question; the unresolved question limits the affected design conclusion."
+        },
+        {
+          "title": "Read the design package",
+          "labels": [
+            "Arrangement drawing",
+            "Piping and instruments",
+            "Functional specification"
+          ],
+          "narration": "An arrangement drawing shows physical placement. A piping and instrumentation diagram shows process connections and instruments. A functional specification describes intended control behaviour. Our teaching package also includes material specifications, a cleaning concept and an interface register. These documents answer different questions. A drawing label such as temperature control does not describe alarm delays, sensor failure responses or operator permissions. Request the document that actually supports the claim.",
+          "description": "The three document types provide complementary physical, connection and functional views; labels alone do not define behaviour."
+        },
+        {
+          "title": "Control a late revision",
+          "labels": [
+            "Supplier issues revision C",
+            "Assess affected decisions",
+            "Update approved baseline"
+          ],
+          "narration": "During review, the supplier issues revision C with a different outlet valve. Do not silently replace the drawing and keep the old signatures. Compare the change, identify affected requirements and risks, and obtain the appropriate review. Record which conclusions remain applicable and which need reassessment. The goal is not to restart every check automatically, but to prevent an unreviewed design from inheriting an earlier conclusion.",
+          "description": "A new revision triggers impact assessment; the accepted baseline changes only through the applicable review and approval process."
+        }
+      ],
+      "activity": "Prepare a baseline register containing five documents, revision/status, owner and one unresolved question.",
+      "model": "Include URS, arrangement drawing, piping/instrument diagram, functional specification and risk record. Mark missing or draft inputs explicitly; assign the batch-range question to the process owner and identify affected mixing conclusions.",
+      "quiz": {
+        "question": "Reviewers used different drawing revisions. What is the first action?",
+        "options": [
+          "Reconcile the baseline and assess affected conclusions",
+          "Keep both revisions because both came from the supplier",
+          "Use the most recent email date as approval evidence"
+        ],
+        "answer": 0,
+        "feedback": "Agree which controlled design was reviewed and assess differences before relying on the conclusion."
+      },
+      "worked": [
+        [
+          "Document",
+          "Teaching baseline",
+          "Review consequence"
+        ],
+        [
+          "URS",
+          "URS-V201 revision 3, teaching baseline",
+          "Defines needs; unresolved batch range remains a gap"
+        ],
+        [
+          "Drawing",
+          "GA-V201 revision B",
+          "Physical design under review"
+        ],
+        [
+          "Control description",
+          "FS-V201 revision 1",
+          "Defines intended control/fault response"
+        ],
+        [
+          "Supplier update",
+          "GA-V201 revision C, not yet accepted",
+          "Outlet change requires impact assessment"
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Trace a requirement to a design decision",
+      "objective": "Write an evidence-linked DQ row that keeps later testing visible.",
+      "scenes": [
+        {
+          "title": "A measurable teaching assumption",
+          "labels": [
+            "R-03: indication accuracy",
+            "20 / 40 / 60 °C points",
+            "±0.5 °C example limit"
+          ],
+          "narration": "For a separate worked example, assume a fictional process owner has approved temperature indication at twenty, forty and sixty degrees Celsius with error no greater than plus or minus zero point five degrees Celsius. These are teaching assumptions, not general G M P tolerances or real project approvals. Requirement R zero three concerns indication accuracy. It does not establish product temperature uniformity, mixing performance or an acceptable manufacturing process range.",
+          "description": "R-03 is a fictional indication requirement at three reference points; its criterion does not cover every process-performance question."
+        },
+        {
+          "title": "Compare the measurement chain",
+          "labels": [
+            "Sensor: ±0.2 °C",
+            "Transmitter: ±0.2 °C",
+            "Display: ±0.2 °C"
+          ],
+          "narration": "The supplier lists three component error bounds of plus or minus zero point two degrees Celsius each: sensor, transmitter and display. If they can all act in the same direction, the simple worst-case sum is zero point six degrees Celsius. That exceeds the worked requirement of zero point five. Calling each component accurate would miss the chain. This conservative teaching calculation is not a complete uncertainty budget or an automatic rejection of every possible design.",
+          "description": "Three component bounds add conservatively to ±0.6 °C; the chain does not yet support the ±0.5 °C teaching requirement."
+        },
+        {
+          "title": "Write the traceability row",
+          "labels": [
+            "Requirement and criterion",
+            "Design evidence reference",
+            "Gap and verification plan"
+          ],
+          "narration": "The row identifies R zero three, the criterion, sensor schedule S zero seven revision B and the calculation. Its decision is not demonstrated. The action is to propose a justified measurement-chain design or revise the requirement through authorized change, not quietly relax the criterion. Installation checks must confirm the selected components. Operational testing must challenge the assembled chain under the approved method. D Q plans this evidence; it does not invent its results.",
+          "description": "One requirement links to specific design evidence, an unresolved gap and planned later verification; the row does not claim testing was performed."
+        },
+        {
+          "title": "Close the row with evidence",
+          "labels": [
+            "Revised design received",
+            "Recalculate and review",
+            "Retain future verification"
+          ],
+          "narration": "Suppose the supplier proposes lower-error components. Review their applicable conditions and recalculate the chain; do not close the row merely because a new datasheet arrived. If the revised design supports the requirement, record the rationale and reviewer decision. Keep the later installation and operational checks in the verification plan. Distinguish design evidence adequate from installed performance demonstrated. The workbook contains a filled row and a blank row for practice.",
+          "description": "A revised design can close the design gap only after review; later verification remains required even when design evidence is adequate."
+        }
+      ],
+      "activity": "Complete one DQ traceability row for R-03. Explain why three ±0.2 °C components do not automatically meet a ±0.5 °C chain requirement.",
+      "model": "Worst-case sum is 0.6 °C. Record the design gap, evidence reference and supplier action. Reassess revised components and retain installation/assembled-chain verification. Do not treat this sum as a full uncertainty budget.",
+      "quiz": {
+        "question": "Three ±0.2 °C component bounds can align. Against ±0.5 °C, what does the conservative sum show?",
+        "options": [
+          "The chain is proven suitable because each bound is smaller",
+          "The chain is suitable whenever errors average to zero",
+          "The 0.6 °C bound does not support the requirement"
+        ],
+        "answer": 2,
+        "feedback": "The worst-case bound exceeds the illustrative requirement; a justified redesign or approved change is needed."
+      },
+      "worked": [
+        [
+          "Field",
+          "Filled teaching row"
+        ],
+        [
+          "Requirement",
+          "R-03: indication error within ±0.5 °C at 20, 40, 60 °C (fictional approved assumption)"
+        ],
+        [
+          "Evidence",
+          "S-07 rev B; three applicable component bounds of ±0.2 °C"
+        ],
+        [
+          "Design review",
+          "Worst-case bound 0.6 °C; requirement not yet supported"
+        ],
+        [
+          "Action",
+          "Supplier proposes suitable chain; metrology reviews applicability and decision rule"
+        ],
+        [
+          "Later verification",
+          "IQ component identity; OQ assembled-chain challenge; results not yet available"
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Review contact materials and cleanability",
+      "objective": "Connect product-contact design to evidence without assuming a universal material specification.",
+      "scenes": [
+        {
+          "title": "Follow the complete contact path",
+          "labels": [
+            "Vessel and impeller",
+            "Gaskets and valve seats",
+            "Hose and outlet"
+          ],
+          "narration": "Trace the liquid from the vessel through the outlet and transfer hose. Include impeller surfaces, seals, gaskets and valve seats, not just the vessel shell. The diagram marks these as one contact path. A statement that the vessel is stainless steel leaves elastomers and purchased components unresolved. Ask how each material is identified and justified for the product, cleaning agents, temperature and contact time relevant to the intended use.",
+          "description": "The product path includes metal and non-metal components from vessel to transfer outlet; all relevant contact surfaces need a suitability basis."
+        },
+        {
+          "title": "Separate grade from suitability",
+          "labels": [
+            "Material identity",
+            "Compatibility basis",
+            "Surface requirements"
+          ],
+          "narration": "A material certificate can support identity, but identity alone does not prove compatibility with a specific formulation or cleaning regime. Similarly, a surface-finish number is useful only with a justified requirement and a defined verification method. This introductory module does not prescribe a universal steel grade, roughness value or elastomer. In the fictional review, mark the gasket compatibility statement missing and request product-specific evidence from the responsible specialists.",
+          "description": "Identity, compatibility and surface requirements answer distinct questions; evidence in one category does not automatically satisfy the others."
+        },
+        {
+          "title": "Make cleaning possible",
+          "labels": [
+            "Access and coverage",
+            "Drainage and retention",
+            "Inspection and maintenance"
+          ],
+          "narration": "The design sketch contrasts a clear outlet path with a pocket that may retain liquid. Review access, cleaning coverage, disassembly needs, drainage and inspection. Consider whether maintenance can be performed without creating an uncontrolled product-quality risk. A favourable drawing is only a design argument: cleaning effectiveness still needs the applicable validation evidence. Do not copy a hygienic-design ratio from another application and present it as a universal G M P rule.",
+          "description": "A retained pocket is a design concern connected to cleaning and inspection; the sketch is qualitative and gives no universal slope or dead-leg limit."
+        },
+        {
+          "title": "Turn a concern into an action",
+          "labels": [
+            "Pocket identified",
+            "Supplier redesign requested",
+            "Verification retained"
+          ],
+          "narration": "Our worked finding is specific: the outlet drawing shows a retained pocket with no cleaning rationale. Record the drawing revision and location, request a revised arrangement or a justified control strategy, and assign an owner. Link the response to installation inspection and the cleaning study. Avoid a vague action such as improve cleanability. A closed action needs reviewed evidence that addresses the actual concern, not merely an email saying resolved.",
+          "description": "A specific pocket finding is linked to supplier action and later evidence; closure requires a reviewed response rather than a status label."
+        }
+      ],
+      "activity": "Write a design finding for an outlet pocket and a separate question for an unspecified gasket.",
+      "model": "Reference the drawing and contact-component list. Request cleaning/drainage rationale or redesign for the pocket, and compatibility evidence for the gasket. Assign engineering/cleaning and materials specialists; retain later verification.",
+      "quiz": {
+        "question": "A steel certificate is available but the contact gasket is unspecified. What remains open?",
+        "options": [
+          "Suitability of the complete product-contact path",
+          "The arithmetic total of installed instruments",
+          "Only the supplier invoice and delivery date"
+        ],
+        "answer": 0,
+        "feedback": "The steel certificate does not identify or justify the missing contact gasket."
+      },
+      "worked": [
+        [
+          "Design concern",
+          "Evidence/action",
+          "Later verification"
+        ],
+        [
+          "Gasket unspecified",
+          "Identify material and compatibility basis",
+          "Confirm installed identity and approved maintenance replacement"
+        ],
+        [
+          "Outlet pocket",
+          "Review drawing, cleaning concept and redesign/rationale",
+          "Inspect installed geometry; evaluate cleaning effectiveness"
+        ],
+        [
+          "Surface requirement absent",
+          "Define justified requirement and method",
+          "Verify against the approved basis"
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Review instruments, controls and failure responses",
+      "objective": "Evaluate the design of control protection without assuming two displays mean independence.",
+      "scenes": [
+        {
+          "title": "One sensor, two functions",
+          "labels": [
+            "Temperature sensor",
+            "Controller and alarm",
+            "Shared dependency"
+          ],
+          "narration": "A temperature sensor feeds both the controller and the high-temperature alarm. The diagram branches one signal into two functions. Two boxes on the drawing do not make two independent measurements. If the sensor fails low, both functions may receive the same misleading value. Whether that matters depends on the process risk and other protections. State the failure mechanism before deciding whether an independent sensor or another protective measure is necessary.",
+          "description": "One sensor feeds controller and alarm in parallel; the common input creates a shared failure dependency."
+        },
+        {
+          "title": "Define the fault response",
+          "labels": [
+            "Sensor disconnect",
+            "Defined safe response",
+            "Operator information"
+          ],
+          "narration": "The functional specification should describe the response to a detected sensor disconnect, including control behaviour and operator information appropriate to the intended use. Our teaching example proposes inhibiting heating and generating an identifiable alarm; it is not a universal safe-state instruction. Review whether that response introduces another hazard for the particular process. Distinguish an alarm that merely informs an operator from an interlock that changes operation automatically.",
+          "description": "A sensor fault triggers a defined response and operator information; the safe response must be justified for the actual process."
+        },
+        {
+          "title": "Specify records and access",
+          "labels": [
+            "Authorized settings",
+            "Relevant records",
+            "System-specific assessment"
+          ],
+          "narration": "If the control system creates records used for G M P decisions, identify those records and the applicable computerized-system requirements. Consider who can change a setpoint, how changes are controlled and how necessary records remain available. This module flags the interface; it does not complete computerized-system validation or certify Part Eleven compliance. A password screen by itself is not evidence of adequate access control, data integrity or record retention.",
+          "description": "Settings, users and decision-relevant records connect to a separate computerized-system assessment; a password alone is not sufficient evidence."
+        },
+        {
+          "title": "Plan meaningful challenges",
+          "labels": [
+            "Normal response",
+            "Fault challenge",
+            "Recovery after failure"
+          ],
+          "narration": "Create a test intention for normal operation, the identified fault and recovery. For our sensor scenario, a later test should challenge the fault in a controlled way and verify the specified response and operator indication. Also consider restoration: an uncontrolled restart may be unacceptable. During D Q, check that the design and test method make the challenge feasible. The actual execution, safety controls and acceptance decision belong to approved site procedures.",
+          "description": "Verification covers normal operation, a defined fault and recovery; design review confirms feasibility rather than claiming executed results."
+        }
+      ],
+      "activity": "Draw a shared-sensor chain and write a test intention for its failure response and recovery.",
+      "model": "Show the common sensor feeding both functions. Identify the fault, intended safe response, alarm information and reset/restart behaviour. Assess independence according to risk; do not demand it universally.",
+      "quiz": {
+        "question": "Controller and alarm share one sensor. Which review is most useful?",
+        "options": [
+          "Count the two display screens as independent protection",
+          "Assess the shared failure and the proposed response",
+          "Approve protection because the alarm has a separate tag"
+        ],
+        "answer": 1,
+        "feedback": "Separate labels do not remove a common sensor failure."
+      },
+      "worked": [
+        [
+          "Item",
+          "Fictional design-review entry"
+        ],
+        [
+          "Failure",
+          "Sensor disconnect; assess additionally plausible undetected failures"
+        ],
+        [
+          "Proposed response",
+          "Heating inhibited and alarm generated, subject to process-specific review"
+        ],
+        [
+          "Evidence needed",
+          "Functional specification and wiring/signal architecture"
+        ],
+        [
+          "Future test",
+          "Controlled fault challenge plus recovery/reset verification"
+        ],
+        [
+          "Boundary",
+          "No claim of complete CSV or certified fail-safe design"
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Review utility and installation interfaces",
+      "objective": "Find design assumptions at boundaries before they become installation surprises.",
+      "scenes": [
+        {
+          "title": "The vessel needs a service",
+          "labels": [
+            "Required jacket duty",
+            "Available utility envelope",
+            "Interface compatibility"
+          ],
+          "narration": "The jacket is not useful simply because a utility pipe reaches the room. Compare the process need, the vessel design assumptions and the available utility envelope. Our fictional process duty remains a controlled input rather than an invented number. Consider flow, temperature, pressure and capacity under relevant conditions, using appropriate engineering expertise. A utility qualification report and a vessel design review answer different questions; their interface still needs a compatibility assessment.",
+          "description": "Process duty and utility capability meet at the jacket interface; neither document alone establishes compatibility."
+        },
+        {
+          "title": "Plan space and access",
+          "labels": [
+            "Operation space",
+            "Maintenance access",
+            "Cleaning and movement"
+          ],
+          "narration": "An arrangement drawing should support safe and practical operation, cleaning, inspection and maintenance within the applicable facility design. Our sketch places an instrument behind a vessel where removal may be blocked. Ask whether the required access exists after piping and adjacent equipment are installed. Do not treat empty space on a two-dimensional drawing as proof of access. Engineering checks, dimensions or a suitable model may be needed.",
+          "description": "The vessel and adjacent items constrain access to a rear instrument; clearance must be evaluated in the installed arrangement."
+        },
+        {
+          "title": "Specify connection ownership",
+          "labels": [
+            "Utility supplier",
+            "Equipment vendor",
+            "Site acceptance owner"
+          ],
+          "narration": "A boundary can divide contracts without dividing the technical risk. Record who supplies the connector, who defines its rating, who confirms compatibility and who accepts the interface evidence. The fictional register assigns utility conditions to site engineering and connection details to the vendor, with a joint compatibility review. This prevents a gap where each party assumes the other has checked the connection. Responsibilities should match the site’s actual organization.",
+          "description": "Two suppliers contribute evidence to one interface; a named site decision owner prevents the boundary from becoming an unowned gap."
+        },
+        {
+          "title": "Resolve a mismatch early",
+          "labels": [
+            "Drawing pressure differs",
+            "Assess compatibility",
+            "Revise affected documents"
+          ],
+          "narration": "Suppose the utility schedule and vendor drawing show different pressure assumptions. Stop treating the interface as resolved. Determine which values are correct and assess the effect on design, protective measures and future tests. Do not choose the higher number merely to make the documents agree. A controlled technical decision should update the affected records and retain traceability to the requirement and design basis.",
+          "description": "Conflicting assumptions require a technical compatibility decision before controlled records are reconciled."
+        }
+      ],
+      "activity": "Fill an interface register for jacket utility, instrument access and transfer connection.",
+      "model": "For each interface record required input, design evidence, supplying owner, accepting owner, mismatch and action. Do not replace missing duty/rating data with catalogue values.",
+      "quiz": {
+        "question": "The utility and vessel documents state different pressure assumptions. What should happen?",
+        "options": [
+          "Select the higher value to avoid a document discrepancy",
+          "Treat the qualified utility as proof of compatibility",
+          "Resolve the technical basis and assess interface impact"
+        ],
+        "answer": 2,
+        "feedback": "Compatibility depends on the justified design basis, not on making numbers appear consistent."
+      },
+      "worked": [
+        [
+          "Interface",
+          "Evidence owners",
+          "Open question"
+        ],
+        [
+          "Jacket supply",
+          "Site utility engineer + vessel vendor",
+          "Do supply envelope and vessel rating/duty agree?"
+        ],
+        [
+          "Instrument access",
+          "Layout engineer + maintenance",
+          "Can the instrument be removed in the installed arrangement?"
+        ],
+        [
+          "Transfer connector",
+          "Vendor + operations/cleaning",
+          "Are connection, material and cleaning assumptions compatible?"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Use risk to focus the design review",
+      "objective": "Prioritize design scrutiny using failure mechanisms and evidence rather than a score alone.",
+      "scenes": [
+        {
+          "title": "Start with the mechanism",
+          "labels": [
+            "Design feature fails",
+            "Product quality affected",
+            "Control justified"
+          ],
+          "narration": "Risk informs where the design review needs depth. In our fictional case, a missing mixing protection can permit transfer after loss of agitation, potentially affecting concentration uniformity. Explain that mechanism before assigning a priority. Another issue, such as an inconsistent drawing title, may primarily affect document control. Both require action, but their consequences differ. A risk label without an explanation gives the reviewer little basis for deciding what evidence is enough.",
+          "description": "A design failure leads through a process effect to a quality concern; the control must address that mechanism."
+        },
+        {
+          "title": "Do not let totals hide severity",
+          "labels": [
+            "High-severity concern",
+            "Weak evidence",
+            "Explicit review priority"
+          ],
+          "narration": "A numerical risk score can organize discussion but cannot supply missing knowledge. This lesson uses no universal score threshold. If a serious failure has weak evidence for prevention or detection, keep that uncertainty visible even when an arithmetic total looks small. Review assumptions, operating conditions and dependencies. Do not reduce a risk rating merely because a proposed control appears on the drawing; its effectiveness still needs support and later verification.",
+          "description": "Severity, evidence strength and uncertainty all influence priority; a low score cannot erase an unsupported serious consequence."
+        },
+        {
+          "title": "Trace the proposed control",
+          "labels": [
+            "Loss of agitation",
+            "Transfer inhibition",
+            "Challenge and reset"
+          ],
+          "narration": "For the mixing scenario, the proposed control inhibits transfer when loss of agitation is detected. Review sensor coverage, logic, bypass authority and reset behaviour. Ask whether the sensing arrangement could miss the failure being considered. Link the design response to a planned controlled challenge of the protective function. The teaching diagram shows failure, control and verification as connected steps, not as proof that any specific interlock is already effective.",
+          "description": "Loss of agitation is connected to proposed transfer inhibition and a future challenge; evidence is needed for the whole protective chain."
+        },
+        {
+          "title": "Document residual questions",
+          "labels": [
+            "Assumptions retained",
+            "Specialist owner",
+            "Review trigger"
+          ],
+          "narration": "A useful risk-informed review records what remains uncertain, who will resolve it and what change triggers another review. For example, a later product with different viscosity may invalidate the original mixing assumption. Keep that trigger linked to the requirements and design. Your activity is to compare two design findings and justify the depth of review for each. Do not force every question into a numerical ranking when a reasoned explanation is clearer.",
+          "description": "Residual uncertainty is assigned to an owner and linked to a review trigger, preserving the rationale for future changes."
+        }
+      ],
+      "activity": "Compare a missing transfer interlock with a duplicated drawing title. Explain review priority and required evidence without inventing scores.",
+      "model": "The interlock concern has a potential quality mechanism and needs process/control expertise and verification planning. The title issue needs document reconciliation and impact review; determine whether it also hides a configuration error.",
+      "quiz": {
+        "question": "A proposed protective control is drawn but its detection coverage is unclear. What is justified?",
+        "options": [
+          "Keep the coverage question open and request supporting evidence",
+          "Reduce the residual risk solely because the control is drawn",
+          "Remove the failure from the assessment because action is assigned"
+        ],
+        "answer": 0,
+        "feedback": "An assigned or proposed action is not demonstrated control effectiveness."
+      },
+      "worked": [
+        [
+          "Finding",
+          "Reasoned priority",
+          "Evidence/action"
+        ],
+        [
+          "Transfer after loss of agitation",
+          "Potential non-uniform product; important uncertainty",
+          "Assess sensing/logic/bypass and plan challenge"
+        ],
+        [
+          "Drawing title duplicated",
+          "Document ambiguity; assess configuration impact",
+          "Reconcile identifiers and confirm affected equipment"
+        ],
+        [
+          "New viscosity range",
+          "Could change prior mixing assumptions",
+          "Review requirement, design and verification scope"
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Evaluate supplier evidence without transferring accountability",
+      "objective": "Assess vendor documentation for relevance, quality and configuration applicability.",
+      "scenes": [
+        {
+          "title": "Evidence must fit the question",
+          "labels": [
+            "Specific configuration",
+            "Applicable conditions",
+            "Traceable record"
+          ],
+          "narration": "A supplier brochure, design calculation and executed test record are different evidence types. Start with the question you need to answer. A generic brochure may describe a product family without identifying the purchased configuration. A calculation may rely on conditions that do not apply to our process. An executed record needs traceable results and a clear method. More pages do not necessarily provide more relevant evidence.",
+          "description": "Evidence relevance depends on configuration, conditions and traceability, rather than document volume."
+        },
+        {
+          "title": "Review supplier protocols",
+          "labels": [
+            "Site suitability review",
+            "Internal procedures",
+            "Supplement where needed"
+          ],
+          "narration": "Where third-party validation protocols are used, site personnel should check their suitability and alignment with internal procedures before approval. In our example, the vendor protocol omits the required sensor-failure challenge. Record the gap and arrange a justified supplement rather than accepting a complete stamp. D Q can identify this future verification need while supplier documentation is still being developed. Site responsibility does not disappear because a specialist supplier prepared the template.",
+          "description": "Supplier protocol review identifies suitability gaps; a site-reviewed supplement can address missing verification needs."
+        },
+        {
+          "title": "FAT is not DQ approval",
+          "labels": [
+            "Design review question",
+            "Factory testing evidence",
+            "Transport and installation impact"
+          ],
+          "narration": "Factory acceptance testing can provide useful evidence, but it is not a replacement label for D Q. Any planned reuse of appropriate factory tests needs a documented justification that considers the applicable configuration and whether transport or installation can affect the function. Some checks may still be needed on site. For example, a factory record cannot demonstrate that the site’s final utility connection is correct. Keep the evidence claim within what was actually examined.",
+          "description": "Design review and factory testing are distinct; justified reuse of factory evidence must consider transport, installation and configuration."
+        },
+        {
+          "title": "A firmware substitution",
+          "labels": [
+            "Factory version differs",
+            "Review affected functions",
+            "Update verification scope"
+          ],
+          "narration": "The factory report refers to controller version one, while the supplied design proposes version two. Do not automatically accept everything or discard everything. Identify what changed, assess effects on relevant functions and decide which evidence remains applicable. Document the rationale and additional work. This focused review is more defensible than deciding from the version number alone. The same reasoning applies to substituted instruments, valves and software configurations.",
+          "description": "A configuration difference triggers a focused applicability assessment and revised verification scope, not automatic blanket acceptance or rejection."
+        }
+      ],
+      "activity": "Review a supplier report that uses a different controller version and omits a fault challenge. Write two distinct findings.",
+      "model": "One finding addresses configuration applicability; the other addresses protocol coverage. Request change information, assess affected functions and specify the missing site-reviewed challenge or justified evidence.",
+      "quiz": {
+        "question": "Factory results concern a different controller version. Which approach is defensible?",
+        "options": [
+          "Accept them because both versions have the same screen",
+          "Reject all evidence without checking what changed",
+          "Assess changes and the applicability of affected results"
+        ],
+        "answer": 2,
+        "feedback": "Review evidence against the relevant configuration and function."
+      },
+      "worked": [
+        [
+          "Supplier item",
+          "What it can support",
+          "What remains to assess"
+        ],
+        [
+          "Brochure",
+          "General capability information",
+          "Purchased configuration and justified process fit"
+        ],
+        [
+          "Calculation",
+          "Defined design argument",
+          "Assumptions, inputs and method applicability"
+        ],
+        [
+          "Factory record",
+          "Observed factory test result",
+          "Configuration, method and transport/installation impact"
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Handle design findings and changes",
+      "objective": "Keep unresolved design gaps separate from authorized progression decisions.",
+      "scenes": [
+        {
+          "title": "A finding needs a clear basis",
+          "labels": [
+            "Requirement reference",
+            "Observed design gap",
+            "Action and owner"
+          ],
+          "narration": "A useful finding identifies the requirement, the specific design evidence and the gap. For example: drawing revision B contains a cleaning pocket that has no reviewed rationale against the cleaning concept. Assign an owner and define what evidence would support closure. Avoid replacing the finding with a vague status such as vendor to confirm. A due date helps manage work, but it does not establish that the design is suitable.",
+          "description": "A finding connects an identified requirement to a specific evidence gap and an accountable action."
+        },
+        {
+          "title": "Different outcomes are possible",
+          "labels": [
+            "Evidence adequate",
+            "Open design finding",
+            "Requirement change proposed"
+          ],
+          "narration": "Our teaching review uses three distinct outcomes: design evidence adequate, an open design finding, or a proposed requirement change. These are course labels, not mandatory regulatory terminology. If the vendor cannot meet a requirement, assess options with the appropriate process and quality expertise. Do not close the gap by deleting the requirement without impact review. A proposed change remains a proposal until the applicable approval process accepts it.",
+          "description": "The review separates adequate evidence, unresolved findings and proposed changes so that an unapproved change is not disguised as closure."
+        },
+        {
+          "title": "Conditional next activity",
+          "labels": [
+            "Defined next activity",
+            "No significant impact",
+            "Authorized decision"
+          ],
+          "narration": "Conditional progression concerns a particular next qualification activity, not unrestricted production. In the fictional case, a missing product-contact gasket basis prevents a final materials conclusion. An unrelated drawing review might continue, but that does not authorize manufacturing. The responsible personnel need a documented impact assessment and an authorized decision for the proposed stage. Do not assume that the training author, supplier or learner can grant a site’s approval.",
+          "description": "A specific next activity is assessed for impact and authorization; conditional progression is not routine-use release."
+        },
+        {
+          "title": "A controlled revision trail",
+          "labels": [
+            "Old baseline retained",
+            "Impact assessed",
+            "Affected conclusions revised"
+          ],
+          "narration": "When a gasket specification changes, retain the earlier baseline and record why the new design was selected. Revisit contact compatibility, cleaning assumptions and verification plans as appropriate. Update affected conclusions through the quality system. The record should allow another reviewer to reconstruct the decision without relying on memory. Your activity is to write an action closure that references the revised evidence and preserves any outstanding later tests.",
+          "description": "Controlled change links old and new baselines through impact assessment and revised conclusions, preserving the decision history."
+        }
+      ],
+      "activity": "Write a closure entry for a revised gasket and decide whether the next proposed activity can proceed.",
+      "model": "Identify original finding, new material/evidence revision, suitability rationale, reviewer and later identity/cleaning checks. Assess the specific next activity; do not equate conditional progression with routine-use approval.",
+      "quiz": {
+        "question": "An unresolved gasket basis has no impact on a proposed desk review of labels. What is the defensible statement?",
+        "options": [
+          "The vessel can now enter routine manufacturing",
+          "That specific activity may proceed if impact is documented and authorized",
+          "The materials finding is closed because another activity can proceed"
+        ],
+        "answer": 1,
+        "feedback": "Progression is activity-specific and does not close the unrelated design finding."
+      },
+      "worked": [
+        [
+          "Field",
+          "Filled finding record"
+        ],
+        [
+          "ID / basis",
+          "F-04; gasket suitability against contact-material requirement"
+        ],
+        [
+          "Evidence gap",
+          "Material specification missing from supplier list revision B"
+        ],
+        [
+          "Action",
+          "Supplier identifies material; materials/cleaning specialists review evidence"
+        ],
+        [
+          "Closure condition",
+          "Reviewed suitable basis and controlled revised specification"
+        ],
+        [
+          "Not implied",
+          "No installed-identity check or cleaning study has yet passed"
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Capstone: defend the DQ handover",
+      "objective": "Make an evidence-based design decision and carry open verification needs into IQ.",
+      "scenes": [
+        {
+          "title": "Counted does not mean suitable",
+          "labels": [
+            "8 of 10 rows supported",
+            "2 important gaps",
+            "80% is not approval"
+          ],
+          "narration": "Our capstone has ten design requirements. Eight have adequate design evidence; two remain open. The arithmetic coverage is eighty percent, but there is no eighty-percent D Q acceptance threshold. The first gap concerns an unspecified contact gasket. The second concerns an unproven response to a shared sensor failure. The diagram deliberately puts the coverage bar beside the gaps. A high completion percentage does not remove the importance of what is missing.",
+          "description": "An 80% coverage bar is shown beside two consequential gaps; the percentage is a progress measure, not a release rule."
+        },
+        {
+          "title": "Decide for a specific scope",
+          "labels": [
+            "Routine use: not justified",
+            "Affected design: unresolved",
+            "Limited work: assess impact"
+          ],
+          "narration": "The supported conclusion is that this package does not justify routine use or a complete favourable design conclusion for the affected scope. Some limited work may continue only through the applicable documented assessment and authorization. Ask what activity is proposed and whether the gaps could affect it. Do not approve a blank category called conditional release. Name the activity, restrictions, responsible decision-maker and conditions that must be met first.",
+          "description": "Decision scope separates unsupported routine use from any specifically assessed limited next activity."
+        },
+        {
+          "title": "Prepare the IQ handover",
+          "labels": [
+            "Accepted design baseline",
+            "Open-action register",
+            "Planned verification links"
+          ],
+          "narration": "Prepare a handover containing the accepted design baseline, reviewed requirements, risk/control rationale, open-action register and planned verification links. Installation qualification will need the correct drawings, specifications and component identities. Unresolved design choices should not disappear into a signature page. Identify which installation activities depend on closing each gap. This creates a practical connection to Module Four rather than implying that the next stage starts simply because this course has ended.",
+          "description": "The DQ handover carries baseline, findings and verification links into IQ; dependencies determine which activities can start."
+        },
+        {
+          "title": "Defend the decision",
+          "labels": [
+            "Evidence and limitations",
+            "Actions and ownership",
+            "Authorized next step"
+          ],
+          "narration": "Your final task is to write a short decision memo. State what was reviewed, what the evidence supports, which important questions remain and what action is required. Explain why the completion percentage does not determine suitability. Compare your memo with the worked answer, then take the separate application assessment. Course completion is self-study evidence only. It does not replace supervised experience, an independent technical review or authorization to perform regulated work.",
+          "description": "A decision memo combines evidence, limitations and owned actions; the next step depends on appropriate authorization, not a quiz score."
+        }
+      ],
+      "activity": "Write a 150–250 word DQ decision memo for the eight-supported/two-open capstone. Distinguish routine use from one proposed limited next activity.",
+      "model": "Do not accept a complete favourable DQ conclusion while the gasket and sensor-response gaps are unresolved. Record scope and baseline, assign material/control actions, assess the specific proposed activity and keep IQ/OQ dependencies explicit. Eight of ten is 80% coverage, not a GMP acceptance criterion.",
+      "quiz": {
+        "question": "Eight of ten requirements have evidence, with two important gaps. What does 80% show?",
+        "options": [
+          "Administrative coverage, not design suitability or release",
+          "A universal DQ pass threshold has been achieved",
+          "The remaining gaps can be closed after routine use starts"
+        ],
+        "answer": 0,
+        "feedback": "Coverage does not establish suitability when important gaps remain."
+      },
+      "worked": [
+        [
+          "Decision memo item",
+          "Worked teaching answer"
+        ],
+        [
+          "Scope",
+          "V-201 proposed design, baseline URS rev 3 / drawing B / risk record 2"
+        ],
+        [
+          "Finding",
+          "8/10 rows supported; gasket basis and sensor-failure response unresolved"
+        ],
+        [
+          "Conclusion",
+          "Complete favourable DQ conclusion and routine-use readiness not supported"
+        ],
+        [
+          "Next activity",
+          "Assess any limited activity separately; document impact and authorization"
+        ],
+        [
+          "Handover",
+          "Carry open actions and affected IQ/OQ dependencies with controlled documents"
+        ]
+      ]
+    }
+  ]
+}
