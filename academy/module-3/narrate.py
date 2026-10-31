@@ -23,14 +23,7 @@ session.run=run_with_float_speed
 k=Kokoro.from_session(session,str(base/'voices-v1.0.bin'))
 def stamp(t):
  n=round(t*1000);return f'{n//3600000:02}:{n//60000%60:02}:{n//1000%60:02}.{n%1000:03}'
-def chunks(text):
- for sentence in re.split(r'(?<=[.!?])\s+',text):
-  words=sentence.split()
-  while words:
-   n=len(words)
-   while n>1 and (len(' '.join(words[:n]))>76 or len(textwrap.wrap(' '.join(words[:n]),42))>2):n-=1
-   if 0<len(words)-n<3 and n>4:n-=3-(len(words)-n)
-   yield ' '.join(words[:n]);words=words[n:]
+from caption_chunks import chunks
 manifest=[]
 for l in D['lessons']:
  i=l['id'];audio=[];cues=[];scenes=[];elapsed=0;frames=[]
@@ -40,9 +33,11 @@ for l in D['lessons']:
    spoken=speech(phrase);wav=cache/(hashlib.sha256(spoken.encode()).hexdigest()+'.wav')
    if wav.exists():a,sr=sf.read(wav,dtype='float32')
    else:a,sr=k.create(spoken,voice='af_heart',speed=.92,lang='en-us');sf.write(wav,a,sr)
-   dur=len(a)/sr;required=max(1.3,len(phrase)/17)
+   dur=len(a)/sr;required=max(2.0,len(phrase)/17)
    if dur<required:
     slow=cache/f'{i}-{j}-{n}-slow.wav';subprocess.run(['ffmpeg','-y','-loglevel','error','-i',str(wav),'-af',f'atempo={max(.5,dur/required)}',str(slow)],check=True);a,sr=sf.read(slow,dtype='float32');dur=len(a)/sr
+   if dur<required:
+    a=np.pad(a,(0,max(0,math.ceil((required-dur)*sr))));dur=len(a)/sr
    cues.append(dict(start=round(elapsed,3),end=round(elapsed+dur,3),text=phrase,spoken=spoken,scene=j+1));audio.extend([a,np.zeros(round(sr*.12),dtype='float32')]);elapsed+=dur+.12
   audio.append(np.zeros(round(sr*.5),dtype='float32'));elapsed+=.5
   scenes.append(dict(start=round(start,3),end=round(elapsed,3),title=s['title']));frames.append(f"file '{img}'\nduration {elapsed-start:.6f}\n")
@@ -55,4 +50,4 @@ for l in D['lessons']:
 provenance={'voice':'af_heart','runtime_version':importlib.metadata.version('kokoro-onnx'),'files':{p.name:{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [base/'kokoro-v1.0.onnx',base/'voices-v1.0.bin']},'source':'https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.1','scope':'Observed downloaded toolchain hashes, not an independent upstream rights audit.'}
 (ROOT/'academy/review/module-3/voice-provenance.json').write_text(json.dumps(provenance,indent=2))
 print('ALL_COMPLETE',flush=True)
-(ASSETS/'media-source-sha.json').write_text(json.dumps({name:hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest() for name in ['content.json','render.py','narrate.py','caption_display.py']},indent=2))
+(ASSETS/'media-source-sha.json').write_text(json.dumps({name:hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest() for name in ['content.json','render.py','narrate.py','caption_display.py','caption_chunks.py']},indent=2))

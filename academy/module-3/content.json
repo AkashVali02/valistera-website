@@ -1,6 +1,6 @@
 {
   "title": "Design Qualification (DQ)",
-  "edition": "M3-20261030-R1",
+  "edition": "M3-20261031-R2",
   "lessons": [
     {
       "id": 1,
@@ -187,7 +187,7 @@
             "Transmitter: ±0.2 °C",
             "Display: ±0.2 °C"
           ],
-          "narration": "The supplier lists three component error bounds of plus or minus zero point two degrees Celsius each: sensor, transmitter and display. If they can all act in the same direction, the simple worst-case sum is zero point six degrees Celsius. That exceeds the worked requirement of zero point five. Calling each component accurate would miss the chain. This conservative teaching calculation is not a complete uncertainty budget or an automatic rejection of every possible design.",
+          "narration": "The supplier lists three component error bounds of plus or minus zero point two degrees Celsius each: sensor, transmitter and display. If they can all act in the same direction, the simple worst-case sum is zero point six degrees Celsius. That exceeds the worked requirement of zero point five. Calling each component accurate would miss the chain. This conservative teaching calculation is not a complete uncertainty budget or an automatic rejection of every possible design. Other combination methods exist, but their assumptions, correlations and intended decision must be justified by appropriate metrology expertise.",
           "description": "Three component bounds add conservatively to ±0.6 °C; the chain does not yet support the ±0.5 °C teaching requirement."
         },
         {
@@ -363,7 +363,7 @@
             "Relevant records",
             "System-specific assessment"
           ],
-          "narration": "If the control system creates records used for G M P decisions, identify those records and the applicable computerized-system requirements. Consider who can change a setpoint, how changes are controlled and how necessary records remain available. This module flags the interface; it does not complete computerized-system validation or certify Part Eleven compliance. A password screen by itself is not evidence of adequate access control, data integrity or record retention.",
+          "narration": "If the control system creates records used for G M P decisions, identify those records and the applicable computerized-system requirements. Consider who can change a setpoint, how changes are controlled and how necessary records remain available. The European context is E U G M P Annex Eleven. Where relevant, also assess the applicability of F D A twenty one C F R Part Eleven. This module flags the interface; it does not complete computerized-system validation or demonstrate compliance with either framework. A password screen by itself is not evidence of adequate access control, data integrity or record retention.",
           "description": "Settings, users and decision-relevant records connect to a separate computerized-system assessment; a password alone is not sufficient evidence."
         },
         {
@@ -691,7 +691,7 @@
             "No significant impact",
             "Authorized decision"
           ],
-          "narration": "Conditional progression concerns a particular next qualification activity, not unrestricted production. In the fictional case, a missing product-contact gasket basis prevents a final materials conclusion. An unrelated drawing review might continue, but that does not authorize manufacturing. The responsible personnel need a documented impact assessment and an authorized decision for the proposed stage. Do not assume that the training author, supplier or learner can grant a site’s approval.",
+          "narration": "Conditional progression concerns a particular next qualification activity, not unrestricted production. In the fictional case, a missing product-contact gasket basis prevents a final materials conclusion. For example, a proposed transition to I Q may be limited to equipment identification checks unaffected by the gasket gap. This requires a documented assessment of no significant impact on that next activity and authorization by responsible personnel. Gasket-dependent checks remain on hold. Preparing documents alone is not progression to a qualification stage, and neither activity authorizes manufacturing. The responsible personnel need a documented impact assessment and an authorized decision for the proposed stage. Do not assume that the training author, supplier or learner can grant a site’s approval.",
           "description": "A specific next activity is assessed for impact and authorization; conditional progression is not routine-use release."
         },
         {
@@ -708,10 +708,10 @@
       "activity": "Write a closure entry for a revised gasket and decide whether the next proposed activity can proceed.",
       "model": "Identify original finding, new material/evidence revision, suitability rationale, reviewer and later identity/cleaning checks. Assess the specific next activity; do not equate conditional progression with routine-use approval.",
       "quiz": {
-        "question": "An unresolved gasket basis has no impact on a proposed desk review of labels. What is the defensible statement?",
+        "question": "An open gasket finding is assessed as having no significant impact on proposed IQ identification checks. What supports conditional progression?",
         "options": [
           "The vessel can now enter routine manufacturing",
-          "That specific activity may proceed if impact is documented and authorized",
+          "The defined IQ scope may proceed after documented assessment and authorization",
           "The materials finding is closed because another activity can proceed"
         ],
         "answer": 1,

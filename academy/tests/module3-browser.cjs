@@ -105,6 +105,11 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
  await page.locator('form button').click();check('Unanswered assessment not scored',(await page.locator('.quiz-result').innerText())==='');
  const fields=page.locator('fieldset');for(let i=0;i<20;i++){const f=fields.nth(i);const a=await f.getAttribute('data-answer');await f.locator(`input[value="${a}"]`).check();}
  await page.locator('form button').click();check('Full assessment score',(await page.locator('.quiz-result').innerText()).startsWith('20/20'));
+ for(const score of [16,17]){
+  for(let i=0;i<20;i++){const f=fields.nth(i),a=Number(await f.getAttribute('data-answer'));await f.locator(`input[value="${i<score?a:(a+1)%3}"]`).check();}
+  await page.locator('form button').click();const feedback=await page.locator('.quiz-result').innerText();
+  check('85 percent practice boundary '+score,feedback.startsWith(`${score}/20`)&&feedback.includes('Practice target reached.')===(score>=17));
+ }
  for(let i=0;i<20;i++){const f=fields.nth(i);const a=Number(await f.getAttribute('data-answer'));await f.locator(`input[value="${(a+1)%3}"]`).check();}
  await page.locator('form button').click();check('Wrong assessment score',(await page.locator('.quiz-result').innerText()).startsWith('0/20'));
  await page.goto(BASE+'/academy-module-3-workbook.html');await page.locator('#work-1').fill('Training note');await page.reload();check('Workbook text not persisted',(await page.locator('#work-1').inputValue())==='');

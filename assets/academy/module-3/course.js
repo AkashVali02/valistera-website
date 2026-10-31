@@ -16,7 +16,7 @@ function refresh(){
  const n=new Set(state.studied).size,p=new Set(state.passed).size;
  const el=document.getElementById('progress-text');if(el)el.textContent=`${n} of 10 lessons marked studied · ${p} of 10 checks passed`;
  const bar=document.getElementById('progress-bar');if(bar)bar.value=n;
- const a=document.getElementById('assessment-status');if(a)a.textContent=state.score===null?'Final assessment not completed.':`Latest final score: ${state.score}/20. ${state.score>=16?'Practice target reached.':'Review explanations and retry.'}`;
+ const a=document.getElementById('assessment-status');if(a)a.textContent=state.score===null?'Final assessment not completed.':`Latest final score: ${state.score}/20. ${state.score>=17?'Practice target reached.':'Review explanations and retry.'}`;
  const st=document.getElementById('studied-status');if(st)st.textContent=state.studied.includes(Number(document.body.dataset.lesson))?'Marked studied. This is a self-study indicator.':'';
 }
 saveBox.addEventListener('change',()=>{state.enabled=saveBox.checked;if(state.enabled){if(save())status.textContent='Device saving enabled. Workbook answers are not saved.';}else{state={enabled:false,studied:[],passed:[],score:null};refresh();try{localStorage.removeItem(KEY);status.textContent='Device saving disabled; saved Module 3 data removed and this session’s progress reset.';}catch(_){status.textContent='Could not remove stored data. Use browser site-data settings.';}}});
@@ -61,7 +61,7 @@ for(const form of document.querySelectorAll('form.quiz')){form.querySelector('bu
  fields.forEach(field=>{const chosen=Number(field.querySelector('input:checked').value),answer=Number(field.dataset.answer);const right=chosen===answer;if(right)correct++;
  field.querySelector('.feedback').textContent=(right?'Correct. ':'Review this answer. ')+field.dataset.feedback;
  });
- const result=form.querySelector('.quiz-result');result.textContent=`${correct}/${fields.length} correct. `+(correct/fields.length>=.8?'Practice target reached.':'Review the explanations and try again.');
+ const result=form.querySelector('.quiz-result');result.textContent=`${correct}/${fields.length} correct. `+(correct/fields.length>=(form.dataset.final ? .85 : 1)?'Practice target reached.':'Review the explanations and try again.');
  if(form.dataset.final){state.score=correct;result.focus();}
  else if(correct===fields.length){const id=Number(form.dataset.lesson);if(!state.passed.includes(id))state.passed.push(id);}
  save();refresh();

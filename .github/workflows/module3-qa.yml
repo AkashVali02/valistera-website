@@ -33,10 +33,8 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: /tmp/module3-tts
-          key: module3-kokoro-v1-${{ hashFiles('academy/module-3/content.json', 'academy/module-3/caption_display.py') }}
+          key: module3-kokoro-v1-${{ hashFiles('academy/module-3/content.json', 'academy/module-3/caption_display.py', 'academy/module-3/caption_chunks.py') }}
           restore-keys: module3-kokoro-v1-
-      - name: Recover revised illustrations without resynthesizing narration
-        run: python3 academy/module-3/refresh-visuals.py
       - name: Build media when missing
         run: |
           if ! python3 academy/module-3/media-current.py; then
@@ -49,6 +47,7 @@ jobs:
         run: |
           python3 academy/tests/module3-content.py
           python3 academy/tests/module3-media.py
+          python3 academy/tests/module3-frames.py
           python3 academy/module-3/build.py
           node academy/module-3/stamp-build.cjs
           node validate-site.cjs

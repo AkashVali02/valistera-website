@@ -9,5 +9,5 @@ const hashes={};
 function add(p){hashes[p]=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');}
 files.forEach(add);
 for(const f of fs.readdirSync(path.join(root,'assets/academy/module-3'))){if(/\.(vtt|txt|js|css|json|mp4|png|csv)$/.test(f))add('assets/academy/module-3/'+f);}
-fs.writeFileSync(path.join(root,'assets/academy/module-3/review/review-build.json'),JSON.stringify({source_commit:sha,edition:'M3-20261030-R1',identity_source:process.env.WORKERS_CI_COMMIT_SHA?'WORKERS_CI_COMMIT_SHA':'local git HEAD (local build)',sha256:hashes},null,2)+'\n');
+fs.writeFileSync(path.join(root,'assets/academy/module-3/review/review-build.json'),JSON.stringify({source_commit:sha,edition:'M3-20261031-R2',identity_source:process.env.WORKERS_CI_COMMIT_SHA?'WORKERS_CI_COMMIT_SHA':'local git HEAD (local build)',sha256:hashes},null,2)+'\n');
 console.log('Stamped '+files.length+' Module 3 pages: '+sha);
