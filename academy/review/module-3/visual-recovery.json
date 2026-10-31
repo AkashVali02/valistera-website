@@ -1,0 +1,16 @@
+[
+  {
+    "lesson": 4,
+    "audio_hash_before": "SHA256=c2c322cc1512387b574d7b9f8131a01a94d7be432d1e1098766686fe28bcfc39",
+    "audio_hash_after": "SHA256=c2c322cc1512387b574d7b9f8131a01a94d7be432d1e1098766686fe28bcfc39",
+    "audio_unchanged": true,
+    "timing_and_captions_unchanged": true
+  },
+  {
+    "lesson": 6,
+    "audio_hash_before": "SHA256=30691c6a375d0659081d3fb1ad4a712f79243b287a529bf97ee599d2ca132630",
+    "audio_hash_after": "SHA256=30691c6a375d0659081d3fb1ad4a712f79243b287a529bf97ee599d2ca132630",
+    "audio_unchanged": true,
+    "timing_and_captions_unchanged": true
+  }
+]

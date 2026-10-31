@@ -1,0 +1,191 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.923
+A temperature sensor feeds both the
+controller
+
+2
+00:00:03.043 --> 00:00:05.043
+and the high-temperature alarm.
+
+3
+00:00:05.163 --> 00:00:08.619
+The diagram branches one signal into two
+functions.
+
+4
+00:00:08.739 --> 00:00:12.643
+Two boxes on the drawing do not make two
+independent measurements.
+
+5
+00:00:12.763 --> 00:00:14.763
+If the sensor fails low,
+
+6
+00:00:14.883 --> 00:00:18.104
+both functions may receive the same
+misleading value.
+
+7
+00:00:18.224 --> 00:00:22.401
+Whether that matters depends on the
+process risk and other protections.
+
+8
+00:00:22.521 --> 00:00:25.401
+State the failure mechanism before
+deciding
+
+9
+00:00:25.521 --> 00:00:30.043
+whether an independent sensor or another
+protective measure is necessary.
+
+10
+00:00:30.663 --> 00:00:34.994
+The functional specification should
+describe the response to a detected
+
+11
+00:00:35.114 --> 00:00:38.143
+sensor disconnect, including control
+behaviour
+
+12
+00:00:38.263 --> 00:00:41.933
+and operator information appropriate to
+the intended use.
+
+13
+00:00:42.053 --> 00:00:45.103
+Our teaching example proposes inhibiting
+heating
+
+14
+00:00:45.223 --> 00:00:48.573
+and generating an identifiable alarm; it
+is
+
+15
+00:00:48.693 --> 00:00:51.210
+not a universal safe-state instruction.
+
+16
+00:00:51.330 --> 00:00:53.762
+Review whether that response introduces
+
+17
+00:00:53.882 --> 00:00:56.463
+another hazard for the particular process.
+
+18
+00:00:56.583 --> 00:00:59.271
+Distinguish an alarm that merely informs
+
+19
+00:00:59.391 --> 00:01:03.615
+an operator from an interlock that changes
+operation automatically.
+
+20
+00:01:04.235 --> 00:01:08.736
+If the control system creates records used
+for GMP decisions,
+
+21
+00:01:08.856 --> 00:01:13.571
+identify those records and the applicable
+computerized-system requirements.
+
+22
+00:01:13.691 --> 00:01:17.360
+Consider who can change a setpoint, how
+changes are controlled
+
+23
+00:01:17.480 --> 00:01:20.275
+and how necessary records remain
+available.
+
+24
+00:01:20.395 --> 00:01:24.235
+The European context is EU GMP Annex 11.
+
+25
+00:01:24.355 --> 00:01:30.691
+Where relevant, also assess the
+applicability of FDA 21 CFR Part 11.
+
+26
+00:01:30.811 --> 00:01:33.563
+This module flags the interface; it does
+
+27
+00:01:33.683 --> 00:01:36.840
+not complete computerized-system
+validation
+
+28
+00:01:36.960 --> 00:01:39.784
+or demonstrate compliance with either
+framework.
+
+29
+00:01:39.904 --> 00:01:41.973
+A password screen by itself is
+
+30
+00:01:42.093 --> 00:01:44.696
+not evidence of adequate access control,
+
+31
+00:01:44.816 --> 00:01:47.419
+data integrity or record retention.
+
+32
+00:01:48.039 --> 00:01:51.217
+Create a test intention for normal
+operation,
+
+33
+00:01:51.337 --> 00:01:53.599
+the identified fault and recovery.
+
+34
+00:01:53.719 --> 00:01:55.719
+For our sensor scenario,
+
+35
+00:01:55.839 --> 00:01:59.337
+a later test should challenge the fault in
+a controlled way
+
+36
+00:01:59.457 --> 00:02:03.276
+and verify the specified response and
+operator indication.
+
+37
+00:02:03.396 --> 00:02:08.559
+Also consider restoration: an uncontrolled
+restart may be unacceptable.
+
+38
+00:02:08.679 --> 00:02:11.047
+During DQ, check that the design
+
+39
+00:02:11.167 --> 00:02:13.855
+and test method make the challenge
+feasible.
+
+40
+00:02:13.975 --> 00:02:16.577
+The actual execution, safety controls
+
+41
+00:02:16.697 --> 00:02:20.431
+and acceptance decision belong to approved
+site procedures.

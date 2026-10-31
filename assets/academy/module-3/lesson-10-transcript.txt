@@ -1,0 +1,15 @@
+ValiStera Academy — Module 3 / Lesson 3.10
+Capstone: defend the DQ handover
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Counted does not mean suitable
+Our capstone has ten design requirements. Eight have adequate design evidence; two remain open. The arithmetic coverage is 80%, but there is no eighty-percent DQ acceptance threshold. The first gap concerns an unspecified contact gasket. The second concerns an unproven response to a shared sensor failure. The diagram deliberately puts the coverage bar beside the gaps. A high completion percentage does not remove the importance of what is missing.
+
+Decide for a specific scope
+The supported conclusion is that this package does not justify routine use or a complete favourable design conclusion for the affected scope. Some limited work may continue only through the applicable documented assessment and authorization. Ask what activity is proposed and whether the gaps could affect it. Do not approve a blank category called conditional release. Name the activity, restrictions, responsible decision-maker and conditions that must be met first.
+
+Prepare the IQ handover
+Prepare a handover containing the accepted design baseline, reviewed requirements, risk/control rationale, open-action register and planned verification links. Installation qualification will need the correct drawings, specifications and component identities. Unresolved design choices should not disappear into a signature page. Identify which installation activities depend on closing each gap. This creates a practical connection to Module 4 rather than implying that the next stage starts simply because this course has ended.
+
+Defend the decision
+Your final task is to write a short decision memo. State what was reviewed, what the evidence supports, which important questions remain and what action is required. Explain why the completion percentage does not determine suitability. Compare your memo with the worked answer, then take the separate application assessment. Course completion is self-study evidence only. It does not replace supervised experience, an independent technical review or authorization to perform regulated work.

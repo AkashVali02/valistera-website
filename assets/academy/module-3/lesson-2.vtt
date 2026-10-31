@@ -1,0 +1,170 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.117
+For the fictional review, use a user
+requirements specification,
+
+2
+00:00:04.237 --> 00:00:07.693
+or URS, at revision three, drawing
+revision B
+
+3
+00:00:07.813 --> 00:00:09.813
+and risk record revision two.
+
+4
+00:00:09.933 --> 00:00:12.664
+These references are teaching
+placeholders.
+
+5
+00:00:12.784 --> 00:00:17.093
+A baseline is the defined set of
+information used for the review.
+
+6
+00:00:17.213 --> 00:00:21.373
+If one reviewer reads revision A while
+another reads revision B,
+
+7
+00:00:21.493 --> 00:00:24.258
+apparent agreement may hide a different
+design.
+
+8
+00:00:24.378 --> 00:00:26.618
+Record the document identifiers,
+
+9
+00:00:26.738 --> 00:00:29.319
+revisions and approval status together.
+
+10
+00:00:29.939 --> 00:00:33.843
+Suppose the process team has not defined
+the batch-volume range.
+
+11
+00:00:33.963 --> 00:00:36.481
+The supplier offers a vessel capacity,
+
+12
+00:00:36.601 --> 00:00:40.419
+but a catalogue capacity is not an agreed
+process need.
+
+13
+00:00:40.539 --> 00:00:42.907
+Raise a question to the process owner
+
+14
+00:00:43.027 --> 00:00:47.550
+and record the consequence for impeller
+location and mixing verification.
+
+15
+00:00:47.670 --> 00:00:50.977
+The design review may examine unrelated
+matters,
+
+16
+00:00:51.097 --> 00:00:55.726
+but it cannot conclude that mixing is
+suitable across an unspecified range.
+
+17
+00:00:55.846 --> 00:00:57.958
+Unknown inputs should stay visible.
+
+18
+00:00:58.578 --> 00:01:01.402
+An arrangement drawing shows physical
+placement.
+
+19
+00:01:01.522 --> 00:01:04.039
+A piping and instrumentation diagram
+
+20
+00:01:04.159 --> 00:01:06.630
+shows process connections and instruments.
+
+21
+00:01:06.750 --> 00:01:11.166
+A functional specification describes
+intended control behaviour.
+
+22
+00:01:11.286 --> 00:01:15.318
+Our teaching package also includes
+material specifications,
+
+23
+00:01:15.438 --> 00:01:18.339
+a cleaning concept and an interface
+register.
+
+24
+00:01:18.459 --> 00:01:20.998
+These documents answer different
+questions.
+
+25
+00:01:21.118 --> 00:01:24.019
+A drawing label such as temperature
+control does
+
+26
+00:01:24.139 --> 00:01:26.139
+not describe alarm delays,
+
+27
+00:01:26.259 --> 00:01:29.480
+sensor failure responses or operator
+permissions.
+
+28
+00:01:29.600 --> 00:01:32.777
+Request the document that actually
+supports the claim.
+
+29
+00:01:33.397 --> 00:01:38.197
+During review, the supplier issues
+revision C with a different outlet valve.
+
+30
+00:01:38.317 --> 00:01:42.199
+Do not silently replace the drawing and
+keep the old signatures.
+
+31
+00:01:42.319 --> 00:01:45.605
+Compare the change, identify affected
+requirements
+
+32
+00:01:45.725 --> 00:01:48.391
+and risks, and obtain the appropriate
+review.
+
+33
+00:01:48.511 --> 00:01:51.114
+Record which conclusions remain applicable
+
+34
+00:01:51.234 --> 00:01:53.234
+and which need reassessment.
+
+35
+00:01:53.354 --> 00:01:56.533
+The goal is not to restart every check
+automatically,
+
+36
+00:01:56.653 --> 00:02:01.367
+but to prevent an unreviewed design from
+inheriting an earlier conclusion.

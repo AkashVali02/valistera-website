@@ -1,0 +1,184 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.115
+Risk informs where the design review needs
+depth.
+
+2
+00:00:03.235 --> 00:00:06.179
+In our fictional case, a missing mixing
+protection
+
+3
+00:00:06.299 --> 00:00:09.392
+can permit transfer after loss of
+agitation,
+
+4
+00:00:09.512 --> 00:00:12.541
+potentially affecting concentration
+uniformity.
+
+5
+00:00:12.661 --> 00:00:16.011
+Explain that mechanism before assigning a
+priority.
+
+6
+00:00:16.131 --> 00:00:19.437
+Another issue, such as an inconsistent
+drawing title,
+
+7
+00:00:19.557 --> 00:00:22.075
+may primarily affect document control.
+
+8
+00:00:22.195 --> 00:00:25.501
+Both require action, but their
+consequences differ.
+
+9
+00:00:25.621 --> 00:00:29.099
+A risk label without an explanation gives
+the reviewer
+
+10
+00:00:29.219 --> 00:00:32.397
+little basis for deciding what evidence is
+enough.
+
+11
+00:00:33.017 --> 00:00:36.089
+A numerical risk score can organize
+discussion
+
+12
+00:00:36.209 --> 00:00:38.327
+but cannot supply missing knowledge.
+
+13
+00:00:38.447 --> 00:00:41.796
+This lesson uses no universal score
+threshold.
+
+14
+00:00:41.916 --> 00:00:46.162
+If a serious failure has weak evidence for
+prevention or detection,
+
+15
+00:00:46.282 --> 00:00:48.543
+keep that uncertainty visible even
+
+16
+00:00:48.663 --> 00:00:50.839
+when an arithmetic total looks small.
+
+17
+00:00:50.959 --> 00:00:54.714
+Review assumptions, operating conditions
+and dependencies.
+
+18
+00:00:54.834 --> 00:00:56.925
+Do not reduce a risk rating merely
+
+19
+00:00:57.045 --> 00:00:59.986
+because a proposed control appears on the
+drawing;
+
+20
+00:01:00.106 --> 00:01:03.818
+its effectiveness still needs support and
+later verification.
+
+21
+00:01:04.438 --> 00:01:08.363
+For the mixing scenario, the proposed
+control inhibits transfer
+
+22
+00:01:08.483 --> 00:01:10.958
+when loss of agitation is detected.
+
+23
+00:01:11.078 --> 00:01:13.382
+Review sensor coverage, logic,
+
+24
+00:01:13.502 --> 00:01:16.105
+bypass authority and reset behaviour.
+
+25
+00:01:16.225 --> 00:01:20.695
+Ask whether the sensing arrangement could
+miss the failure being considered.
+
+26
+00:01:20.815 --> 00:01:22.992
+Link the design response to a planned
+
+27
+00:01:23.112 --> 00:01:25.935
+controlled challenge of the protective
+function.
+
+28
+00:01:26.055 --> 00:01:28.679
+The teaching diagram shows failure,
+control
+
+29
+00:01:28.799 --> 00:01:31.359
+and verification as connected steps,
+
+30
+00:01:31.479 --> 00:01:35.298
+not as proof that any specific interlock
+is already effective.
+
+31
+00:01:35.918 --> 00:01:39.843
+A useful risk-informed review records what
+remains uncertain,
+
+32
+00:01:39.963 --> 00:01:43.493
+who will resolve it and what change
+triggers another review.
+
+33
+00:01:43.613 --> 00:01:46.791
+For example, a later product with
+different viscosity
+
+34
+00:01:46.911 --> 00:01:49.770
+may invalidate the original mixing
+assumption.
+
+35
+00:01:49.890 --> 00:01:53.184
+Keep that trigger linked to the
+requirements and design.
+
+36
+00:01:53.304 --> 00:01:56.419
+Your activity is to compare two design
+findings
+
+37
+00:01:56.539 --> 00:01:59.056
+and justify the depth of review for each.
+
+38
+00:01:59.176 --> 00:02:02.782
+Do not force every question into a
+numerical ranking
+
+39
+00:02:02.902 --> 00:02:05.196
+when a reasoned explanation is clearer.

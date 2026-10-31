@@ -1,0 +1,300 @@
+{
+  "duration": 125.81570833333333,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 33.017,
+      "title": "Start with the mechanism"
+    },
+    {
+      "start": 33.017,
+      "end": 64.438,
+      "title": "Do not let totals hide severity"
+    },
+    {
+      "start": 64.438,
+      "end": 95.918,
+      "title": "Trace the proposed control"
+    },
+    {
+      "start": 95.918,
+      "end": 125.816,
+      "title": "Document residual questions"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 3.115,
+      "text": "Risk informs where the design review needs depth.",
+      "spoken": "Risk informs where the design review needs depth.",
+      "scene": 1
+    },
+    {
+      "start": 3.235,
+      "end": 6.179,
+      "text": "In our fictional case, a missing mixing protection",
+      "spoken": "In our fictional case, a missing mixing protection",
+      "scene": 1
+    },
+    {
+      "start": 6.299,
+      "end": 9.392,
+      "text": "can permit transfer after loss of agitation,",
+      "spoken": "can permit transfer after loss of agitation,",
+      "scene": 1
+    },
+    {
+      "start": 9.512,
+      "end": 12.541,
+      "text": "potentially affecting concentration uniformity.",
+      "spoken": "potentially affecting concentration uniformity.",
+      "scene": 1
+    },
+    {
+      "start": 12.661,
+      "end": 16.011,
+      "text": "Explain that mechanism before assigning a priority.",
+      "spoken": "Explain that mechanism before assigning a priority.",
+      "scene": 1
+    },
+    {
+      "start": 16.131,
+      "end": 19.437,
+      "text": "Another issue, such as an inconsistent drawing title,",
+      "spoken": "Another issue, such as an inconsistent drawing title,",
+      "scene": 1
+    },
+    {
+      "start": 19.557,
+      "end": 22.075,
+      "text": "may primarily affect document control.",
+      "spoken": "may primarily affect document control.",
+      "scene": 1
+    },
+    {
+      "start": 22.195,
+      "end": 25.501,
+      "text": "Both require action, but their consequences differ.",
+      "spoken": "Both require action, but their consequences differ.",
+      "scene": 1
+    },
+    {
+      "start": 25.621,
+      "end": 29.099,
+      "text": "A risk label without an explanation gives the reviewer",
+      "spoken": "A risk label without an explanation gives the reviewer",
+      "scene": 1
+    },
+    {
+      "start": 29.219,
+      "end": 32.397,
+      "text": "little basis for deciding what evidence is enough.",
+      "spoken": "little basis for deciding what evidence is enough.",
+      "scene": 1
+    },
+    {
+      "start": 33.017,
+      "end": 36.089,
+      "text": "A numerical risk score can organize discussion",
+      "spoken": "A numerical risk score can organize discussion",
+      "scene": 2
+    },
+    {
+      "start": 36.209,
+      "end": 38.327,
+      "text": "but cannot supply missing knowledge.",
+      "spoken": "but cannot supply missing knowledge.",
+      "scene": 2
+    },
+    {
+      "start": 38.447,
+      "end": 41.796,
+      "text": "This lesson uses no universal score threshold.",
+      "spoken": "This lesson uses no universal score threshold.",
+      "scene": 2
+    },
+    {
+      "start": 41.916,
+      "end": 46.162,
+      "text": "If a serious failure has weak evidence for prevention or detection,",
+      "spoken": "If a serious failure has weak evidence for prevention or detection,",
+      "scene": 2
+    },
+    {
+      "start": 46.282,
+      "end": 48.543,
+      "text": "keep that uncertainty visible even",
+      "spoken": "keep that uncertainty visible even",
+      "scene": 2
+    },
+    {
+      "start": 48.663,
+      "end": 50.839,
+      "text": "when an arithmetic total looks small.",
+      "spoken": "when an arithmetic total looks small.",
+      "scene": 2
+    },
+    {
+      "start": 50.959,
+      "end": 54.714,
+      "text": "Review assumptions, operating conditions and dependencies.",
+      "spoken": "Review assumptions, operating conditions and dependencies.",
+      "scene": 2
+    },
+    {
+      "start": 54.834,
+      "end": 56.925,
+      "text": "Do not reduce a risk rating merely",
+      "spoken": "Do not reduce a risk rating merely",
+      "scene": 2
+    },
+    {
+      "start": 57.045,
+      "end": 59.986,
+      "text": "because a proposed control appears on the drawing;",
+      "spoken": "because a proposed control appears on the drawing;",
+      "scene": 2
+    },
+    {
+      "start": 60.106,
+      "end": 63.818,
+      "text": "its effectiveness still needs support and later verification.",
+      "spoken": "its effectiveness still needs support and later verification.",
+      "scene": 2
+    },
+    {
+      "start": 64.438,
+      "end": 68.363,
+      "text": "For the mixing scenario, the proposed control inhibits transfer",
+      "spoken": "For the mixing scenario, the proposed control inhibits transfer",
+      "scene": 3
+    },
+    {
+      "start": 68.483,
+      "end": 70.958,
+      "text": "when loss of agitation is detected.",
+      "spoken": "when loss of agitation is detected.",
+      "scene": 3
+    },
+    {
+      "start": 71.078,
+      "end": 73.382,
+      "text": "Review sensor coverage, logic,",
+      "spoken": "Review sensor coverage, logic,",
+      "scene": 3
+    },
+    {
+      "start": 73.502,
+      "end": 76.105,
+      "text": "bypass authority and reset behaviour.",
+      "spoken": "bypass authority and reset behaviour.",
+      "scene": 3
+    },
+    {
+      "start": 76.225,
+      "end": 80.695,
+      "text": "Ask whether the sensing arrangement could miss the failure being considered.",
+      "spoken": "Ask whether the sensing arrangement could miss the failure being considered.",
+      "scene": 3
+    },
+    {
+      "start": 80.815,
+      "end": 82.992,
+      "text": "Link the design response to a planned",
+      "spoken": "Link the design response to a planned",
+      "scene": 3
+    },
+    {
+      "start": 83.112,
+      "end": 85.935,
+      "text": "controlled challenge of the protective function.",
+      "spoken": "controlled challenge of the protective function.",
+      "scene": 3
+    },
+    {
+      "start": 86.055,
+      "end": 88.679,
+      "text": "The teaching diagram shows failure, control",
+      "spoken": "The teaching diagram shows failure, control",
+      "scene": 3
+    },
+    {
+      "start": 88.799,
+      "end": 91.359,
+      "text": "and verification as connected steps,",
+      "spoken": "and verification as connected steps,",
+      "scene": 3
+    },
+    {
+      "start": 91.479,
+      "end": 95.298,
+      "text": "not as proof that any specific interlock is already effective.",
+      "spoken": "not as proof that any specific interlock is already effective.",
+      "scene": 3
+    },
+    {
+      "start": 95.918,
+      "end": 99.843,
+      "text": "A useful risk-informed review records what remains uncertain,",
+      "spoken": "A useful risk-informed review records what remains uncertain,",
+      "scene": 4
+    },
+    {
+      "start": 99.963,
+      "end": 103.493,
+      "text": "who will resolve it and what change triggers another review.",
+      "spoken": "who will resolve it and what change triggers another review.",
+      "scene": 4
+    },
+    {
+      "start": 103.613,
+      "end": 106.791,
+      "text": "For example, a later product with different viscosity",
+      "spoken": "For example, a later product with different viscosity",
+      "scene": 4
+    },
+    {
+      "start": 106.911,
+      "end": 109.77,
+      "text": "may invalidate the original mixing assumption.",
+      "spoken": "may invalidate the original mixing assumption.",
+      "scene": 4
+    },
+    {
+      "start": 109.89,
+      "end": 113.184,
+      "text": "Keep that trigger linked to the requirements and design.",
+      "spoken": "Keep that trigger linked to the requirements and design.",
+      "scene": 4
+    },
+    {
+      "start": 113.304,
+      "end": 116.419,
+      "text": "Your activity is to compare two design findings",
+      "spoken": "Your activity is to compare two design findings",
+      "scene": 4
+    },
+    {
+      "start": 116.539,
+      "end": 119.056,
+      "text": "and justify the depth of review for each.",
+      "spoken": "and justify the depth of review for each.",
+      "scene": 4
+    },
+    {
+      "start": 119.176,
+      "end": 122.782,
+      "text": "Do not force every question into a numerical ranking",
+      "spoken": "Do not force every question into a numerical ranking",
+      "scene": 4
+    },
+    {
+      "start": 122.902,
+      "end": 125.196,
+      "text": "when a reasoned explanation is clearer.",
+      "spoken": "when a reasoned explanation is clearer.",
+      "scene": 4
+    }
+  ]
+}

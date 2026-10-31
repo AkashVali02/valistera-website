@@ -1,0 +1,15 @@
+ValiStera Academy — Module 3 / Lesson 3.8
+Evaluate supplier evidence without transferring accountability
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Evidence must fit the question
+A supplier brochure, design calculation and executed test record are different evidence types. Start with the question you need to answer. A generic brochure may describe a product family without identifying the purchased configuration. A calculation may rely on conditions that do not apply to our process. An executed record needs traceable results and a clear method. More pages do not necessarily provide more relevant evidence.
+
+Review supplier protocols
+Where third-party validation protocols are used, site personnel should check their suitability and alignment with internal procedures before approval. In our example, the vendor protocol omits the required sensor-failure challenge. Record the gap and arrange a justified supplement rather than accepting a complete stamp. DQ can identify this future verification need while supplier documentation is still being developed. Site responsibility does not disappear because a specialist supplier prepared the template.
+
+FAT is not DQ approval
+Factory acceptance testing can provide useful evidence, but it is not a replacement label for DQ. Any planned reuse of appropriate factory tests needs a documented justification that considers the applicable configuration and whether transport or installation can affect the function. Some checks may still be needed on site. For example, a factory record cannot demonstrate that the site’s final utility connection is correct. Keep the evidence claim within what was actually examined.
+
+A firmware substitution
+The factory report refers to controller version one, while the supplied design proposes version two. Do not automatically accept everything or discard everything. Identify what changed, assess effects on relevant functions and decide which evidence remains applicable. Document the rationale and additional work. This focused review is more defensible than deciding from the version number alone. The same reasoning applies to substituted instruments, valves and software configurations.

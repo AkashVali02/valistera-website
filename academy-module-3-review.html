@@ -1,0 +1,52 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>Review package | ValiStera Academy</title><link rel="stylesheet" href="/assets/academy/module-3/course.css?v=5b4b815a185f"><script defer src="/assets/academy/module-3/course.js?v=887484f3fb04"></script></head><body ><a class="skip" href="#main">Skip to learning content</a><header class="site-header"><div class="brand">Vali<b>Stera</b><small>ACADEMY</small></div><nav class="navlinks" aria-label="Module navigation"><a href="/academy-module-3.html">Module overview</a><a href="/academy-module-3-workbook.html">Workbook</a><a href="/academy-module-3-assessment.html">Assessment</a></nav></header><main id="main" tabindex="-1"><h1>Module 3 consolidated review package</h1><p>Preview edition M3-20261031-R2. Identify the served commit in this page footer and the <a href="/assets/academy/module-3/review/review-build.json">build manifest</a>. This is an AI-prepared review candidate, not consultant approval or certification.</p><ul><li><a href="/assets/academy/module-3/review/Apache-2.0.txt">Apache-2.0.txt</a></li><li><a href="/assets/academy/module-3/review/QA-REPORT.md">QA-REPORT.md</a></li><li><a href="/assets/academy/module-3/review/browser-results.json">browser-results.json</a></li><li><a href="/assets/academy/module-3/review/claude-review-response.md">claude-review-response.md</a></li><li><a href="/assets/academy/module-3/review/frame-results.json">frame-results.json</a></li><li><a href="/assets/academy/module-3/review/kokoro-onnx-MIT.txt">kokoro-onnx-MIT.txt</a></li><li><a href="/assets/academy/module-3/review/media-results.json">media-results.json</a></li><li><a href="/assets/academy/module-3/review/review-build.json">review-build.json</a></li><li><a href="/assets/academy/module-3/review/rights-and-privacy.md">rights-and-privacy.md</a></li><li><a href="/assets/academy/module-3/review/source-map.md">source-map.md</a></li><li><a href="/assets/academy/module-3/review/visual-recovery.json">visual-recovery.json</a></li><li><a href="/assets/academy/module-3/review/voice-provenance.json">voice-provenance.json</a></li></ul><section class="panel"><h2>QA report</h2><pre style="white-space:pre-wrap;overflow-wrap:anywhere;font:inherit"># Module 3 — revision R2 review status
+
+Preview edition M3-20261031-R2 corrects Claude findings F1–F10 against the previous af9c21d candidate. See claude-review-response.md for the changes and remaining human checks. The previous review does not approve this new revision.
+
+Narration, timings and captions are regenerated for R2. Read the current media-results.json, frame-results.json and browser-results.json for generated evidence. The workflow artifact additionally contains hosted-delivery-results.json and hosted-browser-results.json, produced after the saved commit reaches Cloudflare. A workflow run is successful only if its final status is success; do not treat this document or historical counts as a passing result.
+
+The preview footer and review-build.json identify the served commit. Generated MP4s, captions, PNGs, timing records and transcripts are saved in git by the workflow after local QA. Hosted byte comparisons and playback checks then test the saved candidate. The final artifact is linked from draft PR #3.
+
+Independent GMP consultant sign-off against the exact new commit, full listening/visual acceptance, physical Android/iOS checks, screen-reader evaluation, rights/privacy acceptance and explicit owner production authorization remain outstanding. No merge or production publication is authorized.
+
+## Historical recovery record — R1 only
+
+The following records the earlier recovery; its duration, hashes and test counts are not R2 results. In particular visual-recovery.json proves audio preservation during the R1 illustration repair, not during R2 narration revision.
+
+# Module 3 — Design Qualification: recovery and consolidated review
+
+Preview only. Independent GMP consultant approval and owner release authorization remain mandatory. Module 1/2 approval does not approve Module 3.
+
+## Recovered checkpoint
+
+Branch academy-player-preview; draft PR #3. Recovered head 02dc10bda0ed94a9a398a4c1a8ef788847dd4c84. Original source 43abdb644869dbf7dc6eff5db44324abe9887f93; runtime fix 57ab0edd6fe71f8460bfa4f5e542595f413de9f1.
+
+Run 41034790586 failed in narration; kokoro-onnx 0.4.9 supplied integer speed to an ONNX model expecting float. The committed fix preserves float32 speed 0.92. Run 41035348010 completed successfully and committed ten narrated videos and their supporting assets as 02dc10b. Artifact 12967484506 remains available. Cloudflare check 123999722368 reports successful preview deployment of that commit. The ChatGPT session becoming read-only has no established root cause.
+
+No prior local working tree was available in this session. Exact lost edits cannot be identified. Repository inspection showed the two named visual improvements were absent: generic vessel drawings remained at cleaning pockets (3.4 parts 3/4) and maintenance access (3.6 part 2). Only these missing illustrations and their two video tracks were reconstructed. Narration was preserved, with identical compressed-audio SHA256 before/after; see visual-recovery.json. Captions and scene boundaries were retained.
+
+## Package and corrections
+
+Ten narrated lessons, forty original diagrams, ten worked examples, ten lesson checks, twenty distinct application assessment questions, workbook, two CSV templates, source map, rights notices and provenance. Total media duration is approximately 21.05 minutes. All media is committed; no temporary workflow output is required for playback.
+
+Cleaning illustration now contrasts a continuous outlet with a low liquid-retaining pocket. Maintenance illustration explicitly shows a rear instrument&#x27;s removal path blocked by a pipe rack. Both are qualitative, not engineering acceptance drawings. Existing white Vali / blue Stera identity and aligned key-point numbering are preserved.
+
+All forty diagram/description groups begin collapsed behind View Technical Explanation. Native timeline controls remain the only seek bar. Deployment manifest now includes MP4, PNG and CSV bytes as well as pages/captions, enabling verification of the actual delivered media.
+
+## Verification and evidence interpretation
+
+Recovery local checks: content structure/calculations passed; 140 media checks passed; source/media fingerprint check passed; website validation passed (61 HTML pages). Final workflow and hosted evidence must be read by their own commit and scope; older browser-results.json must not be mistaken for new hosted results. The default local Chrome download was invalid; an official older build downloaded successfully but execution was blocked by the runtime socket restriction. Fresh browser execution therefore uses GitHub Actions. Recovery run 41060453879 passed its local browser suite before saving the corrected media. The final recovery workflow additionally waits for Cloudflare to serve its persisted commit, compares delivered bytes, and runs the same suite against that hosted preview. Read its downloadable artifact for the final outcome; workflow presence alone is not a pass.
+
+Reviewed all 40 narration passages and all 20 assessment answers/explanations. Official EudraLex index, adopted Annex 15, Chapter 3 and Chapter 4 were retrieved on 30 October 2026. The source map distinguishes DQ from later qualification, fictional criteria from regulatory requirements, supplier evidence from site accountability, and conditional progression from routine release. This is an AI technical pre-review, not independent GMP approval.
+
+Decoded video frames were compared against all forty intended scene PNGs at their midpoints: 40 passed, maximum mean absolute RGB difference 1.96/255 (limit 8/255). See frame-results.json. This confirms encoded scene identity, not human audio comprehension.
+
+## Reviewer instructions and release gates
+
+1. Check the served commit footer and review-build.json before reviewing; match them to the PR head and hosted evidence.
+2. Read lessons 3.1–3.10 with transcripts; listen to every video and assess pronunciation, pacing, diagram/narration meaning and captions. Inspect the corrected outlet and access illustrations closely.
+3. Complete the independent assessment and workbook; review answer rationales and fictional acceptance assumptions against source-map.md.
+4. Perform real Android/iOS touch seeking and reading comfort checks, plus screen-reader/manual accessibility evaluation. Automated Chromium/axe checks do not certify WCAG conformity.
+5. Independent GMP consultant must document findings and sign-off against the exact candidate commit. Owner must accept media/rights/privacy limitations and explicitly authorize production release.
+
+No merge, production deployment, human listening acceptance, independent signature or regulatory certification is claimed. Upstream voice training-data rights and hosting log retention are not independently verified. Preview approval is not production authorization.
+</pre></section></main><footer><p>Preview edition M3-20261031-R2 · Served source commit: <code class="served-commit">BUILD_PENDING</code></p><p>Educational self-study, not site authorization or certification. Fictional examples. AI narration uses a Kokoro stock voice; diagrams are original explanatory illustrations.</p><p>Media is served from this site after Play. The host receives ordinary request information. <a href="/academy-module-3-sources.html">Sources, rights and privacy</a></p><label><input type="checkbox" id="save-progress"> Save my Module 3 self-study progress on this device</label><p id="storage-status" role="status"></p><button type="button" id="clear-progress">Clear Module 3 saved progress</button></footer></body></html>

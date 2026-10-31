@@ -1,0 +1,1928 @@
+{
+  "base": "http://127.0.0.1:8092",
+  "browser": "156.0.8078.4",
+  "checks": [
+    {
+      "name": "academy-module-3.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-module-3.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-workbook.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-workbook.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-workbook.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-workbook.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-workbook.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-workbook.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-workbook.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-workbook.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-workbook.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-module-3-workbook.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-assessment.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-assessment.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-assessment.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-assessment.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-assessment.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-assessment.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-assessment.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-assessment.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-assessment.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-module-3-assessment.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-sources.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-sources.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-sources.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-sources.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-sources.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-sources.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-sources.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-sources.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-sources.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-module-3-sources.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-review.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-review.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-review.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-review.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-review.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-review.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-review.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-review.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-module-3-review.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-module-3-review.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-1.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-1.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-1.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-1.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-1.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-1.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-1.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-1.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-1.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-1.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-2.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-2.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-2.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-2.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-2.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-2.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-2.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-2.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-2.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-2.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-3.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-3.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-3.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-3.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-3.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-3.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-3.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-3.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-3.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-3.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-4.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-4.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-4.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-4.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-4.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-4.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-4.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-4.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-4.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-4.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-5.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-5.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-5.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-5.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-5.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-5.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-5.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-5.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-5.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-5.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-6.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-6.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-6.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-6.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-6.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-6.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-6.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-6.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-6.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-6.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-7.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-7.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-7.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-7.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-7.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-7.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-7.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-7.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-7.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-7.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-8.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-8.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-8.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-8.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-8.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-8.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-8.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-8.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-8.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-8.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-9.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-9.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-9.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-9.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-9.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-9.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-9.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-9.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-9.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-9.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-10.html landmarks",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-10.html skip focuses learning content",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-10.html heading",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-10.html noindex",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-10.html reflow 320",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-10.html reflow 390",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-10.html reflow 768",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-10.html reflow 1280",
+      "pass": true
+    },
+    {
+      "name": "academy-lesson-3-10.html axe",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "academy-lesson-3-10.html text-spacing reflow",
+      "pass": true
+    },
+    {
+      "name": "Worked DQ example",
+      "pass": true
+    },
+    {
+      "name": "Open-book disclosure",
+      "pass": true
+    },
+    {
+      "name": "No external subresource requests",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Lesson 1 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 118.723,
+        "cues": 35,
+        "source": "blob:http://127.0.0.1:8092/d962daf0-ab5b-4514-ac7a-b3a5e998f61d",
+        "downloadSource": "/assets/academy/module-3/lesson-1.mp4?v=5db6ea36c595"
+      }
+    },
+    {
+      "name": "Lesson 1 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 28.390282,
+        "duration": 118.723
+      }
+    },
+    {
+      "name": "Lesson 1 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 90.332717,
+        "duration": 118.723
+      }
+    },
+    {
+      "name": "Lesson 1 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 1 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 122,
+        "cues": 36,
+        "source": "blob:http://127.0.0.1:8092/8ed3ba86-66ed-4f9c-a756-2910d7fb6757",
+        "downloadSource": "/assets/academy/module-3/lesson-2.mp4?v=388adde79eb0"
+      }
+    },
+    {
+      "name": "Lesson 2 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 29.173913,
+        "duration": 122
+      }
+    },
+    {
+      "name": "Lesson 2 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 92.826086,
+        "duration": 122
+      }
+    },
+    {
+      "name": "Lesson 2 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 2 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 140.244,
+        "cues": 40,
+        "source": "blob:http://127.0.0.1:8092/da63eb27-b53a-43c6-bc24-0d889a679fb2",
+        "downloadSource": "/assets/academy/module-3/lesson-3.mp4?v=a9ea359414fa"
+      }
+    },
+    {
+      "name": "Lesson 3 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 33.536608,
+        "duration": 140.244
+      }
+    },
+    {
+      "name": "Lesson 3 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 106.707391,
+        "duration": 140.244
+      }
+    },
+    {
+      "name": "Lesson 3 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 3 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 127.03,
+        "cues": 39,
+        "source": "blob:http://127.0.0.1:8092/1d0b6322-6860-401a-9352-50096d7518ba",
+        "downloadSource": "/assets/academy/module-3/lesson-4.mp4?v=c0c0c8c4a7f4"
+      }
+    },
+    {
+      "name": "Lesson 4 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 30.376739,
+        "duration": 127.03
+      }
+    },
+    {
+      "name": "Lesson 4 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 96.65326,
+        "duration": 127.03
+      }
+    },
+    {
+      "name": "Lesson 4 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 4 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 141.1,
+        "cues": 41,
+        "source": "blob:http://127.0.0.1:8092/68d55835-6668-4e0b-966e-118f556e37a6",
+        "downloadSource": "/assets/academy/module-3/lesson-5.mp4?v=f386cad519e2"
+      }
+    },
+    {
+      "name": "Lesson 5 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 33.741304,
+        "duration": 141.1
+      }
+    },
+    {
+      "name": "Lesson 5 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 107.358695,
+        "duration": 141.1
+      }
+    },
+    {
+      "name": "Lesson 5 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 5 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 122.74,
+        "cues": 40,
+        "source": "blob:http://127.0.0.1:8092/90c8c7f7-9c41-42f5-b959-17dda328badd",
+        "downloadSource": "/assets/academy/module-3/lesson-6.mp4?v=1d2f585c83b5"
+      }
+    },
+    {
+      "name": "Lesson 6 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 29.350869,
+        "duration": 122.74
+      }
+    },
+    {
+      "name": "Lesson 6 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 93.38913,
+        "duration": 122.74
+      }
+    },
+    {
+      "name": "Lesson 6 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 6 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 125.816,
+        "cues": 39,
+        "source": "blob:http://127.0.0.1:8092/f717ad50-4ece-4446-8059-d7fb669a43f1",
+        "downloadSource": "/assets/academy/module-3/lesson-7.mp4?v=bbe8e7e2e4f5"
+      }
+    },
+    {
+      "name": "Lesson 7 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 30.086434,
+        "duration": 125.816
+      }
+    },
+    {
+      "name": "Lesson 7 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 95.729565,
+        "duration": 125.816
+      }
+    },
+    {
+      "name": "Lesson 7 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 7 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 127.049,
+        "cues": 39,
+        "source": "blob:http://127.0.0.1:8092/be27ed22-82c1-48ed-9ae6-63e6c8348c06",
+        "downloadSource": "/assets/academy/module-3/lesson-8.mp4?v=77b9ad06d282"
+      }
+    },
+    {
+      "name": "Lesson 8 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 30.381282,
+        "duration": 127.049
+      }
+    },
+    {
+      "name": "Lesson 8 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 96.667717,
+        "duration": 127.049
+      }
+    },
+    {
+      "name": "Lesson 8 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 8 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 146.4,
+        "cues": 44,
+        "source": "blob:http://127.0.0.1:8092/69470160-a9c7-4ca1-a660-4d1ba1888b65",
+        "downloadSource": "/assets/academy/module-3/lesson-9.mp4?v=175c2ebe4ec8"
+      }
+    },
+    {
+      "name": "Lesson 9 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 35.008695,
+        "duration": 146.4
+      }
+    },
+    {
+      "name": "Lesson 9 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 111.391304,
+        "duration": 146.4
+      }
+    },
+    {
+      "name": "Lesson 9 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 9 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 has four diagram disclosures",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 no duplicate timeline",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 1 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 1 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 1 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 2 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 2 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 2 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 3 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 3 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 3 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 4 entirely collapsed",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 4 expands with information",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 diagram 4 closes again",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 subtitle toggle present",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 poster aspect ratio",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 media deferred",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 native playback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 captions loaded",
+      "pass": true,
+      "detail": {
+        "duration": 129,
+        "cues": 38,
+        "source": "blob:http://127.0.0.1:8092/e7721643-13fd-4b20-9ed6-937c19e632ab",
+        "downloadSource": "/assets/academy/module-3/lesson-10.mp4?v=b44667a736cc"
+      }
+    },
+    {
+      "name": "Lesson 10 media API seek",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 captions off",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 captions on",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 native timeline pointer 0.25",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 30.847826,
+        "duration": 129
+      }
+    },
+    {
+      "name": "Lesson 10 native timeline pointer 0.75",
+      "pass": true,
+      "detail": {
+        "actualSeconds": 98.152173,
+        "duration": 129
+      }
+    },
+    {
+      "name": "Lesson 10 correct answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Lesson 10 wrong answer feedback",
+      "pass": true
+    },
+    {
+      "name": "Error sum default",
+      "pass": true
+    },
+    {
+      "name": "Error equality boundary",
+      "pass": true
+    },
+    {
+      "name": "Error lower sum",
+      "pass": true
+    },
+    {
+      "name": "Reject negative bound",
+      "pass": true
+    },
+    {
+      "name": "Coverage 0",
+      "pass": true
+    },
+    {
+      "name": "Coverage 8",
+      "pass": true
+    },
+    {
+      "name": "Coverage 10",
+      "pass": true
+    },
+    {
+      "name": "Coverage rejects fractional count",
+      "pass": true
+    },
+    {
+      "name": "Storage defaults off",
+      "pass": true
+    },
+    {
+      "name": "Stored progress survives navigation",
+      "pass": true
+    },
+    {
+      "name": "Clear isolates module",
+      "pass": true
+    },
+    {
+      "name": "Clear disables saving",
+      "pass": true
+    },
+    {
+      "name": "Clear resets session markers",
+      "pass": true
+    },
+    {
+      "name": "Opt-out resets session markers",
+      "pass": true
+    },
+    {
+      "name": "Opt-out removes saved key",
+      "pass": true
+    },
+    {
+      "name": "Unanswered assessment not scored",
+      "pass": true
+    },
+    {
+      "name": "Full assessment score",
+      "pass": true
+    },
+    {
+      "name": "85 percent practice boundary 16",
+      "pass": true
+    },
+    {
+      "name": "85 percent practice boundary 17",
+      "pass": true
+    },
+    {
+      "name": "Wrong assessment score",
+      "pass": true
+    },
+    {
+      "name": "Workbook text not persisted",
+      "pass": true
+    },
+    {
+      "name": "Media retry fallback",
+      "pass": true
+    },
+    {
+      "name": "Media retry recovers playback",
+      "pass": true
+    },
+    {
+      "name": "No-JS transcript",
+      "pass": true
+    },
+    {
+      "name": "No-JS no quiz submission",
+      "pass": true
+    },
+    {
+      "name": "Blocked storage reported",
+      "pass": true
+    },
+    {
+      "name": "Blocked storage checkbox reset",
+      "pass": true
+    },
+    {
+      "name": "Blocked storage lesson usable",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "completed": true
+}

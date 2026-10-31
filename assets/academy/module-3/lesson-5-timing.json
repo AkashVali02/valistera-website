@@ -1,0 +1,314 @@
+{
+  "duration": 141.05074999999997,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 30.663,
+      "title": "One sensor, two functions"
+    },
+    {
+      "start": 30.663,
+      "end": 64.235,
+      "title": "Define the fault response"
+    },
+    {
+      "start": 64.235,
+      "end": 108.039,
+      "title": "Specify records and access"
+    },
+    {
+      "start": 108.039,
+      "end": 141.051,
+      "title": "Plan meaningful challenges"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 2.923,
+      "text": "A temperature sensor feeds both the controller",
+      "spoken": "A temperature sensor feeds both the controller",
+      "scene": 1
+    },
+    {
+      "start": 3.043,
+      "end": 5.043,
+      "text": "and the high-temperature alarm.",
+      "spoken": "and the high-temperature alarm.",
+      "scene": 1
+    },
+    {
+      "start": 5.163,
+      "end": 8.619,
+      "text": "The diagram branches one signal into two functions.",
+      "spoken": "The diagram branches one signal into two functions.",
+      "scene": 1
+    },
+    {
+      "start": 8.739,
+      "end": 12.643,
+      "text": "Two boxes on the drawing do not make two independent measurements.",
+      "spoken": "Two boxes on the drawing do not make two independent measurements.",
+      "scene": 1
+    },
+    {
+      "start": 12.763,
+      "end": 14.763,
+      "text": "If the sensor fails low,",
+      "spoken": "If the sensor fails low,",
+      "scene": 1
+    },
+    {
+      "start": 14.883,
+      "end": 18.104,
+      "text": "both functions may receive the same misleading value.",
+      "spoken": "both functions may receive the same misleading value.",
+      "scene": 1
+    },
+    {
+      "start": 18.224,
+      "end": 22.401,
+      "text": "Whether that matters depends on the process risk and other protections.",
+      "spoken": "Whether that matters depends on the process risk and other protections.",
+      "scene": 1
+    },
+    {
+      "start": 22.521,
+      "end": 25.401,
+      "text": "State the failure mechanism before deciding",
+      "spoken": "State the failure mechanism before deciding",
+      "scene": 1
+    },
+    {
+      "start": 25.521,
+      "end": 30.043,
+      "text": "whether an independent sensor or another protective measure is necessary.",
+      "spoken": "whether an independent sensor or another protective measure is necessary.",
+      "scene": 1
+    },
+    {
+      "start": 30.663,
+      "end": 34.994,
+      "text": "The functional specification should describe the response to a detected",
+      "spoken": "The functional specification should describe the response to a detected",
+      "scene": 2
+    },
+    {
+      "start": 35.114,
+      "end": 38.143,
+      "text": "sensor disconnect, including control behaviour",
+      "spoken": "sensor disconnect, including control behaviour",
+      "scene": 2
+    },
+    {
+      "start": 38.263,
+      "end": 41.933,
+      "text": "and operator information appropriate to the intended use.",
+      "spoken": "and operator information appropriate to the intended use.",
+      "scene": 2
+    },
+    {
+      "start": 42.053,
+      "end": 45.103,
+      "text": "Our teaching example proposes inhibiting heating",
+      "spoken": "Our teaching example proposes inhibiting heating",
+      "scene": 2
+    },
+    {
+      "start": 45.223,
+      "end": 48.573,
+      "text": "and generating an identifiable alarm; it is",
+      "spoken": "and generating an identifiable alarm; it is",
+      "scene": 2
+    },
+    {
+      "start": 48.693,
+      "end": 51.21,
+      "text": "not a universal safe-state instruction.",
+      "spoken": "not a universal safe-state instruction.",
+      "scene": 2
+    },
+    {
+      "start": 51.33,
+      "end": 53.762,
+      "text": "Review whether that response introduces",
+      "spoken": "Review whether that response introduces",
+      "scene": 2
+    },
+    {
+      "start": 53.882,
+      "end": 56.463,
+      "text": "another hazard for the particular process.",
+      "spoken": "another hazard for the particular process.",
+      "scene": 2
+    },
+    {
+      "start": 56.583,
+      "end": 59.271,
+      "text": "Distinguish an alarm that merely informs",
+      "spoken": "Distinguish an alarm that merely informs",
+      "scene": 2
+    },
+    {
+      "start": 59.391,
+      "end": 63.615,
+      "text": "an operator from an interlock that changes operation automatically.",
+      "spoken": "an operator from an interlock that changes operation automatically.",
+      "scene": 2
+    },
+    {
+      "start": 64.235,
+      "end": 68.736,
+      "text": "If the control system creates records used for GMP decisions,",
+      "spoken": "If the control system creates records used for G M P decisions,",
+      "scene": 3
+    },
+    {
+      "start": 68.856,
+      "end": 73.571,
+      "text": "identify those records and the applicable computerized-system requirements.",
+      "spoken": "identify those records and the applicable computerized-system requirements.",
+      "scene": 3
+    },
+    {
+      "start": 73.691,
+      "end": 77.36,
+      "text": "Consider who can change a setpoint, how changes are controlled",
+      "spoken": "Consider who can change a setpoint, how changes are controlled",
+      "scene": 3
+    },
+    {
+      "start": 77.48,
+      "end": 80.275,
+      "text": "and how necessary records remain available.",
+      "spoken": "and how necessary records remain available.",
+      "scene": 3
+    },
+    {
+      "start": 80.395,
+      "end": 84.235,
+      "text": "The European context is EU GMP Annex 11.",
+      "spoken": "The European context is E U G M P Annex Eleven.",
+      "scene": 3
+    },
+    {
+      "start": 84.355,
+      "end": 90.691,
+      "text": "Where relevant, also assess the applicability of FDA 21 CFR Part 11.",
+      "spoken": "Where relevant, also assess the applicability of F D A twenty one C F R Part Eleven.",
+      "scene": 3
+    },
+    {
+      "start": 90.811,
+      "end": 93.563,
+      "text": "This module flags the interface; it does",
+      "spoken": "This module flags the interface; it does",
+      "scene": 3
+    },
+    {
+      "start": 93.683,
+      "end": 96.84,
+      "text": "not complete computerized-system validation",
+      "spoken": "not complete computerized-system validation",
+      "scene": 3
+    },
+    {
+      "start": 96.96,
+      "end": 99.784,
+      "text": "or demonstrate compliance with either framework.",
+      "spoken": "or demonstrate compliance with either framework.",
+      "scene": 3
+    },
+    {
+      "start": 99.904,
+      "end": 101.973,
+      "text": "A password screen by itself is",
+      "spoken": "A password screen by itself is",
+      "scene": 3
+    },
+    {
+      "start": 102.093,
+      "end": 104.696,
+      "text": "not evidence of adequate access control,",
+      "spoken": "not evidence of adequate access control,",
+      "scene": 3
+    },
+    {
+      "start": 104.816,
+      "end": 107.419,
+      "text": "data integrity or record retention.",
+      "spoken": "data integrity or record retention.",
+      "scene": 3
+    },
+    {
+      "start": 108.039,
+      "end": 111.217,
+      "text": "Create a test intention for normal operation,",
+      "spoken": "Create a test intention for normal operation,",
+      "scene": 4
+    },
+    {
+      "start": 111.337,
+      "end": 113.599,
+      "text": "the identified fault and recovery.",
+      "spoken": "the identified fault and recovery.",
+      "scene": 4
+    },
+    {
+      "start": 113.719,
+      "end": 115.719,
+      "text": "For our sensor scenario,",
+      "spoken": "For our sensor scenario,",
+      "scene": 4
+    },
+    {
+      "start": 115.839,
+      "end": 119.337,
+      "text": "a later test should challenge the fault in a controlled way",
+      "spoken": "a later test should challenge the fault in a controlled way",
+      "scene": 4
+    },
+    {
+      "start": 119.457,
+      "end": 123.276,
+      "text": "and verify the specified response and operator indication.",
+      "spoken": "and verify the specified response and operator indication.",
+      "scene": 4
+    },
+    {
+      "start": 123.396,
+      "end": 128.559,
+      "text": "Also consider restoration: an uncontrolled restart may be unacceptable.",
+      "spoken": "Also consider restoration: an uncontrolled restart may be unacceptable.",
+      "scene": 4
+    },
+    {
+      "start": 128.679,
+      "end": 131.047,
+      "text": "During DQ, check that the design",
+      "spoken": "During D Q, check that the design",
+      "scene": 4
+    },
+    {
+      "start": 131.167,
+      "end": 133.855,
+      "text": "and test method make the challenge feasible.",
+      "spoken": "and test method make the challenge feasible.",
+      "scene": 4
+    },
+    {
+      "start": 133.975,
+      "end": 136.577,
+      "text": "The actual execution, safety controls",
+      "spoken": "The actual execution, safety controls",
+      "scene": 4
+    },
+    {
+      "start": 136.697,
+      "end": 140.431,
+      "text": "and acceptance decision belong to approved site procedures.",
+      "spoken": "and acceptance decision belong to approved site procedures.",
+      "scene": 4
+    }
+  ]
+}

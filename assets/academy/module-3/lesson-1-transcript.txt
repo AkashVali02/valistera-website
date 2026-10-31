@@ -1,0 +1,15 @@
+ValiStera Academy — Module 3 / Lesson 3.1
+What DQ decides — and what it does not
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+The proposed system
+Welcome to Module 3: Design Qualification, or DQ. Our fictional vessel V-201 prepares an aqueous oral solution before filling. It is not an aseptic process. The diagram connects intended purpose to a proposed design and then to a reasoned decision. We ask whether the design can support the intended use. A purchase order or attractive equipment drawing cannot answer that question by itself.
+
+Different questions at different stages
+DQ evaluates the proposed design. Installation qualification examines what was installed. Operational qualification challenges operation, and performance qualification addresses performance for the intended use under defined conditions. These questions are connected but not interchangeable. A successful design review does not demonstrate that the installed vessel mixes a real batch uniformly. Later modules examine those later stages. Keep the evidence and the decision appropriate to the stage.
+
+A practical design question
+Look at three design concerns: the product contact path, the measurement chain and access for cleaning. A vessel can have a suitable steel body yet an unsuitable gasket. A temperature display can work while representing the wrong sensor location. A shiny exterior can conceal a trapped pocket. For each concern, ask which design feature addresses the need, what evidence supports that claim and what must later be verified.
+
+Define the conclusion
+In this course, every equipment identifier, specification and evidence reference is a teaching invention. No site equipment has been qualified. At the end of a DQ review, state the design scope, the evidence examined and the open conditions. Do not write ready for routine production when only design evidence has been assessed. Your first activity is to distinguish a design conclusion from an installation finding and a performance claim.

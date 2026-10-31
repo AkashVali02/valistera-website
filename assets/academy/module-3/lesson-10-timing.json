@@ -1,0 +1,293 @@
+{
+  "duration": 128.965375,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 30.147,
+      "title": "Counted does not mean suitable"
+    },
+    {
+      "start": 30.147,
+      "end": 60.842,
+      "title": "Decide for a specific scope"
+    },
+    {
+      "start": 60.842,
+      "end": 97.065,
+      "title": "Prepare the IQ handover"
+    },
+    {
+      "start": 97.065,
+      "end": 128.965,
+      "title": "Defend the decision"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 2.517,
+      "text": "Our capstone has ten design requirements.",
+      "spoken": "Our capstone has ten design requirements.",
+      "scene": 1
+    },
+    {
+      "start": 2.637,
+      "end": 6.179,
+      "text": "Eight have adequate design evidence; two remain open.",
+      "spoken": "Eight have adequate design evidence; two remain open.",
+      "scene": 1
+    },
+    {
+      "start": 6.299,
+      "end": 8.773,
+      "text": "The arithmetic coverage is 80%,",
+      "spoken": "The arithmetic coverage is 80%,",
+      "scene": 1
+    },
+    {
+      "start": 8.893,
+      "end": 12.179,
+      "text": "but there is no eighty-percent DQ acceptance threshold.",
+      "spoken": "but there is no eighty-percent D Q acceptance threshold.",
+      "scene": 1
+    },
+    {
+      "start": 12.299,
+      "end": 15.925,
+      "text": "The first gap concerns an unspecified contact gasket.",
+      "spoken": "The first gap concerns an unspecified contact gasket.",
+      "scene": 1
+    },
+    {
+      "start": 16.045,
+      "end": 20.419,
+      "text": "The second concerns an unproven response to a shared sensor failure.",
+      "spoken": "The second concerns an unproven response to a shared sensor failure.",
+      "scene": 1
+    },
+    {
+      "start": 20.539,
+      "end": 24.485,
+      "text": "The diagram deliberately puts the coverage bar beside the gaps.",
+      "spoken": "The diagram deliberately puts the coverage bar beside the gaps.",
+      "scene": 1
+    },
+    {
+      "start": 24.605,
+      "end": 26.76,
+      "text": "A high completion percentage does",
+      "spoken": "A high completion percentage does",
+      "scene": 1
+    },
+    {
+      "start": 26.88,
+      "end": 29.527,
+      "text": "not remove the importance of what is missing.",
+      "spoken": "not remove the importance of what is missing.",
+      "scene": 1
+    },
+    {
+      "start": 30.147,
+      "end": 33.134,
+      "text": "The supported conclusion is that this package does",
+      "spoken": "The supported conclusion is that this package does",
+      "scene": 2
+    },
+    {
+      "start": 33.254,
+      "end": 36.688,
+      "text": "not justify routine use or a complete favourable",
+      "spoken": "not justify routine use or a complete favourable",
+      "scene": 2
+    },
+    {
+      "start": 36.808,
+      "end": 39.39,
+      "text": "design conclusion for the affected scope.",
+      "spoken": "design conclusion for the affected scope.",
+      "scene": 2
+    },
+    {
+      "start": 39.51,
+      "end": 42.24,
+      "text": "Some limited work may continue only through",
+      "spoken": "Some limited work may continue only through",
+      "scene": 2
+    },
+    {
+      "start": 42.36,
+      "end": 45.731,
+      "text": "the applicable documented assessment and authorization.",
+      "spoken": "the applicable documented assessment and authorization.",
+      "scene": 2
+    },
+    {
+      "start": 45.851,
+      "end": 49.792,
+      "text": "Ask what activity is proposed and whether the gaps could affect it.",
+      "spoken": "Ask what activity is proposed and whether the gaps could affect it.",
+      "scene": 2
+    },
+    {
+      "start": 49.912,
+      "end": 53.454,
+      "text": "Do not approve a blank category called conditional release.",
+      "spoken": "Do not approve a blank category called conditional release.",
+      "scene": 2
+    },
+    {
+      "start": 53.574,
+      "end": 57.67,
+      "text": "Name the activity, restrictions, responsible decision-maker",
+      "spoken": "Name the activity, restrictions, responsible decision-maker",
+      "scene": 2
+    },
+    {
+      "start": 57.79,
+      "end": 60.222,
+      "text": "and conditions that must be met first.",
+      "spoken": "and conditions that must be met first.",
+      "scene": 2
+    },
+    {
+      "start": 60.842,
+      "end": 64.618,
+      "text": "Prepare a handover containing the accepted design baseline,",
+      "spoken": "Prepare a handover containing the accepted design baseline,",
+      "scene": 3
+    },
+    {
+      "start": 64.738,
+      "end": 68.044,
+      "text": "reviewed requirements, risk/control rationale,",
+      "spoken": "reviewed requirements, risk/control rationale,",
+      "scene": 3
+    },
+    {
+      "start": 68.164,
+      "end": 71.514,
+      "text": "open-action register and planned verification links.",
+      "spoken": "open-action register and planned verification links.",
+      "scene": 3
+    },
+    {
+      "start": 71.634,
+      "end": 75.282,
+      "text": "Installation qualification will need the correct drawings,",
+      "spoken": "Installation qualification will need the correct drawings,",
+      "scene": 3
+    },
+    {
+      "start": 75.402,
+      "end": 78.282,
+      "text": "specifications and component identities.",
+      "spoken": "specifications and component identities.",
+      "scene": 3
+    },
+    {
+      "start": 78.402,
+      "end": 80.535,
+      "text": "Unresolved design choices should",
+      "spoken": "Unresolved design choices should",
+      "scene": 3
+    },
+    {
+      "start": 80.655,
+      "end": 83.002,
+      "text": "not disappear into a signature page.",
+      "spoken": "not disappear into a signature page.",
+      "scene": 3
+    },
+    {
+      "start": 83.122,
+      "end": 87.687,
+      "text": "Identify which installation activities depend on closing each gap.",
+      "spoken": "Identify which installation activities depend on closing each gap.",
+      "scene": 3
+    },
+    {
+      "start": 87.807,
+      "end": 91.028,
+      "text": "This creates a practical connection to Module 4",
+      "spoken": "This creates a practical connection to Module 4",
+      "scene": 3
+    },
+    {
+      "start": 91.148,
+      "end": 94.325,
+      "text": "rather than implying that the next stage starts simply",
+      "spoken": "rather than implying that the next stage starts simply",
+      "scene": 3
+    },
+    {
+      "start": 94.445,
+      "end": 96.445,
+      "text": "because this course has ended.",
+      "spoken": "because this course has ended.",
+      "scene": 3
+    },
+    {
+      "start": 97.065,
+      "end": 100.286,
+      "text": "Your final task is to write a short decision memo.",
+      "spoken": "Your final task is to write a short decision memo.",
+      "scene": 4
+    },
+    {
+      "start": 100.406,
+      "end": 103.465,
+      "text": "State what was reviewed, what the evidence supports,",
+      "spoken": "State what was reviewed, what the evidence supports,",
+      "scene": 4
+    },
+    {
+      "start": 103.585,
+      "end": 107.361,
+      "text": "which important questions remain and what action is required.",
+      "spoken": "which important questions remain and what action is required.",
+      "scene": 4
+    },
+    {
+      "start": 107.481,
+      "end": 111.79,
+      "text": "Explain why the completion percentage does not determine suitability.",
+      "spoken": "Explain why the completion percentage does not determine suitability.",
+      "scene": 4
+    },
+    {
+      "start": 111.91,
+      "end": 114.322,
+      "text": "Compare your memo with the worked answer,",
+      "spoken": "Compare your memo with the worked answer,",
+      "scene": 4
+    },
+    {
+      "start": 114.442,
+      "end": 117.148,
+      "text": "then take the separate application assessment.",
+      "spoken": "then take the separate application assessment.",
+      "scene": 4
+    },
+    {
+      "start": 117.268,
+      "end": 120.191,
+      "text": "Course completion is self-study evidence only.",
+      "spoken": "Course completion is self-study evidence only.",
+      "scene": 4
+    },
+    {
+      "start": 120.311,
+      "end": 122.913,
+      "text": "It does not replace supervised experience,",
+      "spoken": "It does not replace supervised experience,",
+      "scene": 4
+    },
+    {
+      "start": 123.033,
+      "end": 128.345,
+      "text": "an independent technical review or authorization to perform regulated work.",
+      "spoken": "an independent technical review or authorization to perform regulated work.",
+      "scene": 4
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+ValiStera Academy — Module 3 / Lesson 3.2
+Build a controlled design-review baseline
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Fix the review baseline
+For the fictional review, use a user requirements specification, or URS, at revision three, drawing revision B and risk record revision two. These references are teaching placeholders. A baseline is the defined set of information used for the review. If one reviewer reads revision A while another reads revision B, apparent agreement may hide a different design. Record the document identifiers, revisions and approval status together.
+
+Resolve missing process inputs
+Suppose the process team has not defined the batch-volume range. The supplier offers a vessel capacity, but a catalogue capacity is not an agreed process need. Raise a question to the process owner and record the consequence for impeller location and mixing verification. The design review may examine unrelated matters, but it cannot conclude that mixing is suitable across an unspecified range. Unknown inputs should stay visible.
+
+Read the design package
+An arrangement drawing shows physical placement. A piping and instrumentation diagram shows process connections and instruments. A functional specification describes intended control behaviour. Our teaching package also includes material specifications, a cleaning concept and an interface register. These documents answer different questions. A drawing label such as temperature control does not describe alarm delays, sensor failure responses or operator permissions. Request the document that actually supports the claim.
+
+Control a late revision
+During review, the supplier issues revision C with a different outlet valve. Do not silently replace the drawing and keep the old signatures. Compare the change, identify affected requirements and risks, and obtain the appropriate review. Record which conclusions remain applicable and which need reassessment. The goal is not to restart every check automatically, but to prevent an unreviewed design from inheriting an earlier conclusion.
