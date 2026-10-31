@@ -1,3 +1,11 @@
+# Production release — 31 October 2026
+
+The owner reported consultant review passed for candidate 9e75dc889f2568e2561b850a93be3015387ad0c8 and explicitly authorized website publication. PR #3 has been merged. The release only adds Academy navigation, changes learner-facing release labels and records authorization; approved teaching content and media are unchanged. Consultant acceptance is owner-reported, not an independently inspected signed report. See academy/releases/module-3-2026-10-31.md in the repository and the Module 3 production verification workflow for release evidence.
+
+The pre-release review history below is retained for traceability. Its statements withholding publication are superseded by the owner's release instruction. Automated results do not replace physical-device, screen-reader or human listening evidence, and no regulatory certification is claimed.
+
+## Historical pre-release report
+
 # Module 3 — revision R2 review status
 
 Preview edition M3-20261031-R2 corrects Claude findings F1–F10 against the previous af9c21d candidate. See claude-review-response.md for the changes and remaining human checks. The previous review does not approve this new revision.
