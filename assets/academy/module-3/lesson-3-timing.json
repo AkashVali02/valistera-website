@@ -1,269 +1,304 @@
 {
-  "duration": 131.14304166666668,
+  "duration": 140.243875,
   "scenes": [
     {
       "start": 0,
-      "end": 32.884,
+      "end": 33.175,
       "title": "A measurable teaching assumption"
     },
     {
-      "start": 32.884,
-      "end": 64.396,
+      "start": 33.175,
+      "end": 74.239,
       "title": "Compare the measurement chain"
     },
     {
-      "start": 64.396,
-      "end": 99.128,
+      "start": 74.239,
+      "end": 108.299,
       "title": "Write the traceability row"
     },
     {
-      "start": 99.128,
-      "end": 131.143,
+      "start": 108.299,
+      "end": 140.244,
       "title": "Close the row with evidence"
     }
   ],
   "cues": [
     {
       "start": 0,
-      "end": 4.48,
-      "text": "For a separate worked example, assume a fictional process owner has approved",
-      "spoken": "For a separate worked example, assume a fictional process owner has approved",
+      "end": 2.0,
+      "text": "For a separate worked example,",
+      "spoken": "For a separate worked example,",
       "scene": 1
     },
     {
-      "start": 4.6,
-      "end": 10.488,
-      "text": "temperature indication at 20, 40 and 60 \u00b0C with error no greater",
-      "spoken": "temperature indication at 20, 40 and 60 degrees Celsius with error no greater",
+      "start": 2.12,
+      "end": 6.963,
+      "text": "assume a fictional process owner has approved temperature indication at 20,",
+      "spoken": "assume a fictional process owner has approved temperature indication at 20,",
       "scene": 1
     },
     {
-      "start": 10.608,
-      "end": 14.043,
-      "text": "than \u00b10.5 \u00b0C.",
-      "spoken": "than plus or minus 0.5 degrees Celsius.",
+      "start": 7.083,
+      "end": 14.208,
+      "text": "40 and 60 \u00b0C with error no greater than \u00b10.5 \u00b0C.",
+      "spoken": "40 and 60 degrees Celsius with error no greater than plus or minus 0.5 degrees Celsius.",
       "scene": 1
     },
     {
-      "start": 14.163,
-      "end": 18.643,
-      "text": "These are teaching assumptions, not general GMP tolerances or",
-      "spoken": "These are teaching assumptions, not general G M P tolerances or",
+      "start": 14.328,
+      "end": 16.328,
+      "text": "These are teaching assumptions,",
+      "spoken": "These are teaching assumptions,",
       "scene": 1
     },
     {
-      "start": 18.763,
-      "end": 20.405,
-      "text": "real project approvals.",
-      "spoken": "real project approvals.",
+      "start": 16.448,
+      "end": 20.8,
+      "text": "not general GMP tolerances or real project approvals.",
+      "spoken": "not general G M P tolerances or real project approvals.",
       "scene": 1
     },
     {
-      "start": 20.525,
-      "end": 24.643,
+      "start": 20.92,
+      "end": 25.037,
       "text": "Requirement R-03 concerns indication accuracy.",
       "spoken": "Requirement R zero three concerns indication accuracy.",
       "scene": 1
     },
     {
-      "start": 24.763,
-      "end": 29.413,
-      "text": "It does not establish product temperature uniformity, mixing performance or",
-      "spoken": "It does not establish product temperature uniformity, mixing performance or",
+      "start": 25.157,
+      "end": 28.275,
+      "text": "It does not establish product temperature uniformity,",
+      "spoken": "It does not establish product temperature uniformity,",
       "scene": 1
     },
     {
-      "start": 29.533,
-      "end": 32.264,
-      "text": "an acceptable manufacturing process range.",
-      "spoken": "an acceptable manufacturing process range.",
+      "start": 28.395,
+      "end": 32.555,
+      "text": "mixing performance or an acceptable manufacturing process range.",
+      "spoken": "mixing performance or an acceptable manufacturing process range.",
       "scene": 1
     },
     {
-      "start": 32.884,
-      "end": 39.967,
-      "text": "The supplier lists three component error bounds of \u00b10.2 \u00b0C each: sensor,",
-      "spoken": "The supplier lists three component error bounds of plus or minus 0.2 degrees Celsius each: sensor,",
+      "start": 33.175,
+      "end": 39.66,
+      "text": "The supplier lists three component error bounds of \u00b10.2 \u00b0C each:",
+      "spoken": "The supplier lists three component error bounds of plus or minus 0.2 degrees Celsius each:",
       "scene": 2
     },
     {
-      "start": 40.087,
-      "end": 41.644,
-      "text": "transmitter and display.",
-      "spoken": "transmitter and display.",
+      "start": 39.78,
+      "end": 41.935,
+      "text": "sensor, transmitter and display.",
+      "spoken": "sensor, transmitter and display.",
       "scene": 2
     },
     {
-      "start": 41.764,
-      "end": 45.752,
-      "text": "If they can all act in the same direction, the simple worst-case sum",
-      "spoken": "If they can all act in the same direction, the simple worst-case sum",
+      "start": 42.055,
+      "end": 44.526,
+      "text": "If they can all act in the same direction,",
+      "spoken": "If they can all act in the same direction,",
       "scene": 2
     },
     {
-      "start": 45.872,
-      "end": 48.24,
-      "text": "is 0.6 \u00b0C.",
-      "spoken": "is 0.6 degrees Celsius.",
+      "start": 44.646,
+      "end": 48.4,
+      "text": "the simple worst-case sum is 0.6 \u00b0C.",
+      "spoken": "the simple worst-case sum is 0.6 degrees Celsius.",
       "scene": 2
     },
     {
-      "start": 48.36,
-      "end": 51.688,
+      "start": 48.52,
+      "end": 51.848,
       "text": "That exceeds the worked requirement of 0.5.",
       "spoken": "That exceeds the worked requirement of 0.5.",
       "scene": 2
     },
     {
-      "start": 51.808,
-      "end": 54.918,
+      "start": 51.968,
+      "end": 55.086,
       "text": "Calling each component accurate would miss the chain.",
       "spoken": "Calling each component accurate would miss the chain.",
       "scene": 2
     },
     {
-      "start": 55.038,
-      "end": 59.987,
-      "text": "This conservative teaching calculation is not a complete uncertainty budget",
-      "spoken": "This conservative teaching calculation is not a complete uncertainty budget",
+      "start": 55.206,
+      "end": 57.915,
+      "text": "This conservative teaching calculation is",
+      "spoken": "This conservative teaching calculation is",
       "scene": 2
     },
     {
-      "start": 60.107,
-      "end": 63.776,
-      "text": "or an automatic rejection of every possible design.",
-      "spoken": "or an automatic rejection of every possible design.",
+      "start": 58.035,
+      "end": 61.321,
+      "text": "not a complete uncertainty budget or an automatic",
+      "spoken": "not a complete uncertainty budget or an automatic",
       "scene": 2
     },
     {
-      "start": 64.396,
-      "end": 71.202,
-      "text": "The row identifies R-03, the criterion, sensor schedule S-07 revision B",
-      "spoken": "The row identifies R zero three, the criterion, sensor schedule S zero seven revision B",
+      "start": 61.441,
+      "end": 63.851,
+      "text": "rejection of every possible design.",
+      "spoken": "rejection of every possible design.",
+      "scene": 2
+    },
+    {
+      "start": 63.971,
+      "end": 66.126,
+      "text": "Other combination methods exist,",
+      "spoken": "Other combination methods exist,",
+      "scene": 2
+    },
+    {
+      "start": 66.246,
+      "end": 68.422,
+      "text": "but their assumptions, correlations",
+      "spoken": "but their assumptions, correlations",
+      "scene": 2
+    },
+    {
+      "start": 68.542,
+      "end": 73.619,
+      "text": "and intended decision must be justified by appropriate metrology expertise.",
+      "spoken": "and intended decision must be justified by appropriate metrology expertise.",
+      "scene": 2
+    },
+    {
+      "start": 74.239,
+      "end": 77.695,
+      "text": "The row identifies R-03, the criterion,",
+      "spoken": "The row identifies R zero three, the criterion,",
       "scene": 3
     },
     {
-      "start": 71.322,
-      "end": 72.73,
-      "text": "and the calculation.",
-      "spoken": "and the calculation.",
+      "start": 77.815,
+      "end": 82.253,
+      "text": "sensor schedule S-07 revision B and the calculation.",
+      "spoken": "sensor schedule S zero seven revision B and the calculation.",
       "scene": 3
     },
     {
-      "start": 72.85,
-      "end": 75.218,
+      "start": 82.373,
+      "end": 84.741,
       "text": "Its decision is not demonstrated.",
       "spoken": "Its decision is not demonstrated.",
       "scene": 3
     },
     {
-      "start": 75.338,
-      "end": 80.266,
-      "text": "The action is to propose a justified measurement-chain design or revise the",
-      "spoken": "The action is to propose a justified measurement-chain design or revise the",
+      "start": 84.861,
+      "end": 88.338,
+      "text": "The action is to propose a justified measurement-chain",
+      "spoken": "The action is to propose a justified measurement-chain",
       "scene": 3
     },
     {
-      "start": 80.386,
-      "end": 85.122,
-      "text": "requirement through authorized change, not quietly relax the criterion.",
-      "spoken": "requirement through authorized change, not quietly relax the criterion.",
+      "start": 88.458,
+      "end": 92.213,
+      "text": "design or revise the requirement through authorized change,",
+      "spoken": "design or revise the requirement through authorized change,",
       "scene": 3
     },
     {
-      "start": 85.242,
-      "end": 88.89,
+      "start": 92.333,
+      "end": 94.658,
+      "text": "not quietly relax the criterion.",
+      "spoken": "not quietly relax the criterion.",
+      "scene": 3
+    },
+    {
+      "start": 94.778,
+      "end": 98.426,
       "text": "Installation checks must confirm the selected components.",
       "spoken": "Installation checks must confirm the selected components.",
       "scene": 3
     },
     {
-      "start": 89.01,
-      "end": 92.871,
-      "text": "Operational testing must challenge the assembled chain under",
-      "spoken": "Operational testing must challenge the assembled chain under",
+      "start": 98.546,
+      "end": 100.743,
+      "text": "Operational testing must challenge",
+      "spoken": "Operational testing must challenge",
       "scene": 3
     },
     {
-      "start": 92.991,
-      "end": 94.399,
-      "text": "the approved method.",
-      "spoken": "the approved method.",
+      "start": 100.863,
+      "end": 103.569,
+      "text": "the assembled chain under the approved method.",
+      "spoken": "the assembled chain under the approved method.",
       "scene": 3
     },
     {
-      "start": 94.519,
-      "end": 98.508,
+      "start": 103.689,
+      "end": 107.679,
       "text": "DQ plans this evidence; it does not invent its results.",
       "spoken": "D Q plans this evidence; it does not invent its results.",
       "scene": 3
     },
     {
-      "start": 99.128,
-      "end": 102.435,
+      "start": 108.299,
+      "end": 111.605,
       "text": "Suppose the supplier proposes lower-error components.",
       "spoken": "Suppose the supplier proposes lower-error components.",
       "scene": 4
     },
     {
-      "start": 102.555,
-      "end": 107.163,
-      "text": "Review their applicable conditions and recalculate the chain; do not close",
-      "spoken": "Review their applicable conditions and recalculate the chain; do not close",
+      "start": 111.725,
+      "end": 115.459,
+      "text": "Review their applicable conditions and recalculate the chain;",
+      "spoken": "Review their applicable conditions and recalculate the chain;",
       "scene": 4
     },
     {
-      "start": 107.283,
-      "end": 110.227,
-      "text": "the row merely because a new datasheet arrived.",
-      "spoken": "the row merely because a new datasheet arrived.",
+      "start": 115.579,
+      "end": 119.248,
+      "text": "do not close the row merely because a new datasheet arrived.",
+      "spoken": "do not close the row merely because a new datasheet arrived.",
       "scene": 4
     },
     {
-      "start": 110.347,
-      "end": 114.507,
-      "text": "If the revised design supports the requirement, record the rationale",
-      "spoken": "If the revised design supports the requirement, record the rationale",
+      "start": 119.368,
+      "end": 122.141,
+      "text": "If the revised design supports the requirement,",
+      "spoken": "If the revised design supports the requirement,",
       "scene": 4
     },
     {
-      "start": 114.627,
-      "end": 116.014,
-      "text": "and reviewer decision.",
-      "spoken": "and reviewer decision.",
+      "start": 122.261,
+      "end": 125.013,
+      "text": "record the rationale and reviewer decision.",
+      "spoken": "record the rationale and reviewer decision.",
       "scene": 4
     },
     {
-      "start": 116.134,
-      "end": 119.675,
-      "text": "Keep the later installation and operational checks in",
-      "spoken": "Keep the later installation and operational checks in",
+      "start": 125.133,
+      "end": 127.133,
+      "text": "Keep the later installation",
+      "spoken": "Keep the later installation",
       "scene": 4
     },
     {
-      "start": 119.795,
-      "end": 121.374,
-      "text": "the verification plan.",
-      "spoken": "the verification plan.",
+      "start": 127.253,
+      "end": 130.432,
+      "text": "and operational checks in the verification plan.",
+      "spoken": "and operational checks in the verification plan.",
       "scene": 4
     },
     {
-      "start": 121.494,
-      "end": 124.096,
-      "text": "Distinguish design evidence adequate from",
-      "spoken": "Distinguish design evidence adequate from",
+      "start": 130.552,
+      "end": 132.963,
+      "text": "Distinguish design evidence adequate",
+      "spoken": "Distinguish design evidence adequate",
       "scene": 4
     },
     {
-      "start": 124.216,
-      "end": 126.435,
-      "text": "installed performance demonstrated.",
-      "spoken": "installed performance demonstrated.",
+      "start": 133.083,
+      "end": 135.536,
+      "text": "from installed performance demonstrated.",
+      "spoken": "from installed performance demonstrated.",
       "scene": 4
     },
     {
-      "start": 126.555,
-      "end": 130.523,
+      "start": 135.656,
+      "end": 139.624,
       "text": "The workbook contains a filled row and a blank row for practice.",
       "spoken": "The workbook contains a filled row and a blank row for practice.",
       "scene": 4

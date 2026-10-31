@@ -1,165 +1,191 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.051
+00:00:00.000 --> 00:00:02.923
 A temperature sensor feeds both the
-controller and
+controller
 
 2
-00:00:03.171 --> 00:00:04.920
-the high-temperature alarm.
+00:00:03.043 --> 00:00:05.043
+and the high-temperature alarm.
 
 3
-00:00:05.040 --> 00:00:08.496
+00:00:05.163 --> 00:00:08.619
 The diagram branches one signal into two
 functions.
 
 4
-00:00:08.616 --> 00:00:12.520
+00:00:08.739 --> 00:00:12.643
 Two boxes on the drawing do not make two
 independent measurements.
 
 5
-00:00:12.640 --> 00:00:16.160
-If the sensor fails low, both functions
-may receive the
+00:00:12.763 --> 00:00:14.763
+If the sensor fails low,
 
 6
-00:00:16.280 --> 00:00:17.944
-same misleading value.
+00:00:14.883 --> 00:00:18.104
+both functions may receive the same
+misleading value.
 
 7
-00:00:18.064 --> 00:00:22.231
+00:00:18.224 --> 00:00:22.401
 Whether that matters depends on the
 process risk and other protections.
 
 8
-00:00:22.351 --> 00:00:27.364
+00:00:22.521 --> 00:00:25.401
 State the failure mechanism before
-deciding whether an independent sensor or
+deciding
 
 9
-00:00:27.484 --> 00:00:30.002
-another protective measure is necessary.
+00:00:25.521 --> 00:00:30.043
+whether an independent sensor or another
+protective measure is necessary.
 
 10
-00:00:30.622 --> 00:00:34.952
+00:00:30.663 --> 00:00:34.994
 The functional specification should
 describe the response to a detected
 
 11
-00:00:35.072 --> 00:00:39.744
+00:00:35.114 --> 00:00:38.143
 sensor disconnect, including control
-behaviour and operator information
+behaviour
 
 12
-00:00:39.864 --> 00:00:41.912
-appropriate to the intended use.
+00:00:38.263 --> 00:00:41.933
+and operator information appropriate to
+the intended use.
 
 13
-00:00:42.032 --> 00:00:46.662
+00:00:42.053 --> 00:00:45.103
 Our teaching example proposes inhibiting
-heating and generating an
+heating
 
 14
-00:00:46.782 --> 00:00:51.326
-identifiable alarm; it is not a universal
-safe-state instruction.
+00:00:45.223 --> 00:00:48.573
+and generating an identifiable alarm; it
+is
 
 15
-00:00:51.446 --> 00:00:55.136
-Review whether that response introduces
-another hazard for
+00:00:48.693 --> 00:00:51.210
+not a universal safe-state instruction.
 
 16
-00:00:55.256 --> 00:00:56.856
-the particular process.
+00:00:51.330 --> 00:00:53.762
+Review whether that response introduces
 
 17
-00:00:56.976 --> 00:01:01.798
-Distinguish an alarm that merely informs
-an operator from an interlock that
+00:00:53.882 --> 00:00:56.463
+another hazard for the particular process.
 
 18
-00:01:01.918 --> 00:01:04.158
-changes operation automatically.
+00:00:56.583 --> 00:00:59.271
+Distinguish an alarm that merely informs
 
 19
-00:01:04.778 --> 00:01:10.239
-If the control system creates records used
-for GMP decisions, identify those
+00:00:59.391 --> 00:01:03.615
+an operator from an interlock that changes
+operation automatically.
 
 20
-00:01:10.359 --> 00:01:14.156
-records and the applicable computerized-
-system requirements.
+00:01:04.235 --> 00:01:08.736
+If the control system creates records used
+for GMP decisions,
 
 21
-00:01:14.276 --> 00:01:18.543
-Consider who can change a setpoint, how
-changes are controlled and how
+00:01:08.856 --> 00:01:13.571
+identify those records and the applicable
+computerized-system requirements.
 
 22
-00:01:18.663 --> 00:01:21.159
-necessary records remain available.
+00:01:13.691 --> 00:01:17.360
+Consider who can change a setpoint, how
+changes are controlled
 
 23
-00:01:21.279 --> 00:01:26.058
-This module flags the interface; it does
-not complete computerized-system
+00:01:17.480 --> 00:01:20.275
+and how necessary records remain
+available.
 
 24
-00:01:26.178 --> 00:01:29.463
-validation or certify Part Eleven
-compliance.
+00:01:20.395 --> 00:01:24.235
+The European context is EU GMP Annex 11.
 
 25
-00:01:29.583 --> 00:01:35.023
-A password screen by itself is not
-evidence of adequate access control, data
+00:01:24.355 --> 00:01:30.691
+Where relevant, also assess the
+applicability of FDA 21 CFR Part 11.
 
 26
-00:01:35.143 --> 00:01:37.362
-integrity or record retention.
+00:01:30.811 --> 00:01:33.563
+This module flags the interface; it does
 
 27
-00:01:37.982 --> 00:01:42.163
-Create a test intention for normal
-operation, the identified
+00:01:33.683 --> 00:01:36.840
+not complete computerized-system
+validation
 
 28
-00:01:42.283 --> 00:01:43.712
-fault and recovery.
+00:01:36.960 --> 00:01:39.784
+or demonstrate compliance with either
+framework.
 
 29
-00:01:43.832 --> 00:01:47.881
-For our sensor scenario, a later test
-should challenge the fault in a
+00:01:39.904 --> 00:01:41.973
+A password screen by itself is
 
 30
-00:01:48.001 --> 00:01:53.014
-controlled way and verify the specified
-response and operator indication.
+00:01:42.093 --> 00:01:44.696
+not evidence of adequate access control,
 
 31
-00:01:53.134 --> 00:01:58.297
+00:01:44.816 --> 00:01:47.419
+data integrity or record retention.
+
+32
+00:01:48.039 --> 00:01:51.217
+Create a test intention for normal
+operation,
+
+33
+00:01:51.337 --> 00:01:53.599
+the identified fault and recovery.
+
+34
+00:01:53.719 --> 00:01:55.719
+For our sensor scenario,
+
+35
+00:01:55.839 --> 00:01:59.337
+a later test should challenge the fault in
+a controlled way
+
+36
+00:01:59.457 --> 00:02:03.276
+and verify the specified response and
+operator indication.
+
+37
+00:02:03.396 --> 00:02:08.559
 Also consider restoration: an uncontrolled
 restart may be unacceptable.
 
-32
-00:01:58.417 --> 00:02:02.001
-During DQ, check that the design and test
-method make
+38
+00:02:08.679 --> 00:02:11.047
+During DQ, check that the design
 
-33
-00:02:02.121 --> 00:02:03.614
-the challenge feasible.
+39
+00:02:11.167 --> 00:02:13.855
+and test method make the challenge
+feasible.
 
-34
-00:02:03.734 --> 00:02:08.534
-The actual execution, safety controls and
-acceptance decision belong to
+40
+00:02:13.975 --> 00:02:16.577
+The actual execution, safety controls
 
-35
-00:02:08.654 --> 00:02:10.382
-approved site procedures.
+41
+00:02:16.697 --> 00:02:20.431
+and acceptance decision belong to approved
+site procedures.

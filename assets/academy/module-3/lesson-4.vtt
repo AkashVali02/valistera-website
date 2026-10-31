@@ -1,161 +1,178 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.106
+00:00:00.000 --> 00:00:04.118
 Trace the liquid from the vessel through
 the outlet and transfer hose.
 
 2
-00:00:04.226 --> 00:00:09.005
+00:00:04.238 --> 00:00:07.182
 Include impeller surfaces, seals, gaskets
-and valve seats, not just
 
 3
-00:00:09.125 --> 00:00:10.416
-the vessel shell.
+00:00:07.302 --> 00:00:09.831
+and valve seats, not just the vessel
+shell.
 
 4
-00:00:10.536 --> 00:00:13.565
+00:00:09.951 --> 00:00:12.980
 The diagram marks these as one contact
 path.
 
 5
-00:00:13.685 --> 00:00:17.679
+00:00:13.100 --> 00:00:16.865
 A statement that the vessel is stainless
-steel leaves elastomers and
+steel leaves elastomers
 
 6
-00:00:17.799 --> 00:00:19.869
-purchased components unresolved.
+00:00:16.985 --> 00:00:19.118
+and purchased components unresolved.
 
 7
-00:00:19.989 --> 00:00:24.895
-Ask how each material is identified and
-justified for the product, cleaning
+00:00:19.238 --> 00:00:21.670
+Ask how each material is identified
 
 8
-00:00:25.015 --> 00:00:29.410
-agents, temperature and contact time
-relevant to the intended use.
+00:00:21.790 --> 00:00:24.713
+and justified for the product, cleaning
+agents,
 
 9
-00:00:30.030 --> 00:00:34.830
-A material certificate can support
-identity, but identity alone does not
+00:00:24.833 --> 00:00:28.716
+temperature and contact time relevant to
+the intended use.
 
 10
-00:00:34.950 --> 00:00:39.238
-prove compatibility with a specific
-formulation or cleaning regime.
+00:00:29.336 --> 00:00:33.773
+A material certificate can support
+identity, but identity alone does
 
 11
-00:00:39.358 --> 00:00:43.753
-Similarly, a surface-finish number is
-useful only with a justified
+00:00:33.893 --> 00:00:38.458
+not prove compatibility with a specific
+formulation or cleaning regime.
 
 12
-00:00:43.873 --> 00:00:46.902
-requirement and a defined verification
-method.
+00:00:38.578 --> 00:00:40.946
+Similarly, a surface-finish number is
 
 13
-00:00:47.022 --> 00:00:51.438
-This introductory module does not
-prescribe a universal steel grade,
+00:00:41.066 --> 00:00:43.882
+useful only with a justified requirement
 
 14
-00:00:51.558 --> 00:00:53.606
-roughness value or elastomer.
+00:00:44.002 --> 00:00:46.264
+and a defined verification method.
 
 15
-00:00:53.726 --> 00:00:58.227
-In the fictional review, mark the gasket
-compatibility statement missing and
+00:00:46.384 --> 00:00:48.389
+This introductory module does
 
 16
-00:00:58.347 --> 00:01:02.422
-request product-specific evidence from the
-responsible specialists.
+00:00:48.509 --> 00:00:51.026
+not prescribe a universal steel grade,
 
 17
-00:01:03.042 --> 00:01:07.117
-The design sketch contrasts a clear outlet
-path with a pocket that
+00:00:51.146 --> 00:00:53.194
+roughness value or elastomer.
 
 18
-00:01:07.237 --> 00:01:08.666
-may retain liquid.
+00:00:53.314 --> 00:00:55.314
+In the fictional review,
 
 19
-00:01:08.786 --> 00:01:12.178
-Review access, cleaning coverage,
-disassembly needs,
+00:00:55.434 --> 00:00:58.250
+mark the gasket compatibility statement
+missing
 
 20
-00:01:12.298 --> 00:01:13.919
-drainage and inspection.
+00:00:58.370 --> 00:01:02.594
+and request product-specific evidence from
+the responsible specialists.
 
 21
-00:01:14.039 --> 00:01:17.856
-Consider whether maintenance can be
-performed without creating an
+00:01:03.214 --> 00:01:05.732
+The design sketch contrasts a clear outlet
 
 22
-00:01:17.976 --> 00:01:20.195
-uncontrolled product-quality risk.
+00:01:05.852 --> 00:01:08.433
+path with a pocket that may retain liquid.
 
 23
-00:01:20.315 --> 00:01:25.157
-A favourable drawing is only a design
-argument: cleaning effectiveness still
+00:01:08.553 --> 00:01:10.772
+Review access, cleaning coverage,
 
 24
-00:01:25.277 --> 00:01:27.923
-needs the applicable validation evidence.
+00:01:10.892 --> 00:01:13.708
+disassembly needs, drainage and
+inspection.
 
 25
-00:01:28.043 --> 00:01:33.141
-Do not copy a hygienic-design ratio from
-another application and present it
+00:01:13.828 --> 00:01:16.475
+Consider whether maintenance can be
+performed
 
 26
-00:01:33.261 --> 00:01:35.480
-as a universal GMP rule.
+00:01:16.595 --> 00:01:19.795
+without creating an uncontrolled product-
+quality risk.
 
 27
-00:01:36.100 --> 00:01:40.729
-Our worked finding is specific: the outlet
-drawing shows a retained pocket
+00:01:19.915 --> 00:01:23.008
+A favourable drawing is only a design
+argument:
 
 28
-00:01:40.849 --> 00:01:42.513
-with no cleaning rationale.
+00:01:23.128 --> 00:01:27.416
+cleaning effectiveness still needs the
+applicable validation evidence.
 
 29
-00:01:42.633 --> 00:01:47.711
-Record the drawing revision and location,
-request a revised arrangement or a
+00:01:27.536 --> 00:01:31.760
+Do not copy a hygienic-design ratio from
+another application
 
 30
-00:01:47.831 --> 00:01:51.009
-justified control strategy, and assign an
-owner.
+00:01:31.880 --> 00:01:35.059
+and present it as a universal GMP rule.
 
 31
-00:01:51.129 --> 00:01:55.183
+00:01:35.679 --> 00:01:37.679
+Our worked finding is specific:
+
+32
+00:01:37.799 --> 00:01:42.044
+the outlet drawing shows a retained pocket
+with no cleaning rationale.
+
+33
+00:01:42.164 --> 00:01:44.724
+Record the drawing revision and location,
+
+34
+00:01:44.844 --> 00:01:49.111
+request a revised arrangement or a
+justified control strategy,
+
+35
+00:01:49.231 --> 00:01:51.231
+and assign an owner.
+
+36
+00:01:51.351 --> 00:01:55.404
 Link the response to installation
 inspection and the cleaning study.
 
-32
-00:01:55.303 --> 00:01:58.631
+37
+00:01:55.524 --> 00:01:58.852
 Avoid a vague action such as improve
 cleanability.
 
-33
-00:01:58.751 --> 00:02:03.679
+38
+00:01:58.972 --> 00:02:03.900
 A closed action needs reviewed evidence
 that addresses the actual concern,
 
-34
-00:02:03.799 --> 00:02:06.188
+39
+00:02:04.020 --> 00:02:06.410
 not merely an email saying resolved.

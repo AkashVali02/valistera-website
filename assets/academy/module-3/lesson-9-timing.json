@@ -1,271 +1,334 @@
 {
-  "duration": 124.82508333333335,
+  "duration": 146.35379166666675,
   "scenes": [
     {
       "start": 0,
-      "end": 28.903,
+      "end": 28.383,
       "title": "A finding needs a clear basis"
     },
     {
-      "start": 28.903,
-      "end": 60.784,
+      "start": 28.383,
+      "end": 59.772,
       "title": "Different outcomes are possible"
     },
     {
-      "start": 60.784,
-      "end": 93.821,
+      "start": 59.772,
+      "end": 115.166,
       "title": "Conditional next activity"
     },
     {
-      "start": 93.821,
-      "end": 124.825,
+      "start": 115.166,
+      "end": 146.354,
       "title": "A controlled revision trail"
     }
   ],
   "cues": [
     {
       "start": 0,
-      "end": 4.907,
-      "text": "A useful finding identifies the requirement, the specific design evidence",
-      "spoken": "A useful finding identifies the requirement, the specific design evidence",
+      "end": 3.051,
+      "text": "A useful finding identifies the requirement,",
+      "spoken": "A useful finding identifies the requirement,",
       "scene": 1
     },
     {
-      "start": 5.027,
-      "end": 6.315,
-      "text": "and the gap.",
-      "spoken": "and the gap.",
+      "start": 3.171,
+      "end": 5.752,
+      "text": "the specific design evidence and the gap.",
+      "spoken": "the specific design evidence and the gap.",
       "scene": 1
     },
     {
-      "start": 6.435,
-      "end": 11.064,
-      "text": "For example: drawing revision B contains a cleaning pocket that has no",
-      "spoken": "For example: drawing revision B contains a cleaning pocket that has no",
+      "start": 5.872,
+      "end": 9.776,
+      "text": "For example: drawing revision B contains a cleaning pocket",
+      "spoken": "For example: drawing revision B contains a cleaning pocket",
       "scene": 1
     },
     {
-      "start": 11.184,
-      "end": 14.022,
-      "text": "reviewed rationale against the cleaning concept.",
-      "spoken": "reviewed rationale against the cleaning concept.",
+      "start": 9.896,
+      "end": 13.544,
+      "text": "that has no reviewed rationale against the cleaning concept.",
+      "spoken": "that has no reviewed rationale against the cleaning concept.",
       "scene": 1
     },
     {
-      "start": 14.142,
-      "end": 17.982,
+      "start": 13.664,
+      "end": 17.504,
       "text": "Assign an owner and define what evidence would support closure.",
       "spoken": "Assign an owner and define what evidence would support closure.",
       "scene": 1
     },
     {
-      "start": 18.102,
-      "end": 22.774,
+      "start": 17.624,
+      "end": 22.296,
       "text": "Avoid replacing the finding with a vague status such as vendor to confirm.",
       "spoken": "Avoid replacing the finding with a vague status such as vendor to confirm.",
       "scene": 1
     },
     {
-      "start": 22.894,
-      "end": 26.734,
-      "text": "A due date helps manage work, but it does not establish that the",
-      "spoken": "A due date helps manage work, but it does not establish that the",
+      "start": 22.416,
+      "end": 24.976,
+      "text": "A due date helps manage work, but it does",
+      "spoken": "A due date helps manage work, but it does",
       "scene": 1
     },
     {
-      "start": 26.854,
-      "end": 28.283,
-      "text": "design is suitable.",
-      "spoken": "design is suitable.",
+      "start": 25.096,
+      "end": 27.763,
+      "text": "not establish that the design is suitable.",
+      "spoken": "not establish that the design is suitable.",
       "scene": 1
     },
     {
-      "start": 28.903,
-      "end": 33.788,
-      "text": "Our teaching review uses three distinct outcomes: design evidence adequate,",
-      "spoken": "Our teaching review uses three distinct outcomes: design evidence adequate,",
+      "start": 28.383,
+      "end": 31.497,
+      "text": "Our teaching review uses three distinct outcomes:",
+      "spoken": "Our teaching review uses three distinct outcomes:",
       "scene": 2
     },
     {
-      "start": 33.908,
-      "end": 37.876,
-      "text": "an open design finding, or a proposed requirement change.",
-      "spoken": "an open design finding, or a proposed requirement change.",
+      "start": 31.617,
+      "end": 35.052,
+      "text": "design evidence adequate, an open design finding,",
+      "spoken": "design evidence adequate, an open design finding,",
       "scene": 2
     },
     {
-      "start": 37.996,
-      "end": 42.263,
+      "start": 35.172,
+      "end": 37.327,
+      "text": "or a proposed requirement change.",
+      "spoken": "or a proposed requirement change.",
+      "scene": 2
+    },
+    {
+      "start": 37.447,
+      "end": 41.713,
       "text": "These are course labels, not mandatory regulatory terminology.",
       "spoken": "These are course labels, not mandatory regulatory terminology.",
       "scene": 2
     },
     {
-      "start": 42.383,
-      "end": 46.906,
-      "text": "If the vendor cannot meet a requirement, assess options with the appropriate",
-      "spoken": "If the vendor cannot meet a requirement, assess options with the appropriate",
+      "start": 41.833,
+      "end": 44.186,
+      "text": "If the vendor cannot meet a requirement,",
+      "spoken": "If the vendor cannot meet a requirement,",
       "scene": 2
     },
     {
-      "start": 47.026,
-      "end": 49.223,
-      "text": "process and quality expertise.",
-      "spoken": "process and quality expertise.",
+      "start": 44.306,
+      "end": 48.466,
+      "text": "assess options with the appropriate process and quality expertise.",
+      "spoken": "assess options with the appropriate process and quality expertise.",
       "scene": 2
     },
     {
-      "start": 49.343,
-      "end": 53.887,
+      "start": 48.586,
+      "end": 53.13,
       "text": "Do not close the gap by deleting the requirement without impact review.",
       "spoken": "Do not close the gap by deleting the requirement without impact review.",
       "scene": 2
     },
     {
-      "start": 54.007,
-      "end": 58.508,
-      "text": "A proposed change remains a proposal until the applicable approval",
-      "spoken": "A proposed change remains a proposal until the applicable approval",
+      "start": 53.25,
+      "end": 56.344,
+      "text": "A proposed change remains a proposal until",
+      "spoken": "A proposed change remains a proposal until",
       "scene": 2
     },
     {
-      "start": 58.628,
-      "end": 60.164,
-      "text": "process accepts it.",
-      "spoken": "process accepts it.",
+      "start": 56.464,
+      "end": 59.152,
+      "text": "the applicable approval process accepts it.",
+      "spoken": "the applicable approval process accepts it.",
       "scene": 2
     },
     {
-      "start": 60.784,
-      "end": 65.52,
-      "text": "Conditional progression concerns a particular next qualification activity,",
-      "spoken": "Conditional progression concerns a particular next qualification activity,",
+      "start": 59.772,
+      "end": 62.95,
+      "text": "Conditional progression concerns a particular next",
+      "spoken": "Conditional progression concerns a particular next",
       "scene": 3
     },
     {
-      "start": 65.64,
-      "end": 67.582,
-      "text": "not unrestricted production.",
-      "spoken": "not unrestricted production.",
+      "start": 63.07,
+      "end": 66.59,
+      "text": "qualification activity, not unrestricted production.",
+      "spoken": "qualification activity, not unrestricted production.",
       "scene": 3
     },
     {
-      "start": 67.702,
-      "end": 72.096,
-      "text": "In the fictional case, a missing product-contact gasket basis prevents a",
-      "spoken": "In the fictional case, a missing product-contact gasket basis prevents a",
+      "start": 66.71,
+      "end": 69.612,
+      "text": "In the fictional case, a missing product-contact",
+      "spoken": "In the fictional case, a missing product-contact",
       "scene": 3
     },
     {
-      "start": 72.216,
-      "end": 74.051,
-      "text": "final materials conclusion.",
-      "spoken": "final materials conclusion.",
+      "start": 69.732,
+      "end": 73.294,
+      "text": "gasket basis prevents a final materials conclusion.",
+      "spoken": "gasket basis prevents a final materials conclusion.",
       "scene": 3
     },
     {
-      "start": 74.171,
-      "end": 77.712,
-      "text": "An unrelated drawing review might continue, but that does",
-      "spoken": "An unrelated drawing review might continue, but that does",
+      "start": 73.414,
+      "end": 78.15,
+      "text": "For example, a proposed transition to IQ may be limited to equipment",
+      "spoken": "For example, a proposed transition to I Q may be limited to equipment",
       "scene": 3
     },
     {
-      "start": 77.832,
-      "end": 79.859,
-      "text": "not authorize manufacturing.",
-      "spoken": "not authorize manufacturing.",
+      "start": 78.27,
+      "end": 81.726,
+      "text": "identification checks unaffected by the gasket gap.",
+      "spoken": "identification checks unaffected by the gasket gap.",
       "scene": 3
     },
     {
-      "start": 79.979,
-      "end": 84.758,
-      "text": "The responsible personnel need a documented impact assessment and an",
-      "spoken": "The responsible personnel need a documented impact assessment and an",
+      "start": 81.846,
+      "end": 84.79,
+      "text": "This requires a documented assessment of no",
+      "spoken": "This requires a documented assessment of no",
       "scene": 3
     },
     {
-      "start": 84.878,
-      "end": 87.608,
-      "text": "authorized decision for the proposed stage.",
-      "spoken": "authorized decision for the proposed stage.",
+      "start": 84.91,
+      "end": 87.726,
+      "text": "significant impact on that next activity",
+      "spoken": "significant impact on that next activity",
       "scene": 3
     },
     {
-      "start": 87.728,
-      "end": 91.78,
-      "text": "Do not assume that the training author, supplier or learner can grant",
-      "spoken": "Do not assume that the training author, supplier or learner can grant",
+      "start": 87.846,
+      "end": 90.833,
+      "text": "and authorization by responsible personnel.",
+      "spoken": "and authorization by responsible personnel.",
       "scene": 3
     },
     {
-      "start": 91.9,
-      "end": 93.201,
-      "text": "a site\u2019s approval.",
-      "spoken": "a site\u2019s approval.",
+      "start": 90.953,
+      "end": 93.406,
+      "text": "Gasket-dependent checks remain on hold.",
+      "spoken": "Gasket-dependent checks remain on hold.",
       "scene": 3
     },
     {
-      "start": 93.821,
-      "end": 98.664,
-      "text": "When a gasket specification changes, retain the earlier baseline and record",
-      "spoken": "When a gasket specification changes, retain the earlier baseline and record",
+      "start": 93.526,
+      "end": 95.596,
+      "text": "Preparing documents alone is",
+      "spoken": "Preparing documents alone is",
+      "scene": 3
+    },
+    {
+      "start": 95.716,
+      "end": 98.361,
+      "text": "not progression to a qualification stage,",
+      "spoken": "not progression to a qualification stage,",
+      "scene": 3
+    },
+    {
+      "start": 98.481,
+      "end": 101.553,
+      "text": "and neither activity authorizes manufacturing.",
+      "spoken": "and neither activity authorizes manufacturing.",
+      "scene": 3
+    },
+    {
+      "start": 101.673,
+      "end": 105.812,
+      "text": "The responsible personnel need a documented impact assessment",
+      "spoken": "The responsible personnel need a documented impact assessment",
+      "scene": 3
+    },
+    {
+      "start": 105.932,
+      "end": 109.004,
+      "text": "and an authorized decision for the proposed stage.",
+      "spoken": "and an authorized decision for the proposed stage.",
+      "scene": 3
+    },
+    {
+      "start": 109.124,
+      "end": 111.418,
+      "text": "Do not assume that the training author,",
+      "spoken": "Do not assume that the training author,",
+      "scene": 3
+    },
+    {
+      "start": 111.538,
+      "end": 114.546,
+      "text": "supplier or learner can grant a site\u2019s approval.",
+      "spoken": "supplier or learner can grant a site\u2019s approval.",
+      "scene": 3
+    },
+    {
+      "start": 115.166,
+      "end": 119.176,
+      "text": "When a gasket specification changes, retain the earlier baseline",
+      "spoken": "When a gasket specification changes, retain the earlier baseline",
       "scene": 4
     },
     {
-      "start": 98.784,
-      "end": 100.704,
-      "text": "why the new design was selected.",
-      "spoken": "why the new design was selected.",
+      "start": 119.296,
+      "end": 122.027,
+      "text": "and record why the new design was selected.",
+      "spoken": "and record why the new design was selected.",
       "scene": 4
     },
     {
-      "start": 100.824,
-      "end": 105.027,
-      "text": "Revisit contact compatibility, cleaning assumptions and verification",
-      "spoken": "Revisit contact compatibility, cleaning assumptions and verification",
+      "start": 122.147,
+      "end": 125.304,
+      "text": "Revisit contact compatibility, cleaning assumptions",
+      "spoken": "Revisit contact compatibility, cleaning assumptions",
       "scene": 4
     },
     {
-      "start": 105.147,
-      "end": 106.661,
-      "text": "plans as appropriate.",
-      "spoken": "plans as appropriate.",
+      "start": 125.424,
+      "end": 128.027,
+      "text": "and verification plans as appropriate.",
+      "spoken": "and verification plans as appropriate.",
       "scene": 4
     },
     {
-      "start": 106.781,
-      "end": 110.173,
+      "start": 128.147,
+      "end": 131.539,
       "text": "Update affected conclusions through the quality system.",
       "spoken": "Update affected conclusions through the quality system.",
       "scene": 4
     },
     {
-      "start": 110.293,
-      "end": 114.757,
-      "text": "The record should allow another reviewer to reconstruct the decision without",
-      "spoken": "The record should allow another reviewer to reconstruct the decision without",
+      "start": 131.659,
+      "end": 135.659,
+      "text": "The record should allow another reviewer to reconstruct the decision",
+      "spoken": "The record should allow another reviewer to reconstruct the decision",
       "scene": 4
     },
     {
-      "start": 114.877,
-      "end": 116.242,
-      "text": "relying on memory.",
-      "spoken": "relying on memory.",
+      "start": 135.779,
+      "end": 137.779,
+      "text": "without relying on memory.",
+      "spoken": "without relying on memory.",
       "scene": 4
     },
     {
-      "start": 116.362,
-      "end": 120.906,
-      "text": "Your activity is to write an action closure that references the revised",
-      "spoken": "Your activity is to write an action closure that references the revised",
+      "start": 137.899,
+      "end": 140.694,
+      "text": "Your activity is to write an action closure",
+      "spoken": "Your activity is to write an action closure",
       "scene": 4
     },
     {
-      "start": 121.026,
-      "end": 124.205,
-      "text": "evidence and preserves any outstanding later tests.",
-      "spoken": "evidence and preserves any outstanding later tests.",
+      "start": 140.814,
+      "end": 143.075,
+      "text": "that references the revised evidence",
+      "spoken": "that references the revised evidence",
+      "scene": 4
+    },
+    {
+      "start": 143.195,
+      "end": 145.734,
+      "text": "and preserves any outstanding later tests.",
+      "spoken": "and preserves any outstanding later tests.",
       "scene": 4
     }
   ]

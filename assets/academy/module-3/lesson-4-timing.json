@@ -1,262 +1,297 @@
 {
-  "duration": 126.80804166666665,
+  "duration": 127.02958333333333,
   "scenes": [
     {
       "start": 0,
-      "end": 30.03,
+      "end": 29.336,
       "title": "Follow the complete contact path"
     },
     {
-      "start": 30.03,
-      "end": 63.042,
+      "start": 29.336,
+      "end": 63.214,
       "title": "Separate grade from suitability"
     },
     {
-      "start": 63.042,
-      "end": 96.1,
+      "start": 63.214,
+      "end": 95.679,
       "title": "Make cleaning possible"
     },
     {
-      "start": 96.1,
-      "end": 126.808,
+      "start": 95.679,
+      "end": 127.03,
       "title": "Turn a concern into an action"
     }
   ],
   "cues": [
     {
       "start": 0,
-      "end": 4.106,
+      "end": 4.118,
       "text": "Trace the liquid from the vessel through the outlet and transfer hose.",
       "spoken": "Trace the liquid from the vessel through the outlet and transfer hose.",
       "scene": 1
     },
     {
-      "start": 4.226,
-      "end": 9.005,
-      "text": "Include impeller surfaces, seals, gaskets and valve seats, not just",
-      "spoken": "Include impeller surfaces, seals, gaskets and valve seats, not just",
+      "start": 4.238,
+      "end": 7.182,
+      "text": "Include impeller surfaces, seals, gaskets",
+      "spoken": "Include impeller surfaces, seals, gaskets",
       "scene": 1
     },
     {
-      "start": 9.125,
-      "end": 10.416,
-      "text": "the vessel shell.",
-      "spoken": "the vessel shell.",
+      "start": 7.302,
+      "end": 9.831,
+      "text": "and valve seats, not just the vessel shell.",
+      "spoken": "and valve seats, not just the vessel shell.",
       "scene": 1
     },
     {
-      "start": 10.536,
-      "end": 13.565,
+      "start": 9.951,
+      "end": 12.98,
       "text": "The diagram marks these as one contact path.",
       "spoken": "The diagram marks these as one contact path.",
       "scene": 1
     },
     {
-      "start": 13.685,
-      "end": 17.679,
-      "text": "A statement that the vessel is stainless steel leaves elastomers and",
-      "spoken": "A statement that the vessel is stainless steel leaves elastomers and",
+      "start": 13.1,
+      "end": 16.865,
+      "text": "A statement that the vessel is stainless steel leaves elastomers",
+      "spoken": "A statement that the vessel is stainless steel leaves elastomers",
       "scene": 1
     },
     {
-      "start": 17.799,
-      "end": 19.869,
-      "text": "purchased components unresolved.",
-      "spoken": "purchased components unresolved.",
+      "start": 16.985,
+      "end": 19.118,
+      "text": "and purchased components unresolved.",
+      "spoken": "and purchased components unresolved.",
       "scene": 1
     },
     {
-      "start": 19.989,
-      "end": 24.895,
-      "text": "Ask how each material is identified and justified for the product, cleaning",
-      "spoken": "Ask how each material is identified and justified for the product, cleaning",
+      "start": 19.238,
+      "end": 21.67,
+      "text": "Ask how each material is identified",
+      "spoken": "Ask how each material is identified",
       "scene": 1
     },
     {
-      "start": 25.015,
-      "end": 29.41,
-      "text": "agents, temperature and contact time relevant to the intended use.",
-      "spoken": "agents, temperature and contact time relevant to the intended use.",
+      "start": 21.79,
+      "end": 24.713,
+      "text": "and justified for the product, cleaning agents,",
+      "spoken": "and justified for the product, cleaning agents,",
       "scene": 1
     },
     {
-      "start": 30.03,
-      "end": 34.83,
-      "text": "A material certificate can support identity, but identity alone does not",
-      "spoken": "A material certificate can support identity, but identity alone does not",
+      "start": 24.833,
+      "end": 28.716,
+      "text": "temperature and contact time relevant to the intended use.",
+      "spoken": "temperature and contact time relevant to the intended use.",
+      "scene": 1
+    },
+    {
+      "start": 29.336,
+      "end": 33.773,
+      "text": "A material certificate can support identity, but identity alone does",
+      "spoken": "A material certificate can support identity, but identity alone does",
       "scene": 2
     },
     {
-      "start": 34.95,
-      "end": 39.238,
-      "text": "prove compatibility with a specific formulation or cleaning regime.",
-      "spoken": "prove compatibility with a specific formulation or cleaning regime.",
+      "start": 33.893,
+      "end": 38.458,
+      "text": "not prove compatibility with a specific formulation or cleaning regime.",
+      "spoken": "not prove compatibility with a specific formulation or cleaning regime.",
       "scene": 2
     },
     {
-      "start": 39.358,
-      "end": 43.753,
-      "text": "Similarly, a surface-finish number is useful only with a justified",
-      "spoken": "Similarly, a surface-finish number is useful only with a justified",
+      "start": 38.578,
+      "end": 40.946,
+      "text": "Similarly, a surface-finish number is",
+      "spoken": "Similarly, a surface-finish number is",
       "scene": 2
     },
     {
-      "start": 43.873,
-      "end": 46.902,
-      "text": "requirement and a defined verification method.",
-      "spoken": "requirement and a defined verification method.",
+      "start": 41.066,
+      "end": 43.882,
+      "text": "useful only with a justified requirement",
+      "spoken": "useful only with a justified requirement",
       "scene": 2
     },
     {
-      "start": 47.022,
-      "end": 51.438,
-      "text": "This introductory module does not prescribe a universal steel grade,",
-      "spoken": "This introductory module does not prescribe a universal steel grade,",
+      "start": 44.002,
+      "end": 46.264,
+      "text": "and a defined verification method.",
+      "spoken": "and a defined verification method.",
       "scene": 2
     },
     {
-      "start": 51.558,
-      "end": 53.606,
+      "start": 46.384,
+      "end": 48.389,
+      "text": "This introductory module does",
+      "spoken": "This introductory module does",
+      "scene": 2
+    },
+    {
+      "start": 48.509,
+      "end": 51.026,
+      "text": "not prescribe a universal steel grade,",
+      "spoken": "not prescribe a universal steel grade,",
+      "scene": 2
+    },
+    {
+      "start": 51.146,
+      "end": 53.194,
       "text": "roughness value or elastomer.",
       "spoken": "roughness value or elastomer.",
       "scene": 2
     },
     {
-      "start": 53.726,
-      "end": 58.227,
-      "text": "In the fictional review, mark the gasket compatibility statement missing and",
-      "spoken": "In the fictional review, mark the gasket compatibility statement missing and",
+      "start": 53.314,
+      "end": 55.314,
+      "text": "In the fictional review,",
+      "spoken": "In the fictional review,",
       "scene": 2
     },
     {
-      "start": 58.347,
-      "end": 62.422,
-      "text": "request product-specific evidence from the responsible specialists.",
-      "spoken": "request product-specific evidence from the responsible specialists.",
+      "start": 55.434,
+      "end": 58.25,
+      "text": "mark the gasket compatibility statement missing",
+      "spoken": "mark the gasket compatibility statement missing",
       "scene": 2
     },
     {
-      "start": 63.042,
-      "end": 67.117,
-      "text": "The design sketch contrasts a clear outlet path with a pocket that",
-      "spoken": "The design sketch contrasts a clear outlet path with a pocket that",
+      "start": 58.37,
+      "end": 62.594,
+      "text": "and request product-specific evidence from the responsible specialists.",
+      "spoken": "and request product-specific evidence from the responsible specialists.",
+      "scene": 2
+    },
+    {
+      "start": 63.214,
+      "end": 65.732,
+      "text": "The design sketch contrasts a clear outlet",
+      "spoken": "The design sketch contrasts a clear outlet",
       "scene": 3
     },
     {
-      "start": 67.237,
-      "end": 68.666,
-      "text": "may retain liquid.",
-      "spoken": "may retain liquid.",
+      "start": 65.852,
+      "end": 68.433,
+      "text": "path with a pocket that may retain liquid.",
+      "spoken": "path with a pocket that may retain liquid.",
       "scene": 3
     },
     {
-      "start": 68.786,
-      "end": 72.178,
-      "text": "Review access, cleaning coverage, disassembly needs,",
-      "spoken": "Review access, cleaning coverage, disassembly needs,",
+      "start": 68.553,
+      "end": 70.772,
+      "text": "Review access, cleaning coverage,",
+      "spoken": "Review access, cleaning coverage,",
       "scene": 3
     },
     {
-      "start": 72.298,
-      "end": 73.919,
-      "text": "drainage and inspection.",
-      "spoken": "drainage and inspection.",
+      "start": 70.892,
+      "end": 73.708,
+      "text": "disassembly needs, drainage and inspection.",
+      "spoken": "disassembly needs, drainage and inspection.",
       "scene": 3
     },
     {
-      "start": 74.039,
-      "end": 77.856,
-      "text": "Consider whether maintenance can be performed without creating an",
-      "spoken": "Consider whether maintenance can be performed without creating an",
+      "start": 73.828,
+      "end": 76.475,
+      "text": "Consider whether maintenance can be performed",
+      "spoken": "Consider whether maintenance can be performed",
       "scene": 3
     },
     {
-      "start": 77.976,
-      "end": 80.195,
-      "text": "uncontrolled product-quality risk.",
-      "spoken": "uncontrolled product-quality risk.",
+      "start": 76.595,
+      "end": 79.795,
+      "text": "without creating an uncontrolled product-quality risk.",
+      "spoken": "without creating an uncontrolled product-quality risk.",
       "scene": 3
     },
     {
-      "start": 80.315,
-      "end": 85.157,
-      "text": "A favourable drawing is only a design argument: cleaning effectiveness still",
-      "spoken": "A favourable drawing is only a design argument: cleaning effectiveness still",
+      "start": 79.915,
+      "end": 83.008,
+      "text": "A favourable drawing is only a design argument:",
+      "spoken": "A favourable drawing is only a design argument:",
       "scene": 3
     },
     {
-      "start": 85.277,
-      "end": 87.923,
-      "text": "needs the applicable validation evidence.",
-      "spoken": "needs the applicable validation evidence.",
+      "start": 83.128,
+      "end": 87.416,
+      "text": "cleaning effectiveness still needs the applicable validation evidence.",
+      "spoken": "cleaning effectiveness still needs the applicable validation evidence.",
       "scene": 3
     },
     {
-      "start": 88.043,
-      "end": 93.141,
-      "text": "Do not copy a hygienic-design ratio from another application and present it",
-      "spoken": "Do not copy a hygienic-design ratio from another application and present it",
+      "start": 87.536,
+      "end": 91.76,
+      "text": "Do not copy a hygienic-design ratio from another application",
+      "spoken": "Do not copy a hygienic-design ratio from another application",
       "scene": 3
     },
     {
-      "start": 93.261,
-      "end": 95.48,
-      "text": "as a universal GMP rule.",
-      "spoken": "as a universal G M P rule.",
+      "start": 91.88,
+      "end": 95.059,
+      "text": "and present it as a universal GMP rule.",
+      "spoken": "and present it as a universal G M P rule.",
       "scene": 3
     },
     {
-      "start": 96.1,
-      "end": 100.729,
-      "text": "Our worked finding is specific: the outlet drawing shows a retained pocket",
-      "spoken": "Our worked finding is specific: the outlet drawing shows a retained pocket",
+      "start": 95.679,
+      "end": 97.679,
+      "text": "Our worked finding is specific:",
+      "spoken": "Our worked finding is specific:",
       "scene": 4
     },
     {
-      "start": 100.849,
-      "end": 102.513,
-      "text": "with no cleaning rationale.",
-      "spoken": "with no cleaning rationale.",
+      "start": 97.799,
+      "end": 102.044,
+      "text": "the outlet drawing shows a retained pocket with no cleaning rationale.",
+      "spoken": "the outlet drawing shows a retained pocket with no cleaning rationale.",
       "scene": 4
     },
     {
-      "start": 102.633,
-      "end": 107.711,
-      "text": "Record the drawing revision and location, request a revised arrangement or a",
-      "spoken": "Record the drawing revision and location, request a revised arrangement or a",
+      "start": 102.164,
+      "end": 104.724,
+      "text": "Record the drawing revision and location,",
+      "spoken": "Record the drawing revision and location,",
       "scene": 4
     },
     {
-      "start": 107.831,
-      "end": 111.009,
-      "text": "justified control strategy, and assign an owner.",
-      "spoken": "justified control strategy, and assign an owner.",
+      "start": 104.844,
+      "end": 109.111,
+      "text": "request a revised arrangement or a justified control strategy,",
+      "spoken": "request a revised arrangement or a justified control strategy,",
       "scene": 4
     },
     {
-      "start": 111.129,
-      "end": 115.183,
+      "start": 109.231,
+      "end": 111.231,
+      "text": "and assign an owner.",
+      "spoken": "and assign an owner.",
+      "scene": 4
+    },
+    {
+      "start": 111.351,
+      "end": 115.404,
       "text": "Link the response to installation inspection and the cleaning study.",
       "spoken": "Link the response to installation inspection and the cleaning study.",
       "scene": 4
     },
     {
-      "start": 115.303,
-      "end": 118.631,
+      "start": 115.524,
+      "end": 118.852,
       "text": "Avoid a vague action such as improve cleanability.",
       "spoken": "Avoid a vague action such as improve cleanability.",
       "scene": 4
     },
     {
-      "start": 118.751,
-      "end": 123.679,
+      "start": 118.972,
+      "end": 123.9,
       "text": "A closed action needs reviewed evidence that addresses the actual concern,",
       "spoken": "A closed action needs reviewed evidence that addresses the actual concern,",
       "scene": 4
     },
     {
-      "start": 123.799,
-      "end": 126.188,
+      "start": 124.02,
+      "end": 126.41,
       "text": "not merely an email saying resolved.",
       "spoken": "not merely an email saying resolved.",
       "scene": 4

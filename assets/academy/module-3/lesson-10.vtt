@@ -10,159 +10,171 @@ Eight have adequate design evidence; two
 remain open.
 
 3
-00:00:06.299 --> 00:00:10.651
-The arithmetic coverage is 80%, but there
-is no eighty-percent
+00:00:06.299 --> 00:00:08.773
+The arithmetic coverage is 80%,
 
 4
-00:00:10.771 --> 00:00:12.648
-DQ acceptance threshold.
+00:00:08.893 --> 00:00:12.179
+but there is no eighty-percent DQ
+acceptance threshold.
 
 5
-00:00:12.768 --> 00:00:16.395
+00:00:12.299 --> 00:00:15.925
 The first gap concerns an unspecified
 contact gasket.
 
 6
-00:00:16.515 --> 00:00:20.888
+00:00:16.045 --> 00:00:20.419
 The second concerns an unproven response
 to a shared sensor failure.
 
 7
-00:00:21.008 --> 00:00:24.955
+00:00:20.539 --> 00:00:24.485
 The diagram deliberately puts the coverage
 bar beside the gaps.
 
 8
-00:00:25.075 --> 00:00:29.064
-A high completion percentage does not
-remove the importance of
+00:00:24.605 --> 00:00:26.760
+A high completion percentage does
 
 9
-00:00:29.184 --> 00:00:30.476
-what is missing.
+00:00:26.880 --> 00:00:29.527
+not remove the importance of what is
+missing.
 
 10
-00:00:31.096 --> 00:00:36.024
+00:00:30.147 --> 00:00:33.134
 The supported conclusion is that this
-package does not justify routine use
+package does
 
 11
-00:00:36.144 --> 00:00:40.198
-or a complete favourable design conclusion
-for the affected scope.
+00:00:33.254 --> 00:00:36.688
+not justify routine use or a complete
+favourable
 
 12
-00:00:40.318 --> 00:00:44.627
-Some limited work may continue only
-through the applicable documented
+00:00:36.808 --> 00:00:39.390
+design conclusion for the affected scope.
 
 13
-00:00:44.747 --> 00:00:46.731
-assessment and authorization.
+00:00:39.510 --> 00:00:42.240
+Some limited work may continue only
+through
 
 14
-00:00:46.851 --> 00:00:50.783
+00:00:42.360 --> 00:00:45.731
+the applicable documented assessment and
+authorization.
+
+15
+00:00:45.851 --> 00:00:49.792
 Ask what activity is proposed and whether
 the gaps could affect it.
 
-15
-00:00:50.903 --> 00:00:54.444
+16
+00:00:49.912 --> 00:00:53.454
 Do not approve a blank category called
 conditional release.
 
-16
-00:00:54.564 --> 00:00:59.535
-Name the activity, restrictions,
-responsible decision-maker and conditions
-
 17
-00:00:59.655 --> 00:01:01.234
-that must be met first.
+00:00:53.574 --> 00:00:57.670
+Name the activity, restrictions,
+responsible decision-maker
 
 18
-00:01:01.854 --> 00:01:06.163
-Prepare a handover containing the accepted
-design baseline, reviewed
+00:00:57.790 --> 00:01:00.222
+and conditions that must be met first.
 
 19
-00:01:06.283 --> 00:01:10.827
-requirements, risk/control rationale,
-open-action register and
+00:01:00.842 --> 00:01:04.618
+Prepare a handover containing the accepted
+design baseline,
 
 20
-00:01:10.947 --> 00:01:12.696
-planned verification links.
+00:01:04.738 --> 00:01:08.044
+reviewed requirements, risk/control
+rationale,
 
 21
-00:01:12.816 --> 00:01:17.510
-Installation qualification will need the
-correct drawings, specifications
+00:01:08.164 --> 00:01:11.514
+open-action register and planned
+verification links.
 
 22
-00:01:17.630 --> 00:01:19.358
-and component identities.
+00:01:11.634 --> 00:01:15.282
+Installation qualification will need the
+correct drawings,
 
 23
-00:01:19.478 --> 00:01:23.979
-Unresolved design choices should not
-disappear into a signature page.
+00:01:15.402 --> 00:01:18.282
+specifications and component identities.
 
 24
-00:01:24.099 --> 00:01:28.664
+00:01:18.402 --> 00:01:20.535
+Unresolved design choices should
+
+25
+00:01:20.655 --> 00:01:23.002
+not disappear into a signature page.
+
+26
+00:01:23.122 --> 00:01:27.687
 Identify which installation activities
 depend on closing each gap.
 
-25
-00:01:28.784 --> 00:01:33.371
-This creates a practical connection to
-Module 4 rather than implying that
-
-26
-00:01:33.491 --> 00:01:36.951
-the next stage starts simply because this
-course has ended.
-
 27
-00:01:37.571 --> 00:01:40.792
+00:01:27.807 --> 00:01:31.028
+This creates a practical connection to
+Module 4
+
+28
+00:01:31.148 --> 00:01:34.325
+rather than implying that the next stage
+starts simply
+
+29
+00:01:34.445 --> 00:01:36.445
+because this course has ended.
+
+30
+00:01:37.065 --> 00:01:40.286
 Your final task is to write a short
 decision memo.
 
-28
-00:01:40.912 --> 00:01:44.906
+31
+00:01:40.406 --> 00:01:43.465
 State what was reviewed, what the evidence
-supports, which important
+supports,
 
-29
-00:01:45.026 --> 00:01:47.970
-questions remain and what action is
-required.
+32
+00:01:43.585 --> 00:01:47.361
+which important questions remain and what
+action is required.
 
-30
-00:01:48.090 --> 00:01:52.399
+33
+00:01:47.481 --> 00:01:51.790
 Explain why the completion percentage does
 not determine suitability.
 
-31
-00:01:52.519 --> 00:01:55.748
+34
+00:01:51.910 --> 00:01:54.322
 Compare your memo with the worked answer,
-then take the
 
-32
-00:01:55.868 --> 00:01:57.742
-separate application assessment.
+35
+00:01:54.442 --> 00:01:57.148
+then take the separate application
+assessment.
 
-33
-00:01:57.862 --> 00:02:00.784
+36
+00:01:57.268 --> 00:02:00.191
 Course completion is self-study evidence
 only.
 
-34
-00:02:00.904 --> 00:02:05.662
+37
+00:02:00.311 --> 00:02:02.913
 It does not replace supervised experience,
-an independent technical review
 
-35
-00:02:05.782 --> 00:02:08.918
-or authorization to perform regulated
-work.
+38
+00:02:03.033 --> 00:02:08.345
+an independent technical review or
+authorization to perform regulated work.

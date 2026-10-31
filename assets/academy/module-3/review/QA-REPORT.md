@@ -1,3 +1,17 @@
+# Module 3 — revision R2 review status
+
+Preview edition M3-20261031-R2 corrects Claude findings F1–F10 against the previous af9c21d candidate. See claude-review-response.md for the changes and remaining human checks. The previous review does not approve this new revision.
+
+Narration, timings and captions are regenerated for R2. Read the current media-results.json, frame-results.json and browser-results.json for generated evidence. The workflow artifact additionally contains hosted-delivery-results.json and hosted-browser-results.json, produced after the saved commit reaches Cloudflare. A workflow run is successful only if its final status is success; do not treat this document or historical counts as a passing result.
+
+The preview footer and review-build.json identify the served commit. Generated MP4s, captions, PNGs, timing records and transcripts are saved in git by the workflow after local QA. Hosted byte comparisons and playback checks then test the saved candidate. The final artifact is linked from draft PR #3.
+
+Independent GMP consultant sign-off against the exact new commit, full listening/visual acceptance, physical Android/iOS checks, screen-reader evaluation, rights/privacy acceptance and explicit owner production authorization remain outstanding. No merge or production publication is authorized.
+
+## Historical recovery record — R1 only
+
+The following records the earlier recovery; its duration, hashes and test counts are not R2 results. In particular visual-recovery.json proves audio preservation during the R1 illustration repair, not during R2 narration revision.
+
 # Module 3 — Design Qualification: recovery and consolidated review
 
 Preview only. Independent GMP consultant approval and owner release authorization remain mandatory. Module 1/2 approval does not approve Module 3.

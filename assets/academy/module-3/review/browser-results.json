@@ -706,10 +706,10 @@
       "name": "Lesson 1 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 120.2,
-        "cues": 34,
-        "source": "blob:http://127.0.0.1:8092/4a87012f-f6d5-4e5c-b434-21a96354b891",
-        "downloadSource": "/assets/academy/module-3/lesson-1.mp4?v=3d639ad3556f"
+        "duration": 118.723,
+        "cues": 35,
+        "source": "blob:http://127.0.0.1:8092/d962daf0-ab5b-4514-ac7a-b3a5e998f61d",
+        "downloadSource": "/assets/academy/module-3/lesson-1.mp4?v=5db6ea36c595"
       }
     },
     {
@@ -728,16 +728,16 @@
       "name": "Lesson 1 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 28.743478,
-        "duration": 120.2
+        "actualSeconds": 28.390282,
+        "duration": 118.723
       }
     },
     {
       "name": "Lesson 1 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 91.456521,
-        "duration": 120.2
+        "actualSeconds": 90.332717,
+        "duration": 118.723
       }
     },
     {
@@ -824,10 +824,10 @@
       "name": "Lesson 2 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 122.607,
-        "cues": 32,
-        "source": "blob:http://127.0.0.1:8092/7473a3e4-f51e-4c79-9410-8af21ee5d2f3",
-        "downloadSource": "/assets/academy/module-3/lesson-2.mp4?v=99cb1d400d93"
+        "duration": 122,
+        "cues": 36,
+        "source": "blob:http://127.0.0.1:8092/8ed3ba86-66ed-4f9c-a756-2910d7fb6757",
+        "downloadSource": "/assets/academy/module-3/lesson-2.mp4?v=388adde79eb0"
       }
     },
     {
@@ -846,16 +846,16 @@
       "name": "Lesson 2 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 29.319065,
-        "duration": 122.607
+        "actualSeconds": 29.173913,
+        "duration": 122
       }
     },
     {
       "name": "Lesson 2 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 93.287934,
-        "duration": 122.607
+        "actualSeconds": 92.826086,
+        "duration": 122
       }
     },
     {
@@ -942,10 +942,10 @@
       "name": "Lesson 3 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 131.143,
-        "cues": 35,
-        "source": "blob:http://127.0.0.1:8092/9fd6c8f7-79ad-47e6-b446-e5a32f5dc608",
-        "downloadSource": "/assets/academy/module-3/lesson-3.mp4?v=728a52538196"
+        "duration": 140.244,
+        "cues": 40,
+        "source": "blob:http://127.0.0.1:8092/da63eb27-b53a-43c6-bc24-0d889a679fb2",
+        "downloadSource": "/assets/academy/module-3/lesson-3.mp4?v=a9ea359414fa"
       }
     },
     {
@@ -964,16 +964,16 @@
       "name": "Lesson 3 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 31.360282,
-        "duration": 131.143
+        "actualSeconds": 33.536608,
+        "duration": 140.244
       }
     },
     {
       "name": "Lesson 3 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 99.782717,
-        "duration": 131.143
+        "actualSeconds": 106.707391,
+        "duration": 140.244
       }
     },
     {
@@ -1060,10 +1060,10 @@
       "name": "Lesson 4 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 126.808,
-        "cues": 34,
-        "source": "blob:http://127.0.0.1:8092/418e56a6-6011-440a-ba4a-d9fb00e213b5",
-        "downloadSource": "/assets/academy/module-3/lesson-4.mp4?v=222f10201f77"
+        "duration": 127.03,
+        "cues": 39,
+        "source": "blob:http://127.0.0.1:8092/1d0b6322-6860-401a-9352-50096d7518ba",
+        "downloadSource": "/assets/academy/module-3/lesson-4.mp4?v=c0c0c8c4a7f4"
       }
     },
     {
@@ -1082,16 +1082,16 @@
       "name": "Lesson 4 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 30.323652,
-        "duration": 126.808
+        "actualSeconds": 30.376739,
+        "duration": 127.03
       }
     },
     {
       "name": "Lesson 4 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 96.484347,
-        "duration": 126.808
+        "actualSeconds": 96.65326,
+        "duration": 127.03
       }
     },
     {
@@ -1178,10 +1178,10 @@
       "name": "Lesson 5 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 131.003,
-        "cues": 35,
-        "source": "blob:http://127.0.0.1:8092/a2367d3b-d55e-4a84-ba7a-91506bc379c3",
-        "downloadSource": "/assets/academy/module-3/lesson-5.mp4?v=73f329c9ca57"
+        "duration": 141.1,
+        "cues": 41,
+        "source": "blob:http://127.0.0.1:8092/68d55835-6668-4e0b-966e-118f556e37a6",
+        "downloadSource": "/assets/academy/module-3/lesson-5.mp4?v=f386cad519e2"
       }
     },
     {
@@ -1200,16 +1200,16 @@
       "name": "Lesson 5 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 31.326804,
-        "duration": 131.003
+        "actualSeconds": 33.741304,
+        "duration": 141.1
       }
     },
     {
       "name": "Lesson 5 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 99.676195,
-        "duration": 131.003
+        "actualSeconds": 107.358695,
+        "duration": 141.1
       }
     },
     {
@@ -1296,10 +1296,10 @@
       "name": "Lesson 6 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 121.134,
-        "cues": 33,
-        "source": "blob:http://127.0.0.1:8092/02a1340a-71cb-4870-a47b-15c202a2a8a5",
-        "downloadSource": "/assets/academy/module-3/lesson-6.mp4?v=d88798813d18"
+        "duration": 122.74,
+        "cues": 40,
+        "source": "blob:http://127.0.0.1:8092/90c8c7f7-9c41-42f5-b959-17dda328badd",
+        "downloadSource": "/assets/academy/module-3/lesson-6.mp4?v=1d2f585c83b5"
       }
     },
     {
@@ -1318,16 +1318,16 @@
       "name": "Lesson 6 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 28.966826,
-        "duration": 121.134
+        "actualSeconds": 29.350869,
+        "duration": 122.74
       }
     },
     {
       "name": "Lesson 6 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 92.167173,
-        "duration": 121.134
+        "actualSeconds": 93.38913,
+        "duration": 122.74
       }
     },
     {
@@ -1414,10 +1414,10 @@
       "name": "Lesson 7 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 127.014,
-        "cues": 34,
-        "source": "blob:http://127.0.0.1:8092/6f63ecac-43ee-4c3c-8768-a3baa382ba0d",
-        "downloadSource": "/assets/academy/module-3/lesson-7.mp4?v=482aee56f9a1"
+        "duration": 125.816,
+        "cues": 39,
+        "source": "blob:http://127.0.0.1:8092/f717ad50-4ece-4446-8059-d7fb669a43f1",
+        "downloadSource": "/assets/academy/module-3/lesson-7.mp4?v=bbe8e7e2e4f5"
       }
     },
     {
@@ -1436,16 +1436,16 @@
       "name": "Lesson 7 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 30.372913,
-        "duration": 127.014
+        "actualSeconds": 30.086434,
+        "duration": 125.816
       }
     },
     {
       "name": "Lesson 7 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 96.641086,
-        "duration": 127.014
+        "actualSeconds": 95.729565,
+        "duration": 125.816
       }
     },
     {
@@ -1532,10 +1532,10 @@
       "name": "Lesson 8 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 128.602,
-        "cues": 37,
-        "source": "blob:http://127.0.0.1:8092/5311d6d3-2fd1-4889-a86d-bcd99a1d2901",
-        "downloadSource": "/assets/academy/module-3/lesson-8.mp4?v=a658582b973e"
+        "duration": 127.049,
+        "cues": 39,
+        "source": "blob:http://127.0.0.1:8092/be27ed22-82c1-48ed-9ae6-63e6c8348c06",
+        "downloadSource": "/assets/academy/module-3/lesson-8.mp4?v=77b9ad06d282"
       }
     },
     {
@@ -1554,16 +1554,16 @@
       "name": "Lesson 8 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 30.752652,
-        "duration": 128.602
+        "actualSeconds": 30.381282,
+        "duration": 127.049
       }
     },
     {
       "name": "Lesson 8 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 97.849347,
-        "duration": 128.602
+        "actualSeconds": 96.667717,
+        "duration": 127.049
       }
     },
     {
@@ -1650,10 +1650,10 @@
       "name": "Lesson 9 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 124.825,
-        "cues": 35,
-        "source": "blob:http://127.0.0.1:8092/e795457c-8a80-457b-8b55-fe2a79870088",
-        "downloadSource": "/assets/academy/module-3/lesson-9.mp4?v=efed89c12ddb"
+        "duration": 146.4,
+        "cues": 44,
+        "source": "blob:http://127.0.0.1:8092/69470160-a9c7-4ca1-a660-4d1ba1888b65",
+        "downloadSource": "/assets/academy/module-3/lesson-9.mp4?v=175c2ebe4ec8"
       }
     },
     {
@@ -1672,16 +1672,16 @@
       "name": "Lesson 9 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 29.849456,
-        "duration": 124.825
+        "actualSeconds": 35.008695,
+        "duration": 146.4
       }
     },
     {
       "name": "Lesson 9 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 94.975543,
-        "duration": 124.825
+        "actualSeconds": 111.391304,
+        "duration": 146.4
       }
     },
     {
@@ -1768,10 +1768,10 @@
       "name": "Lesson 10 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 129.538,
-        "cues": 35,
-        "source": "blob:http://127.0.0.1:8092/8f621a06-4611-45e2-897f-77672785bdac",
-        "downloadSource": "/assets/academy/module-3/lesson-10.mp4?v=ed3a7d994c1e"
+        "duration": 129,
+        "cues": 38,
+        "source": "blob:http://127.0.0.1:8092/e7721643-13fd-4b20-9ed6-937c19e632ab",
+        "downloadSource": "/assets/academy/module-3/lesson-10.mp4?v=b44667a736cc"
       }
     },
     {
@@ -1790,16 +1790,16 @@
       "name": "Lesson 10 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 30.976478,
-        "duration": 129.538
+        "actualSeconds": 30.847826,
+        "duration": 129
       }
     },
     {
       "name": "Lesson 10 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 98.561521,
-        "duration": 129.538
+        "actualSeconds": 98.152173,
+        "duration": 129
       }
     },
     {
@@ -1876,6 +1876,14 @@
     },
     {
       "name": "Full assessment score",
+      "pass": true
+    },
+    {
+      "name": "85 percent practice boundary 16",
+      "pass": true
+    },
+    {
+      "name": "85 percent practice boundary 17",
       "pass": true
     },
     {

@@ -1,14 +1,14 @@
 {
-  "checks": 140,
+  "checks": 150,
   "failures": [],
-  "duration_minutes": 21.047115972222226,
+  "duration_minutes": 21.665953472222224,
   "rows": [
     {
       "lesson": 1,
-      "duration": 120.15495833333331,
-      "cues": 34,
-      "max_cps": 17.03577512776832,
-      "sha256": "3d639ad3556fb7ad6d78897e075d65fdb1c2f9feadcef6ae3d159d8b3ef2425b",
+      "duration": 118.72250000000001,
+      "cues": 35,
+      "max_cps": 17.001983564749203,
+      "sha256": "5db6ea36c5959cdf406adc9695f81cb819551ce362e83fb66c4946e01eab24a3",
       "checks": {
         "h264": true,
         "aac": true,
@@ -22,16 +22,17 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
     },
     {
       "lesson": 2,
-      "duration": 122.60675,
-      "cues": 32,
-      "max_cps": 17.069701280227566,
-      "sha256": "99cb1d400d9399f4da7b8b930d3125262532e8c14008f5954bea85ff7b45afa4",
+      "duration": 121.98741666666666,
+      "cues": 36,
+      "max_cps": 16.99819168173598,
+      "sha256": "388adde79eb0e759a326b5618b118d3bc12d57e237c4721740155e2354e12f38",
       "checks": {
         "h264": true,
         "aac": true,
@@ -45,16 +46,17 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
     },
     {
       "lesson": 3,
-      "duration": 131.14304166666668,
-      "cues": 35,
-      "max_cps": 17.051153460381144,
-      "sha256": "728a525381965cf89a4ccbe84ac8ed89d9a2875f7bda57d39c171a79249d4a31",
+      "duration": 140.243875,
+      "cues": 40,
+      "max_cps": 16.999260901699905,
+      "sha256": "a9ea359414fa4cba4289a6066062a80e908bcfb8ce612f7f8ce1f3d08fd81b88",
       "checks": {
         "h264": true,
         "aac": true,
@@ -68,16 +70,17 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
     },
     {
       "lesson": 4,
-      "duration": 126.80804166666665,
-      "cues": 34,
-      "max_cps": 17.04822211397954,
-      "sha256": "222f10201f77192f9f51fe1cacfc016d212f424d228a3faf724bb2a0187a4b4d",
+      "duration": 127.02958333333333,
+      "cues": 39,
+      "max_cps": 17.002767892447608,
+      "sha256": "c0c0c8c4a7f43e229bd6cefad7659ce45b4737fff3c4997a968d4259380749c5",
       "checks": {
         "h264": true,
         "aac": true,
@@ -91,16 +94,17 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
     },
     {
       "lesson": 5,
-      "duration": 131.00245833333335,
-      "cues": 35,
-      "max_cps": 17.041244751790536,
-      "sha256": "73f329c9ca570e254347392fea3aeeeb7ea40333fcaaf97665b8fafbacf8428e",
+      "duration": 141.05074999999997,
+      "cues": 41,
+      "max_cps": 16.997845343548004,
+      "sha256": "f386cad519e20bdee7428a1334d21f3774730d7eeac401e2cb8d9c01798d7818",
       "checks": {
         "h264": true,
         "aac": true,
@@ -114,16 +118,17 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
     },
     {
       "lesson": 6,
-      "duration": 121.13366666666667,
-      "cues": 33,
-      "max_cps": 17.117614577581513,
-      "sha256": "d88798813d18f29e7a90bec775b6a6f75e44888216dccbad5b9265061289eb45",
+      "duration": 122.73954166666667,
+      "cues": 40,
+      "max_cps": 17.00404858299591,
+      "sha256": "1d2f585c83b51f2b3aaba3178b184e5495471768e0796a85f8a8f4ca8ed906db",
       "checks": {
         "h264": true,
         "aac": true,
@@ -137,16 +142,17 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
     },
     {
       "lesson": 7,
-      "duration": 127.01383333333337,
-      "cues": 34,
-      "max_cps": 17.04718417047186,
-      "sha256": "482aee56f9a131f3136a253278972f1ce2cac72175e0790f2f525dde839b8ad6",
+      "duration": 125.81570833333333,
+      "cues": 39,
+      "max_cps": 17.00367647058822,
+      "sha256": "bbe8e7e2e4f5b26f4a79db729fbf965d479d5c9293c2ceec80207513844a2a49",
       "checks": {
         "h264": true,
         "aac": true,
@@ -160,16 +166,17 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
     },
     {
       "lesson": 8,
-      "duration": 128.6015833333333,
-      "cues": 37,
-      "max_cps": 17.108639863130822,
-      "sha256": "a658582b973e86091bdc17e702a5c1fff698e6189daed618dafb68dde9a0073a",
+      "duration": 127.0486666666667,
+      "cues": 39,
+      "max_cps": 17.00223713646533,
+      "sha256": "77b9ad06d282489311fff6b620fed875ef9f881aeb48c2f6e84851c145a77472",
       "checks": {
         "h264": true,
         "aac": true,
@@ -183,16 +190,17 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
     },
     {
       "lesson": 9,
-      "duration": 124.82508333333335,
-      "cues": 35,
-      "max_cps": 17.02862783810461,
-      "sha256": "efed89c12ddb7fd1a486e8e68ca3cc2bc09666c6d20d7b4023d37738f0e7e0cd",
+      "duration": 146.35379166666675,
+      "cues": 44,
+      "max_cps": 17.000871839581436,
+      "sha256": "175c2ebe4ec86d6e3a6abbf20e424a86844ea4d8a7113bbe1803b510f8768e86",
       "checks": {
         "h264": true,
         "aac": true,
@@ -206,16 +214,17 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
     },
     {
       "lesson": 10,
-      "duration": 129.53754166666664,
-      "cues": 35,
-      "max_cps": 17.07577374599778,
-      "sha256": "ed3a7d994c1efb6a292226d6bf4dda5293ea83e7528910fc795425767c342b79",
+      "duration": 128.965375,
+      "cues": 38,
+      "max_cps": 17.00076122811468,
+      "sha256": "b44667a736cc2f5c827afb0fd29f48300423356d6fcb171c4c9ff042affb9140",
       "checks": {
         "h264": true,
         "aac": true,
@@ -229,6 +238,7 @@
         "caption_speed": true,
         "four_scenes": true,
         "no_orphan_cues": true,
+        "minimum_cue_duration": true,
         "scene_alignment": true,
         "four_pngs_decode": true
       }
