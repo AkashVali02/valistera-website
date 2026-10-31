@@ -1,0 +1,59 @@
+name: Module 3 production verification
+on:
+  push:
+    branches: [main]
+    paths: ['academy/module-3/**','academy/tests/module3*','assets/academy/module-3/**','academy-lesson-3-*.html','academy-module-3*.html','academy.html','academy/releases/module-3*','.github/workflows/module3-production-qa.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  production-check:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate release and install browser
+        run: |
+          python3 academy/tests/module3-content.py
+          python3 academy/module-3/media-current.py
+          node academy/module-2/stamp-build.cjs
+          node academy/module-3/stamp-build.cjs
+          node validate-site.cjs
+          npm install --no-save playwright axe-core
+          npx playwright install --with-deps chromium
+      - name: Verify production commit and file delivery
+        run: |
+          expected=$(git rev-parse HEAD)
+          base=https://valistera.com
+          for attempt in $(seq 1 40); do
+            served=$(curl -fsS --max-time 15 "$base/assets/academy/module-3/review/review-build.json?release=$expected" | python3 -c 'import json,sys; print(json.load(sys.stdin)["source_commit"])' || true)
+            if [ "$served" = "$expected" ]; then break; fi
+            sleep 10
+          done
+          test "$served" = "$expected"
+          python3 academy/tests/module3-delivery.py "$base" "$expected" academy/review/module-3/production-delivery-results.json
+          curl -fsS "$base/academy?release=$expected" | grep -q 'Start Module 3'
+      - name: Browser QA on production
+        env:
+          BASE_URL: https://valistera.com
+          PLAYWRIGHT_MODULE: playwright
+          AXE_PATH: node_modules/axe-core/axe.min.js
+          RESULT_PATH: academy/review/module-3/production-browser-results.json
+          SCREENSHOT_DIR: /tmp
+        run: node academy/tests/module3-browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: module3-production-evidence
+          path: |
+            academy/review/module-3/production-*.json
+            assets/academy/module-3/review/review-build.json
+            academy/releases/module-3-2026-10-31.md
+            /tmp/module3-*.png
