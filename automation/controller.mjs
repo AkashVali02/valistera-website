@@ -7,18 +7,21 @@ import { validateTask } from "./policy.mjs";
  * No network calls or secrets are contained in this module.
  */
 export class OperationsController {
-  constructor({ store, handlers = {}, now = () => new Date().toISOString() }) {
+  constructor({ store, handlers = {}, verifyApproval = async () => false, now = () => new Date().toISOString() }) {
     if (!store || typeof store.insertIfAbsent !== "function" || typeof store.claim !== "function" ||
         typeof store.get !== "function" || typeof store.save !== "function") {
       throw new TypeError("Transactional task store required");
     }
     this.store = store;
     this.handlers = handlers;
+    this.verifyApproval = verifyApproval;
     this.now = now;
   }
 
   async submit(task) {
-    const decision = validateTask(task);
+    const approvalVerified = task?.approval ? await this.verifyApproval(task.approval, task) : false;
+    const checkedTask = approvalVerified ? task : { ...task, approval: undefined };
+    const decision = validateTask(checkedTask);
     if (!decision.ok && decision.error !== "approval_required") {
       return { accepted: false, error: decision.error };
     }
@@ -30,7 +33,7 @@ export class OperationsController {
       state: decision.ok ? "queued" : "awaiting_approval",
       createdAt: this.now(), updatedAt: this.now(),
       attempts: 0, result: null, error: null,
-      approval: task.approval ?? null
+      approval: approvalVerified ? task.approval : null
     };
     const inserted = await this.store.insertIfAbsent(record);
     if (!inserted) return { accepted: true, duplicate: true, task: await this.store.get(task.id) };
