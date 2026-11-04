@@ -1,0 +1,20 @@
+name: ValiStera AI Operations Unit Tests
+on:
+  pull_request:
+    paths:
+      - 'automation/**'
+      - '.github/workflows/ai-operations-tests.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run isolated unit tests
+        run: node --test automation/*.test.mjs
