@@ -42,3 +42,10 @@ Run `node --test automation/policy.test.mjs` using Node 20+; test has not yet be
 - `MemoryTaskStore` is **test-only** and not durable across restarts or safe across multiple workers.
 - Approval verifier defaults to denial; production must authenticate signatures, identities, task/artifact version and expiry. The example callback accepting all approvals is for isolated tests only.
 - No external adapters, durable database, retry scheduler, queue, or deployed API exist yet. Tests are authored but not verified as executed.
+
+## D1 persistence and CI (4 Nov 2026)
+- `migrations/0001_tasks.sql` defines durable task records; **not applied to any database**.
+- `d1-store.mjs` implements atomic `INSERT OR IGNORE`, conditional queued-to-running claims, and guarded finalization for Cloudflare D1.
+- `.github/workflows/ai-operations-tests.yml` runs isolated Node 22 unit tests for automation files on PR changes. Workflow status is not yet verified.
+- D1 adapter still needs integration tests against actual SQLite/D1 and recovery for abandoned `running` tasks; no queue worker, secret vault or runtime has been deployed.
+- No external task handler should be enabled until authenticated approvals, per-action permissions, idempotent side effects and observability are implemented.
