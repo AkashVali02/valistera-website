@@ -35,3 +35,10 @@
 
 ## Verification and next milestones
 Run `node --test automation/policy.test.mjs` using Node 20+; test has not yet been executed by the assistant. Then configure CI, durable storage and a real controller, verify connected service scopes, implement staging with synthetic test records, and test end-to-end before production.
+
+## Controller implementation status (4 Nov 2026)
+- `controller.mjs` provides injected transactional-store contract, duplicate task admission, atomic claims, state transitions, and handler isolation.
+- `controller.test.mjs` covers single execution, duplicate submissions, verified approval, unavailable handlers, failure redaction, and GMP human-only gates.
+- `MemoryTaskStore` is **test-only** and not durable across restarts or safe across multiple workers.
+- Approval verifier defaults to denial; production must authenticate signatures, identities, task/artifact version and expiry. The example callback accepting all approvals is for isolated tests only.
+- No external adapters, durable database, retry scheduler, queue, or deployed API exist yet. Tests are authored but not verified as executed.
