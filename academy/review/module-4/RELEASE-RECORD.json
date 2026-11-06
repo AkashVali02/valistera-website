@@ -1,0 +1,13 @@
+{
+  "module": 4,
+  "edition": "M4-20261106-R2",
+  "reviewed_candidate": "9259b4025dc1b5fb6146d126f6e67c04856cdfe4",
+  "owner_reported_all_reviews_passed": true,
+  "production_authorized": true,
+  "authorization_date": "2026-11-06",
+  "timezone": "Asia/Kolkata",
+  "authorization_text": "all reviews have been passed and command you to release it to web",
+  "approval_evidence": "Owner statement in project conversation. Signed consultant records were not independently inspected by the agent. No certification is asserted.",
+  "release_scope": "Academy navigation and release metadata only; preserve reviewed technical content, assessment, playback code and media.",
+  "candidate_evidence": "https://academy-module-4-evidence-valistera-website.gadadeakash72.workers.dev/assets/academy/module-4/evidence/9259b4025dc1b5fb6146d126f6e67c04856cdfe4/"
+}
