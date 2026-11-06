@@ -1,0 +1,57 @@
+{
+  "tested_commit": "9259b4025dc1b5fb6146d126f6e67c04856cdfe4",
+  "edition": "M4-20261106-R2",
+  "local_browser_commit": "9db44902ef6b2d682507d85fee0e71ef02bfa8ff",
+  "media_and_frame_hashes_match_candidate": true,
+  "workflow_source_commit": "9db44902ef6b2d682507d85fee0e71ef02bfa8ff",
+  "workflow_run": 42191251977,
+  "workflow_url": "https://github.com/AkashVali02/valistera-website/actions/runs/42191251977",
+  "artifact_id": 13489948620,
+  "artifact_sha256": "7a57c274c45c9080e8f36fd316960463c9495ca399ee7e8470560dfd86730c5d",
+  "hosted_base": "https://academy-module-4-valistera-website.gadadeakash72.workers.dev",
+  "hosted_checked_at": "2026-11-06T09:00:47.307097+00:00",
+  "manifest_matches": true,
+  "reports": [
+    {
+      "file": "media-results.json",
+      "checks": 150,
+      "failures": 0
+    },
+    {
+      "file": "frame-results.json",
+      "checks": 40,
+      "failures": 0
+    },
+    {
+      "file": "browser-results.json",
+      "checks": 435,
+      "failures": 0
+    },
+    {
+      "file": "hosted-delivery-results.json",
+      "checks": 147,
+      "failures": 0
+    },
+    {
+      "file": "hosted-browser-results.json",
+      "checks": 435,
+      "failures": 0
+    }
+  ],
+  "sha256": {
+    "media-results.json": "a44d6cc992ad1221b9d10dfee3f82f8fa93c75e296ab4ba1c71ae9770a869262",
+    "frame-results.json": "47b8bdf1891c392505290a67e0d4ab7fe62007ebbcc01bc6ad7d111387e675a1",
+    "browser-results.json": "1d90d89c57f15f302f8646e79dfb373095cbd29564f7e07e8c5c32999ffd2240",
+    "hosted-delivery-results.json": "8ad94af2354b2c3ef077cdad29b5630149464cd98b42ce64a605e8a66ddc5884",
+    "hosted-browser-results.json": "12c675b76ec9fc9028b4021d8a446771088ad1970f04737795217f2ad2a99db6",
+    "voice-provenance.json": "b3e5fc246e652e604d57c286c0d885a840794806772267f543e09692c0df065a",
+    "review-build.json": "edd743f001ee527c18afc9ca497af6aaeae2da6c793cf74be4af0ab8587e6835",
+    "hosted-delivery-attempt-1.json": "8ad94af2354b2c3ef077cdad29b5630149464cd98b42ce64a605e8a66ddc5884",
+    "CLAUDE-FINDINGS-RESPONSE.md": "0a25de035ff2a0f30bcfab64a48677b654e357604016cd02c62bc3cd14b1844f",
+    "PINPOINT-VERIFICATION.md": "e5bd633f976a19d7707840b6c9b680e089e467b12733ea04bc83337bc9735de6",
+    "RIGHTS-PRIVACY.md": "d579b947e607bde58570927f45e0de1da571672423bc8a5a3036002dd9394072",
+    "SOURCE-MAP.md": "2744c30375fab9458dcd890d57a9d24259a3a6378cbc92c39c108b41302781d3"
+  },
+  "provenance": "Raw JSON copied byte-for-byte from the workflow artifact. Hosted delivery explicitly identifies the saved candidate. R1 browser result is associated through that same workflow artifact; R2 additionally identifies and checks the manifest before and after browser tests.",
+  "release_status": "NOT APPROVED: independent GMP consultant and owner release gates remain open"
+}

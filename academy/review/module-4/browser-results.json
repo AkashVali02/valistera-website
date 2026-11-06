@@ -3,6 +3,10 @@
   "browser": "158.0.8127.18",
   "checks": [
     {
+      "name": "Manifest identifies expected candidate",
+      "pass": true
+    },
+    {
       "name": "academy-module-4.html landmarks",
       "pass": true
     },
@@ -643,7 +647,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 1 diagram 1 expands with information",
+      "name": "Lesson 1 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -655,7 +659,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 1 diagram 2 expands with information",
+      "name": "Lesson 1 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -667,7 +671,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 1 diagram 3 expands with information",
+      "name": "Lesson 1 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -679,7 +683,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 1 diagram 4 expands with information",
+      "name": "Lesson 1 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -706,10 +710,10 @@
       "name": "Lesson 1 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 107.1,
-        "cues": 31,
-        "source": "blob:http://127.0.0.1:8092/7ebd21e9-ec59-4f2d-823d-df916313c127",
-        "downloadSource": "/assets/academy/module-4/lesson-1.mp4?v=2d3ac8a2f49f"
+        "duration": 114.4,
+        "cues": 29,
+        "source": "blob:http://127.0.0.1:8092/94139b10-69d8-4292-8d1f-2d0fa543f9e4",
+        "downloadSource": "/assets/academy/module-4/lesson-1.mp4?v=6ded607ccdac"
       }
     },
     {
@@ -728,16 +732,16 @@
       "name": "Lesson 1 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 25.610869,
-        "duration": 107.1
+        "actualSeconds": 27.356521,
+        "duration": 114.4
       }
     },
     {
       "name": "Lesson 1 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 81.48913,
-        "duration": 107.1
+        "actualSeconds": 87.043478,
+        "duration": 114.4
       }
     },
     {
@@ -761,7 +765,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 2 diagram 1 expands with information",
+      "name": "Lesson 2 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -773,7 +777,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 2 diagram 2 expands with information",
+      "name": "Lesson 2 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -785,7 +789,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 2 diagram 3 expands with information",
+      "name": "Lesson 2 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -797,7 +801,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 2 diagram 4 expands with information",
+      "name": "Lesson 2 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -824,10 +828,10 @@
       "name": "Lesson 2 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 107.5,
+        "duration": 116.041,
         "cues": 34,
-        "source": "blob:http://127.0.0.1:8092/a7c410cb-f8f8-4788-a76f-8e4af22cbec6",
-        "downloadSource": "/assets/academy/module-4/lesson-2.mp4?v=b273e1705457"
+        "source": "blob:http://127.0.0.1:8092/7ffacb3f-fc03-476f-a8f0-ec086ce4fc11",
+        "downloadSource": "/assets/academy/module-4/lesson-2.mp4?v=1799112f1baa"
       }
     },
     {
@@ -846,16 +850,16 @@
       "name": "Lesson 2 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 25.706521,
-        "duration": 107.5
+        "actualSeconds": 27.748934,
+        "duration": 116.041
       }
     },
     {
       "name": "Lesson 2 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 81.793478,
-        "duration": 107.5
+        "actualSeconds": 88.292065,
+        "duration": 116.041
       }
     },
     {
@@ -879,7 +883,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 3 diagram 1 expands with information",
+      "name": "Lesson 3 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -891,7 +895,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 3 diagram 2 expands with information",
+      "name": "Lesson 3 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -903,7 +907,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 3 diagram 3 expands with information",
+      "name": "Lesson 3 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -915,7 +919,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 3 diagram 4 expands with information",
+      "name": "Lesson 3 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -942,10 +946,10 @@
       "name": "Lesson 3 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 104.8,
+        "duration": 113.224,
         "cues": 31,
-        "source": "blob:http://127.0.0.1:8092/a20085a0-4d26-43e7-af2b-957b9935519b",
-        "downloadSource": "/assets/academy/module-4/lesson-3.mp4?v=d5e620ef63b8"
+        "source": "blob:http://127.0.0.1:8092/6c8c4db3-b232-4a50-9734-1f96908a5e08",
+        "downloadSource": "/assets/academy/module-4/lesson-3.mp4?v=838f38b8667a"
       }
     },
     {
@@ -964,16 +968,16 @@
       "name": "Lesson 3 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 25.060869,
-        "duration": 104.8
+        "actualSeconds": 27.075304,
+        "duration": 113.224
       }
     },
     {
       "name": "Lesson 3 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 79.73913,
-        "duration": 104.8
+        "actualSeconds": 86.148695,
+        "duration": 113.224
       }
     },
     {
@@ -997,7 +1001,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 4 diagram 1 expands with information",
+      "name": "Lesson 4 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -1009,7 +1013,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 4 diagram 2 expands with information",
+      "name": "Lesson 4 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -1021,7 +1025,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 4 diagram 3 expands with information",
+      "name": "Lesson 4 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -1033,7 +1037,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 4 diagram 4 expands with information",
+      "name": "Lesson 4 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -1060,10 +1064,10 @@
       "name": "Lesson 4 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 103,
+        "duration": 111.8,
         "cues": 31,
-        "source": "blob:http://127.0.0.1:8092/eddd55eb-c9f0-41ab-bce5-5d81a31bb6ae",
-        "downloadSource": "/assets/academy/module-4/lesson-4.mp4?v=df23f7fc93fc"
+        "source": "blob:http://127.0.0.1:8092/a620fb93-1596-4a11-b1b3-6c4b44a9495e",
+        "downloadSource": "/assets/academy/module-4/lesson-4.mp4?v=402a480ae99f"
       }
     },
     {
@@ -1082,16 +1086,16 @@
       "name": "Lesson 4 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 24.630434,
-        "duration": 103
+        "actualSeconds": 26.734782,
+        "duration": 111.8
       }
     },
     {
       "name": "Lesson 4 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 78.369565,
-        "duration": 103
+        "actualSeconds": 85.065217,
+        "duration": 111.8
       }
     },
     {
@@ -1115,7 +1119,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 5 diagram 1 expands with information",
+      "name": "Lesson 5 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -1127,7 +1131,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 5 diagram 2 expands with information",
+      "name": "Lesson 5 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -1139,7 +1143,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 5 diagram 3 expands with information",
+      "name": "Lesson 5 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -1151,7 +1155,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 5 diagram 4 expands with information",
+      "name": "Lesson 5 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -1178,10 +1182,10 @@
       "name": "Lesson 5 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 99.417,
+        "duration": 108.4,
         "cues": 32,
-        "source": "blob:http://127.0.0.1:8092/c7ea84cc-7fcd-41ca-be5a-960716f98960",
-        "downloadSource": "/assets/academy/module-4/lesson-5.mp4?v=e158741fbf19"
+        "source": "blob:http://127.0.0.1:8092/8d035aea-84e1-48ab-b483-a4fcaab1c076",
+        "downloadSource": "/assets/academy/module-4/lesson-5.mp4?v=7d7bbb488f77"
       }
     },
     {
@@ -1200,16 +1204,16 @@
       "name": "Lesson 5 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 23.77363,
-        "duration": 99.417
+        "actualSeconds": 25.921739,
+        "duration": 108.4
       }
     },
     {
       "name": "Lesson 5 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 75.643369,
-        "duration": 99.417
+        "actualSeconds": 82.47826,
+        "duration": 108.4
       }
     },
     {
@@ -1233,7 +1237,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 6 diagram 1 expands with information",
+      "name": "Lesson 6 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -1245,7 +1249,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 6 diagram 2 expands with information",
+      "name": "Lesson 6 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -1257,7 +1261,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 6 diagram 3 expands with information",
+      "name": "Lesson 6 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -1269,7 +1273,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 6 diagram 4 expands with information",
+      "name": "Lesson 6 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -1296,10 +1300,10 @@
       "name": "Lesson 6 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 103.416,
-        "cues": 31,
-        "source": "blob:http://127.0.0.1:8092/79dea211-f82c-45ca-9392-74037c4af3bd",
-        "downloadSource": "/assets/academy/module-4/lesson-6.mp4?v=f09b302ae506"
+        "duration": 112.3,
+        "cues": 30,
+        "source": "blob:http://127.0.0.1:8092/d35baa8d-ec53-4a4f-b66d-cef8cc80f638",
+        "downloadSource": "/assets/academy/module-4/lesson-6.mp4?v=84e0d53e5a7d"
       }
     },
     {
@@ -1318,16 +1322,16 @@
       "name": "Lesson 6 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 24.729913,
-        "duration": 103.416
+        "actualSeconds": 26.854347,
+        "duration": 112.3
       }
     },
     {
       "name": "Lesson 6 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 78.686086,
-        "duration": 103.416
+        "actualSeconds": 85.445652,
+        "duration": 112.3
       }
     },
     {
@@ -1351,7 +1355,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 7 diagram 1 expands with information",
+      "name": "Lesson 7 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -1363,7 +1367,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 7 diagram 2 expands with information",
+      "name": "Lesson 7 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -1375,7 +1379,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 7 diagram 3 expands with information",
+      "name": "Lesson 7 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -1387,7 +1391,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 7 diagram 4 expands with information",
+      "name": "Lesson 7 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -1414,10 +1418,10 @@
       "name": "Lesson 7 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 100.22,
+        "duration": 108.9,
         "cues": 30,
-        "source": "blob:http://127.0.0.1:8092/d7a2a83b-8464-480b-bd34-26d33c1538a6",
-        "downloadSource": "/assets/academy/module-4/lesson-7.mp4?v=ad1a9268bda6"
+        "source": "blob:http://127.0.0.1:8092/f4d89e8f-32e0-4499-90a2-f77f052ce4ed",
+        "downloadSource": "/assets/academy/module-4/lesson-7.mp4?v=a343a2587ba5"
       }
     },
     {
@@ -1436,16 +1440,16 @@
       "name": "Lesson 7 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 23.965652,
-        "duration": 100.22
+        "actualSeconds": 26.041304,
+        "duration": 108.9
       }
     },
     {
       "name": "Lesson 7 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 76.254347,
-        "duration": 100.22
+        "actualSeconds": 82.858695,
+        "duration": 108.9
       }
     },
     {
@@ -1469,7 +1473,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 8 diagram 1 expands with information",
+      "name": "Lesson 8 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -1481,7 +1485,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 8 diagram 2 expands with information",
+      "name": "Lesson 8 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -1493,7 +1497,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 8 diagram 3 expands with information",
+      "name": "Lesson 8 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -1505,7 +1509,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 8 diagram 4 expands with information",
+      "name": "Lesson 8 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -1532,10 +1536,10 @@
       "name": "Lesson 8 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 96.734,
-        "cues": 30,
-        "source": "blob:http://127.0.0.1:8092/3d6a9058-0da0-44f9-80ce-f4743ce942fd",
-        "downloadSource": "/assets/academy/module-4/lesson-8.mp4?v=a58816764c2d"
+        "duration": 127.4,
+        "cues": 35,
+        "source": "blob:http://127.0.0.1:8092/2bb409c1-ecf4-48cc-a679-bcfac4af4bcf",
+        "downloadSource": "/assets/academy/module-4/lesson-8.mp4?v=5d5395f774c1"
       }
     },
     {
@@ -1554,16 +1558,16 @@
       "name": "Lesson 8 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 23.132043,
-        "duration": 96.734
+        "actualSeconds": 30.465217,
+        "duration": 127.4
       }
     },
     {
       "name": "Lesson 8 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 73.601956,
-        "duration": 96.734
+        "actualSeconds": 96.934782,
+        "duration": 127.4
       }
     },
     {
@@ -1587,7 +1591,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 9 diagram 1 expands with information",
+      "name": "Lesson 9 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -1599,7 +1603,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 9 diagram 2 expands with information",
+      "name": "Lesson 9 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -1611,7 +1615,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 9 diagram 3 expands with information",
+      "name": "Lesson 9 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -1623,7 +1627,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 9 diagram 4 expands with information",
+      "name": "Lesson 9 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -1650,10 +1654,10 @@
       "name": "Lesson 9 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 104.2,
-        "cues": 32,
-        "source": "blob:http://127.0.0.1:8092/60e01a1d-3fc0-4716-8d86-f71b76a29e7e",
-        "downloadSource": "/assets/academy/module-4/lesson-9.mp4?v=1bef80bce72b"
+        "duration": 122.905,
+        "cues": 35,
+        "source": "blob:http://127.0.0.1:8092/7e101157-f946-4b38-8944-32a978a79897",
+        "downloadSource": "/assets/academy/module-4/lesson-9.mp4?v=3bfdc8af299d"
       }
     },
     {
@@ -1672,16 +1676,16 @@
       "name": "Lesson 9 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 24.917391,
-        "duration": 104.2
+        "actualSeconds": 29.390326,
+        "duration": 122.905
       }
     },
     {
       "name": "Lesson 9 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 79.282608,
-        "duration": 104.2
+        "actualSeconds": 93.514673,
+        "duration": 122.905
       }
     },
     {
@@ -1705,7 +1709,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 10 diagram 1 expands with information",
+      "name": "Lesson 10 diagram 1 expands with Enter and information",
       "pass": true
     },
     {
@@ -1717,7 +1721,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 10 diagram 2 expands with information",
+      "name": "Lesson 10 diagram 2 expands with Enter and information",
       "pass": true
     },
     {
@@ -1729,7 +1733,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 10 diagram 3 expands with information",
+      "name": "Lesson 10 diagram 3 expands with Enter and information",
       "pass": true
     },
     {
@@ -1741,7 +1745,7 @@
       "pass": true
     },
     {
-      "name": "Lesson 10 diagram 4 expands with information",
+      "name": "Lesson 10 diagram 4 expands with Enter and information",
       "pass": true
     },
     {
@@ -1768,10 +1772,10 @@
       "name": "Lesson 10 captions loaded",
       "pass": true,
       "detail": {
-        "duration": 106.345,
+        "duration": 113.606,
         "cues": 33,
-        "source": "blob:http://127.0.0.1:8092/bb2167c8-30e2-496c-818d-c901a7ea7f54",
-        "downloadSource": "/assets/academy/module-4/lesson-10.mp4?v=8caf00150804"
+        "source": "blob:http://127.0.0.1:8092/515b9d78-edb1-4003-aaf8-16252c6803e3",
+        "downloadSource": "/assets/academy/module-4/lesson-10.mp4?v=70d9352916d1"
       }
     },
     {
@@ -1790,16 +1794,16 @@
       "name": "Lesson 10 native timeline pointer 0.25",
       "pass": true,
       "detail": {
-        "actualSeconds": 25.430326,
-        "duration": 106.345
+        "actualSeconds": 27.166652,
+        "duration": 113.606
       }
     },
     {
       "name": "Lesson 10 native timeline pointer 0.75",
       "pass": true,
       "detail": {
-        "actualSeconds": 80.914673,
-        "duration": 106.345
+        "actualSeconds": 86.439347,
+        "duration": 113.606
       }
     },
     {
@@ -1889,8 +1893,15 @@
     {
       "name": "Blocked storage lesson usable",
       "pass": true
+    },
+    {
+      "name": "Manifest unchanged throughout browser run",
+      "pass": true
     }
   ],
   "failures": [],
+  "tested_commit": "9db44902ef6b2d682507d85fee0e71ef02bfa8ff",
+  "started_at": "2026-11-06T08:59:30.487Z",
+  "finished_at": "2026-11-06T08:59:49.112Z",
   "completed": true
 }

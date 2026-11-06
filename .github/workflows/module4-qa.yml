@@ -97,7 +97,18 @@ jobs:
             sleep 10
           done
           test "$served" = "$expected"
-          python3 academy/tests/module4-delivery.py "$base" "$expected" academy/review/module-4/hosted-delivery-results.json
+          # A new manifest can arrive before every edge serves the matching assets.
+          # Preserve each complete attempt; never waive a persistent byte mismatch.
+          delivered=false
+          for delivery_attempt in $(seq 1 3); do
+            if python3 academy/tests/module4-delivery.py "$base" "$expected" "academy/review/module-4/hosted-delivery-attempt-$delivery_attempt.json"; then
+              cp "academy/review/module-4/hosted-delivery-attempt-$delivery_attempt.json" academy/review/module-4/hosted-delivery-results.json
+              delivered=true
+              break
+            fi
+            sleep 20
+          done
+          test "$delivered" = true
       - name: Browser QA on actual hosted preview
         env:
           BASE_URL: https://academy-module-4-valistera-website.gadadeakash72.workers.dev
@@ -105,7 +116,7 @@ jobs:
           AXE_PATH: node_modules/axe-core/axe.min.js
           RESULT_PATH: academy/review/module-4/hosted-browser-results.json
           SCREENSHOT_DIR: /tmp
-        run: node academy/tests/module4-browser.cjs
+        run: EXPECTED_COMMIT=$(git rev-parse HEAD) node academy/tests/module4-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

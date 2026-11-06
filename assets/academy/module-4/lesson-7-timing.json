@@ -1,234 +1,234 @@
 {
-  "duration": 100.21983333333337,
+  "duration": 108.88383333333333,
   "scenes": [
     {
       "start": 0,
-      "end": 24.789,
+      "end": 27.106,
       "title": "Collect usable instructions"
     },
     {
-      "start": 24.789,
-      "end": 54.292,
+      "start": 27.106,
+      "end": 58.479,
       "title": "Record control configuration"
     },
     {
-      "start": 54.292,
-      "end": 77.537,
+      "start": 58.479,
+      "end": 83.613,
       "title": "Connect maintenance readiness"
     },
     {
-      "start": 77.537,
-      "end": 100.22,
+      "start": 83.613,
+      "end": 108.884,
       "title": "Review supplier test reuse"
     }
   ],
   "cues": [
     {
       "start": 0,
-      "end": 2.0,
+      "end": 2.276,
       "text": "Collect the supplier instructions",
       "spoken": "Collect the supplier instructions",
       "scene": 1
     },
     {
-      "start": 2.12,
-      "end": 6.707,
+      "start": 2.396,
+      "end": 7.637,
       "text": "and maintenance requirements applicable to the installed model and revision.",
       "spoken": "and maintenance requirements applicable to the installed model and revision.",
       "scene": 1
     },
     {
-      "start": 6.827,
-      "end": 10.731,
+      "start": 7.757,
+      "end": 11.661,
       "text": "A large folder is not necessarily a usable handover.",
       "spoken": "A large folder is not necessarily a usable handover.",
       "scene": 1
     },
     {
-      "start": 10.851,
-      "end": 13.987,
+      "start": 11.781,
+      "end": 15.437,
       "text": "Check that the team can identify the correct document",
       "spoken": "Check that the team can identify the correct document",
       "scene": 1
     },
     {
-      "start": 14.107,
-      "end": 17.401,
+      "start": 15.557,
+      "end": 19.419,
       "text": "and that referenced drawings or schedules are available.",
       "spoken": "and that referenced drawings or schedules are available.",
       "scene": 1
     },
     {
-      "start": 17.521,
-      "end": 20.593,
+      "start": 19.539,
+      "end": 22.642,
       "text": "Superseded manuals should not silently become",
       "spoken": "Superseded manuals should not silently become",
       "scene": 1
     },
     {
-      "start": 20.713,
-      "end": 24.169,
+      "start": 22.762,
+      "end": 26.486,
       "text": "the basis for maintaining the installed configuration.",
       "spoken": "the basis for maintaining the installed configuration.",
       "scene": 1
     },
     {
-      "start": 24.789,
-      "end": 26.789,
+      "start": 27.106,
+      "end": 29.175,
       "text": "For the vessel control system,",
       "spoken": "For the vessel control system,",
       "scene": 2
     },
     {
-      "start": 26.909,
-      "end": 30.109,
+      "start": 29.295,
+      "end": 32.606,
       "text": "identify the relevant hardware, software version",
       "spoken": "identify the relevant hardware, software version",
       "scene": 2
     },
     {
-      "start": 30.229,
-      "end": 33.727,
+      "start": 32.726,
+      "end": 36.657,
       "text": "and configuration baseline through the approved approach.",
       "spoken": "and configuration baseline through the approved approach.",
       "scene": 2
     },
     {
-      "start": 33.847,
-      "end": 36.983,
+      "start": 36.777,
+      "end": 40.087,
       "text": "A version screenshot can support identification,",
       "spoken": "A version screenshot can support identification,",
       "scene": 2
     },
     {
-      "start": 37.103,
-      "end": 40.456,
+      "start": 40.207,
+      "end": 44.138,
       "text": "but it does not establish that permissions, audit trails,",
       "spoken": "but it does not establish that permissions, audit trails,",
       "scene": 2
     },
     {
-      "start": 40.576,
-      "end": 43.67,
+      "start": 44.258,
+      "end": 47.361,
       "text": "alarms or backup restoration work adequately.",
       "spoken": "alarms or backup restoration work adequately.",
       "scene": 2
     },
     {
-      "start": 43.79,
-      "end": 47.822,
+      "start": 47.481,
+      "end": 51.757,
       "text": "Plan the applicable computerised-system validation separately;",
       "spoken": "Plan the applicable computerised-system validation separately;",
       "scene": 2
     },
     {
-      "start": 47.942,
-      "end": 50.736,
-      "text": "this introductory installation module does",
-      "spoken": "this introductory installation module does",
+      "start": 51.877,
+      "end": 55.05,
+      "text": "this introductory installation module does not",
+      "spoken": "this introductory installation module does not",
       "scene": 2
     },
     {
-      "start": 50.856,
-      "end": 53.672,
-      "text": "not claim complete Annex Eleven compliance.",
-      "spoken": "not claim complete Annex Eleven compliance.",
+      "start": 55.17,
+      "end": 57.859,
+      "text": "claim complete Annex Eleven compliance.",
+      "spoken": "claim complete Annex Eleven compliance.",
       "scene": 2
     },
     {
-      "start": 54.292,
-      "end": 58.836,
+      "start": 58.479,
+      "end": 63.445,
       "text": "Link the supplier maintenance requirements to responsible site functions",
       "spoken": "Link the supplier maintenance requirements to responsible site functions",
       "scene": 3
     },
     {
-      "start": 58.956,
-      "end": 62.498,
+      "start": 63.565,
+      "end": 67.565,
       "text": "and the resources needed for the next authorized activity.",
       "spoken": "and the resources needed for the next authorized activity.",
       "scene": 3
     },
     {
-      "start": 62.618,
-      "end": 65.178,
+      "start": 67.685,
+      "end": 70.444,
       "text": "For our case, a rear instrument requires",
       "spoken": "For our case, a rear instrument requires",
       "scene": 3
     },
     {
-      "start": 65.298,
-      "end": 68.284,
+      "start": 70.564,
+      "end": 73.667,
       "text": "a specific removal tool and accessible space.",
       "spoken": "a specific removal tool and accessible space.",
       "scene": 3
     },
     {
-      "start": 68.404,
-      "end": 71.498,
+      "start": 73.787,
+      "end": 77.097,
       "text": "Record missing resources and their implications.",
       "spoken": "Record missing resources and their implications.",
       "scene": 3
     },
     {
-      "start": 71.618,
-      "end": 74.562,
+      "start": 77.217,
+      "end": 80.252,
       "text": "Do not describe a task as established merely",
       "spoken": "Do not describe a task as established merely",
       "scene": 3
     },
     {
-      "start": 74.682,
-      "end": 76.917,
+      "start": 80.372,
+      "end": 82.993,
       "text": "because a supplier manual mentions it.",
       "spoken": "because a supplier manual mentions it.",
       "scene": 3
     },
     {
-      "start": 77.537,
-      "end": 80.78,
+      "start": 83.613,
+      "end": 87.13,
       "text": "A supplier test may be useful when its method, data",
       "spoken": "A supplier test may be useful when its method, data",
       "scene": 4
     },
     {
-      "start": 80.9,
-      "end": 84.974,
+      "start": 87.25,
+      "end": 91.388,
       "text": "and configuration are applicable and its reuse is justified.",
       "spoken": "and configuration are applicable and its reuse is justified.",
       "scene": 4
     },
     {
-      "start": 85.094,
-      "end": 88.624,
+      "start": 91.508,
+      "end": 95.646,
       "text": "Consider what transport and installation could have changed.",
       "spoken": "Consider what transport and installation could have changed.",
       "scene": 4
     },
     {
-      "start": 88.744,
-      "end": 91.517,
+      "start": 95.766,
+      "end": 98.938,
       "text": "A factory photograph cannot prove that a field",
       "spoken": "A factory photograph cannot prove that a field",
       "scene": 4
     },
     {
-      "start": 91.637,
-      "end": 94.603,
+      "start": 99.058,
+      "end": 102.507,
       "text": "connection was installed correctly after shipment.",
       "spoken": "connection was installed correctly after shipment.",
       "scene": 4
     },
     {
-      "start": 94.723,
-      "end": 97.048,
+      "start": 102.627,
+      "end": 105.316,
       "text": "Retain the rationale for what is reused",
       "spoken": "Retain the rationale for what is reused",
       "scene": 4
     },
     {
-      "start": 97.168,
-      "end": 99.6,
+      "start": 105.436,
+      "end": 108.264,
       "text": "and the site verification still required.",
       "spoken": "and the site verification still required.",
       "scene": 4

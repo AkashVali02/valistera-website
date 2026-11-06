@@ -1,14 +1,14 @@
 {
   "checks": 150,
   "failures": [],
-  "duration_minutes": 17.208875694444444,
+  "duration_minutes": 19.14796458333333,
   "rows": [
     {
       "lesson": 1,
-      "duration": 107.05533333333331,
-      "cues": 31,
-      "max_cps": 17.00198356474924,
-      "sha256": "2d3ac8a2f49ff16c0515e6e2fd66b71aa9f2200cea2947468bd4a24b48e12b3c",
+      "duration": 114.39604166666666,
+      "cues": 29,
+      "max_cps": 14.503263234227687,
+      "sha256": "6ded607ccdac9d2a12b39d355539fbe2d96c38d394a2407fdb5905ea411614fe",
       "checks": {
         "h264": true,
         "aac": true,
@@ -29,10 +29,10 @@
     },
     {
       "lesson": 2,
-      "duration": 107.4535,
+      "duration": 116.04124999999999,
       "cues": 34,
-      "max_cps": 17.00367647058822,
-      "sha256": "b273e17054578da7d33801d77e240f5341711bfab4ed4eb8b9bdb06f08c38b2e",
+      "max_cps": 14.504116032928334,
+      "sha256": "1799112f1baa63ecea92487c6871429b29e2e2ca394699a3c29ad88a1d2ed1d5",
       "checks": {
         "h264": true,
         "aac": true,
@@ -53,10 +53,10 @@
     },
     {
       "lesson": 3,
-      "duration": 104.78758333333334,
+      "duration": 113.22433333333335,
       "cues": 31,
-      "max_cps": 17.002518891687664,
-      "sha256": "d5e620ef63b8a467f5974d56a15ef0a7aba2427a4219b6d8114ea61ce1737202",
+      "max_cps": 14.505893019038984,
+      "sha256": "838f38b8667a7ddb2645b82bb8f36b3c64fc194acc033d0ae1af79bfcd1ab7a0",
       "checks": {
         "h264": true,
         "aac": true,
@@ -77,10 +77,10 @@
     },
     {
       "lesson": 4,
-      "duration": 102.95391666666667,
+      "duration": 111.79304166666665,
       "cues": 31,
-      "max_cps": 17.002881844380408,
-      "sha256": "df23f7fc93fcf382754e6b1b29e26ec32cfec627ae247e7c927ad2a504c6e8d7",
+      "max_cps": 14.503263234227687,
+      "sha256": "402a480ae99f5d8c6e30d13af76d7be4a36eb0fe86f61dfeaf18edf9e1a25225",
       "checks": {
         "h264": true,
         "aac": true,
@@ -101,10 +101,10 @@
     },
     {
       "lesson": 5,
-      "duration": 99.41716666666667,
+      "duration": 108.37716666666668,
       "cues": 32,
-      "max_cps": 17.001545595054136,
-      "sha256": "e158741fbf19375c97c1c29182bddbffe84f47544ecf032bb0f67eb860c28b63",
+      "max_cps": 14.505119453924952,
+      "sha256": "7d7bbb488f775ddb3bdbcc324111f1778266284128c7ffa86d8c5e9687b18ad0",
       "checks": {
         "h264": true,
         "aac": true,
@@ -125,10 +125,10 @@
     },
     {
       "lesson": 6,
-      "duration": 103.41608333333333,
-      "cues": 31,
-      "max_cps": 16.85541216750067,
-      "sha256": "f09b302ae506d229ee84b88b27f274cabe2d7f5cd7ff37e473195f7b11d1996e",
+      "duration": 112.282625,
+      "cues": 30,
+      "max_cps": 14.503816793893144,
+      "sha256": "84e0d53e5a7d6ee44df1323742c39888b21f8015079464ab816212c1c718a3b8",
       "checks": {
         "h264": true,
         "aac": true,
@@ -149,10 +149,10 @@
     },
     {
       "lesson": 7,
-      "duration": 100.21983333333337,
+      "duration": 108.88383333333333,
       "cues": 30,
-      "max_cps": 17.00223713646533,
-      "sha256": "ad1a9268bda628b366e302dd043cc22d67a421d0d97876a554fe331f6e0264cb",
+      "max_cps": 14.503532911863147,
+      "sha256": "a343a2587ba59b58226c5b0a46b6d7e278849fb38e11e3a21519d2ac8b3cbd0a",
       "checks": {
         "h264": true,
         "aac": true,
@@ -173,10 +173,10 @@
     },
     {
       "lesson": 8,
-      "duration": 96.73395833333335,
-      "cues": 30,
-      "max_cps": 17.002767892447608,
-      "sha256": "a58816764c2d4a99c1d8444247e678bd23491a73a83f8ffe7806f9ad9254c4c7",
+      "duration": 127.36854166666667,
+      "cues": 35,
+      "max_cps": 14.504765851636964,
+      "sha256": "5d5395f774c146d12240213fc3b75cdfa30e3b2dfe5bee3920df002b48dfba0a",
       "checks": {
         "h264": true,
         "aac": true,
@@ -197,10 +197,10 @@
     },
     {
       "lesson": 9,
-      "duration": 104.15054166666667,
-      "cues": 32,
-      "max_cps": 16.999260901699998,
-      "sha256": "1bef80bce72b727a5769de08958dc84b1368e2b2621e89b3ea7c72f8481d1344",
+      "duration": 122.90483333333333,
+      "cues": 35,
+      "max_cps": 14.503532911863108,
+      "sha256": "3bfdc8af299d5dd187608f13503d0f2f88af828022ab10e57360b576c4963003",
       "checks": {
         "h264": true,
         "aac": true,
@@ -221,10 +221,10 @@
     },
     {
       "lesson": 10,
-      "duration": 106.34462500000001,
+      "duration": 113.60620833333334,
       "cues": 33,
-      "max_cps": 16.996377821120078,
-      "sha256": "8caf0015080413f6ed0995e28ebd76aad3a06200c9dbf3bdb0391b1368449301",
+      "max_cps": 14.50549450549447,
+      "sha256": "70d9352916d1f614ae8dc4ca3855b84c3aa357792f62f2b70ffd6d15debea8cb",
       "checks": {
         "h264": true,
         "aac": true,

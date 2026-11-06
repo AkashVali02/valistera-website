@@ -1,24 +1,24 @@
 {
-  "duration": 106.34462500000001,
+  "duration": 113.60620833333334,
   "scenes": [
     {
       "start": 0,
-      "end": 26.83,
+      "end": 29.22,
       "title": "Reconcile the evidence index"
     },
     {
-      "start": 26.83,
-      "end": 51.474,
+      "start": 29.22,
+      "end": 55.49,
       "title": "Do not average away a gap"
     },
     {
-      "start": 51.474,
-      "end": 78.237,
+      "start": 55.49,
+      "end": 84.398,
       "title": "Write a bounded recommendation"
     },
     {
-      "start": 78.237,
-      "end": 106.345,
+      "start": 84.398,
+      "end": 113.606,
       "title": "Defend the handover"
     }
   ],
@@ -32,224 +32,224 @@
     },
     {
       "start": 2.915,
-      "end": 6.179,
+      "end": 6.501,
       "text": "checks with the evidence index and finding register.",
       "spoken": "checks with the evidence index and finding register.",
       "scene": 1
     },
     {
-      "start": 6.299,
-      "end": 8.987,
+      "start": 6.621,
+      "end": 9.38,
       "text": "Missing attachments, ambiguous revisions",
       "spoken": "Missing attachments, ambiguous revisions",
       "scene": 1
     },
     {
-      "start": 9.107,
-      "end": 13.267,
+      "start": 9.499,
+      "end": 13.982,
       "text": "and unexplained blanks can change the interpretation of a result.",
       "spoken": "and unexplained blanks can change the interpretation of a result.",
       "scene": 1
     },
     {
-      "start": 13.387,
-      "end": 16.139,
+      "start": 14.102,
+      "end": 17.068,
       "text": "In our fictional package, the team confirms",
       "spoken": "In our fictional package, the team confirms",
       "scene": 1
     },
     {
-      "start": 16.259,
-      "end": 19.565,
+      "start": 17.188,
+      "end": 20.981,
       "text": "which checks are supported and which remain unresolved.",
       "spoken": "which checks are supported and which remain unresolved.",
       "scene": 1
     },
     {
-      "start": 19.685,
-      "end": 22.501,
+      "start": 21.101,
+      "end": 24.273,
       "text": "This review does not create evidence; it tests",
       "spoken": "This review does not create evidence; it tests",
       "scene": 1
     },
     {
-      "start": 22.621,
-      "end": 26.21,
+      "start": 24.393,
+      "end": 28.6,
       "text": "whether the existing record supports the proposed conclusion.",
       "spoken": "whether the existing record supports the proposed conclusion.",
       "scene": 1
     },
     {
-      "start": 26.83,
-      "end": 29.475,
+      "start": 29.22,
+      "end": 32.255,
       "text": "Nine of ten checks have supporting evidence,",
       "spoken": "Nine of ten checks have supporting evidence,",
       "scene": 2
     },
     {
-      "start": 29.595,
-      "end": 32.198,
-      "text": "giving ninety percent numerical coverage.",
+      "start": 32.375,
+      "end": 34.977,
+      "text": "giving 90% numerical coverage.",
       "spoken": "giving ninety percent numerical coverage.",
       "scene": 2
     },
     {
-      "start": 32.318,
-      "end": 36.179,
+      "start": 35.097,
+      "end": 39.098,
       "text": "The remaining item is the unresolved gasket-material link.",
       "spoken": "The remaining item is the unresolved gasket-material link.",
       "scene": 2
     },
     {
-      "start": 36.299,
-      "end": 39.52,
+      "start": 39.218,
+      "end": 42.804,
       "text": "A high percentage does not make that gap acceptable.",
       "spoken": "A high percentage does not make that gap acceptable.",
       "scene": 2
     },
     {
-      "start": 39.64,
-      "end": 43.331,
+      "start": 42.924,
+      "end": 46.855,
       "text": "Evaluate its significance and the proposed next activity.",
       "spoken": "Evaluate its significance and the proposed next activity.",
       "scene": 2
     },
     {
-      "start": 43.451,
-      "end": 45.451,
+      "start": 46.975,
+      "end": 48.975,
       "text": "The course practice score",
       "spoken": "The course practice score",
       "scene": 2
     },
     {
-      "start": 45.571,
-      "end": 48.451,
+      "start": 49.095,
+      "end": 52.405,
       "text": "and this coverage calculation are learning aids,",
       "spoken": "and this coverage calculation are learning aids,",
       "scene": 2
     },
     {
-      "start": 48.571,
-      "end": 50.854,
+      "start": 52.525,
+      "end": 54.87,
       "text": "not regulatory release thresholds.",
       "spoken": "not regulatory release thresholds.",
       "scene": 2
     },
     {
-      "start": 51.474,
-      "end": 55.271,
+      "start": 55.49,
+      "end": 59.904,
       "text": "The recommendation should identify the installed scope reviewed,",
       "spoken": "The recommendation should identify the installed scope reviewed,",
       "scene": 3
     },
     {
-      "start": 55.391,
-      "end": 59.039,
+      "start": 60.024,
+      "end": 63.817,
       "text": "the evidence baseline, deviations and any restrictions.",
       "spoken": "the evidence baseline, deviations and any restrictions.",
       "scene": 3
     },
     {
-      "start": 59.159,
-      "end": 63.746,
+      "start": 63.937,
+      "end": 68.627,
       "text": "State the specific next-stage activity recommended for authorization",
       "spoken": "State the specific next-stage activity recommended for authorization",
       "scene": 3
     },
     {
-      "start": 63.866,
-      "end": 65.866,
+      "start": 68.747,
+      "end": 71.022,
       "text": "rather than ready for production.",
       "spoken": "rather than ready for production.",
       "scene": 3
     },
     {
-      "start": 65.986,
-      "end": 68.226,
+      "start": 71.142,
+      "end": 73.487,
       "text": "Transfer the configuration records",
       "spoken": "Transfer the configuration records",
       "scene": 3
     },
     {
-      "start": 68.346,
-      "end": 72.335,
+      "start": 73.607,
+      "end": 77.745,
       "text": "and unresolved dependencies to the operational-qualification",
       "spoken": "and unresolved dependencies to the operational-qualification",
       "scene": 3
     },
     {
-      "start": 72.455,
-      "end": 74.908,
+      "start": 77.865,
+      "end": 80.624,
       "text": "team so their tests use the right system",
       "spoken": "team so their tests use the right system",
       "scene": 3
     },
     {
-      "start": 75.028,
-      "end": 77.617,
+      "start": 80.744,
+      "end": 83.778,
       "text": "and do not assume a finding has disappeared.",
       "spoken": "and do not assume a finding has disappeared.",
       "scene": 3
     },
     {
-      "start": 78.237,
-      "end": 80.626,
+      "start": 84.398,
+      "end": 87.019,
       "text": "For the capstone, trace one conclusion",
       "spoken": "For the capstone, trace one conclusion",
       "scene": 4
     },
     {
-      "start": 80.746,
-      "end": 84.031,
+      "start": 87.139,
+      "end": 90.449,
       "text": "back to its criterion, observation and evidence.",
       "spoken": "back to its criterion, observation and evidence.",
       "scene": 4
     },
     {
-      "start": 84.151,
-      "end": 87.415,
+      "start": 90.569,
+      "end": 93.949,
       "text": "Explain the remaining gasket finding and identify",
       "spoken": "Explain the remaining gasket finding and identify",
       "scene": 4
     },
     {
-      "start": 87.535,
-      "end": 89.903,
+      "start": 94.069,
+      "end": 96.758,
       "text": "which proposed activities depend on it.",
       "spoken": "which proposed activities depend on it.",
       "scene": 4
     },
     {
-      "start": 90.023,
-      "end": 93.778,
+      "start": 96.879,
+      "end": 100.879,
       "text": "Then draft a recommendation for the responsible reviewers.",
       "spoken": "Then draft a recommendation for the responsible reviewers.",
       "scene": 4
     },
     {
-      "start": 93.898,
-      "end": 95.898,
+      "start": 100.999,
+      "end": 102.999,
       "text": "This self-study exercise is",
       "spoken": "This self-study exercise is",
       "scene": 4
     },
     {
-      "start": 96.018,
-      "end": 98.685,
+      "start": 103.119,
+      "end": 105.946,
       "text": "not independent competence certification,",
       "spoken": "not independent competence certification,",
       "scene": 4
     },
     {
-      "start": 98.805,
-      "end": 103.605,
+      "start": 106.066,
+      "end": 110.866,
       "text": "an executed qualification package or a substitute for site procedures",
       "spoken": "an executed qualification package or a substitute for site procedures",
       "scene": 4
     },
     {
-      "start": 103.725,
-      "end": 105.725,
+      "start": 110.986,
+      "end": 112.986,
       "text": "and qualified human review.",
       "spoken": "and qualified human review.",
       "scene": 4

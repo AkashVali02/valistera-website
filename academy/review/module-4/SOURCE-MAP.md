@@ -11,7 +11,7 @@ The index links Annex 15 operational 1 October 2015, Chapter 3 operational 1 Mar
 |4.5|Annex 15 §3.9(i), §8.1; Chapter 3 §3.42|Connections, labels and separate utility evidence|
 |4.6|Annex 15 §3.9(iv); Chapter 3 §§3.40–3.41|Calibration applicability, not sticker-only review|
 |4.7|Annex 15 §§2.6, 3.6, 3.9(iii); Annex 11 §§4.3, 4.7|Supplier instructions, justified reuse, configuration baseline|
-|4.8|Chapter 4 §§4.7–4.10|Contemporaneous attributable observations and traceable corrections|
+|4.8|Chapter 4 §§4.7–4.10, 4.12|Contemporaneous attributable observations and traceable corrections and original-data retention|
 |4.9|Annex 15 §§2.7–2.10, 11|Discrepancy, correction/change, verification, conditional progression|
 |4.10|Annex 15 §§2.9–2.10, 3.10–3.12|Bounded report and OQ handover|
 
@@ -22,3 +22,5 @@ Official documents:
 - Annex 11: https://health.ec.europa.eu/document/download/8d305550-dd22-4dad-8463-2ddb4a1345f1_en?filename=annex11_01-2011_en.pdf
 
 The examples, checklist fields, model reasoning, safe-access reminders and visual layouts are original teaching recommendations, not verbatim regulatory requirements or universal templates. The error example computes 40.4−40.0=+0.4 °C and explicitly excludes a complete uncertainty/decision-rule assessment. 9/10=90% is coverage only. No universal clearance, material grade or utility-quality limit is prescribed. Training records are fictional and blank templates must not be mistaken for approved protocols.
+
+Detailed F8 checks: [PINPOINT-VERIFICATION.md](PINPOINT-VERIFICATION.md).

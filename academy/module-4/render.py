@@ -47,10 +47,13 @@ def draw_scene(l,s,j):
   for n in range(10):box(76+n%5*78,310+n//5*60,60,40,CYAN if n<9 else '#745d32')
   text(76,451,'9 / 10 = 90%',38,bold=True);text(76,509,'Material gap remains',26,GOLD,True);text(76,558,'No release threshold',23,MUT)
  else:
-  text(72,242,'Evidence map · related checks',21,CYAN,True)
+  text(72,242,'Evidence and relationship',21,CYAN,True)
   for n,label in enumerate(MAPS[l['id']-1][j]):
-   y=292+n*94;box(72,y,407,76)
-   for k,line in enumerate(textwrap.wrap(label,25)):text(275,y+38+(k-(len(textwrap.wrap(label,25))-1)/2)*26,line,23,CYAN if n==0 else WHITE,True,'mm')
+   y=278+n*62;box(72,y,407,54)
+   for k,line in enumerate(textwrap.wrap(label,25)):text(275,y+27+(k-(len(textwrap.wrap(label,25))-1)/2)*23,line,20,CYAN if n==0 else WHITE,True,'mm')
+  relation=textwrap.wrap(s['description'],43)
+  assert len(relation)<=5,(l['id'],j,relation)
+  for n,line in enumerate(relation):text(72,477+n*22,line,18,MUT)
  for k,label in enumerate(s['labels']):
   y=222+k*126;box(548,y,684,110);text(576,y+55,f'{k+1:02}',28,CYAN,True,'lm')
   lines=textwrap.wrap(label,28);assert len(lines)<=2,(l['id'],j,label)
