@@ -1,14 +1,14 @@
 {
   "checks": 150,
   "failures": [],
-  "duration_minutes": 19.14796388888889,
+  "duration_minutes": 19.14796458333333,
   "rows": [
     {
       "lesson": 1,
       "duration": 114.39604166666666,
       "cues": 29,
       "max_cps": 14.503263234227687,
-      "sha256": "ad5680d604b7c597de280fe747f14b8e6fd260304d7d142eedc57afdc325c010",
+      "sha256": "6ded607ccdac9d2a12b39d355539fbe2d96c38d394a2407fdb5905ea411614fe",
       "checks": {
         "h264": true,
         "aac": true,
@@ -53,10 +53,10 @@
     },
     {
       "lesson": 3,
-      "duration": 113.22429166666667,
+      "duration": 113.22433333333335,
       "cues": 31,
       "max_cps": 14.505893019038984,
-      "sha256": "5979089b51b4dd86f73e77cde675602b4b29b88a6184d3a877d2c8e01a0f1169",
+      "sha256": "838f38b8667a7ddb2645b82bb8f36b3c64fc194acc033d0ae1af79bfcd1ab7a0",
       "checks": {
         "h264": true,
         "aac": true,
@@ -80,7 +80,7 @@
       "duration": 111.79304166666665,
       "cues": 31,
       "max_cps": 14.503263234227687,
-      "sha256": "1010e40e671a02086c0eda4fbf016be170b92d235059d5238f49fb3d0e2d858b",
+      "sha256": "402a480ae99f5d8c6e30d13af76d7be4a36eb0fe86f61dfeaf18edf9e1a25225",
       "checks": {
         "h264": true,
         "aac": true,
@@ -104,7 +104,7 @@
       "duration": 108.37716666666668,
       "cues": 32,
       "max_cps": 14.505119453924952,
-      "sha256": "b0dd4c217877ad22175a8834428785c67dadf511abd0fc318bc18695652353f3",
+      "sha256": "7d7bbb488f775ddb3bdbcc324111f1778266284128c7ffa86d8c5e9687b18ad0",
       "checks": {
         "h264": true,
         "aac": true,
@@ -128,7 +128,7 @@
       "duration": 112.282625,
       "cues": 30,
       "max_cps": 14.503816793893144,
-      "sha256": "fce80ec4639fdfc9b6509e7c1094ebd5a5b428cdad2a10a363ec66d67b2b38d1",
+      "sha256": "84e0d53e5a7d6ee44df1323742c39888b21f8015079464ab816212c1c718a3b8",
       "checks": {
         "h264": true,
         "aac": true,
@@ -152,7 +152,7 @@
       "duration": 108.88383333333333,
       "cues": 30,
       "max_cps": 14.503532911863147,
-      "sha256": "e07e2a0a5979f16c1adedcdeaa0c149b28bb314c86176b9337b345ef9e5c3b42",
+      "sha256": "a343a2587ba59b58226c5b0a46b6d7e278849fb38e11e3a21519d2ac8b3cbd0a",
       "checks": {
         "h264": true,
         "aac": true,
@@ -176,7 +176,7 @@
       "duration": 127.36854166666667,
       "cues": 35,
       "max_cps": 14.504765851636964,
-      "sha256": "b539b6bc77bacfdbe2c81dca80d2f02ebcf9e04fdf9fb9deff20c834df3bbff5",
+      "sha256": "5d5395f774c146d12240213fc3b75cdfa30e3b2dfe5bee3920df002b48dfba0a",
       "checks": {
         "h264": true,
         "aac": true,
@@ -200,7 +200,7 @@
       "duration": 122.90483333333333,
       "cues": 35,
       "max_cps": 14.503532911863108,
-      "sha256": "115ee94cc87e6c7f40b4332eca58dd27bd3788a29e7606051dfe8c1dc90ba772",
+      "sha256": "3bfdc8af299d5dd187608f13503d0f2f88af828022ab10e57360b576c4963003",
       "checks": {
         "h264": true,
         "aac": true,
