@@ -172,7 +172,7 @@
             "Installed location"
           ],
           "narration": "The walkdown starts with equipment identity, not a copied supplier checklist. Compare the vessel tag, manufacturer model, serial number and location with the controlled package. A matching tag attached to a different vessel would not establish identity. Record discrepancies individually so a later reviewer can tell which identifiers matched and which remained uncertain.",
-          "description": "A vessel plate contains separate tag, model and serial fields; the comparison includes physical location."
+          "description": "Site tag, manufacturer model and serial are separate identity checks; the comparison also includes physical location."
         },
         {
           "title": "Trace components in place",
@@ -273,7 +273,7 @@
             "Gasket evidence pending"
           ],
           "narration": "In our example, the vessel certificate is available but the installed gasket lot cannot be linked to its material record. Keep the gasket finding open. The vessel certificate does not fill that gap. Obtain applicable traceability, or use an authorized corrective approach followed by verification. Changing a label without evidence would only conceal the uncertainty.",
-          "description": "A solid link covers the vessel body; a broken link marks the unresolved gasket evidence."
+          "description": "Body evidence is linked while gasket traceability remains unresolved; the two statuses require separate review."
         },
         {
           "title": "Keep suitability and identity separate",
@@ -340,7 +340,7 @@
             "Drawing correspondence"
           ],
           "narration": "For fixed pipework, contents identification and applicable flow direction help prevent mistakes. Compare labels with the route and controlled drawing, including places where lines cross. A correct label on the wrong connected branch remains a discrepancy. Record the location so the engineering team can resolve the actual connection rather than merely replacing the label.",
-          "description": "Pipe identification is compared with the actual route; arrows represent stated direction, not proof of correct connection."
+          "description": "Contents and direction are compared with the actual route; identification alone does not prove a correct connection."
         },
         {
           "title": "Separate connection from quality",

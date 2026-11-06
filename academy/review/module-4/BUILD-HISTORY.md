@@ -18,3 +18,6 @@ The final R1 candidate was 2430dea418b60fabb776c20236200644c713c26a, not 2e90a00
 
 ## R2 evidence publication
 R2 changes retention teaching, assessment choices/order, display notation, caption pacing/phrasing and scene descriptions/relationship panels. All media is rebuilt when its source fingerprints change. Local media/frame/browser results accompany the candidate; post-save hosted results are published separately on academy-module-4-evidence, keyed by the full tested candidate SHA. This avoids modifying the tested lesson commit merely to append its own post-deployment evidence. The review page links directly to that public record. Until that record exists and matches the served SHA, hosted verification is pending. Never reuse R1 results as proof for R2.
+
+### Intermediate R2 run 42190497362
+Source 48aa91e saved bc16c7c10146518a3bebfa70590bff14fe9044ae. Media (150), frame (40) and local browser (435) checks passed. Hosted delivery failed 9 of 147 byte comparisons even though the manifest matched; hosted browser checks were skipped. This run is NOT final acceptance. Artifact 13489991413 retains failures. A subsequent run corrects three visual descriptions and allows three bounded full delivery attempts, retaining every attempt; a persistent mismatch still fails the workflow. Edge propagation is a possible explanation, not an established root cause.
