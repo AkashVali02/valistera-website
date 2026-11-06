@@ -1,0 +1,39 @@
+{
+  "production_commit": "357d3b5b537db0514085c0bdac9357660c8c99b5",
+  "reviewed_candidate": "9259b4025dc1b5fb6146d126f6e67c04856cdfe4",
+  "released_at_date": "2026-11-06",
+  "cloudflare": {
+    "conclusion": "success",
+    "build_id": "639f98eb-b4ce-4b4a-b8cd-70ecf9691e40",
+    "version_id": "5858932c-6a58-485c-b343-b9a64b1c7574"
+  },
+  "live_browser": {
+    "academy_launch_link": "verified",
+    "module_footer_commit": "verified",
+    "lesson_4_1_player_loaded": "verified",
+    "lesson_4_1_disclosures_collapsed": "verified",
+    "wordmark_white_Vali_blue_Stera": "visually verified",
+    "full_435_check_suite": "not rerun in this browser"
+  },
+  "github_production_qa": {
+    "module4_run": 42258807836,
+    "module3_run": 42258808331,
+    "conclusion": "failure",
+    "observed_error": "HTTP 403 from production manifest requests on GitHub-hosted runners",
+    "cause": "not established from HTTP status alone",
+    "content_build_checks": "passed",
+    "delivery_checks": "not reached",
+    "browser_checks": "skipped"
+  },
+  "approval": {
+    "owner_reports_all_reviews_passed": true,
+    "explicit_production_authorization": true,
+    "independent_signed_records_inspected": false
+  },
+  "independent_delivery": {
+    "requests": 147,
+    "manifest_matches": true,
+    "failures": [],
+    "execution": "local verification environment against https://valistera.com"
+  }
+}
