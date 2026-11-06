@@ -33,7 +33,7 @@ for l in D['lessons']:
    spoken=speech(phrase);wav=cache/(hashlib.sha256(spoken.encode()).hexdigest()+'.wav')
    if wav.exists():a,sr=sf.read(wav,dtype='float32')
    else:a,sr=k.create(spoken,voice='af_heart',speed=.92,lang='en-us');sf.write(wav,a,sr)
-   dur=len(a)/sr;required=max(2.0,len(phrase)/17)
+   dur=len(a)/sr;required=max(2.0,len(phrase)/14.5)
    if dur<required:
     slow=cache/f'{i}-{j}-{n}-slow.wav';subprocess.run(['ffmpeg','-y','-loglevel','error','-i',str(wav),'-af',f'atempo={max(.5,dur/required)}',str(slow)],check=True);a,sr=sf.read(slow,dtype='float32');dur=len(a)/sr
    if dur<required:

@@ -14,7 +14,7 @@
             "Documented comparison"
           ],
           "narration": "Welcome to Module Four, Installation Qualification, or I Q. We continue with the fictional V-201 oral-liquid mixing vessel. The design review described what was intended. Now the team compares the installed system with the accepted design and manufacturer recommendations. Every identifier and observation in this module is invented for training. No real equipment has been qualified.",
-          "description": "From design to installation: the evidence map groups DESIGN, INSTALLED, COMPARE. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "The design baseline and installed system feed one comparison; neither input alone establishes conformity."
         },
         {
           "title": "Three different evidence questions",
@@ -24,7 +24,7 @@
             "OQ: challenged operation"
           ],
           "narration": "A drawing shows a temperature sensor connection. A walkdown identifies which sensor is installed at that connection. An operational challenge examines how the assembled loop behaves. These answer different questions. Finding the correct tag does not demonstrate alarm response, and a successful alarm test does not repair missing material identification. Keep each conclusion tied to the evidence actually obtained.",
-          "description": "Three different evidence questions: the evidence map groups DRAWING, WALKDOWN, CHALLENGE. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "The three stages form a sequence of different evidence questions, not three interchangeable approvals."
         },
         {
           "title": "Set the system boundary",
@@ -34,7 +34,7 @@
             "Control-system interfaces"
           ],
           "narration": "For our case, the installation boundary includes the vessel, agitator, outlet components, instruments and defined utility connections. The upstream utility plant has its own qualification scope. Record where one system ends and another begins. A qualified water system does not automatically prove that a new branch has the correct connection or that its delivered water is suitable.",
-          "description": "Set the system boundary: the evidence map groups UPSTREAM, INTERFACE, VESSEL. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "The vessel boundary includes its connections; upstream utility qualification remains a separate linked scope."
         },
         {
           "title": "Limit the conclusion",
@@ -44,7 +44,7 @@
             "Next-stage decision"
           ],
           "narration": "The teaching conclusion is limited to installation evidence reviewed against the defined baseline. It is not permission to manufacture a batch. Operational and performance verification remain separate needs. Where stages are combined in an approved approach, the underlying evidence questions still remain visible. Your first activity separates installation observations from claims that require later studies.",
-          "description": "Limit the conclusion: the evidence map groups OBSERVED, UNRESOLVED, RECOMMEND. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Installation findings feed a bounded conclusion and a next-stage decision; routine production is outside this diagram."
         }
       ],
       "activity": "Classify: sensor serial matches schedule; alarm stops heating; batch blend is uniform. Explain the evidence boundary.",
@@ -91,7 +91,7 @@
             "Approved IQ protocol"
           ],
           "narration": "The fictional installation package contains the user requirements, design-review outcome, accepted drawings and an installation protocol. List identifiers and revisions before the walkdown. An email attachment labelled final is not enough to establish its approval status. If the valve drawing changed after design review, identify the change and its accepted impact before relying on the old conclusion.",
-          "description": "Reconcile the input package: the evidence map groups URS / DQ, DRAWINGS, PROTOCOL. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Requirements, design decisions and controlled drawings support the IQ protocol; revision gaps remain visible."
         },
         {
           "title": "Write an executable check",
@@ -101,7 +101,7 @@
             "Observation and reference"
           ],
           "narration": "Replace verify installation is satisfactory with a check another trained person can repeat. For example, compare the installed outlet valve tag and model against schedule revision C, using a safe visual inspection and the identified manufacturer plate. Define what information will be recorded and how inaccessible markings will be handled. Do not leave the acceptance rule to be invented after seeing the result.",
-          "description": "Write an executable check: the evidence map groups REQUIREMENT, METHOD, RECORD. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A criterion links to a method and an evidence field; vague satisfactory wording has no defined comparator."
         },
         {
           "title": "Check readiness safely",
@@ -111,7 +111,7 @@
             "Suitable test equipment"
           ],
           "narration": "Before inspecting, confirm training, access arrangements and any required isolation with the responsible engineering team. Do not remove guards, open electrical panels or disconnect a process line merely to complete a checklist. If a marking cannot be reached safely, record that limitation and arrange an approved method. Schedule pressure does not turn an unsafe inspection into acceptable evidence.",
-          "description": "Check readiness safely: the evidence map groups TRAINING, SAFE ACCESS, TOOLS. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Training, safe access and suitable tools are readiness inputs; this is not an isolation procedure."
         },
         {
           "title": "Resolve a missing criterion",
@@ -121,7 +121,7 @@
             "Resolve before evaluation"
           ],
           "narration": "Suppose the drawing shows a clearance but provides no approved minimum. Measuring a convenient distance and then calling it acceptable creates a circular argument. Raise the missing requirement to the responsible design and quality functions. The team may collect a clearly identified observation, but acceptance of that feature remains unresolved until the criterion and approach are properly established.",
-          "description": "Resolve a missing criterion: the evidence map groups MEASURED, NO CRITERION, UNRESOLVED. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A missing clearance criterion blocks its acceptance decision; an observed dimension is not a substitute requirement."
         }
       ],
       "activity": "Write an IQ check for outlet valve identity with baseline, criterion, safe method and evidence fields.",
@@ -172,7 +172,7 @@
             "Installed location"
           ],
           "narration": "The walkdown starts with equipment identity, not a copied supplier checklist. Compare the vessel tag, manufacturer model, serial number and location with the controlled package. A matching tag attached to a different vessel would not establish identity. Record discrepancies individually so a later reviewer can tell which identifiers matched and which remained uncertain.",
-          "description": "Start at the equipment plate: the evidence map groups TAG, MODEL / SERIAL, LOCATION. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A vessel plate contains separate tag, model and serial fields; the comparison includes physical location."
         },
         {
           "title": "Trace components in place",
@@ -182,7 +182,7 @@
             "Instrument connection"
           ],
           "narration": "Work through the installed arrangement systematically. Identify the agitator assembly and supports, then trace the outlet and instrument connections against the relevant drawing. Confirm required orientation and accessible features using the approved method. Do not run the agitator to infer installation conformity when the authorized activity is a static inspection. Functional rotation checks belong in the defined test plan.",
-          "description": "Trace components in place: the evidence map groups AGITATOR, OUTLET, SENSOR. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Component locations are checked around the vessel; static observations are distinct from energised functional tests."
         },
         {
           "title": "Inspect the removal envelope",
@@ -202,7 +202,7 @@
             "Planned verification"
           ],
           "narration": "A covered connection cannot be recorded as verified solely because its neighbour matches. Record the inaccessible item, why it could not be examined and the agreed follow-up. If suitable controlled evidence supports another verification method, justify its applicability. Distinguish direct observation from document review so the evidence does not appear stronger than it is.",
-          "description": "Record what was inaccessible: the evidence map groups INACCESSIBLE, NOT CHECKED, FOLLOW-UP. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "An inaccessible item remains an explicit incomplete check with a follow-up, rather than inheriting a neighbour’s result."
         }
       ],
       "activity": "Write a finding for a rear instrument blocked by a pipe rack. Separate observation, criterion and impact.",
@@ -253,7 +253,7 @@
             "Outlet and hose"
           ],
           "narration": "Follow the product-contact path through the fictional vessel. Include the agitator, gaskets, valve seats and transfer connection, not only the metal shell. The installation check asks whether the specified materials are actually represented by the installed components and their evidence. A certificate for the vessel body does not identify an elastomer fitted later.",
-          "description": "Map the contact components: the evidence map groups BODY, GASKET, OUTLET. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "The contact path contains metal and non-metal components; the vessel-shell certificate covers only its linked scope."
         },
         {
           "title": "Connect item to certificate",
@@ -263,7 +263,7 @@
             "Certificate scope"
           ],
           "narration": "A certificate says material grade X, but which installed item does it describe? Use the applicable identifiers and controlled supplier traceability to link the record to the component. The precise method depends on the component and project. Do not require one universal certificate format or assume every gasket has a readable individual serial number. Evaluate the traceability actually available.",
-          "description": "Connect item to certificate: the evidence map groups COMPONENT, LOT / ID, CERTIFICATE. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "The installed component connects through an applicable lot or other identifier to the certificate’s stated scope."
         },
         {
           "title": "Treat missing links as gaps",
@@ -273,7 +273,7 @@
             "Gasket evidence pending"
           ],
           "narration": "In our example, the vessel certificate is available but the installed gasket lot cannot be linked to its material record. Keep the gasket finding open. The vessel certificate does not fill that gap. Obtain applicable traceability, or use an authorized corrective approach followed by verification. Changing a label without evidence would only conceal the uncertainty.",
-          "description": "Treat missing links as gaps: the evidence map groups BODY: LINKED, GASKET: GAP, EVIDENCE NEEDED. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A solid link covers the vessel body; a broken link marks the unresolved gasket evidence."
         },
         {
           "title": "Keep suitability and identity separate",
@@ -283,7 +283,7 @@
             "Compatibility rationale"
           ],
           "narration": "Material identity and material suitability are related but different questions. The design review should have considered intended exposure, while installation evidence identifies what was fitted. If an authorized substitution changes the material, assess the compatibility and qualification implications through change control. Do not declare cleaning effectiveness solely because the installed material matches a certificate.",
-          "description": "Keep suitability and identity separate: the evidence map groups SPECIFIED, FITTED, SUITABILITY. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Matching identity supports the installation comparison but does not replace compatibility or cleaning-performance assessment."
         }
       ],
       "activity": "Build a three-row contact-material register and describe how to handle a missing gasket traceability link.",
@@ -330,7 +330,7 @@
             "Vessel connection"
           ],
           "narration": "Trace the installed branch from its defined source to the vessel connection against the controlled piping diagram. Check the specified route, isolation and identifiers using safe methods. Do not assume a pipe has the intended contents because its colour looks familiar. A label and the actual connection must agree with the system information.",
-          "description": "Trace source to point of use: the evidence map groups SOURCE, ISOLATION, CONNECTION. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "The utility source, branch isolation and vessel connection form a continuous traceable route."
         },
         {
           "title": "Read labels and direction",
@@ -340,7 +340,7 @@
             "Drawing correspondence"
           ],
           "narration": "For fixed pipework, contents identification and applicable flow direction help prevent mistakes. Compare labels with the route and controlled drawing, including places where lines cross. A correct label on the wrong connected branch remains a discrepancy. Record the location so the engineering team can resolve the actual connection rather than merely replacing the label.",
-          "description": "Read labels and direction: the evidence map groups CONTENTS, DIRECTION, ACTUAL ROUTE. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Pipe identification is compared with the actual route; arrows represent stated direction, not proof of correct connection."
         },
         {
           "title": "Separate connection from quality",
@@ -350,7 +350,7 @@
             "Point-of-use evidence"
           ],
           "narration": "The branch may be installed as drawn while the required utility-quality evidence is still unavailable. Record those as separate statuses. A pressure indication alone cannot establish chemical or microbiological suitability. Determine what qualification and sampling evidence applies to the intended use through the approved project approach, rather than borrowing limits from an unrelated sterile process.",
-          "description": "Separate connection from quality: the evidence map groups CONNECTED, QUALITY DATA, READINESS. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A correct physical connection and adequate utility-quality evidence are independent inputs to readiness."
         },
         {
           "title": "Assess a changed branch",
@@ -360,7 +360,7 @@
             "Verification defined"
           ],
           "narration": "A late branch addition may affect the upstream system as well as the receiving vessel. Identify the changed configuration and assess the required installation and other verification before use. Do not assume that the original utility qualification covers every future extension. Our workbook asks which records and responsible system owners must be linked before closing the interface.",
-          "description": "Assess a changed branch: the evidence map groups OLD SYSTEM, NEW BRANCH, IMPACT REVIEW. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A new branch triggers scope and impact assessment on both sides of the interface."
         }
       ],
       "activity": "List separate evidence for a correctly installed utility connection and suitable delivered utility quality.",
@@ -407,7 +407,7 @@
             "Display and tag"
           ],
           "narration": "Trace the installed measurement chain from sensing element to displayed value. Record the relevant identifiers, locations, ranges and configuration against the approved schedule. A display tag does not prove which sensor feeds it. Installation evidence provides the configuration baseline for later assembled-loop checks; it does not by itself establish accuracy throughout operation.",
-          "description": "Identify the installed chain: the evidence map groups SENSOR, TRANSMITTER, DISPLAY. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Sensor, transmitter and display are separate links in the installed chain, each with configuration evidence."
         },
         {
           "title": "Read beyond the sticker",
@@ -417,7 +417,7 @@
             "Results and status"
           ],
           "narration": "A calibration sticker is a starting point for locating the record. Review whether the certificate identifies the correct instrument and whether its range, points, method, results and status support the intended check. Consider uncertainty and the applicable decision rule where relevant. A current date on an unrelated instrument certificate cannot justify using the installed device.",
-          "description": "Read beyond the sticker: the evidence map groups IDENTITY, COVERAGE, RESULTS. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "The certificate review compares identity, coverage and results; a due-date label alone is insufficient."
         },
         {
           "title": "Compare the observed error",
@@ -437,7 +437,7 @@
             "Authorized correction"
           ],
           "narration": "If an instrument is outside its required calibration status, identify which checks relied on it and assess their validity. Do not simply obtain a new certificate and assume earlier readings remain valid. The investigation may require additional evidence or repeated checks under an approved approach. Record the basis for the decision and retain the original observations.",
-          "description": "Handle an unsuitable instrument: the evidence map groups STATUS GAP, AFFECTED DATA, FOLLOW-UP. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A calibration-status discrepancy leads to review of affected evidence before correction and any repeat verification."
         }
       ],
       "activity": "Calculate indication error for 40.4 °C versus 40.0 °C, then identify information needed beyond the arithmetic.",
@@ -488,7 +488,7 @@
             "Installed model match"
           ],
           "narration": "Collect the supplier instructions and maintenance requirements applicable to the installed model and revision. A large folder is not necessarily a usable handover. Check that the team can identify the correct document and that referenced drawings or schedules are available. Superseded manuals should not silently become the basis for maintaining the installed configuration.",
-          "description": "Collect usable instructions: the evidence map groups INSTALLED MODEL, APPLICABLE MANUAL, MAINTENANCE. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Operating and maintenance records are linked to the installed model and revision, rather than counted as pages."
         },
         {
           "title": "Record control configuration",
@@ -498,7 +498,7 @@
             "Controlled configuration"
           ],
           "narration": "For the vessel control system, identify the relevant hardware, software version and configuration baseline through the approved approach. A version screenshot can support identification, but it does not establish that permissions, audit trails, alarms or backup restoration work adequately. Plan the applicable computerised-system validation separately; this introductory installation module does not claim complete Annex Eleven compliance.",
-          "description": "Record control configuration: the evidence map groups HARDWARE, VERSION, CONFIGURATION. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "The configuration baseline is an input to validation; version identification is not proof of functional controls."
         },
         {
           "title": "Connect maintenance readiness",
@@ -508,7 +508,7 @@
             "Required resources"
           ],
           "narration": "Link the supplier maintenance requirements to responsible site functions and the resources needed for the next authorized activity. For our case, a rear instrument requires a specific removal tool and accessible space. Record missing resources and their implications. Do not describe a task as established merely because a supplier manual mentions it.",
-          "description": "Connect maintenance readiness: the evidence map groups TASK, OWNER, RESOURCES. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Maintenance requirements connect to an owner and required resources; unresolved readiness remains visible."
         },
         {
           "title": "Review supplier test reuse",
@@ -518,7 +518,7 @@
             "Transport impact"
           ],
           "narration": "A supplier test may be useful when its method, data and configuration are applicable and its reuse is justified. Consider what transport and installation could have changed. A factory photograph cannot prove that a field connection was installed correctly after shipment. Retain the rationale for what is reused and the site verification still required.",
-          "description": "Review supplier test reuse: the evidence map groups FACTORY DATA, IMPACT REVIEW, SITE EVIDENCE. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Supplier evidence passes through an applicability and transport-impact review before supporting a site conclusion."
         }
       ],
       "activity": "Prepare a handover index for instructions, configuration and supplier evidence, including one limitation.",
@@ -569,7 +569,7 @@
             "Executor and date"
           ],
           "narration": "An installation record should make the comparison understandable. For the valve identity check, record the actual model and tag, the referenced schedule and the outcome. A tick without the required observation may leave a reviewer unable to reconstruct the decision. Use the approved form and record the work when performed, not from memory at the end of the week.",
-          "description": "Capture the actual result: the evidence map groups CRITERION, OBSERVATION, ATTRIBUTION. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A check row connects its criterion to an actual observation and attributable execution details."
         },
         {
           "title": "Use photographs with context",
@@ -579,7 +579,7 @@
             "Record relationship"
           ],
           "narration": "A photograph can support an observation if the relevant feature is readable and its relationship to the check is clear. Record location, subject and the controlled evidence reference. A cropped image of a plate without the equipment context may be ambiguous. Photographs supplement the specified verification method; they are not automatically sufficient for every installation characteristic.",
-          "description": "Use photographs with context: the evidence map groups SUBJECT, LOCATION, CHECK REFERENCE. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A contextual image and its evidence reference link back to a particular check and equipment item."
         },
         {
           "title": "Correct without obscuring",
@@ -588,8 +588,8 @@
             "Correction attributed",
             "Reason where appropriate"
           ],
-          "narration": "Suppose a handwritten serial number contains a transposed digit. Correct it using the approved documentation procedure, preserving the original entry and recording the required attribution and date, with a reason where appropriate. Do not erase the original or backdate the correction. For electronic records, use the controlled system process rather than an untracked replacement file.",
-          "description": "Correct without obscuring: the evidence map groups ORIGINAL, CORRECTION, ATTRIBUTION. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "narration": "Suppose a handwritten serial number contains a transposed digit. Correct it using the approved documentation procedure, preserving the original entry and recording the required attribution and date, with a reason where appropriate. Do not erase the original or backdate the correction. For electronic records, use the controlled system process rather than an untracked replacement file. Retain original records, printouts, photographs and raw electronic data under the defined retention schedule, with controlled locations and integrity safeguards. The applicable period depends on the supported activity and regulatory obligations; this exercise sets no universal number of years.",
+          "description": "The original entry remains traceable beside an attributed correction; an opaque overwrite is excluded."
         },
         {
           "title": "Explain incomplete fields",
@@ -599,11 +599,11 @@
             "Unresolved action"
           ],
           "narration": "Not applicable, not checked and failed are different statuses. A check outside the approved system scope needs a justified not-applicable basis. An inaccessible feature is not checked. A verified mismatch is a discrepancy. Keeping these statuses distinct prevents a completed-looking form from implying that evidence exists where it does not.",
-          "description": "Explain incomplete fields: the evidence map groups NOT APPLICABLE, NOT CHECKED, MISMATCH. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Three different statuses retain separate meanings and must not be collapsed into a single completion tick."
         }
       ],
-      "activity": "Rewrite “all items OK” as an evidence-linked valve check, then explain an uninspected hidden connection.",
-      "model": "Record actual tag/model, location, comparator revision and evidence reference with execution details. Mark the hidden connection not checked with reason and follow-up; do not call it not applicable just to complete the form.",
+      "activity": "Rewrite “all items OK” as an evidence-linked valve check, then explain an uninspected hidden connection. Identify where original records, photographs, printouts and raw electronic data will be retained, the responsible owner and the applicable retention schedule.",
+      "model": "Record actual tag/model, location, comparator revision and evidence reference with execution details. Mark the hidden connection not checked with reason and follow-up; do not call it not applicable just to complete the form. Identify the controlled original-data location, owner, retention schedule and integrity controls; do not invent a universal retention period.",
       "worked": [
         [
           "Status",
@@ -650,7 +650,7 @@
             "Affected function identified"
           ],
           "narration": "The accepted schedule specifies valve model A, while the installed plate shows model B. Record the mismatch and its exact location. Do not decide from the model number alone whether the difference is harmless. Assess relevant materials, connection, cleaning and functional implications with the responsible experts. Retain the original observation even if the supplier later replaces the valve.",
-          "description": "Describe the mismatch: the evidence map groups REQUIRED: A, OBSERVED: B, IMPACT UNKNOWN. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Required model A and observed model B form a recorded mismatch, with impact still to be assessed."
         },
         {
           "title": "Choose a controlled action",
@@ -660,7 +660,7 @@
             "Define verification"
           ],
           "narration": "Correction may restore the specified valve, or a proposed design change may require an authorized assessment. These are not the same route. Do not revise the acceptance criterion merely to match what arrived. Define what verification follows the approved action and whether earlier checks or later tests are affected. Keep the decision and supporting rationale linked to the finding.",
-          "description": "Choose a controlled action: the evidence map groups INVESTIGATE, AUTHORIZE ACTION, VERIFY. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A finding branches into correction or authorized change, then returns to defined verification."
         },
         {
           "title": "Verify closure evidence",
@@ -670,7 +670,7 @@
             "Reviewed conclusion"
           ],
           "narration": "A purchase order for the replacement is not closure evidence. After the authorized action, obtain the specified installation evidence and assess any related implications. Retain the original failure and the subsequent result as separate records. A clean second result should not erase the history or imply that the first configuration had always complied.",
-          "description": "Verify closure evidence: the evidence map groups ORDERED ≠ CLOSED, REINSPECT, REVIEW. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Action completion and reinspection feed a reviewed closure decision; ordering a part alone leaves the finding open."
         },
         {
           "title": "Limit conditional progression",
@@ -679,8 +679,8 @@
             "No significant impact basis",
             "Responsible authorization"
           ],
-          "narration": "Conditional progression is specific to the next qualification activity and requires a documented no-significant-impact assessment and responsible authorization. For example, an unresolved gasket issue may prevent wetted-system challenges even if a separately assessed dry control-display check could proceed. This is an illustration, not permission. Do not use a high completion percentage as a substitute for the assessment.",
-          "description": "Limit conditional progression: the evidence map groups OPEN FINDING, DEFINED ACTIVITY, AUTHORIZATION. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "narration": "Annex Fifteen permits conditional approval to proceed to the next qualification stage following a documented assessment that there is no significant impact on the next activity. Responsible authorization is still needed. For example, an unresolved gasket issue may prevent wetted-system challenges even if a separately assessed dry control-display check could proceed. This activity-specific dry-check example is a practical teaching recommendation, not wording prescribed by the Annex or permission to proceed. Do not use a high completion percentage as a substitute for the assessment.",
+          "description": "The open finding limits affected tests; a separate next-stage activity needs its own assessed and authorized basis."
         }
       ],
       "activity": "Draft a discrepancy entry for the wrong valve and identify what is required before closure or limited progression.",
@@ -731,7 +731,7 @@
             "Controlled baseline"
           ],
           "narration": "Before reporting, reconcile the executed checks with the evidence index and finding register. Missing attachments, ambiguous revisions and unexplained blanks can change the interpretation of a result. In our fictional package, the team confirms which checks are supported and which remain unresolved. This review does not create evidence; it tests whether the existing record supports the proposed conclusion.",
-          "description": "Reconcile the evidence index: the evidence map groups CHECKS, ATTACHMENTS, REPORT. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "Executed checks, attachments and findings converge on the report against one controlled baseline."
         },
         {
           "title": "Do not average away a gap",
@@ -751,7 +751,7 @@
             "Defined OQ handover"
           ],
           "narration": "The recommendation should identify the installed scope reviewed, the evidence baseline, deviations and any restrictions. State the specific next-stage activity recommended for authorization rather than ready for production. Transfer the configuration records and unresolved dependencies to the operational-qualification team so their tests use the right system and do not assume a finding has disappeared.",
-          "description": "Write a bounded recommendation: the evidence map groups SCOPE, RESTRICTIONS, OQ HANDOVER. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "A bounded IQ report passes configuration and restrictions to OQ; routine-use authorization is not represented."
         },
         {
           "title": "Defend the handover",
@@ -761,7 +761,7 @@
             "Identify the authorized step"
           ],
           "narration": "For the capstone, trace one conclusion back to its criterion, observation and evidence. Explain the remaining gasket finding and identify which proposed activities depend on it. Then draft a recommendation for the responsible reviewers. This self-study exercise is not independent competence certification, an executed qualification package or a substitute for site procedures and qualified human review.",
-          "description": "Defend the handover: the evidence map groups TRACE EVIDENCE, EXPLAIN GAP, RECOMMEND. These three related review topics correspond to the narrated explanation; the map is not a physical equipment drawing."
+          "description": "The learner traces evidence, explains a limitation and recommends a bounded next step for human review."
         }
       ],
       "activity": "Prepare a short IQ handover with scope, evidence references, open gasket finding, restrictions and proposed OQ decision.",

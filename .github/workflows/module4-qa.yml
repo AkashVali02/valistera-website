@@ -105,7 +105,7 @@ jobs:
           AXE_PATH: node_modules/axe-core/axe.min.js
           RESULT_PATH: academy/review/module-4/hosted-browser-results.json
           SCREENSHOT_DIR: /tmp
-        run: node academy/tests/module4-browser.cjs
+        run: EXPECTED_COMMIT=$(git rev-parse HEAD) node academy/tests/module4-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

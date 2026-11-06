@@ -1,10 +1,10 @@
 # Module 4 — Installation Qualification (IQ)
-Edition M4-20261106-R1. Development review candidate. NOT approved for production.
+Edition M4-20261106-R2. Development review candidate. NOT approved for production.
 
 This module is original educational content using fictional vessel V-201. It is not an executed qualification record, a complete site protocol, certification, or independent GMP consultant approval.
 
 ## Review sequence
-1. Read the served source commit in the review-page footer and build manifest. Review that exact candidate.
+1. Read the served source commit in the review-page footer and build manifest. Open the public exact-commit evidence link and require its tested_commit to match; a missing/mismatched record is a review blocker. Review that exact candidate.
 2. Review all ten lessons, forty scene descriptions/images, ten worked examples and activities, workbook, twenty assessment questions and explanations.
 3. Listen to all ten videos; check terminology, pronunciation, captions and scene transitions. Inspect maintenance-access lesson 4.3 part 3, error calculation 4.6 part 3, and coverage 4.10 part 2 particularly carefully.
 4. Test native timeline taps at early and late positions, keyboard disclosures, captions, mobile layouts, zoom, screen reader and optional local storage.

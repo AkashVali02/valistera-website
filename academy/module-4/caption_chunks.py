@@ -3,6 +3,8 @@ import re,textwrap
 from functools import lru_cache
 BAD_END=set('a an the of to with for from and or in on at by as its their this that'.split())
 STARTS=set('and but while because when where which whether if rather not instead including without'.split())
+# Keep common technical noun phrases and auxiliary verbs across cue boundaries.
+PROTECTED=set('accessible features|approved arrangement|controlled evidence|verification method|original records|raw electronic|electronic data|retention schedule|decision rule|calibration status|material identification|manufacturer requirements|system boundary|installation conformity|quality evidence|supplier instructions|acceptance criterion|no significant|significant impact|next qualification|qualification stage|dry control-display|could not|does not|must not|should not|may be|can be'.split('|'))
 def chunks(text):
  for sentence in re.split(r'(?<=[.!?])\s+',text):
   words=sentence.split();N=len(words)
@@ -18,7 +20,9 @@ def chunks(text):
     cost=(len(phrase)-58)**2/100
     if end<N:
      last=words[end-1].lower().strip('.,:;!?');nxt=words[end].lower().strip('.,:;!?')
-     cost+=35 if last in BAD_END else 0
+     cost+=80 if last in BAD_END else 0
+     cost+=1000 if last+' '+nxt in PROTECTED else 0
+     cost+=40 if last in {'approved','controlled','relevant','applicable','required','another','accessible','electronic','raw','original'} else 0
      cost-=12 if words[end-1].endswith((',', ';', ':')) or nxt in STARTS else 0
      cost+=15 if nxt in {'of','to','with','for','from'} else 0
     option=(cost+tail[0],(phrase,)+tail[1])

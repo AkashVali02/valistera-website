@@ -11,6 +11,9 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
  const check=(name,pass,detail)=>{result.checks.push({name,pass,...(detail?{detail}:{})});if(!pass)result.failures.push(name);persist()};
  const context=await browser.newContext({viewport:{width:390,height:844}});
 
+ const before=await (await context.request.get(BASE+'/assets/academy/module-4/review/review-build.json')).json();
+ result.tested_commit=before.source_commit;result.started_at=new Date().toISOString();
+ check('Manifest identifies expected candidate', /^[a-f0-9]{40}$/.test(before.source_commit)&&(!process.env.EXPECTED_COMMIT||before.source_commit===process.env.EXPECTED_COMMIT));
  const page=await context.newPage();page.setDefaultTimeout(20000);page.setDefaultNavigationTimeout(30000);let external=[];page.on('request',r=>{if(!r.url().startsWith(BASE)&&!r.url().startsWith('blob:'+new URL(BASE).origin+'/'))external.push(r.url())});
  const names=['academy-module-4.html','academy-module-4-workbook.html','academy-module-4-assessment.html','academy-module-4-sources.html','academy-module-4-review.html',...Array.from({length:10},(_,i)=>`academy-lesson-4-${i+1}.html`)];
  for(const name of names){
@@ -39,7 +42,7 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
    const disclosure=page.locator('.scene-explanation').nth(j), content=disclosure.locator('.technical-content');
    check('Lesson '+i+' diagram '+(j+1)+' entirely collapsed',!(await content.isVisible())&&!(await disclosure.locator('img').isVisible()));
    await disclosure.locator('summary').focus();await page.keyboard.press('Enter');
-   check('Lesson '+i+' diagram '+(j+1)+' expands with information',await content.isVisible()&&await disclosure.locator('img').isVisible()&&(await disclosure.locator('summary').innerText()).includes('View Technical Explanation'));
+   check('Lesson '+i+' diagram '+(j+1)+' expands with Enter and information',await content.isVisible()&&await disclosure.locator('img').isVisible()&&(await disclosure.locator('summary').innerText()).includes('View Technical Explanation'));
    await page.keyboard.press('Enter');
    check('Lesson '+i+' diagram '+(j+1)+' closes again',!(await content.isVisible()));
   }
@@ -113,6 +116,9 @@ const BASE=process.env.BASE_URL||'http://127.0.0.1:8092';
  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:800}});const p2=await nojs.newPage();await p2.goto(BASE+'/academy-lesson-4-1.html');check('No-JS transcript',await p2.locator('#transcript').isVisible());check('No-JS no quiz submission',await p2.locator('form button').isDisabled());
  const blocked=await browser.newContext();await blocked.addInitScript(()=>{Object.defineProperty(window,'localStorage',{get(){throw new DOMException('Blocked','SecurityError')}})});const pb=await blocked.newPage();await pb.goto(BASE+'/academy-lesson-4-1.html');await pb.locator('#save-progress').click();check('Blocked storage reported',(await pb.locator('#storage-status').innerText()).includes('could not be saved'));check('Blocked storage checkbox reset',!(await pb.locator('#save-progress').isChecked()));check('Blocked storage lesson usable',await pb.locator('#load-media').isVisible());
  await page.goto(BASE+'/academy-module-4.html');await page.screenshot({path:(process.env.SCREENSHOT_DIR||'.')+'/module4-overview.png',fullPage:false});await page.goto(BASE+'/academy-lesson-4-9.html');await page.screenshot({path:(process.env.SCREENSHOT_DIR||'.')+'/module4-lesson.png',fullPage:false});
+ const after=await (await context.request.get(BASE+'/assets/academy/module-4/review/review-build.json')).json();
+ check('Manifest unchanged throughout browser run',JSON.stringify(before)===JSON.stringify(after));
+ result.finished_at=new Date().toISOString();
  result.completed=true;
  fs.writeFileSync(process.env.RESULT_PATH||'/home/user/module4-browser-results.json',JSON.stringify(result,null,2));console.log(JSON.stringify({checks:result.checks.length,failures:result.failures}));await browser.close();if(result.failures.length)process.exitCode=1;
 })().catch(e=>{console.error(e);const p=process.env.RESULT_PATH||'/home/user/module4-browser-results.json';const r=fs.existsSync(p)?JSON.parse(fs.readFileSync(p)): {checks:[],failures:[]};r.completed=false;r.failures.push(String(e));fs.writeFileSync(p,JSON.stringify(r,null,2));process.exit(1)});

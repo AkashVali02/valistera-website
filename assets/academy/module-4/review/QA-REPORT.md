@@ -1,14 +1,14 @@
 # Module 4 automated QA evidence
 
-Edition M4-20261106-R1. Review candidate, not human GMP approval or release authorization.
+Edition M4-20261106-R2. Review candidate, not human GMP approval or release authorization.
 
 - media-results.json: 150 checks; 0 failures; completed=see evidence scope.
 - frame-results.json: 40 checks; 0 failures; completed=see evidence scope.
 - browser-results.json: 433 checks; 0 failures; completed=True.
-- hosted-delivery-results.json: generated after deployment and retained in the GitHub workflow artifact. See PR #7 for the exact verified commit/run; this pre-deployment report does not assert a hosted result.
-- hosted-browser-results.json: generated after deployment and retained in the GitHub workflow artifact. See PR #7 for the exact verified commit/run; this pre-deployment report does not assert a hosted result.
+- hosted-delivery-results.json: PENDING in this pre-deployment snapshot. Use the public exact-commit evidence link on the review page for post-deployment results; require its tested_commit to match the served footer.
+- hosted-browser-results.json: PENDING in this pre-deployment snapshot. Use the public exact-commit evidence link on the review page for post-deployment results; require its tested_commit to match the served footer.
 
-Latest review status and hosted evidence: https://github.com/AkashVali02/valistera-website/pull/7
+Post-deployment evidence: public exact-commit evidence link on the review page. PR discussion: https://github.com/AkashVali02/valistera-website/pull/7
 
 Read individual JSON evidence for scope and exact failure details. Build identity is in review-build.json; workflow start and final media commit can differ because generated assets are saved after testing.
 
