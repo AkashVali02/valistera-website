@@ -2,8 +2,6 @@
 (() => {
 'use strict';
 const KEY='valistera_module4_v1';
-// Arithmetic round-off guard only, not a measurement uncertainty allowance.
-function exceedsAbsoluteLimit(value, limit){return Math.abs(value)>limit+1e-12;}
 let state={enabled:false,studied:[],passed:[],score:null};
 const status=document.getElementById('storage-status');
 try {
@@ -66,10 +64,6 @@ for(const form of document.querySelectorAll('form.quiz')){form.querySelector('bu
  else if(correct===fields.length){const id=Number(form.dataset.lesson);if(!state.passed.includes(id))state.passed.push(id);}
  save();refresh();
 });}
-const sumInputs=[...document.querySelectorAll('[data-error-component]')];
-function errorBudget(){const values=sumInputs.map(x=>x.valueAsNumber),out=document.getElementById('error-result');if(!out)return;if(values.some(x=>!Number.isFinite(x)||x<0||x>2)){out.textContent='Enter each bound from 0 to 2 °C.';return;}const sum=values.reduce((a,b)=>a+b,0);out.textContent=`Worst-case sum: ${sum.toFixed(2)} °C. ${exceedsAbsoluteLimit(sum,.5)?'Exceeds':'Does not exceed'} the fictional 0.50 °C requirement. This is not a complete uncertainty budget or approval.`;}
-sumInputs.forEach(x=>x.addEventListener('input',errorBudget));errorBudget();
-const coverage=document.getElementById('covered');if(coverage){const update=()=>{const n=coverage.valueAsNumber;document.getElementById('coverage-result').textContent=Number.isInteger(n)&&n>=0&&n<=10?`${n} of 10 = ${n*10}% coverage. Review important gaps and evidence; no percentage authorizes use.`:'Enter a whole number from 0 to 10.';};coverage.addEventListener('input',update);update();}
 document.getElementById('print-workbook')?.addEventListener('click',()=>window.print());
 refresh();
 })();
