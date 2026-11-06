@@ -40,11 +40,11 @@
     "feedback": "The observed distance cannot create its own criterion; no universal 300 mm limit is taught."
   },
   {
-    "question": "A gasket certificate describes a lot that cannot be linked to the installed gasket. What remains open?",
+    "question": "A gasket certificate describes a lot that cannot be linked to the installed gasket. How should it be handled?",
     "options": [
-      "Traceability between the material evidence and installed item",
-      "The requirement to replace every metal contact component",
-      "The need to change all qualification stages to one protocol"
+      "Keep identity unresolved until applicable traceability is established",
+      "Accept the certificate because supplier and material grade match",
+      "Accept the gasket because the vessel-body certificate is available"
     ],
     "answer": 0,
     "feedback": "The missing item-to-evidence link must be resolved through an applicable controlled approach."
@@ -143,8 +143,8 @@
     "question": "A photograph shows a readable nameplate but cannot be linked to any location or check. What is needed?",
     "options": [
       "Context and an evidence reference connecting it to the inspected item",
-      "A higher pass percentage in the summary report",
-      "A replacement image without retaining the original record"
+      "Placement in the general vessel folder without a check reference",
+      "Use as sole identity evidence for every unit of the same model"
     ],
     "answer": 0,
     "feedback": "An image needs a clear relationship to the relevant equipment and verification record."
