@@ -1,0 +1,15 @@
+ValiStera Academy — Module 4 / Lesson 4.1
+What installation qualification establishes
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+From design to installation
+Welcome to Module 4, Installation Qualification, or IQ. We continue with the fictional V-201 oral-liquid mixing vessel. The design review described what was intended. Now the team compares the installed system with the accepted design and manufacturer recommendations. Every identifier and observation in this module is invented for training. No real equipment has been qualified.
+
+Three different evidence questions
+A drawing shows a temperature sensor connection. A walkdown identifies which sensor is installed at that connection. An operational challenge examines how the assembled loop behaves. These answer different questions. Finding the correct tag does not demonstrate alarm response, and a successful alarm test does not repair missing material identification. Keep each conclusion tied to the evidence actually obtained.
+
+Set the system boundary
+For our case, the installation boundary includes the vessel, agitator, outlet components, instruments and defined utility connections. The upstream utility plant has its own qualification scope. Record where one system ends and another begins. A qualified water system does not automatically prove that a new branch has the correct connection or that its delivered water is suitable.
+
+Limit the conclusion
+The teaching conclusion is limited to installation evidence reviewed against the defined baseline. It is not permission to manufacture a batch. Operational and performance verification remain separate needs. Where stages are combined in an approved approach, the underlying evidence questions still remain visible. Your first activity separates installation observations from claims that require later studies.

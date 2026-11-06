@@ -1,0 +1,15 @@
+ValiStera Academy — Module 4 / Lesson 4.9
+Investigate discrepancies and manage changes
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Describe the mismatch
+The accepted schedule specifies valve model A, while the installed plate shows model B. Record the mismatch and its exact location. Do not decide from the model number alone whether the difference is harmless. Assess relevant materials, connection, cleaning and functional implications with the responsible experts. Retain the original observation even if the supplier later replaces the valve.
+
+Choose a controlled action
+Correction may restore the specified valve, or a proposed design change may require an authorized assessment. These are not the same route. Do not revise the acceptance criterion merely to match what arrived. Define what verification follows the approved action and whether earlier checks or later tests are affected. Keep the decision and supporting rationale linked to the finding.
+
+Verify closure evidence
+A purchase order for the replacement is not closure evidence. After the authorized action, obtain the specified installation evidence and assess any related implications. Retain the original failure and the subsequent result as separate records. A clean second result should not erase the history or imply that the first configuration had always complied.
+
+Limit conditional progression
+Annex 15 permits conditional approval to proceed to the next qualification stage following a documented assessment that there is no significant impact on the next activity. Responsible authorization is still needed. For example, an unresolved gasket issue may prevent wetted-system challenges even if a separately assessed dry control-display check could proceed. This activity-specific dry-check example is a practical teaching recommendation, not wording prescribed by the Annex or permission to proceed. Do not use a high completion percentage as a substitute for the assessment.

@@ -1,0 +1,15 @@
+ValiStera Academy — Module 4 / Lesson 4.4
+Verify materials and component traceability
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Map the contact components
+Follow the product-contact path through the fictional vessel. Include the agitator, gaskets, valve seats and transfer connection, not only the metal shell. The installation check asks whether the specified materials are actually represented by the installed components and their evidence. A certificate for the vessel body does not identify an elastomer fitted later.
+
+Connect item to certificate
+A certificate says material grade X, but which installed item does it describe? Use the applicable identifiers and controlled supplier traceability to link the record to the component. The precise method depends on the component and project. Do not require one universal certificate format or assume every gasket has a readable individual serial number. Evaluate the traceability actually available.
+
+Treat missing links as gaps
+In our example, the vessel certificate is available but the installed gasket lot cannot be linked to its material record. Keep the gasket finding open. The vessel certificate does not fill that gap. Obtain applicable traceability, or use an authorized corrective approach followed by verification. Changing a label without evidence would only conceal the uncertainty.
+
+Keep suitability and identity separate
+Material identity and material suitability are related but different questions. The design review should have considered intended exposure, while installation evidence identifies what was fitted. If an authorized substitution changes the material, assess the compatibility and qualification implications through change control. Do not declare cleaning effectiveness solely because the installed material matches a certificate.

@@ -1,0 +1,15 @@
+ValiStera Academy — Module 4 / Lesson 4.10
+Report IQ and hand over to OQ
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Reconcile the evidence index
+Before reporting, reconcile the executed checks with the evidence index and finding register. Missing attachments, ambiguous revisions and unexplained blanks can change the interpretation of a result. In our fictional package, the team confirms which checks are supported and which remain unresolved. This review does not create evidence; it tests whether the existing record supports the proposed conclusion.
+
+Do not average away a gap
+Nine of ten checks have supporting evidence, giving 90% numerical coverage. The remaining item is the unresolved gasket-material link. A high percentage does not make that gap acceptable. Evaluate its significance and the proposed next activity. The course practice score and this coverage calculation are learning aids, not regulatory release thresholds.
+
+Write a bounded recommendation
+The recommendation should identify the installed scope reviewed, the evidence baseline, deviations and any restrictions. State the specific next-stage activity recommended for authorization rather than ready for production. Transfer the configuration records and unresolved dependencies to the operational-qualification team so their tests use the right system and do not assume a finding has disappeared.
+
+Defend the handover
+For the capstone, trace one conclusion back to its criterion, observation and evidence. Explain the remaining gasket finding and identify which proposed activities depend on it. Then draft a recommendation for the responsible reviewers. This self-study exercise is not independent competence certification, an executed qualification package or a substitute for site procedures and qualified human review.

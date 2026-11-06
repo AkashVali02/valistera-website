@@ -1,0 +1,202 @@
+[
+  {
+    "question": "A team verified the installed vessel against its accepted arrangement. Which conclusion is supported?",
+    "options": [
+      "Every future batch will meet its mixing specification",
+      "The cleaning process removes all relevant residues",
+      "The installed arrangement matches the reviewed scope"
+    ],
+    "answer": 2,
+    "feedback": "Limit the conclusion to installation evidence; performance and cleaning need their own studies."
+  },
+  {
+    "question": "Two inspectors used different revisions of the instrument schedule. What should happen?",
+    "options": [
+      "Reconcile baseline revisions and assess affected checks",
+      "Combine both checklists without evaluating the differences",
+      "Use the newest issue without checking its effective approval"
+    ],
+    "answer": 0,
+    "feedback": "A consistent applicable baseline is needed to interpret the observations."
+  },
+  {
+    "question": "An equipment tag matches but the manufacturer serial differs from the schedule. What is justified?",
+    "options": [
+      "Resolve the identity discrepancy before relying on the match",
+      "Accept the vessel because the site tag is the primary identifier",
+      "Replace the schedule entry without investigating the difference"
+    ],
+    "answer": 0,
+    "feedback": "A tag match does not resolve conflicting equipment identity."
+  },
+  {
+    "question": "A drawing lacks the required removal clearance. How should a measured 300 mm be treated?",
+    "options": [
+      "As a universal GMP minimum for maintenance access",
+      "As an observation whose acceptance criterion remains unresolved",
+      "As proof that the manufacturer removal envelope is satisfied"
+    ],
+    "answer": 1,
+    "feedback": "The observed distance cannot create its own criterion; no universal 300 mm limit is taught."
+  },
+  {
+    "question": "A gasket certificate describes a lot that cannot be linked to the installed gasket. How should it be handled?",
+    "options": [
+      "Accept the certificate because supplier and material grade match",
+      "Accept the gasket because the vessel-body certificate is available",
+      "Resolve the installed-gasket link before accepting the certificate"
+    ],
+    "answer": 2,
+    "feedback": "The missing item-to-evidence link must be resolved through an applicable controlled approach."
+  },
+  {
+    "question": "The installed material matches its specification. Which claim still needs separate evidence?",
+    "options": [
+      "The compared material identifier matches the specification",
+      "The cleaning process is effective for the intended residues",
+      "The identity record relates to the inspected component"
+    ],
+    "answer": 1,
+    "feedback": "Matching material identity does not demonstrate cleaning effectiveness."
+  },
+  {
+    "question": "A utility line is labelled correctly but connected to a different branch than the drawing specifies. What is appropriate?",
+    "options": [
+      "Record and investigate the connection discrepancy",
+      "Accept the label as sufficient evidence of correct installation",
+      "Revise the drawing to match without an impact assessment"
+    ],
+    "answer": 0,
+    "feedback": "A label does not correct an incorrect or unassessed physical connection."
+  },
+  {
+    "question": "A utility was qualified before a new vessel branch was added. What is needed for the extension?",
+    "options": [
+      "Automatic acceptance under the original utility report",
+      "Confirm source quality and omit branch-specific installation checks",
+      "Assessment of the change and applicable verification scope"
+    ],
+    "answer": 2,
+    "feedback": "The extension must be evaluated; previous qualification does not automatically cover a changed system."
+  },
+  {
+    "question": "Indication is 40.4 \u00b0C and reference is 40.0 \u00b0C. Which signed error and simple comparison are correct?",
+    "options": [
+      "\u22120.4 \u00b0C; outside the fictional \u00b10.5 \u00b0C limit",
+      "+0.4 \u00b0C; within the fictional \u00b10.5 \u00b0C limit",
+      "+0.8 \u00b0C; outside the fictional \u00b10.5 \u00b0C limit"
+    ],
+    "answer": 1,
+    "feedback": "Indication minus reference is +0.4 \u00b0C. This arithmetic is not a complete uncertainty or acceptance decision."
+  },
+  {
+    "question": "A current certificate has suitable range but identifies another instrument. What follows?",
+    "options": [
+      "Use it because the range covers the planned test",
+      "Resolve certificate applicability to the installed instrument",
+      "Use it because both instruments came from one supplier"
+    ],
+    "answer": 1,
+    "feedback": "Identity, not just date and range, is necessary for applicability."
+  },
+  {
+    "question": "An instrument is found outside its required calibration status after IQ measurements. What should be assessed?",
+    "options": [
+      "Whether a new calibration alone can replace the affected readings",
+      "Whether the signed observations can be accepted without impact review",
+      "The validity of affected measurements and required follow-up"
+    ],
+    "answer": 2,
+    "feedback": "A new calibration record alone does not establish the validity of earlier evidence."
+  },
+  {
+    "question": "The control-system version is recorded during IQ. Which next step is still needed as applicable?",
+    "options": [
+      "Validation of applicable functions and controls under the plan",
+      "Acceptance of all audit-trail behaviour from the version number",
+      "Acceptance of backup restoration from the version screenshot"
+    ],
+    "answer": 0,
+    "feedback": "Version identification does not demonstrate functional controls or complete Annex 11 compliance."
+  },
+  {
+    "question": "A supplier manual covers a different installed model. What is the strongest response?",
+    "options": [
+      "File it because the product family is broadly similar",
+      "Use the similar model instructions pending the next periodic review",
+      "Verify applicability and obtain the required correct instructions"
+    ],
+    "answer": 2,
+    "feedback": "The handover needs instructions relevant to the installed model/configuration."
+  },
+  {
+    "question": "A factory test is proposed for reuse after transport and site assembly. What supports reuse?",
+    "options": [
+      "Applicable evidence plus justified configuration and impact review",
+      "An approved factory report without reviewing site configuration",
+      "Matching model numbers without assessing transport or assembly"
+    ],
+    "answer": 0,
+    "feedback": "Assess configuration, method, data and effects of transport/installation; retain required site checks."
+  },
+  {
+    "question": "A photograph shows a readable nameplate but cannot be linked to any location or check. What is needed?",
+    "options": [
+      "Placement in the general vessel folder without a check reference",
+      "Link the image to the inspected item and its verification record",
+      "Use as sole identity evidence for every unit of the same model"
+    ],
+    "answer": 1,
+    "feedback": "An image needs a clear relationship to the relevant equipment and verification record."
+  },
+  {
+    "question": "A serial number was transposed in a handwritten record. Which correction is appropriate?",
+    "options": [
+      "Erase the entry and write the expected serial in its place",
+      "Rewrite the page and discard the page with the original entry",
+      "Preserve the original and make an attributed, dated correction"
+    ],
+    "answer": 2,
+    "feedback": "Follow the approved procedure, preserve the original information and record a reason where appropriate."
+  },
+  {
+    "question": "A protocol check was not performed because access was unsafe. Which status is accurate?",
+    "options": [
+      "Not checked, with the limitation and follow-up recorded",
+      "Passed because the remaining equipment was satisfactory",
+      "Not applicable because inspection was inconvenient"
+    ],
+    "answer": 0,
+    "feedback": "An incomplete check is distinct from a justified scope exclusion or a demonstrated pass."
+  },
+  {
+    "question": "An installed valve differs from the accepted specification. Which route is defensible?",
+    "options": [
+      "Edit the acceptance criterion to match the supplied valve",
+      "Record the finding, assess impact and authorize the response",
+      "Close the check when the supplier confirms receipt of the complaint"
+    ],
+    "answer": 1,
+    "feedback": "A discrepancy requires an evidence-based controlled response and defined verification."
+  },
+  {
+    "question": "Nine of ten checks are supported, but gasket traceability remains open. What does 90% mean?",
+    "options": [
+      "Automatic OQ permission because it exceeds the practice target",
+      "Complete installation suitability if the missing record is promised",
+      "Numerical coverage only; it does not authorize the next stage"
+    ],
+    "answer": 2,
+    "feedback": "9/10 is 90%, but significance and activity-specific assessment govern the decision."
+  },
+  {
+    "question": "A proposed dry OQ activity is unaffected by an open wetted-system finding. What supports conditional progression?",
+    "options": [
+      "Documented no-significant-impact review and responsible authorization",
+      "The project schedule and the supplier commitment to close the finding",
+      "The number of completed checks and the overall practice score"
+    ],
+    "answer": 0,
+    "feedback": "Annex 15 \u00a72.10 addresses conditional approval to proceed to the next qualification stage after a documented no-significant-impact assessment. Selecting a separately assessed dry OQ activity is a practical teaching recommendation, not an activity prescribed by that clause. The open finding remains open; responsible authorization is required."
+  }
+]

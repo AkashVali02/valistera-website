@@ -1,0 +1,251 @@
+{
+  "duration": 108.37716666666668,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 24.706,
+      "title": "Trace source to point of use"
+    },
+    {
+      "start": 24.706,
+      "end": 51.408,
+      "title": "Read labels and direction"
+    },
+    {
+      "start": 51.408,
+      "end": 80.63,
+      "title": "Separate connection from quality"
+    },
+    {
+      "start": 80.63,
+      "end": 108.377,
+      "title": "Assess a changed branch"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.414,
+      "text": "Trace the installed branch from its defined source to the vessel",
+      "spoken": "Trace the installed branch from its defined source to the vessel",
+      "scene": 1
+    },
+    {
+      "start": 4.534,
+      "end": 7.913,
+      "text": "connection against the controlled piping diagram.",
+      "spoken": "connection against the controlled piping diagram.",
+      "scene": 1
+    },
+    {
+      "start": 8.033,
+      "end": 10.516,
+      "text": "Check the specified route, isolation",
+      "spoken": "Check the specified route, isolation",
+      "scene": 1
+    },
+    {
+      "start": 10.636,
+      "end": 13.175,
+      "text": "and identifiers using safe methods.",
+      "spoken": "and identifiers using safe methods.",
+      "scene": 1
+    },
+    {
+      "start": 13.295,
+      "end": 16.467,
+      "text": "Do not assume a pipe has the intended contents",
+      "spoken": "Do not assume a pipe has the intended contents",
+      "scene": 1
+    },
+    {
+      "start": 16.587,
+      "end": 18.932,
+      "text": "because its colour looks familiar.",
+      "spoken": "because its colour looks familiar.",
+      "scene": 1
+    },
+    {
+      "start": 19.052,
+      "end": 24.086,
+      "text": "A label and the actual connection must agree with the system information.",
+      "spoken": "A label and the actual connection must agree with the system information.",
+      "scene": 1
+    },
+    {
+      "start": 24.706,
+      "end": 27.672,
+      "text": "For fixed pipework, contents identification",
+      "spoken": "For fixed pipework, contents identification",
+      "scene": 2
+    },
+    {
+      "start": 27.792,
+      "end": 31.378,
+      "text": "and applicable flow direction help prevent mistakes.",
+      "spoken": "and applicable flow direction help prevent mistakes.",
+      "scene": 2
+    },
+    {
+      "start": 31.498,
+      "end": 35.153,
+      "text": "Compare labels with the route and controlled drawing,",
+      "spoken": "Compare labels with the route and controlled drawing,",
+      "scene": 2
+    },
+    {
+      "start": 35.273,
+      "end": 37.687,
+      "text": "including places where lines cross.",
+      "spoken": "including places where lines cross.",
+      "scene": 2
+    },
+    {
+      "start": 37.807,
+      "end": 42.497,
+      "text": "A correct label on the wrong connected branch remains a discrepancy.",
+      "spoken": "A correct label on the wrong connected branch remains a discrepancy.",
+      "scene": 2
+    },
+    {
+      "start": 42.617,
+      "end": 45.238,
+      "text": "Record the location so the engineering",
+      "spoken": "Record the location so the engineering",
+      "scene": 2
+    },
+    {
+      "start": 45.358,
+      "end": 47.978,
+      "text": "team can resolve the actual connection",
+      "spoken": "team can resolve the actual connection",
+      "scene": 2
+    },
+    {
+      "start": 48.098,
+      "end": 50.788,
+      "text": "rather than merely replacing the label.",
+      "spoken": "rather than merely replacing the label.",
+      "scene": 2
+    },
+    {
+      "start": 51.408,
+      "end": 53.891,
+      "text": "The branch may be installed as drawn",
+      "spoken": "The branch may be installed as drawn",
+      "scene": 3
+    },
+    {
+      "start": 54.011,
+      "end": 58.493,
+      "text": "while the required utility-quality evidence is still unavailable.",
+      "spoken": "while the required utility-quality evidence is still unavailable.",
+      "scene": 3
+    },
+    {
+      "start": 58.613,
+      "end": 60.958,
+      "text": "Record those as separate statuses.",
+      "spoken": "Record those as separate statuses.",
+      "scene": 3
+    },
+    {
+      "start": 61.078,
+      "end": 64.113,
+      "text": "A pressure indication alone cannot establish",
+      "spoken": "A pressure indication alone cannot establish",
+      "scene": 3
+    },
+    {
+      "start": 64.233,
+      "end": 67.305,
+      "text": "chemical or microbiological suitability.",
+      "spoken": "chemical or microbiological suitability.",
+      "scene": 3
+    },
+    {
+      "start": 67.425,
+      "end": 70.873,
+      "text": "Determine what qualification and sampling evidence",
+      "spoken": "Determine what qualification and sampling evidence",
+      "scene": 3
+    },
+    {
+      "start": 70.993,
+      "end": 75.545,
+      "text": "applies to the intended use through the approved project approach,",
+      "spoken": "applies to the intended use through the approved project approach,",
+      "scene": 3
+    },
+    {
+      "start": 75.665,
+      "end": 80.01,
+      "text": "rather than borrowing limits from an unrelated sterile process.",
+      "spoken": "rather than borrowing limits from an unrelated sterile process.",
+      "scene": 3
+    },
+    {
+      "start": 80.63,
+      "end": 83.802,
+      "text": "A late branch addition may affect the upstream",
+      "spoken": "A late branch addition may affect the upstream",
+      "scene": 4
+    },
+    {
+      "start": 83.922,
+      "end": 86.612,
+      "text": "system as well as the receiving vessel.",
+      "spoken": "system as well as the receiving vessel.",
+      "scene": 4
+    },
+    {
+      "start": 86.732,
+      "end": 89.164,
+      "text": "Identify the changed configuration",
+      "spoken": "Identify the changed configuration",
+      "scene": 4
+    },
+    {
+      "start": 89.284,
+      "end": 91.767,
+      "text": "and assess the required installation",
+      "spoken": "and assess the required installation",
+      "scene": 4
+    },
+    {
+      "start": 91.887,
+      "end": 94.231,
+      "text": "and other verification before use.",
+      "spoken": "and other verification before use.",
+      "scene": 4
+    },
+    {
+      "start": 94.351,
+      "end": 97.041,
+      "text": "Do not assume that the original utility",
+      "spoken": "Do not assume that the original utility",
+      "scene": 4
+    },
+    {
+      "start": 97.161,
+      "end": 100.276,
+      "text": "qualification covers every future extension.",
+      "spoken": "qualification covers every future extension.",
+      "scene": 4
+    },
+    {
+      "start": 100.396,
+      "end": 102.534,
+      "text": "Our workbook asks which records",
+      "spoken": "Our workbook asks which records",
+      "scene": 4
+    },
+    {
+      "start": 102.654,
+      "end": 107.757,
+      "text": "and responsible system owners must be linked before closing the interface.",
+      "spoken": "and responsible system owners must be linked before closing the interface.",
+      "scene": 4
+    }
+  ]
+}

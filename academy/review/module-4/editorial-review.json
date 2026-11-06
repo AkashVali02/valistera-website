@@ -1,0 +1,28 @@
+{
+  "scope": "Editorial self-review, not independent GMP consultant approval",
+  "lessons": 10,
+  "scenes": 40,
+  "narration_words": 2234,
+  "final_questions": 20,
+  "answer_positions": {
+    "1": 7,
+    "2": 6,
+    "3": 7
+  },
+  "calculations": {
+    "indication_error_C": 0.4,
+    "coverage_percent": 90.0,
+    "practice_target": 85.0
+  },
+  "reviewed_boundaries": [
+    "IQ does not establish OQ/PQ or cleaning effectiveness",
+    "Material identity is separate from compatibility",
+    "Connection identity is separate from utility quality",
+    "Calibration uncertainty and decision rules not replaced by simple arithmetic",
+    "Conditional progression is activity-specific and authorized",
+    "Original failed observations remain retained",
+    "No universal clearance, material grade or utility limit prescribed"
+  ],
+  "source_check_date": "2026-11-06",
+  "independent_approval": false
+}

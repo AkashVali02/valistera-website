@@ -1,0 +1,230 @@
+{
+  "duration": 114.39604166666666,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 28.241,
+      "title": "From design to installation"
+    },
+    {
+      "start": 28.241,
+      "end": 57.788,
+      "title": "Three different evidence questions"
+    },
+    {
+      "start": 57.788,
+      "end": 85.143,
+      "title": "Set the system boundary"
+    },
+    {
+      "start": 85.143,
+      "end": 114.396,
+      "title": "Limit the conclusion"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.459,
+      "text": "Welcome to Module 4, Installation Qualification, or IQ.",
+      "spoken": "Welcome to Module 4, Installation Qualification, or I Q.",
+      "scene": 1
+    },
+    {
+      "start": 4.579,
+      "end": 9.357,
+      "text": "We continue with the fictional V-201 oral-liquid mixing vessel.",
+      "spoken": "We continue with the fictional V two zero one oral-liquid mixing vessel.",
+      "scene": 1
+    },
+    {
+      "start": 9.477,
+      "end": 12.65,
+      "text": "The design review described what was intended.",
+      "spoken": "The design review described what was intended.",
+      "scene": 1
+    },
+    {
+      "start": 12.77,
+      "end": 16.908,
+      "text": "Now the team compares the installed system with the accepted",
+      "spoken": "Now the team compares the installed system with the accepted",
+      "scene": 1
+    },
+    {
+      "start": 17.028,
+      "end": 19.786,
+      "text": "design and manufacturer recommendations.",
+      "spoken": "design and manufacturer recommendations.",
+      "scene": 1
+    },
+    {
+      "start": 19.906,
+      "end": 24.941,
+      "text": "Every identifier and observation in this module is invented for training.",
+      "spoken": "Every identifier and observation in this module is invented for training.",
+      "scene": 1
+    },
+    {
+      "start": 25.061,
+      "end": 27.621,
+      "text": "No real equipment has been qualified.",
+      "spoken": "No real equipment has been qualified.",
+      "scene": 1
+    },
+    {
+      "start": 28.241,
+      "end": 31.551,
+      "text": "A drawing shows a temperature sensor connection.",
+      "spoken": "A drawing shows a temperature sensor connection.",
+      "scene": 2
+    },
+    {
+      "start": 31.671,
+      "end": 36.292,
+      "text": "A walkdown identifies which sensor is installed at that connection.",
+      "spoken": "A walkdown identifies which sensor is installed at that connection.",
+      "scene": 2
+    },
+    {
+      "start": 36.412,
+      "end": 40.895,
+      "text": "An operational challenge examines how the assembled loop behaves.",
+      "spoken": "An operational challenge examines how the assembled loop behaves.",
+      "scene": 2
+    },
+    {
+      "start": 41.015,
+      "end": 43.291,
+      "text": "These answer different questions.",
+      "spoken": "These answer different questions.",
+      "scene": 2
+    },
+    {
+      "start": 43.411,
+      "end": 47.549,
+      "text": "Finding the correct tag does not demonstrate alarm response,",
+      "spoken": "Finding the correct tag does not demonstrate alarm response,",
+      "scene": 2
+    },
+    {
+      "start": 47.669,
+      "end": 52.91,
+      "text": "and a successful alarm test does not repair missing material identification.",
+      "spoken": "and a successful alarm test does not repair missing material identification.",
+      "scene": 2
+    },
+    {
+      "start": 53.03,
+      "end": 57.168,
+      "text": "Keep each conclusion tied to the evidence actually obtained.",
+      "spoken": "Keep each conclusion tied to the evidence actually obtained.",
+      "scene": 2
+    },
+    {
+      "start": 57.788,
+      "end": 61.926,
+      "text": "For our case, the installation boundary includes the vessel,",
+      "spoken": "For our case, the installation boundary includes the vessel,",
+      "scene": 3
+    },
+    {
+      "start": 62.046,
+      "end": 64.819,
+      "text": "agitator, outlet components, instruments",
+      "spoken": "agitator, outlet components, instruments",
+      "scene": 3
+    },
+    {
+      "start": 64.939,
+      "end": 67.146,
+      "text": "and defined utility connections.",
+      "spoken": "and defined utility connections.",
+      "scene": 3
+    },
+    {
+      "start": 67.266,
+      "end": 71.335,
+      "text": "The upstream utility plant has its own qualification scope.",
+      "spoken": "The upstream utility plant has its own qualification scope.",
+      "scene": 3
+    },
+    {
+      "start": 71.455,
+      "end": 74.766,
+      "text": "Record where one system ends and another begins.",
+      "spoken": "Record where one system ends and another begins.",
+      "scene": 3
+    },
+    {
+      "start": 74.886,
+      "end": 79.782,
+      "text": "A qualified water system does not automatically prove that a new branch",
+      "spoken": "A qualified water system does not automatically prove that a new branch",
+      "scene": 3
+    },
+    {
+      "start": 79.902,
+      "end": 84.523,
+      "text": "has the correct connection or that its delivered water is suitable.",
+      "spoken": "has the correct connection or that its delivered water is suitable.",
+      "scene": 3
+    },
+    {
+      "start": 85.143,
+      "end": 88.591,
+      "text": "The teaching conclusion is limited to installation",
+      "spoken": "The teaching conclusion is limited to installation",
+      "scene": 4
+    },
+    {
+      "start": 88.711,
+      "end": 91.953,
+      "text": "evidence reviewed against the defined baseline.",
+      "spoken": "evidence reviewed against the defined baseline.",
+      "scene": 4
+    },
+    {
+      "start": 92.073,
+      "end": 95.107,
+      "text": "It is not permission to manufacture a batch.",
+      "spoken": "It is not permission to manufacture a batch.",
+      "scene": 4
+    },
+    {
+      "start": 95.227,
+      "end": 99.572,
+      "text": "Operational and performance verification remain separate needs.",
+      "spoken": "Operational and performance verification remain separate needs.",
+      "scene": 4
+    },
+    {
+      "start": 99.692,
+      "end": 103.14,
+      "text": "Where stages are combined in an approved approach,",
+      "spoken": "Where stages are combined in an approved approach,",
+      "scene": 4
+    },
+    {
+      "start": 103.26,
+      "end": 107.053,
+      "text": "the underlying evidence questions still remain visible.",
+      "spoken": "the underlying evidence questions still remain visible.",
+      "scene": 4
+    },
+    {
+      "start": 107.173,
+      "end": 110.07,
+      "text": "Your first activity separates installation",
+      "spoken": "Your first activity separates installation",
+      "scene": 4
+    },
+    {
+      "start": 110.19,
+      "end": 113.776,
+      "text": "observations from claims that require later studies.",
+      "spoken": "observations from claims that require later studies.",
+      "scene": 4
+    }
+  ]
+}

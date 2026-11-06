@@ -1,0 +1,15 @@
+ValiStera Academy — Module 4 / Lesson 4.6
+Review instruments and calibration evidence
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Identify the installed chain
+Trace the installed measurement chain from sensing element to displayed value. Record the relevant identifiers, locations, ranges and configuration against the approved schedule. A display tag does not prove which sensor feeds it. Installation evidence provides the configuration baseline for later assembled-loop checks; it does not by itself establish accuracy throughout operation.
+
+Read beyond the sticker
+A calibration sticker is a starting point for locating the record. Review whether the certificate identifies the correct instrument and whether its range, points, method, results and status support the intended check. Consider uncertainty and the applicable decision rule where relevant. A current date on an unrelated instrument certificate cannot justify using the installed device.
+
+Compare the observed error
+For this fictional arithmetic exercise, the reference is 40.0 °C and the indication is 40.4 °C. Indication minus reference gives +0.4 °C. With a teaching limit of plus or minus 0.5, the magnitude is within that simple limit. This is not a full calibration acceptance decision; uncertainty, method and the approved decision rule still matter.
+
+Handle an unsuitable instrument
+If an instrument is outside its required calibration status, identify which checks relied on it and assess their validity. Do not simply obtain a new certificate and assume earlier readings remain valid. The investigation may require additional evidence or repeated checks under an approved approach. Record the basis for the decision and retain the original observations.

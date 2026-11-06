@@ -1,0 +1,15 @@
+ValiStera Academy — Module 4 / Lesson 4.7
+Assemble supplier and configuration records
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Collect usable instructions
+Collect the supplier instructions and maintenance requirements applicable to the installed model and revision. A large folder is not necessarily a usable handover. Check that the team can identify the correct document and that referenced drawings or schedules are available. Superseded manuals should not silently become the basis for maintaining the installed configuration.
+
+Record control configuration
+For the vessel control system, identify the relevant hardware, software version and configuration baseline through the approved approach. A version screenshot can support identification, but it does not establish that permissions, audit trails, alarms or backup restoration work adequately. Plan the applicable computerised-system validation separately; this introductory installation module does not claim complete Annex Eleven compliance.
+
+Connect maintenance readiness
+Link the supplier maintenance requirements to responsible site functions and the resources needed for the next authorized activity. For our case, a rear instrument requires a specific removal tool and accessible space. Record missing resources and their implications. Do not describe a task as established merely because a supplier manual mentions it.
+
+Review supplier test reuse
+A supplier test may be useful when its method, data and configuration are applicable and its reuse is justified. Consider what transport and installation could have changed. A factory photograph cannot prove that a field connection was installed correctly after shipment. Retain the rationale for what is reused and the site verification still required.

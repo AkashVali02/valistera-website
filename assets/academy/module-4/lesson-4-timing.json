@@ -1,0 +1,244 @@
+{
+  "duration": 111.79304166666665,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 26.615,
+      "title": "Map the contact components"
+    },
+    {
+      "start": 26.615,
+      "end": 55.152,
+      "title": "Connect item to certificate"
+    },
+    {
+      "start": 55.152,
+      "end": 81.389,
+      "title": "Treat missing links as gaps"
+    },
+    {
+      "start": 81.389,
+      "end": 111.793,
+      "title": "Keep suitability and identity separate"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.207,
+      "text": "Follow the product-contact path through the fictional vessel.",
+      "spoken": "Follow the product-contact path through the fictional vessel.",
+      "scene": 1
+    },
+    {
+      "start": 4.327,
+      "end": 7.223,
+      "text": "Include the agitator, gaskets, valve seats",
+      "spoken": "Include the agitator, gaskets, valve seats",
+      "scene": 1
+    },
+    {
+      "start": 7.344,
+      "end": 10.792,
+      "text": "and transfer connection, not only the metal shell.",
+      "spoken": "and transfer connection, not only the metal shell.",
+      "scene": 1
+    },
+    {
+      "start": 10.912,
+      "end": 12.912,
+      "text": "The installation check asks",
+      "spoken": "The installation check asks",
+      "scene": 1
+    },
+    {
+      "start": 13.032,
+      "end": 16.894,
+      "text": "whether the specified materials are actually represented",
+      "spoken": "whether the specified materials are actually represented",
+      "scene": 1
+    },
+    {
+      "start": 17.014,
+      "end": 20.255,
+      "text": "by the installed components and their evidence.",
+      "spoken": "by the installed components and their evidence.",
+      "scene": 1
+    },
+    {
+      "start": 20.375,
+      "end": 23.272,
+      "text": "A certificate for the vessel body does not",
+      "spoken": "A certificate for the vessel body does not",
+      "scene": 1
+    },
+    {
+      "start": 23.392,
+      "end": 25.995,
+      "text": "identify an elastomer fitted later.",
+      "spoken": "identify an elastomer fitted later.",
+      "scene": 1
+    },
+    {
+      "start": 26.615,
+      "end": 29.373,
+      "text": "A certificate says material grade X, but",
+      "spoken": "A certificate says material grade X, but",
+      "scene": 2
+    },
+    {
+      "start": 29.493,
+      "end": 32.114,
+      "text": "which installed item does it describe?",
+      "spoken": "which installed item does it describe?",
+      "scene": 2
+    },
+    {
+      "start": 32.234,
+      "end": 34.346,
+      "text": "Use the applicable identifiers",
+      "spoken": "Use the applicable identifiers",
+      "scene": 2
+    },
+    {
+      "start": 34.466,
+      "end": 39.5,
+      "text": "and controlled supplier traceability to link the record to the component.",
+      "spoken": "and controlled supplier traceability to link the record to the component.",
+      "scene": 2
+    },
+    {
+      "start": 39.62,
+      "end": 43.482,
+      "text": "The precise method depends on the component and project.",
+      "spoken": "The precise method depends on the component and project.",
+      "scene": 2
+    },
+    {
+      "start": 43.602,
+      "end": 47.534,
+      "text": "Do not require one universal certificate format or assume",
+      "spoken": "Do not require one universal certificate format or assume",
+      "scene": 2
+    },
+    {
+      "start": 47.654,
+      "end": 51.309,
+      "text": "every gasket has a readable individual serial number.",
+      "spoken": "every gasket has a readable individual serial number.",
+      "scene": 2
+    },
+    {
+      "start": 51.429,
+      "end": 54.532,
+      "text": "Evaluate the traceability actually available.",
+      "spoken": "Evaluate the traceability actually available.",
+      "scene": 2
+    },
+    {
+      "start": 55.152,
+      "end": 58.669,
+      "text": "In our example, the vessel certificate is available",
+      "spoken": "In our example, the vessel certificate is available",
+      "scene": 3
+    },
+    {
+      "start": 58.789,
+      "end": 63.548,
+      "text": "but the installed gasket lot cannot be linked to its material record.",
+      "spoken": "but the installed gasket lot cannot be linked to its material record.",
+      "scene": 3
+    },
+    {
+      "start": 63.668,
+      "end": 65.668,
+      "text": "Keep the gasket finding open.",
+      "spoken": "Keep the gasket finding open.",
+      "scene": 3
+    },
+    {
+      "start": 65.788,
+      "end": 68.961,
+      "text": "The vessel certificate does not fill that gap.",
+      "spoken": "The vessel certificate does not fill that gap.",
+      "scene": 3
+    },
+    {
+      "start": 69.081,
+      "end": 72.667,
+      "text": "Obtain applicable traceability, or use an authorized",
+      "spoken": "Obtain applicable traceability, or use an authorized",
+      "scene": 3
+    },
+    {
+      "start": 72.787,
+      "end": 75.89,
+      "text": "corrective approach followed by verification.",
+      "spoken": "corrective approach followed by verification.",
+      "scene": 3
+    },
+    {
+      "start": 76.01,
+      "end": 80.769,
+      "text": "Changing a label without evidence would only conceal the uncertainty.",
+      "spoken": "Changing a label without evidence would only conceal the uncertainty.",
+      "scene": 3
+    },
+    {
+      "start": 81.389,
+      "end": 84.333,
+      "text": "Material identity and material suitability",
+      "spoken": "Material identity and material suitability",
+      "scene": 4
+    },
+    {
+      "start": 84.453,
+      "end": 86.936,
+      "text": "are related but different questions.",
+      "spoken": "are related but different questions.",
+      "scene": 4
+    },
+    {
+      "start": 87.056,
+      "end": 91.125,
+      "text": "The design review should have considered intended exposure,",
+      "spoken": "The design review should have considered intended exposure,",
+      "scene": 4
+    },
+    {
+      "start": 91.245,
+      "end": 95.038,
+      "text": "while installation evidence identifies what was fitted.",
+      "spoken": "while installation evidence identifies what was fitted.",
+      "scene": 4
+    },
+    {
+      "start": 95.158,
+      "end": 100.399,
+      "text": "If an authorized substitution changes the material, assess the compatibility",
+      "spoken": "If an authorized substitution changes the material, assess the compatibility",
+      "scene": 4
+    },
+    {
+      "start": 100.519,
+      "end": 104.243,
+      "text": "and qualification implications through change control.",
+      "spoken": "and qualification implications through change control.",
+      "scene": 4
+    },
+    {
+      "start": 104.363,
+      "end": 107.398,
+      "text": "Do not declare cleaning effectiveness solely",
+      "spoken": "Do not declare cleaning effectiveness solely",
+      "scene": 4
+    },
+    {
+      "start": 107.518,
+      "end": 111.173,
+      "text": "because the installed material matches a certificate.",
+      "spoken": "because the installed material matches a certificate.",
+      "scene": 4
+    }
+  ]
+}
