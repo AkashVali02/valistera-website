@@ -1,0 +1,110 @@
+name: Module 4 media and browser QA
+on:
+  push:
+    branches: [academy-module-4]
+    paths: ['academy/module-4/**','academy/tests/module4*','assets/academy/module-4/**','academy-lesson-4-*.html','academy-module-4*.html','academy/review/module-4/**','.github/workflows/module4-qa.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: module4-preview-qa
+  cancel-in-progress: false
+jobs:
+  build-test:
+    if: github.ref == 'refs/heads/academy-module-4'
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install toolchain
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg espeak-ng fonts-dejavu-core
+          pip install pillow soundfile numpy kokoro-onnx==0.4.9
+          npm install --no-save playwright axe-core
+          npx playwright install --with-deps chromium
+      - uses: actions/cache@v4
+        with:
+          path: /tmp/module4-tts
+          key: module4-kokoro-v1-${{ hashFiles('academy/module-4/content.json', 'academy/module-4/caption_display.py', 'academy/module-4/caption_chunks.py') }}
+          restore-keys: module4-kokoro-v1-
+      - name: Build media when missing
+        run: |
+          if ! python3 academy/module-4/media-current.py; then
+            mkdir -p /tmp/module4-tts
+            curl -fL --retry 3 https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.0.onnx -o /tmp/module4-tts/kokoro-v1.0.onnx
+            curl -fL --retry 3 https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.0.bin -o /tmp/module4-tts/voices-v1.0.bin
+            python3 academy/module-4/narrate.py
+          fi
+      - name: Verify source and committed media
+        run: |
+          python3 academy/tests/module4-content.py
+          python3 academy/tests/module4-media.py
+          python3 academy/tests/module4-frames.py
+          python3 academy/module-4/qa-report.py
+          python3 academy/module-4/build.py
+          node academy/module-4/stamp-build.cjs
+          node validate-site.cjs
+      - name: Browser QA
+        env:
+          PLAYWRIGHT_MODULE: playwright
+          AXE_PATH: node_modules/axe-core/axe.min.js
+          RESULT_PATH: academy/review/module-4/browser-results.json
+          SCREENSHOT_DIR: /tmp
+        run: |
+          python3 academy/tests/serve-preview.py >/tmp/module4-http.log 2>&1 &
+          for i in $(seq 1 20); do curl -fsS http://127.0.0.1:8092/academy-module-4.html >/dev/null && break || sleep 1; done
+          node academy/tests/module4-browser.cjs
+      - name: Persist generated assets and QA evidence
+        if: ${{ !cancelled() }}
+        run: |
+          python3 academy/module-4/qa-report.py
+          python3 academy/module-4/build.py
+          python3 academy/module-4/media-current.py
+          git config user.name 'ValiStera Academy QA'
+          git config user.email 'actions@users.noreply.github.com'
+          git add assets/academy/module-4/ academy/review/module-4/ academy-lesson-4-*.html academy-module-4*.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Persist Module 4 media and measured QA evidence for draft review'
+            git push origin HEAD:academy-module-4
+          fi
+      - name: Verify actual Cloudflare preview commit and delivered bytes
+        run: |
+          node academy/module-4/stamp-build.cjs
+          expected=$(git rev-parse HEAD)
+          base=https://academy-module-4-valistera-website.gadadeakash72.workers.dev
+          for attempt in $(seq 1 18); do
+            status=$(curl -sS --max-time 20 -w '%{http_code}' "$base/assets/academy/module-4/review/review-build.json?check=$expected" -o /tmp/module4-hosted-response.txt || true)
+            echo "Preview attempt $attempt HTTP $status"
+            if [ "$status" = 403 ]; then echo 'Preview access denied; response retained in evidence'; exit 1; fi
+            served=$(python3 -c 'import json; print(json.load(open("/tmp/module4-hosted-response.txt"))["source_commit"])' 2>/dev/null || true)
+            if [ "$served" = "$expected" ]; then break; fi
+            sleep 10
+          done
+          test "$served" = "$expected"
+          python3 academy/tests/module4-delivery.py "$base" "$expected" academy/review/module-4/hosted-delivery-results.json
+      - name: Browser QA on actual hosted preview
+        env:
+          BASE_URL: https://academy-module-4-valistera-website.gadadeakash72.workers.dev
+          PLAYWRIGHT_MODULE: playwright
+          AXE_PATH: node_modules/axe-core/axe.min.js
+          RESULT_PATH: academy/review/module-4/hosted-browser-results.json
+          SCREENSHOT_DIR: /tmp
+        run: node academy/tests/module4-browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: module4-review-evidence
+          path: |
+            academy/review/module-4/
+            assets/academy/module-4/
+            /tmp/module4-*.png
+            /tmp/module4-http.log
+            /tmp/module4-hosted-response.txt
