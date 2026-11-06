@@ -1,0 +1,15 @@
+ValiStera Academy — Module 4 / Lesson 4.5
+Verify piping and utility interfaces
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Trace source to point of use
+Trace the installed branch from its defined source to the vessel connection against the controlled piping diagram. Check the specified route, isolation and identifiers using safe methods. Do not assume a pipe has the intended contents because its colour looks familiar. A label and the actual connection must agree with the system information.
+
+Read labels and direction
+For fixed pipework, contents identification and applicable flow direction help prevent mistakes. Compare labels with the route and controlled drawing, including places where lines cross. A correct label on the wrong connected branch remains a discrepancy. Record the location so the engineering team can resolve the actual connection rather than merely replacing the label.
+
+Separate connection from quality
+The branch may be installed as drawn while the required utility-quality evidence is still unavailable. Record those as separate statuses. A pressure indication alone cannot establish chemical or microbiological suitability. Determine what qualification and sampling evidence applies to the intended use through the approved project approach, rather than borrowing limits from an unrelated sterile process.
+
+Assess a changed branch
+A late branch addition may affect the upstream system as well as the receiving vessel. Identify the changed configuration and assess the required installation and other verification before use. Do not assume that the original utility qualification covers every future extension. Our workbook asks which records and responsible system owners must be linked before closing the interface.

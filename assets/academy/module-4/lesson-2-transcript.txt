@@ -1,0 +1,15 @@
+ValiStera Academy — Module 4 / Lesson 4.2
+Prepare the IQ baseline and protocol
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Reconcile the input package
+The fictional installation package contains the user requirements, design-review outcome, accepted drawings and an installation protocol. List identifiers and revisions before the walkdown. An email attachment labelled final is not enough to establish its approval status. If the valve drawing changed after design review, identify the change and its accepted impact before relying on the old conclusion.
+
+Write an executable check
+Replace verify installation is satisfactory with a check another trained person can repeat. For example, compare the installed outlet valve tag and model against schedule revision C, using a safe visual inspection and the identified manufacturer plate. Define what information will be recorded and how inaccessible markings will be handled. Do not leave the acceptance rule to be invented after seeing the result.
+
+Check readiness safely
+Before inspecting, confirm training, access arrangements and any required isolation with the responsible engineering team. Do not remove guards, open electrical panels or disconnect a process line merely to complete a checklist. If a marking cannot be reached safely, record that limitation and arrange an approved method. Schedule pressure does not turn an unsafe inspection into acceptable evidence.
+
+Resolve a missing criterion
+Suppose the drawing shows a clearance but provides no approved minimum. Measuring a convenient distance and then calling it acceptable creates a circular argument. Raise the missing requirement to the responsible design and quality functions. The team may collect a clearly identified observation, but acceptance of that feature remains unresolved until the criterion and approach are properly established.

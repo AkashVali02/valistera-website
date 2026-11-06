@@ -2,9 +2,9 @@
 
 Edition M4-20261106-R1. Review candidate, not human GMP approval or release authorization.
 
-- media-results.json: NOT YET VERIFIED.
-- frame-results.json: NOT YET VERIFIED.
-- browser-results.json: NOT YET VERIFIED.
+- media-results.json: 150 checks; 0 failures; completed=see evidence scope.
+- frame-results.json: 40 checks; 0 failures; completed=see evidence scope.
+- browser-results.json: 433 checks; 0 failures; completed=True.
 - hosted-delivery-results.json: NOT YET VERIFIED.
 - hosted-browser-results.json: NOT YET VERIFIED.
 

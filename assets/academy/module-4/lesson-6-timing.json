@@ -1,0 +1,244 @@
+{
+  "duration": 103.41608333333333,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 26.991,
+      "title": "Identify the installed chain"
+    },
+    {
+      "start": 26.991,
+      "end": 51.968,
+      "title": "Read beyond the sticker"
+    },
+    {
+      "start": 51.968,
+      "end": 78.772,
+      "title": "Compare the observed error"
+    },
+    {
+      "start": 78.772,
+      "end": 103.416,
+      "title": "Handle an unsuitable instrument"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 2.0,
+      "text": "Trace the installed measurement",
+      "spoken": "Trace the installed measurement",
+      "scene": 1
+    },
+    {
+      "start": 2.12,
+      "end": 5.085,
+      "text": "chain from sensing element to displayed value.",
+      "spoken": "chain from sensing element to displayed value.",
+      "scene": 1
+    },
+    {
+      "start": 5.205,
+      "end": 9.067,
+      "text": "Record the relevant identifiers, locations, ranges",
+      "spoken": "Record the relevant identifiers, locations, ranges",
+      "scene": 1
+    },
+    {
+      "start": 9.187,
+      "end": 12.237,
+      "text": "and configuration against the approved schedule.",
+      "spoken": "and configuration against the approved schedule.",
+      "scene": 1
+    },
+    {
+      "start": 12.357,
+      "end": 15.579,
+      "text": "A display tag does not prove which sensor feeds it.",
+      "spoken": "A display tag does not prove which sensor feeds it.",
+      "scene": 1
+    },
+    {
+      "start": 15.699,
+      "end": 19.048,
+      "text": "Installation evidence provides the configuration",
+      "spoken": "Installation evidence provides the configuration",
+      "scene": 1
+    },
+    {
+      "start": 19.168,
+      "end": 22.432,
+      "text": "baseline for later assembled-loop checks; it does",
+      "spoken": "baseline for later assembled-loop checks; it does",
+      "scene": 1
+    },
+    {
+      "start": 22.552,
+      "end": 26.371,
+      "text": "not by itself establish accuracy throughout operation.",
+      "spoken": "not by itself establish accuracy throughout operation.",
+      "scene": 1
+    },
+    {
+      "start": 26.991,
+      "end": 31.023,
+      "text": "A calibration sticker is a starting point for locating the record.",
+      "spoken": "A calibration sticker is a starting point for locating the record.",
+      "scene": 2
+    },
+    {
+      "start": 31.143,
+      "end": 34.94,
+      "text": "Review whether the certificate identifies the correct instrument",
+      "spoken": "Review whether the certificate identifies the correct instrument",
+      "scene": 2
+    },
+    {
+      "start": 35.06,
+      "end": 37.513,
+      "text": "and whether its range, points, method,",
+      "spoken": "and whether its range, points, method,",
+      "scene": 2
+    },
+    {
+      "start": 37.633,
+      "end": 40.407,
+      "text": "results and status support the intended check.",
+      "spoken": "results and status support the intended check.",
+      "scene": 2
+    },
+    {
+      "start": 40.527,
+      "end": 44.772,
+      "text": "Consider uncertainty and the applicable decision rule where relevant.",
+      "spoken": "Consider uncertainty and the applicable decision rule where relevant.",
+      "scene": 2
+    },
+    {
+      "start": 44.892,
+      "end": 48.177,
+      "text": "A current date on an unrelated instrument certificate",
+      "spoken": "A current date on an unrelated instrument certificate",
+      "scene": 2
+    },
+    {
+      "start": 48.297,
+      "end": 51.348,
+      "text": "cannot justify using the installed device.",
+      "spoken": "cannot justify using the installed device.",
+      "scene": 2
+    },
+    {
+      "start": 51.968,
+      "end": 54.443,
+      "text": "For this fictional arithmetic exercise,",
+      "spoken": "For this fictional arithmetic exercise,",
+      "scene": 3
+    },
+    {
+      "start": 54.563,
+      "end": 57.528,
+      "text": "the reference is forty point zero degrees Celsius",
+      "spoken": "the reference is forty point zero degrees Celsius",
+      "scene": 3
+    },
+    {
+      "start": 57.648,
+      "end": 60.08,
+      "text": "and the indication is forty point four.",
+      "spoken": "and the indication is forty point four.",
+      "scene": 3
+    },
+    {
+      "start": 60.2,
+      "end": 64.424,
+      "text": "Indication minus reference gives plus zero point four degrees.",
+      "spoken": "Indication minus reference gives plus zero point four degrees.",
+      "scene": 3
+    },
+    {
+      "start": 64.544,
+      "end": 68.085,
+      "text": "With a teaching limit of plus or minus 0.5,",
+      "spoken": "With a teaching limit of plus or minus 0.5,",
+      "scene": 3
+    },
+    {
+      "start": 68.205,
+      "end": 70.808,
+      "text": "the magnitude is within that simple limit.",
+      "spoken": "the magnitude is within that simple limit.",
+      "scene": 3
+    },
+    {
+      "start": 70.928,
+      "end": 74.107,
+      "text": "This is not a full calibration acceptance decision;",
+      "spoken": "This is not a full calibration acceptance decision;",
+      "scene": 3
+    },
+    {
+      "start": 74.227,
+      "end": 78.152,
+      "text": "uncertainty, method and the approved decision rule still matter.",
+      "spoken": "uncertainty, method and the approved decision rule still matter.",
+      "scene": 3
+    },
+    {
+      "start": 78.772,
+      "end": 82.825,
+      "text": "If an instrument is outside its required calibration status,",
+      "spoken": "If an instrument is outside its required calibration status,",
+      "scene": 4
+    },
+    {
+      "start": 82.945,
+      "end": 86.679,
+      "text": "identify which checks relied on it and assess their validity.",
+      "spoken": "identify which checks relied on it and assess their validity.",
+      "scene": 4
+    },
+    {
+      "start": 86.799,
+      "end": 89.103,
+      "text": "Do not simply obtain a new certificate",
+      "spoken": "Do not simply obtain a new certificate",
+      "scene": 4
+    },
+    {
+      "start": 89.223,
+      "end": 91.676,
+      "text": "and assume earlier readings remain valid.",
+      "spoken": "and assume earlier readings remain valid.",
+      "scene": 4
+    },
+    {
+      "start": 91.796,
+      "end": 95.167,
+      "text": "The investigation may require additional evidence",
+      "spoken": "The investigation may require additional evidence",
+      "scene": 4
+    },
+    {
+      "start": 95.287,
+      "end": 98.081,
+      "text": "or repeated checks under an approved approach.",
+      "spoken": "or repeated checks under an approved approach.",
+      "scene": 4
+    },
+    {
+      "start": 98.201,
+      "end": 100.201,
+      "text": "Record the basis for the decision",
+      "spoken": "Record the basis for the decision",
+      "scene": 4
+    },
+    {
+      "start": 100.321,
+      "end": 102.796,
+      "text": "and retain the original observations.",
+      "spoken": "and retain the original observations.",
+      "scene": 4
+    }
+  ]
+}

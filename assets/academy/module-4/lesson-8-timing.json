@@ -1,0 +1,237 @@
+{
+  "duration": 96.73395833333335,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 23.372,
+      "title": "Capture the actual result"
+    },
+    {
+      "start": 23.372,
+      "end": 49.394,
+      "title": "Use photographs with context"
+    },
+    {
+      "start": 49.394,
+      "end": 74.551,
+      "title": "Correct without obscuring"
+    },
+    {
+      "start": 74.551,
+      "end": 96.734,
+      "title": "Explain incomplete fields"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.011,
+      "text": "An installation record should make the comparison understandable.",
+      "spoken": "An installation record should make the comparison understandable.",
+      "scene": 1
+    },
+    {
+      "start": 4.131,
+      "end": 7.352,
+      "text": "For the valve identity check, record the actual model",
+      "spoken": "For the valve identity check, record the actual model",
+      "scene": 1
+    },
+    {
+      "start": 7.472,
+      "end": 10.354,
+      "text": "and tag, the referenced schedule and the outcome.",
+      "spoken": "and tag, the referenced schedule and the outcome.",
+      "scene": 1
+    },
+    {
+      "start": 10.474,
+      "end": 13.568,
+      "text": "A tick without the required observation may leave",
+      "spoken": "A tick without the required observation may leave",
+      "scene": 1
+    },
+    {
+      "start": 13.688,
+      "end": 16.76,
+      "text": "a reviewer unable to reconstruct the decision.",
+      "spoken": "a reviewer unable to reconstruct the decision.",
+      "scene": 1
+    },
+    {
+      "start": 16.88,
+      "end": 19.397,
+      "text": "Use the approved form and record the work",
+      "spoken": "Use the approved form and record the work",
+      "scene": 1
+    },
+    {
+      "start": 19.517,
+      "end": 22.752,
+      "text": "when performed, not from memory at the end of the week.",
+      "spoken": "when performed, not from memory at the end of the week.",
+      "scene": 1
+    },
+    {
+      "start": 23.372,
+      "end": 25.932,
+      "text": "A photograph can support an observation",
+      "spoken": "A photograph can support an observation",
+      "scene": 2
+    },
+    {
+      "start": 26.052,
+      "end": 28.314,
+      "text": "if the relevant feature is readable",
+      "spoken": "if the relevant feature is readable",
+      "scene": 2
+    },
+    {
+      "start": 28.434,
+      "end": 30.963,
+      "text": "and its relationship to the check is clear.",
+      "spoken": "and its relationship to the check is clear.",
+      "scene": 2
+    },
+    {
+      "start": 31.083,
+      "end": 35.158,
+      "text": "Record location, subject and the controlled evidence reference.",
+      "spoken": "Record location, subject and the controlled evidence reference.",
+      "scene": 2
+    },
+    {
+      "start": 35.278,
+      "end": 37.278,
+      "text": "A cropped image of a plate",
+      "spoken": "A cropped image of a plate",
+      "scene": 2
+    },
+    {
+      "start": 37.398,
+      "end": 40.342,
+      "text": "without the equipment context may be ambiguous.",
+      "spoken": "without the equipment context may be ambiguous.",
+      "scene": 2
+    },
+    {
+      "start": 40.462,
+      "end": 44.515,
+      "text": "Photographs supplement the specified verification method; they are",
+      "spoken": "Photographs supplement the specified verification method; they are",
+      "scene": 2
+    },
+    {
+      "start": 44.635,
+      "end": 48.774,
+      "text": "not automatically sufficient for every installation characteristic.",
+      "spoken": "not automatically sufficient for every installation characteristic.",
+      "scene": 2
+    },
+    {
+      "start": 49.394,
+      "end": 53.575,
+      "text": "Suppose a handwritten serial number contains a transposed digit.",
+      "spoken": "Suppose a handwritten serial number contains a transposed digit.",
+      "scene": 3
+    },
+    {
+      "start": 53.695,
+      "end": 57.087,
+      "text": "Correct it using the approved documentation procedure,",
+      "spoken": "Correct it using the approved documentation procedure,",
+      "scene": 3
+    },
+    {
+      "start": 57.207,
+      "end": 59.255,
+      "text": "preserving the original entry",
+      "spoken": "preserving the original entry",
+      "scene": 3
+    },
+    {
+      "start": 59.375,
+      "end": 61.679,
+      "text": "and recording the required attribution",
+      "spoken": "and recording the required attribution",
+      "scene": 3
+    },
+    {
+      "start": 61.799,
+      "end": 64.27,
+      "text": "and date, with a reason where appropriate.",
+      "spoken": "and date, with a reason where appropriate.",
+      "scene": 3
+    },
+    {
+      "start": 64.39,
+      "end": 67.611,
+      "text": "Do not erase the original or backdate the correction.",
+      "spoken": "Do not erase the original or backdate the correction.",
+      "scene": 3
+    },
+    {
+      "start": 67.731,
+      "end": 71.336,
+      "text": "For electronic records, use the controlled system process",
+      "spoken": "For electronic records, use the controlled system process",
+      "scene": 3
+    },
+    {
+      "start": 71.456,
+      "end": 73.931,
+      "text": "rather than an untracked replacement file.",
+      "spoken": "rather than an untracked replacement file.",
+      "scene": 3
+    },
+    {
+      "start": 74.551,
+      "end": 78.198,
+      "text": "Not applicable, not checked and failed are different statuses.",
+      "spoken": "Not applicable, not checked and failed are different statuses.",
+      "scene": 4
+    },
+    {
+      "start": 78.318,
+      "end": 80.73,
+      "text": "A check outside the approved system scope",
+      "spoken": "A check outside the approved system scope",
+      "scene": 4
+    },
+    {
+      "start": 80.85,
+      "end": 83.538,
+      "text": "needs a justified not-applicable basis.",
+      "spoken": "needs a justified not-applicable basis.",
+      "scene": 4
+    },
+    {
+      "start": 83.658,
+      "end": 86.069,
+      "text": "An inaccessible feature is not checked.",
+      "spoken": "An inaccessible feature is not checked.",
+      "scene": 4
+    },
+    {
+      "start": 86.189,
+      "end": 88.77,
+      "text": "A verified mismatch is a discrepancy.",
+      "spoken": "A verified mismatch is a discrepancy.",
+      "scene": 4
+    },
+    {
+      "start": 88.89,
+      "end": 92.581,
+      "text": "Keeping these statuses distinct prevents a completed-looking",
+      "spoken": "Keeping these statuses distinct prevents a completed-looking",
+      "scene": 4
+    },
+    {
+      "start": 92.701,
+      "end": 96.114,
+      "text": "form from implying that evidence exists where it does not.",
+      "spoken": "form from implying that evidence exists where it does not.",
+      "scene": 4
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "duration": 107.4535,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 27.14,
+      "title": "Reconcile the input package"
+    },
+    {
+      "start": 27.14,
+      "end": 54.231,
+      "title": "Write an executable check"
+    },
+    {
+      "start": 54.231,
+      "end": 81.142,
+      "title": "Check readiness safely"
+    },
+    {
+      "start": 81.142,
+      "end": 107.454,
+      "title": "Resolve a missing criterion"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 3.882,
+      "text": "The fictional installation package contains the user requirements,",
+      "spoken": "The fictional installation package contains the user requirements,",
+      "scene": 1
+    },
+    {
+      "start": 4.002,
+      "end": 6.626,
+      "text": "design-review outcome, accepted drawings",
+      "spoken": "design-review outcome, accepted drawings",
+      "scene": 1
+    },
+    {
+      "start": 6.746,
+      "end": 8.746,
+      "text": "and an installation protocol.",
+      "spoken": "and an installation protocol.",
+      "scene": 1
+    },
+    {
+      "start": 8.866,
+      "end": 12.28,
+      "text": "List identifiers and revisions before the walkdown.",
+      "spoken": "List identifiers and revisions before the walkdown.",
+      "scene": 1
+    },
+    {
+      "start": 12.4,
+      "end": 14.981,
+      "text": "An email attachment labelled final is",
+      "spoken": "An email attachment labelled final is",
+      "scene": 1
+    },
+    {
+      "start": 15.101,
+      "end": 17.746,
+      "text": "not enough to establish its approval status.",
+      "spoken": "not enough to establish its approval status.",
+      "scene": 1
+    },
+    {
+      "start": 17.866,
+      "end": 22.453,
+      "text": "If the valve drawing changed after design review, identify the change",
+      "spoken": "If the valve drawing changed after design review, identify the change",
+      "scene": 1
+    },
+    {
+      "start": 22.573,
+      "end": 26.52,
+      "text": "and its accepted impact before relying on the old conclusion.",
+      "spoken": "and its accepted impact before relying on the old conclusion.",
+      "scene": 1
+    },
+    {
+      "start": 27.14,
+      "end": 30.873,
+      "text": "Replace verify installation is satisfactory with a check",
+      "spoken": "Replace verify installation is satisfactory with a check",
+      "scene": 2
+    },
+    {
+      "start": 30.993,
+      "end": 33.105,
+      "text": "another trained person can repeat.",
+      "spoken": "another trained person can repeat.",
+      "scene": 2
+    },
+    {
+      "start": 33.225,
+      "end": 36.51,
+      "text": "For example, compare the installed outlet valve tag",
+      "spoken": "For example, compare the installed outlet valve tag",
+      "scene": 2
+    },
+    {
+      "start": 36.63,
+      "end": 38.956,
+      "text": "and model against schedule revision C,",
+      "spoken": "and model against schedule revision C,",
+      "scene": 2
+    },
+    {
+      "start": 39.076,
+      "end": 41.102,
+      "text": "using a safe visual inspection",
+      "spoken": "using a safe visual inspection",
+      "scene": 2
+    },
+    {
+      "start": 41.222,
+      "end": 43.526,
+      "text": "and the identified manufacturer plate.",
+      "spoken": "and the identified manufacturer plate.",
+      "scene": 2
+    },
+    {
+      "start": 43.646,
+      "end": 46.292,
+      "text": "Define what information will be recorded",
+      "spoken": "Define what information will be recorded",
+      "scene": 2
+    },
+    {
+      "start": 46.412,
+      "end": 49.118,
+      "text": "and how inaccessible markings will be handled.",
+      "spoken": "and how inaccessible markings will be handled.",
+      "scene": 2
+    },
+    {
+      "start": 49.238,
+      "end": 53.611,
+      "text": "Do not leave the acceptance rule to be invented after seeing the result.",
+      "spoken": "Do not leave the acceptance rule to be invented after seeing the result.",
+      "scene": 2
+    },
+    {
+      "start": 54.231,
+      "end": 57.794,
+      "text": "Before inspecting, confirm training, access arrangements",
+      "spoken": "Before inspecting, confirm training, access arrangements",
+      "scene": 3
+    },
+    {
+      "start": 57.914,
+      "end": 62.18,
+      "text": "and any required isolation with the responsible engineering team.",
+      "spoken": "and any required isolation with the responsible engineering team.",
+      "scene": 3
+    },
+    {
+      "start": 62.3,
+      "end": 66.29,
+      "text": "Do not remove guards, open electrical panels or disconnect",
+      "spoken": "Do not remove guards, open electrical panels or disconnect",
+      "scene": 3
+    },
+    {
+      "start": 66.41,
+      "end": 69.375,
+      "text": "a process line merely to complete a checklist.",
+      "spoken": "a process line merely to complete a checklist.",
+      "scene": 3
+    },
+    {
+      "start": 69.495,
+      "end": 71.778,
+      "text": "If a marking cannot be reached safely,",
+      "spoken": "If a marking cannot be reached safely,",
+      "scene": 3
+    },
+    {
+      "start": 71.898,
+      "end": 75.396,
+      "text": "record that limitation and arrange an approved method.",
+      "spoken": "record that limitation and arrange an approved method.",
+      "scene": 3
+    },
+    {
+      "start": 75.516,
+      "end": 78.034,
+      "text": "Schedule pressure does not turn an unsafe",
+      "spoken": "Schedule pressure does not turn an unsafe",
+      "scene": 3
+    },
+    {
+      "start": 78.154,
+      "end": 80.522,
+      "text": "inspection into acceptable evidence.",
+      "spoken": "inspection into acceptable evidence.",
+      "scene": 3
+    },
+    {
+      "start": 81.142,
+      "end": 83.318,
+      "text": "Suppose the drawing shows a clearance",
+      "spoken": "Suppose the drawing shows a clearance",
+      "scene": 4
+    },
+    {
+      "start": 83.438,
+      "end": 85.486,
+      "text": "but provides no approved minimum.",
+      "spoken": "but provides no approved minimum.",
+      "scene": 4
+    },
+    {
+      "start": 85.606,
+      "end": 87.606,
+      "text": "Measuring a convenient distance",
+      "spoken": "Measuring a convenient distance",
+      "scene": 4
+    },
+    {
+      "start": 87.726,
+      "end": 91.203,
+      "text": "and then calling it acceptable creates a circular argument.",
+      "spoken": "and then calling it acceptable creates a circular argument.",
+      "scene": 4
+    },
+    {
+      "start": 91.323,
+      "end": 94.203,
+      "text": "Raise the missing requirement to the responsible",
+      "spoken": "Raise the missing requirement to the responsible",
+      "scene": 4
+    },
+    {
+      "start": 94.323,
+      "end": 96.324,
+      "text": "design and quality functions.",
+      "spoken": "design and quality functions.",
+      "scene": 4
+    },
+    {
+      "start": 96.444,
+      "end": 99.75,
+      "text": "The team may collect a clearly identified observation,",
+      "spoken": "The team may collect a clearly identified observation,",
+      "scene": 4
+    },
+    {
+      "start": 99.87,
+      "end": 104.478,
+      "text": "but acceptance of that feature remains unresolved until the criterion",
+      "spoken": "but acceptance of that feature remains unresolved until the criterion",
+      "scene": 4
+    },
+    {
+      "start": 104.598,
+      "end": 106.834,
+      "text": "and approach are properly established.",
+      "spoken": "and approach are properly established.",
+      "scene": 4
+    }
+  ]
+}

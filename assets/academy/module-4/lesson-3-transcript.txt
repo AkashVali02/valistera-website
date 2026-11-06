@@ -1,0 +1,15 @@
+ValiStera Academy — Module 4 / Lesson 4.3
+Conduct a physical installation walkdown
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Start at the equipment plate
+The walkdown starts with equipment identity, not a copied supplier checklist. Compare the vessel tag, manufacturer model, serial number and location with the controlled package. A matching tag attached to a different vessel would not establish identity. Record discrepancies individually so a later reviewer can tell which identifiers matched and which remained uncertain.
+
+Trace components in place
+Work through the installed arrangement systematically. Identify the agitator assembly and supports, then trace the outlet and instrument connections against the relevant drawing. Confirm required orientation and accessible features using the approved method. Do not run the agitator to infer installation conformity when the authorized activity is a static inspection. Functional rotation checks belong in the defined test plan.
+
+Inspect the removal envelope
+The design allowed a rear instrument to slide out for maintenance, but the installed pipe rack crosses that removal envelope. A front-facing photograph misses this problem. Compare the full maintenance envelope with the approved arrangement and manufacturer requirements. No universal clearance is supplied here. Document the obstruction and its consequences without inventing a numerical GMP minimum.
+
+Record what was inaccessible
+A covered connection cannot be recorded as verified solely because its neighbour matches. Record the inaccessible item, why it could not be examined and the agreed follow-up. If suitable controlled evidence supports another verification method, justify its applicability. Distinguish direct observation from document review so the evidence does not appear stronger than it is.

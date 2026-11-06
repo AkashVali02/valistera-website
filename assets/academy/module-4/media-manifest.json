@@ -1,0 +1,62 @@
+[
+  {
+    "lesson": 1,
+    "duration": 107.05533333333331,
+    "cues": 31,
+    "bytes": 1442085
+  },
+  {
+    "lesson": 2,
+    "duration": 107.4535,
+    "cues": 34,
+    "bytes": 1445602
+  },
+  {
+    "lesson": 3,
+    "duration": 104.78758333333334,
+    "cues": 31,
+    "bytes": 1427716
+  },
+  {
+    "lesson": 4,
+    "duration": 102.95391666666667,
+    "cues": 31,
+    "bytes": 1392256
+  },
+  {
+    "lesson": 5,
+    "duration": 99.41716666666667,
+    "cues": 32,
+    "bytes": 1317005
+  },
+  {
+    "lesson": 6,
+    "duration": 103.41608333333333,
+    "cues": 31,
+    "bytes": 1399521
+  },
+  {
+    "lesson": 7,
+    "duration": 100.21983333333337,
+    "cues": 30,
+    "bytes": 1359181
+  },
+  {
+    "lesson": 8,
+    "duration": 96.73395833333335,
+    "cues": 30,
+    "bytes": 1290177
+  },
+  {
+    "lesson": 9,
+    "duration": 104.15054166666667,
+    "cues": 32,
+    "bytes": 1420131
+  },
+  {
+    "lesson": 10,
+    "duration": 106.34462500000001,
+    "cues": 33,
+    "bytes": 1461730
+  }
+]

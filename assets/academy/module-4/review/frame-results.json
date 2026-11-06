@@ -1,0 +1,367 @@
+{
+  "checks": 40,
+  "failures": [],
+  "maximum_rgb_error": 1.923898292824074,
+  "rows": [
+    {
+      "lesson": 1,
+      "scene": 1,
+      "midpoint": 13.534,
+      "mean_rgb_error": 1.8062999131944446,
+      "passed": true,
+      "png_sha256": "d524e9d2687332c42d2e0412afd3ec6a294decdc2f1a8fa2ed6e9bedc6243514",
+      "video_sha256": "2d3ac8a2f49ff16c0515e6e2fd66b71aa9f2200cea2947468bd4a24b48e12b3c"
+    },
+    {
+      "lesson": 1,
+      "scene": 2,
+      "midpoint": 40.908500000000004,
+      "mean_rgb_error": 1.8000274884259257,
+      "passed": true,
+      "png_sha256": "bf7164ada708fe1c13629ca99f5fe2bc8e0f8479c0fab516a0d2bf1e141baad2",
+      "video_sha256": "2d3ac8a2f49ff16c0515e6e2fd66b71aa9f2200cea2947468bd4a24b48e12b3c"
+    },
+    {
+      "lesson": 1,
+      "scene": 3,
+      "midpoint": 67.308,
+      "mean_rgb_error": 1.779771412037037,
+      "passed": true,
+      "png_sha256": "c1207281d08a1b0d1d50030ae325db8781e00eee0b195fa065ffb30e9b278fd9",
+      "video_sha256": "2d3ac8a2f49ff16c0515e6e2fd66b71aa9f2200cea2947468bd4a24b48e12b3c"
+    },
+    {
+      "lesson": 1,
+      "scene": 4,
+      "midpoint": 93.46100000000001,
+      "mean_rgb_error": 1.7524392361111112,
+      "passed": true,
+      "png_sha256": "c0f8eddae46f489b6aeb76afebb9b2b4938812352ca2b4ecd0f3e65d0aaf98ab",
+      "video_sha256": "2d3ac8a2f49ff16c0515e6e2fd66b71aa9f2200cea2947468bd4a24b48e12b3c"
+    },
+    {
+      "lesson": 2,
+      "scene": 1,
+      "midpoint": 13.57,
+      "mean_rgb_error": 1.823160083912037,
+      "passed": true,
+      "png_sha256": "c1df0da371536628bc39325f17f602a236359f1489f8e69cd1147b20f5d6b3b1",
+      "video_sha256": "b273e17054578da7d33801d77e240f5341711bfab4ed4eb8b9bdb06f08c38b2e"
+    },
+    {
+      "lesson": 2,
+      "scene": 2,
+      "midpoint": 40.685500000000005,
+      "mean_rgb_error": 1.7956882957175926,
+      "passed": true,
+      "png_sha256": "29768771939c6ff394af7ce675e9620786cbcb55736469db471b29f1f7aef7b1",
+      "video_sha256": "b273e17054578da7d33801d77e240f5341711bfab4ed4eb8b9bdb06f08c38b2e"
+    },
+    {
+      "lesson": 2,
+      "scene": 3,
+      "midpoint": 67.6865,
+      "mean_rgb_error": 1.7809118200231484,
+      "passed": true,
+      "png_sha256": "693c9fb17b33813b91792af41aa84b233e2bd07f825b77798cb12487b1fbec57",
+      "video_sha256": "b273e17054578da7d33801d77e240f5341711bfab4ed4eb8b9bdb06f08c38b2e"
+    },
+    {
+      "lesson": 2,
+      "scene": 4,
+      "midpoint": 94.298,
+      "mean_rgb_error": 1.7862915943287039,
+      "passed": true,
+      "png_sha256": "f11dd9299c22524d63addba3ec54e3b58ea4f7d19d0761f634297883af2d488d",
+      "video_sha256": "b273e17054578da7d33801d77e240f5341711bfab4ed4eb8b9bdb06f08c38b2e"
+    },
+    {
+      "lesson": 3,
+      "scene": 1,
+      "midpoint": 12.0655,
+      "mean_rgb_error": 1.7599117476851853,
+      "passed": true,
+      "png_sha256": "1826d6946f10e23c69f3adbdd5cae5d8079e5d1cec20616885bee4ad667f0254",
+      "video_sha256": "d5e620ef63b8a467f5974d56a15ef0a7aba2427a4219b6d8114ea61ce1737202"
+    },
+    {
+      "lesson": 3,
+      "scene": 2,
+      "midpoint": 38.379000000000005,
+      "mean_rgb_error": 1.691688006365741,
+      "passed": true,
+      "png_sha256": "6d6b2e067b72058eed3bd277d4fc9b8500362e3a00520f9566a497ca0c990761",
+      "video_sha256": "d5e620ef63b8a467f5974d56a15ef0a7aba2427a4219b6d8114ea61ce1737202"
+    },
+    {
+      "lesson": 3,
+      "scene": 3,
+      "midpoint": 65.8865,
+      "mean_rgb_error": 1.923898292824074,
+      "passed": true,
+      "png_sha256": "13cbb35149c52ee5bec1994b418f44e531cfdd209a86c8718348edb6d75e0fd3",
+      "video_sha256": "d5e620ef63b8a467f5974d56a15ef0a7aba2427a4219b6d8114ea61ce1737202"
+    },
+    {
+      "lesson": 3,
+      "scene": 4,
+      "midpoint": 91.967,
+      "mean_rgb_error": 1.810148654513889,
+      "passed": true,
+      "png_sha256": "04b40b11d2872858c63a9e71959bb68f122a7cdbae497d082d45a3d78d2dd25a",
+      "video_sha256": "d5e620ef63b8a467f5974d56a15ef0a7aba2427a4219b6d8114ea61ce1737202"
+    },
+    {
+      "lesson": 4,
+      "scene": 1,
+      "midpoint": 12.1855,
+      "mean_rgb_error": 1.7836841724537038,
+      "passed": true,
+      "png_sha256": "5d273e97d502b656eea1afbc6a99e7181c35ebefb277cb31c6be3ee1109250cb",
+      "video_sha256": "df23f7fc93fcf382754e6b1b29e26ec32cfec627ae247e7c927ad2a504c6e8d7"
+    },
+    {
+      "lesson": 4,
+      "scene": 2,
+      "midpoint": 37.7225,
+      "mean_rgb_error": 1.6967643229166665,
+      "passed": true,
+      "png_sha256": "4559107626feed07bf0f7f46c40d5698bf92cc5e5212323d56456cf256300c8c",
+      "video_sha256": "df23f7fc93fcf382754e6b1b29e26ec32cfec627ae247e7c927ad2a504c6e8d7"
+    },
+    {
+      "lesson": 4,
+      "scene": 3,
+      "midpoint": 63.153,
+      "mean_rgb_error": 1.8224092158564815,
+      "passed": true,
+      "png_sha256": "6b5193e75856a52f22ea107bc9c660be00285a034565887e29e6b539fa0426c5",
+      "video_sha256": "df23f7fc93fcf382754e6b1b29e26ec32cfec627ae247e7c927ad2a504c6e8d7"
+    },
+    {
+      "lesson": 4,
+      "scene": 4,
+      "midpoint": 89.09299999999999,
+      "mean_rgb_error": 1.817101417824074,
+      "passed": true,
+      "png_sha256": "c496330d10027a0a5e24a1f3084afebc2770d280ca8f1a0d1388f119717c76b3",
+      "video_sha256": "df23f7fc93fcf382754e6b1b29e26ec32cfec627ae247e7c927ad2a504c6e8d7"
+    },
+    {
+      "lesson": 5,
+      "scene": 1,
+      "midpoint": 11.2915,
+      "mean_rgb_error": 1.7847432002314816,
+      "passed": true,
+      "png_sha256": "df69545f4ab74f9dab282cc4014ad712d9d927e4829a40203f8e6930ac370c93",
+      "video_sha256": "e158741fbf19375c97c1c29182bddbffe84f47544ecf032bb0f67eb860c28b63"
+    },
+    {
+      "lesson": 5,
+      "scene": 2,
+      "midpoint": 34.712,
+      "mean_rgb_error": 1.723275462962963,
+      "passed": true,
+      "png_sha256": "bd27ce998024ccfb349eb05d20e197acd8b15930fe2a4420fab51306bddc98ba",
+      "video_sha256": "e158741fbf19375c97c1c29182bddbffe84f47544ecf032bb0f67eb860c28b63"
+    },
+    {
+      "lesson": 5,
+      "scene": 3,
+      "midpoint": 60.138999999999996,
+      "mean_rgb_error": 1.7296430121527777,
+      "passed": true,
+      "png_sha256": "641cabf7ab1b5a232cb777502a469c417e3d36a75029053a0a1cfec3f042e747",
+      "video_sha256": "e158741fbf19375c97c1c29182bddbffe84f47544ecf032bb0f67eb860c28b63"
+    },
+    {
+      "lesson": 5,
+      "scene": 4,
+      "midpoint": 86.42699999999999,
+      "mean_rgb_error": 1.7266626880787037,
+      "passed": true,
+      "png_sha256": "7c1f1536c8192e9618b7cb44158c45b251f7c4379411d407911c8f44a964df31",
+      "video_sha256": "e158741fbf19375c97c1c29182bddbffe84f47544ecf032bb0f67eb860c28b63"
+    },
+    {
+      "lesson": 6,
+      "scene": 1,
+      "midpoint": 13.4955,
+      "mean_rgb_error": 1.7932237413194443,
+      "passed": true,
+      "png_sha256": "7406ba37f5a7bb8f0838d3e889780079ff9cf89920b036ae5fb28a06ef37eb07",
+      "video_sha256": "f09b302ae506d229ee84b88b27f274cabe2d7f5cd7ff37e473195f7b11d1996e"
+    },
+    {
+      "lesson": 6,
+      "scene": 2,
+      "midpoint": 39.4795,
+      "mean_rgb_error": 1.7598451967592592,
+      "passed": true,
+      "png_sha256": "9b2831fd645f95d01f1ab253b8da9a7b028a990b1a08d70d9a01901c5049e443",
+      "video_sha256": "f09b302ae506d229ee84b88b27f274cabe2d7f5cd7ff37e473195f7b11d1996e"
+    },
+    {
+      "lesson": 6,
+      "scene": 3,
+      "midpoint": 65.37,
+      "mean_rgb_error": 1.811443504050926,
+      "passed": true,
+      "png_sha256": "74486278d4e2bc4733be109a77170b1b75d1924a6544fa0f6d89a49e3320547b",
+      "video_sha256": "f09b302ae506d229ee84b88b27f274cabe2d7f5cd7ff37e473195f7b11d1996e"
+    },
+    {
+      "lesson": 6,
+      "scene": 4,
+      "midpoint": 91.094,
+      "mean_rgb_error": 1.8155475983796296,
+      "passed": true,
+      "png_sha256": "a437931002b25854895db1833c50271d1e20c6d240bdbdf285be90f47832393d",
+      "video_sha256": "f09b302ae506d229ee84b88b27f274cabe2d7f5cd7ff37e473195f7b11d1996e"
+    },
+    {
+      "lesson": 7,
+      "scene": 1,
+      "midpoint": 12.3945,
+      "mean_rgb_error": 1.8577705439814816,
+      "passed": true,
+      "png_sha256": "7fb31b18e5bfef7f458310b124780b62f812063e2b698f47238fb06de644d310",
+      "video_sha256": "ad1a9268bda628b366e302dd043cc22d67a421d0d97876a554fe331f6e0264cb"
+    },
+    {
+      "lesson": 7,
+      "scene": 2,
+      "midpoint": 39.5405,
+      "mean_rgb_error": 1.7080240885416667,
+      "passed": true,
+      "png_sha256": "aca596353bb31d0b620de35b41e03c6fe9ef5478d7fddede59f5dad1c3309591",
+      "video_sha256": "ad1a9268bda628b366e302dd043cc22d67a421d0d97876a554fe331f6e0264cb"
+    },
+    {
+      "lesson": 7,
+      "scene": 3,
+      "midpoint": 65.9145,
+      "mean_rgb_error": 1.7549558738425926,
+      "passed": true,
+      "png_sha256": "0a5925cf88d9a4885cadb6bdaf181572fd3f56e1caece9dd076a5f5c9a0e1d8c",
+      "video_sha256": "ad1a9268bda628b366e302dd043cc22d67a421d0d97876a554fe331f6e0264cb"
+    },
+    {
+      "lesson": 7,
+      "scene": 4,
+      "midpoint": 88.8785,
+      "mean_rgb_error": 1.7963856336805557,
+      "passed": true,
+      "png_sha256": "a60aa28068b4fef5c47fd53f0ed621aeb9a05351aea62a614f97ad6fd2699e8b",
+      "video_sha256": "ad1a9268bda628b366e302dd043cc22d67a421d0d97876a554fe331f6e0264cb"
+    },
+    {
+      "lesson": 8,
+      "scene": 1,
+      "midpoint": 11.686,
+      "mean_rgb_error": 1.800347583912037,
+      "passed": true,
+      "png_sha256": "375747cda932711a937e1f6a113545b1d0b69cf331cfaa1d53d005651a66d2f7",
+      "video_sha256": "a58816764c2d4a99c1d8444247e678bd23491a73a83f8ffe7806f9ad9254c4c7"
+    },
+    {
+      "lesson": 8,
+      "scene": 2,
+      "midpoint": 36.382999999999996,
+      "mean_rgb_error": 1.7075376157407405,
+      "passed": true,
+      "png_sha256": "6883290022b1ae9b386dfb4455fb16c4d39ad55f165c97186a11a45c831ebf3f",
+      "video_sha256": "a58816764c2d4a99c1d8444247e678bd23491a73a83f8ffe7806f9ad9254c4c7"
+    },
+    {
+      "lesson": 8,
+      "scene": 3,
+      "midpoint": 61.9725,
+      "mean_rgb_error": 1.7242198350694444,
+      "passed": true,
+      "png_sha256": "3e08cb81cc14982c1b2bf705458424f833de9a6d16a490c8c1a76f44c5cc98ff",
+      "video_sha256": "a58816764c2d4a99c1d8444247e678bd23491a73a83f8ffe7806f9ad9254c4c7"
+    },
+    {
+      "lesson": 8,
+      "scene": 4,
+      "midpoint": 85.6425,
+      "mean_rgb_error": 1.7237554253472223,
+      "passed": true,
+      "png_sha256": "f950139f05469a9617990b02c0dfc2eb6147f19e94bfc0dad2ba393b7410f975",
+      "video_sha256": "a58816764c2d4a99c1d8444247e678bd23491a73a83f8ffe7806f9ad9254c4c7"
+    },
+    {
+      "lesson": 9,
+      "scene": 1,
+      "midpoint": 13.0945,
+      "mean_rgb_error": 1.8452473958333335,
+      "passed": true,
+      "png_sha256": "ffca06106b2d3079c23205214a53aa449205a59f667120529020e808cb448a7e",
+      "video_sha256": "1bef80bce72b727a5769de08958dc84b1368e2b2621e89b3ea7c72f8481d1344"
+    },
+    {
+      "lesson": 9,
+      "scene": 2,
+      "midpoint": 38.981,
+      "mean_rgb_error": 1.8070970775462962,
+      "passed": true,
+      "png_sha256": "cd4b5cedcbd8f760a2a0d0c387303223da64de2356c86c8312ae3dafb1c08fde",
+      "video_sha256": "1bef80bce72b727a5769de08958dc84b1368e2b2621e89b3ea7c72f8481d1344"
+    },
+    {
+      "lesson": 9,
+      "scene": 3,
+      "midpoint": 63.7385,
+      "mean_rgb_error": 1.7906550202546299,
+      "passed": true,
+      "png_sha256": "864dd6e857277cc92216a22261e34b428abc10bf382041a81ba0bd59a19801bd",
+      "video_sha256": "1bef80bce72b727a5769de08958dc84b1368e2b2621e89b3ea7c72f8481d1344"
+    },
+    {
+      "lesson": 9,
+      "scene": 4,
+      "midpoint": 89.9275,
+      "mean_rgb_error": 1.84056640625,
+      "passed": true,
+      "png_sha256": "99dc39754196015fb7550424155a279112c86d000a5b41d8790c4d4b87307b83",
+      "video_sha256": "1bef80bce72b727a5769de08958dc84b1368e2b2621e89b3ea7c72f8481d1344"
+    },
+    {
+      "lesson": 10,
+      "scene": 1,
+      "midpoint": 13.415,
+      "mean_rgb_error": 1.8091789641203704,
+      "passed": true,
+      "png_sha256": "08f657268f2512a789833a4f0407eae1771eb33ce9011fbfba78d82ec59a91f0",
+      "video_sha256": "8caf0015080413f6ed0995e28ebd76aad3a06200c9dbf3bdb0391b1368449301"
+    },
+    {
+      "lesson": 10,
+      "scene": 2,
+      "midpoint": 39.152,
+      "mean_rgb_error": 1.9183138020833335,
+      "passed": true,
+      "png_sha256": "c50cb1916f53248042187e0101fb3d68062d50835e1a08f398bdce8bddc18ba2",
+      "video_sha256": "8caf0015080413f6ed0995e28ebd76aad3a06200c9dbf3bdb0391b1368449301"
+    },
+    {
+      "lesson": 10,
+      "scene": 3,
+      "midpoint": 64.85549999999999,
+      "mean_rgb_error": 1.8260673466435187,
+      "passed": true,
+      "png_sha256": "29d813ac032b9ca9b2126659d454276c9d5ed2d59ab85d09eb531c658415e00e",
+      "video_sha256": "8caf0015080413f6ed0995e28ebd76aad3a06200c9dbf3bdb0391b1368449301"
+    },
+    {
+      "lesson": 10,
+      "scene": 4,
+      "midpoint": 92.291,
+      "mean_rgb_error": 1.7996911168981482,
+      "passed": true,
+      "png_sha256": "9a356398396cf39df3daa03c735554090a4d34ed8ab8c8deb26a6329f8988637",
+      "video_sha256": "8caf0015080413f6ed0995e28ebd76aad3a06200c9dbf3bdb0391b1368449301"
+    }
+  ]
+}
