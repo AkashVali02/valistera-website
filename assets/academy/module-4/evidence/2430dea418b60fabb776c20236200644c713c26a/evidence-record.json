@@ -1,0 +1,52 @@
+{
+  "tested_commit": "2430dea418b60fabb776c20236200644c713c26a",
+  "edition": "M4-20261106-R1",
+  "workflow_source_commit": "634bf7b8b28afc6fc368af90db94c74d6f19be54",
+  "workflow_run": 42185500710,
+  "workflow_url": "https://github.com/AkashVali02/valistera-website/actions/runs/42185500710",
+  "artifact_id": 13486998967,
+  "artifact_sha256": "956362af5ed4cf7665acfbd97f690c296083aa06c9de186f218e17312afcdb40",
+  "hosted_base": "https://academy-module-4-valistera-website.gadadeakash72.workers.dev",
+  "hosted_checked_at": "2026-11-06T08:11:13.548439+00:00",
+  "manifest_matches": true,
+  "reports": [
+    {
+      "file": "media-results.json",
+      "checks": 150,
+      "failures": 0
+    },
+    {
+      "file": "frame-results.json",
+      "checks": 40,
+      "failures": 0
+    },
+    {
+      "file": "browser-results.json",
+      "checks": 433,
+      "failures": 0
+    },
+    {
+      "file": "hosted-delivery-results.json",
+      "checks": 147,
+      "failures": 0
+    },
+    {
+      "file": "hosted-browser-results.json",
+      "checks": 433,
+      "failures": 0
+    }
+  ],
+  "sha256": {
+    "media-results.json": "d44d9163f8372ddb9f4a4eea83d62fbf5338402deec97e3c6688321cb489d590",
+    "frame-results.json": "6a0e14f4173dcd15f995aee3529ff23e7cd6bf29b42de9a79718c1b2cad84082",
+    "browser-results.json": "9be41919f19feb14574b2ba1d9c4a4baeece53fe94b59c3612a6b8b67c907986",
+    "hosted-delivery-results.json": "930dc76175ceab3f68295978ea3231ff56f7c1ce6f0ce5a02ff35257d5ab8bb5",
+    "hosted-browser-results.json": "871fe4a84e4cfe2b79bd155124141a108019c0b0a0369a74147c6151b92d882f",
+    "voice-provenance.json": "b3e5fc246e652e604d57c286c0d885a840794806772267f543e09692c0df065a",
+    "review-build.json": "711ce6fd82266f8534764a37d282323f79aec2a17ec40bdf281f53d61e19fb7e",
+    "RIGHTS-PRIVACY.md": "d579b947e607bde58570927f45e0de1da571672423bc8a5a3036002dd9394072",
+    "SOURCE-MAP.md": "859b2de2f729b9de9c5705c3f55d4c898ed863ee58b620539b845067c6e06821"
+  },
+  "provenance": "Raw JSON copied byte-for-byte from the workflow artifact. Hosted delivery explicitly identifies the saved candidate. R1 browser result is associated through that same workflow artifact; R2 additionally identifies and checks the manifest before and after browser tests.",
+  "release_status": "NOT APPROVED: independent GMP consultant and owner release gates remain open"
+}
