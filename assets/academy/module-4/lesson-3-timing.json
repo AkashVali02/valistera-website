@@ -1,243 +1,243 @@
 {
-  "duration": 104.78758333333334,
+  "duration": 113.22429166666667,
   "scenes": [
     {
       "start": 0,
-      "end": 24.131,
+      "end": 26.582,
       "title": "Start at the equipment plate"
     },
     {
-      "start": 24.131,
-      "end": 52.627,
+      "start": 26.582,
+      "end": 57.409,
       "title": "Trace components in place"
     },
     {
-      "start": 52.627,
-      "end": 79.146,
+      "start": 57.409,
+      "end": 86.287,
       "title": "Inspect the removal envelope"
     },
     {
-      "start": 79.146,
-      "end": 104.788,
+      "start": 86.287,
+      "end": 113.224,
       "title": "Record what was inaccessible"
     }
   ],
   "cues": [
     {
       "start": 0,
-      "end": 2.588,
+      "end": 3.034,
       "text": "The walkdown starts with equipment identity,",
       "spoken": "The walkdown starts with equipment identity,",
       "scene": 1
     },
     {
-      "start": 2.708,
-      "end": 4.714,
+      "start": 3.155,
+      "end": 5.361,
       "text": "not a copied supplier checklist.",
       "spoken": "not a copied supplier checklist.",
       "scene": 1
     },
     {
-      "start": 4.834,
-      "end": 7.671,
+      "start": 5.481,
+      "end": 8.447,
       "text": "Compare the vessel tag, manufacturer model,",
       "spoken": "Compare the vessel tag, manufacturer model,",
       "scene": 1
     },
     {
-      "start": 7.791,
-      "end": 11.247,
+      "start": 8.567,
+      "end": 12.36,
       "text": "serial number and location with the controlled package.",
       "spoken": "serial number and location with the controlled package.",
       "scene": 1
     },
     {
-      "start": 11.367,
-      "end": 15.804,
+      "start": 12.48,
+      "end": 17.652,
       "text": "A matching tag attached to a different vessel would not establish identity.",
       "spoken": "A matching tag attached to a different vessel would not establish identity.",
       "scene": 1
     },
     {
-      "start": 15.924,
-      "end": 20.063,
+      "start": 17.773,
+      "end": 22.048,
       "text": "Record discrepancies individually so a later reviewer can tell",
       "spoken": "Record discrepancies individually so a later reviewer can tell",
       "scene": 1
     },
     {
-      "start": 20.183,
-      "end": 23.511,
+      "start": 22.168,
+      "end": 25.962,
       "text": "which identifiers matched and which remained uncertain.",
       "spoken": "which identifiers matched and which remained uncertain.",
       "scene": 1
     },
     {
-      "start": 24.131,
-      "end": 27.307,
+      "start": 26.582,
+      "end": 30.306,
       "text": "Work through the installed arrangement systematically.",
       "spoken": "Work through the installed arrangement systematically.",
       "scene": 2
     },
     {
-      "start": 27.427,
-      "end": 31.779,
+      "start": 30.426,
+      "end": 34.977,
       "text": "Identify the agitator assembly and supports, then trace the outlet",
       "spoken": "Identify the agitator assembly and supports, then trace the outlet",
       "scene": 2
     },
     {
-      "start": 31.899,
-      "end": 35.194,
+      "start": 35.097,
+      "end": 38.959,
       "text": "and instrument connections against the relevant drawing.",
       "spoken": "and instrument connections against the relevant drawing.",
       "scene": 2
     },
     {
-      "start": 35.314,
-      "end": 38.364,
-      "text": "Confirm required orientation and accessible",
-      "spoken": "Confirm required orientation and accessible",
+      "start": 39.08,
+      "end": 42.792,
+      "text": "Confirm required orientation and accessible features",
+      "spoken": "Confirm required orientation and accessible features",
       "scene": 2
     },
     {
-      "start": 38.484,
-      "end": 40.746,
-      "text": "features using the approved method.",
-      "spoken": "features using the approved method.",
+      "start": 42.912,
+      "end": 44.912,
+      "text": "using the approved method.",
+      "spoken": "using the approved method.",
       "scene": 2
     },
     {
-      "start": 40.866,
-      "end": 44.684,
+      "start": 45.032,
+      "end": 48.894,
       "text": "Do not run the agitator to infer installation conformity",
       "spoken": "Do not run the agitator to infer installation conformity",
       "scene": 2
     },
     {
-      "start": 44.804,
-      "end": 48.026,
+      "start": 49.014,
+      "end": 52.6,
       "text": "when the authorized activity is a static inspection.",
       "spoken": "when the authorized activity is a static inspection.",
       "scene": 2
     },
     {
-      "start": 48.146,
-      "end": 52.007,
+      "start": 52.72,
+      "end": 56.789,
       "text": "Functional rotation checks belong in the defined test plan.",
       "spoken": "Functional rotation checks belong in the defined test plan.",
       "scene": 2
     },
     {
-      "start": 52.627,
-      "end": 56.552,
+      "start": 57.409,
+      "end": 61.961,
       "text": "The design allowed a rear instrument to slide out for maintenance,",
       "spoken": "The design allowed a rear instrument to slide out for maintenance,",
       "scene": 3
     },
     {
-      "start": 56.672,
-      "end": 60.278,
+      "start": 62.081,
+      "end": 66.081,
       "text": "but the installed pipe rack crosses that removal envelope.",
       "spoken": "but the installed pipe rack crosses that removal envelope.",
       "scene": 3
     },
     {
-      "start": 60.398,
-      "end": 63.342,
+      "start": 66.201,
+      "end": 69.374,
       "text": "A front-facing photograph misses this problem.",
       "spoken": "A front-facing photograph misses this problem.",
       "scene": 3
     },
     {
-      "start": 63.462,
-      "end": 66.697,
-      "text": "Compare the full maintenance envelope with the approved",
-      "spoken": "Compare the full maintenance envelope with the approved",
+      "start": 69.494,
+      "end": 71.494,
+      "text": "Compare the full maintenance",
+      "spoken": "Compare the full maintenance",
       "scene": 3
     },
     {
-      "start": 66.817,
-      "end": 69.569,
-      "text": "arrangement and manufacturer requirements.",
-      "spoken": "arrangement and manufacturer requirements.",
+      "start": 71.614,
+      "end": 76.372,
+      "text": "envelope with the approved arrangement and manufacturer requirements.",
+      "spoken": "envelope with the approved arrangement and manufacturer requirements.",
       "scene": 3
     },
     {
-      "start": 69.689,
-      "end": 72.249,
+      "start": 76.492,
+      "end": 79.251,
       "text": "No universal clearance is supplied here.",
       "spoken": "No universal clearance is supplied here.",
       "scene": 3
     },
     {
-      "start": 72.369,
-      "end": 75.334,
+      "start": 79.371,
+      "end": 82.475,
       "text": "Document the obstruction and its consequences",
       "spoken": "Document the obstruction and its consequences",
       "scene": 3
     },
     {
-      "start": 75.454,
-      "end": 78.526,
+      "start": 82.595,
+      "end": 85.667,
       "text": "without inventing a numerical GMP minimum.",
       "spoken": "without inventing a numerical G M P minimum.",
       "scene": 3
     },
     {
-      "start": 79.146,
-      "end": 83.136,
+      "start": 86.287,
+      "end": 90.287,
       "text": "A covered connection cannot be recorded as verified solely",
       "spoken": "A covered connection cannot be recorded as verified solely",
       "scene": 4
     },
     {
-      "start": 83.256,
-      "end": 85.256,
+      "start": 90.407,
+      "end": 92.476,
       "text": "because its neighbour matches.",
       "spoken": "because its neighbour matches.",
       "scene": 4
     },
     {
-      "start": 85.376,
-      "end": 88.085,
-      "text": "Record the inaccessible item, why it could",
-      "spoken": "Record the inaccessible item, why it could",
+      "start": 92.596,
+      "end": 94.622,
+      "text": "Record the inaccessible item,",
+      "spoken": "Record the inaccessible item,",
       "scene": 4
     },
     {
-      "start": 88.205,
-      "end": 90.808,
-      "text": "not be examined and the agreed follow-up.",
-      "spoken": "not be examined and the agreed follow-up.",
+      "start": 94.742,
+      "end": 98.466,
+      "text": "why it could not be examined and the agreed follow-up.",
+      "spoken": "why it could not be examined and the agreed follow-up.",
       "scene": 4
     },
     {
-      "start": 90.928,
-      "end": 93.765,
-      "text": "If suitable controlled evidence supports another",
-      "spoken": "If suitable controlled evidence supports another",
+      "start": 98.586,
+      "end": 101.345,
+      "text": "If suitable controlled evidence supports",
+      "spoken": "If suitable controlled evidence supports",
       "scene": 4
     },
     {
-      "start": 93.885,
-      "end": 97.213,
-      "text": "verification method, justify its applicability.",
-      "spoken": "verification method, justify its applicability.",
+      "start": 101.465,
+      "end": 105.258,
+      "text": "another verification method, justify its applicability.",
+      "spoken": "another verification method, justify its applicability.",
       "scene": 4
     },
     {
-      "start": 97.333,
-      "end": 102.048,
-      "text": "Distinguish direct observation from document review so the evidence does",
-      "spoken": "Distinguish direct observation from document review so the evidence does",
+      "start": 105.378,
+      "end": 108.898,
+      "text": "Distinguish direct observation from document review",
+      "spoken": "Distinguish direct observation from document review",
       "scene": 4
     },
     {
-      "start": 102.168,
-      "end": 104.168,
-      "text": "not appear stronger than it is.",
-      "spoken": "not appear stronger than it is.",
+      "start": 109.018,
+      "end": 112.604,
+      "text": "so the evidence does not appear stronger than it is.",
+      "spoken": "so the evidence does not appear stronger than it is.",
       "scene": 4
     }
   ]

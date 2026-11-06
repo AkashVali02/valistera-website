@@ -4,7 +4,7 @@ Edition M4-20261106-R2. Review candidate, not human GMP approval or release auth
 
 - media-results.json: 150 checks; 0 failures; completed=see evidence scope.
 - frame-results.json: 40 checks; 0 failures; completed=see evidence scope.
-- browser-results.json: 433 checks; 0 failures; completed=True.
+- browser-results.json: 435 checks; 0 failures; completed=True.
 - hosted-delivery-results.json: PENDING in this pre-deployment snapshot. Use the public exact-commit evidence link on the review page for post-deployment results; require its tested_commit to match the served footer.
 - hosted-browser-results.json: PENDING in this pre-deployment snapshot. Use the public exact-commit evidence link on the review page for post-deployment results; require its tested_commit to match the served footer.
 

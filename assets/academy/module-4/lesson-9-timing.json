@@ -1,24 +1,24 @@
 {
-  "duration": 104.15054166666667,
+  "duration": 122.90483333333333,
   "scenes": [
     {
       "start": 0,
-      "end": 26.189,
+      "end": 28.321,
       "title": "Describe the mismatch"
     },
     {
-      "start": 26.189,
-      "end": 51.773,
+      "start": 28.321,
+      "end": 55.661,
       "title": "Choose a controlled action"
     },
     {
-      "start": 51.773,
-      "end": 75.704,
+      "start": 55.661,
+      "end": 81.328,
       "title": "Verify closure evidence"
     },
     {
-      "start": 75.704,
-      "end": 104.151,
+      "start": 81.328,
+      "end": 122.905,
       "title": "Limit conditional progression"
     }
   ],
@@ -32,217 +32,238 @@
     },
     {
       "start": 3.149,
-      "end": 5.944,
+      "end": 6.115,
       "text": "A, while the installed plate shows model B.",
       "spoken": "A, while the installed plate shows model B.",
       "scene": 1
     },
     {
-      "start": 6.064,
-      "end": 8.901,
+      "start": 6.235,
+      "end": 9.2,
       "text": "Record the mismatch and its exact location.",
       "spoken": "Record the mismatch and its exact location.",
       "scene": 1
     },
     {
-      "start": 9.021,
-      "end": 11.433,
+      "start": 9.32,
+      "end": 12.148,
       "text": "Do not decide from the model number alone",
       "spoken": "Do not decide from the model number alone",
       "scene": 1
     },
     {
-      "start": 11.553,
-      "end": 13.612,
+      "start": 12.268,
+      "end": 14.682,
       "text": "whether the difference is harmless.",
       "spoken": "whether the difference is harmless.",
       "scene": 1
     },
     {
-      "start": 13.732,
-      "end": 16.633,
+      "start": 14.802,
+      "end": 18.043,
       "text": "Assess relevant materials, connection, cleaning",
       "spoken": "Assess relevant materials, connection, cleaning",
       "scene": 1
     },
     {
-      "start": 16.753,
-      "end": 20.337,
+      "start": 18.163,
+      "end": 22.094,
       "text": "and functional implications with the responsible experts.",
       "spoken": "and functional implications with the responsible experts.",
       "scene": 1
     },
     {
-      "start": 20.457,
-      "end": 22.996,
+      "start": 22.214,
+      "end": 24.753,
       "text": "Retain the original observation even",
       "spoken": "Retain the original observation even",
       "scene": 1
     },
     {
-      "start": 23.116,
-      "end": 25.569,
+      "start": 24.873,
+      "end": 27.701,
       "text": "if the supplier later replaces the valve.",
       "spoken": "if the supplier later replaces the valve.",
       "scene": 1
     },
     {
-      "start": 26.189,
-      "end": 28.771,
+      "start": 28.321,
+      "end": 31.286,
       "text": "Correction may restore the specified valve,",
       "spoken": "Correction may restore the specified valve,",
       "scene": 2
     },
     {
-      "start": 28.891,
-      "end": 33.307,
+      "start": 31.406,
+      "end": 35.889,
       "text": "or a proposed design change may require an authorized assessment.",
       "spoken": "or a proposed design change may require an authorized assessment.",
       "scene": 2
     },
     {
-      "start": 33.427,
-      "end": 35.427,
+      "start": 36.009,
+      "end": 38.009,
       "text": "These are not the same route.",
       "spoken": "These are not the same route.",
       "scene": 2
     },
     {
-      "start": 35.547,
-      "end": 40.005,
+      "start": 38.129,
+      "end": 42.819,
       "text": "Do not revise the acceptance criterion merely to match what arrived.",
       "spoken": "Do not revise the acceptance criterion merely to match what arrived.",
       "scene": 2
     },
     {
-      "start": 40.125,
-      "end": 43.709,
+      "start": 42.939,
+      "end": 46.525,
       "text": "Define what verification follows the approved action",
       "spoken": "Define what verification follows the approved action",
       "scene": 2
     },
     {
-      "start": 43.829,
-      "end": 47.065,
+      "start": 46.645,
+      "end": 50.438,
       "text": "and whether earlier checks or later tests are affected.",
       "spoken": "and whether earlier checks or later tests are affected.",
       "scene": 2
     },
     {
-      "start": 47.185,
-      "end": 51.153,
+      "start": 50.558,
+      "end": 55.041,
       "text": "Keep the decision and supporting rationale linked to the finding.",
       "spoken": "Keep the decision and supporting rationale linked to the finding.",
       "scene": 2
     },
     {
-      "start": 51.773,
-      "end": 55.485,
+      "start": 55.661,
+      "end": 59.868,
       "text": "A purchase order for the replacement is not closure evidence.",
       "spoken": "A purchase order for the replacement is not closure evidence.",
       "scene": 3
     },
     {
-      "start": 55.605,
-      "end": 57.605,
+      "start": 59.988,
+      "end": 61.988,
       "text": "After the authorized action,",
       "spoken": "After the authorized action,",
       "scene": 3
     },
     {
-      "start": 57.725,
-      "end": 60.349,
+      "start": 62.108,
+      "end": 65.004,
       "text": "obtain the specified installation evidence",
       "spoken": "obtain the specified installation evidence",
       "scene": 3
     },
     {
-      "start": 60.469,
-      "end": 62.943,
+      "start": 65.124,
+      "end": 67.607,
       "text": "and assess any related implications.",
       "spoken": "and assess any related implications.",
       "scene": 3
     },
     {
-      "start": 63.063,
-      "end": 65.063,
+      "start": 67.727,
+      "end": 69.727,
       "text": "Retain the original failure",
       "spoken": "Retain the original failure",
       "scene": 3
     },
     {
-      "start": 65.183,
-      "end": 67.889,
+      "start": 69.847,
+      "end": 73.019,
       "text": "and the subsequent result as separate records.",
       "spoken": "and the subsequent result as separate records.",
       "scene": 3
     },
     {
-      "start": 68.009,
-      "end": 71.081,
+      "start": 73.139,
+      "end": 76.588,
       "text": "A clean second result should not erase the history",
       "spoken": "A clean second result should not erase the history",
       "scene": 3
     },
     {
-      "start": 71.201,
-      "end": 75.084,
+      "start": 76.708,
+      "end": 80.708,
       "text": "or imply that the first configuration had always complied.",
       "spoken": "or imply that the first configuration had always complied.",
       "scene": 3
     },
     {
-      "start": 75.704,
-      "end": 80.077,
-      "text": "Conditional progression is specific to the next qualification activity",
-      "spoken": "Conditional progression is specific to the next qualification activity",
+      "start": 81.328,
+      "end": 83.461,
+      "text": "Annex 15 permits conditional",
+      "spoken": "Annex Fifteen permits conditional",
       "scene": 4
     },
     {
-      "start": 80.197,
-      "end": 83.483,
-      "text": "and requires a documented no-significant-impact",
-      "spoken": "and requires a documented no-significant-impact",
+      "start": 83.581,
+      "end": 88.685,
+      "text": "approval to proceed to the next qualification stage following a documented",
+      "spoken": "approval to proceed to the next qualification stage following a documented",
       "scene": 4
     },
     {
-      "start": 83.603,
-      "end": 86.269,
-      "text": "assessment and responsible authorization.",
-      "spoken": "assessment and responsible authorization.",
+      "start": 88.805,
+      "end": 93.494,
+      "text": "assessment that there is no significant impact on the next activity.",
+      "spoken": "assessment that there is no significant impact on the next activity.",
       "scene": 4
     },
     {
-      "start": 86.389,
-      "end": 89.184,
+      "start": 93.614,
+      "end": 96.511,
+      "text": "Responsible authorization is still needed.",
+      "spoken": "Responsible authorization is still needed.",
+      "scene": 4
+    },
+    {
+      "start": 96.631,
+      "end": 99.426,
       "text": "For example, an unresolved gasket issue",
       "spoken": "For example, an unresolved gasket issue",
       "scene": 4
     },
     {
-      "start": 89.304,
-      "end": 92.099,
+      "start": 99.546,
+      "end": 102.373,
       "text": "may prevent wetted-system challenges even",
       "spoken": "may prevent wetted-system challenges even",
       "scene": 4
     },
     {
-      "start": 92.219,
-      "end": 96.123,
+      "start": 102.493,
+      "end": 106.976,
       "text": "if a separately assessed dry control-display check could proceed.",
       "spoken": "if a separately assessed dry control-display check could proceed.",
       "scene": 4
     },
     {
-      "start": 96.243,
-      "end": 98.717,
-      "text": "This is an illustration, not permission.",
-      "spoken": "This is an illustration, not permission.",
+      "start": 107.096,
+      "end": 109.855,
+      "text": "This activity-specific dry-check example",
+      "spoken": "This activity-specific dry-check example",
       "scene": 4
     },
     {
-      "start": 98.837,
-      "end": 103.531,
+      "start": 109.975,
+      "end": 112.664,
+      "text": "is a practical teaching recommendation,",
+      "spoken": "is a practical teaching recommendation,",
+      "scene": 4
+    },
+    {
+      "start": 112.784,
+      "end": 116.991,
+      "text": "not wording prescribed by the Annex or permission to proceed.",
+      "spoken": "not wording prescribed by the Annex or permission to proceed.",
+      "scene": 4
+    },
+    {
+      "start": 117.111,
+      "end": 122.285,
       "text": "Do not use a high completion percentage as a substitute for the assessment.",
       "spoken": "Do not use a high completion percentage as a substitute for the assessment.",
       "scene": 4
