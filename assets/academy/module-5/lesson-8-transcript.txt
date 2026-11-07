@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.8
+Execute tests and preserve defensible evidence
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Record the actual observation
+Record what was actually done and observed, with the configuration, instruments, conditions and execution details. A copied expected result is not an observation. If a step was not executed, say so and retain the reason. Distinguish a justified exclusion from a test that could not be completed.
+
+Retain original data
+Retain applicable original records, raw electronic data, printouts and photographs under the defined retention arrangements. Link summaries to those originals. The required period depends on the record and applicable obligations; this module supplies no universal number. Preserve readability, access and integrity rather than keeping only a polished report screenshot.
+
+Handle an interrupted record
+If logging stops during a test, retain the partial record and document what happened. Assess which conclusions the gap affects. Do not fill the missing interval from memory or copy another run. Any continuation or repeat needs the defined procedure, a documented rationale and a clear relationship to the first record.
+
+Correct transparently
+Corrections must preserve the original entry and identify the change according to the applicable record controls. For paper, avoid obscuring the earlier value. For electronic records, use the authorized correction mechanism and applicable audit trail. A reviewer should be able to reconstruct the chronology rather than encounter an unexplained clean replacement.

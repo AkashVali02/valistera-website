@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.2
+Establish safe and controlled OQ readiness
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Review the handover
+Start with the installation handover, configuration and finding register. Our earlier gasket-material gap has not disappeared merely because this is a new module. For each proposed activity, establish whether it depends on that unresolved component. Record a responsible decision before execution; a high completion percentage is not readiness.
+
+Identify the test baseline
+Identify the approved protocol, software or parameter version, drawings and acceptance sources. The same test identifier run on two configurations may answer different questions. Record changes and their impact. Supplier procedures can inform the package, but the site must establish their suitability for the installed system and intended activity.
+
+Prepare the people and tools
+Plan trained personnel, suitable calibrated instruments, access and engineering safety controls. This course does not teach bypassing guards, isolating utilities or injecting faults into working equipment. Such activities require approved methods and competent personnel. A planned challenge must stay within the equipment design and safe operating envelope.
+
+Respect conditional progression
+Annex 15 allows a documented conditional next-stage decision where unresolved matters have no significant impact on the next activity. In this fictional case, a separately assessed display review might be considered while wetted challenges remain held. That example is a practical recommendation, not automatic permission or prescribed Annex wording.

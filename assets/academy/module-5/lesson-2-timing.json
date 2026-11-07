@@ -1,0 +1,237 @@
+{
+  "duration": 101.779375,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 24.869,
+      "title": "Review the handover"
+    },
+    {
+      "start": 24.869,
+      "end": 50.228,
+      "title": "Identify the test baseline"
+    },
+    {
+      "start": 50.228,
+      "end": 75.938,
+      "title": "Prepare the people and tools"
+    },
+    {
+      "start": 75.938,
+      "end": 101.779,
+      "title": "Respect conditional progression"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 2.552,
+      "text": "Start with the installation handover,",
+      "spoken": "Start with the installation handover,",
+      "scene": 1
+    },
+    {
+      "start": 2.672,
+      "end": 5.253,
+      "text": "configuration and finding register.",
+      "spoken": "configuration and finding register.",
+      "scene": 1
+    },
+    {
+      "start": 5.373,
+      "end": 7.787,
+      "text": "Our earlier gasket-material gap has",
+      "spoken": "Our earlier gasket-material gap has",
+      "scene": 1
+    },
+    {
+      "start": 7.907,
+      "end": 11.493,
+      "text": "not disappeared merely because this is a new module.",
+      "spoken": "not disappeared merely because this is a new module.",
+      "scene": 1
+    },
+    {
+      "start": 11.613,
+      "end": 14.165,
+      "text": "For each proposed activity, establish",
+      "spoken": "For each proposed activity, establish",
+      "scene": 1
+    },
+    {
+      "start": 14.285,
+      "end": 17.595,
+      "text": "whether it depends on that unresolved component.",
+      "spoken": "whether it depends on that unresolved component.",
+      "scene": 1
+    },
+    {
+      "start": 17.715,
+      "end": 20.957,
+      "text": "Record a responsible decision before execution;",
+      "spoken": "Record a responsible decision before execution;",
+      "scene": 1
+    },
+    {
+      "start": 21.077,
+      "end": 24.249,
+      "text": "a high completion percentage is not readiness.",
+      "spoken": "a high completion percentage is not readiness.",
+      "scene": 1
+    },
+    {
+      "start": 24.869,
+      "end": 29.145,
+      "text": "Identify the approved protocol, software or parameter version,",
+      "spoken": "Identify the approved protocol, software or parameter version,",
+      "scene": 2
+    },
+    {
+      "start": 29.265,
+      "end": 31.472,
+      "text": "drawings and acceptance sources.",
+      "spoken": "drawings and acceptance sources.",
+      "scene": 2
+    },
+    {
+      "start": 31.592,
+      "end": 34.045,
+      "text": "The same test identifier run on two",
+      "spoken": "The same test identifier run on two",
+      "scene": 2
+    },
+    {
+      "start": 34.165,
+      "end": 37.338,
+      "text": "configurations may answer different questions.",
+      "spoken": "configurations may answer different questions.",
+      "scene": 2
+    },
+    {
+      "start": 37.458,
+      "end": 39.719,
+      "text": "Record changes and their impact.",
+      "spoken": "Record changes and their impact.",
+      "scene": 2
+    },
+    {
+      "start": 39.839,
+      "end": 42.804,
+      "text": "Supplier procedures can inform the package,",
+      "spoken": "Supplier procedures can inform the package,",
+      "scene": 2
+    },
+    {
+      "start": 42.924,
+      "end": 47.269,
+      "text": "but the site must establish their suitability for the installed",
+      "spoken": "but the site must establish their suitability for the installed",
+      "scene": 2
+    },
+    {
+      "start": 47.389,
+      "end": 49.608,
+      "text": "system and intended activity.",
+      "spoken": "system and intended activity.",
+      "scene": 2
+    },
+    {
+      "start": 50.228,
+      "end": 54.09,
+      "text": "Plan trained personnel, suitable calibrated instruments,",
+      "spoken": "Plan trained personnel, suitable calibrated instruments,",
+      "scene": 3
+    },
+    {
+      "start": 54.21,
+      "end": 56.919,
+      "text": "access and engineering safety controls.",
+      "spoken": "access and engineering safety controls.",
+      "scene": 3
+    },
+    {
+      "start": 57.039,
+      "end": 60.074,
+      "text": "This course does not teach bypassing guards,",
+      "spoken": "This course does not teach bypassing guards,",
+      "scene": 3
+    },
+    {
+      "start": 60.194,
+      "end": 64.539,
+      "text": "isolating utilities or injecting faults into working equipment.",
+      "spoken": "isolating utilities or injecting faults into working equipment.",
+      "scene": 3
+    },
+    {
+      "start": 64.659,
+      "end": 69.142,
+      "text": "Such activities require approved methods and competent personnel.",
+      "spoken": "Such activities require approved methods and competent personnel.",
+      "scene": 3
+    },
+    {
+      "start": 69.262,
+      "end": 73.193,
+      "text": "A planned challenge must stay within the equipment design",
+      "spoken": "A planned challenge must stay within the equipment design",
+      "scene": 3
+    },
+    {
+      "start": 73.313,
+      "end": 75.318,
+      "text": "and safe operating envelope.",
+      "spoken": "and safe operating envelope.",
+      "scene": 3
+    },
+    {
+      "start": 75.938,
+      "end": 80.439,
+      "text": "Annex 15 allows a documented conditional next-stage decision",
+      "spoken": "Annex Fifteen allows a documented conditional next-stage decision",
+      "scene": 4
+    },
+    {
+      "start": 80.559,
+      "end": 85.594,
+      "text": "where unresolved matters have no significant impact on the next activity.",
+      "spoken": "where unresolved matters have no significant impact on the next activity.",
+      "scene": 4
+    },
+    {
+      "start": 85.714,
+      "end": 87.714,
+      "text": "In this fictional case,",
+      "spoken": "In this fictional case,",
+      "scene": 4
+    },
+    {
+      "start": 87.834,
+      "end": 91.696,
+      "text": "a separately assessed display review might be considered",
+      "spoken": "a separately assessed display review might be considered",
+      "scene": 4
+    },
+    {
+      "start": 91.816,
+      "end": 94.299,
+      "text": "while wetted challenges remain held.",
+      "spoken": "while wetted challenges remain held.",
+      "scene": 4
+    },
+    {
+      "start": 94.419,
+      "end": 97.384,
+      "text": "That example is a practical recommendation,",
+      "spoken": "That example is a practical recommendation,",
+      "scene": 4
+    },
+    {
+      "start": 97.504,
+      "end": 101.159,
+      "text": "not automatic permission or prescribed Annex wording.",
+      "spoken": "not automatic permission or prescribed Annex wording.",
+      "scene": 4
+    }
+  ]
+}

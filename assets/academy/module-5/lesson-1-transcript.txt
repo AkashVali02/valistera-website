@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.1
+What operational qualification establishes
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+From installed to challenged
+Welcome to Module 5, Operational Qualification, or OQ. We continue the fictional V-201 oral-liquid vessel. Installation evidence identifies the system. An operational test asks what that system actually does under a defined condition. All records and values here are invented teaching examples, not approved site instructions.
+
+Keep evidence boundaries clear
+A sensor serial number supports identity. A controlled input and measured response support a functional conclusion. Product mixing performance needs its own justified study. These evidence questions can be coordinated, but a successful operational test alone does not establish blend uniformity, cleaning effectiveness or permission to manufacture.
+
+Challenge the intended range
+A comfortable set point is only one part of operation. Select meaningful operating conditions from the intended use and system knowledge. A minimum level may challenge one function while a higher load challenges another. Explain why the selected conditions expose relevant failure mechanisms, rather than treating a maximum value as universally worst case.
+
+Bound the conclusion
+The conclusion identifies the tested configuration, conditions and results. It also identifies what was not demonstrated. A simulation that checks the controller may leave a physical sensor or actuator untested. This is a useful partial result when its boundary is explicit, not evidence for an unchallenged complete loop.

@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.5
+Challenge alarms, interlocks and protective responses
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Separate alarm and action
+An alarm informs someone of a condition; an interlock can inhibit or change an operation. A warning on the display does not prove a heater has stopped. The fictional requirement must state which outputs are expected. Observe the relevant physical or defined simulated output rather than relying on the screen alone.
+
+Define the injection boundary
+Identify where the challenge enters the system. A simulated transmitter signal can exercise downstream logic while excluding the sensing element. A controller status bit may exclude the final actuator. Combine complementary evidence where justified, and describe each boundary honestly. Do not label a partial simulation as a complete physical loop test.
+
+Observe reset behavior
+Test the specified reset and restart behavior as well as the initial trip. Removing a fault does not necessarily authorize automatic restart. For this fictional case, manual reset is a stated teaching assumption. The actual requirement must come from the approved design and risk assessment, with any stored alarm history retained as required.
+
+Retain both outcomes
+Record the alarm and protective response separately, including relevant timing. If the alarm appears but the output fails, the combined requirement has not passed. Preserve both observations and assess the discrepancy. An attractive screenshot of the warning does not repair missing evidence of the required protective action.

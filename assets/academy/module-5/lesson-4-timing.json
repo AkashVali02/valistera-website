@@ -1,0 +1,195 @@
+{
+  "duration": 92.32795833333334,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 23.565,
+      "title": "Distinguish three ranges"
+    },
+    {
+      "start": 23.565,
+      "end": 47.374,
+      "title": "Select a meaningful combination"
+    },
+    {
+      "start": 47.374,
+      "end": 69.276,
+      "title": "Read the test matrix"
+    },
+    {
+      "start": 69.276,
+      "end": 92.328,
+      "title": "Separate robustness from abuse"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 3.793,
+      "text": "The equipment design envelope, intended operating range",
+      "spoken": "The equipment design envelope, intended operating range",
+      "scene": 1
+    },
+    {
+      "start": 3.913,
+      "end": 7.844,
+      "text": "and demonstrated test coverage are related but different.",
+      "spoken": "and demonstrated test coverage are related but different.",
+      "scene": 1
+    },
+    {
+      "start": 7.964,
+      "end": 13.206,
+      "text": "A manufacturer rating does not prove every use inside it has been qualified.",
+      "spoken": "A manufacturer rating does not prove every use inside it has been qualified.",
+      "scene": 1
+    },
+    {
+      "start": 13.326,
+      "end": 16.705,
+      "text": "Conversely, deliberately exceeding that rating is",
+      "spoken": "Conversely, deliberately exceeding that rating is",
+      "scene": 1
+    },
+    {
+      "start": 16.825,
+      "end": 19.859,
+      "text": "not a sensible interpretation of worst case.",
+      "spoken": "not a sensible interpretation of worst case.",
+      "scene": 1
+    },
+    {
+      "start": 19.979,
+      "end": 22.945,
+      "text": "Keep the proposed range justified and safe.",
+      "spoken": "Keep the proposed range justified and safe.",
+      "scene": 1
+    },
+    {
+      "start": 23.565,
+      "end": 26.255,
+      "text": "For a vessel, consider how fill volume,",
+      "spoken": "For a vessel, consider how fill volume,",
+      "scene": 2
+    },
+    {
+      "start": 26.375,
+      "end": 29.063,
+      "text": "agitation and heating demand interact.",
+      "spoken": "agitation and heating demand interact.",
+      "scene": 2
+    },
+    {
+      "start": 29.183,
+      "end": 32.769,
+      "text": "A small fill might challenge immersion or overshoot,",
+      "spoken": "A small fill might challenge immersion or overshoot,",
+      "scene": 2
+    },
+    {
+      "start": 32.889,
+      "end": 36.199,
+      "text": "while a larger load challenges heating response.",
+      "spoken": "while a larger load challenges heating response.",
+      "scene": 2
+    },
+    {
+      "start": 36.319,
+      "end": 40.388,
+      "text": "These are hypotheses to evaluate against the actual design.",
+      "spoken": "These are hypotheses to evaluate against the actual design.",
+      "scene": 2
+    },
+    {
+      "start": 40.508,
+      "end": 44.22,
+      "text": "Document why a chosen combination is representative",
+      "spoken": "Document why a chosen combination is representative",
+      "scene": 2
+    },
+    {
+      "start": 44.34,
+      "end": 46.754,
+      "text": "and what remains outside the study.",
+      "spoken": "and what remains outside the study.",
+      "scene": 2
+    },
+    {
+      "start": 47.374,
+      "end": 51.305,
+      "text": "A matrix makes selected conditions and omissions visible.",
+      "spoken": "A matrix makes selected conditions and omissions visible.",
+      "scene": 3
+    },
+    {
+      "start": 51.425,
+      "end": 55.457,
+      "text": "Three speeds and two justified loads give six combinations",
+      "spoken": "Three speeds and two justified loads give six combinations",
+      "scene": 3
+    },
+    {
+      "start": 55.577,
+      "end": 58.819,
+      "text": "if all pairs are required by the teaching plan.",
+      "spoken": "if all pairs are required by the teaching plan.",
+      "scene": 3
+    },
+    {
+      "start": 58.939,
+      "end": 63.352,
+      "text": "This arithmetic does not prescribe six tests for real equipment.",
+      "spoken": "This arithmetic does not prescribe six tests for real equipment.",
+      "scene": 3
+    },
+    {
+      "start": 63.472,
+      "end": 68.656,
+      "text": "Sampling, repetitions and any reduced design need their own reasoned basis.",
+      "spoken": "Sampling, repetitions and any reduced design need their own reasoned basis.",
+      "scene": 3
+    },
+    {
+      "start": 69.276,
+      "end": 72.656,
+      "text": "A planned disturbance can examine robustness only",
+      "spoken": "A planned disturbance can examine robustness only",
+      "scene": 4
+    },
+    {
+      "start": 72.776,
+      "end": 76.569,
+      "text": "when the challenge and expected recovery are justified.",
+      "spoken": "when the challenge and expected recovery are justified.",
+      "scene": 4
+    },
+    {
+      "start": 76.689,
+      "end": 79.447,
+      "text": "Never turn off a plant utility or defeat",
+      "spoken": "Never turn off a plant utility or defeat",
+      "scene": 4
+    },
+    {
+      "start": 79.567,
+      "end": 82.878,
+      "text": "a protection device based on a training example.",
+      "spoken": "a protection device based on a training example.",
+      "scene": 4
+    },
+    {
+      "start": 82.998,
+      "end": 87.243,
+      "text": "Engineering defines a safe simulation or controlled method,",
+      "spoken": "Engineering defines a safe simulation or controlled method,",
+      "scene": 4
+    },
+    {
+      "start": 87.363,
+      "end": 91.708,
+      "text": "and the record states what that method represents and excludes.",
+      "spoken": "and the record states what that method represents and excludes.",
+      "scene": 4
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.793
+The equipment design envelope, intended
+operating range
+
+2
+00:00:03.913 --> 00:00:07.844
+and demonstrated test coverage are related
+but different.
+
+3
+00:00:07.964 --> 00:00:13.206
+A manufacturer rating does not prove every
+use inside it has been qualified.
+
+4
+00:00:13.326 --> 00:00:16.705
+Conversely, deliberately exceeding that
+rating is
+
+5
+00:00:16.825 --> 00:00:19.859
+not a sensible interpretation of worst
+case.
+
+6
+00:00:19.979 --> 00:00:22.945
+Keep the proposed range justified and
+safe.
+
+7
+00:00:23.565 --> 00:00:26.255
+For a vessel, consider how fill volume,
+
+8
+00:00:26.375 --> 00:00:29.063
+agitation and heating demand interact.
+
+9
+00:00:29.183 --> 00:00:32.769
+A small fill might challenge immersion or
+overshoot,
+
+10
+00:00:32.889 --> 00:00:36.199
+while a larger load challenges heating
+response.
+
+11
+00:00:36.319 --> 00:00:40.388
+These are hypotheses to evaluate against
+the actual design.
+
+12
+00:00:40.508 --> 00:00:44.220
+Document why a chosen combination is
+representative
+
+13
+00:00:44.340 --> 00:00:46.754
+and what remains outside the study.
+
+14
+00:00:47.374 --> 00:00:51.305
+A matrix makes selected conditions and
+omissions visible.
+
+15
+00:00:51.425 --> 00:00:55.457
+Three speeds and two justified loads give
+six combinations
+
+16
+00:00:55.577 --> 00:00:58.819
+if all pairs are required by the teaching
+plan.
+
+17
+00:00:58.939 --> 00:01:03.352
+This arithmetic does not prescribe six
+tests for real equipment.
+
+18
+00:01:03.472 --> 00:01:08.656
+Sampling, repetitions and any reduced
+design need their own reasoned basis.
+
+19
+00:01:09.276 --> 00:01:12.656
+A planned disturbance can examine
+robustness only
+
+20
+00:01:12.776 --> 00:01:16.569
+when the challenge and expected recovery
+are justified.
+
+21
+00:01:16.689 --> 00:01:19.447
+Never turn off a plant utility or defeat
+
+22
+00:01:19.567 --> 00:01:22.878
+a protection device based on a training
+example.
+
+23
+00:01:22.998 --> 00:01:27.243
+Engineering defines a safe simulation or
+controlled method,
+
+24
+00:01:27.363 --> 00:01:31.708
+and the record states what that method
+represents and excludes.

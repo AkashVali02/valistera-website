@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.3
+Design traceable tests and acceptance criteria
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Trace the requirement
+Follow a requirement from intended function through a possible failure to the evidence needed. For the fictional heating control, ask whether the requirement concerns indication, control stability, alarm response or heater shutdown. One generic check saying temperature satisfactory does not establish all four functions. Assign distinct observations where the claims differ.
+
+Define the comparator first
+Write the criterion before collecting results. State the challenge, starting condition, measurement method, time basis and expected response. For example, a response-time requirement needs an identifiable initiating event and endpoint. An observed delay cannot become its own limit simply because the first test produced that value.
+
+Calculate a response time
+In one teaching record, the input event occurs at ten o clock and the defined output follows 3.2 seconds later. The hypothetical protocol limit is 4 seconds. The observed 3.2 seconds meets that simple limit. Timestamp resolution, clock alignment and the prescribed decision method must still support the comparison.
+
+Prevent retrospective acceptance
+If the result misses the criterion, preserve it and investigate. Changing the limit afterwards to make the result pass is not a defensible shortcut. A scientifically justified change requires the appropriate documented route, impact assessment and review. The original criterion and failed observation remain traceable in the record.

@@ -2,9 +2,9 @@
 
 Edition M5-20261107-R1. Review candidate, not human GMP approval or release authorization.
 
-- media-results.json: PENDING in this pre-deployment snapshot. Use the workflow artifact for post-deployment results; require its tested_commit to match the served footer.
-- frame-results.json: PENDING in this pre-deployment snapshot. Use the workflow artifact for post-deployment results; require its tested_commit to match the served footer.
-- browser-results.json: PENDING in this pre-deployment snapshot. Use the workflow artifact for post-deployment results; require its tested_commit to match the served footer.
+- media-results.json: 150 checks; 0 failures; completed=see evidence scope.
+- frame-results.json: 40 checks; 0 failures; completed=see evidence scope.
+- browser-results.json: 435 checks; 0 failures; completed=True.
 - hosted-delivery-results.json: PENDING in this pre-deployment snapshot. Use the workflow artifact for post-deployment results; require its tested_commit to match the served footer.
 - hosted-browser-results.json: PENDING in this pre-deployment snapshot. Use the workflow artifact for post-deployment results; require its tested_commit to match the served footer.
 

@@ -1,0 +1,209 @@
+{
+  "duration": 97.342625,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 25.038,
+      "title": "Record a failed challenge"
+    },
+    {
+      "start": 25.038,
+      "end": 48.491,
+      "title": "Assess wider impact"
+    },
+    {
+      "start": 48.491,
+      "end": 71.853,
+      "title": "Retest with a rationale"
+    },
+    {
+      "start": 71.853,
+      "end": 97.343,
+      "title": "Avoid changing to pass"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 3.862,
+      "text": "Record a failed challenge against its original criterion",
+      "spoken": "Record a failed challenge against its original criterion",
+      "scene": 1
+    },
+    {
+      "start": 3.982,
+      "end": 6.603,
+      "text": "and identify the affected requirement.",
+      "spoken": "and identify the affected requirement.",
+      "scene": 1
+    },
+    {
+      "start": 6.723,
+      "end": 10.654,
+      "text": "Do not erase the failure because a second attempt passes.",
+      "spoken": "Do not erase the failure because a second attempt passes.",
+      "scene": 1
+    },
+    {
+      "start": 10.774,
+      "end": 13.782,
+      "text": "Examine configuration, method, instrument",
+      "spoken": "Examine configuration, method, instrument",
+      "scene": 1
+    },
+    {
+      "start": 13.902,
+      "end": 17.281,
+      "text": "and system explanations through the site process.",
+      "spoken": "and system explanations through the site process.",
+      "scene": 1
+    },
+    {
+      "start": 17.401,
+      "end": 20.643,
+      "text": "The investigation must distinguish demonstrated",
+      "spoken": "The investigation must distinguish demonstrated",
+      "scene": 1
+    },
+    {
+      "start": 20.763,
+      "end": 24.418,
+      "text": "causes from plausible ideas that still need evidence.",
+      "spoken": "causes from plausible ideas that still need evidence.",
+      "scene": 1
+    },
+    {
+      "start": 25.038,
+      "end": 28.831,
+      "text": "A wrong parameter can affect more than the failed test.",
+      "spoken": "A wrong parameter can affect more than the failed test.",
+      "scene": 2
+    },
+    {
+      "start": 28.951,
+      "end": 31.779,
+      "text": "Assess related functions, earlier results",
+      "spoken": "Assess related functions, earlier results",
+      "scene": 2
+    },
+    {
+      "start": 31.899,
+      "end": 33.925,
+      "text": "and proposed next activities.",
+      "spoken": "and proposed next activities.",
+      "scene": 2
+    },
+    {
+      "start": 34.045,
+      "end": 39.218,
+      "text": "Avoid assuming that the investigation ends at the first obvious correction.",
+      "spoken": "Avoid assuming that the investigation ends at the first obvious correction.",
+      "scene": 2
+    },
+    {
+      "start": 39.338,
+      "end": 43.269,
+      "text": "Determine what remains reliable and what needs additional",
+      "spoken": "Determine what remains reliable and what needs additional",
+      "scene": 2
+    },
+    {
+      "start": 43.389,
+      "end": 47.871,
+      "text": "verification, with the rationale recorded for responsible review.",
+      "spoken": "verification, with the rationale recorded for responsible review.",
+      "scene": 2
+    },
+    {
+      "start": 48.491,
+      "end": 53.043,
+      "text": "After the authorized action, define what will be repeated and why.",
+      "spoken": "After the authorized action, define what will be repeated and why.",
+      "scene": 3
+    },
+    {
+      "start": 53.163,
+      "end": 58.336,
+      "text": "A passing repeat demonstrates only the conditions tested after that action.",
+      "spoken": "A passing repeat demonstrates only the conditions tested after that action.",
+      "scene": 3
+    },
+    {
+      "start": 58.456,
+      "end": 63.628,
+      "text": "It does not erase the original failure or validate every untested function.",
+      "spoken": "It does not erase the original failure or validate every untested function.",
+      "scene": 3
+    },
+    {
+      "start": 63.748,
+      "end": 66.009,
+      "text": "Reconcile the new configuration",
+      "spoken": "Reconcile the new configuration",
+      "scene": 3
+    },
+    {
+      "start": 66.129,
+      "end": 71.233,
+      "text": "and the evidence needed to support closure before making a recommendation.",
+      "spoken": "and the evidence needed to support closure before making a recommendation.",
+      "scene": 3
+    },
+    {
+      "start": 71.853,
+      "end": 73.853,
+      "text": "A criterion change is",
+      "spoken": "A criterion change is",
+      "scene": 4
+    },
+    {
+      "start": 73.973,
+      "end": 77.559,
+      "text": "not simply an administrative way to close a failure.",
+      "spoken": "not simply an administrative way to close a failure.",
+      "scene": 4
+    },
+    {
+      "start": 77.679,
+      "end": 80.26,
+      "text": "It requires scientific justification",
+      "spoken": "It requires scientific justification",
+      "scene": 4
+    },
+    {
+      "start": 80.38,
+      "end": 83.139,
+      "text": "and the appropriate documented handling,",
+      "spoken": "and the appropriate documented handling,",
+      "scene": 4
+    },
+    {
+      "start": 83.259,
+      "end": 87.052,
+      "text": "including impact on the study and related requirements.",
+      "spoken": "including impact on the study and related requirements.",
+      "scene": 4
+    },
+    {
+      "start": 87.172,
+      "end": 89.172,
+      "text": "Show both the original result",
+      "spoken": "Show both the original result",
+      "scene": 4
+    },
+    {
+      "start": 89.292,
+      "end": 92.12,
+      "text": "and the reasoning for any later decision.",
+      "spoken": "and the reasoning for any later decision.",
+      "scene": 4
+    },
+    {
+      "start": 92.24,
+      "end": 96.723,
+      "text": "Do not report an unchanged pass where the basis actually changed.",
+      "spoken": "Do not report an unchanged pass where the basis actually changed.",
+      "scene": 4
+    }
+  ]
+}

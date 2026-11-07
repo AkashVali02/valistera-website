@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.7
+Test interruptions and recovery within defined boundaries
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Describe the interruption
+Name the failure mode and affected function before selecting a test. A loss of a signal, a utility disturbance and a power interruption may have very different consequences. This lesson offers reasoning exercises, not instructions to interrupt a live process. Engineering must define a safe authorized challenge and its limitations.
+
+Check the safe state
+Safe state is design-specific. Do not assume that every valve closes or every operation stops in the same way. State the required response and observe the applicable output. Consider stored energy, retained heat or other residual hazards through competent engineering assessment; a blank screen is not evidence that equipment is safe.
+
+Check recovery and records
+Recovery may require configuration checks, data reconciliation and an authorized restart sequence. Verify that records and timestamps remain interpretable across the interruption. A machine that runs again can still have lost settings or data. Record recovery time only against an established requirement, not a convenient number chosen afterwards.
+
+Link computerised-system scope
+Where computerised functions support GMP activity, coordinate with the applicable computerised-system validation scope. Equipment OQ is not automatically a complete Annex 11 assessment. Access control, data management and other relevant functions need evidence in their proper lifecycle context. Cross-reference that evidence and identify gaps instead of claiming compliance from a login screen.

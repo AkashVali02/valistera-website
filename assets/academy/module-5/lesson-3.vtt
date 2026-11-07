@@ -1,0 +1,134 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.966
+Follow a requirement from intended
+function
+
+2
+00:00:03.086 --> 00:00:06.534
+through a possible failure to the evidence
+needed.
+
+3
+00:00:06.654 --> 00:00:09.275
+For the fictional heating control, ask
+
+4
+00:00:09.395 --> 00:00:12.429
+whether the requirement concerns
+indication,
+
+5
+00:00:12.549 --> 00:00:16.204
+control stability, alarm response or
+heater shutdown.
+
+6
+00:00:16.324 --> 00:00:19.704
+One generic check saying temperature
+satisfactory
+
+7
+00:00:19.824 --> 00:00:22.444
+does not establish all four functions.
+
+8
+00:00:22.564 --> 00:00:26.220
+Assign distinct observations where the
+claims differ.
+
+9
+00:00:26.840 --> 00:00:30.012
+Write the criterion before collecting
+results.
+
+10
+00:00:30.132 --> 00:00:32.891
+State the challenge, starting condition,
+
+11
+00:00:33.011 --> 00:00:36.666
+measurement method, time basis and
+expected response.
+
+12
+00:00:36.786 --> 00:00:39.958
+For example, a response-time requirement
+needs
+
+13
+00:00:40.078 --> 00:00:43.300
+an identifiable initiating event and
+endpoint.
+
+14
+00:00:43.419 --> 00:00:47.006
+An observed delay cannot become its own
+limit simply
+
+15
+00:00:47.126 --> 00:00:50.091
+because the first test produced that
+value.
+
+16
+00:00:50.711 --> 00:00:54.918
+In one teaching record, the input event
+occurs at ten o clock
+
+17
+00:00:55.038 --> 00:00:58.686
+and the defined output follows 3.2 seconds
+later.
+
+18
+00:00:58.806 --> 00:01:01.921
+The hypothetical protocol limit is 4
+seconds.
+
+19
+00:01:02.041 --> 00:01:05.753
+The observed 3.2 seconds meets that simple
+limit.
+
+20
+00:01:05.873 --> 00:01:08.425
+Timestamp resolution, clock alignment
+
+21
+00:01:08.545 --> 00:01:13.303
+and the prescribed decision method must
+still support the comparison.
+
+22
+00:01:13.923 --> 00:01:18.337
+If the result misses the criterion,
+preserve it and investigate.
+
+23
+00:01:18.457 --> 00:01:22.319
+Changing the limit afterwards to make the
+result pass is
+
+24
+00:01:22.439 --> 00:01:24.439
+not a defensible shortcut.
+
+25
+00:01:24.559 --> 00:01:29.801
+A scientifically justified change requires
+the appropriate documented route,
+
+26
+00:01:29.921 --> 00:01:31.926
+impact assessment and review.
+
+27
+00:01:32.046 --> 00:01:34.322
+The original criterion and failed
+
+28
+00:01:34.442 --> 00:01:37.407
+observation remain traceable in the
+record.

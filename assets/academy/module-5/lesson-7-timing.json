@@ -1,0 +1,216 @@
+{
+  "duration": 101.911,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 23.929,
+      "title": "Describe the interruption"
+    },
+    {
+      "start": 23.929,
+      "end": 47.933,
+      "title": "Check the safe state"
+    },
+    {
+      "start": 47.933,
+      "end": 72.885,
+      "title": "Check recovery and records"
+    },
+    {
+      "start": 72.885,
+      "end": 101.911,
+      "title": "Link computerised-system scope"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.69,
+      "text": "Name the failure mode and affected function before selecting a test.",
+      "spoken": "Name the failure mode and affected function before selecting a test.",
+      "scene": 1
+    },
+    {
+      "start": 4.81,
+      "end": 7.668,
+      "text": "A loss of a signal, a utility disturbance",
+      "spoken": "A loss of a signal, a utility disturbance",
+      "scene": 1
+    },
+    {
+      "start": 7.788,
+      "end": 12.064,
+      "text": "and a power interruption may have very different consequences.",
+      "spoken": "and a power interruption may have very different consequences.",
+      "scene": 1
+    },
+    {
+      "start": 12.184,
+      "end": 15.0,
+      "text": "This lesson offers reasoning exercises,",
+      "spoken": "This lesson offers reasoning exercises,",
+      "scene": 1
+    },
+    {
+      "start": 15.12,
+      "end": 18.224,
+      "text": "not instructions to interrupt a live process.",
+      "spoken": "not instructions to interrupt a live process.",
+      "scene": 1
+    },
+    {
+      "start": 18.344,
+      "end": 23.309,
+      "text": "Engineering must define a safe authorized challenge and its limitations.",
+      "spoken": "Engineering must define a safe authorized challenge and its limitations.",
+      "scene": 1
+    },
+    {
+      "start": 23.929,
+      "end": 26.041,
+      "text": "Safe state is design-specific.",
+      "spoken": "Safe state is design-specific.",
+      "scene": 2
+    },
+    {
+      "start": 26.161,
+      "end": 28.713,
+      "text": "Do not assume that every valve closes",
+      "spoken": "Do not assume that every valve closes",
+      "scene": 2
+    },
+    {
+      "start": 28.833,
+      "end": 31.661,
+      "text": "or every operation stops in the same way.",
+      "spoken": "or every operation stops in the same way.",
+      "scene": 2
+    },
+    {
+      "start": 31.781,
+      "end": 36.056,
+      "text": "State the required response and observe the applicable output.",
+      "spoken": "State the required response and observe the applicable output.",
+      "scene": 2
+    },
+    {
+      "start": 36.176,
+      "end": 39.97,
+      "text": "Consider stored energy, retained heat or other residual",
+      "spoken": "Consider stored energy, retained heat or other residual",
+      "scene": 2
+    },
+    {
+      "start": 40.09,
+      "end": 43.469,
+      "text": "hazards through competent engineering assessment;",
+      "spoken": "hazards through competent engineering assessment;",
+      "scene": 2
+    },
+    {
+      "start": 43.589,
+      "end": 47.313,
+      "text": "a blank screen is not evidence that equipment is safe.",
+      "spoken": "a blank screen is not evidence that equipment is safe.",
+      "scene": 2
+    },
+    {
+      "start": 47.933,
+      "end": 50.83,
+      "text": "Recovery may require configuration checks,",
+      "spoken": "Recovery may require configuration checks,",
+      "scene": 3
+    },
+    {
+      "start": 50.95,
+      "end": 54.768,
+      "text": "data reconciliation and an authorized restart sequence.",
+      "spoken": "data reconciliation and an authorized restart sequence.",
+      "scene": 3
+    },
+    {
+      "start": 54.888,
+      "end": 57.716,
+      "text": "Verify that records and timestamps remain",
+      "spoken": "Verify that records and timestamps remain",
+      "scene": 3
+    },
+    {
+      "start": 57.836,
+      "end": 60.457,
+      "text": "interpretable across the interruption.",
+      "spoken": "interpretable across the interruption.",
+      "scene": 3
+    },
+    {
+      "start": 60.577,
+      "end": 64.922,
+      "text": "A machine that runs again can still have lost settings or data.",
+      "spoken": "A machine that runs again can still have lost settings or data.",
+      "scene": 3
+    },
+    {
+      "start": 65.041,
+      "end": 69.248,
+      "text": "Record recovery time only against an established requirement,",
+      "spoken": "Record recovery time only against an established requirement,",
+      "scene": 3
+    },
+    {
+      "start": 69.368,
+      "end": 72.265,
+      "text": "not a convenient number chosen afterwards.",
+      "spoken": "not a convenient number chosen afterwards.",
+      "scene": 3
+    },
+    {
+      "start": 72.885,
+      "end": 76.661,
+      "text": "Where computerised functions support GMP activity,",
+      "spoken": "Where computerised functions support G M P activity,",
+      "scene": 4
+    },
+    {
+      "start": 76.781,
+      "end": 81.471,
+      "text": "coordinate with the applicable computerised-system validation scope.",
+      "spoken": "coordinate with the applicable computerised-system validation scope.",
+      "scene": 4
+    },
+    {
+      "start": 81.591,
+      "end": 86.604,
+      "text": "Equipment OQ is not automatically a complete Annex 11 assessment.",
+      "spoken": "Equipment O Q is not automatically a complete Annex Eleven assessment.",
+      "scene": 4
+    },
+    {
+      "start": 86.724,
+      "end": 90.862,
+      "text": "Access control, data management and other relevant functions",
+      "spoken": "Access control, data management and other relevant functions",
+      "scene": 4
+    },
+    {
+      "start": 90.982,
+      "end": 94.292,
+      "text": "need evidence in their proper lifecycle context.",
+      "spoken": "need evidence in their proper lifecycle context.",
+      "scene": 4
+    },
+    {
+      "start": 94.412,
+      "end": 97.654,
+      "text": "Cross-reference that evidence and identify gaps",
+      "spoken": "Cross-reference that evidence and identify gaps",
+      "scene": 4
+    },
+    {
+      "start": 97.774,
+      "end": 101.291,
+      "text": "instead of claiming compliance from a login screen.",
+      "spoken": "instead of claiming compliance from a login screen.",
+      "scene": 4
+    }
+  ]
+}

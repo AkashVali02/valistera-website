@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.897
+A controller indication and an independent
+
+2
+00:00:03.017 --> 00:00:05.706
+reference can serve different purposes.
+
+3
+00:00:05.826 --> 00:00:08.930
+Define what is being evaluated: sensor
+error,
+
+4
+00:00:09.050 --> 00:00:12.484
+loop response, stability or spatial
+distribution.
+
+5
+00:00:12.604 --> 00:00:17.294
+A single indication comparison does not
+establish vessel uniformity.
+
+6
+00:00:17.414 --> 00:00:21.894
+Record the reference location, range,
+calibration applicability
+
+7
+00:00:22.014 --> 00:00:25.531
+and the state of the system during the
+observation.
+
+8
+00:00:26.151 --> 00:00:28.841
+Error describes an observed difference;
+
+9
+00:00:28.961 --> 00:00:33.444
+uncertainty describes doubt associated
+with a measurement result.
+
+10
+00:00:33.564 --> 00:00:35.564
+In this teaching example,
+
+11
+00:00:35.684 --> 00:00:42.084
+a simple error is +0.4 °C against a
+0.5-degree limit.
+
+12
+00:00:42.204 --> 00:00:44.962
+That comparison alone does not state how
+
+13
+00:00:45.082 --> 00:00:47.703
+measurement uncertainty is considered.
+
+14
+00:00:47.823 --> 00:00:52.237
+The protocol needs an appropriate,
+predefined decision approach.
+
+15
+00:00:52.857 --> 00:00:55.780
+Suppose a hypothetical rule accepts only
+
+16
+00:00:55.900 --> 00:01:03.004
+when absolute error plus stated expanded
+uncertainty does not exceed 0.5 °C.
+
+17
+00:01:03.124 --> 00:01:08.990
+With error 0.4 and uncertainty 0.2, the
+sum is 0.6.
+
+18
+00:01:09.110 --> 00:01:11.731
+This rule would not accept the result.
+
+19
+00:01:11.851 --> 00:01:14.610
+It is an illustrative conservative rule,
+
+20
+00:01:14.730 --> 00:01:17.482
+not a universal GMP requirement.
+
+21
+00:01:18.102 --> 00:01:23.067
+A favorable reading at one instant does
+not establish sustained control.
+
+22
+00:01:23.187 --> 00:01:25.394
+Define the observation interval,
+
+23
+00:01:25.514 --> 00:01:28.074
+sample timing and evaluation method.
+
+24
+00:01:28.194 --> 00:01:30.746
+Check for overshoot, drift or cycling
+
+25
+00:01:30.866 --> 00:01:33.624
+where relevant to the intended function.
+
+26
+00:01:33.744 --> 00:01:36.503
+Preserve the original trend and context;
+
+27
+00:01:36.623 --> 00:01:41.727
+selecting only the best-looking interval
+can hide an important limitation.

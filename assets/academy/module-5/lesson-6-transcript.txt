@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.6
+Evaluate control response and measurement confidence
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Follow the control loop
+A controller indication and an independent reference can serve different purposes. Define what is being evaluated: sensor error, loop response, stability or spatial distribution. A single indication comparison does not establish vessel uniformity. Record the reference location, range, calibration applicability and the state of the system during the observation.
+
+Keep error and uncertainty distinct
+Error describes an observed difference; uncertainty describes doubt associated with a measurement result. In this teaching example, a simple error is +0.4 °C against a 0.5-degree limit. That comparison alone does not state how measurement uncertainty is considered. The protocol needs an appropriate, predefined decision approach.
+
+Apply an illustrative guard band
+Suppose a hypothetical rule accepts only when absolute error plus stated expanded uncertainty does not exceed 0.5 °C. With error 0.4 and uncertainty 0.2, the sum is 0.6. This rule would not accept the result. It is an illustrative conservative rule, not a universal GMP requirement.
+
+Read trends, not isolated points
+A favorable reading at one instant does not establish sustained control. Define the observation interval, sample timing and evaluation method. Check for overshoot, drift or cycling where relevant to the intended function. Preserve the original trend and context; selecting only the best-looking interval can hide an important limitation.
