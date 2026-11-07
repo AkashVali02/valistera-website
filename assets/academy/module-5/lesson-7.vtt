@@ -1,0 +1,127 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.690
+Name the failure mode and affected
+function before selecting a test.
+
+2
+00:00:04.810 --> 00:00:07.668
+A loss of a signal, a utility disturbance
+
+3
+00:00:07.788 --> 00:00:12.064
+and a power interruption may have very
+different consequences.
+
+4
+00:00:12.184 --> 00:00:15.000
+This lesson offers reasoning exercises,
+
+5
+00:00:15.120 --> 00:00:18.224
+not instructions to interrupt a live
+process.
+
+6
+00:00:18.344 --> 00:00:23.309
+Engineering must define a safe authorized
+challenge and its limitations.
+
+7
+00:00:23.929 --> 00:00:26.041
+Safe state is design-specific.
+
+8
+00:00:26.161 --> 00:00:28.713
+Do not assume that every valve closes
+
+9
+00:00:28.833 --> 00:00:31.661
+or every operation stops in the same way.
+
+10
+00:00:31.781 --> 00:00:36.056
+State the required response and observe
+the applicable output.
+
+11
+00:00:36.176 --> 00:00:39.970
+Consider stored energy, retained heat or
+other residual
+
+12
+00:00:40.090 --> 00:00:43.469
+hazards through competent engineering
+assessment;
+
+13
+00:00:43.589 --> 00:00:47.313
+a blank screen is not evidence that
+equipment is safe.
+
+14
+00:00:47.933 --> 00:00:50.830
+Recovery may require configuration checks,
+
+15
+00:00:50.950 --> 00:00:54.768
+data reconciliation and an authorized
+restart sequence.
+
+16
+00:00:54.888 --> 00:00:57.716
+Verify that records and timestamps remain
+
+17
+00:00:57.836 --> 00:01:00.457
+interpretable across the interruption.
+
+18
+00:01:00.577 --> 00:01:04.922
+A machine that runs again can still have
+lost settings or data.
+
+19
+00:01:05.041 --> 00:01:09.248
+Record recovery time only against an
+established requirement,
+
+20
+00:01:09.368 --> 00:01:12.265
+not a convenient number chosen afterwards.
+
+21
+00:01:12.885 --> 00:01:16.661
+Where computerised functions support GMP
+activity,
+
+22
+00:01:16.781 --> 00:01:21.471
+coordinate with the applicable
+computerised-system validation scope.
+
+23
+00:01:21.591 --> 00:01:26.604
+Equipment OQ is not automatically a
+complete Annex 11 assessment.
+
+24
+00:01:26.724 --> 00:01:30.862
+Access control, data management and other
+relevant functions
+
+25
+00:01:30.982 --> 00:01:34.292
+need evidence in their proper lifecycle
+context.
+
+26
+00:01:34.412 --> 00:01:37.654
+Cross-reference that evidence and identify
+gaps
+
+27
+00:01:37.774 --> 00:01:41.291
+instead of claiming compliance from a
+login screen.

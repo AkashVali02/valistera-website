@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.4
+Select operating limits and worst-case conditions
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Distinguish three ranges
+The equipment design envelope, intended operating range and demonstrated test coverage are related but different. A manufacturer rating does not prove every use inside it has been qualified. Conversely, deliberately exceeding that rating is not a sensible interpretation of worst case. Keep the proposed range justified and safe.
+
+Select a meaningful combination
+For a vessel, consider how fill volume, agitation and heating demand interact. A small fill might challenge immersion or overshoot, while a larger load challenges heating response. These are hypotheses to evaluate against the actual design. Document why a chosen combination is representative and what remains outside the study.
+
+Read the test matrix
+A matrix makes selected conditions and omissions visible. Three speeds and two justified loads give six combinations if all pairs are required by the teaching plan. This arithmetic does not prescribe six tests for real equipment. Sampling, repetitions and any reduced design need their own reasoned basis.
+
+Separate robustness from abuse
+A planned disturbance can examine robustness only when the challenge and expected recovery are justified. Never turn off a plant utility or defeat a protection device based on a training example. Engineering defines a safe simulation or controlled method, and the record states what that method represents and excludes.

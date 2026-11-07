@@ -1,0 +1,216 @@
+{
+  "duration": 102.34654166666667,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 26.151,
+      "title": "Follow the control loop"
+    },
+    {
+      "start": 26.151,
+      "end": 52.857,
+      "title": "Keep error and uncertainty distinct"
+    },
+    {
+      "start": 52.857,
+      "end": 78.102,
+      "title": "Apply an illustrative guard band"
+    },
+    {
+      "start": 78.102,
+      "end": 102.347,
+      "title": "Read trends, not isolated points"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 2.897,
+      "text": "A controller indication and an independent",
+      "spoken": "A controller indication and an independent",
+      "scene": 1
+    },
+    {
+      "start": 3.017,
+      "end": 5.706,
+      "text": "reference can serve different purposes.",
+      "spoken": "reference can serve different purposes.",
+      "scene": 1
+    },
+    {
+      "start": 5.826,
+      "end": 8.93,
+      "text": "Define what is being evaluated: sensor error,",
+      "spoken": "Define what is being evaluated: sensor error,",
+      "scene": 1
+    },
+    {
+      "start": 9.05,
+      "end": 12.484,
+      "text": "loop response, stability or spatial distribution.",
+      "spoken": "loop response, stability or spatial distribution.",
+      "scene": 1
+    },
+    {
+      "start": 12.604,
+      "end": 17.294,
+      "text": "A single indication comparison does not establish vessel uniformity.",
+      "spoken": "A single indication comparison does not establish vessel uniformity.",
+      "scene": 1
+    },
+    {
+      "start": 17.414,
+      "end": 21.894,
+      "text": "Record the reference location, range, calibration applicability",
+      "spoken": "Record the reference location, range, calibration applicability",
+      "scene": 1
+    },
+    {
+      "start": 22.014,
+      "end": 25.531,
+      "text": "and the state of the system during the observation.",
+      "spoken": "and the state of the system during the observation.",
+      "scene": 1
+    },
+    {
+      "start": 26.151,
+      "end": 28.841,
+      "text": "Error describes an observed difference;",
+      "spoken": "Error describes an observed difference;",
+      "scene": 2
+    },
+    {
+      "start": 28.961,
+      "end": 33.444,
+      "text": "uncertainty describes doubt associated with a measurement result.",
+      "spoken": "uncertainty describes doubt associated with a measurement result.",
+      "scene": 2
+    },
+    {
+      "start": 33.564,
+      "end": 35.564,
+      "text": "In this teaching example,",
+      "spoken": "In this teaching example,",
+      "scene": 2
+    },
+    {
+      "start": 35.684,
+      "end": 42.084,
+      "text": "a simple error is +0.4 \u00b0C against a 0.5-degree limit.",
+      "spoken": "a simple error is plus zero point four degrees Celsius against a zero point five-degree limit.",
+      "scene": 2
+    },
+    {
+      "start": 42.204,
+      "end": 44.962,
+      "text": "That comparison alone does not state how",
+      "spoken": "That comparison alone does not state how",
+      "scene": 2
+    },
+    {
+      "start": 45.082,
+      "end": 47.703,
+      "text": "measurement uncertainty is considered.",
+      "spoken": "measurement uncertainty is considered.",
+      "scene": 2
+    },
+    {
+      "start": 47.823,
+      "end": 52.237,
+      "text": "The protocol needs an appropriate, predefined decision approach.",
+      "spoken": "The protocol needs an appropriate, predefined decision approach.",
+      "scene": 2
+    },
+    {
+      "start": 52.857,
+      "end": 55.78,
+      "text": "Suppose a hypothetical rule accepts only",
+      "spoken": "Suppose a hypothetical rule accepts only",
+      "scene": 3
+    },
+    {
+      "start": 55.9,
+      "end": 63.004,
+      "text": "when absolute error plus stated expanded uncertainty does not exceed 0.5 \u00b0C.",
+      "spoken": "when absolute error plus stated expanded uncertainty does not exceed zero point five degrees Celsius.",
+      "scene": 3
+    },
+    {
+      "start": 63.124,
+      "end": 68.99,
+      "text": "With error 0.4 and uncertainty 0.2, the sum is 0.6.",
+      "spoken": "With error zero point four and uncertainty zero point two, the sum is zero point six.",
+      "scene": 3
+    },
+    {
+      "start": 69.11,
+      "end": 71.731,
+      "text": "This rule would not accept the result.",
+      "spoken": "This rule would not accept the result.",
+      "scene": 3
+    },
+    {
+      "start": 71.851,
+      "end": 74.61,
+      "text": "It is an illustrative conservative rule,",
+      "spoken": "It is an illustrative conservative rule,",
+      "scene": 3
+    },
+    {
+      "start": 74.73,
+      "end": 77.482,
+      "text": "not a universal GMP requirement.",
+      "spoken": "not a universal G M P requirement.",
+      "scene": 3
+    },
+    {
+      "start": 78.102,
+      "end": 83.067,
+      "text": "A favorable reading at one instant does not establish sustained control.",
+      "spoken": "A favorable reading at one instant does not establish sustained control.",
+      "scene": 4
+    },
+    {
+      "start": 83.187,
+      "end": 85.394,
+      "text": "Define the observation interval,",
+      "spoken": "Define the observation interval,",
+      "scene": 4
+    },
+    {
+      "start": 85.514,
+      "end": 88.074,
+      "text": "sample timing and evaluation method.",
+      "spoken": "sample timing and evaluation method.",
+      "scene": 4
+    },
+    {
+      "start": 88.194,
+      "end": 90.746,
+      "text": "Check for overshoot, drift or cycling",
+      "spoken": "Check for overshoot, drift or cycling",
+      "scene": 4
+    },
+    {
+      "start": 90.866,
+      "end": 93.624,
+      "text": "where relevant to the intended function.",
+      "spoken": "where relevant to the intended function.",
+      "scene": 4
+    },
+    {
+      "start": 93.744,
+      "end": 96.503,
+      "text": "Preserve the original trend and context;",
+      "spoken": "Preserve the original trend and context;",
+      "scene": 4
+    },
+    {
+      "start": 96.623,
+      "end": 101.727,
+      "text": "selecting only the best-looking interval can hide an important limitation.",
+      "spoken": "selecting only the best-looking interval can hide an important limitation.",
+      "scene": 4
+    }
+  ]
+}

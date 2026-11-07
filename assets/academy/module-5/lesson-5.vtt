@@ -1,0 +1,126 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.759
+An alarm informs someone of a condition;
+
+2
+00:00:02.879 --> 00:00:06.189
+an interlock can inhibit or change an
+operation.
+
+3
+00:00:06.309 --> 00:00:10.516
+A warning on the display does not prove a
+heater has stopped.
+
+4
+00:00:10.636 --> 00:00:15.050
+The fictional requirement must state which
+outputs are expected.
+
+5
+00:00:15.170 --> 00:00:19.101
+Observe the relevant physical or defined
+simulated output
+
+6
+00:00:19.221 --> 00:00:21.979
+rather than relying on the screen alone.
+
+7
+00:00:22.599 --> 00:00:25.841
+Identify where the challenge enters the
+system.
+
+8
+00:00:25.961 --> 00:00:30.270
+A simulated transmitter signal can
+exercise downstream logic
+
+9
+00:00:30.390 --> 00:00:32.873
+while excluding the sensing element.
+
+10
+00:00:32.993 --> 00:00:36.786
+A controller status bit may exclude the
+final actuator.
+
+11
+00:00:36.906 --> 00:00:40.148
+Combine complementary evidence where
+justified,
+
+12
+00:00:40.267 --> 00:00:42.750
+and describe each boundary honestly.
+
+13
+00:00:42.870 --> 00:00:47.491
+Do not label a partial simulation as a
+complete physical loop test.
+
+14
+00:00:48.111 --> 00:00:50.111
+Test the specified reset
+
+15
+00:00:50.231 --> 00:00:53.610
+and restart behavior as well as the
+initial trip.
+
+16
+00:00:53.730 --> 00:00:58.282
+Removing a fault does not necessarily
+authorize automatic restart.
+
+17
+00:00:58.402 --> 00:01:00.402
+For this fictional case,
+
+18
+00:01:00.522 --> 00:01:03.626
+manual reset is a stated teaching
+assumption.
+
+19
+00:01:03.746 --> 00:01:07.677
+The actual requirement must come from the
+approved design
+
+20
+00:01:07.797 --> 00:01:12.762
+and risk assessment, with any stored alarm
+history retained as required.
+
+21
+00:01:13.382 --> 00:01:16.141
+Record the alarm and protective response
+
+22
+00:01:16.261 --> 00:01:18.882
+separately, including relevant timing.
+
+23
+00:01:19.001 --> 00:01:21.898
+If the alarm appears but the output fails,
+
+24
+00:01:22.018 --> 00:01:24.777
+the combined requirement has not passed.
+
+25
+00:01:24.897 --> 00:01:28.630
+Preserve both observations and assess the
+discrepancy.
+
+26
+00:01:28.750 --> 00:01:32.543
+An attractive screenshot of the warning
+does not repair
+
+27
+00:01:32.663 --> 00:01:36.180
+missing evidence of the required
+protective action.

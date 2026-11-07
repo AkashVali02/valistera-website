@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.9
+Investigate failures and control retesting
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Record a failed challenge
+Record a failed challenge against its original criterion and identify the affected requirement. Do not erase the failure because a second attempt passes. Examine configuration, method, instrument and system explanations through the site process. The investigation must distinguish demonstrated causes from plausible ideas that still need evidence.
+
+Assess wider impact
+A wrong parameter can affect more than the failed test. Assess related functions, earlier results and proposed next activities. Avoid assuming that the investigation ends at the first obvious correction. Determine what remains reliable and what needs additional verification, with the rationale recorded for responsible review.
+
+Retest with a rationale
+After the authorized action, define what will be repeated and why. A passing repeat demonstrates only the conditions tested after that action. It does not erase the original failure or validate every untested function. Reconcile the new configuration and the evidence needed to support closure before making a recommendation.
+
+Avoid changing to pass
+A criterion change is not simply an administrative way to close a failure. It requires scientific justification and the appropriate documented handling, including impact on the study and related requirements. Show both the original result and the reasoning for any later decision. Do not report an unchanged pass where the basis actually changed.

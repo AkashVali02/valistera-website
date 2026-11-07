@@ -1,0 +1,779 @@
+{
+  "title": "Operational Qualification (OQ)",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "What operational qualification establishes",
+      "objective": "Separate installed identity, challenged operation and product performance.",
+      "scenes": [
+        {
+          "title": "From installed to challenged",
+          "labels": [
+            "IQ baseline",
+            "Defined challenge",
+            "Observed response"
+          ],
+          "narration": "Welcome to Module Five, Operational Qualification, or O Q. We continue the fictional V-201 oral-liquid vessel. Installation evidence identifies the system. An operational test asks what that system actually does under a defined condition. All records and values here are invented teaching examples, not approved site instructions.",
+          "description": "The installed baseline feeds a defined challenge, which produces an observed response."
+        },
+        {
+          "title": "Keep evidence boundaries clear",
+          "labels": [
+            "Identity: IQ",
+            "Function: OQ",
+            "Performance: PQ"
+          ],
+          "narration": "A sensor serial number supports identity. A controlled input and measured response support a functional conclusion. Product mixing performance needs its own justified study. These evidence questions can be coordinated, but a successful operational test alone does not establish blend uniformity, cleaning effectiveness or permission to manufacture.",
+          "description": "Identity, functional response and product performance answer three distinct evidence questions."
+        },
+        {
+          "title": "Challenge the intended range",
+          "labels": [
+            "Lower condition",
+            "Nominal condition",
+            "Upper condition"
+          ],
+          "narration": "A comfortable set point is only one part of operation. Select meaningful operating conditions from the intended use and system knowledge. A minimum level may challenge one function while a higher load challenges another. Explain why the selected conditions expose relevant failure mechanisms, rather than treating a maximum value as universally worst case.",
+          "description": "Lower, nominal and upper conditions describe a test envelope; no single point represents all risks."
+        },
+        {
+          "title": "Bound the conclusion",
+          "labels": [
+            "Tested configuration",
+            "Covered conditions",
+            "Remaining limitations"
+          ],
+          "narration": "The conclusion identifies the tested configuration, conditions and results. It also identifies what was not demonstrated. A simulation that checks the controller may leave a physical sensor or actuator untested. This is a useful partial result when its boundary is explicit, not evidence for an unchallenged complete loop.",
+          "description": "Test coverage is bounded by configuration and conditions; untested functions remain outside the conclusion."
+        }
+      ],
+      "activity": "Classify a serial-number check, a simulated high-temperature response and a blend-uniformity study. State one limitation of each.",
+      "model": "Identity belongs to IQ; a defined response is OQ evidence within its tested boundary; blend uniformity needs performance/process evidence. A simulated signal may exclude the sensor and physical output.",
+      "worked": [
+        [
+          "Evidence",
+          "Bounded conclusion"
+        ],
+        [
+          "Matching serial",
+          "Installed identity"
+        ],
+        [
+          "Simulated input response",
+          "Tested functional path only"
+        ],
+        [
+          "No product study",
+          "No blend-uniformity claim"
+        ]
+      ],
+      "quiz": {
+        "question": "A simulated input reaches the controller but excludes the sensor. What has been tested?",
+        "options": [
+          "The complete installed measurement loop",
+          "The defined downstream signal path",
+          "The product temperature distribution"
+        ],
+        "answer": 1,
+        "feedback": "The simulation boundary excludes the sensor and any other unchallenged elements."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Establish safe and controlled OQ readiness",
+      "objective": "Turn the IQ handover into an activity-specific readiness decision.",
+      "scenes": [
+        {
+          "title": "Review the handover",
+          "labels": [
+            "Installation status",
+            "Open findings",
+            "Authorized scope"
+          ],
+          "narration": "Start with the installation handover, configuration and finding register. Our earlier gasket-material gap has not disappeared merely because this is a new module. For each proposed activity, establish whether it depends on that unresolved component. Record a responsible decision before execution; a high completion percentage is not readiness.",
+          "description": "IQ status and open findings constrain the scope that can be authorized for OQ."
+        },
+        {
+          "title": "Identify the test baseline",
+          "labels": [
+            "Protocol revision",
+            "Configuration version",
+            "Criterion source"
+          ],
+          "narration": "Identify the approved protocol, software or parameter version, drawings and acceptance sources. The same test identifier run on two configurations may answer different questions. Record changes and their impact. Supplier procedures can inform the package, but the site must establish their suitability for the installed system and intended activity.",
+          "description": "Protocol and configuration versions establish the baseline against which results are interpreted."
+        },
+        {
+          "title": "Prepare the people and tools",
+          "labels": [
+            "Trained personnel",
+            "Suitable instruments",
+            "Engineering safety controls"
+          ],
+          "narration": "Plan trained personnel, suitable calibrated instruments, access and engineering safety controls. This course does not teach bypassing guards, isolating utilities or injecting faults into working equipment. Such activities require approved methods and competent personnel. A planned challenge must stay within the equipment design and safe operating envelope.",
+          "description": "People, measurement tools and safety controls are prerequisites for an authorized test."
+        },
+        {
+          "title": "Respect conditional progression",
+          "labels": [
+            "Defined next activity",
+            "Documented impact assessment",
+            "Responsible authorization"
+          ],
+          "narration": "Annex Fifteen allows a documented conditional next-stage decision where unresolved matters have no significant impact on the next activity. In this fictional case, a separately assessed display review might be considered while wetted challenges remain held. That example is a practical recommendation, not automatic permission or prescribed Annex wording.",
+          "description": "An open finding can restrict one activity while a separately assessed activity awaits authorization."
+        }
+      ],
+      "activity": "Draft a readiness decision for a display review and a wetted heating challenge while gasket traceability remains open.",
+      "model": "Keep the material gap visible. Hold dependent wetted work. A display review requires a defined boundary, documented no-significant-impact assessment and responsible authorization; do not infer permission from the course example.",
+      "worked": [
+        [
+          "Activity",
+          "Readiness consideration"
+        ],
+        [
+          "Wetted heating challenge",
+          "Depends on unresolved material status"
+        ],
+        [
+          "Display review",
+          "Separate impact and authorization decision"
+        ],
+        [
+          "Any activity",
+          "Approved method and safe access"
+        ]
+      ],
+      "quiz": {
+        "question": "Which item is essential before an affected OQ challenge?",
+        "options": [
+          "Activity-specific readiness and authorization",
+          "A majority of IQ checks marked complete",
+          "A supplier promise to close the finding"
+        ],
+        "answer": 0,
+        "feedback": "Readiness depends on the activity and unresolved impacts, not numerical progress."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Design traceable tests and acceptance criteria",
+      "objective": "Connect each quality-relevant function to a measurable test.",
+      "scenes": [
+        {
+          "title": "Trace the requirement",
+          "labels": [
+            "Intended function",
+            "Failure consequence",
+            "Test evidence"
+          ],
+          "narration": "Follow a requirement from intended function through a possible failure to the evidence needed. For the fictional heating control, ask whether the requirement concerns indication, control stability, alarm response or heater shutdown. One generic check saying temperature satisfactory does not establish all four functions. Assign distinct observations where the claims differ.",
+          "description": "A requirement links a failure concern to the evidence that can test it."
+        },
+        {
+          "title": "Define the comparator first",
+          "labels": [
+            "Criterion before execution",
+            "Method and conditions",
+            "Actual result"
+          ],
+          "narration": "Write the criterion before collecting results. State the challenge, starting condition, measurement method, time basis and expected response. For example, a response-time requirement needs an identifiable initiating event and endpoint. An observed delay cannot become its own limit simply because the first test produced that value.",
+          "description": "The predefined criterion and method give the actual result a meaningful comparator."
+        },
+        {
+          "title": "Calculate a response time",
+          "labels": [
+            "Start: 10:00:00",
+            "End: 10:00:03.2",
+            "Elapsed: 3.2 seconds"
+          ],
+          "narration": "In one teaching record, the input event occurs at ten o clock and the defined output follows three point two seconds later. The hypothetical protocol limit is four seconds. The observed three point two seconds meets that simple limit. Timestamp resolution, clock alignment and the prescribed decision method must still support the comparison.",
+          "description": "Subtracting synchronized event times gives 3.2 seconds, below the fictional 4-second limit."
+        },
+        {
+          "title": "Prevent retrospective acceptance",
+          "labels": [
+            "Original result",
+            "Investigated discrepancy",
+            "Justified controlled change"
+          ],
+          "narration": "If the result misses the criterion, preserve it and investigate. Changing the limit afterwards to make the result pass is not a defensible shortcut. A scientifically justified change requires the appropriate documented route, impact assessment and review. The original criterion and failed observation remain traceable in the record.",
+          "description": "A failed comparison leads to investigation; rewriting the limit does not erase the original result."
+        }
+      ],
+      "activity": "Write a test row for a four-second teaching response limit, including start, endpoint, clock basis and evidence.",
+      "model": "Identify the function, approved criterion, controlled input, endpoint, timestamp resolution/alignment, actual elapsed time, raw record and reviewer. The four-second value is fictional and must not be reused as a site limit.",
+      "worked": [
+        [
+          "Field",
+          "Fictional teaching entry"
+        ],
+        [
+          "Limit",
+          "4.0 seconds maximum"
+        ],
+        [
+          "Observed interval",
+          "3.2 seconds"
+        ],
+        [
+          "Margin",
+          "0.8 seconds under simple limit"
+        ],
+        [
+          "Qualification caveat",
+          "Measurement and timing method must be suitable"
+        ]
+      ],
+      "quiz": {
+        "question": "An interval is 3.2 seconds against a fictional 4.0-second maximum. What is the simple comparison?",
+        "options": [
+          "0.8 seconds above the limit",
+          "Equal to the limit after rounding",
+          "0.8 seconds below the limit"
+        ],
+        "answer": 2,
+        "feedback": "4.0 minus 3.2 equals 0.8 seconds; suitability of the measurement method still matters."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Select operating limits and worst-case conditions",
+      "objective": "Justify a test envelope without confusing it with unsafe extremes.",
+      "scenes": [
+        {
+          "title": "Distinguish three ranges",
+          "labels": [
+            "Design envelope",
+            "Intended operation",
+            "Qualified evidence"
+          ],
+          "narration": "The equipment design envelope, intended operating range and demonstrated test coverage are related but different. A manufacturer rating does not prove every use inside it has been qualified. Conversely, deliberately exceeding that rating is not a sensible interpretation of worst case. Keep the proposed range justified and safe.",
+          "description": "The design envelope bounds possible use; intended operation and demonstrated coverage are separate subsets."
+        },
+        {
+          "title": "Select a meaningful combination",
+          "labels": [
+            "Parameter levels",
+            "Interacting conditions",
+            "Failure mechanism"
+          ],
+          "narration": "For a vessel, consider how fill volume, agitation and heating demand interact. A small fill might challenge immersion or overshoot, while a larger load challenges heating response. These are hypotheses to evaluate against the actual design. Document why a chosen combination is representative and what remains outside the study.",
+          "description": "Different combinations can stress different functions; a maximum setting is not universally worst case."
+        },
+        {
+          "title": "Read the test matrix",
+          "labels": [
+            "Low / nominal / high",
+            "Defined configurations",
+            "Justified omissions"
+          ],
+          "narration": "A matrix makes selected conditions and omissions visible. Three speeds and two justified loads give six combinations if all pairs are required by the teaching plan. This arithmetic does not prescribe six tests for real equipment. Sampling, repetitions and any reduced design need their own reasoned basis.",
+          "description": "A 3-by-2 matrix contains six combinations; the rationale determines which require testing."
+        },
+        {
+          "title": "Separate robustness from abuse",
+          "labels": [
+            "Relevant disturbances",
+            "Approved safe method",
+            "Expected recovery"
+          ],
+          "narration": "A planned disturbance can examine robustness only when the challenge and expected recovery are justified. Never turn off a plant utility or defeat a protection device based on a training example. Engineering defines a safe simulation or controlled method, and the record states what that method represents and excludes.",
+          "description": "A justified disturbance uses a safe approved method and a defined recovery observation."
+        }
+      ],
+      "activity": "Propose a test-condition matrix for two loads and three speeds, explaining one possible worst-case interaction and its limitations.",
+      "model": "The full teaching matrix has six pairs. Identify the mechanism being stressed and the approved safe range. Do not claim every combination must always be run or that maximum speed is automatically worst case.",
+      "worked": [
+        [
+          "Teaching factor",
+          "Levels"
+        ],
+        [
+          "Load",
+          "Low / high"
+        ],
+        [
+          "Speed",
+          "Low / nominal / high"
+        ],
+        [
+          "Full pair count",
+          "2 × 3 = 6; justification required"
+        ]
+      ],
+      "quiz": {
+        "question": "Which statement best justifies a worst-case condition?",
+        "options": [
+          "It stresses a specified failure mechanism within safe limits",
+          "It always uses every parameter at its maximum",
+          "It exceeds the manufacturer rating by a fixed margin"
+        ],
+        "answer": 0,
+        "feedback": "Worst case is tied to a relevant mechanism and justified conditions, not unsafe extremes."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Challenge alarms, interlocks and protective responses",
+      "objective": "Distinguish notification from an automatic action and verify the tested path.",
+      "scenes": [
+        {
+          "title": "Separate alarm and action",
+          "labels": [
+            "Condition detected",
+            "Alarm annunciated",
+            "Protective output"
+          ],
+          "narration": "An alarm informs someone of a condition; an interlock can inhibit or change an operation. A warning on the display does not prove a heater has stopped. The fictional requirement must state which outputs are expected. Observe the relevant physical or defined simulated output rather than relying on the screen alone.",
+          "description": "Detection branches into notification and protective action; observing one does not demonstrate the other."
+        },
+        {
+          "title": "Define the injection boundary",
+          "labels": [
+            "Physical sensor",
+            "Simulated signal",
+            "Controller and output"
+          ],
+          "narration": "Identify where the challenge enters the system. A simulated transmitter signal can exercise downstream logic while excluding the sensing element. A controller status bit may exclude the final actuator. Combine complementary evidence where justified, and describe each boundary honestly. Do not label a partial simulation as a complete physical loop test.",
+          "description": "The injection point separates included downstream functions from excluded upstream elements."
+        },
+        {
+          "title": "Observe reset behavior",
+          "labels": [
+            "Condition removed",
+            "Reset conditions met",
+            "Controlled restart"
+          ],
+          "narration": "Test the specified reset and restart behavior as well as the initial trip. Removing a fault does not necessarily authorize automatic restart. For this fictional case, manual reset is a stated teaching assumption. The actual requirement must come from the approved design and risk assessment, with any stored alarm history retained as required.",
+          "description": "Fault removal precedes reset conditions; restart follows only the specified control logic."
+        },
+        {
+          "title": "Retain both outcomes",
+          "labels": [
+            "Annunciation observed",
+            "Output response observed",
+            "Evidence linked"
+          ],
+          "narration": "Record the alarm and protective response separately, including relevant timing. If the alarm appears but the output fails, the combined requirement has not passed. Preserve both observations and assess the discrepancy. An attractive screenshot of the warning does not repair missing evidence of the required protective action.",
+          "description": "Alarm and output observations are separate evidence lines that feed the combined test conclusion."
+        }
+      ],
+      "activity": "Write separate observations for an alarm and heater inhibition. Explain the scope of a simulated-input test.",
+      "model": "Identify input, alarm annunciation, actual output response, timing, reset and evidence. State excluded sensor/actuator elements and any complementary test. Do not infer heater isolation from display text.",
+      "worked": [
+        [
+          "Observed element",
+          "Meaning"
+        ],
+        [
+          "Alarm shown",
+          "Notification observed"
+        ],
+        [
+          "Heater output not checked",
+          "Protective action unverified"
+        ],
+        [
+          "Controller simulation",
+          "Boundary must be stated"
+        ]
+      ],
+      "quiz": {
+        "question": "A warning appears but the required heater inhibition fails. What is the result?",
+        "options": [
+          "Pass because the alarm proves detection",
+          "Fail the combined requirement and investigate",
+          "Pass if the operator can stop it manually"
+        ],
+        "answer": 1,
+        "feedback": "The required protective action failed; notification alone is insufficient."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Evaluate control response and measurement confidence",
+      "objective": "Interpret results using suitable instruments and a defined decision rule.",
+      "scenes": [
+        {
+          "title": "Follow the control loop",
+          "labels": [
+            "Reference measurement",
+            "Controlled variable",
+            "Commanded output"
+          ],
+          "narration": "A controller indication and an independent reference can serve different purposes. Define what is being evaluated: sensor error, loop response, stability or spatial distribution. A single indication comparison does not establish vessel uniformity. Record the reference location, range, calibration applicability and the state of the system during the observation.",
+          "description": "Reference, process variable and commanded output support distinct measurement and control observations."
+        },
+        {
+          "title": "Keep error and uncertainty distinct",
+          "labels": [
+            "Measured error",
+            "Measurement uncertainty",
+            "Decision rule"
+          ],
+          "narration": "Error describes an observed difference; uncertainty describes doubt associated with a measurement result. In this teaching example, a simple error is plus zero point four degrees Celsius against a half-degree limit. That comparison alone does not state how measurement uncertainty is considered. The protocol needs an appropriate, predefined decision approach.",
+          "description": "Observed error and uncertainty are different quantities that inform the chosen acceptance decision."
+        },
+        {
+          "title": "Apply an illustrative guard band",
+          "labels": [
+            "Error: +0.4 °C",
+            "Uncertainty: 0.2 °C",
+            "Rule result: 0.6 °C"
+          ],
+          "narration": "Suppose a hypothetical rule accepts only when absolute error plus stated expanded uncertainty does not exceed zero point five degrees Celsius. With error zero point four and uncertainty zero point two, the sum is zero point six. This rule would not accept the result. It is an illustrative conservative rule, not a universal GMP requirement.",
+          "description": "Under the stated teaching rule, 0.4 plus 0.2 equals 0.6 °C and exceeds 0.5 °C."
+        },
+        {
+          "title": "Read trends, not isolated points",
+          "labels": [
+            "Initial response",
+            "Settled interval",
+            "Defined evaluation"
+          ],
+          "narration": "A favorable reading at one instant does not establish sustained control. Define the observation interval, sample timing and evaluation method. Check for overshoot, drift or cycling where relevant to the intended function. Preserve the original trend and context; selecting only the best-looking interval can hide an important limitation.",
+          "description": "A time trend connects initial response and settled behavior; the evaluation interval is predefined."
+        }
+      ],
+      "activity": "Compare simple-limit and stated guard-band decisions for error +0.4 °C, expanded uncertainty 0.2 °C and limit 0.5 °C.",
+      "model": "The simple absolute-error comparison is within 0.5 °C. Under the expressly stated illustrative rule, 0.4 + 0.2 = 0.6 °C and is not accepted. Neither calculation proves general suitability; define the uncertainty basis and applicable rule.",
+      "worked": [
+        [
+          "Approach",
+          "Teaching result"
+        ],
+        [
+          "Simple error comparison",
+          "0.4 ≤ 0.5 °C"
+        ],
+        [
+          "Illustrative guard-band rule",
+          "0.4 + 0.2 = 0.6 °C"
+        ],
+        [
+          "Decision under that rule",
+          "Not accepted; no universal rule claimed"
+        ]
+      ],
+      "quiz": {
+        "question": "Under the stated absolute-error-plus-uncertainty rule, what does 0.4 + 0.2 against 0.5 mean?",
+        "options": [
+          "Accepted because the error alone is smaller",
+          "Accepted by subtracting uncertainty",
+          "Not accepted because the sum is 0.6"
+        ],
+        "answer": 2,
+        "feedback": "The specified illustrative rule uses the sum, which exceeds 0.5; it is not a universal regulatory formula."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Test interruptions and recovery within defined boundaries",
+      "objective": "Plan justified recovery evidence without authorizing unsafe fault injection.",
+      "scenes": [
+        {
+          "title": "Describe the interruption",
+          "labels": [
+            "Defined failure mode",
+            "Affected function",
+            "Safe simulation"
+          ],
+          "narration": "Name the failure mode and affected function before selecting a test. A loss of a signal, a utility disturbance and a power interruption may have very different consequences. This lesson offers reasoning exercises, not instructions to interrupt a live process. Engineering must define a safe authorized challenge and its limitations.",
+          "description": "A defined failure mode links to affected functions and a separately approved simulation method."
+        },
+        {
+          "title": "Check the safe state",
+          "labels": [
+            "Specified response",
+            "Output condition",
+            "Residual hazards"
+          ],
+          "narration": "Safe state is design-specific. Do not assume that every valve closes or every operation stops in the same way. State the required response and observe the applicable output. Consider stored energy, retained heat or other residual hazards through competent engineering assessment; a blank screen is not evidence that equipment is safe.",
+          "description": "The required safe state is compared with output evidence; loss of a display proves neither."
+        },
+        {
+          "title": "Check recovery and records",
+          "labels": [
+            "Configuration retained",
+            "Data reconciled",
+            "Restart authorized"
+          ],
+          "narration": "Recovery may require configuration checks, data reconciliation and an authorized restart sequence. Verify that records and timestamps remain interpretable across the interruption. A machine that runs again can still have lost settings or data. Record recovery time only against an established requirement, not a convenient number chosen afterwards.",
+          "description": "Recovery joins configuration, data continuity and restart control; running again is only one observation."
+        },
+        {
+          "title": "Link computerised-system scope",
+          "labels": [
+            "Applicable functions",
+            "Annex 11 lifecycle",
+            "Linked validation evidence"
+          ],
+          "narration": "Where computerised functions support GMP activity, coordinate with the applicable computerised-system validation scope. Equipment OQ is not automatically a complete Annex Eleven assessment. Access control, data management and other relevant functions need evidence in their proper lifecycle context. Cross-reference that evidence and identify gaps instead of claiming compliance from a login screen.",
+          "description": "Equipment OQ links to computerised-system evidence without replacing the wider validation scope."
+        }
+      ],
+      "activity": "Draft a recovery review for a fictional interrupted test: configuration, records, output state and restart authority.",
+      "model": "Identify interruption boundary, approved method, expected state, settings, data and timestamps, recovery observations and restart decision. Do not give live fault-injection instructions or claim full CSV completion.",
+      "worked": [
+        [
+          "Recovery item",
+          "Evidence question"
+        ],
+        [
+          "Settings",
+          "Expected configuration restored?"
+        ],
+        [
+          "Records",
+          "Data complete and interpretable?"
+        ],
+        [
+          "Restart",
+          "Specified authorization satisfied?"
+        ]
+      ],
+      "quiz": {
+        "question": "The machine restarts after an interruption. What else may require verification?",
+        "options": [
+          "Only the elapsed restart time",
+          "Configuration, records and required output state",
+          "Only whether the display lights up"
+        ],
+        "answer": 1,
+        "feedback": "Restart alone does not demonstrate retained configuration, complete data or correct output behavior."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Execute tests and preserve defensible evidence",
+      "objective": "Keep complete original records and failed observations traceable.",
+      "scenes": [
+        {
+          "title": "Record the actual observation",
+          "labels": [
+            "Actual configuration",
+            "Actual challenge",
+            "Actual response"
+          ],
+          "narration": "Record what was actually done and observed, with the configuration, instruments, conditions and execution details. A copied expected result is not an observation. If a step was not executed, say so and retain the reason. Distinguish a justified exclusion from a test that could not be completed.",
+          "description": "Configuration, challenge and response form one traceable execution record."
+        },
+        {
+          "title": "Retain original data",
+          "labels": [
+            "Raw electronic records",
+            "Printouts and photographs",
+            "Defined retention controls"
+          ],
+          "narration": "Retain applicable original records, raw electronic data, printouts and photographs under the defined retention arrangements. Link summaries to those originals. The required period depends on the record and applicable obligations; this module supplies no universal number. Preserve readability, access and integrity rather than keeping only a polished report screenshot.",
+          "description": "Summary conclusions point to controlled original records and their defined retention arrangements."
+        },
+        {
+          "title": "Handle an interrupted record",
+          "labels": [
+            "Original partial record",
+            "Reason and assessment",
+            "Authorized continuation"
+          ],
+          "narration": "If logging stops during a test, retain the partial record and document what happened. Assess which conclusions the gap affects. Do not fill the missing interval from memory or copy another run. Any continuation or repeat needs the defined procedure, a documented rationale and a clear relationship to the first record.",
+          "description": "A partial original is retained while impact assessment determines justified continuation or repetition."
+        },
+        {
+          "title": "Correct transparently",
+          "labels": [
+            "Original entry readable",
+            "Attributed correction",
+            "Reason where appropriate"
+          ],
+          "narration": "Corrections must preserve the original entry and identify the change according to the applicable record controls. For paper, avoid obscuring the earlier value. For electronic records, use the authorized correction mechanism and applicable audit trail. A reviewer should be able to reconstruct the chronology rather than encounter an unexplained clean replacement.",
+          "description": "The original and corrected entries remain linked through attribution and an explainable chronology."
+        }
+      ],
+      "activity": "Describe how to handle a missing trend interval and where the partial original and repeat record will be retained.",
+      "model": "Preserve the partial original, record the gap, investigate its impact, authorize the justified repeat or continuation and cross-reference all data. Never reconstruct missing measurements from memory.",
+      "worked": [
+        [
+          "Record",
+          "Disposition"
+        ],
+        [
+          "Partial trend",
+          "Retained and identified"
+        ],
+        [
+          "Missing interval",
+          "Impact assessed; not invented"
+        ],
+        [
+          "Repeat",
+          "Authorized and linked to original"
+        ]
+      ],
+      "quiz": {
+        "question": "A logger loses data during a challenge. What is appropriate?",
+        "options": [
+          "Copy equivalent values from a previous run",
+          "Omit the gap from the final report",
+          "Retain the partial data and assess the gap"
+        ],
+        "answer": 2,
+        "feedback": "Missing measurements cannot be invented; the original, impact and repeat rationale must remain traceable."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Investigate failures and control retesting",
+      "objective": "Separate correction, change and evidence of restored performance.",
+      "scenes": [
+        {
+          "title": "Record a failed challenge",
+          "labels": [
+            "Predefined criterion",
+            "Observed failure",
+            "Affected requirement"
+          ],
+          "narration": "Record a failed challenge against its original criterion and identify the affected requirement. Do not erase the failure because a second attempt passes. Examine configuration, method, instrument and system explanations through the site process. The investigation must distinguish demonstrated causes from plausible ideas that still need evidence.",
+          "description": "Criterion and failed observation define the discrepancy before its cause is investigated."
+        },
+        {
+          "title": "Assess wider impact",
+          "labels": [
+            "Related functions",
+            "Earlier evidence",
+            "Proposed next activity"
+          ],
+          "narration": "A wrong parameter can affect more than the failed test. Assess related functions, earlier results and proposed next activities. Avoid assuming that the investigation ends at the first obvious correction. Determine what remains reliable and what needs additional verification, with the rationale recorded for responsible review.",
+          "description": "One configuration issue can affect related functions and the interpretation of earlier evidence."
+        },
+        {
+          "title": "Retest with a rationale",
+          "labels": [
+            "Authorized action",
+            "Defined repeat scope",
+            "Original history retained"
+          ],
+          "narration": "After the authorized action, define what will be repeated and why. A passing repeat demonstrates only the conditions tested after that action. It does not erase the original failure or validate every untested function. Reconcile the new configuration and the evidence needed to support closure before making a recommendation.",
+          "description": "Authorized action leads to defined retesting while the original failure remains part of the history."
+        },
+        {
+          "title": "Avoid changing to pass",
+          "labels": [
+            "Scientific justification",
+            "Controlled revision",
+            "Reviewed conclusion"
+          ],
+          "narration": "A criterion change is not simply an administrative way to close a failure. It requires scientific justification and the appropriate documented handling, including impact on the study and related requirements. Show both the original result and the reasoning for any later decision. Do not report an unchanged pass where the basis actually changed.",
+          "description": "A controlled revision needs justification and impact review; it cannot silently replace the original comparison."
+        }
+      ],
+      "activity": "Outline an investigation for an alarm output that failed once and passed after a parameter change.",
+      "model": "Retain both results, identify the parameter/version change, establish cause with evidence, assess related functions and earlier tests, authorize retest scope and review closure. A single pass does not erase the original failure.",
+      "worked": [
+        [
+          "Event",
+          "Interpretation"
+        ],
+        [
+          "Initial failure",
+          "Retained deviation"
+        ],
+        [
+          "Parameter changed",
+          "Controlled action and impact review"
+        ],
+        [
+          "Repeat passes",
+          "Evidence for defined retest conditions"
+        ]
+      ],
+      "quiz": {
+        "question": "A repeat passes after a parameter change. What must the report preserve?",
+        "options": [
+          "Both results, change rationale and impact assessment",
+          "Only the final passing result and current setting",
+          "The original result only if the repeat also fails"
+        ],
+        "answer": 0,
+        "feedback": "A defensible conclusion needs the failure history, controlled action and scope of verification."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Report OQ and prepare the next-stage decision",
+      "objective": "Turn results and limitations into a bounded handover.",
+      "scenes": [
+        {
+          "title": "Reconcile the coverage",
+          "labels": [
+            "Requirements and tests",
+            "Results and deviations",
+            "Evidence references"
+          ],
+          "narration": "Reconcile the requirement matrix, executed tests, original evidence and deviation status. A missing test does not become complete because its row appears in the protocol. Identify supported claims, restrictions and unresolved dependencies. The report should allow a reviewer to trace each conclusion without guessing which record or configuration it describes.",
+          "description": "Requirements, executed results and evidence references converge in the bounded OQ report."
+        },
+        {
+          "title": "Do not average away failure",
+          "labels": [
+            "Eleven of twelve passed",
+            "One protective test failed",
+            "Impact governs decision"
+          ],
+          "narration": "Eleven of twelve planned checks passing gives about ninety one point seven percent passing proportion. If the remaining protective test failed, the percentage does not justify ignoring it. The course practice target is unrelated to qualification acceptance. Evaluate the significance of that failure and its implications for the proposed next activity.",
+          "description": "Eleven passing cells and one failed cell show the pass rate, while the protective failure remains significant."
+        },
+        {
+          "title": "Transfer operational knowledge",
+          "labels": [
+            "Procedures and training",
+            "Maintenance requirements",
+            "Defined PQ handover"
+          ],
+          "narration": "Use successful OQ knowledge to support operating and cleaning procedures, operator training and preventive maintenance requirements. Finalizing a cleaning procedure does not establish validated cleaning effectiveness. Transfer the tested configuration, operating boundaries and restrictions to the next stage. Product performance and process validation remain separate evidence needs.",
+          "description": "OQ knowledge supports procedures, training and maintenance and informs a bounded PQ handover."
+        },
+        {
+          "title": "Recommend without authorizing",
+          "labels": [
+            "Evidence-based conclusion",
+            "Unresolved restrictions",
+            "Responsible release decision"
+          ],
+          "narration": "For the capstone, write a conclusion that distinguishes demonstrated performance from unresolved matters and identifies the next-stage decision needed. Responsible personnel authorize progression under the site system. This course provides a self-study exercise, not a signed qualification report, competence certification or authorization to manufacture a real product.",
+          "description": "An evidence-based recommendation goes to responsible reviewers; the learner does not grant site release."
+        }
+      ],
+      "activity": "Prepare an OQ handover when eleven checks pass and one protective test fails. State the evidence, restriction and next-stage decision.",
+      "model": "Retain the failed protective function, identify impact and restrict dependent activities. Reconcile evidence and configuration, specify closure needs and request responsible review. Approximately 91.7% is a descriptive pass rate, not acceptance.",
+      "worked": [
+        [
+          "Handover item",
+          "Teaching conclusion"
+        ],
+        [
+          "Passing proportion",
+          "11/12 ≈ 91.7%"
+        ],
+        [
+          "Failed protective test",
+          "Significant unresolved issue"
+        ],
+        [
+          "Next stage",
+          "Impact assessment and responsible authorization"
+        ]
+      ],
+      "quiz": {
+        "question": "Which conclusion is defensible with one unresolved protective-function failure?",
+        "options": [
+          "Release because the practice target is exceeded",
+          "Restrict affected activities and obtain a justified decision",
+          "Treat the remaining test as optional after report approval"
+        ],
+        "answer": 1,
+        "feedback": "A numerical score does not resolve a significant failed requirement."
+      }
+    }
+  ]
+}

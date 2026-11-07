@@ -1,0 +1,202 @@
+[
+  {
+    "question": "A temperature alarm test passes. Which claim still needs separate evidence?",
+    "options": [
+      "The alarm responded in the tested condition",
+      "The test used the recorded configuration",
+      "The product blend is uniform throughout"
+    ],
+    "answer": 2,
+    "feedback": "A defined alarm response does not establish product mixing performance."
+  },
+  {
+    "question": "A material finding remains open at IQ handover. What determines whether a proposed OQ activity can proceed?",
+    "options": [
+      "Documented impact and authorization for that activity",
+      "The proportion of installation rows already signed",
+      "Whether the supplier expects closure this week"
+    ],
+    "answer": 0,
+    "feedback": "Assess the specific next activity and obtain authorization; progress counts and promises do not establish readiness."
+  },
+  {
+    "question": "A supplier protocol tests a different software configuration. What is needed before use?",
+    "options": [
+      "Use it unchanged if the model name matches",
+      "Review applicability and supplement or revise appropriately",
+      "Repeat only the tests that the supplier marked difficult"
+    ],
+    "answer": 1,
+    "feedback": "The site establishes suitability for its actual configuration and procedures before approval."
+  },
+  {
+    "question": "A test has no defined response-time criterion. What is appropriate?",
+    "options": [
+      "Treat the first measured interval as the maximum",
+      "Use the fastest result from three repeated trials",
+      "Resolve the criterion through the controlled process"
+    ],
+    "answer": 2,
+    "feedback": "Acceptance cannot be invented from the result. Define and approve the test basis before deciding acceptance."
+  },
+  {
+    "question": "An input occurs at 14:20:10.0 and the defined output at 14:20:13.2. What is the elapsed time?",
+    "options": [
+      "3.2 seconds",
+      "13.2 seconds",
+      "23.2 seconds"
+    ],
+    "answer": 0,
+    "feedback": "Subtract synchronized start and end times: 13.2 minus 10.0 equals 3.2 seconds. Clock suitability remains necessary."
+  },
+  {
+    "question": "The intended range is inside the manufacturer design envelope. What does this establish by itself?",
+    "options": [
+      "Every setting in the range is qualified",
+      "Testing above the rating is justified",
+      "Only that it fits the stated design envelope"
+    ],
+    "answer": 2,
+    "feedback": "A design rating is not evidence of qualification coverage; tests and rationale are still needed."
+  },
+  {
+    "question": "A plan requires all pairs of two loads and three speeds. How many combinations does that plan contain?",
+    "options": [
+      "Five combinations",
+      "Six combinations",
+      "Nine combinations"
+    ],
+    "answer": 1,
+    "feedback": "Two times three equals six. This is the stated teaching matrix, not a regulatory minimum number of tests."
+  },
+  {
+    "question": "Which rationale best supports a selected low-load challenge?",
+    "options": [
+      "It targets an identified immersion or control risk",
+      "It is always more demanding than any high load",
+      "It avoids the need to justify omitted conditions"
+    ],
+    "answer": 0,
+    "feedback": "A low-load condition needs a mechanism-specific rationale; it is not universally worst case."
+  },
+  {
+    "question": "An alarm annunciates, but the required output does not change. How should the combined requirement be evaluated?",
+    "options": [
+      "Pass because the controller detected the condition",
+      "Pass if the operator acknowledges the alarm",
+      "Fail and investigate the missing required response"
+    ],
+    "answer": 2,
+    "feedback": "The complete stated requirement includes the output response; annunciation alone is insufficient."
+  },
+  {
+    "question": "A simulated transmitter signal is injected downstream of the sensing element. Which limitation should be stated?",
+    "options": [
+      "The sensor itself was not challenged by that simulation",
+      "The controller could not receive the simulated input",
+      "The test automatically includes final actuator movement"
+    ],
+    "answer": 0,
+    "feedback": "The injection boundary excludes upstream sensing; other observations determine whether the actuator was actually checked."
+  },
+  {
+    "question": "The fictional design requires manual reset after a trip. What should recovery verification include?",
+    "options": [
+      "Only removal of the initiating condition",
+      "The specified reset and controlled restart behavior",
+      "Only the appearance of the normal display"
+    ],
+    "answer": 1,
+    "feedback": "Removing the fault and satisfying the required reset/restart sequence are distinct observations."
+  },
+  {
+    "question": "An error is +0.4 \u00b0C against a simple \u00b10.5 \u00b0C limit. What is the limited conclusion?",
+    "options": [
+      "The measurement has zero uncertainty",
+      "Every uncertainty decision rule would accept it",
+      "The absolute error meets that simple comparison"
+    ],
+    "answer": 2,
+    "feedback": "The simple comparison passes, but uncertainty, method suitability and the prescribed decision rule remain relevant."
+  },
+  {
+    "question": "A stated teaching rule requires absolute error plus expanded uncertainty \u22640.5 \u00b0C. Error is +0.4 \u00b0C and uncertainty 0.2 \u00b0C. What follows?",
+    "options": [
+      "Accept because 0.4 is smaller than 0.5",
+      "Do not accept: the rule gives 0.6 \u00b0C",
+      "Accept because 0.4 minus 0.2 is 0.2"
+    ],
+    "answer": 1,
+    "feedback": "0.4 + 0.2 = 0.6 \u00b0C, above 0.5 \u00b0C. This conservative illustrative rule is not a universal GMP formula."
+  },
+  {
+    "question": "A control trend is satisfactory for one selected minute but unstable during the prescribed evaluation interval. What is defensible?",
+    "options": [
+      "Evaluate the complete prescribed interval and investigate",
+      "Report only the stable minute as representative operation",
+      "Average away the instability without retaining the trend"
+    ],
+    "answer": 0,
+    "feedback": "The predefined evaluation and complete original data govern interpretation; selective reporting hides relevant behavior."
+  },
+  {
+    "question": "After a simulated interruption, the machine runs again but a setting is lost. What does this indicate?",
+    "options": [
+      "Recovery is acceptable because movement resumed",
+      "The lost setting matters only during installation",
+      "Recovery needs assessment against its full requirements"
+    ],
+    "answer": 2,
+    "feedback": "Running again does not establish correct retained configuration or data continuity."
+  },
+  {
+    "question": "A report contains selected screenshots of a raw electronic trend. What should happen to the applicable original data?",
+    "options": [
+      "Discard it once the screenshots are approved",
+      "Retain it under defined controls and retention arrangements",
+      "Keep it only when the report includes a failed result"
+    ],
+    "answer": 1,
+    "feedback": "Summaries do not replace applicable original records. Retention depends on the record and applicable obligations."
+  },
+  {
+    "question": "A logging gap occurs during a challenge. Which response preserves defensible evidence?",
+    "options": [
+      "Retain partial data, assess impact and justify any repeat",
+      "Fill the interval using the expected response curve",
+      "Replace the first record once a repeat is satisfactory"
+    ],
+    "answer": 0,
+    "feedback": "Preserve the original and document the gap, investigation and authorized continuation or repeat."
+  },
+  {
+    "question": "A parameter correction is followed by a passing retest. Which statement is justified?",
+    "options": [
+      "The original configuration can now be reported as passing",
+      "All related functions are validated by the one repeat",
+      "The repeat supports only its defined post-change scope"
+    ],
+    "answer": 2,
+    "feedback": "Keep the original failure and assess wider impact; one passing repeat does not establish every related function."
+  },
+  {
+    "question": "Eleven of twelve tests pass, with one protective-function failure. What does approximately 91.7% mean?",
+    "options": [
+      "A pass rate, not qualification acceptance",
+      "Automatic qualification because it exceeds 85%",
+      "A basis to remove the remaining requirement"
+    ],
+    "answer": 0,
+    "feedback": "11 divided by 12 is about 91.7%. The significance of the failed test remains; the course practice score is unrelated."
+  },
+  {
+    "question": "OQ supports finalizing an operating and cleaning procedure. Which additional conclusion would be unsupported?",
+    "options": [
+      "The procedure can incorporate the observed operating limits",
+      "Cleaning effectiveness has therefore been validated",
+      "The PQ handover should identify configuration and restrictions"
+    ],
+    "answer": 1,
+    "feedback": "A finalized procedure alone does not establish validated cleaning effectiveness or product performance."
+  }
+]

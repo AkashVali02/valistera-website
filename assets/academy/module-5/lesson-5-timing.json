@@ -1,0 +1,216 @@
+{
+  "duration": 96.80041666666665,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 22.599,
+      "title": "Separate alarm and action"
+    },
+    {
+      "start": 22.599,
+      "end": 48.111,
+      "title": "Define the injection boundary"
+    },
+    {
+      "start": 48.111,
+      "end": 73.382,
+      "title": "Observe reset behavior"
+    },
+    {
+      "start": 73.382,
+      "end": 96.8,
+      "title": "Retain both outcomes"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 2.759,
+      "text": "An alarm informs someone of a condition;",
+      "spoken": "An alarm informs someone of a condition;",
+      "scene": 1
+    },
+    {
+      "start": 2.879,
+      "end": 6.189,
+      "text": "an interlock can inhibit or change an operation.",
+      "spoken": "an interlock can inhibit or change an operation.",
+      "scene": 1
+    },
+    {
+      "start": 6.309,
+      "end": 10.516,
+      "text": "A warning on the display does not prove a heater has stopped.",
+      "spoken": "A warning on the display does not prove a heater has stopped.",
+      "scene": 1
+    },
+    {
+      "start": 10.636,
+      "end": 15.05,
+      "text": "The fictional requirement must state which outputs are expected.",
+      "spoken": "The fictional requirement must state which outputs are expected.",
+      "scene": 1
+    },
+    {
+      "start": 15.17,
+      "end": 19.101,
+      "text": "Observe the relevant physical or defined simulated output",
+      "spoken": "Observe the relevant physical or defined simulated output",
+      "scene": 1
+    },
+    {
+      "start": 19.221,
+      "end": 21.979,
+      "text": "rather than relying on the screen alone.",
+      "spoken": "rather than relying on the screen alone.",
+      "scene": 1
+    },
+    {
+      "start": 22.599,
+      "end": 25.841,
+      "text": "Identify where the challenge enters the system.",
+      "spoken": "Identify where the challenge enters the system.",
+      "scene": 2
+    },
+    {
+      "start": 25.961,
+      "end": 30.27,
+      "text": "A simulated transmitter signal can exercise downstream logic",
+      "spoken": "A simulated transmitter signal can exercise downstream logic",
+      "scene": 2
+    },
+    {
+      "start": 30.39,
+      "end": 32.873,
+      "text": "while excluding the sensing element.",
+      "spoken": "while excluding the sensing element.",
+      "scene": 2
+    },
+    {
+      "start": 32.993,
+      "end": 36.786,
+      "text": "A controller status bit may exclude the final actuator.",
+      "spoken": "A controller status bit may exclude the final actuator.",
+      "scene": 2
+    },
+    {
+      "start": 36.906,
+      "end": 40.148,
+      "text": "Combine complementary evidence where justified,",
+      "spoken": "Combine complementary evidence where justified,",
+      "scene": 2
+    },
+    {
+      "start": 40.267,
+      "end": 42.75,
+      "text": "and describe each boundary honestly.",
+      "spoken": "and describe each boundary honestly.",
+      "scene": 2
+    },
+    {
+      "start": 42.87,
+      "end": 47.491,
+      "text": "Do not label a partial simulation as a complete physical loop test.",
+      "spoken": "Do not label a partial simulation as a complete physical loop test.",
+      "scene": 2
+    },
+    {
+      "start": 48.111,
+      "end": 50.111,
+      "text": "Test the specified reset",
+      "spoken": "Test the specified reset",
+      "scene": 3
+    },
+    {
+      "start": 50.231,
+      "end": 53.61,
+      "text": "and restart behavior as well as the initial trip.",
+      "spoken": "and restart behavior as well as the initial trip.",
+      "scene": 3
+    },
+    {
+      "start": 53.73,
+      "end": 58.282,
+      "text": "Removing a fault does not necessarily authorize automatic restart.",
+      "spoken": "Removing a fault does not necessarily authorize automatic restart.",
+      "scene": 3
+    },
+    {
+      "start": 58.402,
+      "end": 60.402,
+      "text": "For this fictional case,",
+      "spoken": "For this fictional case,",
+      "scene": 3
+    },
+    {
+      "start": 60.522,
+      "end": 63.626,
+      "text": "manual reset is a stated teaching assumption.",
+      "spoken": "manual reset is a stated teaching assumption.",
+      "scene": 3
+    },
+    {
+      "start": 63.746,
+      "end": 67.677,
+      "text": "The actual requirement must come from the approved design",
+      "spoken": "The actual requirement must come from the approved design",
+      "scene": 3
+    },
+    {
+      "start": 67.797,
+      "end": 72.762,
+      "text": "and risk assessment, with any stored alarm history retained as required.",
+      "spoken": "and risk assessment, with any stored alarm history retained as required.",
+      "scene": 3
+    },
+    {
+      "start": 73.382,
+      "end": 76.141,
+      "text": "Record the alarm and protective response",
+      "spoken": "Record the alarm and protective response",
+      "scene": 4
+    },
+    {
+      "start": 76.261,
+      "end": 78.882,
+      "text": "separately, including relevant timing.",
+      "spoken": "separately, including relevant timing.",
+      "scene": 4
+    },
+    {
+      "start": 79.001,
+      "end": 81.898,
+      "text": "If the alarm appears but the output fails,",
+      "spoken": "If the alarm appears but the output fails,",
+      "scene": 4
+    },
+    {
+      "start": 82.018,
+      "end": 84.777,
+      "text": "the combined requirement has not passed.",
+      "spoken": "the combined requirement has not passed.",
+      "scene": 4
+    },
+    {
+      "start": 84.897,
+      "end": 88.63,
+      "text": "Preserve both observations and assess the discrepancy.",
+      "spoken": "Preserve both observations and assess the discrepancy.",
+      "scene": 4
+    },
+    {
+      "start": 88.75,
+      "end": 92.543,
+      "text": "An attractive screenshot of the warning does not repair",
+      "spoken": "An attractive screenshot of the warning does not repair",
+      "scene": 4
+    },
+    {
+      "start": 92.663,
+      "end": 96.18,
+      "text": "missing evidence of the required protective action.",
+      "spoken": "missing evidence of the required protective action.",
+      "scene": 4
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "duration": 98.51504166666668,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 24.696,
+      "title": "From installed to challenged"
+    },
+    {
+      "start": 24.696,
+      "end": 49.571,
+      "title": "Keep evidence boundaries clear"
+    },
+    {
+      "start": 49.571,
+      "end": 75.325,
+      "title": "Challenge the intended range"
+    },
+    {
+      "start": 75.325,
+      "end": 98.515,
+      "title": "Bound the conclusion"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.437,
+      "text": "Welcome to Module 5, Operational Qualification, or OQ.",
+      "spoken": "Welcome to Module 5, Operational Qualification, or O Q.",
+      "scene": 1
+    },
+    {
+      "start": 4.557,
+      "end": 8.611,
+      "text": "We continue the fictional V-201 oral-liquid vessel.",
+      "spoken": "We continue the fictional V two zero one oral-liquid vessel.",
+      "scene": 1
+    },
+    {
+      "start": 8.731,
+      "end": 11.803,
+      "text": "Installation evidence identifies the system.",
+      "spoken": "Installation evidence identifies the system.",
+      "scene": 1
+    },
+    {
+      "start": 11.923,
+      "end": 14.75,
+      "text": "An operational test asks what that system",
+      "spoken": "An operational test asks what that system",
+      "scene": 1
+    },
+    {
+      "start": 14.87,
+      "end": 17.629,
+      "text": "actually does under a defined condition.",
+      "spoken": "actually does under a defined condition.",
+      "scene": 1
+    },
+    {
+      "start": 17.749,
+      "end": 21.818,
+      "text": "All records and values here are invented teaching examples,",
+      "spoken": "All records and values here are invented teaching examples,",
+      "scene": 1
+    },
+    {
+      "start": 21.938,
+      "end": 24.076,
+      "text": "not approved site instructions.",
+      "spoken": "not approved site instructions.",
+      "scene": 1
+    },
+    {
+      "start": 24.696,
+      "end": 27.524,
+      "text": "A sensor serial number supports identity.",
+      "spoken": "A sensor serial number supports identity.",
+      "scene": 2
+    },
+    {
+      "start": 27.644,
+      "end": 32.678,
+      "text": "A controlled input and measured response support a functional conclusion.",
+      "spoken": "A controlled input and measured response support a functional conclusion.",
+      "scene": 2
+    },
+    {
+      "start": 32.798,
+      "end": 36.729,
+      "text": "Product mixing performance needs its own justified study.",
+      "spoken": "Product mixing performance needs its own justified study.",
+      "scene": 2
+    },
+    {
+      "start": 36.849,
+      "end": 39.884,
+      "text": "These evidence questions can be coordinated,",
+      "spoken": "These evidence questions can be coordinated,",
+      "scene": 2
+    },
+    {
+      "start": 40.004,
+      "end": 45.245,
+      "text": "but a successful operational test alone does not establish blend uniformity,",
+      "spoken": "but a successful operational test alone does not establish blend uniformity,",
+      "scene": 2
+    },
+    {
+      "start": 45.365,
+      "end": 48.951,
+      "text": "cleaning effectiveness or permission to manufacture.",
+      "spoken": "cleaning effectiveness or permission to manufacture.",
+      "scene": 2
+    },
+    {
+      "start": 49.571,
+      "end": 53.295,
+      "text": "A comfortable set point is only one part of operation.",
+      "spoken": "A comfortable set point is only one part of operation.",
+      "scene": 3
+    },
+    {
+      "start": 53.415,
+      "end": 57.277,
+      "text": "Select meaningful operating conditions from the intended",
+      "spoken": "Select meaningful operating conditions from the intended",
+      "scene": 3
+    },
+    {
+      "start": 57.397,
+      "end": 59.397,
+      "text": "use and system knowledge.",
+      "spoken": "use and system knowledge.",
+      "scene": 3
+    },
+    {
+      "start": 59.517,
+      "end": 62.414,
+      "text": "A minimum level may challenge one function",
+      "spoken": "A minimum level may challenge one function",
+      "scene": 3
+    },
+    {
+      "start": 62.534,
+      "end": 65.224,
+      "text": "while a higher load challenges another.",
+      "spoken": "while a higher load challenges another.",
+      "scene": 3
+    },
+    {
+      "start": 65.344,
+      "end": 70.24,
+      "text": "Explain why the selected conditions expose relevant failure mechanisms,",
+      "spoken": "Explain why the selected conditions expose relevant failure mechanisms,",
+      "scene": 3
+    },
+    {
+      "start": 70.36,
+      "end": 74.705,
+      "text": "rather than treating a maximum value as universally worst case.",
+      "spoken": "rather than treating a maximum value as universally worst case.",
+      "scene": 3
+    },
+    {
+      "start": 75.325,
+      "end": 80.498,
+      "text": "The conclusion identifies the tested configuration, conditions and results.",
+      "spoken": "The conclusion identifies the tested configuration, conditions and results.",
+      "scene": 4
+    },
+    {
+      "start": 80.618,
+      "end": 83.754,
+      "text": "It also identifies what was not demonstrated.",
+      "spoken": "It also identifies what was not demonstrated.",
+      "scene": 4
+    },
+    {
+      "start": 83.874,
+      "end": 86.839,
+      "text": "A simulation that checks the controller may",
+      "spoken": "A simulation that checks the controller may",
+      "scene": 4
+    },
+    {
+      "start": 86.959,
+      "end": 90.138,
+      "text": "leave a physical sensor or actuator untested.",
+      "spoken": "leave a physical sensor or actuator untested.",
+      "scene": 4
+    },
+    {
+      "start": 90.258,
+      "end": 94.534,
+      "text": "This is a useful partial result when its boundary is explicit,",
+      "spoken": "This is a useful partial result when its boundary is explicit,",
+      "scene": 4
+    },
+    {
+      "start": 94.654,
+      "end": 97.895,
+      "text": "not evidence for an unchallenged complete loop.",
+      "spoken": "not evidence for an unchallenged complete loop.",
+      "scene": 4
+    }
+  ]
+}

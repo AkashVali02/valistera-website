@@ -1,0 +1,223 @@
+{
+  "duration": 98.02733333333335,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 26.84,
+      "title": "Trace the requirement"
+    },
+    {
+      "start": 26.84,
+      "end": 50.711,
+      "title": "Define the comparator first"
+    },
+    {
+      "start": 50.711,
+      "end": 73.923,
+      "title": "Calculate a response time"
+    },
+    {
+      "start": 73.923,
+      "end": 98.027,
+      "title": "Prevent retrospective acceptance"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 2.966,
+      "text": "Follow a requirement from intended function",
+      "spoken": "Follow a requirement from intended function",
+      "scene": 1
+    },
+    {
+      "start": 3.086,
+      "end": 6.534,
+      "text": "through a possible failure to the evidence needed.",
+      "spoken": "through a possible failure to the evidence needed.",
+      "scene": 1
+    },
+    {
+      "start": 6.654,
+      "end": 9.275,
+      "text": "For the fictional heating control, ask",
+      "spoken": "For the fictional heating control, ask",
+      "scene": 1
+    },
+    {
+      "start": 9.395,
+      "end": 12.429,
+      "text": "whether the requirement concerns indication,",
+      "spoken": "whether the requirement concerns indication,",
+      "scene": 1
+    },
+    {
+      "start": 12.549,
+      "end": 16.204,
+      "text": "control stability, alarm response or heater shutdown.",
+      "spoken": "control stability, alarm response or heater shutdown.",
+      "scene": 1
+    },
+    {
+      "start": 16.324,
+      "end": 19.704,
+      "text": "One generic check saying temperature satisfactory",
+      "spoken": "One generic check saying temperature satisfactory",
+      "scene": 1
+    },
+    {
+      "start": 19.824,
+      "end": 22.444,
+      "text": "does not establish all four functions.",
+      "spoken": "does not establish all four functions.",
+      "scene": 1
+    },
+    {
+      "start": 22.564,
+      "end": 26.22,
+      "text": "Assign distinct observations where the claims differ.",
+      "spoken": "Assign distinct observations where the claims differ.",
+      "scene": 1
+    },
+    {
+      "start": 26.84,
+      "end": 30.012,
+      "text": "Write the criterion before collecting results.",
+      "spoken": "Write the criterion before collecting results.",
+      "scene": 2
+    },
+    {
+      "start": 30.132,
+      "end": 32.891,
+      "text": "State the challenge, starting condition,",
+      "spoken": "State the challenge, starting condition,",
+      "scene": 2
+    },
+    {
+      "start": 33.011,
+      "end": 36.666,
+      "text": "measurement method, time basis and expected response.",
+      "spoken": "measurement method, time basis and expected response.",
+      "scene": 2
+    },
+    {
+      "start": 36.786,
+      "end": 39.958,
+      "text": "For example, a response-time requirement needs",
+      "spoken": "For example, a response-time requirement needs",
+      "scene": 2
+    },
+    {
+      "start": 40.078,
+      "end": 43.3,
+      "text": "an identifiable initiating event and endpoint.",
+      "spoken": "an identifiable initiating event and endpoint.",
+      "scene": 2
+    },
+    {
+      "start": 43.419,
+      "end": 47.006,
+      "text": "An observed delay cannot become its own limit simply",
+      "spoken": "An observed delay cannot become its own limit simply",
+      "scene": 2
+    },
+    {
+      "start": 47.126,
+      "end": 50.091,
+      "text": "because the first test produced that value.",
+      "spoken": "because the first test produced that value.",
+      "scene": 2
+    },
+    {
+      "start": 50.711,
+      "end": 54.918,
+      "text": "In one teaching record, the input event occurs at ten o clock",
+      "spoken": "In one teaching record, the input event occurs at ten o clock",
+      "scene": 3
+    },
+    {
+      "start": 55.038,
+      "end": 58.686,
+      "text": "and the defined output follows 3.2 seconds later.",
+      "spoken": "and the defined output follows three point two seconds later.",
+      "scene": 3
+    },
+    {
+      "start": 58.806,
+      "end": 61.921,
+      "text": "The hypothetical protocol limit is 4 seconds.",
+      "spoken": "The hypothetical protocol limit is 4 seconds.",
+      "scene": 3
+    },
+    {
+      "start": 62.041,
+      "end": 65.753,
+      "text": "The observed 3.2 seconds meets that simple limit.",
+      "spoken": "The observed three point two seconds meets that simple limit.",
+      "scene": 3
+    },
+    {
+      "start": 65.873,
+      "end": 68.425,
+      "text": "Timestamp resolution, clock alignment",
+      "spoken": "Timestamp resolution, clock alignment",
+      "scene": 3
+    },
+    {
+      "start": 68.545,
+      "end": 73.303,
+      "text": "and the prescribed decision method must still support the comparison.",
+      "spoken": "and the prescribed decision method must still support the comparison.",
+      "scene": 3
+    },
+    {
+      "start": 73.923,
+      "end": 78.337,
+      "text": "If the result misses the criterion, preserve it and investigate.",
+      "spoken": "If the result misses the criterion, preserve it and investigate.",
+      "scene": 4
+    },
+    {
+      "start": 78.457,
+      "end": 82.319,
+      "text": "Changing the limit afterwards to make the result pass is",
+      "spoken": "Changing the limit afterwards to make the result pass is",
+      "scene": 4
+    },
+    {
+      "start": 82.439,
+      "end": 84.439,
+      "text": "not a defensible shortcut.",
+      "spoken": "not a defensible shortcut.",
+      "scene": 4
+    },
+    {
+      "start": 84.559,
+      "end": 89.801,
+      "text": "A scientifically justified change requires the appropriate documented route,",
+      "spoken": "A scientifically justified change requires the appropriate documented route,",
+      "scene": 4
+    },
+    {
+      "start": 89.921,
+      "end": 91.926,
+      "text": "impact assessment and review.",
+      "spoken": "impact assessment and review.",
+      "scene": 4
+    },
+    {
+      "start": 92.046,
+      "end": 94.322,
+      "text": "The original criterion and failed",
+      "spoken": "The original criterion and failed",
+      "scene": 4
+    },
+    {
+      "start": 94.442,
+      "end": 97.407,
+      "text": "observation remain traceable in the record.",
+      "spoken": "observation remain traceable in the record.",
+      "scene": 4
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "duration": 104.64970833333334,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 25.978,
+      "title": "Reconcile the coverage"
+    },
+    {
+      "start": 25.978,
+      "end": 50.51,
+      "title": "Do not average away failure"
+    },
+    {
+      "start": 50.51,
+      "end": 78.052,
+      "title": "Transfer operational knowledge"
+    },
+    {
+      "start": 78.052,
+      "end": 104.65,
+      "title": "Recommend without authorizing"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 3.477,
+      "text": "Reconcile the requirement matrix, executed tests,",
+      "spoken": "Reconcile the requirement matrix, executed tests,",
+      "scene": 1
+    },
+    {
+      "start": 3.597,
+      "end": 6.413,
+      "text": "original evidence and deviation status.",
+      "spoken": "original evidence and deviation status.",
+      "scene": 1
+    },
+    {
+      "start": 6.533,
+      "end": 9.223,
+      "text": "A missing test does not become complete",
+      "spoken": "A missing test does not become complete",
+      "scene": 1
+    },
+    {
+      "start": 9.343,
+      "end": 12.102,
+      "text": "because its row appears in the protocol.",
+      "spoken": "because its row appears in the protocol.",
+      "scene": 1
+    },
+    {
+      "start": 12.222,
+      "end": 16.911,
+      "text": "Identify supported claims, restrictions and unresolved dependencies.",
+      "spoken": "Identify supported claims, restrictions and unresolved dependencies.",
+      "scene": 1
+    },
+    {
+      "start": 17.031,
+      "end": 21.1,
+      "text": "The report should allow a reviewer to trace each conclusion",
+      "spoken": "The report should allow a reviewer to trace each conclusion",
+      "scene": 1
+    },
+    {
+      "start": 21.22,
+      "end": 25.358,
+      "text": "without guessing which record or configuration it describes.",
+      "spoken": "without guessing which record or configuration it describes.",
+      "scene": 1
+    },
+    {
+      "start": 25.978,
+      "end": 28.668,
+      "text": "Eleven of twelve planned checks passing",
+      "spoken": "Eleven of twelve planned checks passing",
+      "scene": 2
+    },
+    {
+      "start": 28.788,
+      "end": 32.393,
+      "text": "gives about 91.7% passing proportion.",
+      "spoken": "gives about ninety one point seven percent passing proportion.",
+      "scene": 2
+    },
+    {
+      "start": 32.513,
+      "end": 35.272,
+      "text": "If the remaining protective test failed,",
+      "spoken": "If the remaining protective test failed,",
+      "scene": 2
+    },
+    {
+      "start": 35.392,
+      "end": 38.426,
+      "text": "the percentage does not justify ignoring it.",
+      "spoken": "the percentage does not justify ignoring it.",
+      "scene": 2
+    },
+    {
+      "start": 38.546,
+      "end": 43.236,
+      "text": "The course practice target is unrelated to qualification acceptance.",
+      "spoken": "The course practice target is unrelated to qualification acceptance.",
+      "scene": 2
+    },
+    {
+      "start": 43.356,
+      "end": 46.184,
+      "text": "Evaluate the significance of that failure",
+      "spoken": "Evaluate the significance of that failure",
+      "scene": 2
+    },
+    {
+      "start": 46.304,
+      "end": 49.89,
+      "text": "and its implications for the proposed next activity.",
+      "spoken": "and its implications for the proposed next activity.",
+      "scene": 2
+    },
+    {
+      "start": 50.51,
+      "end": 53.902,
+      "text": "Use successful OQ knowledge to support operating",
+      "spoken": "Use successful O Q knowledge to support operating",
+      "scene": 3
+    },
+    {
+      "start": 54.022,
+      "end": 56.918,
+      "text": "and cleaning procedures, operator training",
+      "spoken": "and cleaning procedures, operator training",
+      "scene": 3
+    },
+    {
+      "start": 57.038,
+      "end": 59.797,
+      "text": "and preventive maintenance requirements.",
+      "spoken": "and preventive maintenance requirements.",
+      "scene": 3
+    },
+    {
+      "start": 59.917,
+      "end": 62.676,
+      "text": "Finalizing a cleaning procedure does not",
+      "spoken": "Finalizing a cleaning procedure does not",
+      "scene": 3
+    },
+    {
+      "start": 62.796,
+      "end": 65.761,
+      "text": "establish validated cleaning effectiveness.",
+      "spoken": "establish validated cleaning effectiveness.",
+      "scene": 3
+    },
+    {
+      "start": 65.881,
+      "end": 69.674,
+      "text": "Transfer the tested configuration, operating boundaries",
+      "spoken": "Transfer the tested configuration, operating boundaries",
+      "scene": 3
+    },
+    {
+      "start": 69.794,
+      "end": 72.208,
+      "text": "and restrictions to the next stage.",
+      "spoken": "and restrictions to the next stage.",
+      "scene": 3
+    },
+    {
+      "start": 72.328,
+      "end": 77.432,
+      "text": "Product performance and process validation remain separate evidence needs.",
+      "spoken": "Product performance and process validation remain separate evidence needs.",
+      "scene": 3
+    },
+    {
+      "start": 78.052,
+      "end": 81.845,
+      "text": "For the capstone, write a conclusion that distinguishes",
+      "spoken": "For the capstone, write a conclusion that distinguishes",
+      "scene": 4
+    },
+    {
+      "start": 81.965,
+      "end": 85.275,
+      "text": "demonstrated performance from unresolved matters",
+      "spoken": "demonstrated performance from unresolved matters",
+      "scene": 4
+    },
+    {
+      "start": 85.395,
+      "end": 88.568,
+      "text": "and identifies the next-stage decision needed.",
+      "spoken": "and identifies the next-stage decision needed.",
+      "scene": 4
+    },
+    {
+      "start": 88.688,
+      "end": 93.239,
+      "text": "Responsible personnel authorize progression under the site system.",
+      "spoken": "Responsible personnel authorize progression under the site system.",
+      "scene": 4
+    },
+    {
+      "start": 93.359,
+      "end": 96.325,
+      "text": "This course provides a self-study exercise,",
+      "spoken": "This course provides a self-study exercise,",
+      "scene": 4
+    },
+    {
+      "start": 96.445,
+      "end": 98.79,
+      "text": "not a signed qualification report,",
+      "spoken": "not a signed qualification report,",
+      "scene": 4
+    },
+    {
+      "start": 98.91,
+      "end": 104.03,
+      "text": "competence certification or authorization to manufacture a real product.",
+      "spoken": "competence certification or authorization to manufacture a real product.",
+      "scene": 4
+    }
+  ]
+}

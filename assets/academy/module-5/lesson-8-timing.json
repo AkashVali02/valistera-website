@@ -1,0 +1,202 @@
+{
+  "duration": 97.03366666666668,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 21.341,
+      "title": "Record the actual observation"
+    },
+    {
+      "start": 21.341,
+      "end": 47.762,
+      "title": "Retain original data"
+    },
+    {
+      "start": 47.762,
+      "end": 70.935,
+      "title": "Handle an interrupted record"
+    },
+    {
+      "start": 70.935,
+      "end": 97.034,
+      "title": "Correct transparently"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 4.621,
+      "text": "Record what was actually done and observed, with the configuration,",
+      "spoken": "Record what was actually done and observed, with the configuration,",
+      "scene": 1
+    },
+    {
+      "start": 4.741,
+      "end": 7.913,
+      "text": "instruments, conditions and execution details.",
+      "spoken": "instruments, conditions and execution details.",
+      "scene": 1
+    },
+    {
+      "start": 8.033,
+      "end": 11.446,
+      "text": "A copied expected result is not an observation.",
+      "spoken": "A copied expected result is not an observation.",
+      "scene": 1
+    },
+    {
+      "start": 11.566,
+      "end": 15.498,
+      "text": "If a step was not executed, say so and retain the reason.",
+      "spoken": "If a step was not executed, say so and retain the reason.",
+      "scene": 1
+    },
+    {
+      "start": 15.617,
+      "end": 20.721,
+      "text": "Distinguish a justified exclusion from a test that could not be completed.",
+      "spoken": "Distinguish a justified exclusion from a test that could not be completed.",
+      "scene": 1
+    },
+    {
+      "start": 21.341,
+      "end": 25.893,
+      "text": "Retain applicable original records, raw electronic data, printouts",
+      "spoken": "Retain applicable original records, raw electronic data, printouts",
+      "scene": 2
+    },
+    {
+      "start": 26.013,
+      "end": 29.944,
+      "text": "and photographs under the defined retention arrangements.",
+      "spoken": "and photographs under the defined retention arrangements.",
+      "scene": 2
+    },
+    {
+      "start": 30.064,
+      "end": 32.409,
+      "text": "Link summaries to those originals.",
+      "spoken": "Link summaries to those originals.",
+      "scene": 2
+    },
+    {
+      "start": 32.529,
+      "end": 35.356,
+      "text": "The required period depends on the record",
+      "spoken": "The required period depends on the record",
+      "scene": 2
+    },
+    {
+      "start": 35.476,
+      "end": 40.255,
+      "text": "and applicable obligations; this module supplies no universal number.",
+      "spoken": "and applicable obligations; this module supplies no universal number.",
+      "scene": 2
+    },
+    {
+      "start": 40.375,
+      "end": 43.298,
+      "text": "Preserve readability, access and integrity",
+      "spoken": "Preserve readability, access and integrity",
+      "scene": 2
+    },
+    {
+      "start": 43.418,
+      "end": 47.142,
+      "text": "rather than keeping only a polished report screenshot.",
+      "spoken": "rather than keeping only a polished report screenshot.",
+      "scene": 2
+    },
+    {
+      "start": 47.762,
+      "end": 49.9,
+      "text": "If logging stops during a test,",
+      "spoken": "If logging stops during a test,",
+      "scene": 3
+    },
+    {
+      "start": 50.02,
+      "end": 53.675,
+      "text": "retain the partial record and document what happened.",
+      "spoken": "retain the partial record and document what happened.",
+      "scene": 3
+    },
+    {
+      "start": 53.795,
+      "end": 56.623,
+      "text": "Assess which conclusions the gap affects.",
+      "spoken": "Assess which conclusions the gap affects.",
+      "scene": 3
+    },
+    {
+      "start": 56.743,
+      "end": 61.225,
+      "text": "Do not fill the missing interval from memory or copy another run.",
+      "spoken": "Do not fill the missing interval from memory or copy another run.",
+      "scene": 3
+    },
+    {
+      "start": 61.345,
+      "end": 65.505,
+      "text": "Any continuation or repeat needs the defined procedure,",
+      "spoken": "Any continuation or repeat needs the defined procedure,",
+      "scene": 3
+    },
+    {
+      "start": 65.625,
+      "end": 70.315,
+      "text": "a documented rationale and a clear relationship to the first record.",
+      "spoken": "a documented rationale and a clear relationship to the first record.",
+      "scene": 3
+    },
+    {
+      "start": 70.935,
+      "end": 73.969,
+      "text": "Corrections must preserve the original entry",
+      "spoken": "Corrections must preserve the original entry",
+      "scene": 4
+    },
+    {
+      "start": 74.089,
+      "end": 78.779,
+      "text": "and identify the change according to the applicable record controls.",
+      "spoken": "and identify the change according to the applicable record controls.",
+      "scene": 4
+    },
+    {
+      "start": 78.899,
+      "end": 82.003,
+      "text": "For paper, avoid obscuring the earlier value.",
+      "spoken": "For paper, avoid obscuring the earlier value.",
+      "scene": 4
+    },
+    {
+      "start": 82.123,
+      "end": 86.467,
+      "text": "For electronic records, use the authorized correction mechanism",
+      "spoken": "For electronic records, use the authorized correction mechanism",
+      "scene": 4
+    },
+    {
+      "start": 86.587,
+      "end": 88.587,
+      "text": "and applicable audit trail.",
+      "spoken": "and applicable audit trail.",
+      "scene": 4
+    },
+    {
+      "start": 88.707,
+      "end": 92.501,
+      "text": "A reviewer should be able to reconstruct the chronology",
+      "spoken": "A reviewer should be able to reconstruct the chronology",
+      "scene": 4
+    },
+    {
+      "start": 92.621,
+      "end": 96.414,
+      "text": "rather than encounter an unexplained clean replacement.",
+      "spoken": "rather than encounter an unexplained clean replacement.",
+      "scene": 4
+    }
+  ]
+}

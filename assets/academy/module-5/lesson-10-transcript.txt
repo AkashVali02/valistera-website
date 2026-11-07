@@ -1,0 +1,15 @@
+ValiStera Academy — Module 5 / Lesson 5.10
+Report OQ and prepare the next-stage decision
+Core explanations and worked reasoning are narrated. Tables restate the examples; practice activities/model answers are reading exercises.
+
+Reconcile the coverage
+Reconcile the requirement matrix, executed tests, original evidence and deviation status. A missing test does not become complete because its row appears in the protocol. Identify supported claims, restrictions and unresolved dependencies. The report should allow a reviewer to trace each conclusion without guessing which record or configuration it describes.
+
+Do not average away failure
+Eleven of twelve planned checks passing gives about 91.7% passing proportion. If the remaining protective test failed, the percentage does not justify ignoring it. The course practice target is unrelated to qualification acceptance. Evaluate the significance of that failure and its implications for the proposed next activity.
+
+Transfer operational knowledge
+Use successful OQ knowledge to support operating and cleaning procedures, operator training and preventive maintenance requirements. Finalizing a cleaning procedure does not establish validated cleaning effectiveness. Transfer the tested configuration, operating boundaries and restrictions to the next stage. Product performance and process validation remain separate evidence needs.
+
+Recommend without authorizing
+For the capstone, write a conclusion that distinguishes demonstrated performance from unresolved matters and identifies the next-stage decision needed. Responsible personnel authorize progression under the site system. This course provides a self-study exercise, not a signed qualification report, competence certification or authorization to manufacture a real product.
