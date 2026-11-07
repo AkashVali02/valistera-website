@@ -25,7 +25,7 @@ def draw_scene(l,s,j):
    d.line((x,320,x,350),fill=WHITE,width=3);text(x,370,t,20,anchor='mm')
   text(285,420,'Elapsed: 3.2 s',31,GOLD,True,'mm');text(285,468,'Limit: 4.0 s',27,WHITE,False,'mm');text(285,518,'Margin: 0.8 s',27,WHITE,False,'mm');text(285,565,'Clock suitability required',20,MUT,False,'mm')
  elif key==(4,3):
-  text(72,245,'Fictional 2 × 3 matrix',23,CYAN,True)
+  text(72,245,'Load × speed matrix',23,CYAN,True);text(290,276,'Speed →',17,MUT,False,'mm')
   for col,v in enumerate(['LOW','NOM','HIGH']):text(195+col*103,305,v,19,WHITE,True,'mm')
   for row,label in enumerate(['LOW','HIGH']):
    text(104,363+row*76,label,18,MUT,True,'mm')
@@ -41,7 +41,7 @@ def draw_scene(l,s,j):
   for y,a,b in [(311,'Absolute error','0.4 °C'),(365,'Uncertainty','0.2 °C'),(438,'Sum','0.6 °C'),(492,'Limit','0.5 °C')]:text(75,y,a,23);text(471,y,b,25,GOLD if y==438 else WHITE,True,'ra')
   d.line((76,412,471,412),fill=CYAN,width=2);text(275,559,'Not accepted under this rule',20,GOLD,True,'mm')
  elif key==(10,2):
-  text(72,246,'Fictional test coverage',23,CYAN,True)
+  text(72,246,'Fictional pass rate',23,CYAN,True)
   for n in range(12):
    box(83+n%4*99,303+n//4*60,72,43,CYAN if n<11 else '#745d32');text(119+n%4*99,324+n//4*60,'P' if n<11 else 'F',22,BG if n<11 else WHITE,True,'mm')
   text(275,518,'11 / 12 ≈ 91.7%',30,WHITE,True,'mm');text(275,561,'Protective failure remains',21,GOLD,True,'mm')

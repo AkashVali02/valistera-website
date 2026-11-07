@@ -21,3 +21,7 @@ Checked 7 November 2026. Scope: EU GMP for human medicinal products. Official Eu
 | 5.10 | Annex 15 §§2.9–2.10, 3.12–3.14 | Report and next-stage decision; coverage is not release |
 
 All hypothetical measurements, acceptance values, equipment conditions and records are fictional. Annex 15 does not prescribe this module's matrix, response limit, guard-band formula, manual-reset example, number of repetitions or practice target. The 85% self-study target is unrelated to OQ acceptance. Cleaning-procedure finalization is not cleaning-validation success.
+
+Supporting metrology guidance: ILAC-G8:09/2019, §§4.2, 5.2 and 7 (https://ilac.org/?ddownload=122722), read from the publisher. Distinguishes simple acceptance from guard bands and documented rule selection. This is accreditation guidance, not GMP legislation; the numerical rule and values in 5.6 remain explicit teaching assumptions. Original explanatory arithmetic/illustration, not a reproduction of an ILAC figure.
+
+Editorial correction before media acceptance: 11/12 passing is a pass rate, not test coverage. All twelve tests may have been executed. The final narration, assessment and diagram use that distinction.

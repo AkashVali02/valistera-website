@@ -720,8 +720,8 @@
             "One protective test failed",
             "Impact governs decision"
           ],
-          "narration": "Eleven of twelve planned checks passing gives about ninety one point seven percent numerical coverage. If the remaining protective test failed, the percentage does not justify ignoring it. The course practice target is unrelated to qualification acceptance. Evaluate the significance of that failure and its implications for the proposed next activity.",
-          "description": "Eleven passing cells and one failed cell show coverage, while the protective failure remains significant."
+          "narration": "Eleven of twelve planned checks passing gives about ninety one point seven percent passing proportion. If the remaining protective test failed, the percentage does not justify ignoring it. The course practice target is unrelated to qualification acceptance. Evaluate the significance of that failure and its implications for the proposed next activity.",
+          "description": "Eleven passing cells and one failed cell show the pass rate, while the protective failure remains significant."
         },
         {
           "title": "Transfer operational knowledge",
@@ -745,14 +745,14 @@
         }
       ],
       "activity": "Prepare an OQ handover when eleven checks pass and one protective test fails. State the evidence, restriction and next-stage decision.",
-      "model": "Retain the failed protective function, identify impact and restrict dependent activities. Reconcile evidence and configuration, specify closure needs and request responsible review. Approximately 91.7% is descriptive coverage, not acceptance.",
+      "model": "Retain the failed protective function, identify impact and restrict dependent activities. Reconcile evidence and configuration, specify closure needs and request responsible review. Approximately 91.7% is a descriptive pass rate, not acceptance.",
       "worked": [
         [
           "Handover item",
           "Teaching conclusion"
         ],
         [
-          "Numerical coverage",
+          "Passing proportion",
           "11/12 ≈ 91.7%"
         ],
         [
