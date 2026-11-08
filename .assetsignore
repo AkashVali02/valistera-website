@@ -2,6 +2,8 @@
 .git/**
 .github
 .github/**
+.claude
+.claude/**
 .vscode
 .vscode/**
 node_modules
