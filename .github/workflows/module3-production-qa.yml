@@ -2,7 +2,7 @@ name: Module 3 production verification
 on:
   push:
     branches: [main]
-    paths: ['academy/module-3/**','academy/tests/module3*','assets/academy/module-3/**','academy-lesson-3-*.html','academy-module-3*.html','academy.html','academy/releases/module-3*','.github/workflows/module3-production-qa.yml']
+    paths: ['academy/module-3/**','academy/tests/module3*','assets/academy/module-3/**','academy-lesson-3-*.html','academy-module-3*.html','academy.html','academy/releases/module-3*','.github/workflows/module3-production-qa.yml','.github/scripts/verify-production-manifest.sh']
   workflow_dispatch:
 permissions:
   contents: read
@@ -32,12 +32,7 @@ jobs:
         run: |
           expected=$(git rev-parse HEAD)
           base=https://valistera.com
-          for attempt in $(seq 1 40); do
-            served=$(curl -fsS --max-time 15 "$base/assets/academy/module-3/review/review-build.json?release=$expected" | python3 -c 'import json,sys; print(json.load(sys.stdin)["source_commit"])' || true)
-            if [ "$served" = "$expected" ]; then break; fi
-            sleep 10
-          done
-          test "$served" = "$expected"
+          bash .github/scripts/verify-production-manifest.sh 3 "$expected" "$base"
           python3 academy/tests/module3-delivery.py "$base" "$expected" academy/review/module-3/production-delivery-results.json
           curl -fsS "$base/academy?release=$expected" | grep -q 'Start Module 3'
       - name: Browser QA on production
