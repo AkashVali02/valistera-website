@@ -2,7 +2,7 @@ name: Module 4 production verification
 on:
   push:
     branches: [main]
-    paths: ['academy/module-4/**','academy/tests/module4*','assets/academy/module-4/**','academy-lesson-4-*.html','academy-module-4*.html','academy.html','academy/releases/module-4*','.github/workflows/module4-production-qa.yml']
+    paths: ['academy/module-4/**','academy/tests/module4*','assets/academy/module-4/**','academy-lesson-4-*.html','academy-module-4*.html','academy.html','academy/releases/module-4*','.github/workflows/module4-production-qa.yml','.github/scripts/verify-production-manifest.sh']
   workflow_dispatch:
 permissions:
   contents: read
@@ -33,12 +33,7 @@ jobs:
         run: |
           expected=$(git rev-parse HEAD)
           base=https://valistera.com
-          for attempt in $(seq 1 40); do
-            served=$(curl -fsS --max-time 15 "$base/assets/academy/module-4/review/review-build.json?release=$expected" | python3 -c 'import json,sys; print(json.load(sys.stdin)["source_commit"])' || true)
-            if [ "$served" = "$expected" ]; then break; fi
-            sleep 10
-          done
-          test "$served" = "$expected"
+          bash .github/scripts/verify-production-manifest.sh 4 "$expected" "$base"
           delivered=false
           for attempt in $(seq 1 3); do
             if python3 academy/tests/module4-delivery.py "$base" "$expected" "academy/review/module-4/production-delivery-attempt-$attempt.json"; then
